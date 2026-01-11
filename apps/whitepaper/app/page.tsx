@@ -1,62 +1,207 @@
-"use client";
+'use client'
 
-import { ActionButton } from "@/components/action-button";
-import { FavoriteButton } from "@/components/favorite-button";
-import { HighlightPopover } from "@/components/highlight-popover";
-import { MagicMoveWord } from "@/components/magic-move-word";
-import { RefreshButton } from "@/components/refresh-button";
-import { ThemeToggle } from "@/components/theme-toggle";
-import { TranslatingQuote } from "@/components/translating-quote";
-import { Alert, AlertDescription, AlertTitle } from "@/components/ui/alert";
-import { Badge } from "@/components/ui/badge";
-import { Button } from "@/components/ui/button";
-import { Card, CardContent } from "@/components/ui/card";
+import { HighlightPopover } from '@/components/highlight-popover'
+import { ThemeToggle } from '@/components/theme-toggle'
 import {
   Frame,
-  FramePanel,
-  FrameTitle,
   FrameDescription,
   FrameFooter,
-} from "@/components/ui/frame";
-import {
-  ChartContainer,
-  ChartTooltip,
-  ChartTooltipContent,
-} from "@/components/ui/chart";
-import { Separator } from "@/components/ui/separator";
-import { YouTubeEmbed } from "@/components/youtube-embed";
-import { cn } from "@/lib/utils";
-import { ChartIncreaseIcon } from "@hugeicons/core-free-icons";
-import { HugeiconsIcon } from "@hugeicons/react";
-import { Dancing_Script } from "next/font/google";
-import Link from "next/link";
-import { Bar, BarChart, XAxis, YAxis } from "recharts";
+  FramePanel,
+  FrameTitle,
+} from '@/components/ui/frame'
+import { Separator } from '@/components/ui/separator'
+import { Pacifico } from 'next/font/google'
+import Link from 'next/link'
 
-const dancingScript = Dancing_Script({
-  subsets: ["latin"],
-  weight: ["700"],
-});
+const pacifico = Pacifico({
+  subsets: ['latin'],
+  weight: ['400'],
+})
+
+const FootnoteContent = {
+  1: (
+    <p className='text-muted-foreground leading-relaxed'>
+      Always-on can mean computational (keeps working without prompts) or
+      psychological (competing for attention via notifications and nudges).
+      Coscientist is the former, not the latter. An epistemic tool that competes
+      for attention will eventually compete for belief. Inspired by Mark
+      Weiser's calm technology: recede to the periphery, move to center only
+      when needed. Compute more, demand less.
+    </p>
+  ),
+  2: (
+    <>
+      <p className='text-muted-foreground leading-relaxed'>
+        When writing becomes cheap, humans naturally substitute produced
+        something for understood something. This is not moral failure; it is
+        cognitive economics. If the environment offers a low-cost substitute for
+        a high-cost act (verification), most people drift toward the substitute,
+        especially under time pressure. Coscientist treats this as the central
+        design problem. It assumes the default outcome of mainstream AI is not a
+        single falsehood, but a behavioral transition: the user stops
+        reconstructing reasons and starts accepting coherence. The product must
+        be structured so that coherence does not masquerade as justification.
+      </p>
+    </>
+  ),
+  3: (
+    <p className='text-muted-foreground leading-relaxed'>
+      In software, provenance is non-negotiable: version control, build logs,
+      SBOMs. Knowledge work needs the same. A responsibility line captures who
+      asserted a claim, what sources ground it, what assumptions apply, and what
+      uncertainty remains. Without this, errors become diffuse vibes impossible
+      to localize. If the line is missing, Coscientist downgrades status
+      (knowledge → hypothesis) rather than filling gaps with narrative.
+    </p>
+  ),
+  4: (
+    <>
+      <p className='text-muted-foreground leading-relaxed mb-2'>
+        Meltdown happens when:
+      </p>
+      <ul className='list-disc pl-6 text-muted-foreground leading-relaxed mb-2'>
+        <li>AI becomes the default author</li>
+        <li>Internal links create false coherence</li>
+        <li>Humans stop verifying and start approving</li>
+      </ul>
+      <p className='text-muted-foreground leading-relaxed'>
+        Small errors get amplified by referencing. The corpus becomes coherent
+        but unauditable. Solution: preserve provenance, forbid circular
+        elevation, gate escalation behind human verification.
+      </p>
+    </>
+  ),
+  5: (
+    <>
+      <p className='text-muted-foreground leading-relaxed mb-3'>
+        Most systems treat disagreement as symmetrical: A says X, B says not-X.
+        Real scientific progress often happens through undercutting: showing
+        that a premise, method, definition, or measurement invalidates an
+        inference even if the conclusion remains psychologically appealing.
+      </p>
+      <p className='text-muted-foreground leading-relaxed mb-3'>
+        This is why Coscientist distinguishes: <em>contradiction</em> (cannot
+        both be true), <em>rebuttal</em> (direct opposition to a claim),{' '}
+        <em>undercut</em> (attack on the support structure that makes a claim
+        persuasive).
+      </p>
+      <p className='text-muted-foreground leading-relaxed'>
+        Argumentation theory has formal models for this (e.g., abstract
+        argumentation frameworks), but the core intuition is simple: if the
+        support structure is fragile, the conclusion must be treated as fragile
+        even before it is proven false.
+      </p>
+    </>
+  ),
+  6: (
+    <>
+      <p className='text-muted-foreground leading-relaxed mb-3'>
+        Retrieval-Augmented Generation (RAG) improves grounding by retrieving
+        relevant text. But grounding is not the same as reasoning. The failure
+        modes that matter for knowledge integrity include:
+      </p>
+      <ul className='list-disc pl-6 text-muted-foreground leading-relaxed mb-3'>
+        <li>
+          <em>Quantity bias</em>: many weak sources can drown out a single
+          decisive refutation.
+        </li>
+        <li>
+          <em>Relation blindness</em>: retrieved excerpts are not structured
+          into supports / undercuts / outdated / different scope.
+        </li>
+        <li>
+          <em>Attribution drift</em>: quotes containing citations can cause
+          misattribution (the system treats a quoted claim as the author's
+          claim).
+        </li>
+      </ul>
+      <p className='text-muted-foreground leading-relaxed'>
+        Coscientist's approach is to treat retrieval as the intake step, not the
+        epistemic step. The epistemic step is relation modeling and
+        responsibility-line preservation.
+      </p>
+    </>
+  ),
+  7: (
+    <>
+      <p className='text-muted-foreground leading-relaxed mb-3'>
+        The ScienceOps posture borrows directly from software operations:
+        research outputs must be runnable, comparable, and versioned. Otherwise,
+        knowledge cannot compound; it merely accumulates.
+      </p>
+      <p className='text-muted-foreground leading-relaxed'>
+        Coscientist treats papers, code, data, parameters, and results as a
+        single artifact family rather than separate stuff. The narrative is not
+        the product; the reproducible path is. Coscientist's aim is not to
+        replace domain science. It is to provide the infrastructure that makes
+        domain science faster to verify and easier to build upon.
+      </p>
+    </>
+  ),
+  8: (
+    <>
+      <p className='text-muted-foreground leading-relaxed'>
+        The Medici metaphor is not about money. It is about a pattern: a society
+        can accelerate when someone builds the environment where many talented
+        people can take more attempts, fail faster, share work, and iterate.
+        Coscientist is positioned as that kind of environment, but for the AI
+        era: a tool that reduces the cost of verification and the cost of
+        reproducible execution, so that the bottleneck returns to human
+        imagination and courage rather than bureaucracy and epistemic fog.
+      </p>
+    </>
+  ),
+  9: (
+    <>
+      <p className='text-muted-foreground leading-relaxed mb-3'>
+        The line is a joke with boundaries. It signals that the goal is not
+        autonomy for its own sake, and not a system that invents goals. The goal
+        is a co-worker that:
+      </p>
+      <ul className='list-disc pl-6 text-muted-foreground leading-relaxed mb-3'>
+        <li>
+          keeps working when the human is offline (preparing cross-checks,
+          surfacing contradictions)
+        </li>
+        <li>remains accountable to evidence paths (responsibility lines)</li>
+        <li>
+          waits for human verification before escalating claims to knowledge
+        </li>
+        <li>
+          improves research throughput by tying narrative to execution artifacts
+        </li>
+      </ul>
+      <p className='text-muted-foreground leading-relaxed'>
+        In other words: close enough to feel like a co-scientist, not close
+        enough to replace the human's role in deciding what is true and what is
+        worth doing.
+      </p>
+    </>
+  ),
+}
 
 export default function Page() {
   return (
-    <article className="min-h-screen w-full flex items-start justify-center p-4 md:p-8 bg-dotted-pattern bg-fixed leading-8">
-      <Frame className="w-full max-w-3xl my-8">
+    <article className='min-h-screen w-full flex items-start justify-center p-4 md:p-8 bg-dotted-pattern bg-fixed leading-8'>
+      <Frame className='w-full max-w-3xl my-8'>
         <FramePanel>
-          <div className="flex items-start justify-between mb-6">
+          <div className='flex items-start justify-between mb-6'>
             <div>
               <FrameTitle
-                className={`${dancingScript.className} text-4xl text-foreground -rotate-1.5 inline-block`}
+                className={`${pacifico.className} text-4xl text-foreground -rotate-1.5 inline-block`}
               >
-                Lorem Ipsum Dolor Sit Amet
+                Coscientist
               </FrameTitle>
               <FrameDescription>
                 <HighlightPopover
-                  triggerContent="Consectetur adipiscing elit"
-                  popoverTitle="Popover Example"
+                  triggerContent='Always-on AI for calm verification, knowledge sovereignty, and ScienceOps'
+                  popoverTitle='What is Coscientist?'
                   popoverContent={
-                    <p className="text-muted-foreground line-height">
-                      Sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam.
+                    <p className='text-muted-foreground leading-relaxed'>
+                      An always-working, readily-available AI service for
+                      knowledge work across personal essay databases, technical
+                      notes, engineering design history, and frontier scientific
+                      research.
                     </p>
                   }
                 />
@@ -64,582 +209,342 @@ export default function Page() {
             </div>
             <ThemeToggle />
           </div>
-          <div className="space-y-6">
-            {/* Alert Component Example */}
-            <Alert variant="error" className="w-full md:hidden">
-              <AlertTitle>Alert Title Example</AlertTitle>
-              <AlertDescription>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                <Button
-                  className="w-full cursor-pointer"
-                  variant="outline"
-                  onClick={() => {
-                    if (typeof window !== "undefined") {
-                      navigator
-                        .share({
-                          title: "Lorem Ipsum",
-                          text: "Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                          url: window.location.href,
-                        })
-                        .catch(() => {
-                          alert("Share cancelled or not supported.");
-                        });
-                    }
-                  }}
-                >
-                  Share
-                </Button>
-              </AlertDescription>
-            </Alert>
-
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris.
-            </p>
-
-            {/* MagicMoveWord Component Example */}
-            <div className="flex justify-center w-full">
-              <MagicMoveWord
-                scrambledWord="Lorem ipsum dolor"
-                correctWord="Sit amet consectetur"
-              />
-            </div>
-
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur.
-            </p>
-
+          <div className='space-y-6'>
             <Separator />
 
+            <p>
+              I built my first digital brain for a personal reason. I wanted a
+              place where my thoughts could stay alive long enough to matter. I
+              wanted ideas to compound instead of evaporate into scattered
+              drafts, half-finished notes, and the quiet entropy that follows
+              busy weeks.
+            </p>
+
+            <p>
+              In the beginning, the enemy looked like friction. Too many tools
+              asked me to become a librarian of my own life. They made thinking
+              feel like filing. So I built a workspace that tried to get out of
+              my way. I wrote about next-gen digital brains as an engineering
+              problem: reduce overhead, automate structure, let the human remain
+              in the state where they can write and connect ideas without
+              constant gardening.
+            </p>
+
+            <p>
+              That chapter mattered. It taught me what continuous capture can do
+              when the cost of capture is low. It also taught me what breaks:
+              any system that demands too much ceremony will be abandoned, and
+              abandoned tools do not compound.
+            </p>
+
             <h2
-              className={`${dancingScript.className} text-3xl text-foreground inline-block pt-6`}
+              className={`${pacifico.className} text-3xl text-foreground inline-block pt-4`}
             >
-              Section Title Example
+              Then the world changed.
             </h2>
 
             <p>
-              Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-              officia deserunt mollit anim id est laborum.
-            </p>
-
-            {/* List with HighlightPopover Examples */}
-            <ul className="list-disc pl-8 space-y-1">
-              <li>
-                <HighlightPopover
-                  direction="right"
-                  triggerContent="First list item with popover"
-                  popoverTitle={
-                    <h4 className="text-lg font-bold">
-                      <Link
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="text-blue-500"
-                        href="https://example.com"
-                      >
-                        Link Example
-                      </Link>
-                    </h4>
-                  }
-                  popoverContent={
-                    <p className="text-muted-foreground line-height">
-                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur
-                      aut odit aut fugit.
-                    </p>
-                  }
-                />
-              </li>
-              <li>
-                <HighlightPopover
-                  direction="right"
-                  triggerContent="Second list item with popover"
-                  popoverTitle={
-                    <h4 className="text-lg font-bold">Another Title</h4>
-                  }
-                  popoverContent={
-                    <>
-                      <p className="text-muted-foreground line-height">
-                        Sed quia consequuntur magni dolores eos qui ratione
-                        voluptatem sequi nesciunt.
-                      </p>
-                      <p className="text-muted-foreground line-height">
-                        Neque porro quisquam est, qui dolorem ipsum quia dolor
-                        sit amet.
-                      </p>
-                    </>
-                  }
-                />
-              </li>
-              <li>
-                <HighlightPopover
-                  direction="right"
-                  triggerContent="Third list item"
-                  popoverTitle={
-                    <Link
-                      target="_blank"
-                      rel="noopener noreferrer"
-                      className="text-blue-500 italic"
-                      href="https://example.com"
-                    >
-                      <h4 className="text-lg font-bold">
-                        <i>Italic quote style title</i>
-                      </h4>
-                    </Link>
-                  }
-                  popoverContent={
-                    <p className="text-muted-foreground line-height">
-                      Consectetur, adipisci velit, sed quia non numquam eius
-                      modi tempora incidunt.
-                    </p>
-                  }
-                />
-              </li>
-            </ul>
-
-            <p>
-              Ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad
-              minima veniam, quis nostrum exercitationem ullam corporis suscipit
-              laboriosam.
-            </p>
-
-            {/* TranslatingQuote Component Example */}
-            <TranslatingQuote
-              quotes={[
-                {
-                  text: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-                  author: "Cicero",
-                  language: "la-LA",
-                },
-                {
-                  text: "The standard Lorem Ipsum passage, used since the 1500s in typesetting and printing previews.",
-                  author: "Cicero (translated)",
-                  language: "en-US",
-                },
-              ]}
-            />
-
-            <p>
-              Quis autem vel eum iure reprehenderit qui in ea voluptate velit
-              esse quam nihil molestiae consequatur.
-            </p>
-
-            {/* Chart Component Example */}
-            <div className="my-4">
+              Generative AI made writing cheap. Not slightly easier, but
+              fundamentally cheap. Cheap enough that the volume of plausible
+              text stopped being a sign of intelligence. Cheap enough that the
+              center of gravity shifted from producing words to protecting
+              meaning. Cheap enough that the real risk was no longer I cannot
+              get my thoughts out, but{' '}
               <HighlightPopover
-                width="w-lg"
-                triggerContent={<i>View chart example</i>}
-                popoverTitle="Chart Example"
+                triggerContent='I will forget what it means to know.'
+                popoverTitle='Cheap output and degradation of knowing'
+                popoverContent={FootnoteContent[2]}
+              />
+            </p>
+
+            <p>
+              In that new world, the most dangerous failure is not a single
+              hallucination. It is the slow transition from verification to
+              endorsement. It is when smoothness becomes authority. It is when
+              the human stops reconstructing why something should be believed
+              and starts approving whatever looks coherent. This is how a mind
+              rots without noticing: not through stupidity, but through
+              convenience.
+            </p>
+
+            <p>
+              That realization forced a more defensive and more serious
+              approach. I began describing a collapse mode I call{' '}
+              <HighlightPopover
+                triggerContent='encyclopedia meltdown.'
+                popoverTitle='Encyclopedia meltdown'
+                popoverContent={FootnoteContent[4]}
+              />{' '}
+              It is systemic, not incidental. It happens when AI becomes the
+              default author and the human becomes the default approver; when
+              errors enter quietly, link structures amplify them, and
+              responsibility lines blur until the entire corpus looks coherent
+              but cannot be trusted. The corpus does not only become wrong. It
+              becomes unauditable. It becomes epistemically ungovernable.
+            </p>
+
+            <h2
+              className={`${pacifico.className} text-3xl text-foreground inline-block pt-4`}
+            >
+              Coscientist is my response.
+            </h2>
+
+            <p>
+              <Link
+                href='https://coscientist.app'
+                target='_blank'
+                rel='noopener noreferrer'
+                className='text-blue-500 hover:underline'
+              >
+                Coscientist
+              </Link>{' '}
+              is an always-on AI service for knowledge. It runs constantly, but
+              it does not compete for attention. It does not beg. It does not
+              perform. It does not try to outpace the human. It works
+              continuously in the background (indexing, organizing,
+              cross-checking, preparing contradiction maps, drafting
+              verification plans) and then it waits for{' '}
+              <HighlightPopover
+                triggerContent='the moment a human verifies.'
+                popoverTitle='Always-on, quiet-in-attention'
+                popoverContent={FootnoteContent[1]}
+              />
+            </p>
+
+            <p>
+              The tagline is{' '}
+              <HighlightPopover
+                triggerContent='Not AGI but close enough.'
+                popoverTitle='What the tagline commits to'
+                popoverContent={FootnoteContent[9]}
+              />{' '}
+              It is a playful line with a strict intention. I am not building a
+              mythology project. I am building a reliable co-worker for
+              thinking: a system that can keep working even when I am tired,
+              keep track of what I forgot, and keep my knowledge honest when the
+              environment makes dishonesty effortless.
+            </p>
+
+            <h2
+              className={`${pacifico.className} text-3xl text-foreground inline-block pt-4`}
+            >
+              What Coscientist protects is not productivity. It protects agency.
+            </h2>
+
+            <p>
+              In the attention economy, helpful products often succeed by
+              becoming emotionally or behaviorally sticky. Coscientist refuses
+              that game. It is always running, but it remains calm in the user's
+              mind. It is pullable on demand and{' '}
+              <HighlightPopover
+                triggerContent='quiet by default'
+                popoverTitle='Always-on, quiet-in-attention'
+                popoverContent={FootnoteContent[1]}
+              />
+              , not because silence is aesthetic, but because silence is safety.
+              If a system has the power to shape your beliefs, it cannot be
+              allowed to shape your attention with the same intensity that it
+              shapes your output.
+            </p>
+
+            <p>
+              The backbone of Coscientist is a simple rule: no claim graduates
+              into knowledge without a{' '}
+              <HighlightPopover
+                triggerContent='responsibility line.'
+                popoverTitle='Responsibility line (책임선)'
+                popoverContent={FootnoteContent[3]}
+              />{' '}
+              A statement is not knowledge because it is beautifully written. A
+              statement is not knowledge because the model is confident. A
+              statement is not knowledge because four other models agreed. A
+              statement becomes knowledge only when its justification can be
+              traced (cleanly, explicitly, and without circularity) back to
+              sources, evidence spans, methods, assumptions, scope, and
+              uncertainty. If the chain is missing, the statement is downgraded
+              into a hypothesis, and the missing steps are made visible rather
+              than hidden inside confident prose.
+            </p>
+
+            <h2
+              className={`${pacifico.className} text-3xl text-foreground inline-block pt-4`}
+            >
+              This is a very different kind of AI product.
+            </h2>
+
+            <p>
+              Most AI systems treat the answer as the destination. Coscientist
+              treats the justification as the destination. Answers are cheap.
+              Justification is the scarce artifact. That is why Coscientist is
+              designed to do thinking work rather than writing work. Its primary
+              job is not to fill blank pages with text. Its job is to preserve
+              the conditions under which a human can still know what they know.
+            </p>
+
+            <p>
+              To do that, Coscientist separates{' '}
+              <HighlightPopover
+                triggerContent='narrative from inference.'
+                popoverTitle='Why undercut matters'
+                popoverContent={FootnoteContent[5]}
+              />
+            </p>
+
+            <p>
+              <em>Narrative</em> is what humans read: essays, memos, briefings,
+              living papers. Narrative is the surface.
+            </p>
+
+            <p>
+              <em>Inference</em> is the substrate that makes narrative safe. Raw
+              excerpts are preserved as immutable spans. Claims are normalized
+              propositions derived from spans or explicitly asserted by the
+              user. Each claim is bound to scope constraints, assumptions,
+              definitions, methods, data pointers, and uncertainty metadata.
+              Relations between claims are explicit: support, contradiction, and
+              undercut: not just disagree, but your premise is unstable, or your
+              method cannot justify your conclusion.
+            </p>
+
+            <p>
+              This distinction matters because the AI era has created a new kind
+              of epistemic fraud: not intentional deception, but structural
+              deception. A large corpus can sound coherent while being logically
+              hollow. A summary can feel faithful while quietly drifting from
+              what the sources truly support. Retrieval systems can surface many
+              citations and still fail to represent how those citations relate:
+              <HighlightPopover
+                triggerContent='whether one undercuts another.'
+                popoverTitle='Why retrieval-only fails'
+                popoverContent={FootnoteContent[6]}
+              />{' '}
+              If narrative is allowed to outrun inference, the tool becomes a
+              persuasion engine instead of a knowledge engine.
+            </p>
+
+            <h2
+              className={`${pacifico.className} text-3xl text-foreground inline-block pt-4`}
+            >
+              Coscientist is built to prevent that drift by design.
+            </h2>
+
+            <p>
+              It is also built to be useful in the places where knowledge
+              matters most: personal identity and frontier science.
+            </p>
+
+            <p>
+              On the personal side, Coscientist becomes a living essay archive.
+              It preserves your writing with stable attribution to original
+              passages. It lets you ask questions about your own thinking
+              without rewriting history. It can show you what you believed in
+              2019 and how you argued for it, and it can show you where your
+              definitions shifted without pretending the past was wrong or the
+              present is final. It can surface tensions across years, but it
+              will not resolve them by inventing a new voice. It keeps your
+              voice intact.
+            </p>
+
+            <p>
+              On the scientific side, Coscientist becomes a ScienceOps
+              workspace. It ingests papers, code, datasets, lab notes, and
+              experiment logs. It turns literature into claim sets with
+              provenance. It proposes verification strategies and experiment
+              plans. It ties narrative conclusions to runnable artifacts. It
+              pushes toward the discipline that software learned the hard way:{' '}
+              <HighlightPopover
+                triggerContent='reproducibility is the minimum bar.'
+                popoverTitle='ScienceOps: accelerating science'
+                popoverContent={FootnoteContent[7]}
+              />
+            </p>
+
+            <p>
+              This is where my long-term ambition and my epistemic ambition
+              converge.
+            </p>
+
+            <p>
+              For years, I have felt that many of humanity's hardest problems
+              persist not because we lack ideas, but because we lack operational
+              infrastructure. We have brilliant people and good ideas, yet
+              implementation is slow, verification is brittle, and dissemination
+              is clogged by formats that do not preserve execution paths. In
+              software, we learned to build pipelines (version control, CI/CD,
+              dependency management, containerization) because we had no choice.
+              Complexity forced discipline. Science, in many domains, still
+              lives in a pre-pipeline world where conclusions travel faster than
+              the machinery needed to reproduce them.
+            </p>
+
+            <h2
+              className={`${pacifico.className} text-3xl text-foreground inline-block pt-4`}
+            >
+              Coscientist is my attempt to bring that machinery into the
+              everyday act of knowing.
+            </h2>
+
+            <p>
+              It does not require everyone to become a philosopher. It simply
+              makes the responsible act easier. It keeps the paper trail intact.
+              It makes uncertainty explicit. It preserves what must be preserved
+              so that correction remains possible.
+            </p>
+
+            <p>And it does this while remaining calm.</p>
+
+            <p>
+              The system runs constantly, but it is patient. It produces
+              preparation, not pressure. It does not attempt to replace the
+              human's role as epistemic governor. It does not try to win the
+              race to the finish line, because the finish line is not speed. The
+              finish line is trustworthy progress.
+            </p>
+
+            <h2
+              className={`${pacifico.className} text-3xl text-foreground inline-block pt-4`}
+            >
+              If this works, it changes the rhythm of knowledge work.
+            </h2>
+
+            <p>
+              Verification stops feeling like a punishment and starts feeling
+              like momentum, because the system has already prepared the
+              cross-checks, the rebuttals, the undercuts, and the minimal tests
+              that would actually move the claim from plausible to stable.
+              Research stops feeling like artisanal heroism and starts feeling
+              like a disciplined loop, because the narrative remains tied to
+              runnable artifacts. Collaboration stops feeling like a game of
+              trust and starts feeling like a shared responsibility line,{' '}
+              <HighlightPopover
+                triggerContent='because provenance is not optional.'
+                popoverTitle='Provenance and ScienceOps'
                 popoverContent={
                   <>
-                    <ChartContainer
-                      config={{
-                        openRate: {
-                          label: "Open Rate",
-                          color: "hsl(var(--chart-1))",
-                        },
-                        clickRate: {
-                          label: "Click Rate",
-                          color: "hsl(var(--chart-5))",
-                        },
-                        CategoryA: {
-                          label: "Category A",
-                          color: "hsl(var(--chart-1))",
-                        },
-                        CategoryB: {
-                          label: "Category B",
-                          color: "hsl(var(--chart-2))",
-                        },
-                        CategoryC: {
-                          label: "Category C",
-                          color: "hsl(var(--chart-3))",
-                        },
-                        CategoryD: {
-                          label: "Category D",
-                          color: "hsl(var(--chart-4))",
-                        },
-                      }}
-                    >
-                      <BarChart
-                        data={[
-                          {
-                            label: "Category A",
-                            openRate: 80,
-                            clickRate: 20,
-                            fill: "hsl(var(--chart-1))",
-                          },
-                          {
-                            label: "Category B",
-                            openRate: 50,
-                            clickRate: 10,
-                            fill: "hsl(var(--chart-2))",
-                          },
-                          {
-                            label: "Category C",
-                            openRate: 20,
-                            clickRate: 4,
-                            fill: "hsl(var(--chart-3))",
-                          },
-                          {
-                            label: "Category D",
-                            openRate: 15,
-                            clickRate: 2,
-                            fill: "hsl(var(--chart-4))",
-                          },
-                        ]}
-                        layout="vertical"
-                        margin={{
-                          left: 0,
-                        }}
-                      >
-                        <YAxis
-                          dataKey="label"
-                          type="category"
-                          tickLine={false}
-                          tickMargin={10}
-                          axisLine={false}
-                        />
-                        <XAxis dataKey="openRate" type="number" hide />
-                        <ChartTooltip
-                          cursor={false}
-                          content={<ChartTooltipContent hideLabel />}
-                        />
-                        <Bar
-                          dataKey="openRate"
-                          radius={5}
-                          fill="hsl(var(--chart-1))"
-                        />
-                        <Bar
-                          dataKey="clickRate"
-                          radius={5}
-                          fill="hsl(var(--chart-5))"
-                        />
-                      </BarChart>
-                    </ChartContainer>
-
-                    <div className="flex gap-2 font-medium leading-none">
-                      Chart Example Title
-                      <HugeiconsIcon
-                        icon={ChartIncreaseIcon}
-                        className="h-4 w-4"
-                      />
-                    </div>
-                    <div className="leading-none text-muted-foreground">
-                      Description of chart data point 1
-                    </div>
-                    <div className="leading-none text-muted-foreground">
-                      Description of chart data point 2
-                    </div>
+                    {FootnoteContent[3]}
+                    <Separator className='my-4' />
+                    {FootnoteContent[7]}
                   </>
                 }
               />
-            </div>
-
-            <h2
-              className={`${dancingScript.className} text-3xl text-foreground inline-block pt-6`}
-            >
-              Another Section
-            </h2>
-
-            <p>
-              At vero eos et accusamus et iusto odio dignissimos ducimus qui
-              blanditiis praesentium voluptatum deleniti atque corrupti quos
-              dolores.
             </p>
 
-            {/* YouTubeEmbed Component Example */}
-            <Card className="overflow-hidden w-full mx-auto">
-              <YouTubeEmbed
-                aspectHeight={9}
-                aspectWidth={16}
-                id="dQw4w9WgXcQ"
-                title="Video Example"
+            <p>
+              I do not need AGI for that. I need something closer to a{' '}
+              <HighlightPopover
+                triggerContent='co-scientist.'
+                popoverTitle='Not AGI but close enough'
+                popoverContent={FootnoteContent[9]}
               />
-
-              <CardContent className="py-2">
-                <p className="text-sm text-muted-foreground text-center">
-                  YouTube embed component example
-                </p>
-              </CardContent>
-            </Card>
-
-            <h2
-              className={`${dancingScript.className} text-3xl text-foreground inline-block pt-6`}
-            >
-              Third Section
-            </h2>
-
-            <p>
-              Et harum quidem rerum facilis est et expedita distinctio. Nam
-              libero tempore, cum soluta nobis est eligendi optio cumque nihil
-              impedit quo minus.
             </p>
-
-            <p>
-              Temporibus autem quibusdam et aut officiis debitis aut rerum
-              necessitatibus saepe eveniet ut et voluptates repudiandae sint.
-            </p>
-
-            <h2
-              className={`${dancingScript.className} text-3xl text-foreground inline-block pt-6`}
-            >
-              Badge Examples
-            </h2>
-
-            <p>
-              Id quod maxime placeat facere possimus, omnis voluptas assumenda
-              est, including{" "}
-              <span className="inline-flex items-center">
-                <Link
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Badge className="inline-flex gap-1 p-1 rounded-sm bg-secondary text-secondary-foreground hover:bg-secondary/80">
-                    Badge One
-                  </Badge>
-                </Link>
-              </span>
-              ,{" "}
-              <span className="inline-flex items-center">
-                <Link
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Badge className="inline-flex gap-1 p-1 rounded-sm bg-secondary text-secondary-foreground hover:bg-secondary/80">
-                    Badge Two
-                  </Badge>
-                </Link>
-              </span>
-              , and{" "}
-              <span className="inline-flex items-center">
-                <Link
-                  href="https://example.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
-                  <Badge className="inline-flex gap-1 p-1 rounded-sm bg-secondary text-secondary-foreground hover:bg-secondary/80">
-                    Badge Three
-                  </Badge>
-                </Link>
-              </span>
-              . Itaque earum rerum hic tenetur.
-            </p>
-
-            <h2
-              className={`${dancingScript.className} text-3xl text-foreground inline-block pt-6`}
-            >
-              Interactive Components
-            </h2>
-
-            <h3
-              className={cn("text-2xl font-semibold", dancingScript.className)}
-            >
-              Button Components
-            </h3>
-
-            <p>
-              Sapiente delectus, ut aut reiciendis voluptatibus maiores alias
-              consequatur aut perferendis doloribus asperiores repellat.
-            </p>
-
-            {/* Button Components Example */}
-            <Card className="w-full max-w-md mx-auto">
-              <CardContent className="flex flex-col items-center space-y-6 py-6">
-                <div className="flex flex-row justify-center gap-4 items-center">
-                  <ActionButton />
-
-                  <FavoriteButton />
-
-                  <RefreshButton />
-                </div>
-
-                <p className="text-sm text-muted-foreground text-center">
-                  Interactive button components example
-                </p>
-              </CardContent>
-            </Card>
-
-            <h3
-              className={cn("text-2xl font-semibold", dancingScript.className)}
-            >
-              More Popovers
-            </h3>
-
-            <p>
-              Nisi ut aliquid ex ea commodi consequatur? Quis autem vel eum iure
-              reprehenderit qui in ea voluptate velit esse.{" "}
-              <span>
-                <HighlightPopover
-                  triggerContent="Click for popover"
-                  popoverTitle="Inline Popover"
-                  popoverContent={
-                    <span className="text-muted-foreground">
-                      Nam libero tempore, cum soluta nobis est eligendi optio.
-                    </span>
-                  }
-                />
-              </span>{" "}
-              Neque porro quisquam est.
-            </p>
-
-            <h2
-              className={`${dancingScript.className} text-3xl text-foreground inline-block pt-6`}
-            >
-              Additional Examples
-            </h2>
-
-            <h3
-              className={cn("text-2xl font-semibold", dancingScript.className)}
-            >
-              Nested Popovers
-            </h3>
-
-            <p>
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium doloremque laudantium, totam rem aperiam.{" "}
-              <HighlightPopover
-                triggerContent="Popover with list"
-                popoverTitle="List Inside Popover"
-                popoverContent={
-                  <p className="text-muted-foreground line-height">
-                    <i>
-                      Eaque ipsa quae ab illo inventore veritatis et quasi
-                      architecto beatae vitae dicta sunt explicabo.
-                    </i>
-                  </p>
-                }
-              />
-              ,{" "}
-              <HighlightPopover
-                triggerContent="Another popover"
-                popoverTitle="Second Popover"
-                popoverContent={
-                  <p className="text-muted-foreground line-height">
-                    <i>
-                      Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
-                    </i>
-                  </p>
-                }
-              />
-              ,{" "}
-              <HighlightPopover
-                triggerContent="Third popover"
-                popoverTitle="Third Example"
-                popoverContent={
-                  <p className="text-muted-foreground line-height">
-                    <i>
-                      Aut odit aut fugit, sed quia consequuntur magni dolores.
-                    </i>
-                  </p>
-                }
-              />
-              ,{" "}
-              <HighlightPopover
-                triggerContent="Complex popover"
-                popoverTitle="Complex Content"
-                popoverContent={
-                  <>
-                    <p className="text-muted-foreground line-height">
-                      "
-                      <i>
-                        Ut enim ad minima veniam, quis nostrum exercitationem
-                        ullam corporis!
-                      </i>
-                    </p>
-                    <p className="text-muted-foreground line-height">
-                      View more at{" "}
-                      <Link
-                        className="text-blue-500"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        href="https://example.com"
-                      >
-                        example.com
-                      </Link>
-                    </p>
-                  </>
-                }
-              />{" "}
-              and more examples throughout.
-            </p>
-
-            <h3
-              className={cn("text-2xl font-semibold", dancingScript.className)}
-            >
-              Final Section
-            </h3>
-
-            <p>
-              Suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur.{" "}
-              <HighlightPopover
-                triggerContent="Hover trigger"
-                popoverTitle="Tooltip Style"
-                popoverContent={
-                  <p className="text-muted-foreground line-height">
-                    Itaque earum rerum hic tenetur a sapiente delectus.
-                  </p>
-                }
-              />{" "}
-              understood better now.
-            </p>
-
-            <h3
-              className={cn("text-2xl font-semibold", dancingScript.className)}
-            >
-              Date Example
-            </h3>
-
-            <p>
-              Lorem ipsum dolor sit amet by
-              <HighlightPopover
-                direction="right"
-                triggerContent=" January 1st"
-                popoverTitle={
-                  <h4 className="text-lg font-bold">Date Popover Example</h4>
-                }
-                popoverContent={
-                  <p className="text-muted-foreground line-height">
-                    Consectetur adipiscing elit, sed do eiusmod tempor
-                    incididunt ut labore et dolore magna aliqua.
-                  </p>
-                }
-              />
-              , according to schedule.
-            </p>
-
-            <p>
-              Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat.
-            </p>
-
-            <h2
-              className={`${dancingScript.className} text-3xl text-foreground inline-block pt-6`}
-            >
-              Conclusion
-            </h2>
-
-            <p>
-              Duis aute irure dolor in reprehenderit in voluptate velit esse
-              cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-              cupidatat non proident.
-            </p>
-
-            <p>Lorem ipsum,</p>
-            <span
-              className={`${dancingScript.className} text-3xl text-foreground inline-block pt-6`}
-            >
-              Author Name
-            </span>
           </div>
         </FramePanel>
         <FrameFooter>
-          <p className="text-muted-foreground text-sm text-end">
-            &copy; 2026 Lorem Ipsum
+          <p className='text-muted-foreground text-sm text-end'>
+            &copy; 2026 Coscientist
           </p>
         </FrameFooter>
       </Frame>
     </article>
-  );
+  )
 }

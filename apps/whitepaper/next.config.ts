@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next'
 
 const nextConfig: NextConfig = {
-  transpilePackages: ["motion", "react-lite-youtube-embed"],
-};
+  transpilePackages: ['motion', 'react-lite-youtube-embed'],
+}
 
-export default nextConfig;
+export default nextConfig

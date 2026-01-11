@@ -1,33 +1,24 @@
 import type React from 'react'
 import './globals.css'
+import { LayoutWrapper } from '@/components/layout-wrapper'
 import { ThemeProvider } from '@/components/theme-provider'
 import { Analytics } from '@vercel/analytics/react'
 import { SpeedInsights } from '@vercel/speed-insights/next'
 import type { Metadata } from 'next'
-import { Inter } from 'next/font/google'
+import { Faculty_Glyphic } from 'next/font/google'
 
-const inter = Inter({ subsets: ['latin'] })
+const facultyGlyphic = Faculty_Glyphic({ subsets: ['latin'], weight: ['400'] })
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://antiagile.every.news'),
-  title: "Dear Vercel, I'll quit being Anti-Agile",
-  description: "An interactive essay on why I'll quit being Anti-Agile",
+  metadataBase: new URL('https://coscientist.app'),
+  title: 'Coscientist',
+  description:
+    'Always-on AI for calm verification, knowledge sovereignty, and ScienceOps. Not AGI but close enough.',
   openGraph: {
-    images: [
-      {
-        url: '/antiagile.png',
-        width: 3456,
-        height: 1984,
-        alt: "Dear Vercel, I'll quit being Anti-Agile",
-      },
-    ],
-    videos: [
-      {
-        url: '/antiagile.mp4',
-        width: 3456,
-        height: 1984,
-      },
-    ],
+    title: 'Coscientist',
+    description:
+      'Always-on AI for calm verification, knowledge sovereignty, and ScienceOps.',
+    siteName: 'Coscientist',
   },
 }
 
@@ -38,14 +29,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' suppressHydrationWarning>
-      <body className={inter.className}>
+      <body className={facultyGlyphic.className}>
         <ThemeProvider
           attribute='class'
           defaultTheme='light'
           enableSystem
           disableTransitionOnChange
         >
-          {children}
+          <LayoutWrapper>{children}</LayoutWrapper>
           <Analytics />
           <SpeedInsights />
         </ThemeProvider>
