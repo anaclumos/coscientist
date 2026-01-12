@@ -1,19 +1,52 @@
 ---
-title: Welcome
-description: Entry point to explore these interconnected notes
+title: Terminus
+description: Entry point to the Coscientist knowledge system
 ---
 
-# Welcome to Whitepaper
+# Welcome to Terminus
 
-This is a documentation site with Andy Matuschak-style sliding panes. Click any link to open it in a new pane to the right, creating a trail of your exploration.
+Terminus is the provisional shelter for compiling the Encyclopedia Galactica—inspired by Asimov's fictional archive of all human knowledge. Coscientist is an open-source service dedicated to this mission. This documentation site uses Andy Matuschak-style sliding panes—click any link to open it in a new pane to the right, creating a trail of your exploration.
 
-## Getting Started
+## Core Concepts
 
-Start exploring by clicking one of these topics:
+Start with the foundational ideas:
+
+- [Coscientist](./coscientist) - The intellectual companion system for knowledge production
+- [Dark Night of the Soul](./dark-night-of-the-soul) - The philosophical foundation: crisis as reconstruction
+- [Encyclopedia Galactica](./encyclopedia-galactica) - The knowledge ark concept that inspired this project
+
+## The Problem Space
+
+Understanding what we're defending against:
+
+- [Encyclopedia Meltdown](./encyclopedia-meltdown) - Knowledge-collapse when AI takes over without human intervention
+- [RAG Limitations](./rag-limitations) - Why standard retrieval-augmented generation cannot produce genuine discovery
+
+## The Solution Architecture
+
+The system's core components:
+
+- [Dialectical Graph](./dialectical-graph) - Storing argumentative acts rather than document content
+- [Dialectical Graph Nodes](./dialectical-graph-nodes) - Claim, scope, assumption, definition, method, data, counterexample, issue
+- [Dialectical Graph Edges](./dialectical-graph-edges) - supports, attacks, undercuts, refines, cites, contradicts
+
+## Operating Protocols
+
+How the system works:
+
+- [Galarch](./galarch) - The human sovereign over knowledge
+- [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol) - The 1+4 human-AI collaboration system
+- [Knowledge Synthesis](./knowledge-synthesis) - Making documents collide rather than summarize
+- [Exploration Strategies](./exploration-strategies) - Counterexample-first search, contradiction minimum-cut, definition drift detection
+
+## Related Methods
+
+Background on knowledge management:
 
 - [Evergreen Notes](./evergreen-notes) - A system for developing ideas over time
-- [Spaced Repetition](./spaced-repetition) - Techniques for long-term memory retention
+- [Zettelkasten](./zettelkasten) - The slip-box method for knowledge management
 - [Note-taking](./note-taking) - Strategies for capturing knowledge effectively
+- [Spaced Repetition](./spaced-repetition) - Techniques for long-term memory retention
 
 ## How Navigation Works
 
