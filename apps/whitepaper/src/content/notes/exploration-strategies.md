@@ -17,9 +17,9 @@ The more frequently a claim is cited, the more the system prioritizes collecting
 
 When claim sets conflict, find the minimal set of edges and premises that produce the conflict. That minimal set becomes the target of contemplation.
 
-**Human time must be invested in the minimum contradiction set.** AI handles broad search, candidate generation, and minimum-cut computation; humans judge the legitimacy of definitions and premises.
+**Human time must be invested in the [minimum contradiction set](./minimum-contradiction-set).** AI handles broad search, candidate generation, and [minimum-cut](./minimum-cut) computation; humans judge the legitimacy of definitions and premises.
 
-## 3. Definition Drift Detection
+## 3. [Definition Drift](./definition-drift) Detection
 
 When the meaning of the same term shifts subtly across time, schools, or fields, the graph records changes in definition nodes and moves old documents' claims into a meaning-loss state.
 
@@ -47,7 +47,7 @@ The contemplation AI does not simply output answers. Instead, it operates throug
 2. Hidden assumption extraction agent
 3. Definition conflict detection agent
 4. Counterexample search agent
-5. Argumentative path minimization agent (minimum cut)
+5. Argumentative path minimization agent ([minimum cut](./minimum-cut))
 6. Condition and scope reconstruction agent
 7. Alternative hypothesis generation agent
 8. Empirical format and verification strategy design agent

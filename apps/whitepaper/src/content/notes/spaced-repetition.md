@@ -5,7 +5,7 @@ description: A learning technique based on increasing intervals of review
 
 # Spaced Repetition
 
-Spaced repetition is an evidence-based learning technique that involves reviewing information at increasing intervals. It leverages the psychological spacing effect to move knowledge from short-term to long-term memory.
+Spaced repetition is an evidence-based learning technique that involves reviewing information at increasing intervals. It leverages the psychological [spacing effect](./spacing-effect) to move knowledge from short-term to long-term memory.
 
 ## How It Works
 
@@ -16,13 +16,13 @@ Spaced repetition is an evidence-based learning technique that involves reviewin
 
 ## The Science
 
-Spaced repetition is grounded in research on [Memory](./memory) and how the brain consolidates information. The technique exploits the "forgetting curve" to review information right before you would forget it.
+Spaced repetition is grounded in research on memory and how the brain consolidates information. The technique exploits the [forgetting curve](./forgetting-curve) to review information right before you would forget it.
 
 ## Applications
 
 Spaced repetition is particularly effective for:
 
-- Language [Learning](./learning)
+- Language study
 - Medical education
 - Law studies
 - Programming concepts

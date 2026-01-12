@@ -1,11 +1,11 @@
 ---
 title: Dialectical Graph
-description: A knowledge graph model that stores argumentative acts rather than document content
+description: A knowledge graph model that stores claims and relations rather than document content
 ---
 
 # Dialectical Graph
 
-A Dialectical Graph is a Knowledge Graph that does not store a document's content as-is; it extracts and stores the **argumentative acts** performed by the document. The key insight: **do not mistake text for knowledge**.
+A Dialectical Graph is a Knowledge Graph that does not store a document's content as-is; it extracts and stores the **[argumentative acts](./argumentative-act)** performed by the document. The key insight: **do not mistake text for knowledge**.
 
 ## Core Principle
 

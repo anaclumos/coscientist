@@ -5,7 +5,7 @@ description: How synthesis differs from averaging in dialectical knowledge syste
 
 # Knowledge Synthesis
 
-Standard [RAG](./rag-limitations) is strong at retrieval and weak at synthesis because it has no internal object called **contention**. In a [Dialectical Graph](./dialectical-graph), contention is a first-class citizen.
+Standard [RAG](./rag-limitations) is strong at retrieval and weak at synthesis because it has no internal object called **[contention](./contention)**. In a [Dialectical Graph](./dialectical-graph), [contention](./contention) is a first-class citizen.
 
 ## Synthesis vs. Averaging
 
@@ -16,7 +16,7 @@ When A and B are incompatible, the system does not merely list both. It decompos
 - Sampling differences
 - Method differences
 - Scope differences
-- Time-driven nonstationarity
+- Time-driven [nonstationarity](./nonstationarity)
 
 ## Resolution as a Branched Map
 

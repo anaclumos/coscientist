@@ -13,10 +13,10 @@ The Galarch's primary responsibility is preventing [Encyclopedia Meltdown](./enc
 
 ## Key Responsibilities
 
-1. **Maintain cognitive sovereignty** - Never let AI replace verification with ratification
+1. **Maintain [cognitive sovereignty](./cognitive-sovereignty)** - Never let AI replace verification with ratification
 2. **Coordinate multi-AI deliberation** - Serve as the intense coordinator in the [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol)
 3. **Exercise veto power** - The final human check against consensus drift
-4. **Invest time in the minimum contradiction set** - Focus human attention where it matters most
+4. **Invest time in the [minimum contradiction set](./minimum-contradiction-set)** - Focus human attention where it matters most
 
 ## The Editor's Role
 

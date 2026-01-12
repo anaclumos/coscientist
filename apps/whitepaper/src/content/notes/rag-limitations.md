@@ -28,7 +28,7 @@ Citations get rewritten in truncated form, erasing the chain of attribution.
 
 - **Knowledge updating** - Reordering via rebuttal
 - **Knowledge synthesis** - Cohering conditions, scope, and assumptions
-- **Contention handling** - RAG has no internal object called "contention"
+- **[Contention](./contention) handling** - RAG has no internal object called [contention](./contention)
 
 ## The Alternative
 

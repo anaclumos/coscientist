@@ -1,15 +1,15 @@
 ---
 title: Encyclopedia Galactica
-description: A knowledge ark concept for preserving knowledge across dark ages
+description: A concept for preserving knowledge across dark ages
 ---
 
 # Encyclopedia Galactica
 
-**The Encyclopedia Galactica is a fictional device from Isaac Asimov's Foundation series.** It is a vast repository designed to preserve humanity's knowledge before civilizational collapse. It represents the [Knowledge Ark](https://en.wikipedia.org/wiki/Knowledge_ark) trope deployed as a means of traversing a dark age.
+**The Encyclopedia Galactica is a fictional device from Isaac Asimov's Foundation series.** It is a vast repository designed to preserve humanity's knowledge before civilizational collapse. It represents the [Knowledge Ark](./knowledge-ark) trope deployed as a means of traversing a dark age.
 
-## The Seldon Plan Context
+## The [Seldon Plan](./seldon-plan) Context
 
-In Asimov's fiction, the mathematician Hari Seldon, having calculated the future with psychohistory, concludes:
+In Asimov's fiction, the mathematician Hari Seldon, having calculated the future with [psychohistory](./psychohistory), concludes:
 
 1. The collapse of the Empire is unavoidable
 2. After the collapse, a dark age of tens of thousands of years will follow
@@ -19,9 +19,9 @@ The Encyclopedia Galactica is nominally a project to gather knowledge and produc
 
 ## Beyond Information Gathering
 
-The Seldon Plan is broader than simple knowledge preservation. It is a long-term strategy that uses psychohistory to design post-collapse flows of power, economy, and technology, forcibly converging the trajectory of civilizational reconstruction.
+The [Seldon Plan](./seldon-plan) is broader than simple knowledge preservation. It is a long-term strategy that uses [psychohistory](./psychohistory) to design post-collapse flows of power, economy, and technology, forcibly converging the trajectory of civilizational reconstruction.
 
-The Seldon Plan breaks through the [Dark Night of the Soul](./dark-night-of-the-soul) via a seizure into a new order: turning crisis into opportunity.
+The [Seldon Plan](./seldon-plan) breaks through the [Dark Night of the Soul](./dark-night-of-the-soul) via a seizure into a new order: turning crisis into opportunity.
 
 ## Inspiration for Coscientist
 

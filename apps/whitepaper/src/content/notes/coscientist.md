@@ -9,7 +9,7 @@ Coscientist is an open-source service that implements the [Encyclopedia Galactic
 
 ## Origin
 
-The system draws inspiration from the [Encyclopedia Galactica](./encyclopedia-galactica)—a fictional knowledge ark from Asimov's Foundation designed to preserve knowledge across [dark ages](./dark-night-of-the-soul). But Coscientist goes beyond preservation to enable discovery.
+The system draws inspiration from the [Encyclopedia Galactica](./encyclopedia-galactica)—a fictional [knowledge ark](./knowledge-ark) from Asimov's Foundation designed to preserve knowledge across [dark ages](./dark-night-of-the-soul). But Coscientist goes beyond preservation to enable discovery.
 
 ## First Principle
 
@@ -25,11 +25,11 @@ Based on documents and records, it tirelessly searches for new approaches, disco
 
 ## Core Architecture
 
-The system is built on a [Dialectical Graph](./dialectical-graph) that stores argumentative acts rather than document content. Key components:
+The system is built on a [Dialectical Graph](./dialectical-graph) that stores [argumentative acts](./argumentative-act) rather than document content. Key components:
 
 - [Dialectical Graph Nodes](./dialectical-graph-nodes) - Claim, scope, assumption, definition, method, data, evidence span, source, counterexample, issue
 - [Dialectical Graph Edges](./dialectical-graph-edges) - supports, attacks, undercuts, refines, generalizes, specializes, depends_on, defines, measures, cites, replicates, contradicts
-- [Exploration Strategies](./exploration-strategies) - Counterexample-first search, contradiction minimum-cut, definition drift detection
+- [Exploration Strategies](./exploration-strategies) - Counterexample-first search, contradiction [minimum-cut](./minimum-cut), [definition drift](./definition-drift) detection
 
 ## Operating Protocols
 

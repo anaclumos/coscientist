@@ -13,7 +13,7 @@ Start with the foundational ideas:
 
 - [Coscientist](./coscientist) - The intellectual companion system for knowledge production
 - [Dark Night of the Soul](./dark-night-of-the-soul) - The philosophical foundation: crisis as reconstruction
-- [Encyclopedia Galactica](./encyclopedia-galactica) - The knowledge ark concept that inspired this project
+- [Encyclopedia Galactica](./encyclopedia-galactica) - The [knowledge ark](./knowledge-ark) concept that inspired this project
 
 ## The Problem Space
 
@@ -26,7 +26,7 @@ Understanding what we're defending against:
 
 The system's core components:
 
-- [Dialectical Graph](./dialectical-graph) - Storing argumentative acts rather than document content
+- [Dialectical Graph](./dialectical-graph) - Storing [argumentative acts](./argumentative-act) rather than document content
 - [Dialectical Graph Nodes](./dialectical-graph-nodes) - Claim, scope, assumption, definition, method, data, counterexample, issue
 - [Dialectical Graph Edges](./dialectical-graph-edges) - supports, attacks, undercuts, refines, cites, contradicts
 
@@ -37,15 +37,12 @@ How the system works:
 - [Galarch](./galarch) - The human sovereign over knowledge
 - [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol) - The 1+4 human-AI collaboration system
 - [Knowledge Synthesis](./knowledge-synthesis) - Making documents collide rather than summarize
-- [Exploration Strategies](./exploration-strategies) - Counterexample-first search, contradiction minimum-cut, definition drift detection
+- [Exploration Strategies](./exploration-strategies) - Counterexample-first search, contradiction [minimum-cut](./minimum-cut), [definition drift](./definition-drift) detection
 
 ## Related Methods
 
 Background on knowledge management:
 
-- [Evergreen Notes](./evergreen-notes) - A system for developing ideas over time
-- [Zettelkasten](./zettelkasten) - The slip-box method for knowledge management
-- [Note-taking](./note-taking) - Strategies for capturing knowledge effectively
 - [Spaced Repetition](./spaced-repetition) - Techniques for long-term memory retention
 
 ## How Navigation Works
