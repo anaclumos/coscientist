@@ -55,9 +55,9 @@ export function NotePane({
 
   const paneTransition = shouldReduceMotion
     ? { duration: 0, layout: { duration: 0 } }
-    : { duration: 0.2, ease: 'easeOut', layout: { duration: 0.2, ease: 'easeOut' } };
+    : { duration: 0.2, ease: 'easeOut' as const, layout: { duration: 0.2, ease: 'easeOut' as const } };
 
-  const fadeTransition = shouldReduceMotion ? { duration: 0 } : { duration: 0.12, ease: 'easeOut' };
+  const fadeTransition = shouldReduceMotion ? { duration: 0 } : { duration: 0.12, ease: 'easeOut' as const };
   
   return (
     <motion.article

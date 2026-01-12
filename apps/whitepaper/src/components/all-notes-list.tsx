@@ -44,7 +44,7 @@ export function AllNotesList({ notes, currentStack, index, onNoteClick, onExpand
     }
   };
 
-  const fadeTransition = shouldReduceMotion ? { duration: 0 } : { duration: 0.12, ease: 'easeOut' };
+  const fadeTransition = shouldReduceMotion ? { duration: 0 } : { duration: 0.12, ease: 'easeOut' as const };
   
   return (
     <aside

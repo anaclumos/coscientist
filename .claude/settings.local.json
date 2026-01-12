@@ -4,7 +4,9 @@
       "Bash(find:*)",
       "Bash(rm:*)",
       "Bash(mv:*)",
-      "Bash(tree:*)"
+      "Bash(tree:*)",
+      "Bash(bun run:*)",
+      "Bash(bun run build:*)"
     ],
     "deny": [],
     "ask": []
