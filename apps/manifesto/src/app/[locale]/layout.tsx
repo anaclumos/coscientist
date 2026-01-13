@@ -34,9 +34,39 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
   const { locale } = await params;
   const t = await getTranslations({ locale, namespace: "metadata" });
 
+  const title = t("title");
+  const description = t("description");
+
   return {
-    title: t("title"),
-    description: t("description"),
+    metadataBase: new URL(
+      process.env.VERCEL_PROJECT_PRODUCTION_URL
+        ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}`
+        : "http://localhost:3000",
+    ),
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "website",
+      locale,
+      images: [
+        {
+          url: `/api/og?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description)}`,
+          width: 2400,
+          height: 1260,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [
+        `/api/og?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description)}`,
+      ],
+    },
   };
 }
 

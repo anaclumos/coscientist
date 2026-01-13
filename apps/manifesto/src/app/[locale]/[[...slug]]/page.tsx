@@ -1,7 +1,8 @@
+import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { setRequestLocale } from "next-intl/server";
+import { setRequestLocale, getTranslations } from "next-intl/server";
 import { hasLocale } from "next-intl";
-import { buildNoteGraph, getAllNoteSlugs } from "@/lib/notes";
+import { buildNoteGraph, getAllNoteSlugs, getNoteBySlug } from "@/lib/notes";
 import type { Note, BacklinkInfo } from "@/lib/types";
 import { parseStackFromParams } from "@/lib/stack";
 import { routing } from "@/i18n/routing";
@@ -10,6 +11,57 @@ import { NotesPageClient } from "./client";
 interface PageProps {
   params: Promise<{ locale: string; slug?: string[] }>;
   searchParams: Promise<{ [key: string]: string | string[] | undefined }>;
+}
+
+export async function generateMetadata({
+  params,
+}: PageProps): Promise<Metadata> {
+  const { locale, slug } = await params;
+
+  if (!hasLocale(routing.locales, locale)) {
+    return {};
+  }
+
+  const rootSlug = slug?.[0] ?? "index";
+  const note = await getNoteBySlug(rootSlug, locale);
+
+  if (!note) {
+    const t = await getTranslations({ locale, namespace: "metadata" });
+    return {
+      title: t("title"),
+      description: t("description"),
+    };
+  }
+
+  const title = note.title;
+  const description = note.description || note.excerpt;
+
+  return {
+    title,
+    description,
+    openGraph: {
+      title,
+      description,
+      type: "article",
+      locale,
+      images: [
+        {
+          url: `/api/og?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description || "")}`,
+          width: 2400,
+          height: 1260,
+          alt: title,
+        },
+      ],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title,
+      description,
+      images: [
+        `/api/og?title=${encodeURIComponent(title)}&description=${encodeURIComponent(description || "")}`,
+      ],
+    },
+  };
 }
 
 interface NotePaneData {
