@@ -383,7 +383,7 @@ function ComboboxChipRemove(props: ComboboxPrimitive.ChipRemove.Props) {
       data-slot="combobox-chip-remove"
       {...props}
     >
-      <XMarkIcon />
+      <IconXmarkOutline18 />
     </ComboboxPrimitive.ChipRemove>
   );
 }

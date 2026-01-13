@@ -237,7 +237,7 @@ function AutocompleteClear({
       data-slot="autocomplete-clear"
       {...props}
     >
-      <XMarkIcon />
+      <IconXmarkOutline18 />
     </AutocompletePrimitive.Clear>
   );
 }
