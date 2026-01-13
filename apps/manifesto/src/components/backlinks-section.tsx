@@ -1,5 +1,6 @@
 "use client";
 
+import { AnimatePresence, motion, useReducedMotion } from "motion/react";
 import type { BacklinkInfo } from "@/lib/types";
 import {
   Card,
@@ -17,6 +18,8 @@ export function BacklinksSection({
   backlinks,
   onBacklinkClick,
 }: BacklinksSectionProps) {
+  const shouldReduceMotion = useReducedMotion();
+
   if (backlinks.length === 0) {
     return null;
   }

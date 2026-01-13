@@ -19,7 +19,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Coscientist Manifesto",
-  description: "cuz token ≠ knowledge",
+  description: "output token ≠ knowledge",
 };
 
 export default function RootLayout({
