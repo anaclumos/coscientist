@@ -13,4 +13,4 @@ Definition drift detection treats meaning as a moving object. When a term's defi
 
 Method–conclusion coupling verification clusters claims by method rather than by conclusion, because different conclusions can share the same flaw and identical conclusions can rest on very different grounds. Replication path separation similarly avoids "majority vote" by asking whether support comes from independent paths rather than repeated restatements.
 
-These behaviors are implemented as specialized agents—for example claim normalization, hidden assumption extraction, definition conflict detection, counterexample search, argumentative path minimization, scope reconstruction, alternative hypothesis generation, and verification strategy design—so contemplation work is decomposed into explicit, checkable steps.
+These behaviors are implemented as specialized agents, including claim normalization, hidden assumption extraction, definition conflict detection, counterexample search, argumentative path minimization, scope reconstruction, alternative hypothesis generation, and verification strategy design. This decomposition makes contemplation work explicit and checkable.
