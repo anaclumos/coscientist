@@ -1,7 +1,7 @@
 "use client";
 
 import { NumberField as NumberFieldPrimitive } from "@base-ui/react/number-field";
-import { MinusIcon, PlusIcon } from "@heroicons/react/24/outline";
+import { IconMinusOutline18, IconPlusOutline18 } from "nucleo-ui-outline-18";
 import * as React from "react";
 
 import { cn } from "@/lib/utils";
@@ -64,7 +64,7 @@ function NumberFieldDecrement({
       data-slot="number-field-decrement"
       {...props}
     >
-      <MinusIcon />
+      <IconMinusOutline18 />
     </NumberFieldPrimitive.Decrement>
   );
 }
@@ -82,7 +82,7 @@ function NumberFieldIncrement({
       data-slot="number-field-increment"
       {...props}
     >
-      <PlusIcon />
+      <IconPlusOutline18 />
     </NumberFieldPrimitive.Increment>
   );
 }

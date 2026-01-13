@@ -3,10 +3,10 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import {
-  ChevronLeftIcon,
-  ChevronRightIcon,
-  EllipsisHorizontalIcon,
-} from "@heroicons/react/24/outline";
+  IconChevronLeftOutline18,
+  IconChevronRightOutline18,
+  IconDotsOutline18,
+} from "nucleo-ui-outline-18";
 import type * as React from "react";
 
 import { cn } from "@/lib/utils";
@@ -85,7 +85,7 @@ function PaginationPrevious({
       size="default"
       {...props}
     >
-      <ChevronLeftIcon className="sm:-ms-1" />
+      <IconChevronLeftOutline18 className="sm:-ms-1" />
       <span className="max-sm:hidden">Previous</span>
     </PaginationLink>
   );
@@ -103,7 +103,7 @@ function PaginationNext({
       {...props}
     >
       <span className="max-sm:hidden">Next</span>
-      <ChevronRightIcon className="sm:-me-1" />
+      <IconChevronRightOutline18 className="sm:-me-1" />
     </PaginationLink>
   );
 }
@@ -119,7 +119,7 @@ function PaginationEllipsis({
       data-slot="pagination-ellipsis"
       {...props}
     >
-      <EllipsisHorizontalIcon className="size-5 sm:size-4" />
+      <IconDotsOutline18 className="size-5 sm:size-4" />
       <span className="sr-only">More pages</span>
     </span>
   );

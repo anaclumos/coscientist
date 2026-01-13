@@ -1,7 +1,10 @@
 "use client";
 
 import { Autocomplete as AutocompletePrimitive } from "@base-ui/react/autocomplete";
-import { ChevronUpDownIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  IconChevronExpandYOutline18,
+  IconXmarkOutline18,
+} from "nucleo-ui-outline-18";
 
 import { cn } from "@/lib/utils";
 import { Input } from "@/components/ui/input";
@@ -56,7 +59,7 @@ function AutocompleteInput({
             sizeValue === "sm" ? "end-0" : "end-0.5",
           )}
         >
-          <ChevronUpDownIcon />
+          <IconChevronExpandYOutline18 />
         </AutocompleteTrigger>
       )}
       {showClear && (
@@ -66,7 +69,7 @@ function AutocompleteInput({
             sizeValue === "sm" ? "end-0" : "end-0.5",
           )}
         >
-          <XMarkIcon />
+          <IconXmarkOutline18 />
         </AutocompleteClear>
       )}
     </div>

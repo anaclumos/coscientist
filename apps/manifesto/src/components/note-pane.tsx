@@ -2,7 +2,7 @@
 
 import { useCallback } from "react";
 import { motion, AnimatePresence } from "motion/react";
-import { XMarkIcon } from "@heroicons/react/24/outline";
+import { IconXmarkOutline18 } from "nucleo-ui-outline-18";
 import { useTranslations } from "next-intl";
 import type { Note, BacklinkInfo } from "@/lib/types";
 import { cn } from "@/lib/utils";
@@ -189,7 +189,7 @@ export function NotePane({
               )}
               aria-label={t("closeNote", { title: note.title })}
             >
-              <XMarkIcon className="size-5" />
+              <IconXmarkOutline18 className="size-5" />
             </motion.button>
           )}
         </AnimatePresence>

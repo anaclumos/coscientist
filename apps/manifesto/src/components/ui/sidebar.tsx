@@ -3,7 +3,7 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import { cva, type VariantProps } from "class-variance-authority";
-import { Bars3Icon } from "@heroicons/react/24/outline";
+import { IconMenuOutline18 } from "nucleo-ui-outline-18";
 import * as React from "react";
 
 import { useIsMobile } from "@/hooks/use-mobile";
@@ -273,7 +273,7 @@ function SidebarTrigger({
       variant="ghost"
       {...props}
     >
-      <Bars3Icon />
+      <IconMenuOutline18 />
       <span className="sr-only">Toggle Sidebar</span>
     </Button>
   );

@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { ArrowUpLeftIcon } from "@heroicons/react/24/outline";
+import { IconArrowUpLeftOutline18 } from "nucleo-ui-outline-18";
 import type { BacklinkInfo } from "@/lib/types";
 import { cn } from "@/lib/utils";
 
@@ -42,7 +42,7 @@ export function BacklinksSection({
   return (
     <section>
       <h3 className="text-xs font-medium text-muted-foreground uppercase tracking-wider mb-3 flex items-center gap-1.5">
-        <ArrowUpLeftIcon className="size-3" />
+        <IconArrowUpLeftOutline18 className="size-3" />
         {t(translationKey, { count: backlinks.length })}
       </h3>
       <ul className="flex flex-col">

@@ -1,7 +1,7 @@
 "use client";
 
 import { Menu as MenuPrimitive } from "@base-ui/react/menu";
-import { ChevronRightIcon } from "@heroicons/react/24/outline";
+import { IconChevronRightOutline18 } from "nucleo-ui-outline-18";
 import type * as React from "react";
 import { cn } from "@/lib/utils";
 
@@ -243,7 +243,7 @@ function MenuSubTrigger({
       {...props}
     >
       {children}
-      <ChevronRightIcon className="-me-0.5 ms-auto opacity-80" />
+      <IconChevronRightOutline18 className="-me-0.5 ms-auto opacity-80" />
     </MenuPrimitive.SubmenuTrigger>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { XMarkIcon } from "@heroicons/react/24/outline";
+import { IconXmarkOutline18 } from "nucleo-ui-outline-18";
 import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 
@@ -55,7 +55,7 @@ export function PaneSpine({
             aria-label={t("closePane", { index })}
           >
             <span className="group-hover:hidden">{index}</span>
-            <XMarkIcon className="size-3 hidden group-hover:block" />
+            <IconXmarkOutline18 className="size-3 hidden group-hover:block" />
           </button>
         ) : (
           <span className="text-[10px] font-mono text-muted-foreground/50 font-medium">

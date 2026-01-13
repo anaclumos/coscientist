@@ -1,7 +1,10 @@
 "use client";
 
 import { Combobox as ComboboxPrimitive } from "@base-ui/react/combobox";
-import { ChevronUpDownIcon, XMarkIcon } from "@heroicons/react/24/outline";
+import {
+  IconChevronExpandYOutline18,
+  IconXmarkOutline18,
+} from "nucleo-ui-outline-18";
 import * as React from "react";
 
 import { cn } from "@/lib/utils";
@@ -100,7 +103,7 @@ function ComboboxInput({
             sizeValue === "sm" ? "end-0" : "end-0.5",
           )}
         >
-          <ChevronUpDownIcon />
+          <IconChevronExpandYOutline18 />
         </ComboboxTrigger>
       )}
       {showClear && (
@@ -110,7 +113,7 @@ function ComboboxInput({
             sizeValue === "sm" ? "end-0" : "end-0.5",
           )}
         >
-          <XMarkIcon />
+          <IconXmarkOutline18 />
         </ComboboxClear>
       )}
     </div>

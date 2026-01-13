@@ -3,9 +3,9 @@
 import { mergeProps } from "@base-ui/react/merge-props";
 import { useRender } from "@base-ui/react/use-render";
 import {
-  ChevronRightIcon,
-  EllipsisHorizontalIcon,
-} from "@heroicons/react/24/outline";
+  IconChevronRightOutline18,
+  IconDotsOutline18,
+} from "nucleo-ui-outline-18";
 import type * as React from "react";
 
 import { cn } from "@/lib/utils";
@@ -81,7 +81,7 @@ function BreadcrumbSeparator({
       role="presentation"
       {...props}
     >
-      {children ?? <ChevronRightIcon />}
+      {children ?? <IconChevronRightOutline18 />}
     </li>
   );
 }
@@ -98,7 +98,7 @@ function BreadcrumbEllipsis({
       role="presentation"
       {...props}
     >
-      <EllipsisHorizontalIcon className="size-4" />
+      <IconDotsOutline18 className="size-4" />
       <span className="sr-only">More</span>
     </span>
   );
