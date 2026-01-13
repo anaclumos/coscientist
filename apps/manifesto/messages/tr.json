@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Coscientist Manifestosu",
+    "description": "Çıktı Token'ları ≠ Bilgi"
+  },
+  "header": {
+    "title": "Coscientist Manifestosu"
+  },
+  "allNotes": {
+    "title": "Tüm Notlar",
+    "noteCount": "{count} not"
+  },
+  "notePane": {
+    "expand": "Paneli genişlet",
+    "expandNote": "{title} başlığını genişlet",
+    "closeNote": "{title} başlığını kapat",
+    "closePane": "{index} numaralı paneli kapat"
+  },
+  "backlinks": {
+    "singular": "{count} not buna bağlantı veriyor",
+    "plural": "{count} not buna bağlantı veriyor"
+  },
+  "theme": {
+    "toggle": "Temayı değiştir"
+  },
+  "navigation": {
+    "previous": "Önceki",
+    "next": "Sonraki",
+    "goToPreviousPage": "Önceki sayfaya git",
+    "goToNextPage": "Sonraki sayfaya git",
+    "morePages": "Daha fazla sayfa",
+    "pagination": "sayfalama",
+    "breadcrumb": "gezinti yolu",
+    "more": "Daha fazla"
+  },
+  "sidebar": {
+    "title": "Kenar Çubuğu",
+    "description": "Mobil kenar çubuğunu gösterir.",
+    "toggle": "Kenar çubuğunu aç/kapat"
+  },
+  "common": {
+    "close": "Kapat",
+    "remove": "Kaldır",
+    "loading": "Yükleniyor"
+  },
+  "languageSwitcher": {
+    "label": "Dil",
+    "selectLanguage": "Dil seçin"
+  }
+}

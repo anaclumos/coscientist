@@ -2,6 +2,7 @@
 
 import { useCallback } from "react";
 import { X } from "lucide-react";
+import { useTranslations } from "next-intl";
 import type { Note, BacklinkInfo } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { ScrollArea } from "@/components/ui/scroll-area";
@@ -33,6 +34,7 @@ export function NotePane({
 }: NotePaneProps) {
   const { collapsedIndices } = usePaneCollapse();
   const isCollapsed = collapsedIndices.has(index);
+  const t = useTranslations("notePane");
 
   const handleLinkClick = useCallback(
     (slug: string) => {
@@ -83,9 +85,9 @@ export function NotePane({
             type="button"
             onClick={onExpand}
             className="absolute inset-0 z-overlay cursor-pointer"
-            aria-label={`Expand ${note.title}`}
+            aria-label={t("expandNote", { title: note.title })}
           >
-            <span className="sr-only">Expand pane</span>
+            <span className="sr-only">{t("expand")}</span>
           </button>
         )}
         {isCollapsed && (
@@ -118,7 +120,7 @@ export function NotePane({
               "group-hover:bg-red-500 group-hover:text-white",
               "transition-colors cursor-pointer",
             )}
-            aria-label={`Close ${note.title}`}
+            aria-label={t("closeNote", { title: note.title })}
           >
             <span className="group-hover:hidden">{index}</span>
             <X className="size-3 hidden group-hover:block" />

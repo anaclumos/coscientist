@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "แถลงการณ์ Coscientist",
+    "description": "โทเค็นผลลัพธ์ ≠ ความรู้"
+  },
+  "header": {
+    "title": "แถลงการณ์ Coscientist"
+  },
+  "allNotes": {
+    "title": "บันทึกทั้งหมด",
+    "noteCount": "{count} บันทึก"
+  },
+  "notePane": {
+    "expand": "ขยายแผง",
+    "expandNote": "ขยาย {title}",
+    "closeNote": "ปิด {title}",
+    "closePane": "ปิดแผง {index}"
+  },
+  "backlinks": {
+    "singular": "{count} บันทึกลิงก์มายังหน้านี้",
+    "plural": "{count} บันทึกลิงก์มายังหน้านี้"
+  },
+  "theme": {
+    "toggle": "สลับธีม"
+  },
+  "navigation": {
+    "previous": "ก่อนหน้า",
+    "next": "ถัดไป",
+    "goToPreviousPage": "ไปยังหน้าก่อนหน้า",
+    "goToNextPage": "ไปยังหน้าถัดไป",
+    "morePages": "หน้าเพิ่มเติม",
+    "pagination": "การแบ่งหน้า",
+    "breadcrumb": "เส้นทางนำทาง",
+    "more": "เพิ่มเติม"
+  },
+  "sidebar": {
+    "title": "แถบด้านข้าง",
+    "description": "แสดงแถบด้านข้างบนมือถือ",
+    "toggle": "สลับแถบด้านข้าง"
+  },
+  "common": {
+    "close": "ปิด",
+    "remove": "ลบ",
+    "loading": "กำลังโหลด"
+  },
+  "languageSwitcher": {
+    "label": "ภาษา",
+    "selectLanguage": "เลือกภาษา"
+  }
+}

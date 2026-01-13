@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "مانیفست Coscientist",
+    "description": "توکن‌های خروجی ≠ دانش"
+  },
+  "header": {
+    "title": "مانیفست Coscientist"
+  },
+  "allNotes": {
+    "title": "همه یادداشت‌ها",
+    "noteCount": "{count} یادداشت"
+  },
+  "notePane": {
+    "expand": "باز کردن پنل",
+    "expandNote": "باز کردن {title}",
+    "closeNote": "بستن {title}",
+    "closePane": "بستن پنل {index}"
+  },
+  "backlinks": {
+    "singular": "{count} یادداشت به این لینک داده است",
+    "plural": "{count} یادداشت به این لینک داده‌اند"
+  },
+  "theme": {
+    "toggle": "تغییر تم"
+  },
+  "navigation": {
+    "previous": "قبلی",
+    "next": "بعدی",
+    "goToPreviousPage": "رفتن به صفحهٔ قبلی",
+    "goToNextPage": "رفتن به صفحهٔ بعدی",
+    "morePages": "صفحه‌های بیشتر",
+    "pagination": "صفحه‌بندی",
+    "breadcrumb": "مسیر راهنما",
+    "more": "بیشتر"
+  },
+  "sidebar": {
+    "title": "نوار کناری",
+    "description": "نوار کناری موبایل را نمایش می‌دهد.",
+    "toggle": "نمایش/پنهان کردن نوار کناری"
+  },
+  "common": {
+    "close": "بستن",
+    "remove": "حذف",
+    "loading": "در حال بارگذاری"
+  },
+  "languageSwitcher": {
+    "label": "زبان",
+    "selectLanguage": "انتخاب زبان"
+  }
+}

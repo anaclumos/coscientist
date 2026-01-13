@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Coscientist Manifesto",
+    "description": "Output Tokens ≠ Knowledge"
+  },
+  "header": {
+    "title": "Coscientist Manifesto"
+  },
+  "allNotes": {
+    "title": "All Notes",
+    "noteCount": "{count} notes"
+  },
+  "notePane": {
+    "expand": "Expand pane",
+    "expandNote": "Expand {title}",
+    "closeNote": "Close {title}",
+    "closePane": "Close pane {index}"
+  },
+  "backlinks": {
+    "singular": "{count} note links to this",
+    "plural": "{count} notes link to this"
+  },
+  "theme": {
+    "toggle": "Toggle theme"
+  },
+  "navigation": {
+    "previous": "Previous",
+    "next": "Next",
+    "goToPreviousPage": "Go to previous page",
+    "goToNextPage": "Go to next page",
+    "morePages": "More pages",
+    "pagination": "pagination",
+    "breadcrumb": "breadcrumb",
+    "more": "More"
+  },
+  "sidebar": {
+    "title": "Sidebar",
+    "description": "Displays the mobile sidebar.",
+    "toggle": "Toggle Sidebar"
+  },
+  "common": {
+    "close": "Close",
+    "remove": "Remove",
+    "loading": "Loading"
+  },
+  "languageSwitcher": {
+    "label": "Language",
+    "selectLanguage": "Select language"
+  }
+}

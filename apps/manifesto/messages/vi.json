@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Tuyên ngôn Coscientist",
+    "description": "Token đầu ra ≠ Tri thức"
+  },
+  "header": {
+    "title": "Tuyên ngôn Coscientist"
+  },
+  "allNotes": {
+    "title": "Tất cả ghi chú",
+    "noteCount": "{count} ghi chú"
+  },
+  "notePane": {
+    "expand": "Mở rộng khung",
+    "expandNote": "Mở rộng {title}",
+    "closeNote": "Đóng {title}",
+    "closePane": "Đóng khung {index}"
+  },
+  "backlinks": {
+    "singular": "{count} ghi chú liên kết đến đây",
+    "plural": "{count} ghi chú liên kết đến đây"
+  },
+  "theme": {
+    "toggle": "Chuyển đổi giao diện"
+  },
+  "navigation": {
+    "previous": "Trước",
+    "next": "Sau",
+    "goToPreviousPage": "Đi đến trang trước",
+    "goToNextPage": "Đi đến trang sau",
+    "morePages": "Thêm trang",
+    "pagination": "phân trang",
+    "breadcrumb": "đường dẫn điều hướng",
+    "more": "Thêm"
+  },
+  "sidebar": {
+    "title": "Thanh bên",
+    "description": "Hiển thị thanh bên trên thiết bị di động.",
+    "toggle": "Bật/tắt thanh bên"
+  },
+  "common": {
+    "close": "Đóng",
+    "remove": "Xóa",
+    "loading": "Đang tải"
+  },
+  "languageSwitcher": {
+    "label": "Ngôn ngữ",
+    "selectLanguage": "Chọn ngôn ngữ"
+  }
+}

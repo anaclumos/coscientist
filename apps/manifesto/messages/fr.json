@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Manifeste Coscientist",
+    "description": "Jetons de sortie ≠ connaissance"
+  },
+  "header": {
+    "title": "Manifeste Coscientist"
+  },
+  "allNotes": {
+    "title": "Toutes les notes",
+    "noteCount": "{count} notes"
+  },
+  "notePane": {
+    "expand": "Agrandir le volet",
+    "expandNote": "Agrandir {title}",
+    "closeNote": "Fermer {title}",
+    "closePane": "Fermer le volet {index}"
+  },
+  "backlinks": {
+    "singular": "{count} note renvoie vers ceci",
+    "plural": "{count} notes renvoient vers ceci"
+  },
+  "theme": {
+    "toggle": "Changer de thème"
+  },
+  "navigation": {
+    "previous": "Précédent",
+    "next": "Suivant",
+    "goToPreviousPage": "Aller à la page précédente",
+    "goToNextPage": "Aller à la page suivante",
+    "morePages": "Plus de pages",
+    "pagination": "pagination",
+    "breadcrumb": "fil d’Ariane",
+    "more": "Plus"
+  },
+  "sidebar": {
+    "title": "Barre latérale",
+    "description": "Affiche la barre latérale sur mobile.",
+    "toggle": "Afficher/Masquer la barre latérale"
+  },
+  "common": {
+    "close": "Fermer",
+    "remove": "Supprimer",
+    "loading": "Chargement"
+  },
+  "languageSwitcher": {
+    "label": "Langue",
+    "selectLanguage": "Sélectionner une langue"
+  }
+}

@@ -1,5 +1,6 @@
 "use client";
 
+import { useTranslations } from "next-intl";
 import type { BacklinkInfo } from "@/lib/types";
 import {
   Card,
@@ -34,15 +35,18 @@ export function BacklinksSection({
   backlinks,
   onBacklinkClick,
 }: BacklinksSectionProps) {
+  const t = useTranslations("backlinks");
+
   if (backlinks.length === 0) {
     return null;
   }
 
+  const translationKey = backlinks.length === 1 ? "singular" : "plural";
+
   return (
     <section>
       <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4 font-mono">
-        {backlinks.length}{" "}
-        {backlinks.length === 1 ? "note links" : "notes link"} to this
+        {t(translationKey, { count: backlinks.length })}
       </h3>
       <ul className="flex flex-col gap-3">
         {backlinks.map((backlink) => (

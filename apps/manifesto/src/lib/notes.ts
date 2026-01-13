@@ -6,7 +6,13 @@ import html from "remark-html";
 import gfm from "remark-gfm";
 import type { Note, BacklinkInfo } from "./types";
 
-const notesDirectory = path.join(process.cwd(), "src/content/notes");
+function getNotesDirectory(locale = "en") {
+  return path.join(process.cwd(), `src/content/notes/${locale}`);
+}
+
+function getLegacyNotesDirectory() {
+  return path.join(process.cwd(), "src/content/notes");
+}
 
 function isMissingFile(error: unknown): boolean {
   return (
@@ -73,9 +79,23 @@ function extractExcerpt(
   return undefined;
 }
 
-export async function getAllNoteSlugs(): Promise<string[]> {
+async function directoryExists(dirPath: string): Promise<boolean> {
   try {
-    const fileNames = await fs.readdir(notesDirectory);
+    const stat = await fs.stat(dirPath);
+    return stat.isDirectory();
+  } catch {
+    return false;
+  }
+}
+
+export async function getAllNoteSlugs(locale = "en"): Promise<string[]> {
+  const notesDir = getNotesDirectory(locale);
+  const legacyDir = getLegacyNotesDirectory();
+
+  const dirToUse = (await directoryExists(notesDir)) ? notesDir : legacyDir;
+
+  try {
+    const fileNames = await fs.readdir(dirToUse);
     return fileNames
       .filter((name) => name.endsWith(".md"))
       .map((name) => name.replace(/\.md$/, ""));
@@ -103,8 +123,15 @@ function generateExcerpt(content: string, maxLength = 300): string {
   return `${lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated}...`;
 }
 
-export async function getNoteBySlug(slug: string): Promise<Note | null> {
-  const fullPath = path.join(notesDirectory, `${slug}.md`);
+export async function getNoteBySlug(
+  slug: string,
+  locale = "en",
+): Promise<Note | null> {
+  const notesDir = getNotesDirectory(locale);
+  const legacyDir = getLegacyNotesDirectory();
+
+  const dirToUse = (await directoryExists(notesDir)) ? notesDir : legacyDir;
+  const fullPath = path.join(dirToUse, `${slug}.md`);
 
   let fileContents: string;
   try {
@@ -140,17 +167,19 @@ export async function getNoteBySlug(slug: string): Promise<Note | null> {
   };
 }
 
-export async function getAllNotes(): Promise<Note[]> {
-  const slugs = await getAllNoteSlugs();
-  const notes = await Promise.all(slugs.map((slug) => getNoteBySlug(slug)));
+export async function getAllNotes(locale = "en"): Promise<Note[]> {
+  const slugs = await getAllNoteSlugs(locale);
+  const notes = await Promise.all(
+    slugs.map((slug) => getNoteBySlug(slug, locale)),
+  );
   return notes.filter((note): note is Note => note !== null);
 }
 
-export async function buildNoteGraph(): Promise<{
+export async function buildNoteGraph(locale = "en"): Promise<{
   notes: Map<string, Note>;
   backlinks: Map<string, BacklinkInfo[]>;
 }> {
-  const allNotes = await getAllNotes();
+  const allNotes = await getAllNotes(locale);
   const notes = new Map<string, Note>();
   const backlinks = new Map<string, BacklinkInfo[]>();
 
@@ -183,6 +212,7 @@ export async function buildNoteGraph(): Promise<{
 
 export async function getNotesBySlugs(
   slugs: string[],
+  locale = "en",
 ): Promise<(Note | null)[]> {
-  return Promise.all(slugs.map((slug) => getNoteBySlug(slug)));
+  return Promise.all(slugs.map((slug) => getNoteBySlug(slug, locale)));
 }

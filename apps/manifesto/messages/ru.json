@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Манифест Coscientist",
+    "description": "Выходные токены ≠ Знание"
+  },
+  "header": {
+    "title": "Манифест Coscientist"
+  },
+  "allNotes": {
+    "title": "Все заметки",
+    "noteCount": "{count} заметок"
+  },
+  "notePane": {
+    "expand": "Развернуть",
+    "expandNote": "Развернуть {title}",
+    "closeNote": "Закрыть {title}",
+    "closePane": "Закрыть панель {index}"
+  },
+  "backlinks": {
+    "singular": "{count} заметка ссылается сюда",
+    "plural": "{count} заметок ссылаются сюда"
+  },
+  "theme": {
+    "toggle": "Сменить тему"
+  },
+  "navigation": {
+    "previous": "Назад",
+    "next": "Далее",
+    "goToPreviousPage": "Перейти на предыдущую страницу",
+    "goToNextPage": "Перейти на следующую страницу",
+    "morePages": "Больше страниц",
+    "pagination": "пагинация",
+    "breadcrumb": "хлебные крошки",
+    "more": "Ещё"
+  },
+  "sidebar": {
+    "title": "Боковая панель",
+    "description": "Отображает мобильную боковую панель.",
+    "toggle": "Переключить боковую панель"
+  },
+  "common": {
+    "close": "Закрыть",
+    "remove": "Удалить",
+    "loading": "Загрузка"
+  },
+  "languageSwitcher": {
+    "label": "Язык",
+    "selectLanguage": "Выбрать язык"
+  }
+}

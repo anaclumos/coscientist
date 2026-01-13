@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "コサイエンティスト宣言",
+    "description": "出力トークン ≠ 知識"
+  },
+  "header": {
+    "title": "コサイエンティスト宣言"
+  },
+  "allNotes": {
+    "title": "すべてのノート",
+    "noteCount": "{count}件のノート"
+  },
+  "notePane": {
+    "expand": "展開",
+    "expandNote": "{title}を展開",
+    "closeNote": "{title}を閉じる",
+    "closePane": "パネル{index}を閉じる"
+  },
+  "backlinks": {
+    "singular": "{count}件のノートがリンク",
+    "plural": "{count}件のノートがリンク"
+  },
+  "theme": {
+    "toggle": "テーマ切替"
+  },
+  "navigation": {
+    "previous": "前へ",
+    "next": "次へ",
+    "goToPreviousPage": "前のページへ",
+    "goToNextPage": "次のページへ",
+    "morePages": "その他のページ",
+    "pagination": "ページネーション",
+    "breadcrumb": "パンくずリスト",
+    "more": "もっと見る"
+  },
+  "sidebar": {
+    "title": "サイドバー",
+    "description": "モバイルサイドバーを表示します。",
+    "toggle": "サイドバー切替"
+  },
+  "common": {
+    "close": "閉じる",
+    "remove": "削除",
+    "loading": "読み込み中"
+  },
+  "languageSwitcher": {
+    "label": "言語",
+    "selectLanguage": "言語を選択"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Manifest koscyentysty",
+    "description": "Tokeny wyjściowe ≠ wiedza"
+  },
+  "header": {
+    "title": "Manifest koscyentysty"
+  },
+  "allNotes": {
+    "title": "Wszystkie notatki",
+    "noteCount": "{count} notatek"
+  },
+  "notePane": {
+    "expand": "Rozwiń panel",
+    "expandNote": "Rozwiń: {title}",
+    "closeNote": "Zamknij: {title}",
+    "closePane": "Zamknij panel {index}"
+  },
+  "backlinks": {
+    "singular": "{count} notatka odsyła tutaj",
+    "plural": "{count} notatki odsyłają tutaj"
+  },
+  "theme": {
+    "toggle": "Przełącz motyw"
+  },
+  "navigation": {
+    "previous": "Poprzednia",
+    "next": "Następna",
+    "goToPreviousPage": "Przejdź do poprzedniej strony",
+    "goToNextPage": "Przejdź do następnej strony",
+    "morePages": "Więcej stron",
+    "pagination": "paginacja",
+    "breadcrumb": "okruszki",
+    "more": "Więcej"
+  },
+  "sidebar": {
+    "title": "Panel boczny",
+    "description": "Wyświetla panel boczny w wersji mobilnej.",
+    "toggle": "Przełącz panel boczny"
+  },
+  "common": {
+    "close": "Zamknij",
+    "remove": "Usuń",
+    "loading": "Ładowanie"
+  },
+  "languageSwitcher": {
+    "label": "Język",
+    "selectLanguage": "Wybierz język"
+  }
+}

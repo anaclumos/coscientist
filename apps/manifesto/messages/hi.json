@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "कोसाइंटिस्ट घोषणापत्र",
+    "description": "आउटपुट टोकन ≠ ज्ञान"
+  },
+  "header": {
+    "title": "कोसाइंटिस्ट घोषणापत्र"
+  },
+  "allNotes": {
+    "title": "सभी नोट्स",
+    "noteCount": "{count} नोट्स"
+  },
+  "notePane": {
+    "expand": "पेन फैलाएँ",
+    "expandNote": "{title} फैलाएँ",
+    "closeNote": "{title} बंद करें",
+    "closePane": "पेन {index} बंद करें"
+  },
+  "backlinks": {
+    "singular": "{count} नोट इस से लिंक करता है",
+    "plural": "{count} नोट्स इस से लिंक करते हैं"
+  },
+  "theme": {
+    "toggle": "थीम टॉगल करें"
+  },
+  "navigation": {
+    "previous": "पिछला",
+    "next": "अगला",
+    "goToPreviousPage": "पिछले पृष्ठ पर जाएँ",
+    "goToNextPage": "अगले पृष्ठ पर जाएँ",
+    "morePages": "और पृष्ठ",
+    "pagination": "पृष्ठांकन",
+    "breadcrumb": "ब्रेडक्रम्ब",
+    "more": "और"
+  },
+  "sidebar": {
+    "title": "साइडबार",
+    "description": "मोबाइल साइडबार दिखाता है।",
+    "toggle": "साइडबार टॉगल करें"
+  },
+  "common": {
+    "close": "बंद करें",
+    "remove": "हटाएँ",
+    "loading": "लोड हो रहा है"
+  },
+  "languageSwitcher": {
+    "label": "भाषा",
+    "selectLanguage": "भाषा चुनें"
+  }
+}

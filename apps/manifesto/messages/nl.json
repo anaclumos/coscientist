@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Coscientist Manifest",
+    "description": "Outputtokens ≠ kennis"
+  },
+  "header": {
+    "title": "Coscientist Manifest"
+  },
+  "allNotes": {
+    "title": "Alle notities",
+    "noteCount": "{count} notities"
+  },
+  "notePane": {
+    "expand": "Paneel uitklappen",
+    "expandNote": "{title} uitklappen",
+    "closeNote": "{title} sluiten",
+    "closePane": "Paneel {index} sluiten"
+  },
+  "backlinks": {
+    "singular": "{count} notitie verwijst hiernaar",
+    "plural": "{count} notities verwijzen hiernaar"
+  },
+  "theme": {
+    "toggle": "Thema wisselen"
+  },
+  "navigation": {
+    "previous": "Vorige",
+    "next": "Volgende",
+    "goToPreviousPage": "Ga naar de vorige pagina",
+    "goToNextPage": "Ga naar de volgende pagina",
+    "morePages": "Meer pagina's",
+    "pagination": "paginering",
+    "breadcrumb": "broodkruimelpad",
+    "more": "Meer"
+  },
+  "sidebar": {
+    "title": "Zijbalk",
+    "description": "Toont de zijbalk op mobiel.",
+    "toggle": "Zijbalk in-/uitschakelen"
+  },
+  "common": {
+    "close": "Sluiten",
+    "remove": "Verwijderen",
+    "loading": "Laden"
+  },
+  "languageSwitcher": {
+    "label": "Taal",
+    "selectLanguage": "Selecteer taal"
+  }
+}

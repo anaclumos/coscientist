@@ -1,6 +1,7 @@
 "use client";
 
 import { X } from "lucide-react";
+import { useTranslations } from "next-intl";
 import { cn } from "@/lib/utils";
 
 interface PaneSpineProps {
@@ -20,6 +21,8 @@ export function PaneSpine({
   onClose,
   className,
 }: PaneSpineProps) {
+  const t = useTranslations("notePane");
+
   return (
     <div
       className={cn(
@@ -41,7 +44,7 @@ export function PaneSpine({
               "group-hover/spine:bg-red-500 group-hover/spine:text-white",
               "transition-colors cursor-pointer",
             )}
-            aria-label={`Close pane ${index}`}
+            aria-label={t("closePane", { index })}
           >
             <span className="group-hover/spine:hidden">{index}</span>
             <X className="size-3 hidden group-hover/spine:block" />

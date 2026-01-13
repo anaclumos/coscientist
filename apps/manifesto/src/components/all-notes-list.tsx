@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import { useTranslations } from "next-intl";
 import type { Note } from "@/lib/types";
 import { cn } from "@/lib/utils";
 import { buildNoteHref } from "@/lib/note-links";
@@ -26,6 +27,8 @@ export function AllNotesList({
 }: AllNotesListProps) {
   const { collapsedIndices } = usePaneCollapse();
   const isCollapsed = collapsedIndices.has(index);
+  const t = useTranslations("allNotes");
+  const tPane = useTranslations("notePane");
 
   const sortedNotes = useMemo(
     () => [...notes].sort((a, b) => a.title.localeCompare(b.title)),
@@ -58,7 +61,7 @@ export function AllNotesList({
       }}
     >
       {isCollapsed && (
-        <PaneSpine index={index} title="All Notes" showIndex={false} />
+        <PaneSpine index={index} title={t("title")} showIndex={false} />
       )}
 
       <div
@@ -74,9 +77,9 @@ export function AllNotesList({
             type="button"
             onClick={onExpand}
             className="absolute inset-0 z-overlay cursor-pointer"
-            aria-label="Expand All Notes"
+            aria-label={`${tPane("expand")} ${t("title")}`}
           >
-            <span className="sr-only">Expand pane</span>
+            <span className="sr-only">{tPane("expand")}</span>
           </button>
         )}
         {isCollapsed && (
@@ -85,9 +88,11 @@ export function AllNotesList({
 
         <ScrollArea className="h-full">
           <div className="sticky top-0 z-sticky bg-card px-8 pt-8 pb-4 border-b border-border">
-            <h2 className="text-lg font-semibold text-foreground">All Notes</h2>
+            <h2 className="text-lg font-semibold text-foreground">
+              {t("title")}
+            </h2>
             <p className="text-xs text-muted-foreground mt-1">
-              {notes.length} notes
+              {t("noteCount", { count: notes.length })}
             </p>
           </div>
           <div className="px-8 py-6">

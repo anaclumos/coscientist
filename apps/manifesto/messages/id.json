@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Manifesto Coscientist",
+    "description": "Token Output ≠ Pengetahuan"
+  },
+  "header": {
+    "title": "Manifesto Coscientist"
+  },
+  "allNotes": {
+    "title": "Semua Catatan",
+    "noteCount": "{count} catatan"
+  },
+  "notePane": {
+    "expand": "Perluas panel",
+    "expandNote": "Perluas {title}",
+    "closeNote": "Tutup {title}",
+    "closePane": "Tutup panel {index}"
+  },
+  "backlinks": {
+    "singular": "{count} catatan menaut ke ini",
+    "plural": "{count} catatan menaut ke ini"
+  },
+  "theme": {
+    "toggle": "Ganti tema"
+  },
+  "navigation": {
+    "previous": "Sebelumnya",
+    "next": "Berikutnya",
+    "goToPreviousPage": "Ke halaman sebelumnya",
+    "goToNextPage": "Ke halaman berikutnya",
+    "morePages": "Halaman lainnya",
+    "pagination": "paginasi",
+    "breadcrumb": "remah roti",
+    "more": "Lainnya"
+  },
+  "sidebar": {
+    "title": "Bilah Samping",
+    "description": "Menampilkan bilah samping seluler.",
+    "toggle": "Tampilkan/Sembunyikan Bilah Samping"
+  },
+  "common": {
+    "close": "Tutup",
+    "remove": "Hapus",
+    "loading": "Memuat"
+  },
+  "languageSwitcher": {
+    "label": "Bahasa",
+    "selectLanguage": "Pilih bahasa"
+  }
+}

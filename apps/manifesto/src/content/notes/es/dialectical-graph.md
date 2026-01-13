@@ -1,0 +1,12 @@
+---
+title: Grafo Dialéctico
+description: Un modelo de grafo de conocimiento que almacena afirmaciones y relaciones en lugar del contenido del documento
+---
+
+Un grafo dialéctico es un grafo de conocimiento que almacena la estructura argumentativa (afirmaciones, definiciones, supuestos, métodos, tramos de evidencia y las relaciones entre ellos) en lugar de tratar los documentos como texto indiferenciado. La idea central es simple: no confundir el texto con el conocimiento. El texto es el empaquetado; el conocimiento es la estructura de restricciones que permite que las afirmaciones se apoyen, se ataquen y se refinen entre sí.
+
+[Coscientist](./coscientist) impone una triple separación: el texto original se preserva como tramos de evidencia citables; las afirmaciones se descomponen en proposiciones normalizadas; y las relaciones se almacenan como vínculos argumentativos explícitos. Esto es una corrección estructural para un modo de fallo común en RAG (retrieval-augmented generation): el truncamiento de extractos. El tramo de evidencia mantiene la redacción exacta y la fuente, la afirmación registra quién sostuvo qué, y una arista `cites` hace explícita la atribución en lugar de dejarla implícita en la prosa.
+
+El grafo también separa una capa de inferencia (la red de afirmaciones en evolución) de una capa narrativa (una proyección con marca temporal adecuada para la lectura). Un documento no es la verdad final; es una instantánea del grafo. Cada oración debería poder retrotraerse a través de afirmación, alcance, supuesto, método, datos, tramo de evidencia y fuente. Sin esa cadena, una oración es solo una oración, no conocimiento.
+
+Para actuar como freno ante el [Colapso de la Enciclopedia](./encyclopedia-meltdown), el sistema prioriza contradicciones y contraejemplos en lugar del consenso. Cuando una afirmación entra en el grafo, la postura predeterminada es adversarial: buscar ataques y socavamientos (undercuts) temprano para que la estructura se actualice mediante refutación en lugar de derivar por repetición. Para tipos concretos de nodos y relaciones, véase [Nodos del Grafo Dialéctico](./dialectical-graph-nodes) y [Aristas del Grafo Dialéctico](./dialectical-graph-edges).

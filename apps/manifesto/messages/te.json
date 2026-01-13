@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "కోసైంటిస్ట్ మేనిఫెస్టో",
+    "description": "అవుట్‌పుట్ టోకెన్లు ≠ జ్ఞానం"
+  },
+  "header": {
+    "title": "కోసైంటిస్ట్ మేనిఫెస్టో"
+  },
+  "allNotes": {
+    "title": "అన్ని నోట్స్",
+    "noteCount": "{count} నోట్స్"
+  },
+  "notePane": {
+    "expand": "పేన్‌ను విస్తరించండి",
+    "expandNote": "{title} ను విస్తరించండి",
+    "closeNote": "{title} ను మూసివేయండి",
+    "closePane": "పేన్ {index} ను మూసివేయండి"
+  },
+  "backlinks": {
+    "singular": "{count} నోట్ దీనికి లింక్ అవుతోంది",
+    "plural": "{count} నోట్స్ దీనికి లింక్ అవుతున్నాయి"
+  },
+  "theme": {
+    "toggle": "థీమ్‌ను మార్చండి"
+  },
+  "navigation": {
+    "previous": "మునుపటి",
+    "next": "తదుపరి",
+    "goToPreviousPage": "మునుపటి పేజీకి వెళ్లండి",
+    "goToNextPage": "తదుపరి పేజీకి వెళ్లండి",
+    "morePages": "మరిన్ని పేజీలు",
+    "pagination": "పేజినేషన్",
+    "breadcrumb": "బ్రెడ్‌క్రంబ్",
+    "more": "మరిన్ని"
+  },
+  "sidebar": {
+    "title": "సైడ్‌బార్",
+    "description": "మొబైల్ సైడ్‌బార్‌ను చూపిస్తుంది.",
+    "toggle": "సైడ్‌బార్‌ను మార్చండి"
+  },
+  "common": {
+    "close": "మూసివేయండి",
+    "remove": "తొలగించండి",
+    "loading": "లోడ్ అవుతోంది"
+  },
+  "languageSwitcher": {
+    "label": "భాష",
+    "selectLanguage": "భాషను ఎంచుకోండి"
+  }
+}

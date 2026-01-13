@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Manifesto del Coscientist",
+    "description": "Token in output ≠ Conoscenza"
+  },
+  "header": {
+    "title": "Manifesto del Coscientist"
+  },
+  "allNotes": {
+    "title": "Tutte le note",
+    "noteCount": "{count} note"
+  },
+  "notePane": {
+    "expand": "Espandi riquadro",
+    "expandNote": "Espandi {title}",
+    "closeNote": "Chiudi {title}",
+    "closePane": "Chiudi riquadro {index}"
+  },
+  "backlinks": {
+    "singular": "{count} nota rimanda a questa",
+    "plural": "{count} note rimandano a questa"
+  },
+  "theme": {
+    "toggle": "Cambia tema"
+  },
+  "navigation": {
+    "previous": "Precedente",
+    "next": "Successivo",
+    "goToPreviousPage": "Vai alla pagina precedente",
+    "goToNextPage": "Vai alla pagina successiva",
+    "morePages": "Altre pagine",
+    "pagination": "paginazione",
+    "breadcrumb": "percorso di navigazione",
+    "more": "Altro"
+  },
+  "sidebar": {
+    "title": "Barra laterale",
+    "description": "Mostra la barra laterale su dispositivi mobili.",
+    "toggle": "Mostra/nascondi barra laterale"
+  },
+  "common": {
+    "close": "Chiudi",
+    "remove": "Rimuovi",
+    "loading": "Caricamento in corso"
+  },
+  "languageSwitcher": {
+    "label": "Lingua",
+    "selectLanguage": "Seleziona lingua"
+  }
+}

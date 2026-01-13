@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "بيان كوساينتست",
+    "description": "رموز المخرجات ≠ معرفة"
+  },
+  "header": {
+    "title": "بيان كوساينتست"
+  },
+  "allNotes": {
+    "title": "جميع الملاحظات",
+    "noteCount": "{count} ملاحظات"
+  },
+  "notePane": {
+    "expand": "توسيع اللوحة",
+    "expandNote": "توسيع {title}",
+    "closeNote": "إغلاق {title}",
+    "closePane": "إغلاق اللوحة {index}"
+  },
+  "backlinks": {
+    "singular": "{count} ملاحظة تشير إلى هذه",
+    "plural": "{count} ملاحظات تشير إلى هذه"
+  },
+  "theme": {
+    "toggle": "تبديل السمة"
+  },
+  "navigation": {
+    "previous": "السابق",
+    "next": "التالي",
+    "goToPreviousPage": "الانتقال إلى الصفحة السابقة",
+    "goToNextPage": "الانتقال إلى الصفحة التالية",
+    "morePages": "صفحات أخرى",
+    "pagination": "ترقيم الصفحات",
+    "breadcrumb": "مسار التنقل",
+    "more": "المزيد"
+  },
+  "sidebar": {
+    "title": "الشريط الجانبي",
+    "description": "يعرض الشريط الجانبي على الهاتف المحمول.",
+    "toggle": "تبديل الشريط الجانبي"
+  },
+  "common": {
+    "close": "إغلاق",
+    "remove": "إزالة",
+    "loading": "جارٍ التحميل"
+  },
+  "languageSwitcher": {
+    "label": "اللغة",
+    "selectLanguage": "اختر اللغة"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "Coscientist-Manifest",
+    "description": "Ausgabe-Tokens ≠ Wissen"
+  },
+  "header": {
+    "title": "Coscientist-Manifest"
+  },
+  "allNotes": {
+    "title": "Alle Notizen",
+    "noteCount": "{count} Notizen"
+  },
+  "notePane": {
+    "expand": "Bereich erweitern",
+    "expandNote": "{title} erweitern",
+    "closeNote": "{title} schließen",
+    "closePane": "Bereich {index} schließen"
+  },
+  "backlinks": {
+    "singular": "{count} Notiz verlinkt hierher",
+    "plural": "{count} Notizen verlinken hierher"
+  },
+  "theme": {
+    "toggle": "Design umschalten"
+  },
+  "navigation": {
+    "previous": "Zurück",
+    "next": "Weiter",
+    "goToPreviousPage": "Zur vorherigen Seite",
+    "goToNextPage": "Zur nächsten Seite",
+    "morePages": "Weitere Seiten",
+    "pagination": "Seitennummerierung",
+    "breadcrumb": "Brotkrumen-Navigation",
+    "more": "Mehr"
+  },
+  "sidebar": {
+    "title": "Seitenleiste",
+    "description": "Zeigt die mobile Seitenleiste an.",
+    "toggle": "Seitenleiste umschalten"
+  },
+  "common": {
+    "close": "Schließen",
+    "remove": "Entfernen",
+    "loading": "Wird geladen"
+  },
+  "languageSwitcher": {
+    "label": "Sprache",
+    "selectLanguage": "Sprache auswählen"
+  }
+}

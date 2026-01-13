@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "কো-সায়েন্টিস্ট ম্যানিফেস্টো",
+    "description": "আউটপুট টোকেন ≠ জ্ঞান"
+  },
+  "header": {
+    "title": "কো-সায়েন্টিস্ট ম্যানিফেস্টো"
+  },
+  "allNotes": {
+    "title": "সব নোট",
+    "noteCount": "{count}টি নোট"
+  },
+  "notePane": {
+    "expand": "পেন প্রসারিত করুন",
+    "expandNote": "{title} প্রসারিত করুন",
+    "closeNote": "{title} বন্ধ করুন",
+    "closePane": "{index} নম্বর পেন বন্ধ করুন"
+  },
+  "backlinks": {
+    "singular": "{count}টি নোট এটি লিংক করেছে",
+    "plural": "{count}টি নোট এটি লিংক করেছে"
+  },
+  "theme": {
+    "toggle": "থিম টগল করুন"
+  },
+  "navigation": {
+    "previous": "আগেরটি",
+    "next": "পরেরটি",
+    "goToPreviousPage": "আগের পেজে যান",
+    "goToNextPage": "পরের পেজে যান",
+    "morePages": "আরও পেজ",
+    "pagination": "পেজিনেশন",
+    "breadcrumb": "ব্রেডক্রাম্ব",
+    "more": "আরও"
+  },
+  "sidebar": {
+    "title": "সাইডবার",
+    "description": "মোবাইল সাইডবার প্রদর্শন করে।",
+    "toggle": "সাইডবার টগল করুন"
+  },
+  "common": {
+    "close": "বন্ধ করুন",
+    "remove": "সরান",
+    "loading": "লোড হচ্ছে"
+  },
+  "languageSwitcher": {
+    "label": "ভাষা",
+    "selectLanguage": "ভাষা নির্বাচন করুন"
+  }
+}

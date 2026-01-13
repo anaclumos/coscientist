@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "کوسائنٹسٹ منشور",
+    "description": "آؤٹ پٹ ٹوکنز ≠ علم"
+  },
+  "header": {
+    "title": "کوسائنٹسٹ منشور"
+  },
+  "allNotes": {
+    "title": "تمام نوٹس",
+    "noteCount": "{count} نوٹس"
+  },
+  "notePane": {
+    "expand": "پینل پھیلائیں",
+    "expandNote": "{title} پھیلائیں",
+    "closeNote": "{title} بند کریں",
+    "closePane": "پینل {index} بند کریں"
+  },
+  "backlinks": {
+    "singular": "{count} نوٹ اس سے لنک کرتا ہے",
+    "plural": "{count} نوٹس اس سے لنک کرتے ہیں"
+  },
+  "theme": {
+    "toggle": "تھیم تبدیل کریں"
+  },
+  "navigation": {
+    "previous": "پچھلا",
+    "next": "اگلا",
+    "goToPreviousPage": "پچھلے صفحے پر جائیں",
+    "goToNextPage": "اگلے صفحے پر جائیں",
+    "morePages": "مزید صفحات",
+    "pagination": "صفحہ بندی",
+    "breadcrumb": "بریڈ کرمب",
+    "more": "مزید"
+  },
+  "sidebar": {
+    "title": "سائیڈبار",
+    "description": "موبائل سائیڈبار دکھاتا ہے۔",
+    "toggle": "سائیڈبار ٹوگل کریں"
+  },
+  "common": {
+    "close": "بند کریں",
+    "remove": "ہٹائیں",
+    "loading": "لوڈ ہو رہا ہے"
+  },
+  "languageSwitcher": {
+    "label": "زبان",
+    "selectLanguage": "زبان منتخب کریں"
+  }
+}

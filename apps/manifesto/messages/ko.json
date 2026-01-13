@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "코사이언티스트 선언",
+    "description": "출력 토큰 ≠ 지식"
+  },
+  "header": {
+    "title": "코사이언티스트 선언"
+  },
+  "allNotes": {
+    "title": "모든 노트",
+    "noteCount": "{count}개 노트"
+  },
+  "notePane": {
+    "expand": "펼치기",
+    "expandNote": "{title} 펼치기",
+    "closeNote": "{title} 닫기",
+    "closePane": "패널 {index} 닫기"
+  },
+  "backlinks": {
+    "singular": "{count}개 노트가 연결됨",
+    "plural": "{count}개 노트가 연결됨"
+  },
+  "theme": {
+    "toggle": "테마 전환"
+  },
+  "navigation": {
+    "previous": "이전",
+    "next": "다음",
+    "goToPreviousPage": "이전 페이지로",
+    "goToNextPage": "다음 페이지로",
+    "morePages": "더 많은 페이지",
+    "pagination": "페이지네이션",
+    "breadcrumb": "브레드크럼",
+    "more": "더 보기"
+  },
+  "sidebar": {
+    "title": "사이드바",
+    "description": "모바일 사이드바를 표시합니다.",
+    "toggle": "사이드바 전환"
+  },
+  "common": {
+    "close": "닫기",
+    "remove": "제거",
+    "loading": "로딩 중"
+  },
+  "languageSwitcher": {
+    "label": "언어",
+    "selectLanguage": "언어 선택"
+  }
+}

@@ -1,0 +1,50 @@
+{
+  "metadata": {
+    "title": "கோசயன்டிஸ்ட் அறிக்கை",
+    "description": "வெளியீட்டு டோக்கன்கள் ≠ அறிவு"
+  },
+  "header": {
+    "title": "கோசயன்டிஸ்ட் அறிக்கை"
+  },
+  "allNotes": {
+    "title": "அனைத்து குறிப்புகள்",
+    "noteCount": "{count} குறிப்புகள்"
+  },
+  "notePane": {
+    "expand": "பலகையை விரிவாக்கு",
+    "expandNote": "{title} ஐ விரிவாக்கு",
+    "closeNote": "{title} ஐ மூடு",
+    "closePane": "{index} பலகையை மூடு"
+  },
+  "backlinks": {
+    "singular": "{count} குறிப்பு இதற்கு இணைக்கிறது",
+    "plural": "{count} குறிப்புகள் இதற்கு இணைக்கின்றன"
+  },
+  "theme": {
+    "toggle": "தீமை மாற்று"
+  },
+  "navigation": {
+    "previous": "முந்தையது",
+    "next": "அடுத்தது",
+    "goToPreviousPage": "முந்தைய பக்கத்திற்கு செல்",
+    "goToNextPage": "அடுத்த பக்கத்திற்கு செல்",
+    "morePages": "மேலும் பக்கங்கள்",
+    "pagination": "பக்கமாற்றம்",
+    "breadcrumb": "வழித்தடம்",
+    "more": "மேலும்"
+  },
+  "sidebar": {
+    "title": "பக்கப்பட்டை",
+    "description": "மொபைல் பக்கப்பட்டையைக் காட்டுகிறது.",
+    "toggle": "பக்கப்பட்டையை மாற்று"
+  },
+  "common": {
+    "close": "மூடு",
+    "remove": "அகற்று",
+    "loading": "ஏற்றுகிறது"
+  },
+  "languageSwitcher": {
+    "label": "மொழி",
+    "selectLanguage": "மொழியைத் தேர்ந்தெடு"
+  }
+}
