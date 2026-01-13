@@ -37,7 +37,7 @@ export function PaneSpine({
             }}
             className={cn(
               "size-5 rounded-full flex items-center justify-center flex-shrink-0 z-modal",
-              "bg-primary/10 text-primary text-xs font-semibold tabular-nums",
+              "bg-primary/10 text-primary text-xs font-semibold tabular-nums font-mono",
               "group-hover/spine:bg-red-500 group-hover/spine:text-white",
               "transition-colors cursor-pointer",
             )}
@@ -47,7 +47,7 @@ export function PaneSpine({
             <X className="size-3 hidden group-hover/spine:block" />
           </button>
         ) : (
-          <span className="size-5 rounded-full bg-primary/10 text-primary text-xs font-semibold flex items-center justify-center tabular-nums flex-shrink-0">
+          <span className="size-5 rounded-full bg-primary/10 text-primary text-xs font-semibold flex items-center justify-center tabular-nums font-mono flex-shrink-0">
             {index}
           </span>
         ))}

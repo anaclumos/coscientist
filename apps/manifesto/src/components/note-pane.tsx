@@ -114,7 +114,7 @@ export function NotePane({
             className={cn(
               "absolute top-2 left-2.5 z-overlay",
               "size-5 rounded-full flex items-center justify-center",
-              "bg-primary/10 text-primary text-xs font-semibold tabular-nums",
+              "bg-primary/10 text-primary text-xs font-semibold tabular-nums font-mono",
               "group-hover:bg-red-500 group-hover:text-white",
               "transition-colors cursor-pointer",
             )}

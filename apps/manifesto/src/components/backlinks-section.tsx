@@ -40,7 +40,7 @@ export function BacklinksSection({
 
   return (
     <section>
-      <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4">
+      <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider mb-4 font-mono">
         {backlinks.length}{" "}
         {backlinks.length === 1 ? "note links" : "notes link"} to this
       </h3>

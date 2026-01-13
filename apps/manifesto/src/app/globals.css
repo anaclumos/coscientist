@@ -67,7 +67,7 @@
   --color-link: var(--link);
   --color-link-visited: var(--link-visited);
   --font-sans: var(--font-faculty-glyphic);
-  --font-mono: var(--font-geist-mono);
+  --font-mono: "Iosevka", ui-monospace, monospace;
   --animate-skeleton: skeleton 2s -1s infinite linear;
   --color-warning-foreground: var(--warning-foreground);
   --color-warning: var(--warning);
