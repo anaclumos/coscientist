@@ -1,6 +1,6 @@
 ---
 title: "Coscientist: Not AGI, But Close Enough"
-description: Whitepaper and personal narrative for the Coscientist system
+description: Manifesto and personal narrative for the Coscientist system
 ---
 
 ## A Personal Quest for a Cognitive Exoskeleton

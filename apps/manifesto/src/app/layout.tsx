@@ -18,7 +18,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Coscientist's Whitepaper",
+  title: "Coscientist Manifesto",
   description: "Not AGI, but close enough",
 };
 
@@ -32,11 +32,11 @@ export default function RootLayout({
       <body
         className={`${facultyGlyphic.variable} ${geistMono.variable} antialiased font-sans h-full flex flex-col`}
       >
-        <ThemeProvider defaultTheme="system" storageKey="whitepaper-theme">
+        <ThemeProvider defaultTheme="system" storageKey="manifesto-theme">
           <header className="h-16 flex items-center justify-between px-6 bg-card border-b border-border sticky top-0 z-50 flex-shrink-0">
             <h1 className="text-lg font-semibold text-foreground">
               <Link href="/" className="hover:text-primary transition-colors">
-                Coscientist's Whitepaper
+                Coscientist Manifesto
               </Link>
             </h1>
             <ThemeToggle />
