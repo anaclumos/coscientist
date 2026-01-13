@@ -119,7 +119,7 @@ RULES:
 1. Preserve ALL markdown formatting (headers, links, bold, italic, lists, blockquotes, code blocks)
 2. Preserve YAML frontmatter structure (--- delimiters)
 3. Translate frontmatter title and description values
-4. For internal links [text](./slug), translate only [text], keep (./slug) unchanged
+4. For internal links [text](./slug), translate [text] to the locale language. Keep (./slug) unchanged.
 5. Preserve wikilinks [[slug]] unchanged
 6. Use fluent, natural ${langName}
 7. Keep technical terms with English in parentheses if no good translation exists
