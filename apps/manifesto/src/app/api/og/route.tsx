@@ -2,8 +2,6 @@ import { ImageResponse } from "@vercel/og";
 import type { NextRequest } from "next/server";
 import { getFacultyGlyphic } from "@/lib/og/fonts";
 
-export const runtime = "edge";
-
 const OG_WIDTH = 2400;
 const OG_HEIGHT = 1260;
 
