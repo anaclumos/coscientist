@@ -5,19 +5,26 @@ export interface StackState {
 
 export function parseStackFromParams(
   rootSlug: string,
-  searchParams: URLSearchParams
+  searchParams: URLSearchParams,
 ): StackState {
-  const stackParam = searchParams.get('stack');
-  const focusParam = searchParams.get('focus');
-  
+  const stackParam = searchParams.get("stack");
+  const focusParam = searchParams.get("focus");
+
   const additionalSlugs = stackParam
-    ? stackParam.split(',').map((slug) => slug.trim()).filter((s) => s.length > 0)
+    ? stackParam
+        .split(",")
+        .map((slug) => slug.trim())
+        .filter((s) => s.length > 0)
     : [];
-  
+
   const stack = [rootSlug, ...additionalSlugs];
-  const parsedFocusIndex = focusParam ? Number.parseInt(focusParam, 10) : stack.length - 1;
-  const focusIndex = Number.isNaN(parsedFocusIndex) ? stack.length - 1 : parsedFocusIndex;
-  
+  const parsedFocusIndex = focusParam
+    ? Number.parseInt(focusParam, 10)
+    : stack.length - 1;
+  const focusIndex = Number.isNaN(parsedFocusIndex)
+    ? stack.length - 1
+    : parsedFocusIndex;
+
   return {
     stack,
     focusIndex: Math.min(Math.max(0, focusIndex), stack.length - 1),
@@ -26,32 +33,33 @@ export function parseStackFromParams(
 
 export function serializeStackToParams(stack: string[]): string {
   if (stack.length <= 1) {
-    return '';
+    return "";
   }
-  
+
   const additionalSlugs = stack.slice(1);
-  return `stack=${additionalSlugs.join(',')}`;
+  return `stack=${additionalSlugs.join(",")}`;
 }
 
 export function buildStackUrl(stack: string[], focusIndex?: number): string {
-  if (stack.length === 0) return '/';
-  
+  if (stack.length === 0) return "/";
+
   const rootSlug = stack[0];
   const stackParams = serializeStackToParams(stack);
-  
+
   const params: string[] = [];
   if (stackParams) params.push(stackParams);
   if (focusIndex !== undefined && focusIndex !== stack.length - 1) {
     params.push(`focus=${focusIndex}`);
   }
-  
-  return `/notes/${rootSlug}${params.length > 0 ? `?${params.join('&')}` : ''}`;
+
+  const basePath = rootSlug === "index" ? "/" : `/${rootSlug}`;
+  return `${basePath}${params.length > 0 ? `?${params.join("&")}` : ""}`;
 }
 
 export function pushToStack(
   currentStack: string[],
   newSlug: string,
-  fromIndex: number
+  fromIndex: number,
 ): string[] {
   if (currentStack.length === 0) {
     return [newSlug];

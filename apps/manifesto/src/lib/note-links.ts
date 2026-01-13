@@ -17,5 +17,6 @@ export function normalizeNoteSlug(href: string): string {
 
 export function buildNoteHref(slug: string): string {
   const normalized = normalizeNoteSlug(slug);
-  return `/notes/${normalized}`;
+  if (normalized === "index") return "/";
+  return `/${normalized}`;
 }
