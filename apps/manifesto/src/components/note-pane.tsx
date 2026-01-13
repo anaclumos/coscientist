@@ -60,7 +60,15 @@ export function NotePane({
         zIndex: `calc(var(--z-pane) + ${index})`,
       }}
     >
-      {isCollapsed && <PaneSpine index={index} title={note.title} />}
+      {isCollapsed && (
+        <PaneSpine
+          index={index}
+          title={note.title}
+          showIndex={index > 0}
+          isClosable={isClosable}
+          onClose={onClose}
+        />
+      )}
 
       <div
         className="absolute top-0 left-0 bottom-0 w-full bg-card group"
@@ -96,14 +104,7 @@ export function NotePane({
           )}
         </ScrollArea>
 
-        {!isCollapsed && (
-          <div className="absolute top-2 left-2 z-overlay pointer-events-none">
-            <span className="size-5 rounded-full bg-primary/10 text-primary text-xs font-semibold flex items-center justify-center tabular-nums">
-              {index + 1}
-            </span>
-          </div>
-        )}
-        {isClosable && !isCollapsed && (
+        {!isCollapsed && isClosable && (
           <button
             type="button"
             onClick={(e) => {
@@ -111,15 +112,16 @@ export function NotePane({
               onClose?.();
             }}
             className={cn(
-              "absolute top-4 right-4 z-overlay",
-              "size-7 rounded-md flex items-center justify-center",
-              "text-muted-foreground hover:text-foreground hover:bg-muted",
-              "opacity-0 group-hover:opacity-100 focus:opacity-100",
-              "transition-opacity",
+              "absolute top-2 left-2.5 z-overlay",
+              "size-5 rounded-full flex items-center justify-center",
+              "bg-primary/10 text-primary text-xs font-semibold tabular-nums",
+              "group-hover:bg-red-500 group-hover:text-white",
+              "transition-colors cursor-pointer",
             )}
             aria-label={`Close ${note.title}`}
           >
-            <X className="size-4" />
+            <span className="group-hover:hidden">{index}</span>
+            <X className="size-3 hidden group-hover:block" />
           </button>
         )}
       </div>
