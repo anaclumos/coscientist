@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "title": "코사이언티스트 선언",
+    "title": "코사이언티스트 선언문",
     "description": "출력 토큰 ≠ 지식"
   },
   "header": {
-    "title": "코사이언티스트 선언"
+    "title": "코사이언티스트 선언문"
   },
   "allNotes": {
-    "title": "모든 노트",
-    "noteCount": "{count}개 노트"
+    "title": "전체 노트",
+    "noteCount": "노트 {count}개"
   },
   "notePane": {
-    "expand": "펼치기",
-    "expandNote": "{title} 펼치기",
+    "expand": "창 확장",
+    "expandNote": "{title} 확장",
     "closeNote": "{title} 닫기",
-    "closePane": "패널 {index} 닫기"
+    "closePane": "{index}번 창 닫기"
   },
   "backlinks": {
-    "singular": "{count}개 노트가 연결됨",
-    "plural": "{count}개 노트가 연결됨"
+    "singular": "이 노트로 연결된 링크 {count}개",
+    "plural": "이 노트로 연결된 링크 {count}개"
   },
   "theme": {
     "toggle": "테마 전환"
@@ -26,12 +26,12 @@
   "navigation": {
     "previous": "이전",
     "next": "다음",
-    "goToPreviousPage": "이전 페이지로",
-    "goToNextPage": "다음 페이지로",
+    "goToPreviousPage": "이전 페이지로 이동",
+    "goToNextPage": "다음 페이지로 이동",
     "morePages": "더 많은 페이지",
     "pagination": "페이지네이션",
-    "breadcrumb": "브레드크럼",
-    "more": "더 보기"
+    "breadcrumb": "탐색 경로",
+    "more": "더보기"
   },
   "sidebar": {
     "title": "사이드바",
@@ -40,7 +40,7 @@
   },
   "common": {
     "close": "닫기",
-    "remove": "제거",
+    "remove": "삭제",
     "loading": "로딩 중"
   },
   "languageSwitcher": {

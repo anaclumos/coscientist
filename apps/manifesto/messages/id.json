@@ -17,8 +17,8 @@
     "closePane": "Tutup panel {index}"
   },
   "backlinks": {
-    "singular": "{count} catatan menaut ke ini",
-    "plural": "{count} catatan menaut ke ini"
+    "singular": "{count} catatan menautkan ke ini",
+    "plural": "{count} catatan menautkan ke ini"
   },
   "theme": {
     "toggle": "Ganti tema"
@@ -30,7 +30,7 @@
     "goToNextPage": "Ke halaman berikutnya",
     "morePages": "Halaman lainnya",
     "pagination": "paginasi",
-    "breadcrumb": "remah roti",
+    "breadcrumb": "breadcrumb",
     "more": "Lainnya"
   },
   "sidebar": {

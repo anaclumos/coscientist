@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Manifest koscyentysty",
+    "title": "Manifest Coscientist",
     "description": "Tokeny wyjściowe ≠ wiedza"
   },
   "header": {
-    "title": "Manifest koscyentysty"
+    "title": "Manifest Coscientist"
   },
   "allNotes": {
     "title": "Wszystkie notatki",
@@ -12,13 +12,13 @@
   },
   "notePane": {
     "expand": "Rozwiń panel",
-    "expandNote": "Rozwiń: {title}",
-    "closeNote": "Zamknij: {title}",
+    "expandNote": "Rozwiń {title}",
+    "closeNote": "Zamknij {title}",
     "closePane": "Zamknij panel {index}"
   },
   "backlinks": {
-    "singular": "{count} notatka odsyła tutaj",
-    "plural": "{count} notatki odsyłają tutaj"
+    "singular": "{count} notatka prowadzi do tego",
+    "plural": "{count} notatki prowadzą do tego"
   },
   "theme": {
     "toggle": "Przełącz motyw"
@@ -35,13 +35,13 @@
   },
   "sidebar": {
     "title": "Panel boczny",
-    "description": "Wyświetla panel boczny w wersji mobilnej.",
+    "description": "Wyświetla mobilny panel boczny.",
     "toggle": "Przełącz panel boczny"
   },
   "common": {
     "close": "Zamknij",
     "remove": "Usuń",
-    "loading": "Ładowanie"
+    "loading": "Wczytywanie"
   },
   "languageSwitcher": {
     "label": "Język",

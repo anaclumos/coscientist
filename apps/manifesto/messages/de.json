@@ -17,11 +17,11 @@
     "closePane": "Bereich {index} schließen"
   },
   "backlinks": {
-    "singular": "{count} Notiz verlinkt hierher",
-    "plural": "{count} Notizen verlinken hierher"
+    "singular": "{count} Notiz verweist darauf",
+    "plural": "{count} Notizen verweisen darauf"
   },
   "theme": {
-    "toggle": "Design umschalten"
+    "toggle": "Theme umschalten"
   },
   "navigation": {
     "previous": "Zurück",
@@ -30,7 +30,7 @@
     "goToNextPage": "Zur nächsten Seite",
     "morePages": "Weitere Seiten",
     "pagination": "Seitennummerierung",
-    "breadcrumb": "Brotkrumen-Navigation",
+    "breadcrumb": "Breadcrumb",
     "more": "Mehr"
   },
   "sidebar": {

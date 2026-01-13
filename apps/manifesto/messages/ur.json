@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "کوسائنٹسٹ منشور",
-    "description": "آؤٹ پٹ ٹوکنز ≠ علم"
+    "description": "آؤٹ پُٹ ٹوکنز ≠ علم"
   },
   "header": {
     "title": "کوسائنٹسٹ منشور"
@@ -11,14 +11,14 @@
     "noteCount": "{count} نوٹس"
   },
   "notePane": {
-    "expand": "پینل پھیلائیں",
-    "expandNote": "{title} پھیلائیں",
+    "expand": "پین کو پھیلائیں",
+    "expandNote": "{title} کو پھیلائیں",
     "closeNote": "{title} بند کریں",
-    "closePane": "پینل {index} بند کریں"
+    "closePane": "پین {index} بند کریں"
   },
   "backlinks": {
-    "singular": "{count} نوٹ اس سے لنک کرتا ہے",
-    "plural": "{count} نوٹس اس سے لنک کرتے ہیں"
+    "singular": "{count} نوٹ اس سے لنک ہے",
+    "plural": "{count} نوٹس اس سے لنک ہیں"
   },
   "theme": {
     "toggle": "تھیم تبدیل کریں"

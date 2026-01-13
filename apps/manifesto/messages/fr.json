@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Manifeste Coscientist",
-    "description": "Jetons de sortie ≠ connaissance"
+    "description": "Tokens de sortie ≠ connaissance"
   },
   "header": {
     "title": "Manifeste Coscientist"
@@ -21,7 +21,7 @@
     "plural": "{count} notes renvoient vers ceci"
   },
   "theme": {
-    "toggle": "Changer de thème"
+    "toggle": "Basculer le thème"
   },
   "navigation": {
     "previous": "Précédent",
@@ -36,7 +36,7 @@
   "sidebar": {
     "title": "Barre latérale",
     "description": "Affiche la barre latérale sur mobile.",
-    "toggle": "Afficher/Masquer la barre latérale"
+    "toggle": "Basculer la barre latérale"
   },
   "common": {
     "close": "Fermer",
@@ -45,6 +45,6 @@
   },
   "languageSwitcher": {
     "label": "Langue",
-    "selectLanguage": "Sélectionner une langue"
+    "selectLanguage": "Sélectionner la langue"
   }
 }

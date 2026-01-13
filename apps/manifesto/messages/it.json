@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Manifesto del Coscientist",
-    "description": "Token in output ≠ Conoscenza"
+    "description": "Token in uscita ≠ conoscenza"
   },
   "header": {
     "title": "Manifesto del Coscientist"
@@ -30,18 +30,18 @@
     "goToNextPage": "Vai alla pagina successiva",
     "morePages": "Altre pagine",
     "pagination": "paginazione",
-    "breadcrumb": "percorso di navigazione",
+    "breadcrumb": "breadcrumb",
     "more": "Altro"
   },
   "sidebar": {
     "title": "Barra laterale",
-    "description": "Mostra la barra laterale su dispositivi mobili.",
+    "description": "Mostra la barra laterale su mobile.",
     "toggle": "Mostra/nascondi barra laterale"
   },
   "common": {
     "close": "Chiudi",
     "remove": "Rimuovi",
-    "loading": "Caricamento in corso"
+    "loading": "Caricamento"
   },
   "languageSwitcher": {
     "label": "Lingua",

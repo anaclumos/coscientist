@@ -1,14 +1,14 @@
 {
   "metadata": {
     "title": "แถลงการณ์ Coscientist",
-    "description": "โทเค็นผลลัพธ์ ≠ ความรู้"
+    "description": "โทเคนผลลัพธ์ ≠ ความรู้"
   },
   "header": {
     "title": "แถลงการณ์ Coscientist"
   },
   "allNotes": {
-    "title": "บันทึกทั้งหมด",
-    "noteCount": "{count} บันทึก"
+    "title": "โน้ตทั้งหมด",
+    "noteCount": "{count} โน้ต"
   },
   "notePane": {
     "expand": "ขยายแผง",
@@ -17,8 +17,8 @@
     "closePane": "ปิดแผง {index}"
   },
   "backlinks": {
-    "singular": "{count} บันทึกลิงก์มายังหน้านี้",
-    "plural": "{count} บันทึกลิงก์มายังหน้านี้"
+    "singular": "มี {count} โน้ตที่ลิงก์มาที่นี่",
+    "plural": "มี {count} โน้ตที่ลิงก์มาที่นี่"
   },
   "theme": {
     "toggle": "สลับธีม"

@@ -17,8 +17,8 @@
     "closePane": "Paneel {index} sluiten"
   },
   "backlinks": {
-    "singular": "{count} notitie verwijst hiernaar",
-    "plural": "{count} notities verwijzen hiernaar"
+    "singular": "{count} notitie linkt hiernaar",
+    "plural": "{count} notities linken hiernaar"
   },
   "theme": {
     "toggle": "Thema wisselen"
@@ -28,15 +28,15 @@
     "next": "Volgende",
     "goToPreviousPage": "Ga naar de vorige pagina",
     "goToNextPage": "Ga naar de volgende pagina",
-    "morePages": "Meer pagina's",
+    "morePages": "Meer pagina’s",
     "pagination": "paginering",
     "breadcrumb": "broodkruimelpad",
     "more": "Meer"
   },
   "sidebar": {
     "title": "Zijbalk",
-    "description": "Toont de zijbalk op mobiel.",
-    "toggle": "Zijbalk in-/uitschakelen"
+    "description": "Toont de mobiele zijbalk.",
+    "toggle": "Zijbalk in-/uitklappen"
   },
   "common": {
     "close": "Sluiten",
@@ -45,6 +45,6 @@
   },
   "languageSwitcher": {
     "label": "Taal",
-    "selectLanguage": "Selecteer taal"
+    "selectLanguage": "Selecteer een taal"
   }
 }

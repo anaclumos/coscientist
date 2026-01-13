@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Manifiesto del Coscientist",
-    "description": "Tokens de salida ≠ conocimiento"
+    "title": "Manifiesto de Coscientist",
+    "description": "Los tokens de salida ≠ conocimiento"
   },
   "header": {
-    "title": "Manifiesto del Coscientist"
+    "title": "Manifiesto de Coscientist"
   },
   "allNotes": {
     "title": "Todas las notas",
@@ -30,7 +30,7 @@
     "goToNextPage": "Ir a la página siguiente",
     "morePages": "Más páginas",
     "pagination": "paginación",
-    "breadcrumb": "miga de pan",
+    "breadcrumb": "migas de pan",
     "more": "Más"
   },
   "sidebar": {

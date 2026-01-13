@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "Маніфест косаєнтиста",
+    "title": "Маніфест Coscientist",
     "description": "Вихідні токени ≠ знання"
   },
   "header": {
-    "title": "Маніфест косаєнтиста"
+    "title": "Маніфест Coscientist"
   },
   "allNotes": {
     "title": "Усі нотатки",
@@ -12,8 +12,8 @@
   },
   "notePane": {
     "expand": "Розгорнути панель",
-    "expandNote": "Розгорнути «{title}»",
-    "closeNote": "Закрити «{title}»",
+    "expandNote": "Розгорнути {title}",
+    "closeNote": "Закрити {title}",
     "closePane": "Закрити панель {index}"
   },
   "backlinks": {
@@ -30,7 +30,7 @@
     "goToNextPage": "Перейти на наступну сторінку",
     "morePages": "Більше сторінок",
     "pagination": "пагінація",
-    "breadcrumb": "навігаційний ланцюжок",
+    "breadcrumb": "навігаційна стежка",
     "more": "Більше"
   },
   "sidebar": {
@@ -45,6 +45,6 @@
   },
   "languageSwitcher": {
     "label": "Мова",
-    "selectLanguage": "Виберіть мову"
+    "selectLanguage": "Вибрати мову"
   }
 }

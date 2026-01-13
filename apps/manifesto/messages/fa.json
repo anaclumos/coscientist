@@ -7,7 +7,7 @@
     "title": "مانیفست Coscientist"
   },
   "allNotes": {
-    "title": "همه یادداشت‌ها",
+    "title": "همهٔ یادداشت‌ها",
     "noteCount": "{count} یادداشت"
   },
   "notePane": {
@@ -17,11 +17,11 @@
     "closePane": "بستن پنل {index}"
   },
   "backlinks": {
-    "singular": "{count} یادداشت به این لینک داده است",
-    "plural": "{count} یادداشت به این لینک داده‌اند"
+    "singular": "{count} یادداشت به این لینک دارد",
+    "plural": "{count} یادداشت به این لینک دارند"
   },
   "theme": {
-    "toggle": "تغییر تم"
+    "toggle": "تغییر پوسته"
   },
   "navigation": {
     "previous": "قبلی",
@@ -30,7 +30,7 @@
     "goToNextPage": "رفتن به صفحهٔ بعدی",
     "morePages": "صفحه‌های بیشتر",
     "pagination": "صفحه‌بندی",
-    "breadcrumb": "مسیر راهنما",
+    "breadcrumb": "مسیر پیمایش",
     "more": "بیشتر"
   },
   "sidebar": {

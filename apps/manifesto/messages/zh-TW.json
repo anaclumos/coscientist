@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "title": "科學家宣言",
-    "description": "輸出令牌 ≠ 知識"
+    "title": "共科學家宣言",
+    "description": "輸出 Token ≠ 知識"
   },
   "header": {
-    "title": "科學家宣言"
+    "title": "共科學家宣言"
   },
   "allNotes": {
     "title": "所有筆記",
-    "noteCount": "{count} 篇筆記"
+    "noteCount": "{count} 則筆記"
   },
   "notePane": {
-    "expand": "展開",
+    "expand": "展開窗格",
     "expandNote": "展開 {title}",
     "closeNote": "關閉 {title}",
-    "closePane": "關閉面板 {index}"
+    "closePane": "關閉窗格 {index}"
   },
   "backlinks": {
-    "singular": "{count} 篇筆記連結到此",
-    "plural": "{count} 篇筆記連結到此"
+    "singular": "{count} 則筆記連結至此",
+    "plural": "{count} 則筆記連結至此"
   },
   "theme": {
     "toggle": "切換主題"
@@ -29,8 +29,8 @@
     "goToPreviousPage": "前往上一頁",
     "goToNextPage": "前往下一頁",
     "morePages": "更多頁面",
-    "pagination": "分頁",
-    "breadcrumb": "麵包屑",
+    "pagination": "分頁導覽",
+    "breadcrumb": "麵包屑導覽",
     "more": "更多"
   },
   "sidebar": {

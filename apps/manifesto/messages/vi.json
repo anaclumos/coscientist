@@ -25,12 +25,12 @@
   },
   "navigation": {
     "previous": "Trước",
-    "next": "Sau",
+    "next": "Tiếp",
     "goToPreviousPage": "Đi đến trang trước",
-    "goToNextPage": "Đi đến trang sau",
+    "goToNextPage": "Đi đến trang tiếp theo",
     "morePages": "Thêm trang",
     "pagination": "phân trang",
-    "breadcrumb": "đường dẫn điều hướng",
+    "breadcrumb": "đường dẫn",
     "more": "Thêm"
   },
   "sidebar": {

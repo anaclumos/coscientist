@@ -14,7 +14,7 @@
     "expand": "Paneli genişlet",
     "expandNote": "{title} başlığını genişlet",
     "closeNote": "{title} başlığını kapat",
-    "closePane": "{index} numaralı paneli kapat"
+    "closePane": "{index}. paneli kapat"
   },
   "backlinks": {
     "singular": "{count} not buna bağlantı veriyor",
@@ -35,8 +35,8 @@
   },
   "sidebar": {
     "title": "Kenar Çubuğu",
-    "description": "Mobil kenar çubuğunu gösterir.",
-    "toggle": "Kenar çubuğunu aç/kapat"
+    "description": "Mobil kenar çubuğunu görüntüler.",
+    "toggle": "Kenar Çubuğunu Aç/Kapat"
   },
   "common": {
     "close": "Kapat",

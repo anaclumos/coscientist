@@ -1,35 +1,35 @@
 {
   "metadata": {
-    "title": "কো-সায়েন্টিস্ট ম্যানিফেস্টো",
+    "title": "কো-সায়েন্টিস্ট ঘোষণা",
     "description": "আউটপুট টোকেন ≠ জ্ঞান"
   },
   "header": {
-    "title": "কো-সায়েন্টিস্ট ম্যানিফেস্টো"
+    "title": "কো-সায়েন্টিস্ট ঘোষণা"
   },
   "allNotes": {
     "title": "সব নোট",
     "noteCount": "{count}টি নোট"
   },
   "notePane": {
-    "expand": "পেন প্রসারিত করুন",
+    "expand": "প্যান প্রসারিত করুন",
     "expandNote": "{title} প্রসারিত করুন",
     "closeNote": "{title} বন্ধ করুন",
-    "closePane": "{index} নম্বর পেন বন্ধ করুন"
+    "closePane": "{index} নম্বর প্যান বন্ধ করুন"
   },
   "backlinks": {
-    "singular": "{count}টি নোট এটি লিংক করেছে",
-    "plural": "{count}টি নোট এটি লিংক করেছে"
+    "singular": "{count}টি নোট এতে লিঙ্ক করে",
+    "plural": "{count}টি নোট এতে লিঙ্ক করে"
   },
   "theme": {
     "toggle": "থিম টগল করুন"
   },
   "navigation": {
-    "previous": "আগেরটি",
-    "next": "পরেরটি",
-    "goToPreviousPage": "আগের পেজে যান",
-    "goToNextPage": "পরের পেজে যান",
-    "morePages": "আরও পেজ",
-    "pagination": "পেজিনেশন",
+    "previous": "আগের",
+    "next": "পরের",
+    "goToPreviousPage": "আগের পৃষ্ঠায় যান",
+    "goToNextPage": "পরের পৃষ্ঠায় যান",
+    "morePages": "আরও পৃষ্ঠা",
+    "pagination": "পৃষ্ঠা বিভাজন",
     "breadcrumb": "ব্রেডক্রাম্ব",
     "more": "আরও"
   },

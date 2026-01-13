@@ -1,41 +1,41 @@
 {
   "metadata": {
-    "title": "Манифест Coscientist",
-    "description": "Выходные токены ≠ Знание"
+    "title": "Манифест косайентиста",
+    "description": "Выходные токены ≠ знание"
   },
   "header": {
-    "title": "Манифест Coscientist"
+    "title": "Манифест косайентиста"
   },
   "allNotes": {
     "title": "Все заметки",
     "noteCount": "{count} заметок"
   },
   "notePane": {
-    "expand": "Развернуть",
-    "expandNote": "Развернуть {title}",
-    "closeNote": "Закрыть {title}",
+    "expand": "Развернуть панель",
+    "expandNote": "Развернуть «{title}»",
+    "closeNote": "Закрыть «{title}»",
     "closePane": "Закрыть панель {index}"
   },
   "backlinks": {
-    "singular": "{count} заметка ссылается сюда",
-    "plural": "{count} заметок ссылаются сюда"
+    "singular": "{count} заметка ссылается на это",
+    "plural": "{count} заметок ссылаются на это"
   },
   "theme": {
-    "toggle": "Сменить тему"
+    "toggle": "Переключить тему"
   },
   "navigation": {
     "previous": "Назад",
-    "next": "Далее",
+    "next": "Вперёд",
     "goToPreviousPage": "Перейти на предыдущую страницу",
     "goToNextPage": "Перейти на следующую страницу",
-    "morePages": "Больше страниц",
+    "morePages": "Ещё страницы",
     "pagination": "пагинация",
-    "breadcrumb": "хлебные крошки",
+    "breadcrumb": "навигационная цепочка",
     "more": "Ещё"
   },
   "sidebar": {
     "title": "Боковая панель",
-    "description": "Отображает мобильную боковую панель.",
+    "description": "Отображает боковую панель на мобильных устройствах.",
     "toggle": "Переключить боковую панель"
   },
   "common": {
@@ -45,6 +45,6 @@
   },
   "languageSwitcher": {
     "label": "Язык",
-    "selectLanguage": "Выбрать язык"
+    "selectLanguage": "Выберите язык"
   }
 }

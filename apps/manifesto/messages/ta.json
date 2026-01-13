@@ -1,10 +1,10 @@
 {
   "metadata": {
-    "title": "கோசயன்டிஸ்ட் அறிக்கை",
-    "description": "வெளியீட்டு டோக்கன்கள் ≠ அறிவு"
+    "title": "கோசையன்டிஸ்ட் அறிக்கை",
+    "description": "வெளியீட்டு டோகன்கள் ≠ அறிவு"
   },
   "header": {
-    "title": "கோசயன்டிஸ்ட் அறிக்கை"
+    "title": "கோசையன்டிஸ்ட் அறிக்கை"
   },
   "allNotes": {
     "title": "அனைத்து குறிப்புகள்",
@@ -14,23 +14,23 @@
     "expand": "பலகையை விரிவாக்கு",
     "expandNote": "{title} ஐ விரிவாக்கு",
     "closeNote": "{title} ஐ மூடு",
-    "closePane": "{index} பலகையை மூடு"
+    "closePane": "பலகை {index} ஐ மூடு"
   },
   "backlinks": {
     "singular": "{count} குறிப்பு இதற்கு இணைக்கிறது",
     "plural": "{count} குறிப்புகள் இதற்கு இணைக்கின்றன"
   },
   "theme": {
-    "toggle": "தீமை மாற்று"
+    "toggle": "தீமைக் மாற்று"
   },
   "navigation": {
     "previous": "முந்தையது",
     "next": "அடுத்தது",
-    "goToPreviousPage": "முந்தைய பக்கத்திற்கு செல்",
-    "goToNextPage": "அடுத்த பக்கத்திற்கு செல்",
+    "goToPreviousPage": "முந்தைய பக்கத்திற்குச் செல்",
+    "goToNextPage": "அடுத்த பக்கத்திற்குச் செல்",
     "morePages": "மேலும் பக்கங்கள்",
-    "pagination": "பக்கமாற்றம்",
-    "breadcrumb": "வழித்தடம்",
+    "pagination": "பக்கமிடல்",
+    "breadcrumb": "வழிச்சுவடு",
     "more": "மேலும்"
   },
   "sidebar": {
@@ -40,11 +40,11 @@
   },
   "common": {
     "close": "மூடு",
-    "remove": "அகற்று",
+    "remove": "நீக்கு",
     "loading": "ஏற்றுகிறது"
   },
   "languageSwitcher": {
     "label": "மொழி",
-    "selectLanguage": "மொழியைத் தேர்ந்தெடு"
+    "selectLanguage": "மொழியைத் தேர்ந்தெடுக்கவும்"
   }
 }

@@ -1,42 +1,42 @@
 {
   "metadata": {
-    "title": "コサイエンティスト宣言",
+    "title": "Coscientist マニフェスト",
     "description": "出力トークン ≠ 知識"
   },
   "header": {
-    "title": "コサイエンティスト宣言"
+    "title": "Coscientist マニフェスト"
   },
   "allNotes": {
     "title": "すべてのノート",
     "noteCount": "{count}件のノート"
   },
   "notePane": {
-    "expand": "展開",
+    "expand": "ペインを展開",
     "expandNote": "{title}を展開",
     "closeNote": "{title}を閉じる",
-    "closePane": "パネル{index}を閉じる"
+    "closePane": "ペイン{index}を閉じる"
   },
   "backlinks": {
-    "singular": "{count}件のノートがリンク",
-    "plural": "{count}件のノートがリンク"
+    "singular": "{count}件のノートがこれにリンクしています",
+    "plural": "{count}件のノートがこれにリンクしています"
   },
   "theme": {
-    "toggle": "テーマ切替"
+    "toggle": "テーマを切り替え"
   },
   "navigation": {
     "previous": "前へ",
     "next": "次へ",
-    "goToPreviousPage": "前のページへ",
-    "goToNextPage": "次のページへ",
-    "morePages": "その他のページ",
+    "goToPreviousPage": "前のページへ移動",
+    "goToNextPage": "次のページへ移動",
+    "morePages": "他のページ",
     "pagination": "ページネーション",
     "breadcrumb": "パンくずリスト",
     "more": "もっと見る"
   },
   "sidebar": {
     "title": "サイドバー",
-    "description": "モバイルサイドバーを表示します。",
-    "toggle": "サイドバー切替"
+    "description": "モバイル用サイドバーを表示します。",
+    "toggle": "サイドバーを切り替え"
   },
   "common": {
     "close": "閉じる",

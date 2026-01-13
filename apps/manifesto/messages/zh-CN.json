@@ -1,24 +1,24 @@
 {
   "metadata": {
-    "title": "科学家宣言",
-    "description": "输出令牌 ≠ 知识"
+    "title": "Coscientist 宣言",
+    "description": "输出 Token ≠ 知识"
   },
   "header": {
-    "title": "科学家宣言"
+    "title": "Coscientist 宣言"
   },
   "allNotes": {
-    "title": "所有笔记",
-    "noteCount": "{count} 篇笔记"
+    "title": "全部笔记",
+    "noteCount": "{count} 条笔记"
   },
   "notePane": {
-    "expand": "展开",
+    "expand": "展开面板",
     "expandNote": "展开 {title}",
     "closeNote": "关闭 {title}",
     "closePane": "关闭面板 {index}"
   },
   "backlinks": {
-    "singular": "{count} 篇笔记链接到此",
-    "plural": "{count} 篇笔记链接到此"
+    "singular": "有 {count} 条笔记链接到此处",
+    "plural": "有 {count} 条笔记链接到此处"
   },
   "theme": {
     "toggle": "切换主题"
@@ -30,7 +30,7 @@
     "goToNextPage": "转到下一页",
     "morePages": "更多页面",
     "pagination": "分页",
-    "breadcrumb": "面包屑",
+    "breadcrumb": "面包屑导航",
     "more": "更多"
   },
   "sidebar": {
