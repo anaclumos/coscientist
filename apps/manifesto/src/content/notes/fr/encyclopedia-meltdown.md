@@ -1,8 +1,6 @@
 ---
 title: Effondrement encyclopédique
-description:
-  Phénomène d’effondrement des connaissances lorsque l’IA prend l’initiative
-  sans intervention humaine
+description: "Phénomène d’effondrement des connaissances lorsque l’IA prend l’initiative sans intervention humaine"
 sourceLocale: en
 sourceHash: 9dd770ce12d3
 translatedAt: 2026-01-14
@@ -13,7 +11,7 @@ connaissances qui commence lorsque l’initiative et le contrôle de l’écritu
 basculent vers l’IA sans l’intervention consciente de l’[Opérateur](./operator).
 Le terme vient d’un essai de [Sunghyun Cho](./sunghyun-cho).
 
-L’effondrement émerge généralement de trois boucles couplées :
+L’effondrement émerge généralement de trois boucles couplées : 
 
 1. **Génération → citation** : les sorties du modèle sont réingérées dans le
    corpus puis citées plus tard comme si elles étaient des faits externes.

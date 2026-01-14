@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: Yapay zekâ sonrası çağda bilgi üretimi için bir entelektüel yoldaş sistemi
+description: "Yapay zekâ sonrası çağda bilgi üretimi için bir entelektüel yoldaş sistemi"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14

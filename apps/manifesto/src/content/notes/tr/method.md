@@ -1,6 +1,6 @@
 ---
 title: Yöntem
-description: Kanıt veya sonuç üretmek için kullanılan süreç
+description: "Kanıt veya sonuç üretmek için kullanılan süreç"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14

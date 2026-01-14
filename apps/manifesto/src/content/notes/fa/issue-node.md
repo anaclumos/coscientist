@@ -1,6 +1,6 @@
 ---
 title: گره مسئله
-description: بسته‌ای از خوشه‌های ادعا که در یک گراف دیالکتیکی با هم برخورد می‌کنند
+description: "بسته‌ای از خوشه‌های ادعا که در یک گراف دیالکتیکی با هم برخورد می‌کنند"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14

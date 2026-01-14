@@ -1,6 +1,6 @@
 ---
 title: Tấn công
-description: Một thách thức trực tiếp đối với tính đúng của một khẳng định
+description: "Một thách thức trực tiếp đối với tính đúng của một khẳng định"
 sourceLocale: en
 sourceHash: 775f1f75f883
 translatedAt: 2026-01-14

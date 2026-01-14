@@ -1,6 +1,6 @@
 ---
 title: Fuente
-description: Un ancla de procedencia para afirmaciones y evidencias
+description: "Un ancla de procedencia para afirmaciones y evidencias"
 sourceLocale: en
 sourceHash: 73116d209a24
 translatedAt: 2026-01-14

@@ -1,13 +1,13 @@
 ---
 title: Coscientist
-description: Un sistema de acompañante intelectual para la producción de conocimiento en la era pos-IA
+description: "Un sistema de acompañante intelectual para la producción de conocimiento en la era pos-IA"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14
 ---
 
 Coscientist es un servicio de código abierto inspirado en la
-[Enciclopedia Galactica](./encyclopedia-galactica) ficticia de
+[Enciclopedia Galáctica](./encyclopedia-galactica) ficticia de
 [Isaac Asimov](./isaac-asimov). Está pensado para ser más que un
 [arca del conocimiento](./knowledge-ark) de información: un
 [acompañante intelectual](./intellectual-companion) que realiza

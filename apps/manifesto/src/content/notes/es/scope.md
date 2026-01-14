@@ -1,6 +1,6 @@
 ---
 title: Alcance
-description: Las condiciones de aplicabilidad de una afirmación
+description: "Las condiciones de aplicabilidad de una afirmación"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14

@@ -1,7 +1,7 @@
 ---
 title: Methode
-description: Das Verfahren, das verwendet wird, um Evidenz zu erzeugen oder
-  Schlussfolgerungen abzuleiten
+description: "Das Verfahren, das verwendet wird, um Evidenz zu erzeugen oder
+  Schlussfolgerungen abzuleiten"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14
@@ -20,6 +20,6 @@ Methode und Schlussfolgerung: Behauptungen nach Methode statt nach
 Schlussfolgerung zu clustern, um geteilte Verwundbarkeiten zu erkennen.
 
 In einem [Dialektischen Graphen](./dialectical-graph) sind Methoden Knoten, die
-mit Behauptungen und Evidenz verbunden sind ). Ein [Undercut](./undercut) kann
+mit Behauptungen und Evidenz verbunden sind. Ein [Undercut](./undercut) kann
 die Methode angreifen und argumentieren, dass das Verfahren fehlerhaft war,
 selbst wenn die Daten korrekt berichtet wurden.

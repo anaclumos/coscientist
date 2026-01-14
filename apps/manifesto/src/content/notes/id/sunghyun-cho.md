@@ -1,6 +1,6 @@
 ---
 title: Sunghyun Cho
-description: Pembuat Coscientist dan penulis esai-esai dasar yang menjadi fondasinya
+description: "Pembuat Coscientist dan penulis esai-esai dasar yang menjadi fondasinya"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14
@@ -8,7 +8,7 @@ translatedAt: 2026-01-14
 
 Sunghyun Cho adalah pembuat [Kosaintis](./coscientist) dan penulis esai yang
 membentuk arah pengembangannya. Karyanya menghubungkan perkakas pengetahuan
-personal dan [Extracranial](./extracranial)) dengan satu perhatian yang lebih
+personal dan [Extracranial](./extracranial) dengan satu perhatian yang lebih
 luas: bagaimana menjaga verifikasi dan agensi tetap utuh dalam lingkungan yang
 jenuh AI.
 

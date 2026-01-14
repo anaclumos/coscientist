@@ -1,16 +1,14 @@
 ---
 title: Pengetikan Relasi vs Kemiripan
-description:
-  Mengapa edge bertipe memecahkan apa yang tidak bisa dilakukan oleh pengambilan
-  berbasis kemiripan
+description: "Mengapa edge bertipe memecahkan apa yang tidak bisa dilakukan oleh pengambilan berbasis kemiripan"
 sourceLocale: en
 sourceHash: ae787ed89f61
 translatedAt: 2026-01-14
 ---
 
 Pengetikan relasi vs kemiripan membandingkan dua pendekatan untuk menghubungkan
-pengetahuan: pengambilan berbasis kemiripan ) bertanya "ini tentang apa?",
-sedangkan graf dengan relasi bertipe ) bertanya "apa dampak ini terhadap itu?"
+pengetahuan: pengambilan berbasis kemiripan. bertanya "ini tentang apa?",
+sedangkan graf dengan relasi bertipe. bertanya "apa dampak ini terhadap itu?"
 
 Pengambilan berbasis kemiripan memunculkan dokumen yang memakai kata-kata
 serupa. Ia tidak bisa memberi tahu Anda apakah dokumen-dokumen itu sepakat,

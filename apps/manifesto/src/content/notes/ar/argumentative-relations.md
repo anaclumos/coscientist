@@ -1,6 +1,6 @@
 ---
 title: العلاقات الحِجاجية
-description: أنواع الحواف في الرسم البياني الجدلي مُنظَّمة حسب الوظيفة
+description: "أنواع الحواف في الرسم البياني الجدلي مُنظَّمة حسب الوظيفة"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -29,7 +29,7 @@ translatedAt: 2026-01-14
 - `refines` — يُضيّق الادّعاء أو يُوضِّحه
 - `generalizes` / `specializes` — تعديلات على النطاق
 - `depends_on` — يربط الادّعاءات بـ[افتراضاتها](./assumption)
-- `defines` — يصل المصطلحات بتعريفاتها )
+- `defines` — يصل المصطلحات بتعريفاتها
 
 انظر [حواف الرسم البياني الجدلي](./dialectical-graph-edges) للمواصفات الكاملة
 و[تصنيف العلاقات مقابل التشابه](./relation-typing-vs-similarity) لمعرفة سبب

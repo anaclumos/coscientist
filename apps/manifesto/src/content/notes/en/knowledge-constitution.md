@@ -1,8 +1,6 @@
 ---
 title: Knowledge Constitution
-description:
-  The epistemic protocol layer as a governing document for how claims gain
-  authority
+description: "The epistemic protocol layer as a governing document for how claims gain authority"
 ---
 
 A knowledge constitution is the set of rules that govern how [claims](./claim)
@@ -12,8 +10,8 @@ functions like a political constitution: specifying powers, limits, and
 procedures rather than content.
 
 The [epistemic protocol layer](./epistemic-protocol-layer) is
-[Coscientist](./coscientist)'s constitution. It commits to sovereignty ),
-traceability ), and adversarial validation ). These are constraints on process,
+[Coscientist](./coscientist)'s constitution. It commits to sovereignty,
+traceability, and adversarial validation. These are constraints on process,
 not on conclusions.
 
 A constitution matters because it outlasts any particular claim. Facts change;

@@ -1,6 +1,6 @@
 ---
 title: LLM
-description: భారీ భాషా మోడల్, Coscientist యొక్క contemplation labor‌కు ఆధారమైన AI నిర్మాణం
+description: "భారీ భాషా మోడల్, Coscientist యొక్క contemplation laborకు ఆధారమైన AI నిర్మాణం"
 sourceLocale: en
 sourceHash: a03c9bb62d5e
 translatedAt: 2026-01-14

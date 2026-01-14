@@ -1,6 +1,6 @@
 ---
 title: روش
-description: فرایندی که برای تولید شواهد یا نتیجه‌گیری‌ها به کار می‌رود
+description: "فرایندی که برای تولید شواهد یا نتیجه‌گیری‌ها به کار می‌رود"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14

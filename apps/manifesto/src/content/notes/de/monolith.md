@@ -1,6 +1,6 @@
 ---
 title: Der Monolith
-description: Design-Inspiration aus Kubricks 2001: A Space Odyssey
+description: "Design-Inspiration aus Kubricks 2001: A Space Odyssey"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14
@@ -25,7 +25,7 @@ transformiert.
 
 ## Abgeleitete Designprinzipien
 
-- [Mysterium und Minimalismus](./mystery-minimalism): Weniger UI-Chrome , den Inhalt sprechen lassen
+- [Mysterium und Minimalismus](./mystery-minimalism): Weniger UI-Chrome, den Inhalt sprechen lassen
 - [Signal ohne Erklärung](./signal-without-explanation): Informationen präsentieren, dem Leser vertrauen
 - Vertikaler Rhythmus: Die 1:4:9-Proportionen (1², 2², 3²) erscheinen in Abstandsverhältnissen
 - Monochrome Grundlage: Graustufen als Standard, Farbe als Signal

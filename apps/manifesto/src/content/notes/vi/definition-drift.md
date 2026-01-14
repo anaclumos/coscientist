@@ -1,6 +1,6 @@
 ---
-title: Trôi dạt định nghĩa
-description: Khi ý nghĩa của một thuật ngữ thay đổi theo thời gian hoặc theo ngữ cảnh
+title: "Trôi dạt định nghĩa"
+description: "Khi ý nghĩa của một thuật ngữ thay đổi theo thời gian hoặc theo ngữ cảnh"
 sourceLocale: en
 sourceHash: 13d640679420
 translatedAt: 2026-01-14

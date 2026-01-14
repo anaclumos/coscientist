@@ -1,6 +1,6 @@
 ---
 title: Operator
-description: De menselijke soeverein over kennis in Coscientist
+description: "De menselijke soeverein over kennis in Coscientist"
 sourceLocale: en
 sourceHash: 72db4459729d
 translatedAt: 2026-01-14
@@ -16,7 +16,7 @@ Het voorkomen van een [Encyclopedie-ineenstorting](./encyclopedia-meltdown)
 vereist dat de Operator het initiatief over reflectie behoudt terwijl hij/zij AI
 als hulpmiddel gebruikt. Dat betekent het behouden van
 [cognitieve soevereiniteit](./cognitive-sovereignty), het coördineren van
-multi-model beraadslaging wanneer de inzet hoog is ), het uitoefenen van
+multi-model beraadslaging wanneer de inzet hoog is), het uitoefenen van
 vetorecht, en het investeren van schaarse menselijke tijd in de
 [minimum contradiction set](./minimum-contradiction-set) in plaats van in
 zinsarbeid.
@@ -24,4 +24,4 @@ zinsarbeid.
 Deze rol is evenzeer cultureel als technisch. Net als een bestuurder met
 veiligheidssystemen moet de Operator nog steeds de gewoonte van verificatie
 opbouwen, omdat het systeem niet kan compenseren voor een gebruiker die
-vloeiendheid als waarheid behandelt ).
+vloeiendheid als waarheid behandelt).

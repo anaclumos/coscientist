@@ -1,6 +1,6 @@
 ---
 title: Monolit
-description: Inspirasi desain dari _2001: A Space Odyssey_ karya Kubrick
+description: "Inspirasi desain dari _2001: A Space Odyssey_ karya Kubrick"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

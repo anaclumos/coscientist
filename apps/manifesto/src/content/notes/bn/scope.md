@@ -1,6 +1,6 @@
 ---
 title: পরিসর
-description: কোনো দাবির প্রযোজ্যতার শর্তসমূহ
+description: "কোনো দাবির প্রযোজ্যতার শর্তসমূহ"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14

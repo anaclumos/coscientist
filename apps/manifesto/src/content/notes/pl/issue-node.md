@@ -1,6 +1,6 @@
 ---
 title: Węzeł problemu
-description: Wiązka zderzających się klastrów twierdzeń w grafie dialektycznym
+description: "Wiązka zderzających się klastrów twierdzeń w grafie dialektycznym"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14

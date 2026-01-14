@@ -1,8 +1,6 @@
 ---
 title: Powtórki rozłożone w czasie oparte na grafach
-description:
-  Wykorzystywanie wieku twierdzenia lub wieku kontrargumentu do uruchamiania
-  ponownej weryfikacji
+description: "Wykorzystywanie wieku twierdzenia lub wieku kontrargumentu do uruchamiania ponownej weryfikacji"
 sourceLocale: en
 sourceHash: 1c4655730a74
 translatedAt: 2026-01-14
@@ -17,7 +15,7 @@ sprawdzenia.
 Sedno polega na tym, że wiedza, podobnie jak pamięć, zanika bez aktywnego
 zaangażowania. Twierdzenie zweryfikowane trzy lata temu może już nie być
 prawdziwe, jeśli świat się zmienił ([niestacjonarność](./nonstationarity)),
-jeśli przesunęły się definicje ), albo jeśli pojawiły się nowe
+jeśli przesunęły się definicje, albo jeśli pojawiły się nowe
 [kontrprzykłady](./counterexample).
 
 W [Grafie dialektycznym](./dialectical-graph) można to zaimplementować, śledząc

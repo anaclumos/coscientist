@@ -1,6 +1,6 @@
 ---
 title: Relasi Argumentatif
-description: Jenis-jenis edge dalam graf dialektis yang diorganisasikan berdasarkan fungsi
+description: "Jenis-jenis edge dalam graf dialektis yang diorganisasikan berdasarkan fungsi"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -30,7 +30,7 @@ kemiripan-topik.
 - `generalizes` / `specializes` — penyesuaian cakupan
 - `depends_on` — menghubungkan klaim dengan [asumsi](./assumption) yang
   mendasarinya
-- `defines` — menghubungkan istilah dengan definisinya )
+- `defines` — menghubungkan istilah dengan definisinya
 
 Lihat [Edge Graf Dialektis](./dialectical-graph-edges) untuk spesifikasi lengkap
 dan [Pengetikan Relasi vs Kemiripan](./relation-typing-vs-similarity) untuk

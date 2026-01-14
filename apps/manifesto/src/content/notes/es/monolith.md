@@ -1,6 +1,6 @@
 ---
 title: El Monolito
-description: Inspiración de diseño a partir de _2001: Una odisea del espacio_ de Kubrick
+description: "Inspiración de diseño a partir de _2001: Una odisea del espacio_ de Kubrick"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

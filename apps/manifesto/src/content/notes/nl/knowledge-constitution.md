@@ -1,8 +1,6 @@
 ---
 title: Kennisgrondwet
-description:
-  De epistemische protocollaag als een bestuursdocument voor hoe beweringen
-  gezag krijgen
+description: "De epistemische protocollaag als een bestuursdocument voor hoe beweringen gezag krijgen"
 sourceLocale: en
 sourceHash: e7ec03e7fb9e
 translatedAt: 2026-01-14
@@ -15,8 +13,8 @@ functioneert zoals een politieke grondwet: ze specificeert bevoegdheden, grenzen
 en procedures in plaats van inhoud.
 
 De [epistemische protocollaag](./epistemic-protocol-layer) is de grondwet van
-[Cowetenschapper](./coscientist). Ze verbindt zich aan soevereiniteit ),
-traceerbaarheid ), en adversariële validatie ). Dit zijn beperkingen op het
+[Cowetenschapper](./coscientist). Ze verbindt zich aan soevereiniteit,
+traceerbaarheid, en adversariële validatie. Dit zijn beperkingen op het
 proces, niet op de conclusies.
 
 Een grondwet is belangrijk omdat ze langer meegaat dan een specifieke bewering.

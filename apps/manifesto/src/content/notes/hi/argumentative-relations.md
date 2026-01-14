@@ -1,6 +1,6 @@
 ---
 title: तर्क-वितर्क संबंध
-description: कार्य के अनुसार व्यवस्थित द्वंद्वात्मक ग्राफ में किनारा प्रकार
+description: "कार्य के अनुसार व्यवस्थित द्वंद्वात्मक ग्राफ में किनारा प्रकार"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -29,8 +29,6 @@ translatedAt: 2026-01-14
 - `refines` — दावे को संकुचित या स्पष्ट करता है
 - `generalizes` / `specializes` — दायरा समायोजन
 - `depends_on` — दावों को उनकी [assumptions](./assumption) से जोड़ता है
-- `defines` — शब्दों को उनकी परिभाषाओं से जोड़ता है )
+- `defines` — शब्दों को उनकी परिभाषाओं से जोड़ता है
 
-पूर्ण विनिर्देशन के लिए [Dialectical Graph Edges](./dialectical-graph-edges)
-देखें, और यह समझने के लिए कि प्रकारित किनारे क्यों महत्वपूर्ण हैं,
-[Relation Typing vs Similarity](./relation-typing-vs-similarity) देखें।
+पूर्ण विनिर्देशन के लिए [Dialectical Graph Edges](./dialectical-graph-edges) देखें, और यह समझने के लिए कि प्रकारित किनारे क्यों महत्वपूर्ण हैं, [Relation Typing vs Similarity](./relation-typing-vs-similarity) देखें।

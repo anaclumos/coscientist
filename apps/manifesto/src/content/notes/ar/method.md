@@ -1,6 +1,6 @@
 ---
 title: المنهج
-description: الإجراء المستخدم لتوليد الأدلة أو استخلاص الاستنتاجات
+description: "الإجراء المستخدم لتوليد الأدلة أو استخلاص الاستنتاجات"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14

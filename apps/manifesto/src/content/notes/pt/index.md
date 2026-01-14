@@ -1,6 +1,6 @@
 ---
 title: "Tokens ≠ Conhecimento"
-description: Uma Busca Pessoal por um Exoesqueleto Cognitivo
+description: "Uma Busca Pessoal por um Exoesqueleto Cognitivo"
 sourceLocale: en
 sourceHash: adfef3bcf465
 translatedAt: 2026-01-14
@@ -73,7 +73,7 @@ autoamplificam por meio de links.
 A contramedida é uma
 [camada de protocolo epistêmico](./epistemic-protocol-layer), uma camada
 constitucional para sistemas de conhecimento. Seus compromissos centrais são
-soberania ), rastreabilidade (toda afirmação mantém uma linha de
+soberania, rastreabilidade (toda afirmação mantém uma linha de
 responsabilidade) e validação "rebuttal-first" (priorizar refutação) (usar
 [busca com refutação primeiro](./rebuttal-first-search) para buscar
 contraevidências antes da aceitação). Essa camada também aborda pressões como
@@ -88,7 +88,7 @@ disciplina de operações de software à pesquisa científica por meio de
 experimentos reprodutíveis, automação e iteração rápida, ao mesmo tempo em que
 se introduz o papel do [natural science engineer](./natural-science-engineer).
 Quando experimentos se tornam pipelines, e não iniciativas pontuais, o ciclo
-entre hipótese e verificação pode encolher dramaticamente.
+entre hipótese e verificação pode encolher dramáticamente.
 
 O objetivo maior é um "GitHub para cientistas" que trate experimentos como
 código: versionados, repetíveis e auditáveis. Esse é o contexto operacional que
@@ -127,8 +127,8 @@ e perda de agência (mitigada por transparência e veto humano).
 A visão de longo prazo é uma rede federada de instâncias do Coscientist em
 escalas pessoal, organizacional e pública, que trocam conhecimento validado
 preservando a soberania local. Se você quiser um caminho de leitura, comece por
-[Criando Cérebros Digitais de Nova Geração](./creating-next-gen-digital-brains)
-, depois [Colapso da Enciclopédia](./encyclopedia-meltdown) e a
-[camada de protocolo epistêmico](./epistemic-protocol-layer) , depois
+[Criando Cérebros Digitais de Nova Geração](./creating-next-gen-digital-brains),
+depois [Colapso da Enciclopédia](./encyclopedia-meltdown) e a
+[camada de protocolo epistêmico](./epistemic-protocol-layer), depois
 [Grafo Dialético](./dialectical-graph) e
-[knowledge synthesis](./knowledge-synthesis) .
+[knowledge synthesis](./knowledge-synthesis).

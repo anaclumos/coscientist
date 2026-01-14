@@ -1,8 +1,6 @@
 ---
 title: Separação Tripla
-description:
-  Regra arquitetural que separa texto bruto, alegações normalizadas e relações
-  explícitas
+description: "Regra arquitetural que separa texto bruto, alegações normalizadas e relações explícitas"
 sourceLocale: en
 sourceHash: d3ec3e911919
 translatedAt: 2026-01-14

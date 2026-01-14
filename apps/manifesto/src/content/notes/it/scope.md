@@ -1,6 +1,6 @@
 ---
 title: Ambito
-description: Le condizioni di applicabilità di un'asserzione
+description: "Le condizioni di applicabilità di un'asserzione"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14
@@ -19,5 +19,5 @@ applicano a popolazioni o condizioni diverse. Per questo la
 basata sull'ambito dalla vera contraddizione.
 
 In un [Grafo dialettico](./dialectical-graph), l'ambito è un tipo di nodo
-connesso alle asserzioni ). Quando si trova un controesempio, il sistema può
+connesso alle asserzioni. Quando si trova un controesempio, il sistema può
 restringere l'ambito invece di scartare del tutto l'asserzione.

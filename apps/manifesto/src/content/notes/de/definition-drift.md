@@ -1,6 +1,6 @@
 ---
 title: Definitionsdrift
-description: Wenn sich die Bedeutung eines Begriffs über Zeit oder Kontexte hinweg verschiebt
+description: "Wenn sich die Bedeutung eines Begriffs über Zeit oder Kontexte hinweg verschiebt"
 sourceLocale: en
 sourceHash: 13d640679420
 translatedAt: 2026-01-14

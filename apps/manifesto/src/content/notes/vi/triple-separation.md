@@ -1,8 +1,7 @@
 ---
 title: Phân tách ba lớp
-description:
-  Quy tắc kiến trúc tách biệt văn bản thô, các khẳng định đã chuẩn hoá và các
-  quan hệ tường minh
+description: "Quy tắc kiến trúc tách biệt văn bản thô, các khẳng định đã chuẩn hoá và các
+  quan hệ tường minh"
 sourceLocale: en
 sourceHash: d3ec3e911919
 translatedAt: 2026-01-14

@@ -1,6 +1,6 @@
 ---
 title: Nodo de cuestión
-description: Un conjunto de clústeres de afirmaciones en colisión en un grafo dialéctico
+description: "Un conjunto de clústeres de afirmaciones en colisión en un grafo dialéctico"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14

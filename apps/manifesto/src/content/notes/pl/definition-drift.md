@@ -1,6 +1,6 @@
 ---
 title: Dryf definicji
-description: Gdy znaczenie terminu zmienia się w czasie lub między kontekstami
+description: "Gdy znaczenie terminu zmienia się w czasie lub między kontekstami"
 sourceLocale: en
 sourceHash: 13d640679420
 translatedAt: 2026-01-14

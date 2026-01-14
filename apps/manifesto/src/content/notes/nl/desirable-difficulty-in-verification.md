@@ -1,6 +1,6 @@
 ---
 title: Wenselijke Moeilijkheid bij Verificatie
-description: Verificatie inspannend maken om echt begrip te behouden
+description: "Verificatie inspannend maken om echt begrip te behouden"
 sourceLocale: en
 sourceHash: c50da319d2f0
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ op "de AI zei het"—dan leert of verifieert de [Operator](./operator) niet; die
 bekrachtigt slechts.
 
 De term is ontleend aan de leerwetenschap, waar wenselijke moeilijkheden en
-[gespreid leren](./spacing-effect)) het langetermijnbehoud verbeteren omdat ze
+[gespreid leren](./spacing-effect) het langetermijnbehoud verbeteren omdat ze
 inspanning vereisen. Verificatie werkt op dezelfde manier: de inspanning van het
 controleren is wat begrip oplevert en fouten opspoort.
 

@@ -1,6 +1,6 @@
 ---
 title: Sunghyun Cho
-description: Criador do Coscientist e autor de seus ensaios fundamentais
+description: "Criador do Coscientist e autor de seus ensaios fundamentais"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

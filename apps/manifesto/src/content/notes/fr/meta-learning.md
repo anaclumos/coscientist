@@ -1,6 +1,6 @@
 ---
 title: Métapprentissage
-description: Apprendre comment fonctionne votre propre apprentissage
+description: "Apprendre comment fonctionne votre propre apprentissage"
 sourceLocale: en
 sourceHash: 3023196c32ff
 translatedAt: 2026-01-14
@@ -11,6 +11,6 @@ ce qui reste, ce qui échoue et quelles conditions changent le résultat. Il
 transforme « étudier » d’une habitude en une boucle de rétroaction avec des
 hypothèses, des expériences et des ajustements.
 
-Concrètement, cela signifie suivre quelles stratégies plutôt que la relecture),
+Concrètement, cela signifie suivre quelles stratégies plutôt que la relecture,
 quels rythmes (comme la [répétition espacée](./spaced-repetition)) et quels
 environnements produisent réellement du transfert, pas seulement du confort.

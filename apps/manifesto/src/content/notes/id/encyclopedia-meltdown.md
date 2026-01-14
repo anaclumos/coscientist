@@ -1,8 +1,6 @@
 ---
 title: Kehancuran Ensiklopedia
-description:
-  Fenomena keruntuhan pengetahuan ketika AI mengambil inisiatif tanpa intervensi
-  manusia
+description: "Fenomena keruntuhan pengetahuan ketika AI mengambil inisiatif tanpa intervensi manusia"
 sourceLocale: en
 sourceHash: 9dd770ce12d3
 translatedAt: 2026-01-14
@@ -34,7 +32,7 @@ sekadar ratifikasi.
 Pencegahan dimulai dari prinsip pertama: kedaulatan atas pengetahuan harus tetap
 berada pada [Operator](./operator). Dalam [Kosaintis](./coscientist), hal itu
 tampak sebagai sebuah [lapisan protokol epistemik](./epistemic-protocol-layer)
-dan mempertahankan [garis tanggung jawab](./responsibility-line)), sebuah
+dan mempertahankan [garis tanggung jawab](./responsibility-line), sebuah
 [Protokol Konsensus Multi-AI](./multi-ai-consensus-protocol), dan sebuah
 [Graf Dialektis](./dialectical-graph) yang memisahkan inferensi dari narasi.
 

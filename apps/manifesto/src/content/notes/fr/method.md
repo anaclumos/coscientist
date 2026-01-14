@@ -1,6 +1,6 @@
 ---
 title: Méthode
-description: La procédure utilisée pour produire des preuves ou tirer des conclusions
+description: "La procédure utilisée pour produire des preuves ou tirer des conclusions"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14

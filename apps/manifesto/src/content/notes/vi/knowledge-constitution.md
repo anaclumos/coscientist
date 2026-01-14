@@ -1,8 +1,6 @@
 ---
 title: Hiến pháp tri thức
-description:
-  Tầng giao thức nhận thức luận như một văn bản quản trị cho cách các khẳng định
-  giành được thẩm quyền
+description: "Tầng giao thức nhận thức luận như một văn bản quản trị cho cách các khẳng định giành được thẩm quyền"
 sourceLocale: en
 sourceHash: e7ec03e7fb9e
 translatedAt: 2026-01-14

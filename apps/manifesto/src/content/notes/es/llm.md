@@ -1,8 +1,6 @@
 ---
 title: LLM
-description:
-  Modelo de Lenguaje Grande, la arquitectura de IA subyacente al trabajo de
-  contemplación de Coscientist
+description: "Modelo de Lenguaje Grande, la arquitectura de IA subyacente al trabajo de contemplación de Coscientist"
 sourceLocale: en
 sourceHash: a03c9bb62d5e
 translatedAt: 2026-01-14

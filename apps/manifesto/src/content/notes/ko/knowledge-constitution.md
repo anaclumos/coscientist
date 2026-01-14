@@ -1,6 +1,6 @@
 ---
 title: 지식 헌법
-description: 주장이 권위를 획득하는 방식에 대한 통치 문서로서의 인식론적 프로토콜 계층
+description: "주장이 권위를 획득하는 방식에 대한 통치 문서로서의 인식론적 프로토콜 계층"
 sourceLocale: en
 sourceHash: e7ec03e7fb9e
 translatedAt: 2026-01-14

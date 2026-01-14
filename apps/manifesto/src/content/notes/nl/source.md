@@ -1,6 +1,6 @@
 ---
 title: Bron
-description: Een herkomstanker voor beweringen en bewijs
+description: "Een herkomstanker voor beweringen en bewijs"
 sourceLocale: en
 sourceHash: 73116d209a24
 translatedAt: 2026-01-14
@@ -17,6 +17,6 @@ compileert uit secundaire bronnen. Elke stap introduceert potentiële
 vertekening, en [Cowetenschapper](./coscientist) volgt deze verschillen via
 expliciete `cites`-relaties in de [Dialectische Graaf](./dialectical-graph).
 
-Bronnen zijn knooppunten in de graaf ) met metadata zoals auteur, datum en
+Bronnen zijn knooppunten in de graaf met metadata zoals auteur, datum en
 context. Wanneer een bewering wordt betwist, biedt de bron het startpunt voor
 heronderzoek.

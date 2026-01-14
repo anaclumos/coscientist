@@ -1,8 +1,7 @@
 ---
 title: Constitución del conocimiento
-description:
-  La capa de protocolo epistémico como documento rector sobre cómo las
-  afirmaciones adquieren autoridad
+description: "La capa de protocolo epistémico como documento rector sobre cómo las
+ afirmaciones adquieren autoridad"
 sourceLocale: en
 sourceHash: e7ec03e7fb9e
 translatedAt: 2026-01-14
@@ -15,10 +14,9 @@ autoridad. Funciona como una constitución política: especifica poderes, límit
 y procedimientos en lugar de contenido.
 
 La [capa de protocolo epistémico](./epistemic-protocol-layer) es la constitución
-de [Cocientífico](./coscientist). Se compromete con la soberanía ), la
+de [Cocientífico](./coscientist). Se compromete con la soberanía, la
 trazabilidad (preservar la [línea de responsabilidad](./responsibility-line)) y
-la validación adversarial (como la
-[búsqueda primero la refutación](./rebuttal-first-search)). Estas son
+la validación adversarial (como la [búsqueda primero la refutación](./rebuttal-first-search)). Estas son
 restricciones sobre el proceso, no sobre las conclusiones.
 
 Una constitución importa porque perdura más que cualquier afirmación en

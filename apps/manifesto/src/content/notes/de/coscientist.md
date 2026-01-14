@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: Ein System eines intellektuellen Begleiters für Wissensproduktion in der Post-AI-Ära
+description: "Ein System eines intellektuellen Begleiters für Wissensproduktion in der Post-AI-Ära"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14
@@ -30,19 +30,19 @@ nachträglicher Gedanke; es ist eine Designvorgabe. KI kann Kontemplationsarbeit
 leisten, aber sie sollte nicht die Initiative des Schreibens und Deklarierens an
 sich reißen.
 
-Deshalb geht Coscientist über Q&A-artiges RAG ) hinaus. Es pflegt einen
+Deshalb geht Coscientist über Q&A-artiges RAG hinaus. Es pflegt einen
 [Dialektischen Graphen](./dialectical-graph), der
 [argumentative Akte](./argumentative-act) statt rohem Dokumenttext speichert,
 sodass jede Behauptung mit Evidenzspannen, Quellen und expliziten Relationen
 verknüpft werden kann und
-[Kanten des Dialektischen Graphen](./dialectical-graph-edges)).
+[Kanten des Dialektischen Graphen](./dialectical-graph-edges).
 
-Exploration ist standardmäßig adversarial . Strategien wie
+Exploration ist standardmäßig adversarial. Strategien wie
 [Gegenbeispiel-zuerst-Suche](./counterexample-first-search),
 Widerspruchsisolation via [Minimum Cut](./minimum-cut) und explizite
 [Definitionsdrift](./definition-drift)-Erkennung üben früh Druck aus, sodass
 Wissensupdates durch Widerlegung stattfinden, statt durch Wiederholung
-wegzudriften ).
+wegzudriften.
 
 Auf Protokollebene nutzt das System Verfahren wie das
 [Multi-AI-Konsensprotokoll](./multi-ai-consensus-protocol) und

@@ -1,10 +1,10 @@
 ---
 title: Dialectical Graph Edges
-description: The relation types connecting nodes in a dialectical knowledge graph
+description: "The relation types connecting nodes in a dialectical knowledge graph"
 ---
 
 In a [Dialectical Graph](./dialectical-graph), edges encode relation types
-rather than similarity scores (see [Argumentative Relations](./argumentative-relations)). The value is that you can ask "how does this bear
+rather than similarity scores (see [Argumentative Relations](./arguementative-relations)). The value is that you can ask "how does this bear
 on that?" rather than only "are these about the same topic?"
 
 Common relation types include:
@@ -18,7 +18,7 @@ Common relation types include:
 
 Typed edges enable knowledge updating through rebuttal chains, detection of
 definition conflicts, and tracking of replication status. These are capabilities
-that similarity-based retrieval struggles to represent ). They also support
+that similarity-based retrieval struggles to represent. They also support
 quality assessment: knowledge quality depends less on the direction of a
 conclusion and more on the durability of the path that produced it, and edges
 encode that path structure across nodes (see [Dialectical Graph Nodes](./dialectical-graph-nodes)) and other [Graph Components](./graph-components).

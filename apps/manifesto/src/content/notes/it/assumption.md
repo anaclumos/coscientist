@@ -1,6 +1,6 @@
 ---
 title: Assunzione
-description: Una premessa implicita alla base di un'affermazione
+description: "Una premessa implicita alla base di un'affermazione"
 sourceLocale: en
 sourceHash: 7ff67cddc322
 translatedAt: 2026-01-14
@@ -17,7 +17,7 @@ ma perché hanno premesse non dichiarate diverse su definizioni, riferimenti di
 base o contesto. Rendere esplicite le assunzioni è un passaggio chiave nella
 [sintesi della conoscenza](./knowledge-synthesis).
 
-In un [Grafo Dialettico](./dialectical-graph), le assunzioni sono tipi di nodo )
+In un [Grafo Dialettico](./dialectical-graph), le assunzioni sono tipi di nodo
 collegati alle affermazioni tramite archi `depends_on`.
-Un'[undercut](./undercut) attacca un'assunzione anziché l'affermazione
+Un[undercut](./undercut) attacca un'assunzione anziché l'affermazione
 direttamente; se l'assunzione cade, l'affermazione perde il suo fondamento.

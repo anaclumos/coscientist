@@ -1,6 +1,6 @@
 ---
 title: Sunghyun Cho
-description: Coscientist’in geliştiricisi ve temel makalelerinin yazarı
+description: "Coscientist’in geliştiricisi ve temel makalelerinin yazarı"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

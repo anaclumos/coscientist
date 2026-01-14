@@ -1,8 +1,6 @@
 ---
 title: LLM
-description:
-  Large Language Model, arsitektur AI yang mendasari kerja kontemplasi
-  Coscientist
+description: "Large Language Model, arsitektur AI yang mendasari kerja kontemplasi"
 sourceLocale: en
 sourceHash: a03c9bb62d5e
 translatedAt: 2026-01-14
@@ -21,12 +19,12 @@ membaca bahasa apa pun, LLM memungkinkan
 [sintesis lintas-bahasa](./cross-linguistic-synthesis) sebagai kemampuan bawaan.
 
 Namun, LLM memiliki keterbatasan mendasar. LLM mengoptimalkan token berikutnya
-yang masuk akal , bukan kebenaran. LLM dapat mengalami
+yang masuk akal, bukan kebenaran. LLM dapat mengalami
 [halusinasi](./hallucination): menghasilkan teks yang meyakinkan dan koheren
 tetapi keliru secara faktual. LLM rentan terhadap
 [jebakan kefasihan](./fluency-trap): prosa mulus yang menyamarkan kesalahan. LLM
 berbagi data pelatihan, sehingga kesepakatan antar-model dapat mencerminkan bias
-yang berkorelasi alih-alih [verifikasi](./verification) yang independen ).
+yang berkorelasi alih-alih [verifikasi](./verification) yang independen.
 
 Inilah mengapa [Kosaintis](./coscientist) memperlakukan LLM sebagai alat, bukan
 orakel. [Operator](./operator) tetap memegang kedaulatan;

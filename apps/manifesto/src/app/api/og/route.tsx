@@ -14,7 +14,8 @@ export async function GET(request: NextRequest) {
   const description = searchParams.get("description") || ""
   const locale = searchParams.get("locale") || "en"
 
-  const fonts = await getFontsForLocale(locale)
+  const textToRender = `${title}${description}Coscientistcoscientist.app`
+  const fonts = await getFontsForLocale(locale, textToRender)
   const primaryFontName = fonts[0]?.name || "Faculty Glyphic"
 
   return new ImageResponse(
@@ -157,15 +158,6 @@ export async function GET(request: NextRequest) {
             </p>
           )}
         </div>
-
-        <div
-          style={{
-            width: "100%",
-            height: "1px",
-            background:
-              "linear-gradient(to right, rgba(255,255,255,0.3) 0%, transparent 100%)",
-          }}
-        />
       </div>
     </div>,
     {

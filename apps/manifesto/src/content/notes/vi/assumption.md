@@ -1,6 +1,6 @@
 ---
 title: Giả định
-description: Một tiền đề ngầm làm nền tảng cho một khẳng định
+description: "Một tiền đề ngầm làm nền tảng cho một khẳng định"
 sourceLocale: en
 sourceHash: 7ff67cddc322
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ nghĩa.
 
 Các giả định ẩn là một nguồn phổ biến của sự bất đồng sai lầm. Hai bên có thể đi
 đến những kết luận khác nhau không phải vì bằng chứng của họ khác nhau, mà vì họ
-nắm giữ những tiền đề không được nói ra khác nhau về định nghĩa, đường cơ sở ,
+nắm giữ những tiền đề không được nói ra khác nhau về định nghĩa, đường cơ sở,
 hoặc ngữ cảnh. Việc làm rõ giả định là một bước then chốt trong
 [tổng hợp tri thức](./knowledge-synthesis).
 

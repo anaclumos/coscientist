@@ -1,6 +1,6 @@
 ---
 title: วิธีการ
-description: กระบวนการที่ใช้ในการสร้างหลักฐานหรือข้อสรุป
+description: "กระบวนการที่ใช้ในการสร้างหลักฐานหรือข้อสรุป"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14

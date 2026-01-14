@@ -1,6 +1,6 @@
 ---
 title: Annahme
-description: Eine implizite Prämisse, die einer Behauptung zugrunde liegt
+description: "Eine implizite Prämisse, die einer Behauptung zugrunde liegt"
 sourceLocale: en
 sourceHash: 7ff67cddc322
 translatedAt: 2026-01-14
@@ -18,7 +18,7 @@ Prämissen über Definitionen, Ausgangsniveaus oder den Kontext haben. Annahmen
 explizit zu machen ist ein zentraler Schritt der
 [Wissenssynthese](./knowledge-synthesis).
 
-In einem [Dialektischen Graphen](./dialectical-graph) sind Annahmen Knotentypen
-), die über `depends_on`-Kanten mit Behauptungen verbunden sind. Ein
+In einem [Dialektischen Graphen](./dialectical-graph) sind Annahmen Knotentypen,
+die über `depends_on`-Kanten mit Behauptungen verbunden sind. Ein
 [Undercut](./undercut) greift eine Annahme an, statt die Behauptung direkt;
 fällt die Annahme, verliert die Behauptung ihre Grundlage.

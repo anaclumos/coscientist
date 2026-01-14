@@ -1,6 +1,6 @@
 ---
 title: 조성현
-description: Coscientist의 제작자이자 그 방향을 만든 기초 에세이들의 저자
+description: "Coscientist의 제작자이자 그 방향을 만든 기초 에세이들의 저자"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

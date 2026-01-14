@@ -1,7 +1,7 @@
 ---
 title: LLM
-description: Large Language Model, l'architettura di IA alla base del lavoro di
-  contemplazione di Coscientist
+description: "Large Language Model, l'architettura di IA alla base del lavoro di
+  contemplazione di Coscientist"
 sourceLocale: en
 sourceHash: a03c9bb62d5e
 translatedAt: 2026-01-14
@@ -25,7 +25,7 @@ producendo testo sicuro di sé e coerente che è fattualmente errato. Sono
 suscettibili alla [trappola della scorrevolezza](./fluency-trap): una prosa
 fluida che maschera gli errori. Condividono dati di addestramento, quindi
 l’accordo tra modelli può riflettere bias correlati piuttosto che
-[verifica](./verification) indipendente ).
+[verifica](./verification) indipendente.
 
 Per questo [Coscienziato](./coscientist) tratta gli LLM come strumenti, non come
 oracoli. L’[Operatore](./operator) mantiene la sovranità; lo

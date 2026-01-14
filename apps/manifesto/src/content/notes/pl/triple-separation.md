@@ -1,8 +1,6 @@
 ---
 title: Potrójna separacja
-description:
-  Reguła architektoniczna rozdzielająca surowy tekst, znormalizowane twierdzenia
-  i jawne relacje
+description: "Reguła architektoniczna rozdzielająca surowy tekst, znormalizowane twierdzenia i jawne relacje"
 sourceLocale: en
 sourceHash: d3ec3e911919
 translatedAt: 2026-01-14
@@ -17,7 +15,7 @@ przechowywane jako jawne wiązania argumentacyjne (zob.
 [Krawędzie Grafu Dialektycznego](./dialectical-graph-edges)).
 
 Ten rozdział zapobiega typowemu trybowi awarii w [RAG](./rag-limitations):
-ucinaniu fragmentów . Gdy tekst jest pobierany i streszczany bez zachowania
+ucinaniu fragmentów. Gdy tekst jest pobierany i streszczany bez zachowania
 oryginalnego brzmienia, przypisanie źródła może po cichu zniknąć. Potrójna
 separacja zapewnia, że zawsze możesz prześledzić twierdzenie do dokładnych słów
 oraz [źródła](./source), które je wytworzyło.

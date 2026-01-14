@@ -1,8 +1,6 @@
 ---
 title: Quy tắc chuyển đổi trạng thái
-description:
-  Điều gì kích hoạt việc di chuyển giữa các trạng thái của khẳng định trong một
-  đồ thị biện chứng
+description: "Điều gì kích hoạt việc di chuyển giữa các trạng thái của khẳng định trong một đồ thị biện chứng"
 sourceLocale: en
 sourceHash: bae87c3f8772
 translatedAt: 2026-01-14

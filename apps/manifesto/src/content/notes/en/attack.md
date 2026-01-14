@@ -1,6 +1,6 @@
 ---
 title: Attack
-description: A direct challenge to a claim's truth
+description: "A direct challenge to a claim's truth"
 ---
 
 An attack is a direct challenge to the truth of a [claim](./claim). Unlike an
@@ -8,7 +8,7 @@ An attack is a direct challenge to the truth of a [claim](./claim). Unlike an
 itself is false or misleading, typically by providing a
 [counterexample](./counterexample) or contradictory evidence.
 
-Attacks are a core edge type in the [Dialectical Graph](./dialectical-graph) ).
+Attacks are a core edge type in the [Dialectical Graph](./dialectical-graph).
 When an attack is registered, the claim's status can shift from `supported` to
 `contested` or `refuted` depending on the strength and type of the challenge.
 

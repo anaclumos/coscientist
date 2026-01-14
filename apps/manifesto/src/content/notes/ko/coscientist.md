@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: 포스트-AI 시대의 지식 생산을 위한 지적 동반자 시스템
+description: "포스트-AI 시대의 지식 생산을 위한 지적 동반자 시스템"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14
@@ -19,7 +19,7 @@ Coscientist는 [아이작 아시모프](./isaac-asimov)의 허구적
 만들도록 설계되어, 모순, 반례, 그리고 [정의 표류](./definition-drift)가 유창한
 요약에 의해 매끈하게 지워지는 대신, 눈에 보이고 조치 가능한 상태가 되도록 한다.
 
-첫 번째 원칙은 주권이다. 지식에 대한 권위는 반드시 [운영자](./operator)에게 남아
+첫 번째 원칙은 주권이다. 지식에 대한 권위는 반드시 [운영자](./operator)에 남아
 있어야 한다. [백과사전 멜트다운](./encyclopedia-meltdown)을 막는 일은 사후
 고려가 아니라 설계 제약이다. AI는 사유 노동을 할 수 있지만, 작성하고 선언하는
 주도권을 빼앗아서는 안 된다.
@@ -41,7 +41,7 @@ Coscientist는 [아이작 아시모프](./isaac-asimov)의 허구적
 것이 아니라 서로 충돌하도록 만든다. [대규모 언어 모델](./llm)을 사용하기 때문에
 Coscientist는 [교차언어 합성](./cross-linguistic-synthesis)을 수행할 수 있다. 즉
 어떤 언어로든 문헌을 읽고 합성하여, 진정한
-[다국어 지식 메쉬](./multilingual-knowledge-mesh)를 가능하게 한다. 의도된 최종
+[다국어 시지식 메쉬](./multilingual-knowledge-mesh)를 가능하게 한다. 의도된 최종
 상태는 논증의 생태계다. AI가 탐색과 재구조화를 처리하고, 운영자가 구조와 검증을
 감독하여, 결과 서사가 추적 가능하게 유지된다.
 

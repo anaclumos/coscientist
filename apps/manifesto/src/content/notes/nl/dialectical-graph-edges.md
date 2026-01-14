@@ -1,6 +1,6 @@
 ---
 title: Randen van de dialectische graaf
-description: De relatietypen die knooppunten verbinden in een dialectische kennisgraaf
+description: "De relatietypen die knooppunten verbinden in een dialectische kennisgraaf"
 sourceLocale: en
 sourceHash: 82c6fd07bccd
 translatedAt: 2026-01-14
@@ -22,7 +22,7 @@ Veelvoorkomende relatietypen zijn onder andere:
 
 Getypeerde randen maken kennisactualisering mogelijk via weerleggingsketens, het
 detecteren van definitieconflicten en het volgen van replicatiestatus. Dit zijn
-mogelijkheden die similarity-gebaseerde retrieval moeilijk kan weergeven ). Ze
+mogelijkheden die similarity-gebaseerde retrieval moeilijk kan weergeven. Ze
 ondersteunen ook kwaliteitsbeoordeling: de kwaliteit van kennis hangt minder af
 van de richting van een conclusie en meer van de duurzaamheid van het pad dat
 haar heeft voortgebracht, en randen coderen die padstructuur over knooppunten

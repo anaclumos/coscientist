@@ -1,6 +1,6 @@
 ---
 title: Inter-Sprachraum İletişimi
-description: Dil alanları arasında diyalog ve bilgi alışverişi
+description: "Dil alanları arasında diyalog ve bilgi alışverişi"
 sourceLocale: en
 sourceHash: 1f445591399b
 translatedAt: 2026-01-14
@@ -14,7 +14,7 @@ arasında düşünebilme ve tartışabilme yeteneğidir.
 [Sunghyun Cho](./sunghyun-cho), bunu
 [Sprachraumlar arası](./across-the-sprachraums) yaklaşımın üç temel sütunundan
 biri olarak tanımlar. Amaç, fikirleri doğdukları belirli dilden ayırmaktır;
-böylece öz ) serbestçe aktarılabilir ve diğer dilsel geleneklerden gelen
+böylece öz) serbestçe aktarılabilir ve diğer dilsel geleneklerden gelen
 fikirlerle birleşebilir.
 
 Zorluk şudur: diller izomorfik değildir. Bazı kavramlar bir dilde vardır ve

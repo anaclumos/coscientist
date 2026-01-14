@@ -1,8 +1,6 @@
 ---
 title: Colapso de la Enciclopedia
-description:
-  Fenómeno de colapso del conocimiento cuando la IA toma la iniciativa sin
-  intervención humana
+description: "Fenómeno de colapso del conocimiento cuando la IA toma la iniciativa sin intervención humana"
 sourceLocale: en
 sourceHash: 9dd770ce12d3
 translatedAt: 2026-01-14

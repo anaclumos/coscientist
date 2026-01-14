@@ -1,6 +1,6 @@
 ---
 title: ผู้ควบคุม
-description: ผู้มีอธิปไตยของมนุษย์เหนือความรู้ใน Coscientist
+description: "ผู้มีอธิปไตยของมนุษย์เหนือความรู้ใน Coscientist"
 sourceLocale: en
 sourceHash: 72db4459729d
 translatedAt: 2026-01-14

@@ -1,6 +1,6 @@
 ---
 title: Monolit
-description: Kubrick’in 2001: A Space Odyssey filminden tasarım ilhamı
+description: "Kubrick’in 2001: A Space Odyssey filminden tasarım ilhamı"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

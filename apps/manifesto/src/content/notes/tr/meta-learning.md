@@ -1,6 +1,6 @@
 ---
 title: Meta-öğrenme
-description: Kendi öğrenmenizin nasıl çalıştığını öğrenmek
+description: "Kendi öğrenmenizin nasıl çalıştığını öğrenmek"
 sourceLocale: en
 sourceHash: 3023196c32ff
 translatedAt: 2026-01-14

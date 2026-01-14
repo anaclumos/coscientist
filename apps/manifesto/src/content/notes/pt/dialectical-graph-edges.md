@@ -1,6 +1,6 @@
 ---
 title: Arestas do Grafo Dialético
-description: Os tipos de relação que conectam nós em um grafo de conhecimento dialético
+description: "Os tipos de relação que conectam nós em um grafo de conhecimento dialético"
 sourceLocale: en
 sourceHash: 82c6fd07bccd
 translatedAt: 2026-01-14
@@ -25,4 +25,4 @@ refutação, detecção de conflitos de definição e acompanhamento do status d
 replicação. Essas são capacidades que a recuperação baseada em similaridade tem
 dificuldade de representar. Elas também dão suporte à avaliação de qualidade: a qualidade do conhecimento depende
 menos da direção de uma conclusão e mais da durabilidade do caminho que a
-produziu, e as arestas codificam essa estrutura de caminho entre nós (veja [Nós do Grafo Dialético](./dialectical-graph-nodes)) e outros [Componentes do Grafo](./graph-components).
+produziu, e as arestas codificam essa estrutura de caminho entre nós [veja [Nós do Grafo Dialético](./dialectical-graph-nodes)] e outros [Componentes do Grafo](./graph-components).

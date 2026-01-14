@@ -1,6 +1,6 @@
 ---
 title: Nodo di Questione
-description: Un insieme di cluster di affermazioni in collisione in un grafo dialettico
+description: "Un insieme di cluster di affermazioni in collisione in un grafo dialettico"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14
@@ -18,7 +18,7 @@ di risoluzione." Per questo la [sintesi della conoscenza](./knowledge-synthesis)
 produce cluster di questioni invece di riassunti mediati.
 
 In un [Grafo Dialettico](./dialectical-graph), i nodi di questione sono oggetti
-di prima classe ) che si collegano alla [contesa](./contention) e alle
+di prima classe) che si collegano alla [contesa](./contention) e alle
 affermazioni coinvolte. Risolvere una questione significa o confutare alcune
 affermazioni, restringerne l'[ambito](./scope), oppure disambiguare le
 [definizioni](./definition-drift).

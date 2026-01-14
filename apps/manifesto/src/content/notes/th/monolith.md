@@ -1,6 +1,6 @@
 ---
 title: เสาหินโมโนลิธ
-description: แรงบันดาลใจด้านการออกแบบจาก _2001: A Space Odyssey_ ของสแตนลีย์ คูบริก
+description: "แรงบันดาลใจด้านการออกแบบจาก _2001: A Space Odyssey_ ของสแตนลีย์ คูบริก"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

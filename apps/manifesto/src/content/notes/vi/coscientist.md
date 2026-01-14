@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: Một hệ thống bạn đồng hành trí tuệ cho việc sản xuất tri thức trong kỷ nguyên hậu AI
+description: "Một hệ thống bạn đồng hành trí tuệ cho việc sản xuất tri thức trong kỷ nguyên hậu AI"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14

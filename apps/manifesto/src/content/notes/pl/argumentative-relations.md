@@ -1,6 +1,6 @@
 ---
 title: Relacje argumentacyjne
-description: Typy krawędzi w grafie dialektycznym uporządkowane według funkcji
+description: "Typy krawędzi w grafie dialektycznym uporządkowane według funkcji"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -29,7 +29,7 @@ od grafu podobieństwa tematów.
 - `refines` — zawęża lub doprecyzowuje tezę
 - `generalizes` / `specializes` — korekty zakresu
 - `depends_on` — wiąże tezy z ich [założeniami](./assumption)
-- `defines` — łączy terminy z ich definicjami )
+- `defines` — łączy terminy z ich definicjami
 
 Zobacz [Krawędzie grafu dialektycznego](./dialectical-graph-edges), aby poznać
 pełną specyfikację, oraz

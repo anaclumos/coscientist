@@ -1,6 +1,6 @@
 ---
 title: "Token ≠ Pengetahuan"
-description: Sebuah Pencarian Pribadi akan Eksoskeleton Kognitif
+description: "Sebuah Pencarian Pribadi akan Eksoskeleton Kognitif"
 sourceLocale: en
 sourceHash: adfef3bcf465
 translatedAt: 2026-01-14
@@ -76,8 +76,8 @@ sendiri melalui tautan.
 
 Penangkalnya adalah [epistemic protocol layer](./epistemic-protocol-layer),
 sebuah lapisan konstitusional bagi sistem pengetahuan. Komitmen intinya adalah
-kedaulatan ), keterlacakan , dan validasi yang mengutamakan sanggahan untuk
-mencari bukti tandingan sebelum menerima). Lapisan ini juga menangani tekanan
+kedaulatan, keterlacakan, dan validasi yang mengutamakan sanggahan untuk
+mencari bukti tandingan sebelum menerima. Lapisan ini juga menangani tekanan
 seperti [keruntuhan model](./model-collapse) dan banjir [sampah AI](./ai-slop)
 dengan menegakkan provenance yang eksplisit dan ingestion zero-trust.
 
@@ -121,15 +121,15 @@ menjadikan pencarian sanggahan sebagai default.
 
 Coscientist dimaksudkan sebagai blueprint bagi infrastruktur epistemik baru:
 tanpa friksi namun berdaulat, cepat namun akuntabel, kuat tanpa mengikis agensi.
-Ia menargetkan tiga mode kegagalan: pembusukan otak institusional , keruntuhan
-verifikasi , serta hilangnya agensi .
+Ia menargetkan tiga mode kegagalan: pembusukan otak institusional, keruntuhan
+verifikasi, serta hilangnya agensi.
 
 Visi jangka panjangnya adalah jaringan terfederasi dari instans Coscientist pada
 skala personal, organisasi, dan publik yang saling bertukar pengetahuan
 tervalidasi sambil menjaga kedaulatan lokal. Jika Anda menginginkan jalur
 bacaan, mulai dari
-[Menciptakan Otak Digital Generasi Berikutnya](./creating-next-gen-digital-brains)
-, lalu [Kehancuran Ensiklopedia](./encyclopedia-meltdown) dan
-[epistemic protocol layer](./epistemic-protocol-layer) , kemudian
+[Menciptakan Otak Digital Generasi Berikutnya](./creating-next-gen-digital-brains),
+lalu [Kehancuran Ensiklopedia](./encyclopedia-meltdown) dan
+[epistemic protocol layer](./epistemic-protocol-layer), kemudian
 [Graf Dialektis](./dialectical-graph) dan
-[sintesis pengetahuan](./knowledge-synthesis) .
+[sintesis pengetahuan](./knowledge-synthesis).

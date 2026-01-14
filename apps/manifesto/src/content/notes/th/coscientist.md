@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: ระบบคู่คิดเชิงปัญญาสำหรับการผลิตองค์ความรู้ในยุคหลัง AI
+description: "ระบบคู่คิดเชิงปัญญาสำหรับการผลิตองค์ความรู้ในยุคหลัง AI"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14

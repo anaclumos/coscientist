@@ -1,7 +1,6 @@
 ---
 title: Dialektischer Graph
-description: Ein Wissensgraphmodell, das Behauptungen und Beziehungen statt
-  Dokumentinhalte speichert
+description: "Ein Wissensgraphmodell, das Behauptungen und Beziehungen statt Dokumentinhalte speichert"
 sourceLocale: en
 sourceHash: 7de42f075323
 translatedAt: 2026-01-14
@@ -24,7 +23,7 @@ Evidenzspanne bewahrt den exakten Wortlaut und die Quelle, die Behauptung hält
 fest, wer was behauptet hat, und eine `cites`-Kante macht die Zuschreibung
 explizit, statt sie durch Fließtext nur implizit anzudeuten.
 
-Der Graph trennt außerdem eine Inferenzschicht von einer Narrativschicht . Ein
+Der Graph trennt außerdem eine Inferenzschicht von einer Narrativschicht. Ein
 Dokument ist keine endgültige Wahrheit; es ist eine Momentaufnahme des Graphen.
 Jeder Satz sollte entlang von Behauptung, Geltungsbereich, Annahme, Methode,
 Daten, Evidenzspanne und Quelle rückverfolgbar sein. Ohne diese Kette ist ein

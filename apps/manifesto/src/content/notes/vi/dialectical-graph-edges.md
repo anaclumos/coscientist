@@ -1,13 +1,14 @@
 ---
 title: Các cạnh của Đồ thị Biện chứng
-description: Các kiểu quan hệ kết nối các nút trong một đồ thị tri thức biện chứng
+description: "Các kiểu quan hệ kết nối các nút trong một đồ thị tri thức biện chứng"
 sourceLocale: en
 sourceHash: 82c6fd07bccd
 translatedAt: 2026-01-14
 ---
 
+
 Trong một [Đồ thị Biện chứng](./dialectical-graph), các cạnh mã hoá các kiểu
-quan hệ thay vì điểm số tương đồng (xem [Các quan hệ lập luận](./argumentative-relations)). Giá trị ở chỗ bạn có thể hỏi "điều này liên
+quan hệ thay vì điểm số tương đồng [xem Các quan hệ lập luận](./argumentative-relations). Giá trị ở chỗ bạn có thể hỏi "điều này liên
 quan/tác động đến điều kia như thế nào?" thay vì chỉ "chúng có cùng chủ đề
 không?"
 
@@ -25,5 +26,4 @@ hiện xung đột về định nghĩa, và theo dõi trạng thái tái lập. 
 lực mà truy hồi dựa trên tương đồng khó biểu diễn. Chúng cũng hỗ trợ đánh giá chất
 lượng: chất lượng tri thức ít phụ thuộc vào hướng kết luận hơn, mà phụ thuộc
 nhiều hơn vào độ bền vững của con đường đã tạo ra kết luận đó, và các cạnh mã
-hoá cấu trúc của con đường ấy xuyên qua các nút (xem
-[Các nút của Đồ thị Biện chứng](./dialectical-graph-nodes)) và các [Thành phần Đồ thị](./graph-components) khác.
+hoá cấu trúc của con đường ấy xuyên qua các nút [xem Các nút của Đồ thị Biện chứng](./dialectical-graph-nodes) và các [Thành phần Đồ thị](./graph-components) khác.

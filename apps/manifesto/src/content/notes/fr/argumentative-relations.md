@@ -1,6 +1,6 @@
 ---
 title: Relations argumentatives
-description: Types d’arêtes dans un graphe dialectique organisés par fonction
+description: "Types d’arêtes dans un graphe dialectique organisés par fonction"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -30,7 +30,7 @@ graphe dialectique d’un graphe de similarité thématique.
 - `refines` — restreint ou clarifie une affirmation
 - `generalizes` / `specializes` — ajustements de portée
 - `depends_on` — relie des affirmations à leurs [hypothèses](./assumption)
-- `defines` — relie des termes à leurs définitions )
+- `defines` — relie des termes à leurs définitions
 
 Voir [Arêtes du graphe dialectique](./dialectical-graph-edges) pour la
 spécification complète et

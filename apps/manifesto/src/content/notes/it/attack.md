@@ -1,6 +1,6 @@
 ---
 title: Attacco
-description: Una contestazione diretta della veridicità di un'asserzione
+description: "Una contestazione diretta della veridicità di un'asserzione"
 sourceLocale: en
 sourceHash: 775f1f75f883
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ tipicamente fornendo un'[controesempio](./counterexample) o evidenze
 contraddittorie.
 
 Gli attacchi sono un tipo di arco fondamentale nel
-[Grafo Dialettico](./dialectical-graph) ). Quando viene registrato un attacco,
+[Grafo Dialettico](./dialectical-graph). Quando viene registrato un attacco,
 lo stato dell'asserzione può passare da `supported` a `contested` o `refuted` a
 seconda della forza e del tipo della contestazione.
 

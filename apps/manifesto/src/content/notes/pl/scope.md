@@ -1,6 +1,6 @@
 ---
 title: Zakres
-description: Warunki stosowalności tezy
+description: "Warunki stosowalności tezy"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14

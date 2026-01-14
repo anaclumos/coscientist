@@ -1,6 +1,6 @@
 ---
 title: Kapsam
-description: Bir iddianın uygulanabilirlik koşulları
+description: "Bir iddianın uygulanabilirlik koşulları"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14

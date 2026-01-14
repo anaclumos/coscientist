@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: System intelektualnego towarzysza do produkcji wiedzy w epoce post-AI
+description: "System intelektualnego towarzysza do produkcji wiedzy w epoce post-AI"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14
@@ -28,18 +28,18 @@ Pierwszą zasadą jest suwerenność: autorytet wiedzy musi pozostać po stronie
 później; to ograniczenie projektowe. AI może wykonywać pracę kontemplacyjną, ale
 nie powinna przejmować inicjatywy w pisaniu i orzekaniu.
 
-Dlatego Coscientist wykracza poza RAG w stylu Q&A ). Utrzymuje
+Dlatego Coscientist wykracza poza RAG w stylu Q&A. Utrzymuje
 [Graf Dialektyczny](./dialectical-graph), który przechowuje
 [akty argumentacyjne](./argumentative-act), a nie surowy tekst dokumentów,
 dzięki czemu każde twierdzenie można powiązać z fragmentami dowodów, źródłami i
-jawnymi relacjami oraz [Krawędziami Grafu Dialektycznego](./dialectical-graph-edges)).
+jawnymi relacjami oraz [Krawędziami Grafu Dialektycznego](./dialectical-graph-edges).
 
 Eksploracja jest domyślnie antagonistyczna. Strategie takie jak
 [wyszukiwanie najpierw kontrprzykładów](./counterexample-first-search),
 izolowanie sprzeczności za pomocą [minimalnego cięcia](./minimum-cut) oraz jawne
 wykrywanie [dryfu definicji](./definition-drift) wywierają presję wcześnie, tak
 aby wiedza aktualizowała się przez obalenie, zamiast dryfować przez powtarzanie
-).
+.
 
 Na poziomie protokołu system stosuje procedury takie jak
 [Protokół Wielo-AI Konsensusu](./multi-ai-consensus-protocol) oraz

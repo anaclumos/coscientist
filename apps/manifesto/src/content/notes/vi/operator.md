@@ -1,6 +1,6 @@
 ---
 title: Người Vận Hành
-description: Chủ thể con người nắm chủ quyền đối với tri thức trong Coscientist
+description: "Chủ thể con người nắm chủ quyền đối với tri thức trong Coscientist"
 sourceLocale: en
 sourceHash: 72db4459729d
 translatedAt: 2026-01-14
@@ -10,7 +10,7 @@ Người Vận Hành là chủ thể con người nắm chủ quyền đối v�
 [Nhà đồng khoa học](./coscientist). Tên gọi này gợi lên hình ảnh một "người canh
 giữ–kiến trúc sư" của một
 [Bách khoa toàn thư Thiên hà](./encyclopedia-galactica): người chịu trách nhiệm
-về cấu trúc, nguồn gốc xuất xứ , và việc đính chính, chứ không chỉ về đầu ra.
+về cấu trúc, nguồn gốc xuất xứ, và việc đính chính, chứ không chỉ về đầu ra.
 
 Để ngăn chặn [Sự sụp đổ Bách khoa toàn thư](./encyclopedia-meltdown), Người Vận
 Hành phải giữ quyền chủ động trong việc suy ngẫm trong khi sử dụng AI như một

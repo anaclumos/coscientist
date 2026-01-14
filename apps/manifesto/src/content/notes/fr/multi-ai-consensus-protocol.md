@@ -1,6 +1,6 @@
 ---
 title: Protocole de consensus multi-IA
-description: Le système d’écriture et de vérification 1+4
+description: "Le système d’écriture et de vérification 1+4"
 sourceLocale: en
 sourceHash: b49299d152fa
 translatedAt: 2026-01-14
@@ -40,5 +40,5 @@ L’unanimité peut aussi pousser l’écriture vers des formulations prudentes 
 affirmations au plus petit dénominateur commun.
 
 Lors d’une revue multi-IA du protocole, il a reçu 2 approbations, 1 objection et
-1 mise en attente, ce qui suggère qu’il a besoin de procédures de réfutation
+1 mise en attente, ce qui suggère qu’il a besoin de procedures de réfutation
 plus solides et de règles concernant l’indépendance des preuves.

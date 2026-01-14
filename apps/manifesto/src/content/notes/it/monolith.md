@@ -1,6 +1,6 @@
 ---
 title: Il Monolito
-description: Ispirazione per il design da _2001: Odissea nello spazio_ di Kubrick
+description: "Ispirazione per il design da _2001: Odissea nello spazio_ di Kubrick"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14
@@ -19,7 +19,7 @@ Luna segnalò la prontezza per la fase successiva.
 
 Questa estetica informa il linguaggio visivo e il modello di interazione di
 [Coscientist](./coscientist). L’[interfaccia a pannelli scorrevoli](./monolith-as-interface-metaphor)
-riecheggia le proporzioni del Monolito: lastre verticali che si impilano
+rieseghida le proporzioni del Monolito: lastre verticali che si impilano
 orizzontalmente, ciascuna contenente conoscenza che trasforma la comprensione.
 
 ## Principi di design derivati

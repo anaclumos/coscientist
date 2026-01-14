@@ -1,6 +1,6 @@
 ---
 title: دشواری مطلوب در راستی‌آزمایی
-description: دشوار کردن راستی‌آزمایی برای حفظ فهم واقعی
+description: "دشوار کردن راستی‌آزمایی برای حفظ فهم واقعی"
 sourceLocale: en
 sourceHash: c50da319d2f0
 translatedAt: 2026-01-14

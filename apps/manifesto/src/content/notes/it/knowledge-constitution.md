@@ -1,8 +1,6 @@
 ---
 title: Costituzione della conoscenza
-description:
-  Il livello di protocollo epistemico come documento di governance su come le
-  affermazioni acquisiscono autorità
+description: "Il livello di protocollo epistemico come documento di governance su come le affermazioni acquisiscono autorità"
 sourceLocale: en
 sourceHash: e7ec03e7fb9e
 translatedAt: 2026-01-14
@@ -18,7 +16,7 @@ Il [livello di protocollo epistemico](./epistemic-protocol-layer) è la
 costituzione di [Coscienziato](./coscientist). Si impegna alla sovranità (il
 giudizio finale resta all’[Operatore](./operator)), alla tracciabilità
 (preservando la [linea di responsabilità](./responsibility-line)) e alla
-validazione avversaria ). Questi sono vincoli sul processo, non sulle
+validazione avversaria. Questi sono vincoli sul processo, non sulle
 conclusioni.
 
 Una costituzione conta perché sopravvive a qualsiasi singola affermazione. I

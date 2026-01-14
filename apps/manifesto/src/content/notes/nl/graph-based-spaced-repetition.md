@@ -1,6 +1,6 @@
 ---
 title: Op grafen gebaseerde gespreide herhaling
-description: Claimleeftijd of weerlegging-leeftijd gebruiken om herverificatie te activeren
+description: "Claimleeftijd of weerlegging-leeftijd gebruiken om herverificatie te activeren"
 sourceLocale: en
 sourceHash: 1c4655730a74
 translatedAt: 2026-01-14
@@ -14,7 +14,7 @@ voor herbeoordeling.
 
 Het inzicht is dat kennis, net als geheugen, wegzakt zonder actieve
 betrokkenheid. Een claim die drie jaar geleden is geverifieerd, kan niet langer
-kloppen als de wereld is veranderd ), als definities zijn verschoven ), of als
+kloppen als de wereld is veranderd, als definities zijn verschoven, of als
 er nieuwe [tegenvoorbeelden](./counterexample) zijn opgedoken.
 
 In een [Dialectische Graaf](./dialectical-graph) kan dit worden geïmplementeerd

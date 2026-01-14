@@ -1,6 +1,6 @@
 ---
 title: Method
-description: The procedure used to generate evidence or conclusions
+description: "The procedure used to generate evidence or conclusions"
 ---
 
 A method is the procedure by which evidence is gathered or a conclusion is
@@ -16,5 +16,5 @@ coupling: clustering claims by method rather than by conclusion to detect shared
 vulnerabilities.
 
 In a [Dialectical Graph](./dialectical-graph), methods are nodes connected to
-claims and evidence ). An [undercut](./undercut) can target the method, arguing
+claims and evidence. An [undercut](./undercut) can target the method, arguing
 that the procedure was flawed even if the data were accurately reported.

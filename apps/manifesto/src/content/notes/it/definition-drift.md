@@ -1,6 +1,6 @@
 ---
 title: Deriva definitoria
-description: Quando il significato di un termine si sposta nel tempo o tra contesti
+description: "Quando il significato di un termine si sposta nel tempo o tra contesti"
 sourceLocale: en
 sourceHash: 13d640679420
 translatedAt: 2026-01-14
@@ -16,5 +16,5 @@ In [Coscienziato](./coscientist), la deriva viene tracciata esplicitamente
 separando gli oggetti di definizione dalle affermazioni. Quando un termine
 cambia significato, le vecchie affermazioni possono essere contrassegnate come
 obsolete a causa della [perdita di significato](./meaning-loss) oppure
-ri-delimitate, invece di essere mescolate silenziosamente in un unico
+ ri-delimitate, invece di essere mescolate silenziosamente in un unico
 "consenso".

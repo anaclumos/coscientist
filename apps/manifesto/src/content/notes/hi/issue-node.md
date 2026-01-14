@@ -1,6 +1,6 @@
 ---
 title: इशू नोड
-description: एक द्वंद्वात्मक ग्राफ में टकराते हुए दावे-समूहों का एक बंडल
+description: "एक द्वंद्वात्मक ग्राफ में टकराते हुए दावे-समूहों का एक बंडल"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14

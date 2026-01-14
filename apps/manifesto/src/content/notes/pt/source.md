@@ -1,6 +1,6 @@
 ---
 title: Fonte
-description: Uma âncora de proveniência para afirmações e evidências
+description: "Uma âncora de proveniência para afirmações e evidências"
 sourceLocale: en
 sourceHash: 73116d209a24
 translatedAt: 2026-01-14

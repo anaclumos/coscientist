@@ -1,6 +1,6 @@
 ---
-title: مونولِتھ
-description: کبرک کی 2001: اے اسپیس اوڈیسی سے ڈیزائن کی تحریک
+title: "مونولِتھ"
+description: "کبرک کی 2001: اے اسپیس اوڈیسی سے ڈیزائن کی تحریک"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

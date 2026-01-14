@@ -1,7 +1,7 @@
 ---
 title: Graphbasierte verteilte Wiederholung
-description: Verwendung von Claim-Alter oder Widerlegungs-Alter, um eine erneute
-  Verifikation auszulösen
+description: "Verwendung von Claim-Alter oder Widerlegungs-Alter, um eine erneute
+  Verifikation auszulösen"
 sourceLocale: en
 sourceHash: 1c4655730a74
 translatedAt: 2026-01-14
@@ -17,7 +17,7 @@ Die Erkenntnis ist, dass Wissen – wie Gedächtnis – ohne aktive
 Auseinandersetzung zerfällt. Ein Claim, der vor drei Jahren verifiziert wurde,
 kann heute nicht mehr gelten, wenn sich die Welt verändert hat
 ([Nichtstationarität](./nonstationarity)), wenn sich Definitionen verschoben
-haben ) oder wenn neue [Gegenbeispiele](./counterexample) aufgetaucht sind.
+haben, oder wenn neue [Gegenbeispiele](./counterexample) aufgetaucht sind.
 
 In einem [dialektischen Graphen](./dialectical-graph) kann dies umgesetzt
 werden, indem der Zeitpunkt der letzten Verifikation für jeden Claim und seine

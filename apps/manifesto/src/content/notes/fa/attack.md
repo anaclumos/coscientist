@@ -1,6 +1,6 @@
 ---
 title: حمله
-description: به‌چالش‌کشیدن مستقیمِ صدقِ یک ادعا
+description: "به‌چالش‌کشیدن مستقیمِ صدقِ یک ادعا"
 sourceLocale: en
 sourceHash: 775f1f75f883
 translatedAt: 2026-01-14

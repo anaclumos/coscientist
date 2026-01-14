@@ -1,6 +1,6 @@
 ---
 title: Quan hệ lập luận
-description: Các loại cạnh trong một đồ thị biện chứng được tổ chức theo chức năng
+description: "Các loại cạnh trong một đồ thị biện chứng được tổ chức theo chức năng"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -29,7 +29,7 @@ tương đồng theo chủ đề.
 - `refines` — thu hẹp hoặc làm rõ một mệnh đề
 - `generalizes` / `specializes` — điều chỉnh phạm vi
 - `depends_on` — liên kết các mệnh đề với các [giả định](./assumption) của chúng
-- `defines` — kết nối các thuật ngữ với định nghĩa của chúng )
+- `defines` — kết nối các thuật ngữ với định nghĩa của chúng
 
 Xem [Các Cạnh của Đồ thị Biện chứng](./dialectical-graph-edges) để biết đặc tả
 đầy đủ và [Phân loại Quan hệ so với Tương đồng](./relation-typing-vs-similarity)

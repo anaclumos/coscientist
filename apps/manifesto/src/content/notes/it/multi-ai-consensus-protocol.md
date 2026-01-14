@@ -1,6 +1,6 @@
 ---
 title: Protocollo di Consenso Multi-AI
-description: Il sistema 1+4 di scrittura e verifica
+description: "Il sistema 1+4 di scrittura e verifica"
 sourceLocale: en
 sourceHash: b49299d152fa
 translatedAt: 2026-01-14
@@ -23,7 +23,7 @@ non è "più memoria"; è disaccordo strutturato e tracciabilità.
   [Linea di Responsabilità](./responsibility-line) e
   [Provenienza](./provenance)).
 - Esegui una ricerca deliberata di confutazioni invece di una ricerca
-  confermativa ).
+  confermativa.
 
 Il protocollo è anche culturale: allena l’abitudine di chiedersi "che cosa mi
 farebbe cambiare idea?"
@@ -33,7 +33,7 @@ farebbe cambiare idea?"
 L’unanimità non è una prova di verità. I modelli condividono dati di
 addestramento e possono convergere su modalità di fallimento correlate, quindi
 l’accordo può riflettere un pregiudizio condiviso piuttosto che una
-[verifica](./verification) indipendente ). L’unanimità può anche spingere la
+[verifica](./verification) indipendente. L’unanimità può anche spingere la
 scrittura verso eccessive cautele o affermazioni da minimo comune denominatore.
 
 In una revisione multi-AI del protocollo, ha ricevuto 2 approvazioni, 1

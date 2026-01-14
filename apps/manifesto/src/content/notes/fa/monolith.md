@@ -1,6 +1,6 @@
 ---
 title: تک‌سنگ
-description: الهامِ طراحی از فیلمِ «۲۰۰۱: اودیسه فضایی»ِ کوبریک
+description: "الهامِ طراحی از فیلمِ «۲۰۰۱: اودیسه فضایی»ِ کوبریک"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

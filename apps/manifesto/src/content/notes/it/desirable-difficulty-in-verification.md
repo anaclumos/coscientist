@@ -1,6 +1,6 @@
 ---
 title: Difficoltà desiderabile nella verifica
-description: Rendere la verifica impegnativa per mantenere una comprensione autentica
+description: "Rendere la verifica impegnativa per mantenere una comprensione autentica"
 sourceLocale: en
 sourceHash: c50da319d2f0
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ riduce a «lo ha detto l’AI»—l’[Operatore](./operator) non sta imparando 
 verificando; sta ratificando.
 
 Il termine prende in prestito dalla scienza dell’apprendimento, dove le
-difficoltà desiderabili e la [spaziatura](./spacing-effect)) migliorano la
+difficoltà desiderabili e la [spaziatura](./spacing-effect) migliorano la
 ritenzione a lungo termine perché richiedono sforzo. La verifica funziona allo
 stesso modo: è lo sforzo del controllo che produce comprensione e intercetta gli
 errori.

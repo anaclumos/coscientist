@@ -1,6 +1,6 @@
 ---
 title: فراگیریِ فراشناختی
-description: یادگیری اینکه یادگیریِ خودتان چگونه کار می‌کند
+description: "یادگیری اینکه یادگیریِ خودتان چگونه کار می‌کند"
 sourceLocale: en
 sourceHash: 3023196c32ff
 translatedAt: 2026-01-14

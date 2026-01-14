@@ -1,6 +1,6 @@
 ---
 title: Reikwijdte
-description: De voorwaarden waaronder een claim van toepassing is
+description: "De voorwaarden waaronder een claim van toepassing is"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14
@@ -19,5 +19,5 @@ voorwaarden. Daarom maakt [kennis-synthese](./knowledge-synthesis) onderscheid
 tussen onverenigbaarheid op basis van reikwijdte en een echte tegenspraak.
 
 In een [Dialectische graaf](./dialectical-graph) is reikwijdte een knooptype dat
-verbonden is met claims ). Wanneer een tegenvoorbeeld wordt gevonden, kan het
+verbonden is met claims. Wanneer een tegenvoorbeeld wordt gevonden, kan het
 systeem de reikwijdte versmallen in plaats van de claim volledig te verwerpen.

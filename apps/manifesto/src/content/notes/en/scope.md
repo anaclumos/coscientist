@@ -1,6 +1,6 @@
 ---
 title: Scope
-description: The conditions of applicability for a claim
+description: "The conditions of applicability for a claim"
 ---
 
 Scope defines where and when a [claim](./claim) is intended to apply: the
@@ -14,5 +14,5 @@ or conditions. This is why [knowledge synthesis](./knowledge-synthesis)
 separates scope-based incompatibility from true contradiction.
 
 In a [Dialectical Graph](./dialectical-graph), scope is a node type connected to
-claims ). When a counterexample is found, the system can narrow the scope rather
+claims. When a counterexample is found, the system can narrow the scope rather
 than discard the claim entirely.

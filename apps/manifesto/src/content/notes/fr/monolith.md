@@ -1,6 +1,6 @@
 ---
 title: Le Monolithe
-description: Inspiration de design tirée de _2001: A Space Odyssey_ de Kubrick
+description: "Inspiration de design tirée de _2001: A Space Odyssey_ de Kubrick"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

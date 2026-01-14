@@ -1,6 +1,6 @@
 ---
-title: परिभाषा बहाव
-description: जब किसी शब्द का अर्थ समय या संदर्भों के साथ बदलता है
+title: "परिभाषा बहाव"
+description: "जब किसी शब्द का अर्थ समय या संदर्भों के साथ बदलता है"
 sourceLocale: en
 sourceHash: 13d640679420
 translatedAt: 2026-01-14

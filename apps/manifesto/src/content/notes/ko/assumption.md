@@ -1,6 +1,6 @@
 ---
-title: 가정
-description: 주장에 내재된 암묵적 전제
+title: "가정"
+description: "주장에 내재된 암묵적 전제"
 sourceLocale: en
 sourceHash: 7ff67cddc322
 translatedAt: 2026-01-14

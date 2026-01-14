@@ -1,6 +1,6 @@
 ---
 title: Обсяг
-description: Умови застосовності твердження
+description: "Умови застосовності твердження"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14

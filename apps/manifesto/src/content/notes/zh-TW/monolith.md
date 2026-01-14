@@ -1,6 +1,6 @@
 ---
 title: 巨石
-description: 來自庫柏力克《2001: A Space Odyssey》的設計靈感
+description: "來自庫柏力克《2001: A Space Odyssey》的設計靈感"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

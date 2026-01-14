@@ -1,6 +1,6 @@
 ---
 title: Khối Monolith
-description: Nguồn cảm hứng thiết kế từ _2001: A Space Odyssey_ của Kubrick
+description: "Nguồn cảm hứng thiết kế từ _2001: A Space Odyssey_ của Kubrick"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

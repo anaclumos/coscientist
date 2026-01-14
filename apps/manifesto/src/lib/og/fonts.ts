@@ -12,6 +12,7 @@ interface FontConfig {
   family: string
   weight: number
   style?: "normal" | "italic"
+  text?: string
 }
 
 export interface OGFont {
@@ -79,14 +80,18 @@ const SCRIPT_FONT_MAP: Record<Script, FontConfig> = {
 }
 
 async function fetchGoogleFont(config: FontConfig): Promise<ArrayBuffer> {
-  const { family, weight } = config
+  const { family, weight, text } = config
 
   const familyParam = family.replace(/ /g, "+")
-  const cssUrl = `${GOOGLE_FONTS_CSS_API}?family=${familyParam}:wght@${weight}`
+  let cssUrl = `${GOOGLE_FONTS_CSS_API}?family=${familyParam}:wght@${weight}`
+
+  if (text) {
+    cssUrl += `&text=${encodeURIComponent(text)}`
+  }
 
   const cssResponse = await fetch(cssUrl, {
     headers: { "User-Agent": TTF_USER_AGENT },
-    cache: "force-cache",
+    cache: text ? "no-store" : "force-cache",
   })
 
   if (!cssResponse.ok) {
@@ -117,6 +122,10 @@ async function fetchGoogleFont(config: FontConfig): Promise<ArrayBuffer> {
 const fontCache = new Map<string, Promise<ArrayBuffer>>()
 
 function getCachedFont(config: FontConfig): Promise<ArrayBuffer> {
+  if (config.text) {
+    return fetchGoogleFont(config)
+  }
+
   const cacheKey = `${config.family}-${config.weight}-${config.style || "normal"}`
 
   const cached = fontCache.get(cacheKey)
@@ -139,7 +148,8 @@ export function getFacultyGlyphic(): Promise<ArrayBuffer> {
 }
 
 export async function getLocaleFallbackFont(
-  locale: string
+  locale: string,
+  text?: string
 ): Promise<OGFont | null> {
   const script = getScriptForLocale(locale)
 
@@ -148,7 +158,7 @@ export async function getLocaleFallbackFont(
   }
 
   const fontConfig = SCRIPT_FONT_MAP[script]
-  const data = await getCachedFont(fontConfig)
+  const data = await getCachedFont({ ...fontConfig, text })
 
   return {
     name: fontConfig.family,
@@ -158,7 +168,10 @@ export async function getLocaleFallbackFont(
   }
 }
 
-export async function getFontsForLocale(locale: string): Promise<OGFont[]> {
+export async function getFontsForLocale(
+  locale: string,
+  text?: string
+): Promise<OGFont[]> {
   const fonts: OGFont[] = []
 
   const primaryData = await getFacultyGlyphic()
@@ -169,7 +182,7 @@ export async function getFontsForLocale(locale: string): Promise<OGFont[]> {
     style: "normal",
   })
 
-  const fallback = await getLocaleFallbackFont(locale)
+  const fallback = await getLocaleFallbackFont(locale, text)
   if (fallback) {
     fonts.push(fallback)
   }

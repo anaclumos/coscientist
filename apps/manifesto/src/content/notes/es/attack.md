@@ -1,6 +1,6 @@
 ---
 title: Ataque
-description: Un desafío directo a la veracidad de una afirmación
+description: "Un desafío directo a la veracidad de una afirmación"
 sourceLocale: en
 sourceHash: 775f1f75f883
 translatedAt: 2026-01-14

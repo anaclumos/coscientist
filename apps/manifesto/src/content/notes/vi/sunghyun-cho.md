@@ -1,6 +1,6 @@
 ---
 title: Sunghyun Cho
-description: Người xây dựng Coscientist và tác giả của các bài tiểu luận nền tảng của nó
+description: "Người xây dựng Coscientist và tác giả của các bài tiểu luận nền tảng của nó"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

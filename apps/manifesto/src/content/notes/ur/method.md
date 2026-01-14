@@ -1,6 +1,6 @@
 ---
 title: طریقۂ کار
-description: شواہد یا نتائج اخذ کرنے کے لیے استعمال ہونے والا طریقۂ عمل
+description: "شواہد یا نتائج اخذ کرنے کے لیے استعمال ہونے والا طریقۂ عمل"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14

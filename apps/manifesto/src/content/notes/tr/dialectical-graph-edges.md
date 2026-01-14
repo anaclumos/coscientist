@@ -1,6 +1,6 @@
 ---
 title: Diyalektik Grafik Kenarları
-description: Diyalektik bir bilgi grafiğinde düğümleri bağlayan ilişki türleri
+description: "Diyalektik bir bilgi grafiğinde düğümleri bağlayan ilişki türleri"
 sourceLocale: en
 sourceHash: 82c6fd07bccd
 translatedAt: 2026-01-14

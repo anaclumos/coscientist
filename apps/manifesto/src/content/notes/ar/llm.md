@@ -1,8 +1,7 @@
 ---
 title: نموذج لغوي كبير
-description:
-  نموذج لغوي كبير، وهو البنية للذكاء الاصطناعي التي تقوم عليها أعمال التأمل لدى
-  Coscientist
+description: "نموذج لغوي كبير، وهو البنية للذكاء الاصطناعي التي تقوم عليها أعمال التأمل لدى
+  Coscientist"
 sourceLocale: en
 sourceHash: a03c9bb62d5e
 translatedAt: 2026-01-14

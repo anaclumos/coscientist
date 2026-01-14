@@ -1,8 +1,6 @@
 ---
 title: Sự sụp đổ bách khoa
-description:
-  Hiện tượng sụp đổ tri thức khi AI tự nắm quyền chủ động mà không có can thiệp
-  của con người
+description: "Hiện tượng sụp đổ tri thức khi AI tự nắm quyền chủ động mà không có can thiệp của con người"
 sourceLocale: en
 sourceHash: 9dd770ce12d3
 translatedAt: 2026-01-14
@@ -20,7 +18,7 @@ Meltdown thường xuất hiện từ ba vòng lặp liên kết với nhau:
 2. **Liên kết → thẩm quyền**: các liên kết nội bộ ngừng hoạt động như các đường
    dẫn kiểm chứng và trở thành huy hiệu đáng tin, khiến mật độ liên kết thay thế
    cho độ chính xác.
-3. **Trách nhiệm → vô chủ thể **: khi không rõ ai đã khẳng định điều gì dựa trên
+3. **Trách nhiệm → vô chủ thể**: khi không rõ ai đã khẳng định điều gì dựa trên
    căn cứ nào, việc sửa sai trở nên tốn kém, và hệ thống ổn định quanh một trạng
    thái cân bằng sai "được duy trì xấp xỉ".
 

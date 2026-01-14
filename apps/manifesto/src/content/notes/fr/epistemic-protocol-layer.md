@@ -1,8 +1,7 @@
 ---
 title: Couche de protocole épistémique
-description:
-  Règles et flux de travail qui rendent les systèmes de connaissance plus
-  robustes face à l’effondrement
+description: "Règles et flux de travail qui rendent les systèmes de connaissance plus
+  robustes face à l’effondrement"
 sourceLocale: en
 sourceHash: 36c93eb305a5
 translatedAt: 2026-01-14

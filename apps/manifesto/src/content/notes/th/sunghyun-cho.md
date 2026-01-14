@@ -1,6 +1,6 @@
 ---
 title: ซองฮยอน โช
-description: ผู้สร้าง Coscientist และผู้เขียนบทความรากฐานที่วางทิศทางของมัน
+description: "ผู้สร้าง Coscientist และผู้เขียนบทความรากฐานที่วางทิศทางของมัน"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

@@ -1,6 +1,6 @@
 ---
 title: Diyalektik Grafik Düğümleri
-description: Diyalektik bir bilgi grafiğindeki düğüm türleri
+description: "Dyalektik bir bilgi grafiğindeki düğüm türleri"
 sourceLocale: en
 sourceHash: 007206ea7078
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ genel bakış için [Grafik Bileşenleri](./graph-components) bölümüne bakın
 - [İddia](./claim) — doğrulanabilir önermeler
 - [Kapsam](./scope) — uygulanabilirlik koşulları
 - [Varsayım](./assumption) — örtük öncüller
-- Tanımlar — terim anlamları )
+- Tanımlar — terim anlamları
 - [Yöntem](./method) — kanıt veya sonuç üreten prosedürler
 - Veri — ölçümler veya sonuçlar
 - [Kanıt Aralığı](./evidence-span) — tam alıntılanmış aralıklar
@@ -27,6 +27,6 @@ ve önceki bir sonucu çürütebilir; bilginin yalnızca birikmek yerine
 güncellenmesini istiyorsanız, bunların her biri ayrı ayrı ele alınabilir
 kalmalıdır.
 
-İddia durumu, tek bir güven puanı yerine çok boyutludur ).
+İddia durumu, tek bir güven puanı yerine çok boyutludur.
 Geçişler, itirazların sayısından ziyade itirazın türü ve kapsam, varsayım, tanım veya yöntem düzeyinde
 başarılı olup olmamasına daha çok bağlıdır; bkz. [Diyalektik Grafik Kenarları](./dialectical-graph-edges).

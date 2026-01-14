@@ -1,6 +1,6 @@
 ---
 title: Протокол консенсуса Multi-AI
-description: Система написания и проверки «1+4» (человек + четыре ИИ)
+description: "Система написания и проверки «1+4» (человек + четыре ИИ)"
 sourceLocale: en
 sourceHash: b49299d152fa
 translatedAt: 2026-01-14

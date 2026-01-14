@@ -1,8 +1,9 @@
 ---
 title: Encyclopedia Meltdown
-description:
-  Knowledge-collapse phenomenon when AI takes initiative without human
-  intervention
+description: "Knowledge-collapse phenomenon when AI takes initiative without human intervention"
+sourceLocale: en
+sourceHash: ""
+translatedAt: 
 ---
 
 Encyclopedia Meltdown is a knowledge-collapse failure mode that begins when the
@@ -29,7 +30,7 @@ human contemplation degenerates from verification into mere ratification.
 Prevention starts with a first principle: sovereignty over knowledge must remain
 with the [Operator](./operator). In [Coscientist](./coscientist), that shows up
 as an [epistemic protocol layer](./epistemic-protocol-layer) and preserving the
-[responsibility line](./responsibility-line)), a
+[responsibility line](./responsibility-line), a
 [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol), and a
 [Dialectical Graph](./dialectical-graph) that separates inference from
 narrative.

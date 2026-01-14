@@ -1,6 +1,6 @@
 ---
 title: Asumsi
-description: Premis implisit yang mendasari sebuah klaim
+description: "Premis implisit yang mendasari sebuah klaim"
 sourceLocale: en
 sourceHash: 7ff67cddc322
 translatedAt: 2026-01-14
@@ -17,7 +17,7 @@ melainkan karena mereka memegang premis tersirat yang berbeda tentang definisi,
 garis dasar, atau konteks. Membuat asumsi menjadi eksplisit adalah langkah kunci
 dalam [sintesis pengetahuan](./knowledge-synthesis).
 
-Dalam [Graf Dialektik](./dialectical-graph), asumsi adalah jenis simpul ) yang
+Dalam [Graf Dialektik](./dialectical-graph), asumsi adalah jenis simpul yang
 terhubung ke klaim melalui sisi `depends_on`. Sebuah [undercut](./undercut)
 menyerang asumsi alih-alih klaim secara langsung; jika asumsinya runtuh, klaim
 kehilangan pijakannya.

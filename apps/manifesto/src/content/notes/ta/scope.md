@@ -1,6 +1,6 @@
 ---
 title: வரம்பு
-description: ஒரு கோரிக்கைக்கு பொருந்தும் நிபந்தனைகள்
+description: "ஒரு கோரிக்கைக்கு பொருந்தும் நிபந்தனைகள்"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14

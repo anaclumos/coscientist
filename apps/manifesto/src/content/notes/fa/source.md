@@ -1,6 +1,6 @@
 ---
 title: منبع
-description: لنگر منشأ برای ادعاها و شواهد
+description: "لنگر منشأ برای ادعاها و شواهد"
 sourceLocale: en
 sourceHash: 73116d209a24
 translatedAt: 2026-01-14

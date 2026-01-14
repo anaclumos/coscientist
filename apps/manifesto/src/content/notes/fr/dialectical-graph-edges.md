@@ -1,6 +1,6 @@
 ---
 title: Arêtes du graphe dialectique
-description: Les types de relations reliant les nœuds dans un graphe de connaissances dialectique
+description: "Les types de relations reliant les nœuds dans un graphe de connaissances dialectique"
 sourceLocale: en
 sourceHash: 82c6fd07bccd
 translatedAt: 2026-01-14
@@ -23,7 +23,7 @@ Les types de relations courants incluent :
 Les arêtes typées permettent la mise à jour des connaissances via des chaînes de
 réfutation, la détection de conflits de définition et le suivi du statut de
 réplication. Ce sont des capacités que la recherche fondée sur la similarité a
-du mal à représenter ). Elles soutiennent aussi l’évaluation de la qualité : la
+du mal à représenter. Elles soutiennent aussi l’évaluation de la qualité : la
 qualité des connaissances dépend moins de l’orientation d’une conclusion que de
 la robustesse du chemin qui l’a produite, et les arêtes encodent la structure de
 ce chemin à travers les nœuds (voir [Nœuds du graphe dialectique](./dialectical-graph-nodes)) et d’autres [Composants du graphe](./graph-components).

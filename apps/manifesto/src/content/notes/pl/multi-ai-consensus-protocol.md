@@ -1,6 +1,6 @@
 ---
 title: Protokół Konsensusu Multi-AI
-description: System pisania i weryfikacji 1+4 (człowiek + cztery AI)
+description: "System pisania i weryfikacji 1+4 (człowiek + cztery AI)"
 sourceLocale: en
 sourceHash: b49299d152fa
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ halucynacji pojedynczego modelu i pomóc bronić się przed
 
 W wariancie „1+4" jeden człowiek koordynuje czterech asystentów AI (stan na
 grudzień 2025: ChatGPT, Gemini, Claude i Grok). Chodzi nie o „więcej pamięci",
-lecz o ustrukturyzowaną niezgodę i możliwość prześledzenia .
+lecz o ustrukturyzowaną niezgodę i możliwość prześledzenia.
 
 ## Zasady operacyjne
 
@@ -35,7 +35,7 @@ Jednomyślność nie jest dowodem prawdy. Modele współdzielą dane treningowe 
 zbiegać się ku skorelowanym trybom porażki, więc zgoda może odzwierciedlać
 wspólne uprzedzenie, a nie niezależną [weryfikację](./verification) (zob.
 [Niezależność dowodów](./evidence-independence)). Jednomyślność może też pchać
-tekst w stronę asekuracji lub tez o najniższym wspólnym mianowniku.
+tekst w stronę asekuracji lub też o najniższym wspólnym mianowniku.
 
 W jednym wielo-AI przeglądzie protokołu otrzymał on 2 zatwierdzenia, 1 sprzeciw
 i 1 wstrzymanie, co sugeruje, że potrzebuje silniejszych procedur obaleń oraz

@@ -1,6 +1,6 @@
 ---
 title: Durum Geçiş Kuralları
-description: Diyalektik bir grafikte iddia durumları arasında hareketi ne tetikler
+description: "Diyalektik bir grafikte iddia durumları arasında hareketi ne tetikler"
 sourceLocale: en
 sourceHash: bae87c3f8772
 translatedAt: 2026-01-14
@@ -17,8 +17,8 @@ kaydedildiğinde), ihtilaflı → koşullu olarak desteklenen (saldırı,
 [kapsamın](./scope) daraltılması veya [varsayımların](./assumption)
 netleştirilmesiyle yanıtlandığında), koşullu olarak desteklenen → sağlam (birden
 çok bağımsız yol doğruladığında), sağlam → çürütülmüş (bir karşı-örnek
-incelemeye rağmen ayakta kaldığında) ve herhangi bir durum → geçersiz (
-[tanım kayması](./definition-drift) iddianın anlam bağını kopardığında).
+incelemeye rağmen ayakta kaldığında) ve herhangi bir durum → geçersiz
+[tanım kayması](./definition-drift) iddianın anlam bağını kopardığında.
 
 Bu kurallar, [Eşbilimci](./coscientist) içindeki
 [epistemik protokol katmanının](./epistemic-protocol-layer) bir parçasıdır.

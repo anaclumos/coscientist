@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: An intellectual companion system for knowledge production in the post-AI era
+description: "An intellectual companion system for knowledge production in the post-AI era"
 ---
 
 Coscientist is an open-source service inspired by
@@ -25,17 +25,17 @@ The first principle is sovereignty: knowledge authority must remain with the
 design constraint. AI can do contemplation labor, but it should not seize the
 initiative of writing and declaring.
 
-This is why Coscientist goes beyond Q&A-style RAG ). It maintains a
+This is why Coscientist goes beyond Q&A-style RAG. It maintains a
 [Dialectical Graph](./dialectical-graph) that stores
 [argumentative acts](./argumentative-act) rather than raw document text, so
 every claim can be tied to evidence spans, sources, and explicit relations and
-[Dialectical Graph Edges](./dialectical-graph-edges)).
+[Dialectical Graph Edges](./dialectical-graph-edges).
 
 Exploration is adversarial by default. Strategies like
 [counterexample-first search](./counterexample-first-search), contradiction
 isolation via [minimum cut](./minimum-cut), and explicit
 [definition drift](./definition-drift) detection apply pressure early so
-knowledge updates by rebuttal instead of drifting by repetition ).
+knowledge updates by rebuttal instead of drifting by repetition.
 
 At the protocol level, the system uses procedures like the
 [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol) and

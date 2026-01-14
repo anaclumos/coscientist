@@ -1,6 +1,6 @@
 ---
 title: Protocolo de Consenso Multi-IA
-description: O sistema de escrita e verificação 1+4
+description: "O sistema de escrita e verificação 1+4"
 sourceLocale: en
 sourceHash: b49299d152fa
 translatedAt: 2026-01-14
@@ -11,15 +11,15 @@ O Protocolo de Consenso Multi-IA é um fluxo de trabalho colaborativo no qual o
 alucinação de um único modelo e ajudar a se defender contra o
 [Colapso da Enciclopédia](./encyclopedia-meltdown).
 
-Na variante "1+4", um humano coordena quatro assistentes de IA . O objetivo não
+Na variante "1+4", um humano coordena quatro assistentes de IA. O objetivo não
 é "mais memória"; é discordância estruturada e rastreabilidade.
 
 ## Regras de Operação
 
-- Aceitar revisões apenas quando alcançarem unanimidade ).
+- Aceitar revisões apenas quando alcançarem unanimidade.
 - Manter a incerteza explícita; não a suavizar no texto.
 - Exigir proveniência rastreável para as afirmações e
-  [Proveniência](./provenance)).
+  [Proveniência](./provenance).
 - Realizar uma busca deliberada por refutações em vez de uma busca confirmatória
   (ver [Busca Primeiro por Refutação](./rebuttal-first-search)).
 

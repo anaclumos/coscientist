@@ -1,6 +1,6 @@
 ---
 title: সানঘ্যুন চো
-description: Coscientist-এর নির্মাতা এবং এর ভিত্তিমূলক প্রবন্ধগুলোর লেখক
+description: "Coscientist-এর নির্মাতা এবং এর ভিত্তিমূলক প্রবন্ধগুলোর লেখক"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

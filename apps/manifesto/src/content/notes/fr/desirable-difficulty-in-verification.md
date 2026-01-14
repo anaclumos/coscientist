@@ -1,8 +1,6 @@
 ---
 title: Difficulté désirable dans la vérification
-description:
-  Rendre la vérification suffisamment exigeante pour maintenir une compréhension
-  authentique
+description: "Rendre la vérification suffisamment exigeante pour maintenir une compréhension authentique"
 sourceLocale: en
 sourceHash: c50da319d2f0
 translatedAt: 2026-01-14
@@ -15,7 +13,7 @@ une cognition authentique. Si la vérification d’une affirmation est trop faci
 ne vérifie ; il entérine.
 
 Le terme est emprunté aux sciences de l’apprentissage, où les difficultés
-désirables et l’[effet d’espacement](./spacing-effect)) améliorent la rétention
+désirables et l’[effet d’espacement](./spacing-effect) améliorent la rétention
 à long terme parce qu’elles exigent un effort. La vérification fonctionne de la
 même manière : c’est l’effort de contrôle qui produit la compréhension et permet
 de repérer les erreurs.

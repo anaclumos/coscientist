@@ -1,6 +1,6 @@
 ---
 title: Источник
-description: Якорь происхождения для утверждений и свидетельств
+description: "Якорь происхождения для утверждений и свидетельств"
 sourceLocale: en
 sourceHash: 73116d209a24
 translatedAt: 2026-01-14

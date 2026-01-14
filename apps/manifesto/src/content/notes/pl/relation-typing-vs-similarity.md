@@ -1,16 +1,14 @@
 ---
 title: Typowanie relacji vs podobieństwo
-description:
-  Dlaczego krawędzie typowane rozwiązują to, czego nie potrafi wyszukiwanie
-  oparte na podobieństwie
+description: "Dlaczego krawędzie typowane rozwiązują to, czego nie potrafi wyszukiwanie oparte na podobieństwie"
 sourceLocale: en
 sourceHash: ae787ed89f61
 translatedAt: 2026-01-14
 ---
 
 Typowanie relacji vs podobieństwo zestawia dwa podejścia do łączenia wiedzy:
-wyszukiwanie oparte na podobieństwie ) pyta „o czym to jest?", podczas gdy grafy
-z relacjami typowanymi ) pytają „co to robi tamtemu?".
+wyszukiwanie oparte na podobieństwie. pyta „o czym to jest?", podczas gdy grafy
+z relacjami typowanymi. pytają „co to robi tamtemu?".
 
 Wyszukiwanie przez podobieństwo wydobywa dokumenty, które używają podobnych
 słów. Nie potrafi powiedzieć, czy te dokumenty się zgadzają, są ze sobą w

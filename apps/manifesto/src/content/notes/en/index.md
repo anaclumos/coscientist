@@ -1,6 +1,6 @@
 ---
 title: "Tokens ≠ Knowledge"
-description: A Personal Quest for a Cognitive Exoskeleton
+description: "A Personal Quest for a Cognitive Exoskeleton"
 ---
 
 I, [Sunghyun Cho](./sunghyun-cho), grew up with a reverence for encyclopedias
@@ -66,8 +66,8 @@ disappears and errors self-amplify through links.
 
 The countermeasure is an [epistemic protocol layer](./epistemic-protocol-layer),
 a constitutional layer for knowledge systems. Its core commitments are
-sovereignty ), traceability , and rebuttal-first validation to seek
-counterevidence before acceptance). This layer also addresses pressures like
+sovereignty, traceability, and rebuttal-first validation to seek
+counterevidence before acceptance. This layer also addresses pressures like
 [model collapse](./model-collapse) and the flood of [AI slop](./ai-slop) by
 enforcing explicit provenance and zero-trust ingestion.
 
@@ -107,14 +107,14 @@ alternative hypotheses, and making rebuttal-seeking the default.
 
 Coscientist is meant as a blueprint for a new epistemic infrastructure:
 frictionless yet sovereign, fast yet accountable, powerful without eroding
-agency. It targets three failure modes: institutional brain rot , verification
-collapse , and agency loss .
+agency. It targets three failure modes: institutional brain rot, verification
+collapse, and agency loss.
 
 The long-term vision is a federated network of Coscientist instances at
 personal, organizational, and public scales that exchange validated knowledge
 while preserving local sovereignty. If you want a reading path, start with
-[Creating Next-gen Digital Brains](./creating-next-gen-digital-brains) , then
+[Creating Next-gen Digital Brains](./creating-next-gen-digital-brains), then
 [Encyclopedia Meltdown](./encyclopedia-meltdown) and the
-[epistemic protocol layer](./epistemic-protocol-layer) , then
+[epistemic protocol layer](./epistemic-protocol-layer), then
 [Dialectical Graph](./dialectical-graph) and
-[knowledge synthesis](./knowledge-synthesis) .
+[knowledge synthesis](./knowledge-synthesis).

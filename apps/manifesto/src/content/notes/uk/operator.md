@@ -1,6 +1,6 @@
 ---
-title: Оператор
-description: Людський суверен над знанням у Coscientist
+title: "Оператор"
+description: "Людський суверен над знанням у Coscientist"
 sourceLocale: en
 sourceHash: 72db4459729d
 translatedAt: 2026-01-14

@@ -1,11 +1,11 @@
 ---
 title: Sunghyun Cho
-description: Builder of Coscientist and author of its foundational essays
+description: "Builder of Coscientist and author of its foundational essays"
 ---
 
 Sunghyun Cho is the builder of [Coscientist](./coscientist) and the author of
 essays that shaped its direction. His work connects personal knowledge tooling
-and [Extracranial](./extracranial)) with a broader concern: how to keep
+and [Extracranial](./extracranial) with a broader concern: how to keep
 verification and agency intact in an AI-saturated environment.
 
 Cho operates bilingually in his [digital brain](./digital-brain), a practice

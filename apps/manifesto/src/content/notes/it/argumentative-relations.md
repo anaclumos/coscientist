@@ -1,6 +1,6 @@
 ---
 title: Relazioni argomentative
-description: Tipi di arco in un grafo dialettico organizzati per funzione
+description: "Tipi di arco in un grafo dialettico organizzati per funzione"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -30,7 +30,7 @@ da un grafo di somiglianza per tema.
 - `refines` — restringe o chiarisce un’affermazione
 - `generalizes` / `specializes` — aggiustamenti dell’ambito
 - `depends_on` — collega le affermazioni alle loro [assunzioni](./assumption)
-- `defines` — collega i termini alle loro definizioni )
+- `defines` — collega i termini alle loro definizioni
 
 Vedi [Archi del grafo dialettico](./dialectical-graph-edges) per la specifica
 completa e

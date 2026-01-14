@@ -1,6 +1,6 @@
 ---
 title: मेटा-लर्निंग
-description: यह सीखना कि आपकी अपनी सीखने की प्रक्रिया कैसे काम करती है
+description: "यह सीखना कि आपकी अपनी सीखने की प्रक्रिया कैसे काम करती है"
 sourceLocale: en
 sourceHash: 3023196c32ff
 translatedAt: 2026-01-14

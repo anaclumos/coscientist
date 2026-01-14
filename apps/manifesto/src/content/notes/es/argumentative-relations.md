@@ -1,6 +1,6 @@
 ---
 title: Relaciones argumentativas
-description: Tipos de aristas en un grafo dialéctico organizados por función
+description: "Tipos de aristas en un grafo dialéctico organizados por función"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -29,7 +29,7 @@ de un grafo de similitud temática.
 - `refines` — acota o aclara una afirmación
 - `generalizes` / `specializes` — ajustes de alcance
 - `depends_on` — vincula afirmaciones con sus [supuestos](./assumption)
-- `defines` — conecta términos con sus definiciones )
+- `defines` — conecta términos con sus definiciones
 
 Consulta [Aristas del grafo dialéctico](./dialectical-graph-edges) para la
 especificación completa y

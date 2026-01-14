@@ -1,6 +1,6 @@
 ---
 title: Source
-description: Un ancrage de provenance pour les affirmations et les preuves
+description: "Un ancrage de provenance pour les affirmations et les preuves"
 sourceLocale: en
 sourceHash: 73116d209a24
 translatedAt: 2026-01-14

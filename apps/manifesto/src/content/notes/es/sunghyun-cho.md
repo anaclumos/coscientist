@@ -1,6 +1,6 @@
 ---
 title: Sunghyun Cho
-description: Creador de Coscientist y autor de sus ensayos fundacionales
+description: "Creador de Coscientist y autor de sus ensayos fundacionales"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14
@@ -11,7 +11,7 @@ ensayos que moldearon su rumbo. Su trabajo conecta herramientas de conocimiento
 personal (por ejemplo,
 [Creación de cerebros digitales de nueva generación](./creating-next-gen-digital-brains)
 y [Extracraneal](./extracranial)) con una preocupación más amplia: cómo mantener
-intactas la verificación y la agencia en un entorno saturado de IA.
+indactas la verificación y la agencia en un entorno saturado de IA.
 
 Cho trabaja de forma bilingüe (inglés y coreano) en su
 [cerebro digital](./digital-brain), una práctica que informa su visión de

@@ -1,13 +1,12 @@
 ---
 title: گراف کے اجزاء
-description: وہ نوڈ اور ایج کی اقسام جو ایک جدلیاتی گراف بناتی ہیں
+description: "وہ نوڈ اور ایج کی اقسام جو ایک جدلیاتی گراف بناتی ہیں"
 sourceLocale: en
 sourceHash: 1c3352deea91
 translatedAt: 2026-01-14
 ---
 
-گراف کے اجزاء ایک [جدلیاتی گراف](./dialectical-graph) کے بنیادی تعمیراتی حصے
-ہیں: [جدلیاتی گراف کے نوڈز](./dialectical-graph-nodes) جو معرفتی اشیاء کی نمائندگی کرتے ہیں، اور [جدلیاتی گراف کی ایجز](./dialectical-graph-edges) جو ان کے درمیان [حجّاجی تعلقات](./argumentative-relations) کی نمائندگی کرتی ہیں۔
+گراف کے اجزاء ایک [جدلیاتی گراف](./dialectical-graph) کے بنیادی تعمیراتی حصے ہیں: [جدلیاتی گراف کے نوڈز](./dialectical-graph-nodes) جو معرفتی اشیاء کی نمائندگی کرتے ہیں، اور [جدلیاتی گراف کی ایجز](./dialectical-graph-edges) جو ان کے درمیان [حجّاجی تعلقات](./argumentative-relations) کی نمائندگی کرتی ہیں۔
 
 **نوڈ کی اقسام** (دیکھیں [جدلیاتی گراف کے نوڈز](./dialectical-graph-nodes)):
 

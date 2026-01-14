@@ -1,6 +1,6 @@
 ---
 title: Dérive de définition
-description: Quand le sens d’un terme se déplace au fil du temps ou selon les contextes
+description: "Quand le sens d’un terme se déplace au fil du temps ou selon les contextes"
 sourceLocale: en
 sourceHash: 13d640679420
 translatedAt: 2026-01-14

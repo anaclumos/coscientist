@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: Un système de compagnon intellectuel pour la production de connaissances à l’ère post-IA
+description: "Un système de compagnon intellectuel pour la production de connaissances à l’ère post-IA"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14
@@ -30,7 +30,7 @@ réflexion a posteriori ; c’est une contrainte de conception. L’IA peut fair
 travail de contemplation, mais elle ne doit pas s’emparer de l’initiative
 d’écrire et de décréter.
 
-C’est pourquoi Coscientist va au-delà d’un RAG de type questions-réponses ). Il
+C’est pourquoi Coscientist va au-delà d’un RAG de type questions-réponses. Il
 maintient un [Graphe dialectique](./dialectical-graph) qui stocke des
 [actes argumentatifs](./argumentative-act) plutôt que du texte brut de
 documents, afin que chaque affirmation puisse être rattachée à des passages
@@ -42,7 +42,7 @@ L’exploration est adversariale par défaut. Des stratégies comme la
 l’isolement des contradictions via la [coupe minimale](./minimum-cut) et la
 détection explicite de la [dérive de définition](./definition-drift) appliquent
 une pression tôt, de sorte que la connaissance se mette à jour par réfutation
-plutôt que de dériver par répétition ).
+plutôt que de dériver par répétition.
 
 Au niveau du protocole, le système utilise des procédures comme le
 [Protocole de consensus multi-IA](./multi-ai-consensus-protocol) et la

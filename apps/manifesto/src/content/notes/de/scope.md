@@ -1,6 +1,6 @@
 ---
 title: Geltungsbereich
-description: Die Bedingungen der Anwendbarkeit für eine Behauptung
+description: "Die Bedingungen der Anwendbarkeit für eine Behauptung"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14
@@ -20,6 +20,6 @@ Populationen oder Bedingungen beziehen. Deshalb trennt die
 Unvereinbarkeit von einem echten Widerspruch.
 
 In einem [Dialektischen Graphen](./dialectical-graph) ist der Geltungsbereich
-ein Knotentyp, der mit Behauptungen verbunden ist ). Wenn ein Gegenbeispiel
+ein Knotentyp, der mit Behauptungen verbunden ist. Wenn ein Gegenbeispiel
 gefunden wird, kann das System den Geltungsbereich verengen, anstatt die
 Behauptung vollständig zu verwerfen.

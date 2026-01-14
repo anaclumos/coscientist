@@ -1,6 +1,6 @@
 ---
 title: Método
-description: O procedimento usado para gerar evidências ou conclusões
+description: "O procedimento usado para gerar evidências ou conclusões"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14

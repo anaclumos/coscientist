@@ -1,8 +1,6 @@
 ---
 title: Krach Encyklopedii
-description:
-  Zjawisko załamania wiedzy, gdy AI przejmuje inicjatywę bez interwencji
-  człowieka
+description: "Zjawisko załamania wiedzy, gdy AI przejmuje inicjatywę bez interwencji człowieka"
 sourceLocale: en
 sourceHash: 9dd770ce12d3
 translatedAt: 2026-01-14

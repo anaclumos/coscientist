@@ -1,6 +1,6 @@
 ---
 title: Kesulitan yang Diinginkan dalam Verifikasi
-description: Membuat verifikasi membutuhkan usaha untuk mempertahankan pemahaman yang nyata
+description: "Membuat verifikasi membutuhkan usaha untuk mempertahankan pemahaman yang nyata"
 sourceLocale: en
 sourceHash: c50da319d2f0
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ mereduksi menjadi "AI yang bilang"—maka [Operator](./operator) tidak sedang
 belajar atau memverifikasi; mereka hanya meratifikasi.
 
 Istilah ini dipinjam dari ilmu pembelajaran, di mana kesulitan yang diinginkan
-dan [jeda berkala](./spacing-effect)) meningkatkan retensi jangka panjang karena
+dan [jeda berkala](./spacing-effect) meningkatkan retensi jangka panjang karena
 membutuhkan usaha. Verifikasi bekerja dengan cara yang sama: usaha untuk
 memeriksa itulah yang menghasilkan pemahaman dan menangkap kesalahan.
 

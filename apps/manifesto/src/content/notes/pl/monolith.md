@@ -1,6 +1,6 @@
 ---
 title: Monolit
-description: Inspiracja projektowa z _2001: Odysei kosmicznej_ Kubricka
+description: "Inspiracja projektowa z _2001: Odysei kosmicznej_ Kubricka"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

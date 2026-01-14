@@ -1,6 +1,6 @@
 ---
 title: Metaaprendizaje
-description: Aprender cómo funciona tu propio aprendizaje
+description: "Aprender cómo funciona tu propio aprendizaje"
 sourceLocale: en
 sourceHash: 3023196c32ff
 translatedAt: 2026-01-14

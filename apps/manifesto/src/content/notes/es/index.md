@@ -1,6 +1,6 @@
 ---
 title: "Tokens ≠ Conocimiento"
-description: Una búsqueda personal de un exoesqueleto cognitivo
+description: "Una búsqueda personal de un exoesqueleto cognitivo"
 sourceLocale: en
 sourceHash: adfef3bcf465
 translatedAt: 2026-01-14
@@ -38,9 +38,9 @@ sistema lo organice, lo vincule y lo haga reaparecer.
 
 A mediados de 2022, implementé un prototipo usando un pipeline de sitio estático
 desde Obsidian a la web y lo llamé [Extracranial](./extracranial). Era un
-cerebro digital personal que autoindexaba contenido, sugería enlaces inversos ,
+cerebro digital personal que autoindexaba contenido, sugería enlaces inversos,
 permitía que las entradas antiguas se degradaran a menos que se marcaran como
-perennes , y operaba de forma bilingüe
+perennes, y operaba de forma bilingüe
 [a través de los Sprachraums](./across-the-sprachraums). Me liberó de
 micromanejar enlaces y me permitió centrarme en escribir y pensar.
 
@@ -78,13 +78,13 @@ autoamplifican a través de enlaces.
 La contramedida es una
 [capa de protocolo epistémico](./epistemic-protocol-layer), una capa
 constitucional para sistemas de conocimiento. Sus compromisos centrales son la
-soberanía ), la trazabilidad (cada afirmación mantiene una línea de
+soberanía, la trazabilidad (cada afirmación mantiene una línea de
 responsabilidad) y la validación con refutación primero (usar la
 [búsqueda con refutación primero](./rebuttal-first-search) para buscar
 contraevidencia antes de aceptar). Esta capa también aborda presiones como el
 [colapso del modelo](./model-collapse) y la inundación de
 [basura de IA](./ai-slop) al imponer procedencia explícita e ingestión de
-confianza cero .
+confianza cero.
 
 ## ScienceOps y escala institucional
 
@@ -128,14 +128,14 @@ epistémica: sin fricción pero soberana, rápida pero responsable, potente sin
 erosionar la agencia. Apunta a tres modos de fallo: la podredumbre cerebral
 institucional (mitigada mediante referencias cruzadas y revisión adversarial),
 el colapso de la verificación (mitigado mediante trazabilidad y búsqueda
-automatizada de refutaciones) y la pérdida de agencia .
+automatizada de refutaciones) y la pérdida de agencia.
 
 La visión a largo plazo es una red federada de instancias de Coscientist a
 escala personal, organizacional y pública que intercambien conocimiento validado
 preservando la soberanía local. Si quieres un itinerario de lectura, comienza
 con
-[Creando cerebros digitales de próxima generación](./creating-next-gen-digital-brains)
-, luego [Colapso de la Enciclopedia](./encyclopedia-meltdown) y la
-[capa de protocolo epistémico](./epistemic-protocol-layer) , y después
+[Creando cerebros digitales de próxima generación](./creating-next-gen-digital-brains),
+ luego [Colapso de la Enciclopedia](./encyclopedia-meltdown), y la
+[capa de protocolo epistémico](./epistemic-protocol-layer), y después
 [Grafo dialéctico](./dialectical-graph) y
-[síntesis de conocimiento](./knowledge-synthesis) .
+[síntesis de conocimiento](./knowledge-synthesis).

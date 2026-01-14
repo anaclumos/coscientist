@@ -1,6 +1,6 @@
 ---
 title: 그래프 기반 간격 반복
-description: 주장 나이 또는 반박 나이를 사용해 재검증을 트리거하기
+description: "주장 나이 또는 반박 나이를 사용해 재검증을 트리거하기"
 sourceLocale: en
 sourceHash: 1c4655730a74
 translatedAt: 2026-01-14

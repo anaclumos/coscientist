@@ -1,6 +1,6 @@
 ---
 title: Metoda
-description: Procedura używana do generowania dowodów lub wyprowadzania wniosków
+description: "Procedura używana do generowania dowodów lub wyprowadzania wniosków"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14
@@ -8,7 +8,7 @@ translatedAt: 2026-01-14
 
 Metoda to procedura, za pomocą której gromadzi się dowody lub wyprowadza
 wniosek: plan eksperymentu, protokół pomiarowy, analiza statystyczna lub wywód
-logiczny. Twierdzenia dziedziczą mocne i słabe strony swoich metod.
+logicly. Twierdzenia dziedziczą mocne i słabe strony swoich metod.
 
 Metoda ma znaczenie, ponieważ ten sam wniosek może opierać się na bardzo różnych
 podstawach. Dwa badania, które zgadzają się co do wyników, mogą oba być błędne,

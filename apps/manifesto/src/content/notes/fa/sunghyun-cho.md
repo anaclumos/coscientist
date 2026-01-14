@@ -1,6 +1,6 @@
 ---
 title: سونگ‌هیون چو
-description: سازندهٔ پژوهشگر مشترک و نویسندهٔ جستارهای بنیادین آن
+description: "سازندهٔ پژوهشگر مشترک و نویسندهٔ جستارهای بنیادین آن"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

@@ -1,6 +1,6 @@
 ---
 title: Perubahan Definisi
-description: Ketika makna sebuah istilah bergeser lintas waktu atau konteks
+description: "Ketika makna sebuah istilah bergeser lintas waktu atau konteks"
 sourceLocale: en
 sourceHash: 13d640679420
 translatedAt: 2026-01-14

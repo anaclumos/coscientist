@@ -1,8 +1,6 @@
 ---
 title: Separazione tripla
-description:
-  Regola architetturale che separa testo grezzo, affermazioni normalizzate e
-  relazioni esplicite
+description: "Regola architetturale che separa testo grezzo, affermazioni normalizzate e relazioni esplicite"
 sourceLocale: en
 sourceHash: d3ec3e911919
 translatedAt: 2026-01-14
@@ -13,7 +11,7 @@ La separazione tripla è la regola architetturale in un
 testo originale viene preservato come [estratti di evidenza](./evidence-span)
 citabili; le [affermazioni](./claim) vengono scomposte in
 [proposizioni normalizzate](./normalized-proposition); e le relazioni vengono
-archiviate come vincoli argomentativi espliciti ).
+archiviate come vincoli argomentativi espliciti.
 
 Questa separazione previene una modalità di fallimento comune in
 [RAG](./rag-limitations): il troncamento degli estratti. Quando il testo viene

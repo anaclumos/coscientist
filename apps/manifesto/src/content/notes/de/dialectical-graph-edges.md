@@ -1,6 +1,6 @@
 ---
 title: Kanten im Dialektischen Graphen
-description: Die Relationstypen, die Knoten in einem dialektischen Wissensgraphen verbinden
+description: "Die Relationstypen, die Knoten in einem dialektischen Wissensgraphen verbinden"
 sourceLocale: en
 sourceHash: 82c6fd07bccd
 translatedAt: 2026-01-14

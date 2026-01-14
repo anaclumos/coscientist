@@ -1,6 +1,6 @@
 ---
 title: Argumentatieve relaties
-description: Randtypen in een dialectische graaf, geordend naar functie
+description: "Randtypen in een dialectische graaf, geordend naar functie"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -29,7 +29,7 @@ een onderwerp-similariteitsgraaf.
 - `refines` — vernauwt of verduidelijkt een bewering
 - `generalizes` / `specializes` — aanpassingen van de reikwijdte
 - `depends_on` — koppelt beweringen aan hun [aannames](./assumption)
-- `defines` — verbindt termen met hun definities )
+- `defines` — verbindt termen met hun definities
 
 Zie [Randen van de Dialectische Graaf](./dialectical-graph-edges) voor de
 volledige specificatie en

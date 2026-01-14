@@ -1,6 +1,6 @@
 ---
 title: 변증법적 그래프 엣지
-description: 변증법적 지식 그래프에서 노드를 연결하는 관계 유형
+description: "변증법적 지식 그래프에서 노드를 연결하는 관계 유형"
 sourceLocale: en
 sourceHash: 82c6fd07bccd
 translatedAt: 2026-01-14

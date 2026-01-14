@@ -1,6 +1,6 @@
 ---
 title: โปรโตคอลฉันทามติหลาย AI
-description: ระบบการเขียนและการตรวจสอบแบบ 1+4 (มนุษย์ + AI สี่ตัว)
+description: "ระบบการเขียนและการตรวจสอบแบบ 1+4 (มนุษย์ + AI สี่ตัว)"
 sourceLocale: en
 sourceHash: b49299d152fa
 translatedAt: 2026-01-14

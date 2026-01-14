@@ -1,6 +1,6 @@
 ---
 title: Multi-AI-Konsensprotokoll
-description: Das 1+4-System zum Schreiben und Verifizieren
+description: "Das 1+4-System zum Schreiben und Verifizieren"
 sourceLocale: en
 sourceHash: b49299d152fa
 translatedAt: 2026-01-14
@@ -11,17 +11,17 @@ Das Multi-AI-Konsensprotokoll ist ein Kollaborations-Workflow, in dem der
 Halluzinationen eines einzelnen Modells zu verringern und dabei zu helfen, sich
 gegen [Enzyklopädie-Zusammenbruch](./encyclopedia-meltdown) zu verteidigen.
 
-In der „1+4"-Variante koordiniert ein Mensch vier KI-Assistenten . Der Punkt ist
+In der „1+4"-Variante koordiniert ein Mensch vier KI-Assistenten. Der Punkt ist
 nicht „mehr Gedächtnis"; es geht um strukturierten Dissens und
 Nachverfolgbarkeit.
 
 ## Betriebsregeln
 
-- Übernehme Überarbeitungen nur, wenn sie Einstimmigkeit erreichen ).
+- Übernehme Überarbeitungen nur, wenn sie Einstimmigkeit erreichen.
 - Halte Unsicherheit explizit; glätte sie nicht in der Prosa.
 - Verlange nachvollziehbare Herkunft/Provenienz für Behauptungen und
-  [Provenienz](./provenance)).
-- Führe eine gezielte Rebuttal-Suche statt einer bestätigenden Suche durch ).
+  [Provenienz](./provenance).
+- Führe eine gezielte Rebuttal-Suche statt einer bestätigenden Suche durch.
 
 Das Protokoll ist auch kulturell: Es trainiert die Gewohnheit zu fragen: „Was
 würde meine Meinung ändern?"

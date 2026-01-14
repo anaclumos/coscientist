@@ -1,6 +1,6 @@
 ---
-title: Zoekstrategie: eerst tegenvoorbeelden
-description: Strategie die tegenvoorbeelden voorrang geeft boven ondersteunend bewijs
+title: "Zoekstrategie: eerst tegenvoorbeelden"
+description: "Strategie die tegenvoorbeelden voorrang geeft boven ondersteunend bewijs"
 sourceLocale: en
 sourceHash: 2b3848f34451
 translatedAt: 2026-01-14

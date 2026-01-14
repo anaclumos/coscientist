@@ -1,6 +1,6 @@
 ---
 title: Operador
-description: O soberano humano sobre o conhecimento no Coscientist
+description: "O soberano humano sobre o conhecimento no Coscientist"
 sourceLocale: en
 sourceHash: 72db4459729d
 translatedAt: 2026-01-14
@@ -14,7 +14,7 @@ estrutura, pela proveniência e pela correção, não apenas pela produção.
 Evitar o [Colapso da Enciclopédia](./encyclopedia-meltdown) exige que o Operador
 mantenha a iniciativa sobre a contemplação enquanto usa a IA como ferramenta.
 Isso significa manter a [soberania cognitiva](./cognitive-sovereignty),
-coordenar a deliberação multi-modelo quando os riscos são altos ), exercer poder
+coordenar a deliberação multi-modelo quando os riscos são altos, exercer poder
 de veto e investir o escasso tempo humano no
 [conjunto mínimo de contradições](./minimum-contradiction-set), em vez de em
 trabalho frase a frase.

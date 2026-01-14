@@ -1,6 +1,6 @@
 ---
 title: المونوليث
-description: إلهام تصميمي من _2001: أوديسة الفضاء_ لستانلي كوبريك
+description: "إلهام تصميمي من _2001: أوديسة الفضاء_ لستانلي كوبريك"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

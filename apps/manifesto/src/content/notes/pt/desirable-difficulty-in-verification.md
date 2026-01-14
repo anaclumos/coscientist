@@ -1,6 +1,6 @@
 ---
 title: Dificuldade Desejável na Verificação
-description: Tornar a verificação trabalhosa para manter uma compreensão genuína
+description: "Tornar a verificação trabalhosa para manter uma compreensão genuína"
 sourceLocale: en
 sourceHash: c50da319d2f0
 translatedAt: 2026-01-14

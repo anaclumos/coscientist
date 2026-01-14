@@ -1,6 +1,6 @@
 ---
 title: Nœud de controverse
-description: Un ensemble de grappes d’assertions en collision dans un graphe dialectique
+description: "Un ensemble de grappes d’assertions en collision dans un graphe dialectique"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14

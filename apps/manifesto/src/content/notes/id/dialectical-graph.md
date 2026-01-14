@@ -1,6 +1,6 @@
 ---
 title: Graf Dialektika
-description: Model graf pengetahuan yang menyimpan klaim dan relasi alih-alih konten dokumen
+description: "Model graf pengetahuan yang menyimpan klaim dan relasi alih-alih konten dokumen"
 sourceLocale: en
 sourceHash: 7de42f075323
 translatedAt: 2026-01-14
@@ -22,7 +22,7 @@ kegagalan [RAG](./rag) yang umum: pemotongan kutipan. Rentang bukti menjaga
 redaksi dan sumber yang persis, klaim mencatat siapa menyatakan apa, dan sebuah
 edge `cites` membuat atribusi menjadi eksplisit alih-alih tersirat oleh prosa.
 
-Graf ini juga memisahkan lapisan inferensi dari lapisan naratif . Sebuah dokumen
+Graf ini juga memisahkan lapisan inferensi dari lapisan naratif. Sebuah dokumen
 bukan kebenaran final; ia adalah cuplikan dari graf. Setiap kalimat harus dapat
 ditelusuri balik melalui klaim, cakupan, asumsi, metode, data, rentang bukti,
 dan sumber. Tanpa rantai itu, sebuah kalimat hanyalah kalimat, bukan

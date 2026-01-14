@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: Sistem pendamping intelektual untuk produksi pengetahuan di era pasca-AI
+description: "Sistem pendamping intelektual untuk produksi pengetahuan di era pasca-AI"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14
@@ -28,17 +28,17 @@ pada [Operator](./operator). Menjaga diri dari
 belakangan; itu adalah batasan desain. AI dapat melakukan kerja kontemplasi,
 tetapi ia tidak boleh merebut inisiatif untuk menulis dan menyatakan.
 
-Inilah mengapa Coscientist melampaui RAG bergaya tanya-jawab ). Ia
+Inilah mengapa Coscientist melampaui RAG bergaya tanya-jawab. Ia
 mempertahankan sebuah [Graf Dialektis](./dialectical-graph) yang menyimpan
 [tindakan argumentatif](./argumentative-act) alih-alih teks dokumen mentah,
-sehingga setiap klaim dapat diikat ke rentang bukti , sumber, dan relasi yang
-eksplisit dan [Sisi Graf Dialektis](./dialectical-graph-edges)).
+sehingga setiap klaim dapat diikat ke rentang bukti, sumber, dan relasi yang
+eksplisit dan [Sisi Graf Dialektis](./dialectical-graph-edges).
 
 Eksplorasi bersifat adversarial secara default. Strategi seperti
 [pencarian mengutamakan contoh tandingan](./counterexample-first-search),
 isolasi kontradiksi melalui [minimum cut](./minimum-cut), dan deteksi eksplisit
 [pergeseran definisi](./definition-drift) memberi tekanan sejak awal sehingga
-pengetahuan diperbarui melalui sanggahan, bukan melenceng lewat pengulangan ).
+pengetahuan diperbarui melalui sanggahan, bukan melenceng lewat pengulangan.
 
 Pada tingkat protokol, sistem ini menggunakan prosedur seperti
 [Protokol Konsensus Multi-AI](./multi-ai-consensus-protocol) dan

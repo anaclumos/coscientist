@@ -1,6 +1,6 @@
 ---
 title: Сунхён Чо
-description: Создатель Coscientist и автор его основополагающих эссе
+description: "Создатель Coscientist и автор его основополагающих эссе"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

@@ -1,6 +1,6 @@
 ---
 title: Quelle
-description: Ein Provenienz-Anker für Behauptungen und Belege
+description: "Ein Provenienz-Anker für Behauptungen und Belege"
 sourceLocale: en
 sourceHash: 73116d209a24
 translatedAt: 2026-01-14
@@ -18,6 +18,6 @@ Tertiärquelle kompiliert aus Sekundärquellen. Jeder Schritt führt potenziell 
 Abweichungen, und [Kozientist](./coscientist) verfolgt diese Unterschiede über
 explizite `cites`-Kanten im [Dialektischen Graphen](./dialectical-graph).
 
-Quellen sind Knoten im Graphen ) mit Metadaten wie Autor, Datum und Kontext.
+Quellen sind Knoten im Graphen mit Metadaten wie Autor, Datum und Kontext.
 Wenn eine Behauptung angefochten wird, liefert die Quelle den Ausgangspunkt für
 eine erneute Prüfung.

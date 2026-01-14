@@ -1,14 +1,12 @@
 ---
 title: Ansiklopedi Erimesi
-description:
-  Yapay zekânın insan müdahalesi olmadan inisiyatif aldığı durumlarda ortaya
-  çıkan bilgi-çöküşü olgusu
+description: "Yapay zekânın insan müdahalesi olmadan inisiyatif aldığı durumlarda ortaya çıkar bilgi-çöküşü olgusu"
 sourceLocale: en
 sourceHash: 9dd770ce12d3
 translatedAt: 2026-01-14
 ---
 
-Ansiklopedi Erimesi , yazma inisiyatifi ve kontrolünün,
+Ansiklopedi Erimesi, yazma inisiyatifi ve kontrolünün,
 [Operatör](./operator)'ün bilinçli müdahalesi olmaksızın yapay zekâya kaymasıyla
 başlayan bir bilgi-çöküşü başarısızlık kipidir. Terim,
 [Sunghyun Cho](./sunghyun-cho) tarafından yazılan bir denemeden gelir.

@@ -1,6 +1,6 @@
 ---
 title: Kwestieknooppunt
-description: Een bundel botsende claimclusters in een dialectische graaf
+description: "Een bundel botsende claimclusters in een dialectische graaf"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14
@@ -18,7 +18,7 @@ zijn de oplossingspaden." Dit is waarom [kennisynthese](./knowledge-synthesis)
 kwestieclusters oplevert in plaats van gemiddeldesamenvattingen.
 
 In een [Dialectische Graaf](./dialectical-graph) zijn kwestieknooppunten
-eersteklas objecten ) die verbinding maken met [contensie](./contention) en met
+eersteklas objecten die verbinding maken met [contensie](./contention) en met
 de betrokken claims. Een kwestie oplossen betekent ofwel sommige claims
 weerleggen, hun [reikwijdte](./scope) beperken, of
 [definities](./definition-drift) verduidelijken.

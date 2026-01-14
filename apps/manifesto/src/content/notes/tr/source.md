@@ -1,6 +1,6 @@
 ---
 title: Kaynak
-description: İddialar ve kanıtlar için bir köken çıpası
+description: "İddialar ve kanıtlar için bir köken çıpası"
 sourceLocale: en
 sourceHash: 73116d209a24
 translatedAt: 2026-01-14

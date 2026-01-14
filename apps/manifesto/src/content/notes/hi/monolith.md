@@ -1,6 +1,6 @@
 ---
 title: मोनोलिथ
-description: क्यूब्रिक की _2001: A Space Odyssey_ से डिज़ाइन प्रेरणा
+description: "क्यूब्रिक की _2001: A Space Odyssey_ से डिज़ाइन प्रेरणा"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

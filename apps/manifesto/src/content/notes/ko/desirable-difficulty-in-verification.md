@@ -1,6 +1,6 @@
 ---
 title: 검증에서의 바람직한 어려움
-description: 진정한 이해를 유지하기 위해 검증을 노력 들게 만들기
+description: "진정한 이해를 유지하기 위해 검증을 노력 들게 만들기"
 sourceLocale: en
 sourceHash: c50da319d2f0
 translatedAt: 2026-01-14

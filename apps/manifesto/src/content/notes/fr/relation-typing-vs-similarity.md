@@ -1,16 +1,15 @@
 ---
 title: Typage des relations vs similarité
-description:
-  Pourquoi les arêtes typées résolvent ce que la récupération fondée sur la
-  similarité ne peut pas
+description: "Pourquoi les arêtes typées résolvent ce que la récupération fondée sur la
+  similarité ne peut pas"
 sourceLocale: en
 sourceHash: ae787ed89f61
 translatedAt: 2026-01-14
 ---
 
 Le typage des relations vs la similarité oppose deux façons de connecter des
-connaissances : la récupération fondée sur la similarité ) demande « de quoi
-s’agit-il ? », tandis que les graphes à relations typées ) demandent « qu’est-ce
+connaissances : la récupération fondée sur la similarité. demande « de quoi
+s’agit-il ? », tandis que les graphes à relations typées. demandent « qu’est-ce
 que cela fait à cela ? »
 
 La récupération par similarité fait remonter des documents qui utilisent des

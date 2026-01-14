@@ -1,6 +1,6 @@
 ---
 title: دائرۂ کار
-description: کسی دعوے کے اطلاق کی شرائط
+description: "کسی دعوے کے اطلاق کی شرائط"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14

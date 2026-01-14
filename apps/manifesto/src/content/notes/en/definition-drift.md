@@ -1,6 +1,6 @@
 ---
 title: Definition Drift
-description: When a term's meaning shifts across time or contexts
+description: "When a term's meaning shifts across time or contexts"
 ---
 
 Definition drift is the gradual shift in meaning of a term across time, schools,

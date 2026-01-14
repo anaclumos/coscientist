@@ -1,6 +1,6 @@
 ---
 title: ஒரேகல்
-description: க்யூப்ரிக்கின் 2001: A Space Odyssey திரைப்படத்திலிருந்து வடிவமைப்பு ஊக்கமூலம்
+description: "க்யூப்ரிக்கின் 2001: A Space Odyssey திரைப்படத்திலிருந்து வடிவமைப்பு ஊக்கமூலம்"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14

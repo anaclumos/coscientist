@@ -1,6 +1,6 @@
 ---
 title: Sunghyun Cho
-description: Erbauer von Coscientist und Autor seiner grundlegenden Essays
+description: "Erbauer von Coscientist und Autor seiner grundlegenden Essays"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14
@@ -8,7 +8,7 @@ translatedAt: 2026-01-14
 
 Sunghyun Cho ist der Erbauer von [Kozientist](./coscientist) und der Autor von
 Essays, die dessen Richtung geprägt haben. Seine Arbeit verbindet Werkzeuge für
-persönliches Wissensmanagement und [Extracranial](./extracranial)) mit einer
+persönliches Wissensmanagement und [Extracranial](./extracranial) mit einer
 breiteren Frage: wie man Verifikation und Handlungsfähigkeit in einer
 KI-gesättigten Umgebung intakt hält.
 

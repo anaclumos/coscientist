@@ -1,8 +1,6 @@
 ---
 title: LLM
-description:
-  Велика мовна модель, архітектура ШІ, що лежить в основі праці споглядання
-  Coscientist
+description: "Велика мовна модель, архітектура ШІ, що лежить в основі праці споглядання"
 sourceLocale: en
 sourceHash: a03c9bb62d5e
 translatedAt: 2026-01-14

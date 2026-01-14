@@ -1,6 +1,6 @@
 ---
 title: Nodi del Grafo Dialettico
-description: I tipi di nodo in un grafo di conoscenza dialettico
+description: "I tipi di nodo in un grafo di conoscenza dialettico"
 sourceLocale: en
 sourceHash: 007206ea7078
 translatedAt: 2026-01-14
@@ -14,7 +14,7 @@ di nodo comuni includono:
 - [Affermazione](./claim) — proposizioni verificabili
 - [Ambito](./scope) — condizioni di applicabilità
 - [Assunzione](./assumption) — premesse implicite
-- Definizioni — significati dei termini )
+- Definizioni — significati dei termini.
 - [Metodo](./method) — procedure che generano evidenze o conclusioni
 - Dati — misurazioni o risultati
 - [Intervallo di Evidenza](./evidence-span) — intervalli di citazione esatti
@@ -31,7 +31,7 @@ dovrebbe rimanere indirizzabile se si vuole che la conoscenza si aggiorni invece
 di limitarsi ad accumularsi.
 
 Lo stato di un’affermazione è multidimensionale, invece di essere un singolo
-punteggio di confidenza ). Le transizioni sono determinate meno dal numero di
+punteggio di confidenza. Le transizioni sono determinate meno dal numero di
 confutazioni e più dal tipo di confutazione e dal fatto che essa abbia successo
 a livello di ambito, assunzione, definizione o metodo; vedi [Archi del Grafo
 Dialettico](./dialectical-graph-edges).

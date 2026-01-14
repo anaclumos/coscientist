@@ -1,6 +1,6 @@
 ---
 title: বহু-এআই ঐকমত্য প্রোটোকল
-description: ১+৪ (মানুষ + চারটি এআই) লেখা ও যাচাইকরণ ব্যবস্থা
+description: "1+4 (মানুষ + চারটি এআই) লেখা ও যাচাইকরণ ব্যবস্থা"
 sourceLocale: en
 sourceHash: b49299d152fa
 translatedAt: 2026-01-14

@@ -1,6 +1,6 @@
 ---
 title: Konfliktknoten
-description: Ein Bündel kollidierender Anspruchscluster in einem dialektischen Graphen
+description: "Ein Bündel kollidierender Anspruchscluster in einem dialektischen Graphen"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14
@@ -18,7 +18,7 @@ die Auflösungswege." Deshalb erzeugt [Wissenssynthese](./knowledge-synthesis)
 Konfliktcluster statt gemittelter Zusammenfassungen.
 
 In einem [Dialektischen Graphen](./dialectical-graph) sind Konfliktknoten
-erstklassige Objekte ), die mit [Kontestation](./contention) und mit den
+erstklassige Objekte, die mit [Kontestation](./contention) und mit den
 beteiligten Ansprüchen verbunden sind. Einen Konflikt zu lösen bedeutet
 entweder, einige Ansprüche zu widerlegen, ihren [Geltungsbereich](./scope)
 einzuengen oder [Definitionen](./definition-drift) zu entflechten.

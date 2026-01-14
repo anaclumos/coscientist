@@ -1,6 +1,6 @@
 ---
 title: Relações Argumentativas
-description: Tipos de arestas em um grafo dialético organizados por função
+description: "Tipos de arestas em um grafo dialético organizados por função"
 sourceLocale: en
 sourceHash: a48d629230dc
 translatedAt: 2026-01-14
@@ -30,7 +30,7 @@ similaridade de tópicos.
 - `refines` — restringe ou esclarece uma afirmação
 - `generalizes` / `specializes` — ajustes de escopo
 - `depends_on` — vincula afirmações às suas [pressuposições](./assumption)
-- `defines` — conecta termos às suas definições )
+- `defines` — conecta termos às suas definições
 
 Veja [Arestas do Grafo Dialético](./dialectical-graph-edges) para a
 especificação completa e

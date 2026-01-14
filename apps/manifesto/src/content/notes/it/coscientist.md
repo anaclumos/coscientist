@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: Un sistema di compagno intellettuale per la produzione di conoscenza nell’era post-AI
+description: "Un sistema di compagno intellettuale per la produzione di conoscenza nell’era post-AI"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14
@@ -29,19 +29,19 @@ dall’[Crollo dell'Enciclopedia](./encyclopedia-meltdown) non è un ripensament
 è un vincolo di progettazione. L’AI può fare lavoro di contemplazione, ma non
 dovrebbe impadronirsi dell’iniziativa di scrivere e dichiarare.
 
-Per questo Coscientist va oltre il RAG in stile Q&A ). Mantiene un
+Per questo Coscientist va oltre il RAG in stile Q&A. Mantiene un
 [Grafo Dialettico](./dialectical-graph) che memorizza
 [atti argomentativi](./argumentative-act) invece del testo grezzo dei documenti,
 così che ogni affermazione possa essere collegata a porzioni di evidenza, fonti
 e relazioni esplicite e
-[Archi del Grafo Dialettico](./dialectical-graph-edges)).
+[Archi del Grafo Dialettico](./dialectical-graph-edges).
 
 L’esplorazione è avversariale per impostazione predefinita. Strategie come la
 [ricerca prima il controesempio](./counterexample-first-search), l’isolamento
 delle contraddizioni tramite [taglio minimo](./minimum-cut), e il rilevamento
 esplicito della [deriva definitoria](./definition-drift) applicano pressione fin
 dall’inizio, così che la conoscenza si aggiorni per confutazione invece di
-andare alla deriva per ripetizione ).
+andare alla deriva per ripetizione.
 
 A livello di protocollo, il sistema usa procedure come il
 [Protocollo di Consenso Multi-AI](./multi-ai-consensus-protocol) e la

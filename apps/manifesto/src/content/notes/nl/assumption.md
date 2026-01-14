@@ -1,6 +1,6 @@
 ---
 title: Aanname
-description: Een impliciete premisse die aan een bewering ten grondslag ligt
+description: "Een impliciete premisse die aan een bewering ten grondslag ligt"
 sourceLocale: en
 sourceHash: 7ff67cddc322
 translatedAt: 2026-01-14
@@ -17,7 +17,7 @@ verschilt, maar omdat ze verschillende onuitgesproken premissen hebben over
 definities, referentiepunten of context. Aannames expliciet maken is een
 belangrijke stap in [kennissynthese](./knowledge-synthesis).
 
-In een [Dialectische Graaf](./dialectical-graph) zijn aannames knooptypen ) die
+In een [Dialectische Graaf](./dialectical-graph) zijn aannames knooptypen die
 via `depends_on`-randen met beweringen zijn verbonden. Een
 [undercut](./undercut) valt een aanname aan in plaats van de bewering
 rechtstreeks; als de aanname wegvalt, verliest de bewering haar onderbouwing.

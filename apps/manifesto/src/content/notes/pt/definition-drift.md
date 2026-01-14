@@ -1,6 +1,6 @@
 ---
 title: Deriva de definição
-description: Quando o significado de um termo muda ao longo do tempo ou em diferentes contextos
+description: "Quando o significado de um termo muda ao longo do tempo ou em diferentes contextos"
 sourceLocale: en
 sourceHash: 13d640679420
 translatedAt: 2026-01-14

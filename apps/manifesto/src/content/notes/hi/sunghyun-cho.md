@@ -1,6 +1,6 @@
 ---
 title: सुंगह्युन चो
-description: Coscientist के निर्माता और इसके आधारभूत निबंधों के लेखक
+description: "Coscientist के निर्माता और इसके आधारभूत निबंधों के लेखक"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

@@ -1,6 +1,6 @@
 ---
 title: Khó khăn "đáng mong muốn" trong xác minh
-description: Khiến việc xác minh đòi hỏi nỗ lực để duy trì sự hiểu biết thật sự
+description: "Khiến việc xác minh đòi hỏi nỗ lực để duy trì sự hiểu biết thật sự"
 sourceLocale: en
 sourceHash: c50da319d2f0
 translatedAt: 2026-01-14

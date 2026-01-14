@@ -1,6 +1,6 @@
 ---
 title: Fonte
-description: Un ancoraggio di provenienza per affermazioni e prove
+description: "Un ancoraggio di provenienza per affermazioni e prove"
 sourceLocale: en
 sourceHash: 73116d209a24
 translatedAt: 2026-01-14
@@ -18,6 +18,6 @@ compila a partire da fonti secondarie. Ogni passaggio introduce un potenziale
 scostamento, e [Coscienziato](./coscientist) tiene traccia di queste distinzioni
 tramite archi `cites` espliciti nel [Grafo Dialettico](./dialectical-graph).
 
-Le fonti sono nodi nel grafo ) con metadati come autore, data e contesto. Quando
+Le fonti sono nodi nel grafo con metadati come autore, data e contesto. Quando
 un’affermazione viene contestata, la fonte fornisce il punto di partenza per una
 nuova verifica.

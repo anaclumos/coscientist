@@ -1,6 +1,6 @@
 ---
 title: "Tokeny ≠ wiedza"
-description: Osobista wyprawa po egzoszkielet poznawczy
+description: "Osobista wyprawa po egzoszkielet poznawczy"
 sourceLocale: en
 sourceHash: adfef3bcf465
 translatedAt: 2026-01-14
@@ -38,7 +38,7 @@ W połowie 2022 roku wdrożyłem prototyp wykorzystujący statyczny pipeline
 publikacji z Obsidiana do sieci i nazwałem go [Extracranial](./extracranial).
 Był to osobisty cyfrowy mózg, który automatycznie indeksował treści, sugerował
 linki zwrotne, pozwalał starym wpisom „obumierać", o ile nie oznaczono ich jako
-evergreen , oraz działał dwujęzycznie
+evergreen, oraz działał dwujęzycznie
 [przez Sprachraum-y](./across-the-sprachraums). Uwolnił mnie od mikrozarządzania
 linkami i pozwolił skupić się na pisaniu oraz myśleniu.
 
@@ -103,14 +103,14 @@ działać jako współpracownik badawczy, a nie pojedynczy silnik odpowiedzi. Je
 wewnętrzna pętla rozdziela proponowanie, krytykę, ranking i dopracowanie, wraz z
 warstwą meta-recenzji sprawdzającą spójność, śledzalność i niepewność.
 
-Na warstwie wiedzy utrzymuje [Graf Dialektyczny](./dialectical-graph) , który
+Na warstwie wiedzy utrzymuje [Graf Dialektyczny](./dialectical-graph), który
 przechowuje twierdzenia i relacje, a nie surowy tekst. Wyjście narracyjne jest
 traktowane jako projekcja warstwy wnioskowania, dzięki czemu każde zdanie może
 się cofnąć do źródeł, fragmentów dowodów i jawnych relacji. To rozdzielenie
 pozwala uniknąć trybu porażki „gładkie, ale nieweryfikowalne", typowego dla
 konwencjonalnej generacji.
 
-Tradycyjne podejścia do bezpieczeństwa AI często ujmują problem jako alignment .
+Tradycyjne podejścia do bezpieczeństwa AI często ujmują problem jako alignment.
 Ja podkreślam [cognitive agency preservation](./cognitive-agency-preservation) —
 zachowanie sprawczości poznawczej: AI ma wzmacniać ludzki osąd, a nie go
 zastępować. W praktyce oznacza to utrzymanie użytkownika w roli weryfikatora:
@@ -131,4 +131,4 @@ zachowując lokalną suwerenność. Jeśli chcesz ścieżkę lektury, zacznij od
 (narzędzia osobiste), potem [Załamanie Encyklopedii](./encyclopedia-meltdown) i
 [epistemic protocol layer](./epistemic-protocol-layer) (tryb porażki i jego
 obrona), a następnie [Graf Dialektyczny](./dialectical-graph) i
-[Synteza wiedzy](./knowledge-synthesis) .
+[Synteza wiedzy](./knowledge-synthesis).

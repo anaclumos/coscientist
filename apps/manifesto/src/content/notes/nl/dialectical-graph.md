@@ -1,8 +1,6 @@
 ---
 title: Dialectische Graaf
-description:
-  Een kennisgraafmodel dat beweringen en relaties opslaat in plaats van
-  documentinhoud
+description: "Een kennisgraafmodel dat beweringen en relaties opslaat in plaats van documentinhoud"
 sourceLocale: en
 sourceHash: 7de42f075323
 translatedAt: 2026-01-14
@@ -25,7 +23,7 @@ span bewaart de exacte bewoording en bron, de bewering registreert wie wat heeft
 beweerd, en een `cites`-edge maakt toeschrijving expliciet in plaats van
 impliciet via proza.
 
-De graaf scheidt ook een inferentielaag van een narratieve laag . Een document
+De graaf scheidt ook een inferentielaag van een narratieve laag. Een document
 is geen definitieve waarheid; het is een momentopname van de graaf. Elke zin
 moet kunnen terugsporen via bewering, scope, aanname, methode, data, evidence
 span en bron. Zonder die keten is een zin gewoon een zin, geen kennis.

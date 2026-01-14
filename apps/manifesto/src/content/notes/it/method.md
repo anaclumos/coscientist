@@ -1,6 +1,6 @@
 ---
 title: Metodo
-description: La procedura usata per generare prove o conclusioni
+description: "La procedura usata per generare prove o conclusioni"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14
@@ -19,6 +19,6 @@ metodo–conclusione: raggruppare le affermazioni per metodo anziché per
 conclusione per individuare vulnerabilità condivise.
 
 In un [Grafo Dialettico](./dialectical-graph), i metodi sono nodi collegati a
-affermazioni e prove ). Un [undercut](./undercut) può prendere di mira il
+affermazioni e prove. Un [undercut](./undercut) può prendere di mira il
 metodo, sostenendo che la procedura fosse difettosa anche se i dati sono stati
 riportati accuratamente.

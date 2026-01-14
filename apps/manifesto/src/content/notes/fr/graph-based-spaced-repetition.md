@@ -1,8 +1,6 @@
 ---
 title: Répétition espacée basée sur un graphe
-description:
-  Utiliser l’âge de la revendication ou l’âge de la réfutation pour déclencher
-  une re-vérification
+description: "Utiliser l’âge de la revendication ou l’âge de la réfutation pour déclencher une re-vérification"
 sourceLocale: en
 sourceHash: 1c4655730a74
 translatedAt: 2026-01-14

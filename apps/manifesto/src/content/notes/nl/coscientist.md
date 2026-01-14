@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: Een systeem als intellectuele metgezel voor kennisproductie in het post-AI-tijdperk
+description: "Een systeem als intellectuele metgezel voor kennisproductie in het post-AI-tijdperk"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14
@@ -29,17 +29,17 @@ Het eerste principe is soevereiniteit: kennisautoriteit moet bij de
 een ontwerpconstraint. AI kan contemplation labor verrichten, maar mag niet het
 initiatief grijpen om te schrijven en te proclameren.
 
-Daarom gaat Coscientist verder dan Q&A-achtige RAG ). Het onderhoudt een
+Daarom gaat Coscientist verder dan Q&A-achtige RAG. Het onderhoudt een
 [Dialectische graaf](./dialectical-graph) die
 [argumentative acts](./argumentative-act) opslaat in plaats van ruwe
 documenttekst, zodat elke claim kan worden gekoppeld aan evidence spans, bronnen
-en expliciete relaties en [Dialectical Graph Edges](./dialectical-graph-edges)).
+en expliciete relaties en [Dialectical Graph Edges](./dialectical-graph-edges).
 
 Exploratie is standaard adversarieel. Strategieën zoals
 [counterexample-first search](./counterexample-first-search), isolatie van
 tegenstrijdigheden via [minimum cut](./minimum-cut), en expliciete detectie van
 [definition drift](./definition-drift) zetten vroeg druk, zodat kennis wordt
-geüpdatet via weerlegging in plaats van weg te drijven door herhaling ).
+geüpdatet via weerlegging in plaats van weg te drijven door herhaling.
 
 Op protocolniveau gebruikt het systeem procedures zoals het
 [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol) en

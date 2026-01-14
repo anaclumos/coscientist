@@ -1,6 +1,6 @@
 ---
 title: Coscientist
-description: Um sistema de companheiro intelectual para produção de conhecimento na era pós-IA
+description: "Um sistema de companheiro intelectual para produção de conhecimento na era pós-IA"
 sourceLocale: en
 sourceHash: 19a7f6d48c09
 translatedAt: 2026-01-14

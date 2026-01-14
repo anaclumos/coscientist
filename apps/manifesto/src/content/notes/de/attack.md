@@ -1,6 +1,6 @@
 ---
 title: Angriff
-description: Eine direkte Anfechtung des Wahrheitsgehalts einer Behauptung
+description: "Eine direkte Anfechtung des Wahrheitsgehalts einer Behauptung"
 sourceLocale: en
 sourceHash: 775f1f75f883
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ falsch oder irreführend ist — typischerweise, indem ein
 [Gegenbeispiel](./counterexample) oder widersprüchliche Belege angeführt werden.
 
 Angriffe sind ein zentraler Kantentyp im
-[Dialektischen Graphen](./dialectical-graph) ). Wenn ein Angriff registriert
+[Dialektischen Graphen](./dialectical-graph). Wenn ein Angriff registriert
 wird, kann sich der Status der Behauptung je nach Stärke und Art der Anfechtung
 von `supported` zu `contested` oder `refuted` verschieben.
 

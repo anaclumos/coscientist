@@ -1,6 +1,6 @@
 ---
 title: Ruang Lingkup
-description: Kondisi keberlakuan untuk sebuah klaim
+description: "Kondisi keberlakuan untuk sebuah klaim"
 sourceLocale: en
 sourceHash: ae026ed7fceb
 translatedAt: 2026-01-14
@@ -19,5 +19,5 @@ berlaku untuk populasi atau kondisi yang berbeda. Inilah alasan mengapa
 ruang lingkup dari kontradiksi yang sesungguhnya.
 
 Dalam sebuah [Graf Dialektik](./dialectical-graph), ruang lingkup adalah tipe
-simpul yang terhubung ke klaim ). Ketika sebuah contoh tandingan ditemukan,
+simpul yang terhubung ke klaim. Ketika sebuah contoh tandingan ditemukan,
 sistem dapat mempersempit ruang lingkup alih-alih membuang klaim sepenuhnya.

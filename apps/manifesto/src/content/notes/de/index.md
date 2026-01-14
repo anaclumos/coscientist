@@ -1,6 +1,6 @@
 ---
 title: "Tokens ≠ Wissen"
-description: Eine persönliche Suche nach einem kognitiven Exoskelett
+description: "Eine persönliche Suche nach einem kognitiven Exoskelett"
 sourceLocale: en
 sourceHash: adfef3bcf465
 translatedAt: 2026-01-14
@@ -50,8 +50,8 @@ Doch während ich dieses persönliche Wiki baute, zeichnete sich ein größeres
 Problem ab: Selbst ein perfekter persönlicher Memex reicht nicht aus, wenn das
 breitere epistemische Umfeld kompromittiert ist. Als generative KI
 allgegenwärtig wurde, verschob sich die tiefere Frage von „Wie speichere ich
-Wissen?" zu „Wie verhindern wir, dass Verifikation kollabiert, wenn KI Systeme
-mit plausiblen Texten fluten kann?"
+Wissen?" zu „Wie verhindern wir, dass Verifikation kollabiert, wenn KI-Systeme
+mit plausiblen Texten fluten können?"
 
 ## Von Digital Brains zu Protokollen
 
@@ -80,7 +80,7 @@ Die Gegenmaßnahme ist eine
 [epistemic protocol layer](./epistemic-protocol-layer), eine konstitutionelle
 Schicht für Wissenssysteme. Ihre Kernverpflichtungen sind Souveränität
 (Wissensautorität bleibt beim menschlichen [Betreiber](./operator)),
-Nachvollziehbarkeit (jede Behauptung behält eine responsibility line) und
+Nachvollziehbarkeit (jede Behauptung behält eine [responsibility line](./responsibility-line)) und
 rebuttal-first Validation (Validierung nach dem Prinzip „Widerlegung zuerst";
 nutze [Widerlegung-zuerst-Suche](./rebuttal-first-search), um vor Akzeptanz nach
 Gegenbelegen zu suchen). Diese Schicht adressiert auch Druck wie
@@ -135,6 +135,6 @@ Wissen austauschen und dabei lokale Souveränität bewahren. Wenn du einen
 Lesepfad willst, beginne mit
 [Digitale Gehirne der nächsten Generation entwickeln](./creating-next-gen-digital-brains)
 (persönliche Tools), dann [Enzyklopädie-Zusammenbruch](./encyclopedia-meltdown)
-und der [epistemic protocol layer](./epistemic-protocol-layer) , dann
+und der [epistemic protocol layer](./epistemic-protocol-layer), dann
 [Dialektischer Graph](./dialectical-graph) und
-[knowledge synthesis](./knowledge-synthesis) .
+[knowledge synthesis](./knowledge-synthesis).

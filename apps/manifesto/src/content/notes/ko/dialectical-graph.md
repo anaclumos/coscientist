@@ -1,6 +1,6 @@
 ---
 title: 변증법적 그래프
-description: 문서 내용이 아니라 주장과 관계를 저장하는 지식 그래프 모델
+description: "문서 내용이 아니라 주장과 관계를 저장하는 지식 그래프 모델"
 sourceLocale: en
 sourceHash: 7de42f075323
 translatedAt: 2026-01-14

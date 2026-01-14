@@ -1,6 +1,6 @@
 ---
 title: Diyalektik Grafik
-description: Belge içeriği yerine iddiaları ve ilişkileri depolayan bir bilgi grafiği modeli
+description: "Belge içeriği yerine iddiaları ve ilişkileri depolayan bir bilgi grafiği modeli"
 sourceLocale: en
 sourceHash: 7de42f075323
 translatedAt: 2026-01-14

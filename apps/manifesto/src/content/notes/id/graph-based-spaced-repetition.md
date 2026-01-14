@@ -1,6 +1,6 @@
 ---
 title: Pengulangan Bersela Berbasis Graf
-description: Menggunakan usia klaim atau usia sanggahan untuk memicu verifikasi ulang
+description: "Menggunakan usia klaim atau usia sanggahan untuk memicu verifikasi ulang"
 sourceLocale: en
 sourceHash: 1c4655730a74
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ pendukungnya sudah lama tidak ditantang, akan dimunculkan untuk ditinjau ulang.
 
 Intinya adalah bahwa pengetahuan, seperti ingatan, meluruh tanpa keterlibatan
 aktif. Sebuah klaim yang diverifikasi tiga tahun lalu mungkin tidak lagi berlaku
-jika dunia telah berubah ), jika definisi telah bergeser ), atau jika
+jika dunia telah berubah, jika definisi telah bergeser, atau jika
 [contoh tandingan](./counterexample) baru telah muncul.
 
 Dalam sebuah [Graf Dialektis](./dialectical-graph), ini dapat diimplementasikan

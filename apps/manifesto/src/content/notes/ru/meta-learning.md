@@ -1,6 +1,6 @@
 ---
 title: Метаобучение
-description: Изучение того, как работает ваше собственное обучение
+description: "Изучение того, как работает ваше собственное обучение"
 sourceLocale: en
 sourceHash: 3023196c32ff
 translatedAt: 2026-01-14

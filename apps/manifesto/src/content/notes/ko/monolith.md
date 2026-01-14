@@ -1,6 +1,6 @@
 ---
 title: 모노리스
-description: 큐브릭의 _2001: A Space Odyssey_에서 얻은 디자인 영감
+description: "큐브릭의 _2001: A Space Odyssey_에서 얻은 디자인 영감"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14
@@ -43,5 +43,5 @@ translatedAt: 2026-01-14
 2. **달의 발굴 현장**: 접촉에 대한 인류의 준비 상태를 신호한다
 3. **목성 궤도**: 물리적 형태 너머의 초월을 가능하게 한다
 
-각 조우는 준비를 요구한다. 이 지식 시스템도 이를 반영한다. 정보는 उपलब्ध하지만,
+각 조우는 준비를 요구한다. 이 지식 시스템도 이를 반영한다. 정보는 제공되지만,
 변환에는 [Operator](./operator)의 능동적 참여가 필요하다.

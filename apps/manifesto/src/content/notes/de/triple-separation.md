@@ -1,8 +1,7 @@
 ---
 title: Dreifachtrennung
-description:
-  Architektonische Regel zur Trennung von Rohtext, normalisierten Aussagen und
-  expliziten Relationen
+description: "Architektonische Regel zur Trennung von Rohtext, normalisierten Aussagen und
+  expliziten Relationen"
 sourceLocale: en
 sourceHash: d3ec3e911919
 translatedAt: 2026-01-14
@@ -13,7 +12,7 @@ Die Dreifachtrennung ist die architektonische Regel in einem
 hält: Der Originaltext bleibt als zitierfähige [Evidenzspannen](./evidence-span)
 erhalten; [Behauptungen](./claim) werden in
 [normalisierte Propositionen](./normalized-proposition) zerlegt; und Relationen
-werden als explizite argumentative Bindungen gespeichert ).
+werden als explizite argumentative Bindungen gespeichert.
 
 Diese Trennung verhindert einen häufigen Fehlermodus in
 [RAG](./rag-limitations): die Kürzung von Auszügen. Wenn Text abgerufen und

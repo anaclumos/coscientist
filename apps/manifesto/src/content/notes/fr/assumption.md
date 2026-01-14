@@ -1,6 +1,6 @@
 ---
 title: Hypothèse
-description: Une prémisse implicite sous-jacente à une affirmation
+description: "Une prémisse implicite sous-jacente à une affirmation"
 sourceLocale: en
 sourceHash: 7ff67cddc322
 translatedAt: 2026-01-14
@@ -14,7 +14,7 @@ qui rendent une affirmation signifiante.
 Les hypothèses cachées sont une source fréquente de faux désaccord. Deux parties
 peuvent parvenir à des conclusions différentes non pas parce que leurs preuves
 diffèrent, mais parce qu’elles adhèrent à des prémisses non formulées
-différentes concernant des définitions, des points de référence , ou le
+différentes concernant des définitions, des points de référence, ou le
 contexte. Rendre les hypothèses explicites est une étape clé de la
 [synthèse des connaissances](./knowledge-synthesis).
 

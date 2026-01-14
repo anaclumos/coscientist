@@ -1,6 +1,6 @@
 ---
 title: Сонхьон Чо
-description: Розробник Coscientist і автор її засадничих есеїв
+description: "Розробник Coscientist і автор її засадничих есеїв"
 sourceLocale: en
 sourceHash: c6f1a7de532b
 translatedAt: 2026-01-14

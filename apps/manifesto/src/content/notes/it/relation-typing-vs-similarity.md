@@ -1,16 +1,15 @@
 ---
 title: Tipizzazione delle relazioni vs similarità
-description:
-  Perché gli archi tipizzati risolvono ciò che il recupero basato sulla
-  similarità non può
+description: "Perché gli archi tipizzati risolvono ciò che il recupero basato sulla
+  similarità non può"
 sourceLocale: en
 sourceHash: ae787ed89f61
 translatedAt: 2026-01-14
 ---
 
 La tipizzazione delle relazioni vs la similarità mette a confronto due approcci
-per connettere la conoscenza: il recupero basato sulla similarità ) chiede "di
-cosa parla questo?", mentre i grafi con relazioni tipizzate ) chiedono "che cosa
+per connettere la conoscenza: il recupero basato sulla similarità) chiede "di
+cosa parla questo?", mentre i grafi con relazioni tipizzate) chiedono "che cosa
 fa questo a quello?"
 
 Il recupero per similarità fa emergere documenti che usano parole simili. Non

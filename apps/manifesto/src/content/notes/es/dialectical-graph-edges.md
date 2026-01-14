@@ -1,6 +1,6 @@
 ---
 title: Aristas del Grafo Dialéctico
-description: Los tipos de relación que conectan nodos en un grafo de conocimiento dialéctico
+description: "Los tipos de relación que conectan nodos en un grafo de conocimiento dialéctico"
 sourceLocale: en
 sourceHash: 82c6fd07bccd
 translatedAt: 2026-01-14

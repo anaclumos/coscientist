@@ -1,6 +1,6 @@
 ---
 title: Meta-uczenie się
-description: Uczenie się, jak działa Twoje własne uczenie się
+description: "Uczenie się, jak działa Twoje własne uczenie się"
 sourceLocale: en
 sourceHash: 3023196c32ff
 translatedAt: 2026-01-14

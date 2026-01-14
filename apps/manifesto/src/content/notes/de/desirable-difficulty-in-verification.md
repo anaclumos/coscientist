@@ -1,6 +1,6 @@
 ---
 title: Erwünschte Schwierigkeit bei der Verifikation
-description: Verifikationsaufwand so gestalten, dass echtes Verständnis erhalten bleibt
+description: "Verifikationsaufwand so gestalten, dass echtes Verständnis erhalten bleibt"
 sourceLocale: en
 sourceHash: c50da319d2f0
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ es sich auf „die KI hat das gesagt" reduziert—lernt oder verifiziert der
 [Betreiber](./operator) nicht; er ratifiziert.
 
 Der Begriff ist aus der Lernwissenschaft entlehnt, wo erwünschte Schwierigkeiten
-und [verteiltes Lernen](./spacing-effect)) die langfristige Behaltensleistung
+und [verteiltes Lernen](./spacing-effect) die langfristige Behaltensleistung
 verbessern, weil sie Anstrengung erfordern. Verifikation funktioniert genauso:
 Die Anstrengung des Prüfens ist es, die Verständnis erzeugt und Fehler aufdeckt.
 

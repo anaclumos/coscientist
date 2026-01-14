@@ -1,6 +1,6 @@
 ---
 title: 방법
-description: 증거나 결론을 생성하는 데 사용되는 절차
+description: "증거나 결론을 생성하는 데 사용되는 절차"
 sourceLocale: en
 sourceHash: 7e9dd118b193
 translatedAt: 2026-01-14
@@ -17,6 +17,5 @@ translatedAt: 2026-01-14
 주장을 군집화하여 공유된 취약점을 탐지하는 접근이다.
 
 [변증법적 그래프](./dialectical-graph)에서 방법은 주장과 증거에 연결된
-노드다(참고: [변증법적 그래프 노드](./dialectical-graph-nodes)).
-[언더컷](./undercut)은 데이터가 정확히 보고되었더라도 절차에 결함이 있었다고
+노드다(참고: [변증법적 그래프 노드](./dialectical-graph-nodes)). [언더컷](./undercut)은 데이터가 정확히 보고되었더라도 절차에 결함이 있었다고
 주장하며, 방법을 표적으로 삼을 수 있다.

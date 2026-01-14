@@ -1,6 +1,6 @@
 ---
 title: Desirable Difficulty in Verification
-description: Making verification effortful to maintain genuine understanding
+description: "Making verification effortful to maintain genuine understanding"
 ---
 
 Desirable difficulty in verification is the principle that
@@ -9,7 +9,7 @@ cognition. If checking a claim is too easyâ€”if it reduces to "the AI said so"â€
 [Operator](./operator) is not learning or verifying; they are ratifying.
 
 The term borrows from learning science, where desirable difficulties and
-[spacing](./spacing-effect)) improve long-term retention because they require
+[spacing](./spacing-effect) improve long-term retention because they require
 effort. Verification works the same way: the effort of checking is what produces
 understanding and catches errors.
 

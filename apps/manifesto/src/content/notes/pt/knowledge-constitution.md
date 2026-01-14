@@ -1,8 +1,6 @@
 ---
 title: Constituição do Conhecimento
-description:
-  A camada de protocolo epistêmico como um documento de governança sobre como
-  afirmações ganham autoridade
+description: "A camada de protocolo epistêmico como um documento de governança sobre como afirmações ganham autoridade"
 sourceLocale: en
 sourceHash: e7ec03e7fb9e
 translatedAt: 2026-01-14
@@ -15,8 +13,8 @@ Ela funciona como uma constituição política: especificando poderes, limites e
 procedimentos em vez de conteúdo.
 
 A [camada de protocolo epistêmico](./epistemic-protocol-layer) é a constituição
-do [Cocientista](./coscientist). Ela se compromete com soberania ),
-rastreabilidade ) e validação adversarial (como a
+do [Cocientista](./coscientist). Ela se compromete com soberania,
+rastreabilidade e validação adversarial (como a
 [busca com refutação em primeiro lugar](./rebuttal-first-search)). Essas são
 restrições ao processo, não às conclusões.
 

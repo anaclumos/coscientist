@@ -1,8 +1,6 @@
 ---
 title: Grafo dialéctico
-description:
-  Un modelo de grafo de conocimiento que almacena afirmaciones y relaciones en lugar de
-  contenido de documentos
+description: "Un modelo de grafo de conocimiento que almacena afirmaciones y relaciones en lugar de contenido de documentos"
 sourceLocale: en
 sourceHash: 7de42f075323
 translatedAt: 2026-01-14

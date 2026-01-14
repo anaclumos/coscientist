@@ -1,6 +1,6 @@
 ---
 title: Çoklu-YZ Uzlaşı Protokolü
-description: 1+4 (insan + dört YZ) yazma ve doğrulama sistemi
+description: "1+4 (insan + dört YZ) yazma ve doğrulama sistemi"
 sourceLocale: en
 sourceHash: b49299d152fa
 translatedAt: 2026-01-14
@@ -21,7 +21,7 @@ değildir; yapılandırılmış görüş ayrılığı ve izlenebilirliktir.
   [Oybirliği Gerekliliği](./unanimity-requirement)).
 - Belirsizliği açık tutun; düzyazıda yokmuş gibi yumuşatmayın.
 - İddialar için izlenebilir kaynak kökeni şart koşun (bkz.
-  [Sorumluluk Hattı](./responsibility-line) ve [Köken ](./provenance)).
+  [Sorumluluk Hattı](./responsibility-line) ve [Köken](./provenance)).
 - Doğrulayıcı arama yerine kasıtlı çürütme araması yapın (bkz.
   [Önce Çürütme Araması](./rebuttal-first-search)).
 

@@ -1,6 +1,6 @@
 ---
 title: Definitieverschuiving
-description: Wanneer de betekenis van een term verschuift door de tijd heen of tussen contexten
+description: "Wanneer de betekenis van een term verschuift door de tijd heen of tussen contexten"
 sourceLocale: en
 sourceHash: 13d640679420
 translatedAt: 2026-01-14

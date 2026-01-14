@@ -1,6 +1,6 @@
 ---
 title: Regras de Transição de Status
-description: O que desencadeia a passagem entre estados de uma alegação num grafo dialético
+description: "O que desencadeia a passagem entre estados de uma alegação num grafo dialético"
 sourceLocale: en
 sourceHash: bae87c3f8772
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ dependem do tipo de desafio, não da contagem: um único
 [contraexemplo](./counterexample) decisivo importa mais do que muitas objeções
 pouco convincentes.
 
-As transições principais incluem: provisória → contestada é registado),
+As transições principais incluem: provisória → contestada é registado,
 contestada → suportada condicionalmente (quando o ataque é respondido ao
 restringir o [escopo](./scope) ou ao clarificar [pressupostos](./assumption)),
 suportada condicionalmente → robusta (quando múltiplos caminhos independentes

@@ -1,6 +1,6 @@
 ---
 title: افتراض
-description: مقدّمة ضمنية تقوم عليها دعوى
+description: "مقدّمة ضمنية تقوم عليها دعوى"
 sourceLocale: en
 sourceHash: 7ff67cddc322
 translatedAt: 2026-01-14

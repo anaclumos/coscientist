@@ -1,6 +1,6 @@
 ---
 title: عقدة مسألة
-description: حزمة من عناقيد الادعاءات المتصادمة في رسم بياني جدلي
+description: "حزمة من عناقيد الادعاءات المتصادمة في رسم بياني جدلي"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14

@@ -1,6 +1,6 @@
 ---
 title: মেটা-লার্নিং
-description: আপনার নিজের শেখা কীভাবে কাজ করে তা শেখা
+description: "আপনার নিজের শেখা কীভাবে কাজ করে তা শেখা"
 sourceLocale: en
 sourceHash: 3023196c32ff
 translatedAt: 2026-01-14

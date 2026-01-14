@@ -1,6 +1,6 @@
 ---
 title: مسئلہ نوڈ
-description: جدلیاتی گراف میں ٹکرانے والے دعووں کے کلسٹرز کا ایک بنڈل
+description: "جدلیاتی گراف میں ٹکرانے والے دعووں کے کلسٹرز کا ایک بنڈل"
 sourceLocale: en
 sourceHash: daca26b69d5d
 translatedAt: 2026-01-14

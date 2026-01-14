@@ -1,8 +1,6 @@
 ---
 title: Enzyklopädie-Meltdown
-description:
-  Wissenskollaps-Phänomen, wenn KI ohne menschliches Eingreifen die Initiative
-  ergreift
+description: "Wissenskollaps-Phänomen, wenn KI ohne menschliches Eingreifen die Initiative ergreift"
 sourceLocale: en
 sourceHash: 9dd770ce12d3
 translatedAt: 2026-01-14

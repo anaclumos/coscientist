@@ -1,6 +1,6 @@
 ---
-title: Epistemische Protokollschicht
-description: Regeln und Workflows, die Wissenssysteme gegen Kollaps absichern
+title: "Epistemische Protokollschicht"
+description: "Regeln und Workflows, die Wissenssysteme gegen Kollaps absichern"
 sourceLocale: en
 sourceHash: 36c93eb305a5
 translatedAt: 2026-01-14
@@ -13,7 +13,7 @@ werden, wie sie angefochten werden und welche Nachvollziehbarkeit erforderlich
 ist, bevor sie Autorität erlangen.
 
 In der Praxis umfasst sie Souveränität (das endgültige Urteil bleibt beim
-menschlichen [Betreiber](./operator)), Nachvollziehbarkeit wird erhalten) und
-standardmäßige adversarielle Validierung ). Das Ziel ist nicht, das Denken zu
+menschlichen [Betreiber](./operator)), Nachvollziehbarkeit wird erhalten und
+standardmäßige adversarielle Validierung. Das Ziel ist nicht, das Denken zu
 verlangsamen, sondern Korrektur günstiger als Abdrift zu halten — besonders
 unter dem Druck des [Enzyklopädie-Zusammenbruch](./encyclopedia-meltdown).

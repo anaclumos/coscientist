@@ -1,6 +1,6 @@
 ---
 title: "โทเค็น ≠ ความรู้"
-description: การแสวงหาส่วนตัวเพื่อโครงกระดูกภายนอกทางความคิด
+description: "การแสวงหาส่วนตัวเพื่อโครงกระดูกภายนอกทางความคิด"
 sourceLocale: en
 sourceHash: adfef3bcf465
 translatedAt: 2026-01-14

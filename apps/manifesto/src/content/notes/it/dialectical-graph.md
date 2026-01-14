@@ -1,8 +1,7 @@
 ---
 title: Grafo dialettico
-description:
-  Un modello di grafo della conoscenza che memorizza affermazioni e relazioni
-  anziché il contenuto dei documenti
+description: "Un modello di grafo della conoscenza che memorizza affermazioni e relazioni
+  anziché il contenuto dei documenti"
 sourceLocale: en
 sourceHash: 7de42f075323
 translatedAt: 2026-01-14
@@ -25,7 +24,7 @@ L’estratto di evidenza conserva la formulazione esatta e la fonte,
 l’affermazione registra chi ha affermato cosa, e un arco `cites` rende
 l’attribuzione esplicita invece che implicita nella prosa.
 
-Il grafo separa anche un livello inferenziale da un livello narrativo . Un
+Il grafo separa anche un livello inferenziale da un livello narrativo. Un
 documento non è una verità finale; è un’istantanea del grafo. Ogni frase
 dovrebbe poter risalire all’indietro attraverso affermazione, ambito,
 assunzione, metodo, dati, estratto di evidenza e fonte. Senza quella catena, una
