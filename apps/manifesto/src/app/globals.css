@@ -66,7 +66,10 @@
   --color-foreground: var(--foreground);
   --color-link: var(--link);
   --color-link-visited: var(--link-visited);
-  --font-sans: var(--font-faculty-glyphic);
+  --font-sans:
+    var(--font-faculty-glyphic), var(--font-gowun-batang),
+    var(--font-shippori-mincho), var(--font-noto-serif-sc),
+    var(--font-noto-serif-tc);
   --font-mono: "Iosevka", ui-monospace, monospace;
   --animate-skeleton: skeleton 2s -1s infinite linear;
   --color-warning-foreground: var(--warning-foreground);
@@ -170,6 +173,27 @@ body {
   p,
   li {
     @apply text-pretty;
+  }
+
+  /* CJK font weight adjustment - make fallback fonts bolder to match Faculty Glyphic */
+  :lang(ko),
+  :lang(ja),
+  :lang(zh),
+  :lang(zh-Hans),
+  :lang(zh-Hant) {
+    font-weight: 500;
+  }
+
+  :lang(ko) h1,
+  :lang(ko) h2,
+  :lang(ko) h3,
+  :lang(ja) h1,
+  :lang(ja) h2,
+  :lang(ja) h3,
+  :lang(zh) h1,
+  :lang(zh) h2,
+  :lang(zh) h3 {
+    font-weight: 700;
   }
 }
 

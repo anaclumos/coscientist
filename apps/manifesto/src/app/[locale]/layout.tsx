@@ -1,5 +1,11 @@
 import type { Metadata } from "next";
-import { Faculty_Glyphic } from "next/font/google";
+import {
+  Faculty_Glyphic,
+  Song_Myung,
+  Shippori_Mincho,
+  Noto_Serif_SC,
+  Noto_Serif_TC,
+} from "next/font/google";
 import { notFound } from "next/navigation";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import {
@@ -23,6 +29,29 @@ const facultyGlyphic = Faculty_Glyphic({
   variable: "--font-faculty-glyphic",
   subsets: ["latin"],
   weight: "400",
+});
+
+const songMyung = Song_Myung({
+  variable: "--font-song-myung",
+  weight: "400",
+});
+
+const shipporiMincho = Shippori_Mincho({
+  variable: "--font-shippori-mincho",
+  subsets: ["latin"],
+  weight: ["500", "700"],
+});
+
+const notoSerifSC = Noto_Serif_SC({
+  variable: "--font-noto-serif-sc",
+  subsets: ["latin"],
+  weight: ["500", "700"],
+});
+
+const notoSerifTC = Noto_Serif_TC({
+  variable: "--font-noto-serif-tc",
+  subsets: ["latin"],
+  weight: ["500", "700"],
 });
 
 type Props = {
@@ -89,7 +118,7 @@ export default async function LocaleLayout({ children, params }: Props) {
   return (
     <html lang={locale} dir={direction} className="h-full">
       <body
-        className={`${facultyGlyphic.variable} antialiased font-sans h-full flex flex-col`}
+        className={`${facultyGlyphic.variable} ${songMyung.variable} ${shipporiMincho.variable} ${notoSerifSC.variable} ${notoSerifTC.variable} antialiased font-sans h-full flex flex-col`}
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider defaultTheme="system" storageKey="manifesto-theme">

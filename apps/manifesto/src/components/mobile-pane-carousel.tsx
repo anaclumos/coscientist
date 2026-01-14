@@ -42,15 +42,12 @@ function SliderNotch({
   activeIndex: MotionValue<number>;
   onTap: () => void;
 }) {
-  const [isActive, setIsActive] = React.useState(false);
-
-  React.useEffect(() => {
-    const unsubscribe = activeIndex.on("change", (v) => {
-      setIsActive(Math.round(v) === index);
-    });
-    setIsActive(Math.round(activeIndex.get()) === index);
-    return unsubscribe;
-  }, [activeIndex, index]);
+  const height = useTransform(activeIndex, (v) =>
+    Math.round(v) === index ? 28 : 12,
+  );
+  const opacity = useTransform(activeIndex, (v) =>
+    Math.round(v) === index ? 1 : 0.3,
+  );
 
   return (
     <button
@@ -60,26 +57,13 @@ function SliderNotch({
     >
       <motion.div
         className="w-0.5 rounded-full bg-foreground"
-        initial={false}
-        animate={{
-          height: isActive ? 28 : 12,
-          opacity: isActive ? 1 : 0.3,
-        }}
-        transition={{ type: "spring", duration: 0.4, bounce: 0.15 }}
+        style={{ height, opacity }}
       />
     </button>
   );
 }
 
-function CoverflowPane({
-  note,
-  index,
-  backlinks,
-  onLinkClick,
-  onClose,
-  isClosable,
-  progress,
-}: {
+interface CoverflowPaneProps {
   note: Note;
   index: number;
   backlinks: BacklinkInfo[];
@@ -87,104 +71,123 @@ function CoverflowPane({
   onClose: () => void;
   isClosable: boolean;
   progress: MotionValue<number>;
-}) {
-  const prefersReducedMotion = useReducedMotion();
-
-  const offset = useTransform(progress, (p) => (index - p) * 200);
-
-  const rotateY = useTransform(
-    offset,
-    [-200, 0, 200],
-    prefersReducedMotion ? [0, 0, 0] : [-20, 0, 20],
-  );
-
-  const coverflowScale = useTransform(
-    offset,
-    [-200, 0, 200],
-    prefersReducedMotion ? [1, 1, 1] : [0.8, 1, 0.8],
-  );
-
-  const coverflowX = useTransform(offset, (value) => value * 1.3);
-
-  const coverflowOpacity = useTransform(
-    offset,
-    [-400, -200, 0, 200, 400],
-    [0.3, 0.7, 1, 0.7, 0.3],
-  );
-
-  const zIndex = useTransform(offset, (value) =>
-    Math.max(0, Math.round(100 - Math.abs(value))),
-  );
-
-  const transition = prefersReducedMotion ? { duration: 0 } : springSubtle;
-
-  return (
-    <motion.li
-      layout
-      initial={prefersReducedMotion ? false : "initial"}
-      animate="animate"
-      exit="exit"
-      variants={paneVariants}
-      transition={transition}
-      className="absolute inset-0 flex items-center justify-center pointer-events-none"
-      style={{ zIndex }}
-    >
-      <motion.article
-        className={cn(
-          "w-[92dvw] h-full",
-          "bg-background border border-border rounded-2xl overflow-hidden",
-          "shadow-lg pointer-events-auto",
-        )}
-        style={{
-          x: coverflowX,
-          rotateY,
-          scale: coverflowScale,
-          opacity: coverflowOpacity,
-          transformStyle: "preserve-3d",
-          transformPerspective: 1000,
-        }}
-      >
-        <ScrollArea className="h-full">
-          <div className="p-5 pb-10">
-            <header className="mb-4 pr-8">
-              <h1 className="text-xl font-semibold text-foreground leading-snug">
-                {note.title}
-              </h1>
-              {note.description && (
-                <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
-                  {note.description}
-                </p>
-              )}
-            </header>
-            <NoteContent note={note} onLinkClick={onLinkClick} />
-            {backlinks.length > 0 && (
-              <footer className="mt-6 pt-4 border-t border-border/40">
-                <BacklinksSection
-                  backlinks={backlinks}
-                  onBacklinkClick={onLinkClick}
-                />
-              </footer>
-            )}
-          </div>
-        </ScrollArea>
-
-        {isClosable && (
-          <button
-            type="button"
-            onClick={(e) => {
-              e.stopPropagation();
-              onClose();
-            }}
-            className="absolute top-3 right-3 size-7 rounded-full bg-muted/80 backdrop-blur-sm flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors z-50"
-            aria-label={`Close ${note.title}`}
-          >
-            <IconXmarkOutline18 className="size-4" />
-          </button>
-        )}
-      </motion.article>
-    </motion.li>
-  );
+  prefersReducedMotion: boolean;
 }
+
+function clamp(min: number, value: number, max: number): number {
+  return Math.min(Math.max(value, min), max);
+}
+
+const CoverflowPane = React.memo(
+  function CoverflowPane({
+    note,
+    index,
+    backlinks,
+    onLinkClick,
+    onClose,
+    isClosable,
+    progress,
+    prefersReducedMotion,
+  }: CoverflowPaneProps) {
+    const coverflowX = useTransform(progress, (p) => (index - p) * 260);
+
+    const rotateY = useTransform(progress, (p) => {
+      if (prefersReducedMotion) return 0;
+      const offset = (index - p) * 200;
+      return clamp(-20, offset * 0.1, 20);
+    });
+
+    const coverflowScale = useTransform(progress, (p) => {
+      if (prefersReducedMotion) return 1;
+      const offset = Math.abs(index - p) * 200;
+      return clamp(0.8, 1 - offset * 0.001, 1);
+    });
+
+    const coverflowOpacity = useTransform(progress, (p) => {
+      const offset = Math.abs(index - p) * 200;
+      return clamp(0.3, 1 - offset * 0.0015, 1);
+    });
+
+    const zIndex = useTransform(progress, (p) => {
+      const offset = Math.abs(index - p) * 200;
+      return Math.max(0, Math.round(100 - offset));
+    });
+
+    const transition = prefersReducedMotion ? { duration: 0 } : springSubtle;
+
+    return (
+      <motion.li
+        initial={prefersReducedMotion ? false : "initial"}
+        animate="animate"
+        exit="exit"
+        variants={paneVariants}
+        transition={transition}
+        className="absolute inset-0 flex items-center justify-center pointer-events-none"
+        style={{ zIndex }}
+      >
+        <motion.article
+          className={cn(
+            "w-[92dvw] h-full",
+            "bg-background border border-border rounded-2xl overflow-hidden",
+            "shadow-lg pointer-events-auto",
+          )}
+          style={{
+            x: coverflowX,
+            rotateY,
+            scale: coverflowScale,
+            opacity: coverflowOpacity,
+            transformStyle: "preserve-3d",
+            transformPerspective: 1000,
+            willChange: "transform, opacity",
+          }}
+        >
+          <ScrollArea className="h-full">
+            <div className="p-5 pb-10">
+              <header className="mb-4 pr-8">
+                <h1 className="text-xl font-semibold text-foreground leading-snug">
+                  {note.title}
+                </h1>
+                {note.description && (
+                  <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                    {note.description}
+                  </p>
+                )}
+              </header>
+              <NoteContent note={note} onLinkClick={onLinkClick} />
+              {backlinks.length > 0 && (
+                <footer className="mt-6 pt-4 border-t border-border/40">
+                  <BacklinksSection
+                    backlinks={backlinks}
+                    onBacklinkClick={onLinkClick}
+                  />
+                </footer>
+              )}
+            </div>
+          </ScrollArea>
+
+          {isClosable && (
+            <button
+              type="button"
+              onClick={(e) => {
+                e.stopPropagation();
+                onClose();
+              }}
+              className="absolute top-3 right-3 size-7 rounded-full bg-muted/80 backdrop-blur-sm flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors z-50"
+              aria-label={`Close ${note.title}`}
+            >
+              <IconXmarkOutline18 className="size-4" />
+            </button>
+          )}
+        </motion.article>
+      </motion.li>
+    );
+  },
+  (prev, next) =>
+    prev.note.slug === next.note.slug &&
+    prev.index === next.index &&
+    prev.isClosable === next.isClosable &&
+    prev.prefersReducedMotion === next.prefersReducedMotion,
+);
 
 export function MobilePaneCarousel({
   notes,
@@ -237,9 +240,7 @@ export function MobilePaneCarousel({
       }
       if (notesAdded) {
         requestAnimationFrame(() => {
-          requestAnimationFrame(() => {
-            animateToIndex(focusIndex);
-          });
+          animateToIndex(focusIndex);
         });
       } else {
         animateToIndex(focusIndex);
@@ -322,7 +323,7 @@ export function MobilePaneCarousel({
         onDragEnd={handleDragEnd}
       >
         <ul className="relative w-full h-full">
-          <AnimatePresence initial={false} mode="popLayout">
+          <AnimatePresence initial={false} mode="sync">
             {notes.map((note, index) => (
               <CoverflowPane
                 key={`${note.slug}-${index}`}
@@ -333,6 +334,7 @@ export function MobilePaneCarousel({
                 onClose={() => onClose(index)}
                 isClosable={index > 0}
                 progress={currentIndex}
+                prefersReducedMotion={prefersReducedMotion}
               />
             ))}
           </AnimatePresence>
