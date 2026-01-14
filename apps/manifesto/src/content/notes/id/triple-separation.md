@@ -3,7 +3,7 @@ title: Pemisahan Tiga Lapis
 description: Aturan arsitektural yang memisahkan teks mentah, klaim yang dinormalisasi, dan relasi eksplisit
 ---
 
-Pemisahan tiga lapis adalah aturan arsitektural dalam sebuah [Graf Dialektik](./dialectical-graph) yang menjaga tiga lapisan tetap terpisah: teks asli dipertahankan sebagai [rentang bukti](./evidence-span) yang dapat dikutip; [klaim](./claim) diuraikan menjadi [proposisi yang dinormalisasi](./normalized-proposition); dan relasi disimpan sebagai pengikatan argumentatif yang eksplisit (lihat [Sisi Graf Dialektik](./dialectical-graph-edges)).
+Pemisahan tiga lapis adalah aturan arsitektural dalam sebuah [Graf Dialektik](./dialectical-graph) yang menjaga tiga lapisan tetap terpisah: teks asli dipertahankan sebagai [rentang bukti](./evidence-span) yang dapat dikutip; [klaim](./claim) diuraikan menjadi [proposisi yang dinormalisasi](./normalized-proposition); dan relasi disimpan sebagai pengikatan argumentatif yang eksplisit ).
 
 Pemisahan ini mencegah mode kegagalan umum dalam [RAG](./rag-limitations): pemotongan kutipan. Ketika teks diambil lalu diringkas tanpa mempertahankan redaksi aslinya, atribusi dapat hilang tanpa disadari. Pemisahan tiga lapis memastikan bahwa Anda selalu dapat melacak sebuah klaim kembali ke kata-kata persis dan [sumber](./source) yang menghasilkannya.
 

@@ -3,7 +3,7 @@ title: Zasady nauki o uczeniu się
 description: Techniki oparte na dowodach na trwałą naukę i pamięć
 ---
 
-Zasady nauki o uczeniu się to techniki oparte na dowodach (evidence-based) służące przyswajaniu wiedzy, która utrzymuje się, przenosi na nowe konteksty i pozostaje dostępna pod presją. Zasady te wyjaśniają, jak [Współnaukowiec](./coscientist) wspiera pracę poznawczą [Operatora](./operator).
+Zasady nauki o uczeniu się to techniki oparte na dowodach  służące przyswajaniu wiedzy, która utrzymuje się, przenosi na nowe konteksty i pozostaje dostępna pod presją. Zasady te wyjaśniają, jak [Współnaukowiec](./coscientist) wspiera pracę poznawczą [Operatora](./operator).
 
 ## Kluczowe techniki
 

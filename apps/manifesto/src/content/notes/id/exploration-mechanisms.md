@@ -13,7 +13,7 @@ Mekanisme eksplorasi adalah strategi yang digunakan [Kosaintis](./coscientist) u
 
 ## Analisis Konflik
 
-- [Minimum Cut](./minimum-cut) — mengisolasi sisi (edge) yang menghasilkan kontradiksi
+- [Minimum Cut](./minimum-cut) — mengisolasi sisi  yang menghasilkan kontradiksi
 - [Himpunan Kontradiksi Minimum](./minimum-contradiction-set) — menemukan premis inti yang saling bertentangan
 
 ## Analisis Metode

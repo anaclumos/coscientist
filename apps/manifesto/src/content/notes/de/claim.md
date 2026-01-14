@@ -7,4 +7,4 @@ Eine Behauptung ist eine überprüfbare Aussage, die aus Text extrahiert und als
 
 Behauptungen können mit [Evidenzspannen](./evidence-span) verknüpft werden, die sie stützen, mit [Gegenbeispielen](./counterexample), die sie einschränken, mit [Angriffen](./attack), die sie in Frage stellen, und mit [Untergrabungen](./undercut), die ihre Grundlage anzweifeln. Diese relationale Struktur ermöglicht es, Wissen durch Widerlegung statt durch Ersetzung zu aktualisieren.
 
-Jede Behauptung hat einen Status (siehe [Knoten im Dialektischen Graphen](./dialectical-graph-nodes)): Sie kann vorläufig, umstritten, bedingt gestützt, robust, widerlegt oder obsolet sein. Der Status ändert sich abhängig von der Art der Widerlegung, nicht von deren Anzahl, und er kann zurückfallen, wenn die stützende Struktur schwächer wird.
+Jede Behauptung hat einen Status ): Sie kann vorläufig, umstritten, bedingt gestützt, robust, widerlegt oder obsolet sein. Der Status ändert sich abhängig von der Art der Widerlegung, nicht von deren Anzahl, und er kann zurückfallen, wenn die stützende Struktur schwächer wird.

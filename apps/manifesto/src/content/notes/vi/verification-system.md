@@ -12,7 +12,7 @@ Hệ thống xác minh là tập hợp các cơ chế mà [Nhà đồng khoa h�
 - [Giao thức đồng thuận đa AI](./multi-ai-consensus-protocol) — dùng bất đồng giữa các mô hình như một tín hiệu
 - [Yêu cầu nhất trí](./unanimity-requirement) — chỉ chấp nhận khẳng định khi tất cả người thẩm định đều đồng ý
 - [Ranh giới trách nhiệm](./responsibility-line) — truy vết ai đã khẳng định điều gì
-- [Phản ví dụ](./counterexample) — các trường hợp làm "gãy” khẳng định
-- [Nạp dữ liệu theo mô hình không tin cậy mặc định (Zero-Trust Ingestion)](./zero-trust-ingestion) — yêu cầu nguồn gốc (provenance) trước khi trao quyền uy
+- [Phản ví dụ](./counterexample) — các trường hợp làm "gãy" khẳng định
+- [Nạp dữ liệu theo mô hình không tin cậy mặc định ](./zero-trust-ingestion) — yêu cầu nguồn gốc  trước khi trao quyền uy
 
 Hệ thống được thiết kế để đảm bảo [sửa sai rẻ hơn lệch hướng](./correction-vs-drift) và hỗ trợ [độ khó mong muốn](./desirable-difficulty-in-verification) để [Người vận hành](./operator) luôn duy trì sự tham gia.

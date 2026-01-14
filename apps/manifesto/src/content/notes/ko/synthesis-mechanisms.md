@@ -12,7 +12,7 @@ description: 호환되지 않는 출처를 비교 가능하게 만드는 패턴
 ## 입력 패턴
 
 - [문서 충돌](./document-collision) — 출처들이 서로의 주장에 직접 맞물리도록 강제하기
-- [경합](./contention) — 구조화된 충돌을 1급 객체(first-class object)로 다루기
+- [경합](./contention) — 구조화된 충돌을 1급 객체로 다루기
 
 ## 출력 패턴
 
@@ -33,4 +33,4 @@ description: 호환되지 않는 출처를 비교 가능하게 만드는 패턴
 
 ## 대비
 
-- [RAG 한계](./rag-limitations) — 검색(retrieval)만으로는 왜 합성할 수 없는가
+- [RAG 한계](./rag-limitations) — 검색만으로는 왜 합성할 수 없는가

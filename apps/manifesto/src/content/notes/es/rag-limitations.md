@@ -9,6 +9,6 @@ Un modo de fallo es el sesgo cuantitativo. Si muchas fuentes repiten una afirmac
 
 Otra limitación es la ausencia de relaciones explícitas. RAG puede recuperar extractos del estudio A y del estudio B, pero por lo general no puede representar que B refuta a A, socava su método o acota su alcance; simplemente coloca fragmentos cerca unos de otros. Eso sustituye la calidad de los fundamentos por la cantidad de texto.
 
-Por último, la procedencia es frágil bajo el truncamiento. Cuando un extracto pierde la atribución ("B informa que A afirmó…") y solo conserva la conclusión ("X funciona"), el modelo puede reescribir silenciosamente la línea de responsabilidad. Las citas se convierten en sensaciones, y "quién afirmó qué" se vuelve difícil de reconstruir.
+Por último, la procedencia es frágil bajo el truncamiento. Cuando un extracto pierde la atribución ("B informa que A afirmó…") y solo conserva la conclusión , el modelo puede reescribir silenciosamente la línea de responsabilidad. Las citas se convierten en sensaciones, y "quién afirmó qué" se vuelve difícil de reconstruir.
 
 Por esto, el RAG estándar tiene dificultades para la actualización y la síntesis de conocimiento en presencia de [contención](./contention) real. Una alternativa es pasar de "qué tan similar es" a "qué relación es", como en un [Grafo Dialéctico](./dialectical-graph) que almacena afirmaciones y tipos de relación y prioriza contradicciones y contraejemplos en lugar del consenso.

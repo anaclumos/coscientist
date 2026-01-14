@@ -12,7 +12,7 @@ Komponenty grafu to elementy składowe [Grafu dialektycznego](./dialectical-grap
 - [Zakres](./scope) — warunki stosowalności
 - [Założenie](./assumption) — ukryte przesłanki
 - [Metoda](./method) — procedury generowania dowodów
-- [Źródło](./source) — kotwice pochodzenia (provenance)
+- [Źródło](./source) — kotwice pochodzenia 
 - [Kontrprzykład](./counterexample) — przypadki obalające twierdzenia
 - [Węzeł problemu](./issue-node) — pakiety zderzających się twierdzeń
 

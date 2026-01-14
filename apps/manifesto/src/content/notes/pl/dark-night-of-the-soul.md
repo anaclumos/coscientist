@@ -3,7 +3,7 @@ title: Ciemna noc duszy
 description: Środek literacki opisujący głęboki kryzys wewnętrzny prowadzący do rekonstrukcji tożsamości
 ---
 
-„Ciemna noc duszy” (La noche oscura del alma) oznacza głęboki kryzys wewnętrzny, w którym załamują się tożsamość, wiara i własny model siebie. Z zewnątrz może to wyglądać jak załamanie nerwowe; od środka jest to często demontaż i odbudowa według nowych standardów.
+„Ciemna noc duszy"  oznacza głęboki kryzys wewnętrzny, w którym załamują się tożsamość, wiara i własny model siebie. Z zewnątrz może to wyglądać jak załamanie nerwowe; od środka jest to często demontaż i odbudowa według nowych standardów.
 
 Zwrot ten wywodzi się z religijnego kontekstu XVI wieku, lecz we współczesnym użyciu odnosi się szerzej do egzystencjalnego rozpadu i odbudowy. Typowy przebieg wygląda tak, że dawne nagrody (komfort, pewność, tożsamość oparta na roli) przestają działać; przywiązania i samooszukiwanie się stają się widoczne; a zdrowienie nie jest powrotem do poprzedniego stanu, lecz reorganizacją wokół innego centrum wartości.
 

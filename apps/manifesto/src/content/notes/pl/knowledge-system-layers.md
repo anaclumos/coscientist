@@ -18,7 +18,7 @@ Warstwy systemu wiedzy to odrębne komponenty architektoniczne, które składaj�
 ## Warstwa narracyjna
 
 - [Warstwa narracyjna](./narrative-layer) — czytelne dla człowieka projekcje grafu
-- Dokumenty jako opatrzone znacznikami czasu migawki, a nie prawda podstawowa (ground truth)
+- Dokumenty jako opatrzone znacznikami czasu migawki, a nie prawda podstawowa 
 
 ## Warstwa protokołu
 

@@ -3,7 +3,7 @@ title: 논증 관계
 description: 기능에 따라 조직된 변증법적 그래프의 엣지 유형
 ---
 
-논증 관계는 [변증법적 그래프](./dialectical-graph)에서 인식론적 객체들이 서로 어떻게 연관되는지를 부호화하는 엣지 유형이다. 이것이 변증법적 그래프를 주제-유사성 그래프(topic-similarity graph)와 구분해 주는 핵심이다.
+논증 관계는 [변증법적 그래프](./dialectical-graph)에서 인식론적 객체들이 서로 어떻게 연관되는지를 부호화하는 엣지 유형이다. 이것이 변증법적 그래프를 주제-유사성 그래프와 구분해 주는 핵심이다.
 
 ## 도전 관계
 
@@ -16,7 +16,7 @@ description: 기능에 따라 조직된 변증법적 그래프의 엣지 유형
 
 - `supports` — 주장을 강화하는 증거 또는 추론
 - `cites` — [출처](./source)에 대한 명시적 인용/귀속
-- `replicates` / `fails_to_replicate` — 재현(replication) 상태
+- `replicates` / `fails_to_replicate` — 재현 상태
 
 ## 정교화 관계
 

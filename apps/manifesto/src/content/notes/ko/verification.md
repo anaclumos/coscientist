@@ -7,4 +7,4 @@ description: 주장을 증거와 반증에 비추어 확인하는 과정
 
 [코사이언티스트](./coscientist)에서 검증은 [오퍼레이터](./operator)의 책임이다. AI는 [contemplation labor](./contemplation-labor)(숙고 노동)을 수행하며 후보와 반박을 드러내는 데 도움을 줄 수 있지만, 무엇이 검증된 것으로 간주되는지는 인간이 결정한다. 이는 [cognitive sovereignty](./cognitive-sovereignty)(인지 주권)을 보존한다. 즉 Operator는 AI 출력의 수동적 소비자가 아니라, 자신의 지식의 저자로 남는다.
 
-[반박 우선 검색](./rebuttal-first-search)(반박 우선 검색) 같은 기법은 기본적으로 검증을 대립적(adversarial)으로 만들며, 수용하기 전에 먼저 반증을 찾는다. [다중-AI 합의 프로토콜](./multi-ai-consensus-protocol)(다중 AI 합의 프로토콜)은 여기에 사회적 차원을 더한다. 모델들 간의 불일치는 더 많은 정밀 검토가 필요하다는 신호로 취급된다.
+[반박 우선 검색](./rebuttal-first-search)(반박 우선 검색) 같은 기법은 기본적으로 검증을 대립적으로 만들며, 수용하기 전에 먼저 반증을 찾는다. [다중-AI 합의 프로토콜](./multi-ai-consensus-protocol)(다중 AI 합의 프로토콜)은 여기에 사회적 차원을 더한다. 모델들 간의 불일치는 더 많은 정밀 검토가 필요하다는 신호로 취급된다.

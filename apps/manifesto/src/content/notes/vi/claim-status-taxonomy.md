@@ -3,7 +3,7 @@ title: Phân loại Trạng thái Mệnh đề
 description: Các trạng thái mà một mệnh đề có thể ở trong một đồ thị biện chứng
 ---
 
-Phân loại trạng thái mệnh đề (claim status taxonomy) xác định các trạng thái mà một [mệnh đề](./claim) có thể chiếm trong một [Đồ thị Biện chứng](./dialectical-graph).
+Phân loại trạng thái mệnh đề  xác định các trạng thái mà một [mệnh đề](./claim) có thể chiếm trong một [Đồ thị Biện chứng](./dialectical-graph).
 
 ## Các Trạng thái Phổ biến
 

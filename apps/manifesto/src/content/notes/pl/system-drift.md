@@ -12,7 +12,7 @@ Dryf systemowy to kategoria [zjawisk dryfu](./drift-phenomena), w której sam sy
 
 ## Dlaczego to ma znaczenie
 
-Dryf systemowy to tryb awarii, w którym system wiedzy stabilizuje się wokół „w przybliżeniu utrzymywanego” fałszywego stanu stacjonarnego. Błędy utrzymują się, ponieważ korekta jest kosztowna; treści generowane przez AI zanieczyszczają dane treningowe; a system stopniowo traci kontakt z prawdą podstawową.
+Dryf systemowy to tryb awarii, w którym system wiedzy stabilizuje się wokół „w przybliżeniu utrzymywanego" fałszywego stanu stacjonarnego. Błędy utrzymują się, ponieważ korekta jest kosztowna; treści generowane przez AI zanieczyszczają dane treningowe; a system stopniowo traci kontakt z prawdą podstawową.
 
 [Stopienie encyklopedii](./encyclopedia-meltdown) to forma skrajna: gdy AI przejmuje inicjatywę pisania, znika [linia odpowiedzialności](./responsibility-line), a system dryfuje w stronę autoreferencyjnej zapaści. Obrona to [warstwa protokołów epistemicznych](./epistemic-protocol-layer): utrzymywanie korekty tańszej niż dryf dzięki [śledzalności](./traceability), [ingestii zero trust](./zero-trust-ingestion) i [wyszukiwaniu najpierw-kontrargumentów](./rebuttal-first-search).
 

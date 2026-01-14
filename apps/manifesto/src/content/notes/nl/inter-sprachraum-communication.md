@@ -5,7 +5,7 @@ description: Dialoog en kennisuitwisseling over taaldomeinen heen
 
 Inter-Sprachraumcommunicatie is het uitwisselen van ideeën over taalgrenzen heen op een manier die betekenis behoudt en echte dialoog mogelijk maakt. Het is niet louter vertaling; het is het vermogen om te denken en te redeneren over [Sprachraums](./sprachraum) heen zonder de essentie te verliezen van wat wordt gecommuniceerd.
 
-[Sunghyun Cho](./sunghyun-cho) identificeert dit als een van de drie pijlers van [over de Sprachraums heen](./across-the-sprachraums). Het doel is ideeën los te koppelen van de specifieke taal waarin ze zijn ontstaan, zodat de kern (de abstractie) vrij kan overgaan en zich kan combineren met ideeën uit andere taalkundige tradities.
+[Sunghyun Cho](./sunghyun-cho) identificeert dit als een van de drie pijlers van [over de Sprachraums heen](./across-the-sprachraums). Het doel is ideeën los te koppelen van de specifieke taal waarin ze zijn ontstaan, zodat de kern  vrij kan overgaan en zich kan combineren met ideeën uit andere taalkundige tradities.
 
 De uitdaging is dat talen niet isomorf zijn. Sommige concepten bestaan in de ene taal en hebben geen direct equivalent in een andere. Sommige onderscheidingen die grammaticaal verplicht zijn in de ene taal, zijn optioneel of afwezig in een andere. Inter-Sprachraumcommunicatie moet door deze asymmetrieën navigeren zonder te doen alsof ze niet bestaan.
 

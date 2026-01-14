@@ -23,6 +23,6 @@ Le relazioni argomentative sono i tipi di arco in un [Grafo dialettico](./dialec
 - `refines` — restringe o chiarisce un’affermazione
 - `generalizes` / `specializes` — aggiustamenti dell’ambito
 - `depends_on` — collega le affermazioni alle loro [assunzioni](./assumption)
-- `defines` — collega i termini alle loro definizioni (tracciate nel tempo tramite [Deriva definitoria](./definition-drift))
+- `defines` — collega i termini alle loro definizioni )
 
 Vedi [Archi del grafo dialettico](./dialectical-graph-edges) per la specifica completa e [Tipizzazione delle relazioni vs somiglianza](./relation-typing-vs-similarity) per capire perché gli archi tipizzati contano.

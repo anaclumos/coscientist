@@ -22,7 +22,7 @@ Personal knowledge evolution traces the development of tools and ideas for manag
 - [Project Aldehyde](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho)'s early attempt
 - [Extracranial](./extracranial) — Cho's personal digital brain system
 - [Multilingual Memex](./multilingual-memex) — language-aware knowledge system with auto-translation
-- [Project PIRI](./project-piri) — cancelled translation initiative (obsoleted by AI coding agents)
+- [Project PIRI](./project-piri) — cancelled translation initiative 
 
 ## Design Principle
 

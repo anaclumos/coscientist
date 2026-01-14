@@ -7,4 +7,4 @@ Een evidentiespan is de exact geciteerde tekst uit een bron die een [bewering](.
 
 In een [Dialectische Graaf](./dialectical-graph) worden evidentiespans opgeslagen als knooppunten met links naar hun [bron](./source) en naar de beweringen waarop ze betrekking hebben. Dit is de eerste laag van de [drievoudige scheiding](./triple-separation): ruwe tekst behouden, beweringen genormaliseerd, relaties expliciet.
 
-Evidentiespans voorkomen het probleem van afgekorte citaten in [RAG](./rag-limitations), waarbij citeren ongemerkt attributie kan laten vallen ("B rapporteert dat A beweerde...") en alleen de conclusie overlaat, waardoor de [verantwoordelijkheidslijn](./responsibility-line) wordt doorgeknipt.
+Evidentiespans voorkomen het probleem van afgekorte citaten in [RAG](./rag-limitations), waarbij citeren ongemerkt attributie kan laten vallen  en alleen de conclusie overlaat, waardoor de [verantwoordelijkheidslijn](./responsibility-line) wordt doorgeknipt.

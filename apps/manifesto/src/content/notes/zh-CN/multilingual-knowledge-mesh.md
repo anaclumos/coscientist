@@ -3,7 +3,7 @@ title: 多语言知识网格
 description: 一个跨语言并在全球分布的知识网络
 ---
 
-多语言知识网格（multilingual knowledge mesh）是一种知识网络，其中任何语言的内容都可以通过共享概念（而非词语匹配）与任何其他语言的内容建立连接。这也是 [曹成贤](./sunghyun-cho) 所设想的"跨越 [Sprachraums](./across-the-sprachraums)”愿景的一种体现。
+多语言知识网格（multilingual knowledge mesh）是一种知识网络，其中任何语言的内容都可以通过共享概念（而非词语匹配）与任何其他语言的内容建立连接。这也是 [曹成贤](./sunghyun-cho) 所设想的"跨越 [Sprachraums](./across-the-sprachraums)"愿景的一种体现。
 
 这超越了简单翻译。在真正的多语言网格中，一条用韩语写下的关于某个概念的笔记，会通过其底层思想（而不是通过关键词重叠）链接到一条关于同一概念的英文笔记。[语言无关索引](./language-agnostic-indexing)充当概念骨架，使得无论内容最初源自哪个 [Sprachraum](./sprachraum)，都能被检索并建立连接。
 

@@ -3,7 +3,7 @@ title: 跨越 Sprachraums
 description: 超越语言边界的知识系统愿景
 ---
 
-"Across the Sprachraums”是 [曹成贤](./sunghyun-cho) 关于超越语言边界的知识系统的愿景。这个短语将一个英文介词与一个德文名词组合在一起，以自身的形式体现其含义：任何单一的 [Sprachraum](./sprachraum) 都不应限制知识如何流动。
+"Across the Sprachraums"是 [曹成贤](./sunghyun-cho) 关于超越语言边界的知识系统的愿景。这个短语将一个英文介词与一个德文名词组合在一起，以自身的形式体现其含义：任何单一的 [Sprachraum](./sprachraum) 都不应限制知识如何流动。
 
 这一愿景包含三个部分：
 

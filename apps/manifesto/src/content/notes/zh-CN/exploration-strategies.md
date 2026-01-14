@@ -7,7 +7,7 @@ description: 用于持续知识发现的图遍历策略
 
 关键策略包括：
 
-- [反例优先搜索](./counterexample-first-search) —— 将"流行度”视为风险信号；优先寻找反例与边界条件
+- [反例优先搜索](./counterexample-first-search) —— 将"流行度"视为风险信号；优先寻找反例与边界条件
 - [最小割](./minimum-cut) —— 隔离出产生矛盾的最小结构，然后将注意力聚焦到[最小矛盾集合](./minimum-contradiction-set)
 - [定义漂移](./definition-drift) —— 检测意义的变化，而不是假设概念已被共享
 - [方法-结论耦合](./method-conclusion-coupling) —— 按方法对主张进行聚类，以发现共同缺陷

@@ -3,21 +3,21 @@ title: سیکھنے کی سائنس کے اصول
 description: پائیدار سیکھنے اور یادداشت کے لیے شواہد پر مبنی تکنیکیں
 ---
 
-سیکھنے کی سائنس کے اصول علم حاصل کرنے کے لیے شواہد پر مبنی تکنیکیں ہیں جو دیرپا رہیں، دوسرے سیاق و سباق میں منتقل ہو سکیں، اور دباؤ کے حالات میں بھی قابلِ رسائی رہیں۔ یہ اصول اس بات کی رہنمائی کرتے ہیں کہ [کوسائنٹسٹ](./coscientist) کس طرح [آپریٹر](./operator) کے علمی کام (cognitive work) کی حمایت کرتا ہے۔
+سیکھنے کی سائنس کے اصول علم حاصل کرنے کے لیے شواہد پر مبنی تکنیکیں ہیں جو دیرپا رہیں، دوسرے سیاق و سباق میں منتقل ہو سکیں، اور دباؤ کے حالات میں بھی قابلِ رسائی رہیں۔ یہ اصول اس بات کی رہنمائی کرتے ہیں کہ [کوسائنٹسٹ](./coscientist) کس طرح [آپریٹر](./operator) کے علمی کام  کی حمایت کرتا ہے۔
 
 ## بنیادی تکنیکیں
 
-- [Active Recall](./active-recall) — یادداشت سے بازیافت (retrieving) کر کے مطالعہ کرنا
+- [Active Recall](./active-recall) — یادداشت سے بازیافت  کر کے مطالعہ کرنا
 - [Retrieval Practice](./retrieval-practice) — بازیافت کے ذریعے یادداشت کو مضبوط کرنا
-- [Spaced Repetition](./spaced-repetition) — بڑھتے ہوئے وقفوں پر دہرائی/جائزہ (review) شیڈول کرنا
-- [Spacing Effect](./spacing-effect) — تقسیم شدہ مشق (distributed practice) سے یادداشت بہتر ہوتی ہے
+- [Spaced Repetition](./spaced-repetition) — بڑھتے ہوئے وقفوں پر دہرائی/جائزہ  شیڈول کرنا
+- [Spacing Effect](./spacing-effect) — تقسیم شدہ مشق  سے یادداشت بہتر ہوتی ہے
 - [Interleaving](./interleaving) — امتیاز بہتر بنانے کے لیے موضوعات کو ملا کر پڑھنا
 - [Meta-Learning](./meta-learning) — اپنی سیکھنے کی روش کے بارے میں سیکھنا
 
 ## مظاہر
 
 - [Forgetting Curve](./forgetting-curve) — جائزے کے بغیر یادداشت میں پیش گوئی کے مطابق کمی
-- [Illusions of Competence](./illusions-of-competence) — غیر فعّال واقفیت (passive familiarity) سے جھوٹا احساسِ مہارت
+- [Illusions of Competence](./illusions-of-competence) — غیر فعّال واقفیت  سے جھوٹا احساسِ مہارت
 
 ## Coscientist سے پل
 

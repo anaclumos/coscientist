@@ -5,6 +5,6 @@ description: AI 유창성이 사용자에게 거짓된 숙련감을 만드는 �
 
 AI가 유발하는 역량 착각은 사용자가 유창한 AI 출력물을 자신의 이해로 오해할 때 발생한다. [유창성 함정](./fluency-trap)은 단지 틀린 정보를 믿는 문제만이 아니라, 진짜 역량을 만들어내는 인지적 작업을 하지 않았는데도 유능하다고 느끼게 되는 문제다.
 
-이는 학습과학의 개념인 [역량 착각](./illusions-of-competence)과도 평행한다. 다시 읽기(re-reading)나 형광펜 표시(highlighting)는 자료가 익숙해 보이기 때문에 생산적으로 느껴지지만, 그 느낌은 회상(recall)이나 전이(transfer)를 예측하지 못한다. AI 도움은 같은 착각을 대규모로 만들어낼 수 있다. AI가 답을 제공했기 때문에 답을 "안다"고 느끼지만, 실제로는 그것을 재현(reproduce)하거나 비판(critique)하거나 확장(extend)하지 못한다.
+이는 학습과학의 개념인 [역량 착각](./illusions-of-competence)과도 평행한다. 다시 읽기나 형광펜 표시는 자료가 익숙해 보이기 때문에 생산적으로 느껴지지만, 그 느낌은 회상이나 전이를 예측하지 못한다. AI 도움은 같은 착각을 대규모로 만들어낼 수 있다. AI가 답을 제공했기 때문에 답을 "안다"고 느끼지만, 실제로는 그것을 재현하거나 비판하거나 확장하지 못한다.
 
-방어책은 의도적인 노력이다. [코사이언티스트](./coscientist)에서는 [오퍼레이터](./operator)를 검증자(verifier) 역할에 두고, [회상 연습으로서의 검증](./verification-as-retrieval-practice)을 활용하며, [바람직한 어려움](./desirable-difficulty-in-verification)을 버그가 아니라 기능으로 대하는 것을 의미한다.
+방어책은 의도적인 노력이다. [코사이언티스트](./coscientist)에서는 [오퍼레이터](./operator)를 검증자 역할에 두고, [회상 연습으로서의 검증](./verification-as-retrieval-practice)을 활용하며, [바람직한 어려움](./desirable-difficulty-in-verification)을 버그가 아니라 기능으로 대하는 것을 의미한다.

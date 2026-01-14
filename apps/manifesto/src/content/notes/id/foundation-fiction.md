@@ -8,7 +8,7 @@ Fiksi Foundation merujuk pada konsep-konsep dari seri Foundation karya [Isaac As
 ## Konsep Inti
 
 - [Ensiklopedia Galaktika](./encyclopedia-galactica) — repositori pengetahuan fiktif
-- [Psychohistory](./psychohistory) — ilmu statistik (statistical science) Asimov tentang peradaban
+- [Psychohistory](./psychohistory) — ilmu statistik  Asimov tentang peradaban
 - [Seldon Plan](./seldon-plan) — strategi jangka panjang [Hari Seldon](./hari-seldon)
 - [Dark Night of the Soul](./dark-night-of-the-soul) — metafora bagi keruntuhan peradaban atau epistemik
 - [Knowledge Ark](./knowledge-ark) — repositori yang dirancang untuk bertahan dari keruntuhan

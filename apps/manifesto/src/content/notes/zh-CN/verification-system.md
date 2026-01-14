@@ -11,7 +11,7 @@ description: 将主张与证据和反证进行核对的机制
 - [反驳优先搜索](./rebuttal-first-search) — 在接受之前先寻找反证
 - [多 AI 共识协议](./multi-ai-consensus-protocol) — 将模型分歧作为信号来使用
 - [一致同意要求](./unanimity-requirement) — 只有在所有审阅者都同意时才接受主张
-- [责任线](./responsibility-line) — 追踪"谁提出了什么”
+- [责任线](./responsibility-line) — 追踪"谁提出了什么"
 - [反例](./counterexample) — 能够推翻主张的案例
 - [零信任摄取](./zero-trust-ingestion) — 在诉诸权威之前要求可追溯来源（provenance）
 

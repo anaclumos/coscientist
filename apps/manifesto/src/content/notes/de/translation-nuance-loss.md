@@ -5,7 +5,7 @@ description: Die semantischen Feinheiten, die verschwinden, wenn Ideen Sprachgre
 
 Der Verlust von Übersetzungsnuancen bezeichnet das Abstreifen semantischer Feinheiten, wenn Ideen von einer Sprache in eine andere übertragen werden. Dazu gehören der Verlust von Konnotationen, kulturellem Kontext, impliziten Annahmen und des spezifischen „Geschmacks", der einen Ausdruck in seinem ursprünglichen [Sprachraum](./sprachraum) bedeutungsvoll macht.
 
-Dies ist ein zentrales Anliegen für [Sunghyun Cho](./sunghyun-cho)s Vision von [über die Sprachräume hinweg](./across-the-sprachraums). Maschinelle Übersetzung macht mehrsprachige Inhalte im großen Maßstab möglich, aber sie macht Nuancenverlust auch systematisch. Eine flüssige Übersetzung kann subtile Fehler kaschieren – so wie die [Flüssigkeitsfalle](./fluency-trap) glatte KI-Prosa (AI prose) präzise wirken lässt, obwohl sie es möglicherweise nicht ist.
+Dies ist ein zentrales Anliegen für [Sunghyun Cho](./sunghyun-cho)s Vision von [über die Sprachräume hinweg](./across-the-sprachraums). Maschinelle Übersetzung macht mehrsprachige Inhalte im großen Maßstab möglich, aber sie macht Nuancenverlust auch systematisch. Eine flüssige Übersetzung kann subtile Fehler kaschieren – so wie die [Flüssigkeitsfalle](./fluency-trap) glatte KI-Prosa  präzise wirken lässt, obwohl sie es möglicherweise nicht ist.
 
 Beispiele gibt es viele: Ein japanisches Konzept wie „wa" (Harmonie, aber auch kontextabhängiges Vermeiden direkter Konflikte) lässt sich nicht sauber auf ein einzelnes englisches Wort abbilden. Ein deutsches Kompositum verdichtet Bedeutung, die im Englischen eine ganze Phrase erfordert. Fachterminologie in einem Gebiet kann in der Übersetzung in eine andere Sprache andere Konnotationen tragen.
 

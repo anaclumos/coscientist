@@ -3,7 +3,7 @@ title: Yapay Zekâ
 description: Bilgi sistemleri için hem araç hem de meydan okuma olarak Yapay Zekâ
 ---
 
-[Eşbilimci](./coscientist) bağlamında AI (Artificial Intelligence), geleneksel olarak insan zekâsı gerektiren bilişsel görevleri yerine getiren sistemleri ifade eder: metin okumak, özetlemek, üretmek ve metin hakkında akıl yürütmek. Temel teknoloji, [LLM](./llm) (Large Language Model)dir.
+[Eşbilimci](./coscientist) bağlamında AI , geleneksel olarak insan zekâsı gerektiren bilişsel görevleri yerine getiren sistemleri ifade eder: metin okumak, özetlemek, üretmek ve metin hakkında akıl yürütmek. Temel teknoloji, [LLM](./llm) dir.
 
 AI aynı anda hem motor hem de tehdittir. Bir yandan AI, [tefekkür emeği](./contemplation-labor) gerçekleştirir: insanlar için imkânsız hızlarda arama, yapılandırma ve aday üretimi. Öte yandan AI, yeni savunmalar gerektiren hata kipleri yaratır: [halüsinasyon](./hallucination), [AI slop](./ai-slop), [model çöküşü](./model-collapse) ve [Ansiklopedi Erimesi](./encyclopedia-meltdown).
 

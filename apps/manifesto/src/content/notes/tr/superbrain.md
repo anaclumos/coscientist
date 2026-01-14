@@ -16,6 +16,6 @@ Süperbeyin, insan bilişinin yerine geçmek için değil, onu güçlendirmek i�
 
 Çok dillilik boyutu kritik önemdedir. Tek bir [Sprachraum](./sprachraum) ile sınırlı bir süperbeyin temelden sınırlıdır. Gerçek bilişsel güçlendirme, [Sprachraum'lar arasında](./across-the-sprachraums) düşünmek; bilginin başlangıçta hangi dilde kaydedildiğinden bağımsız olarak ona erişmek ve [diller arası sentez](./cross-linguistic-synthesis) yoluyla içgörüleri birleştirmek demektir.
 
-[Ortak bilim insanı](./coscientist), bu vizyonun araştırma odaklı somutlaşmış hâlidir: herhangi bir dilde literatür okuyan ve yapılandırılmış öneri-ve-eleştiri döngüleriyle hipotezleri tartışan, çok ajanlı bir [LLM](./llm) (Large Language Model) sistemi. Süperbeyin rüyası uzak bir bilimkurgu değildir; tasarım hedefidir.
+[Ortak bilim insanı](./coscientist), bu vizyonun araştırma odaklı somutlaşmış hâlidir: herhangi bir dilde literatür okuyan ve yapılandırılmış öneri-ve-eleştiri döngüleriyle hipotezleri tartışan, çok ajanlı bir [LLM](./llm)  sistemi. Süperbeyin rüyası uzak bir bilimkurgu değildir; tasarım hedefidir.
 
 Referans: https://cho.sh/r/4AED52.

@@ -11,13 +11,13 @@ description: 1+4 (insan + dört YZ) yazma ve doğrulama sistemi
 
 - Revizyonları yalnızca oybirliğine ulaştıklarında kabul edin (bkz. [Oybirliği Gerekliliği](./unanimity-requirement)).
 - Belirsizliği açık tutun; düzyazıda yokmuş gibi yumuşatmayın.
-- İddialar için izlenebilir kaynak kökeni (provenance) şart koşun (bkz. [Sorumluluk Hattı](./responsibility-line) ve [Köken (Provenance)](./provenance)).
+- İddialar için izlenebilir kaynak kökeni  şart koşun (bkz. [Sorumluluk Hattı](./responsibility-line) ve [Köken ](./provenance)).
 - Doğrulayıcı arama yerine kasıtlı çürütme araması yapın (bkz. [Önce Çürütme Araması](./rebuttal-first-search)).
 
-Protokol aynı zamanda kültüreldir: "Fikrimi ne değiştirirdi?” diye sorma alışkanlığını eğitir.
+Protokol aynı zamanda kültüreldir: "Fikrimi ne değiştirirdi?" diye sorma alışkanlığını eğitir.
 
 ## Sınırlamalar
 
-Oybirliği, doğruluğun kanıtı değildir. Modeller eğitim verisini paylaşır ve ilişkili başarısızlık biçimlerinde yakınsayabilir; bu nedenle uzlaşı, bağımsız [doğrulama](./verification) yerine ortak önyargıyı yansıtabilir (bkz. [Kanıt Bağımsızlığı](./evidence-independence)). Oybirliği ayrıca yazımı aşırı ihtiyatlı (hedging) ifadelere veya en düşük ortak payda iddialara doğru itebilir.
+Oybirliği, doğruluğun kanıtı değildir. Modeller eğitim verisini paylaşır ve ilişkili başarısızlık biçimlerinde yakınsayabilir; bu nedenle uzlaşı, bağımsız [doğrulama](./verification) yerine ortak önyargıyı yansıtabilir (bkz. [Kanıt Bağımsızlığı](./evidence-independence)). Oybirliği ayrıca yazımı aşırı ihtiyatlı  ifadelere veya en düşük ortak payda iddialara doğru itebilir.
 
 Protokolün bir çoklu-YZ incelemesinde 2 onay, 1 itiraz ve 1 bekletme aldığı görüldü; bu da daha güçlü çürütme prosedürlerine ve kanıt bağımsızlığı için kurallara ihtiyaç duyduğunu düşündürüyor.

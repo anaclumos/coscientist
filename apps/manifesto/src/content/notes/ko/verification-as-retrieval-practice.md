@@ -3,7 +3,7 @@ title: 검색 연습으로서의 검증
 description: 지식 유지를 강화하는 능동 회상의 한 형태로서 Operator의 검증 루프
 ---
 
-검색 연습으로서의 검증(Verification as retrieval practice)은 [오퍼레이터](./operator)의 검증 작업 자체가 [능동 회상](./active-recall)의 한 형태라는 통찰이다. [주장](./claim)을 그 [근거 구간](./evidence-span)까지 거슬러 추적하고, [반례](./counterexample)를 확인하며, [책임 경계선](./responsibility-line)을 평가할 때, 당신은 수동적으로 소비하는 것이 아니라 검색(회상)을 연습하고 있다.
+검색 연습으로서의 검증은 [오퍼레이터](./operator)의 검증 작업 자체가 [능동 회상](./active-recall)의 한 형태라는 통찰이다. [주장](./claim)을 그 [근거 구간](./evidence-span)까지 거슬러 추적하고, [반례](./counterexample)를 확인하며, [책임 경계선](./responsibility-line)을 평가할 때, 당신은 수동적으로 소비하는 것이 아니라 검색(회상)을 연습하고 있다.
 
 이 연결이 중요한 이유는, 엄격한 [검증](./verification)이 단지 인식론적으로 더 안전할 뿐 아니라 학습에도 더 유리하다는 점을 시사하기 때문이다. 확인에 드는 노력은 기억을 강화한다. [유창성 함정](./fluency-trap)은 두 측면 모두에서 실패한다. 매끄러운 문장을 검토 없이 받아들이는 것은 검증도 하지 못하고 학습도 시키지 못한다.
 

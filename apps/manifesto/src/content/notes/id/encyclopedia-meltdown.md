@@ -13,6 +13,6 @@ Kehancuran biasanya muncul dari tiga loop yang saling terkait:
 
 Hasilnya bukan sekadar "lebih banyak kesalahan." Tulisan kehilangan makna karena tidak lagi ada garis tanggung jawab yang dapat diandalkan; halusinasi dapat saling memperkuat; kontradiksi berkembang biak; dan tautan mengemas ulang kontaminasi sebagai otoritas. Begitu sikap "pasti benar karena ensiklopedia menautkannya" mengakar, kontemplasi manusia merosot dari verifikasi menjadi sekadar ratifikasi.
 
-Pencegahan dimulai dari prinsip pertama: kedaulatan atas pengetahuan harus tetap berada pada [Operator](./operator). Dalam [Kosaintis](./coscientist), hal itu tampak sebagai sebuah [lapisan protokol epistemik](./epistemic-protocol-layer) (termasuk [penelusuran sanggahan-terlebih-dahulu](./rebuttal-first-search) dan mempertahankan [garis tanggung jawab](./responsibility-line)), sebuah [Protokol Konsensus Multi-AI](./multi-ai-consensus-protocol), dan sebuah [Graf Dialektis](./dialectical-graph) yang memisahkan inferensi dari narasi.
+Pencegahan dimulai dari prinsip pertama: kedaulatan atas pengetahuan harus tetap berada pada [Operator](./operator). Dalam [Kosaintis](./coscientist), hal itu tampak sebagai sebuah [lapisan protokol epistemik](./epistemic-protocol-layer)  dan mempertahankan [garis tanggung jawab](./responsibility-line)), sebuah [Protokol Konsensus Multi-AI](./multi-ai-consensus-protocol), dan sebuah [Graf Dialektis](./dialectical-graph) yang memisahkan inferensi dari narasi.
 
 Referensi: https://cho.sh/r/C36398.

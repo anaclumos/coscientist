@@ -3,7 +3,7 @@ title: KI
 description: Künstliche Intelligenz als Werkzeug und Herausforderung für Wissenssysteme
 ---
 
-KI (Künstliche Intelligenz) im Kontext von [Kozientist](./coscientist) bezieht sich auf Systeme, die kognitive Aufgaben ausführen, die traditionell menschliche Intelligenz erfordern: Lesen, Zusammenfassen, Generieren und das Schlussfolgern über Text. Die primäre Technologie ist das [LLM](./llm) (Large Language Model).
+KI (Künstliche Intelligenz) im Kontext von [Kozientist](./coscientist) bezieht sich auf Systeme, die kognitive Aufgaben ausführen, die traditionell menschliche Intelligenz erfordern: Lesen, Zusammenfassen, Generieren und das Schlussfolgern über Text. Die primäre Technologie ist das [LLM](./llm) .
 
 KI ist zugleich Motor und Bedrohung. Einerseits leistet KI [Kontemplationsarbeit](./contemplation-labor): Suchen, Strukturieren und das Generieren von Kandidaten in Geschwindigkeiten, die für Menschen unmöglich sind. Andererseits erzeugt KI Fehlermodi, die neue Abwehrmaßnahmen erfordern: [Halluzination](./hallucination), [KI-Slop](./ai-slop), [Modellkollaps](./model-collapse) und [Enzyklopädie-Meltdown](./encyclopedia-meltdown).
 

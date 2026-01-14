@@ -3,7 +3,7 @@ title: Typage des relations vs similarité
 description: Pourquoi les arêtes typées résolvent ce que la récupération fondée sur la similarité ne peut pas
 ---
 
-Le typage des relations vs la similarité oppose deux façons de connecter des connaissances : la récupération fondée sur la similarité (comme dans [RAG](./rag)) demande « de quoi s’agit-il ? », tandis que les graphes à relations typées (comme dans le [Graphe dialectique](./dialectical-graph)) demandent « qu’est-ce que cela fait à cela ? »
+Le typage des relations vs la similarité oppose deux façons de connecter des connaissances : la récupération fondée sur la similarité ) demande « de quoi s’agit-il ? », tandis que les graphes à relations typées ) demandent « qu’est-ce que cela fait à cela ? »
 
 La récupération par similarité fait remonter des documents qui utilisent des mots similaires. Elle ne peut pas vous dire si ces documents sont d’accord, en conflit, ou s’ils traitent de questions différentes. Les arêtes typées—[soutient](./dialectical-graph-edges), [attaque](./attack), [réfute](./undercut), [cite](./source)—capturent la relation argumentative, ce qui permet des questions comme « qu’est-ce qui conteste cette affirmation ? » ou « de quelles hypothèses cela dépend-il ? »
 

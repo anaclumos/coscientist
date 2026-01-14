@@ -18,4 +18,4 @@ Dans un [Graphe dialectique](./dialectical-graph), les nœuds représentent des 
 
 Cette décomposition évite une confusion fréquente : un document n’est pas une seule chose. Le même article peut introduire une définition, énoncer une assertion, citer des preuves et réfuter un résultat antérieur ; chacune de ces composantes doit rester adressable si vous voulez que la connaissance se mette à jour plutôt que de simplement s’accumuler.
 
-Le statut d’une assertion est multidimensionnel plutôt qu’un simple score de confiance (voir la [Taxonomie du statut des assertions](./claim-status-taxonomy)). Les transitions sont moins déterminées par le nombre de réfutations que par le type de réfutation et par le fait qu’elle réussisse au niveau de la portée, de l’hypothèse, de la définition ou de la méthode.
+Le statut d’une assertion est multidimensionnel plutôt qu’un simple score de confiance ). Les transitions sont moins déterminées par le nombre de réfutations que par le type de réfutation et par le fait qu’elle réussisse au niveau de la portée, de l’hypothèse, de la définition ou de la méthode.

@@ -16,7 +16,7 @@ Tartışmacı ilişkiler, bir [Diyalektik Graf](./dialectical-graph) içindeki, 
 
 - `supports` — bir iddiayı güçlendiren kanıt veya akıl yürütme
 - `cites` — bir [kaynağa](./source) açık atıf
-- `replicates` / `fails_to_replicate` — replikasyon (replication) durumu
+- `replicates` / `fails_to_replicate` — replikasyon  durumu
 
 ## Arıtma İlişkileri
 

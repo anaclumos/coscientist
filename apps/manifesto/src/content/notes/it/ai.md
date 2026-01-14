@@ -3,7 +3,7 @@ title: IA
 description: L’Intelligenza Artificiale come strumento e al tempo stesso sfida per i sistemi di conoscenza
 ---
 
-L’IA (Intelligenza Artificiale) nel contesto di [Coscienziato](./coscientist) si riferisce a sistemi che svolgono compiti cognitivi tradizionalmente richiedenti intelligenza umana: leggere, riassumere, generare e ragionare sul testo. La tecnologia principale è l’[LLM](./llm) (Large Language Model).
+L’IA  nel contesto di [Coscienziato](./coscientist) si riferisce a sistemi che svolgono compiti cognitivi tradizionalmente richiedenti intelligenza umana: leggere, riassumere, generare e ragionare sul testo. La tecnologia principale è l’[LLM](./llm) .
 
 L’IA è simultaneamente il motore e la minaccia. Da un lato, l’IA svolge [lavoro contemplativo](./contemplation-labor): ricerca, struttura e genera candidati a velocità impossibili per gli esseri umani. Dall’altro, l’IA crea modalità di fallimento che richiedono nuove difese: [allucinazione](./hallucination), [AI slop](./ai-slop), [collasso del modello](./model-collapse) e [Crollo dell'Enciclopedia](./encyclopedia-meltdown).
 

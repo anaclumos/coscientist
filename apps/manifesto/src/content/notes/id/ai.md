@@ -3,7 +3,7 @@ title: AI
 description: Kecerdasan Buatan sebagai alat sekaligus tantangan bagi sistem pengetahuan
 ---
 
-AI (_Artificial Intelligence_) dalam konteks [Kosaintis](./coscientist) merujuk pada sistem yang melakukan tugas-tugas kognitif yang secara tradisional membutuhkan kecerdasan manusia: membaca, merangkum, menghasilkan, dan menalar tentang teks. Teknologi utamanya adalah [Model Bahasa Besar](./llm) (_Large Language Model_).
+AI  dalam konteks [Kosaintis](./coscientist) merujuk pada sistem yang melakukan tugas-tugas kognitif yang secara tradisional membutuhkan kecerdasan manusia: membaca, merangkum, menghasilkan, dan menalar tentang teks. Teknologi utamanya adalah [Model Bahasa Besar](./llm) .
 
 AI sekaligus menjadi mesin dan ancaman. Di satu sisi, AI menjalankan [tenaga kerja kontemplasi](./contemplation-labor): mencari, menyusun struktur, dan menghasilkan kandidat pada kecepatan yang mustahil bagi manusia. Di sisi lain, AI menciptakan mode kegagalan yang menuntut pertahanan baru: [halusinasi](./hallucination), [sampah AI](./ai-slop), [keruntuhan model](./model-collapse), dan [Kehancuran Ensiklopedia](./encyclopedia-meltdown).
 

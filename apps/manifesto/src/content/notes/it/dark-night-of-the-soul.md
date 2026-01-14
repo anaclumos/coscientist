@@ -3,7 +3,7 @@ title: Notte oscura dell’anima
 description: Un espediente letterario per una profonda crisi interiore che conduce alla ricostruzione dell’identità
 ---
 
-"La Notte oscura dell’anima" (La noche oscura del alma) indica una profonda crisi interiore in cui identità, fede e il proprio modello di sé crollano. Dall’esterno può sembrare un cedimento; dall’interno è spesso uno smantellamento e una ricostruzione attorno a nuovi standard.
+"La Notte oscura dell’anima"  indica una profonda crisi interiore in cui identità, fede e il proprio modello di sé crollano. Dall’esterno può sembrare un cedimento; dall’interno è spesso uno smantellamento e una ricostruzione attorno a nuovi standard.
 
 L’espressione ha origine in un contesto religioso del XVI secolo, ma l’uso moderno rimanda più in generale a un crollo esistenziale e a una successiva ricostruzione. Uno schema comune è che le vecchie ricompense (comfort, certezza, identità basata sul ruolo) smettano di funzionare; che attaccamenti e autoinganni diventino visibili; e che la ripresa non sia un ritorno allo stato precedente, bensì una riorganizzazione attorno a un diverso centro di valore.
 

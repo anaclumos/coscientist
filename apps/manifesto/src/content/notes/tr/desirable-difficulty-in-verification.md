@@ -3,7 +3,7 @@ title: Doğrulamada Arzu Edilen Zorluk
 description: Gerçek anlayışı sürdürmek için doğrulamayı emek gerektirir hâle getirmek
 ---
 
-Doğrulamada arzu edilen zorluk, [doğrulamanın](./verification) gerçek bilişi devreye sokacak kadar emek gerektirmesi gerektiği ilkesidir. Bir iddiayı kontrol etmek fazla kolaysa—eğer "AI öyle dedi”ye indirgeniyorsa—[Operatör](./operator) öğrenmiyor ya da doğrulamıyor; sadece tasdik ediyor.
+Doğrulamada arzu edilen zorluk, [doğrulamanın](./verification) gerçek bilişi devreye sokacak kadar emek gerektirmesi gerektiği ilkesidir. Bir iddiayı kontrol etmek fazla kolaysa—eğer "AI öyle dedi"ye indirgeniyorsa—[Operatör](./operator) öğrenmiyor ya da doğrulamıyor; sadece tasdik ediyor.
 
 Terim, arzu edilen zorlukların (ör. [aktif hatırlama](./active-recall) ve [aralıklı tekrar](./spacing-effect)) çaba gerektirdikleri için uzun vadeli kalıcılığı artırdığı öğrenme biliminden ödünç alınmıştır. Doğrulama da aynı şekilde işler: Anlayışı üreten ve hataları yakalayan şey, kontrol etme çabasının kendisidir.
 

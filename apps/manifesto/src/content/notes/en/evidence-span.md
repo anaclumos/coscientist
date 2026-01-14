@@ -7,4 +7,4 @@ An evidence span is the exact quoted text from a source that supports or challen
 
 In a [Dialectical Graph](./dialectical-graph), evidence spans are stored as nodes with links to their [source](./source) and to the claims they bear on. This is the first layer of the [triple separation](./triple-separation): raw text preserved, claims normalized, relations explicit.
 
-Evidence spans prevent the excerpt truncation problem in [RAG](./rag-limitations), where quoting can silently drop attribution ("B reports that A claimed...") and leave only the conclusion, severing the [responsibility line](./responsibility-line).
+Evidence spans prevent the excerpt truncation problem in [RAG](./rag-limitations), where quoting can silently drop attribution  and leave only the conclusion, severing the [responsibility line](./responsibility-line).

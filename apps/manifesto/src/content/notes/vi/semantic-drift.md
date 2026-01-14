@@ -14,7 +14,7 @@ Trôi dạt ngữ nghĩa là một nhóm trong [các hiện tượng trôi dạt
 
 Trôi dạt ngữ nghĩa tạo ra các mâu thuẫn giả: hai nguồn có vẻ như bất đồng khi thực ra họ đang dùng cùng một từ cho những khái niệm khác nhau. Nó cũng tạo ra sự đồng thuận giả: các nguồn có vẻ như đồng ý khi họ hiểu khác nhau về cùng một thuật ngữ.
 
-Trong một [Đồ thị Biện chứng](./dialectical-graph), trôi dạt ngữ nghĩa được theo dõi bằng cách tách [định nghĩa](./definition-drift) khỏi [khẳng định](./claim). Khi một thuật ngữ đổi nghĩa, các khẳng định cũ có thể được đánh dấu là lỗi thời kèm các liên kết trỏ tới những thay đổi về định nghĩa, nhờ đó giữ được bối cảnh lịch sử mà không làm "ô nhiễm” tri thức hiện tại.
+Trong một [Đồ thị Biện chứng](./dialectical-graph), trôi dạt ngữ nghĩa được theo dõi bằng cách tách [định nghĩa](./definition-drift) khỏi [khẳng định](./claim). Khi một thuật ngữ đổi nghĩa, các khẳng định cũ có thể được đánh dấu là lỗi thời kèm các liên kết trỏ tới những thay đổi về định nghĩa, nhờ đó giữ được bối cảnh lịch sử mà không làm "ô nhiễm" tri thức hiện tại.
 
 ## Liên quan
 

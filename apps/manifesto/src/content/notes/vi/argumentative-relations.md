@@ -3,7 +3,7 @@ title: Các Quan hệ Lập luận
 description: Các loại cạnh trong một Đồ thị Biện chứng được tổ chức theo chức năng
 ---
 
-Các quan hệ lập luận là các loại cạnh trong một [Đồ thị Biện chứng](./dialectical-graph) mã hóa cách các đối tượng tri thức (epistemic objects) liên hệ với nhau. Chúng là yếu tố phân biệt một đồ thị biện chứng với một đồ thị tương đồng theo chủ đề.
+Các quan hệ lập luận là các loại cạnh trong một [Đồ thị Biện chứng](./dialectical-graph) mã hóa cách các đối tượng tri thức  liên hệ với nhau. Chúng là yếu tố phân biệt một đồ thị biện chứng với một đồ thị tương đồng theo chủ đề.
 
 ## Quan hệ Thách thức
 

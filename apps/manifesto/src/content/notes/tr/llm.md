@@ -3,7 +3,7 @@ title: LLM
 description: Coscientist’in tefekkür emeğinin temelindeki yapay zekâ mimarisi olan Büyük Dil Modeli
 ---
 
-LLM (Large Language Model), doğal dili tahmin etmek ve üretmek için devasa metin derlemleri üzerinde eğitilmiş sinir ağı modellerini ifade eder. Örnekler arasında GPT, Claude, Gemini ve Llama bulunur. LLM’ler, eğitim verilerinden istatistiksel örüntüler öğrenerek özetleme, çeviri, soru-yanıtlama, kod üretimi gibi çok çeşitli dil görevlerini gerçekleştirebilir.
+LLM , doğal dili tahmin etmek ve üretmek için devasa metin derlemleri üzerinde eğitilmiş sinir ağı modellerini ifade eder. Örnekler arasında GPT, Claude, Gemini ve Llama bulunur. LLM’ler, eğitim verilerinden istatistiksel örüntüler öğrenerek özetleme, çeviri, soru-yanıtlama, kod üretimi gibi çok çeşitli dil görevlerini gerçekleştirebilir.
 
 [Eşbilimci](./coscientist) için LLM’ler, [tefekkür emeği](./contemplation-labor) gerçekleştiren motordur: hipotez önermek, kanıt toplamak, karşı örnekler bulmak ve argümanları yapılandırmak. LLM’ler her dili okuyabildiği için, [diller arası sentez](./cross-linguistic-synthesis) yerleşik bir yetenek olarak mümkün olur.
 

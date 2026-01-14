@@ -10,7 +10,7 @@ Wielojęzyczny Memex to osobisty system wiedzy, który natywnie wspiera treści 
 Konsekwencje architektoniczne są znaczące. Elementy interfejsu, wyszukiwanie i powiązania muszą uwzględniać język:
 
 - Zapytanie po koreańsku powinno znajdować istotne treści niezależnie od tego, czy zostały pierwotnie napisane po koreańsku, czy przetłumaczone z angielskiego.
-- Linki zwrotne (backlinki) powinny działać między językami.
+- Linki zwrotne  powinny działać między językami.
 - [Linia odpowiedzialności](./responsibility-line) musi śledzić nie tylko to, kto co stwierdził, ale także w jakim języku i za pomocą jakiej metody tłumaczenia.
 
 Dlatego [Extracranial](./extracranial) uwzględnia wkład społeczności poprzez GitHub, aby udoskonalać tłumaczenia: tłumaczenie maszynowe umożliwia wielojęzyczne treści, ale do utrzymania [wierności tłumaczenia](./translation-fidelity) potrzebna jest ludzka weryfikacja. Wielojęzyczny Memex nie jest rozwiązanym problemem, lecz trwającą współpracą między zautomatyzowanymi systemami a ludzką oceną.

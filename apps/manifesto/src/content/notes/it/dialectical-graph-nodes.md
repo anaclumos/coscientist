@@ -8,7 +8,7 @@ In un [Grafo Dialettico](./dialectical-graph), i nodi rappresentano oggetti epis
 - [Affermazione](./claim) — proposizioni verificabili
 - [Ambito](./scope) — condizioni di applicabilità
 - [Assunzione](./assumption) — premesse implicite
-- Definizioni — significati dei termini (tracciati nel tempo tramite la [Deriva della Definizione](./definition-drift))
+- Definizioni — significati dei termini )
 - [Metodo](./method) — procedure che generano evidenze o conclusioni
 - Dati — misurazioni o risultati
 - [Intervallo di Evidenza](./evidence-span) — intervalli di citazione esatti
@@ -18,4 +18,4 @@ In un [Grafo Dialettico](./dialectical-graph), i nodi rappresentano oggetti epis
 
 Questa scomposizione previene una confusione comune: un documento non è una cosa sola. Lo stesso articolo può introdurre una definizione, affermare una tesi, citare evidenze e confutare un risultato precedente; ciascuno di questi elementi dovrebbe rimanere indirizzabile se si vuole che la conoscenza si aggiorni invece di limitarsi ad accumularsi.
 
-Lo stato di un’affermazione è multidimensionale, invece di essere un singolo punteggio di confidenza (vedi la [Tassonomia dello Stato delle Affermazioni](./claim-status-taxonomy)). Le transizioni sono determinate meno dal numero di confutazioni e più dal tipo di confutazione e dal fatto che essa abbia successo a livello di ambito, assunzione, definizione o metodo.
+Lo stato di un’affermazione è multidimensionale, invece di essere un singolo punteggio di confidenza ). Le transizioni sono determinate meno dal numero di confutazioni e più dal tipo di confutazione e dal fatto che essa abbia successo a livello di ambito, assunzione, definizione o metodo.

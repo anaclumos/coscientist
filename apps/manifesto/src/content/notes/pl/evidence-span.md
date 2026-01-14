@@ -7,4 +7,4 @@ Fragment dowodowy to dokładnie zacytowany tekst ze źródła, który wspiera lu
 
 W [Grafie Dialektycznym](./dialectical-graph) fragmenty dowodowe są przechowywane jako węzły z odnośnikami do ich [źródła](./source) oraz do twierdzeń, których dotyczą. To pierwsza warstwa [potrójnego rozdzielenia](./triple-separation): surowy tekst zostaje zachowany, twierdzenia są ujednolicone, a relacje — jawne.
 
-Fragmenty dowodowe zapobiegają problemowi ucinania cytatów w [RAG](./rag-limitations), gdzie cytowanie może po cichu usunąć atrybucję („B donosi, że A twierdził...”) i pozostawić jedynie wniosek, zrywając [linię odpowiedzialności](./responsibility-line).
+Fragmenty dowodowe zapobiegają problemowi ucinania cytatów w [RAG](./rag-limitations), gdzie cytowanie może po cichu usunąć atrybucję („B donosi, że A twierdził...") i pozostawić jedynie wniosek, zrywając [linię odpowiedzialności](./responsibility-line).

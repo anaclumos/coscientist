@@ -3,7 +3,7 @@ title: Ponad Sprachraumami
 description: Wizja przekraczania granic językowych dla systemów wiedzy
 ---
 
-„Across the Sprachraums” to wizja [Sunghyuna Cho](./sunghyun-cho) dotycząca systemów wiedzy, które przekraczają granice językowe. To wyrażenie łączy angielski przyimek z niemieckim rzeczownikiem, ucieleśniając własne znaczenie: żaden pojedynczy [Sprachraum](./sprachraum) nie powinien ograniczać tego, jak przepływa wiedza.
+„Across the Sprachraums" to wizja [Sunghyuna Cho](./sunghyun-cho) dotycząca systemów wiedzy, które przekraczają granice językowe. To wyrażenie łączy angielski przyimek z niemieckim rzeczownikiem, ucieleśniając własne znaczenie: żaden pojedynczy [Sprachraum](./sprachraum) nie powinien ograniczać tego, jak przepływa wiedza.
 
 Wizja składa się z trzech części:
 

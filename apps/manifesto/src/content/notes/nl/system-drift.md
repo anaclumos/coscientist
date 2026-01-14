@@ -12,7 +12,7 @@ Systeemdrift is de categorie van [driftfenomenen](./drift-phenomena) waarbij het
 
 ## Waarom het ertoe doet
 
-Systeemdrift is de faalmodus waarbij een kennissysteem stabiliseert rond een "bij benadering onderhouden” valse stabiele toestand. Fouten blijven bestaan omdat correctie duur is; door AI gegenereerde content besmet de trainingsdata; en het systeem verliest geleidelijk het contact met de grondwaarheid (ground truth).
+Systeemdrift is de faalmodus waarbij een kennissysteem stabiliseert rond een "bij benadering onderhouden" valse stabiele toestand. Fouten blijven bestaan omdat correctie duur is; door AI gegenereerde content besmet de trainingsdata; en het systeem verliest geleidelijk het contact met de grondwaarheid .
 
 [Encyclopedie-meltdown](./encyclopedia-meltdown) is de extreme vorm: wanneer AI het initiatief neemt om te schrijven, verdwijnt de [verantwoordelijkheidslijn](./responsibility-line), en drijft het systeem richting zelfreferentiële instorting. De verdediging is de [epistemische protocollaag](./epistemic-protocol-layer): correctie goedkoper houden dan drift via [traceerbaarheid](./traceability), [zero-trust-inname](./zero-trust-ingestion) en [rebuttal-first-zoekopdracht](./rebuttal-first-search).
 

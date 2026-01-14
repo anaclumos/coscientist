@@ -9,4 +9,4 @@ RAG（Retrieval-Augmented Generation，检索增强生成）是一种通过从�
 
 然而，RAG 在知识生产方面存在结构性局限。它基于相似性检索文本片段，而不是基于论证关系进行检索。它无法区分支持与反驳、证据与观点、第一手来源与转述。当来源相互冲突时，RAG 往往会把它们融合成流畅的摘要，而不是凸显[争议点](./contention)。完整批评见 [RAG 的局限性](./rag-limitations)。
 
-[共研者](./coscientist) 通过维护一个存储[主张](./claim)、[证据片段](./evidence-span)以及类型化关系的[辩证图](./dialectical-graph)，超越了 RAG。检索问题从"什么与这个查询相似？”转变为"什么会影响（bear on）这条主张？”。
+[共研者](./coscientist) 通过维护一个存储[主张](./claim)、[证据片段](./evidence-span)以及类型化关系的[辩证图](./dialectical-graph)，超越了 RAG。检索问题从"什么与这个查询相似？"转变为"什么会影响（bear on）这条主张？"。

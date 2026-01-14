@@ -7,4 +7,4 @@ Wymóg jednomyślności to zasada w [Protokole Konsensusu Multi-AI](./multi-ai-c
 
 Jednomyślność nie jest dowodem prawdy; modele współdzielą dane treningowe i mogą zbiegać się ku skorelowanym błędom. Jednak brak zgody jest niskokosztowym sygnałem, że coś może być nie tak. Wymóg jednomyślności wymusza jawne obchodzenie się z niepewnością, zamiast pozwalać, by większość przegłosowała zdanie odrębne.
 
-Kompromisem jest to, że jednomyślność może pchać pisanie w stronę asekuracji i wniosków „najmniejszego wspólnego mianownika”. Protokół to równoważy, wymagając, aby niepewność pozostawała wyraźnie zaznaczona, zamiast być wygładzana do mglistego języka.
+Kompromisem jest to, że jednomyślność może pchać pisanie w stronę asekuracji i wniosków „najmniejszego wspólnego mianownika". Protokół to równoważy, wymagając, aby niepewność pozostawała wyraźnie zaznaczona, zamiast być wygładzana do mglistego języka.

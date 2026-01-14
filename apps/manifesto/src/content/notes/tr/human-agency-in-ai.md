@@ -3,7 +3,7 @@ title: Yapay Zekâda İnsan Ajansı
 description: Yapay zekâ destekli bilgi işlerinde insanların kontrolü elinde tutmasını sağlayan ilkeler ve mekanizmalar
 ---
 
-[AI](./ai) bağlamında insan ajansı, yapay zekâ önemli ölçüde [tefekkür emeği](./contemplation-labor) (contemplation labor) üstlense bile, insan [Operatörün](./operator) bilgi işi üzerindeki kontrolünü koruyan ilke ve mekanizmalar bütünüdür.
+[AI](./ai) bağlamında insan ajansı, yapay zekâ önemli ölçüde [tefekkür emeği](./contemplation-labor)  üstlense bile, insan [Operatörün](./operator) bilgi işi üzerindeki kontrolünü koruyan ilke ve mekanizmalar bütünüdür.
 
 ## Temel İlkeler
 

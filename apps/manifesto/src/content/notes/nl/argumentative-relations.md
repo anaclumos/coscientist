@@ -23,6 +23,6 @@ Argumentatieve relaties zijn de randtypen in een [Dialectische Graaf](./dialecti
 - `refines` — vernauwt of verduidelijkt een bewering
 - `generalizes` / `specializes` — aanpassingen van de reikwijdte
 - `depends_on` — koppelt beweringen aan hun [aannames](./assumption)
-- `defines` — verbindt termen met hun definities (door de tijd heen gevolgd via [Definitieverschuiving](./definition-drift))
+- `defines` — verbindt termen met hun definities )
 
 Zie [Randen van de Dialectische Graaf](./dialectical-graph-edges) voor de volledige specificatie en [Relatietypering vs Similariteit](./relation-typing-vs-similarity) voor waarom getypeerde randen ertoe doen.

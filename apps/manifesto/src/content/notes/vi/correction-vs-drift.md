@@ -7,4 +7,4 @@ Sửa sai vs trôi dạt là nguyên lý kinh tế cho rằng một hệ thống
 
 Tầng [giao thức nhận thức](./epistemic-protocol-layer) được thiết kế để giữ cho việc sửa sai rẻ. [Khả năng truy vết](./traceability) nghĩa là bạn có thể tìm ra thứ cần sửa; các [mệnh đề](./claim) tường minh nghĩa là bạn có thể nhắm chính xác vào các thay đổi; và [Đồ thị Biện chứng](./dialectical-graph) nghĩa là các cập nhật lan truyền qua các quan hệ thay vì đòi hỏi phải viết lại thủ công.
 
-[Sụp đổ Bách khoa toàn thư](./encyclopedia-meltdown) là điều xảy ra khi trôi dạt thắng vĩnh viễn: hệ thống ổn định quanh một trạng thái giả "được duy trì xấp xỉ” vì không ai đủ khả năng dọn dẹp nó.
+[Sụp đổ Bách khoa toàn thư](./encyclopedia-meltdown) là điều xảy ra khi trôi dạt thắng vĩnh viễn: hệ thống ổn định quanh một trạng thái giả "được duy trì xấp xỉ" vì không ai đủ khả năng dọn dẹp nó.

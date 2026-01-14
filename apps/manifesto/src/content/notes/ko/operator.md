@@ -3,8 +3,8 @@ title: 오퍼레이터
 description: Coscientist에서 지식에 대한 인간 주권자
 ---
 
-오퍼레이터는 [코사이언티스트](./coscientist)에서 지식에 대한 인간 주권자이다. 이 이름은 [은하대백과](./encyclopedia-galactica)의 수호자-설계자를 연상시킨다. 즉, 단순히 결과물을 내는 사람이 아니라, 구조(structure), 출처, 수정(correction)에 책임을 지는 사람이다.
+오퍼레이터는 [코사이언티스트](./coscientist)에서 지식에 대한 인간 주권자이다. 이 이름은 [은하대백과](./encyclopedia-galactica)의 수호자-설계자를 연상시킨다. 즉, 단순히 결과물을 내는 사람이 아니라, 구조, 출처, 수정에 책임을 지는 사람이다.
 
-[백과사전 멜트다운](./encyclopedia-meltdown)를 막으려면 오퍼레이터는 AI를 도구로 사용하되, 숙고(contemplation)에 대한 주도권(initiative)을 유지해야 한다. 이는 [인지적 주권](./cognitive-sovereignty)을 유지하고, 이해관계가 큰 상황에서는 다중 모델 숙의를 조율하며(자세한 내용은 [다중-AI 합의 프로토콜](./multi-ai-consensus-protocol) 참고), 거부권(veto power)을 행사하고, 문장 단위 노동(sentence labor)보다는 [최소 모순 집합](./minimum-contradiction-set)에 희소한 인간 시간을 투자한다는 뜻이다.
+[백과사전 멜트다운](./encyclopedia-meltdown)를 막으려면 오퍼레이터는 AI를 도구로 사용하되, 숙고에 대한 주도권을 유지해야 한다. 이는 [인지적 주권](./cognitive-sovereignty)을 유지하고, 이해관계가 큰 상황에서는 다중 모델 숙의를 조율하며(자세한 내용은 [다중-AI 합의 프로토콜](./multi-ai-consensus-protocol) 참고), 거부권을 행사하고, 문장 단위 노동보다는 [최소 모순 집합](./minimum-contradiction-set)에 희소한 인간 시간을 투자한다는 뜻이다.
 
 이 역할은 기술적인 것만큼이나 문화적인 성격을 띤다. 안전 시스템이 있는 차량의 운전자처럼, 오퍼레이터는 여전히 검증의 습관을 길러야 한다. 시스템은 유창함을 진실로 착각하는 사용자까지는 보완해 줄 수 없기 때문이다( [유창성 함정](./fluency-trap) 참고).

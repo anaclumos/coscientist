@@ -3,9 +3,9 @@ title: Proyek PIRI
 description: Sebuah inisiatif yang dibatalkan untuk terjemahan tanpa batas atas dokumentasi pemrograman
 ---
 
-Proyek PIRI (Programmatic Interlingual Resource Integration) adalah inisiatif [Sunghyun Cho](./sunghyun-cho) untuk menyediakan terjemahan tanpa batas dari dokumentasi pemrograman dan dokumentasi pengembang utama. Motonya: "Jadilah dev 10x tanpa belajar bahasa Inggris."
+Proyek PIRI  adalah inisiatif [Sunghyun Cho](./sunghyun-cho) untuk menyediakan terjemahan tanpa batas dari dokumentasi pemrograman dan dokumentasi pengembang utama. Motonya: "Jadilah dev 10x tanpa belajar bahasa Inggris."
 
-Proyek ini mewujudkan visi [lintas Sprachraums](./across-the-sprachraums) dalam ranah yang praktis. Dokumentasi teknis sangat berpusat pada bahasa Inggris, sehingga menciptakan hambatan bagi para pengembang di seluruh dunia. PIRI bertujuan menghapus hambatan ini dengan membuat dokumentasi dapat diakses dalam bahasa apa pun, sehingga pengembang dapat berfokus belajar ngoding (coding) alih-alih harus belajar bahasa Inggris terlebih dahulu.
+Proyek ini mewujudkan visi [lintas Sprachraums](./across-the-sprachraums) dalam ranah yang praktis. Dokumentasi teknis sangat berpusat pada bahasa Inggris, sehingga menciptakan hambatan bagi para pengembang di seluruh dunia. PIRI bertujuan menghapus hambatan ini dengan membuat dokumentasi dapat diakses dalam bahasa apa pun, sehingga pengembang dapat berfokus belajar ngoding  alih-alih harus belajar bahasa Inggris terlebih dahulu.
 
 **Proyek ini dibatalkan.** Agen coding AI menjadi cukup kuat hingga membuat premis awalnya usang. Ketika AI dapat membantu seseorang menulis kode langsung dalam bahasa ibu mereka, menerjemahkan dokumentasi berbahasa Inggris menjadi tidak perlu. Hambatan yang ingin dihancurkan PIRI justru dihancurkan oleh kekuatan yang sama sekali berbeda.
 

@@ -3,7 +3,7 @@ title: LLM
 description: Modelo de Lenguaje Grande, la arquitectura de IA subyacente al trabajo de contemplación de Coscientist
 ---
 
-LLM (Large Language Model) se refiere a modelos de redes neuronales entrenados con corpus masivos de texto para predecir y generar lenguaje natural. Algunos ejemplos incluyen GPT, Claude, Gemini y Llama. Los LLM pueden realizar una amplia gama de tareas lingüísticas —resumen, traducción, preguntas y respuestas, generación de código— al aprender patrones estadísticos a partir de los datos de entrenamiento.
+LLM  se refiere a modelos de redes neuronales entrenados con corpus masivos de texto para predecir y generar lenguaje natural. Algunos ejemplos incluyen GPT, Claude, Gemini y Llama. Los LLM pueden realizar una amplia gama de tareas lingüísticas —resumen, traducción, preguntas y respuestas, generación de código— al aprender patrones estadísticos a partir de los datos de entrenamiento.
 
 Para [Cocientífico](./coscientist), los LLM son el motor que realiza el [trabajo de contemplación](./contemplation-labor): proponer hipótesis, recopilar evidencia, encontrar contraejemplos y estructurar argumentos. Dado que los LLM pueden leer cualquier idioma, permiten la [síntesis translingüística](./cross-linguistic-synthesis) como una capacidad nativa.
 

@@ -7,4 +7,4 @@ Een bewering is een verifieerbare propositie die uit tekst wordt geëxtraheerd e
 
 Beweringen kunnen worden gekoppeld aan [evidence spans](./evidence-span) die ze ondersteunen, [tegenvoorbeelden](./counterexample) die ze afbakenen, [aanvallen](./attack) die ze betwisten, en [ondermijningen](./undercut) die hun grondslag ter discussie stellen. Deze relationele structuur maakt het mogelijk dat kennis wordt bijgewerkt door weerlegging in plaats van vervanging.
 
-Elke bewering heeft een status (zie [Knooppunten in de Dialectische Grafiek](./dialectical-graph-nodes)): ze kan voorlopig, betwist, voorwaardelijk ondersteund, robuust, weerlegd of verouderd zijn. De status verandert op basis van het type weerlegging, niet op basis van het aantal, en kan terugvallen als de ondersteunende structuur verzwakt.
+Elke bewering heeft een status ): ze kan voorlopig, betwist, voorwaardelijk ondersteund, robuust, weerlegd of verouderd zijn. De status verandert op basis van het type weerlegging, niet op basis van het aantal, en kan terugvallen als de ondersteunende structuur verzwakt.

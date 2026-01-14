@@ -3,7 +3,7 @@ title: Sintesi della conoscenza
 description: In cosa la sintesi differisce dalla media nei sistemi di conoscenza dialettici
 ---
 
-La sintesi della conoscenza è ciò che accade dopo il recupero (retrieval), quando devi rendere comparabili fonti incompatibili. Non è una media. È l’allineamento di premesse, definizioni e ambito, così che i disaccordi diventino oggetti espliciti invece che rumore.
+La sintesi della conoscenza è ciò che accade dopo il recupero , quando devi rendere comparabili fonti incompatibili. Non è una media. È l’allineamento di premesse, definizioni e ambito, così che i disaccordi diventino oggetti espliciti invece che rumore.
 
 Il [RAG](./rag) standard è forte nel recupero e debole nella sintesi perché non ha un oggetto interno chiamato [contenzione](./contention). In un [Grafo Dialettico](./dialectical-graph), la contenzione è un concetto di prima classe, quindi il sistema può scomporre l’incompatibilità nelle sue cause: differenze di definizione, differenze di campionamento, differenze di metodo, differenze di ambito o [non stazionarietà](./nonstationarity) guidata dal tempo.
 

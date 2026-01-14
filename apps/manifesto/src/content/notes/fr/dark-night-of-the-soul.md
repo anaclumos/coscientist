@@ -3,7 +3,7 @@ title: La nuit noire de l’âme
 description: Un procédé littéraire pour une crise intérieure profonde menant à une reconstruction de l’identité
 ---
 
-« La nuit noire de l’âme » (La noche oscura del alma) désigne une crise intérieure profonde au cours de laquelle l’identité, la foi et le modèle que l’on a de soi s’effondrent. De l’extérieur, cela peut ressembler à une décompensation ; de l’intérieur, c’est souvent un démantèlement et une reconstruction selon de nouveaux critères.
+« La nuit noire de l’âme »  désigne une crise intérieure profonde au cours de laquelle l’identité, la foi et le modèle que l’on a de soi s’effondrent. De l’extérieur, cela peut ressembler à une décompensation ; de l’intérieur, c’est souvent un démantèlement et une reconstruction selon de nouveaux critères.
 
 L’expression trouve son origine dans un contexte religieux du XVIe siècle, mais l’usage moderne renvoie plus largement à un effondrement existentiel suivi d’une reconstruction. Un schéma fréquent est que les anciennes récompenses (confort, certitude, identité fondée sur un rôle) cessent de fonctionner ; les attachements et l’auto-illusion deviennent visibles ; et le rétablissement n’est pas un retour à l’état antérieur, mais une réorganisation autour d’un autre centre de valeur.
 

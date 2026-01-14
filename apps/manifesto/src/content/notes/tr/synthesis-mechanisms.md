@@ -33,4 +33,4 @@ Sentez mekanizmaları, [Eşbilimci](./coscientist)’in uyuşmaz kaynakları kar
 
 ## Karşıtlık
 
-- [RAG Sınırlamaları](./rag-limitations) — neden yalnızca getirme (retrieval) sentez yapamaz
+- [RAG Sınırlamaları](./rag-limitations) — neden yalnızca getirme  sentez yapamaz

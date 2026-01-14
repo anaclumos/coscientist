@@ -1,9 +1,9 @@
 ---
-title: Fantastyka „Fundacji”
+title: Fantastyka „Fundacji"
 description: Koncepcje inspirowane Asimovem, które kształtują wizję Coscientist
 ---
 
-Fantastyka „Fundacji” odnosi się do koncepcji z cyklu *Fundacja* [Isaaca Asimova](./isaac-asimov), które kształtują wizję [Współnaukowiec](./coscientist). Fikcyjna [Encyklopedia Galaktyczna](./encyclopedia-galactica) stanowi punkt odniesienia do myślenia o zachowaniu wiedzy i zdolnościach (capability).
+Fantastyka „Fundacji" odnosi się do koncepcji z cyklu *Fundacja* [Isaaca Asimova](./isaac-asimov), które kształtują wizję [Współnaukowiec](./coscientist). Fikcyjna [Encyklopedia Galaktyczna](./encyclopedia-galactica) stanowi punkt odniesienia do myślenia o zachowaniu wiedzy i zdolnościach .
 
 ## Kluczowe koncepcje
 

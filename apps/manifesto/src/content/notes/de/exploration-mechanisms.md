@@ -19,7 +19,7 @@ Explorationsmechanismen sind die Strategien, die [Kozientist](./coscientist) ver
 ## Methodenanalyse
 
 - [Methoden-Schlussfolgerungs-Kopplung](./method-conclusion-coupling) — Behauptungen nach Methode clustern, um gemeinsame Schwachstellen zu finden
-- [Replikationspfad-Trennung](./replication-path-separation) — Unabhängige Pfade von Wiederholungen (Restatements) unterscheiden
+- [Replikationspfad-Trennung](./replication-path-separation) — Unabhängige Pfade von Wiederholungen  unterscheiden
 
 ## Semantische Nachverfolgung
 

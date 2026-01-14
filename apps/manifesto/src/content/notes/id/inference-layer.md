@@ -7,4 +7,4 @@ Lapisan inferensi adalah jaringan yang hidup dan terus berkembang dari [klaim](.
 
 Berbeda dengan [lapisan naratif](./narrative-layer), yang menghasilkan dokumen yang mudah dibaca manusia, lapisan inferensi adalah struktur graf yang dioptimalkan untuk penalaran dan pembaruan. Ketika bukti baru muncul, lapisan inferensi berubah; narasi dibuat ulang sesuai kebutuhan.
 
-Pemisahan ini adalah alasan mengapa [Kosaintis](./coscientist) memperlakukan dokumen sebagai proyeksi, bukan kebenaran dasar (ground truth). Sebuah dokumen adalah cuplikan dari lapisan inferensi pada suatu titik waktu. Pengetahuan yang hidup ada di dalam graf; prosa adalah hasil penggambaran.
+Pemisahan ini adalah alasan mengapa [Kosaintis](./coscientist) memperlakukan dokumen sebagai proyeksi, bukan kebenaran dasar . Sebuah dokumen adalah cuplikan dari lapisan inferensi pada suatu titik waktu. Pengetahuan yang hidup ada di dalam graf; prosa adalah hasil penggambaran.

@@ -7,4 +7,4 @@ A source is the origin point for an [evidence span](./evidence-span) or [claim](
 
 Not all sources are equal. A primary source reports original observations; a secondary source summarizes or interprets; a tertiary source compiles from secondaries. Each step introduces potential for drift, and [Coscientist](./coscientist) tracks these distinctions through explicit `cites` edges in the [Dialectical Graph](./dialectical-graph).
 
-Sources are nodes in the graph (see [Dialectical Graph Nodes](./dialectical-graph-nodes)) with metadata such as author, date, and context. When a claim is challenged, the source provides the starting point for re-examination.
+Sources are nodes in the graph ) with metadata such as author, date, and context. When a claim is challenged, the source provides the starting point for re-examination.

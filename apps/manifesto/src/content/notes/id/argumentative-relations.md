@@ -23,6 +23,6 @@ Relasi argumentatif adalah jenis-jenis edge dalam [Graf Dialektis](./dialectical
 - `refines` — mempersempit atau memperjelas klaim
 - `generalizes` / `specializes` — penyesuaian cakupan
 - `depends_on` — menghubungkan klaim dengan [asumsi](./assumption) yang mendasarinya
-- `defines` — menghubungkan istilah dengan definisinya (dilacak dari waktu ke waktu melalui [Pergeseran Definisi](./definition-drift))
+- `defines` — menghubungkan istilah dengan definisinya )
 
 Lihat [Edge Graf Dialektis](./dialectical-graph-edges) untuk spesifikasi lengkap dan [Pengetikan Relasi vs Kemiripan](./relation-typing-vs-similarity) untuk alasan mengapa edge bertipe itu penting.

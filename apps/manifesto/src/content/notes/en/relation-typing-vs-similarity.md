@@ -3,7 +3,7 @@ title: Relation Typing vs Similarity
 description: Why typed edges solve what similarity-based retrieval cannot
 ---
 
-Relation typing vs similarity contrasts two approaches to connecting knowledge: similarity-based retrieval (as in [RAG](./rag)) asks "what is this about?" while relation-typed graphs (as in the [Dialectical Graph](./dialectical-graph)) ask "what does this do to that?"
+Relation typing vs similarity contrasts two approaches to connecting knowledge: similarity-based retrieval ) asks "what is this about?" while relation-typed graphs ) ask "what does this do to that?"
 
 Similarity retrieval surfaces documents that use similar words. It cannot tell you whether those documents agree, conflict, or address different questions. Typed edges—[supports](./dialectical-graph-edges), [attacks](./attack), [undercuts](./undercut), [cites](./source)—capture the argumentative relationship, enabling questions like "what challenges this claim?" or "what assumptions does this depend on?"
 

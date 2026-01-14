@@ -5,7 +5,7 @@ description: System pisania i weryfikacji 1+4 (człowiek + cztery AI)
 
 Protokół Konsensusu Multi-AI to przepływ pracy współpracy, w którym [Operator](./operator) koordynuje wiele systemów AI, aby zmniejszyć ryzyko halucynacji pojedynczego modelu i pomóc bronić się przed [Załamanie Encyklopedii](./encyclopedia-meltdown).
 
-W wariancie „1+4” jeden człowiek koordynuje czterech asystentów AI (stan na grudzień 2025: ChatGPT, Gemini, Claude i Grok). Chodzi nie o „więcej pamięci”, lecz o ustrukturyzowaną niezgodę i możliwość prześledzenia (traceability).
+W wariancie „1+4" jeden człowiek koordynuje czterech asystentów AI (stan na grudzień 2025: ChatGPT, Gemini, Claude i Grok). Chodzi nie o „więcej pamięci", lecz o ustrukturyzowaną niezgodę i możliwość prześledzenia .
 
 ## Zasady operacyjne
 
@@ -14,7 +14,7 @@ W wariancie „1+4” jeden człowiek koordynuje czterech asystentów AI (stan n
 - Wymagaj możliwego do prześledzenia pochodzenia dla twierdzeń (zob. [Linia odpowiedzialności](./responsibility-line) oraz [Pochodzenie](./provenance)).
 - Stosuj celowe wyszukiwanie obaleń zamiast wyszukiwania potwierdzeń (zob. [Wyszukiwanie najpierw obaleń](./rebuttal-first-search)).
 
-Protokół ma też wymiar kulturowy: kształci nawyk zadawania pytania „co mogłoby zmienić moje zdanie?”.
+Protokół ma też wymiar kulturowy: kształci nawyk zadawania pytania „co mogłoby zmienić moje zdanie?".
 
 ## Ograniczenia
 

@@ -3,7 +3,7 @@ title: Sprachraum
 description: Una sfera o dominio linguistico che modella il pensiero e la conoscenza
 ---
 
-Sprachraum (tedesco: "spazio linguistico" o "sfera linguistica") è il dominio definito da una particolare lingua, che comprende non solo i parlanti ma anche i quadri concettuali, i contesti culturali e le tradizioni di conoscenza che quella lingua porta con sé.
+Sprachraum  è il dominio definito da una particolare lingua, che comprende non solo i parlanti ma anche i quadri concettuali, i contesti culturali e le tradizioni di conoscenza che quella lingua porta con sé.
 
 Il termine è importante per [Coscienziato](./coscientist) perché la conoscenza è spesso compartimentata per Sprachraum. La letteratura scientifica in cinese può contenere intuizioni invisibili ai ricercatori che leggono solo inglese. La documentazione tecnica scritta in inglese può essere inaccessibile agli sviluppatori che non hanno mai imparato la lingua. Ogni Sprachraum è un giardino recintato con i suoi fiori.
 

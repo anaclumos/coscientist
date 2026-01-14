@@ -12,7 +12,7 @@ Drift sistem adalah kategori dari [fenomena drift](./drift-phenomena) ketika sis
 
 ## Mengapa Ini Penting
 
-Drift sistem adalah mode kegagalan ketika sebuah sistem pengetahuan menjadi stabil di sekitar keadaan tunak palsu yang "dipertahankan kira-kira”. Kesalahan bertahan karena koreksi mahal; konten yang dihasilkan AI mencemari data pelatihan; dan sistem perlahan kehilangan kontak dengan kebenaran dasar (ground truth).
+Drift sistem adalah mode kegagalan ketika sebuah sistem pengetahuan menjadi stabil di sekitar keadaan tunak palsu yang "dipertahankan kira-kira". Kesalahan bertahan karena koreksi mahal; konten yang dihasilkan AI mencemari data pelatihan; dan sistem perlahan kehilangan kontak dengan kebenaran dasar .
 
 [Pelelehan Ensiklopedia](./encyclopedia-meltdown) adalah bentuk ekstremnya: ketika AI mengambil inisiatif untuk menulis, [garis tanggung jawab](./responsibility-line) menghilang, dan sistem terdorong menuju kolaps yang merujuk diri sendiri. Pertahanannya adalah [lapisan protokol epistemik](./epistemic-protocol-layer): menjaga agar koreksi lebih murah daripada drift melalui [keterlacakan](./traceability), [ingesti zero-trust](./zero-trust-ingestion), dan [pencarian yang mengutamakan sanggahan](./rebuttal-first-search).
 

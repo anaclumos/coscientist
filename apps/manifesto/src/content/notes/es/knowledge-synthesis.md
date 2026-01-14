@@ -3,7 +3,7 @@ title: Síntesis de conocimiento
 description: En qué se diferencia la síntesis del promediado en sistemas dialécticos de conocimiento
 ---
 
-La síntesis de conocimiento es lo que ocurre después de la recuperación (retrieval), cuando tienes que hacer comparables fuentes incompatibles. No es promediar. Es alinear premisas, definiciones y alcance, de modo que los desacuerdos se conviertan en objetos explícitos en lugar de ruido.
+La síntesis de conocimiento es lo que ocurre después de la recuperación , cuando tienes que hacer comparables fuentes incompatibles. No es promediar. Es alinear premisas, definiciones y alcance, de modo que los desacuerdos se conviertan en objetos explícitos en lugar de ruido.
 
 El [RAG](./rag) estándar es fuerte en recuperación y débil en síntesis porque no tiene un objeto interno llamado [contención](./contention). En un [Grafo Dialéctico](./dialectical-graph), la contención es de primera clase, así que el sistema puede descomponer la incompatibilidad en sus causas: diferencias de definición, diferencias de muestreo, diferencias de método, diferencias de alcance o [no estacionariedad](./nonstationarity) impulsada por el tiempo.
 

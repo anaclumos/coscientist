@@ -3,7 +3,7 @@ title: Sprachraum
 description: Ranah atau ruang bahasa yang membentuk cara berpikir dan pengetahuan
 ---
 
-Sprachraum (Jerman: "ruang bahasa" atau "ranah bahasa") adalah ranah yang ditentukan oleh suatu bahasa tertentu, mencakup bukan hanya para penuturnya, tetapi juga kerangka konseptual, konteks budaya, dan tradisi pengetahuan yang dibawa oleh bahasa tersebut.
+Sprachraum  adalah ranah yang ditentukan oleh suatu bahasa tertentu, mencakup bukan hanya para penuturnya, tetapi juga kerangka konseptual, konteks budaya, dan tradisi pengetahuan yang dibawa oleh bahasa tersebut.
 
 Istilah ini penting bagi [Kosaintis](./coscientist) karena pengetahuan sering kali terkotak-kotak oleh Sprachraum. Literatur ilmiah dalam bahasa Tionghoa dapat memuat wawasan yang tak terlihat bagi peneliti yang hanya berbahasa Inggris. Dokumentasi teknis yang ditulis dalam bahasa Inggris dapat tidak dapat diakses oleh pengembang yang tidak pernah mempelajari bahasa itu. Setiap Sprachraum adalah taman berpagar dengan bunganya sendiri.
 

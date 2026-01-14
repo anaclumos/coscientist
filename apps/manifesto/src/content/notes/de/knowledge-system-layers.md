@@ -8,7 +8,7 @@ Die Schichten des Wissenssystems sind die klar abgegrenzten Architekturkomponent
 ## Datenschicht
 
 - [Evidenzspanne](./evidence-span) — roher zitierter Text, wortgetreu unverändert bewahrt
-- [Quelle](./source) — Herkunftsanker (provenance anchors) für Nachverfolgbarkeit
+- [Quelle](./source) — Herkunftsanker  für Nachverfolgbarkeit
 
 ## Inferenzschicht
 

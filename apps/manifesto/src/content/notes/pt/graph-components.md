@@ -19,7 +19,7 @@ Os componentes do grafo são os blocos de construção de um [Grafo Dialético](
 **Tipos de arestas** (ver [Arestas do Grafo Dialético](./dialectical-graph-edges)):
 
 - [Ataque](./attack) — desafios diretos à verdade
-- [Refutação por Minar (Undercut)](./undercut) — desafios aos fundamentos
+- [Refutação por Minar ](./undercut) — desafios aos fundamentos
 - `supports`, `refines`, `generalizes`, `specializes`
 - `cites`, `defines`, `measures`, `replicates`, `fails_to_replicate`
 - [Contenção](./contention) — marcadores estruturados de conflito

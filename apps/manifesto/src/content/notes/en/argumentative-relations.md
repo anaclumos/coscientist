@@ -23,6 +23,6 @@ Argumentative relations are the edge types in a [Dialectical Graph](./dialectica
 - `refines` — narrows or clarifies a claim
 - `generalizes` / `specializes` — scope adjustments
 - `depends_on` — links claims to their [assumptions](./assumption)
-- `defines` — connects terms to their definitions (tracked over time via [Definition Drift](./definition-drift))
+- `defines` — connects terms to their definitions )
 
 See [Dialectical Graph Edges](./dialectical-graph-edges) for full specification and [Relation Typing vs Similarity](./relation-typing-vs-similarity) for why typed edges matter.

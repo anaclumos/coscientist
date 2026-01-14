@@ -12,17 +12,17 @@ Tiến hóa tri thức cá nhân lần theo sự phát triển của các công 
 
 ## Khung khái niệm
 
-- [Bộ não số (Digital Brain)](./digital-brain) — một hệ thống phản chiếu và mở rộng tâm trí
-- [Khu vườn số (Digital Garden)](./digital-garden) — ghi chú liên kết công khai, liên tục tiến hóa
-- [Rừng rậm số (Digital Jungle)](./digital-jungle) — không gian tri thức tự tổ chức, ma sát thấp
-- [Bộ não thứ hai (Second Brain)](./second-brain) — thực hành quản lý tri thức cá nhân
+- [Bộ não số ](./digital-brain) — một hệ thống phản chiếu và mở rộng tâm trí
+- [Khu vườn số ](./digital-garden) — ghi chú liên kết công khai, liên tục tiến hóa
+- [Rừng rậm số ](./digital-jungle) — không gian tri thức tự tổ chức, ma sát thấp
+- [Bộ não thứ hai ](./second-brain) — thực hành quản lý tri thức cá nhân
 
 ## Hiện thực hóa
 
-- [Dự án Aldehyde (Project Aldehyde)](./project-aldehyde) — nỗ lực ban đầu của [Sunghyun Cho](./sunghyun-cho)
-- [Ngoài sọ não (Extracranial)](./extracranial) — hệ thống bộ não số cá nhân của Cho
-- [Memex đa ngôn ngữ (Multilingual Memex)](./multilingual-memex) — hệ thống tri thức nhận biết ngôn ngữ với tự động dịch
-- [Dự án PIRI (Project PIRI)](./project-piri) — sáng kiến dịch thuật bị hủy (lỗi thời do các tác tử lập trình AI)
+- [Dự án Aldehyde ](./project-aldehyde) — nỗ lực ban đầu của [Sunghyun Cho](./sunghyun-cho)
+- [Ngoài sọ não ](./extracranial) — hệ thống bộ não số cá nhân của Cho
+- [Memex đa ngôn ngữ ](./multilingual-memex) — hệ thống tri thức nhận biết ngôn ngữ với tự động dịch
+- [Dự án PIRI ](./project-piri) — sáng kiến dịch thuật bị hủy (lỗi thời do các tác tử lập trình AI)
 
 ## Nguyên tắc thiết kế
 

@@ -3,7 +3,7 @@ title: Dificuldade Desejável na Verificação
 description: Tornar a verificação trabalhosa para manter uma compreensão genuína
 ---
 
-A dificuldade desejável na verificação é o princípio de que a [verificação](./verification) deve exigir esforço suficiente para engajar a cognição genuína. Se checar uma afirmação é fácil demais — se isso se reduz a "a IA disse” — o [Operador](./operator) não está aprendendo nem verificando; está apenas ratificando.
+A dificuldade desejável na verificação é o princípio de que a [verificação](./verification) deve exigir esforço suficiente para engajar a cognição genuína. Se checar uma afirmação é fácil demais — se isso se reduz a "a IA disse" — o [Operador](./operator) não está aprendendo nem verificando; está apenas ratificando.
 
 O termo vem da ciência da aprendizagem, onde dificuldades desejáveis (como [recordação ativa](./active-recall) e [prática espaçada](./spacing-effect)) melhoram a retenção de longo prazo porque exigem esforço. A verificação funciona do mesmo jeito: o esforço de checar é o que produz compreensão e detecta erros.
 

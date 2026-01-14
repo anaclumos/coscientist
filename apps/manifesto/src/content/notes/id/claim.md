@@ -7,4 +7,4 @@ Klaim adalah proposisi yang dapat diverifikasi yang diekstrak dari teks dan disi
 
 Klaim dapat ditautkan ke [rentang bukti](./evidence-span) yang mendukungnya, [kontracontoh](./counterexample) yang mempersempitnya, [serangan](./attack) yang menantangnya, dan [undercut](./undercut) yang mempertanyakan landasan argumennya. Struktur relasional ini memungkinkan pengetahuan diperbarui melalui bantahan alih-alih penggantian.
 
-Setiap klaim memiliki status (lihat [Node Graf Dialektik](./dialectical-graph-nodes)): statusnya dapat bersifat tentatif, diperdebatkan, didukung secara bersyarat, kuat, terbantahkan, atau usang. Status berubah berdasarkan jenis bantahan, bukan jumlahnya, dan dapat mengalami regresi jika struktur pendukungnya melemah.
+Setiap klaim memiliki status ): statusnya dapat bersifat tentatif, diperdebatkan, didukung secara bersyarat, kuat, terbantahkan, atau usang. Status berubah berdasarkan jenis bantahan, bukan jumlahnya, dan dapat mengalami regresi jika struktur pendukungnya melemah.

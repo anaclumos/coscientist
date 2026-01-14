@@ -3,7 +3,7 @@ title: AI에서의 인간 행위성
 description: AI 보조 지식 노동에서 인간이 통제권을 유지하기 위한 원칙과 메커니즘
 ---
 
-[AI](./ai)에서의 인간 행위성(human agency)은 AI가 상당한 [숙고 노동](./contemplation-labor)을 수행하더라도, 인간 [운영자](./operator)가 지식 노동을 통제하도록 유지하는 원칙과 메커니즘의 집합이다.
+[AI](./ai)에서의 인간 행위성은 AI가 상당한 [숙고 노동](./contemplation-labor)을 수행하더라도, 인간 [운영자](./operator)가 지식 노동을 통제하도록 유지하는 원칙과 메커니즘의 집합이다.
 
 ## 핵심 원칙
 

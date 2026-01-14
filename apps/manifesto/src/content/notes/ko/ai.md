@@ -19,7 +19,7 @@ AI는 동시에 엔진이자 위협이다. 한편으로 AI는 [사유 노동](./
 - [환각](./hallucination) — 그럴듯하지만 조작된 출력
 - [AI 슬롭](./ai-slop) — 저품질 생성 콘텐츠
 - [유창성 함정](./fluency-trap) — 매끄러운 문장을 정확성으로 오인하기
-- [모델 붕괴](./model-collapse) — 자기 학습(self-training)으로 인한 성능 저하
+- [모델 붕괴](./model-collapse) — 자기 학습으로 인한 성능 저하
 
 ## 인간-AI 관계
 

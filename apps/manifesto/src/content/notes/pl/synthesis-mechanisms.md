@@ -33,4 +33,4 @@ Mechanizmy syntezy to wzorce i protokoły, których [Współnaukowiec](./coscien
 
 ## Kontrast
 
-- [Ograniczenia RAG](./rag-limitations) — dlaczego samo wyszukiwanie (retrieval) nie wystarcza do syntezy
+- [Ograniczenia RAG](./rag-limitations) — dlaczego samo wyszukiwanie  nie wystarcza do syntezy

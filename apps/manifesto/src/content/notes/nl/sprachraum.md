@@ -3,7 +3,7 @@ title: Sprachraum
 description: Een taalsfeer of -domein dat denken en kennis vormgeeft
 ---
 
-Sprachraum (Duits: "taalruimte" of "taalsfeer") is het domein dat door een bepaalde taal wordt gedefinieerd, en omvat niet alleen sprekers, maar ook de conceptuele kaders, culturele contexten en kennistradities die die taal met zich meedraagt.
+Sprachraum  is het domein dat door een bepaalde taal wordt gedefinieerd, en omvat niet alleen sprekers, maar ook de conceptuele kaders, culturele contexten en kennistradities die die taal met zich meedraagt.
 
 De term is belangrijk voor [Cowetenschapper](./coscientist) omdat kennis vaak per Sprachraum in silo’s is opgesloten. Wetenschappelijke literatuur in het Chinees kan inzichten bevatten die onzichtbaar blijven voor onderzoekers die alleen Engels lezen. Technische documentatie die in het Engels is geschreven kan ontoegankelijk zijn voor ontwikkelaars die de taal nooit hebben geleerd. Elke Sprachraum is een ommuurde tuin met zijn eigen bloemen.
 

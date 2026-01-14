@@ -5,7 +5,7 @@ description: Dialog und Wissensaustausch über Sprachräume hinweg
 
 Inter-Sprachraum-Kommunikation ist der Austausch von Ideen über Sprachgrenzen hinweg – auf eine Weise, die Bedeutung bewahrt und echten Dialog ermöglicht. Sie ist nicht bloß Übersetzung; sie ist die Fähigkeit, über [Sprachräume](./sprachraum) hinweg zu denken und zu argumentieren, ohne das Wesentliche dessen zu verlieren, was vermittelt wird.
 
-[Sunghyun Cho](./sunghyun-cho) bezeichnet dies als eine der drei Säulen von [über die Sprachräume hinweg](./across-the-sprachraums). Ziel ist es, Ideen von der konkreten Sprache zu lösen, in der sie entstanden sind, sodass das Wesentliche (die Abstraktion) frei übertragen und mit Ideen aus anderen sprachlichen Traditionen kombiniert werden kann.
+[Sunghyun Cho](./sunghyun-cho) bezeichnet dies als eine der drei Säulen von [über die Sprachräume hinweg](./across-the-sprachraums). Ziel ist es, Ideen von der konkreten Sprache zu lösen, in der sie entstanden sind, sodass das Wesentliche  frei übertragen und mit Ideen aus anderen sprachlichen Traditionen kombiniert werden kann.
 
 Die Herausforderung besteht darin, dass Sprachen nicht isomorph sind. Manche Konzepte existieren in einer Sprache und haben in einer anderen kein direktes Äquivalent. Manche Unterscheidungen, die in einer Sprache grammatisch zwingend sind, sind in einer anderen optional oder fehlen ganz. Inter-Sprachraum-Kommunikation muss diese Asymmetrien navigieren, ohne so zu tun, als gäbe es sie nicht.
 

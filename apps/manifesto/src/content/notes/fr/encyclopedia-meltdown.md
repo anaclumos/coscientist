@@ -3,7 +3,7 @@ title: Effondrement encyclopédique
 description: Phénomène d’effondrement des connaissances lorsque l’IA prend l’initiative sans intervention humaine
 ---
 
-L’effondrement encyclopédique (*Encyclopedia Meltdown*) est un mode de défaillance par effondrement des connaissances qui commence lorsque l’initiative et le contrôle de l’écriture basculent vers l’IA sans l’intervention consciente de l’[Opérateur](./operator). Le terme vient d’un essai de [Sunghyun Cho](./sunghyun-cho).
+L’effondrement encyclopédique  est un mode de défaillance par effondrement des connaissances qui commence lorsque l’initiative et le contrôle de l’écriture basculent vers l’IA sans l’intervention consciente de l’[Opérateur](./operator). Le terme vient d’un essai de [Sunghyun Cho](./sunghyun-cho).
 
 L’effondrement émerge généralement de trois boucles couplées :
 

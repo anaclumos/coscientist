@@ -10,8 +10,8 @@ Veelvoorkomende relatietypen zijn onder andere:
 - Ondersteuning: `supports`
 - Weerlegging: `attacks`, `undercuts`, `contradicts`
 - Verfijning en reikwijdte: `refines`, `generalizes`, `specializes`, `depends_on`
-- Provenance (herkomst) en meting: `cites`, `defines`, `measures`
+- Provenance  en meting: `cites`, `defines`, `measures`
 - Replicatie: `replicates`, `fails_to_replicate`
-- Optionele thematische koppelingen: `is_about` (nuttig, maar op zichzelf niet epistemisch)
+- Optionele thematische koppelingen: `is_about` 
 
-Getypeerde randen maken kennisactualisering mogelijk via weerleggingsketens, het detecteren van definitieconflicten en het volgen van replicatiestatus. Dit zijn mogelijkheden die similarity-gebaseerde retrieval moeilijk kan weergeven (zie [RAG-beperkingen](./rag-limitations)). Ze ondersteunen ook kwaliteitsbeoordeling: de kwaliteit van kennis hangt minder af van de richting van een conclusie en meer van de duurzaamheid van het pad dat haar heeft voortgebracht, en randen coderen die padstructuur.
+Getypeerde randen maken kennisactualisering mogelijk via weerleggingsketens, het detecteren van definitieconflicten en het volgen van replicatiestatus. Dit zijn mogelijkheden die similarity-gebaseerde retrieval moeilijk kan weergeven ). Ze ondersteunen ook kwaliteitsbeoordeling: de kwaliteit van kennis hangt minder af van de richting van een conclusie en meer van de duurzaamheid van het pad dat haar heeft voortgebracht, en randen coderen die padstructuur.

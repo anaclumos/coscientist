@@ -5,7 +5,7 @@ description: Dialog dan pertukaran pengetahuan lintas ranah bahasa
 
 Komunikasi Antar-Sprachraum adalah pertukaran gagasan melintasi batas-batas bahasa dengan cara yang mempertahankan makna dan memungkinkan dialog yang sungguh-sungguh. Ini bukan sekadar penerjemahan; ini adalah kemampuan untuk berpikir dan berargumen lintas [Sprachraum](./sprachraum) tanpa kehilangan esensi dari apa yang sedang dikomunikasikan.
 
-[Sunghyun Cho](./sunghyun-cho) mengidentifikasi hal ini sebagai salah satu dari tiga pilar [lintas Sprachraum](./across-the-sprachraums). Tujuannya adalah melepaskan gagasan dari bahasa spesifik tempat gagasan itu dilahirkan, sehingga esensinya (abstraksinya) dapat berpindah dengan bebas dan berpadu dengan gagasan dari tradisi kebahasaan lainnya.
+[Sunghyun Cho](./sunghyun-cho) mengidentifikasi hal ini sebagai salah satu dari tiga pilar [lintas Sprachraum](./across-the-sprachraums). Tujuannya adalah melepaskan gagasan dari bahasa spesifik tempat gagasan itu dilahirkan, sehingga esensinya  dapat berpindah dengan bebas dan berpadu dengan gagasan dari tradisi kebahasaan lainnya.
 
 Tantangannya adalah bahwa bahasa-bahasa tidak isomorfik. Sebagian konsep ada dalam satu bahasa tetapi tidak memiliki padanan langsung dalam bahasa lain. Sebagian pembedaan yang secara gramatikal wajib dalam satu bahasa bersifat opsional atau bahkan tidak ada dalam bahasa lain. Komunikasi Antar-Sprachraum harus menavigasi asimetri-asimetri ini tanpa berpura-pura bahwa asimetri tersebut tidak ada.
 

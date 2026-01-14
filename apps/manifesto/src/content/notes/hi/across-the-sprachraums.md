@@ -9,10 +9,10 @@ description: ज्ञान प्रणालियों के लिए भ
 
 - भाषाई ब्रह्मांड को पार करना — ज्ञान भाषा की परवाह किए बिना सुलभ होना चाहिए।
 - विचारों को भाषा से अलग करना — विचार मानवता के हैं, उस भाषा के नहीं जिसमें उन्हें पहली बार व्यक्त किया गया।
-- [Inter-Sprachraum communication](./inter-sprachraum-communication) — सूक्ष्मताओं (nuance) को खोए बिना भाषा-डोमेनों के पार संवाद सक्षम करना।
+- [Inter-Sprachraum communication](./inter-sprachraum-communication) — सूक्ष्मताओं  को खोए बिना भाषा-डोमेनों के पार संवाद सक्षम करना।
 
-यह केवल अनुवाद की बात नहीं है। एक वास्तव में पार-भाषाई (cross-linguistic) प्रणाली को अवधारणाओं का [language-agnostic index](./language-agnostic-indexing) बनाए रखना चाहिए, [translation fidelity](./translation-fidelity) को सुरक्षित रखना चाहिए, और [translation nuance loss](./translation-nuance-loss) से बचाव करना चाहिए। लक्ष्य एक [multilingual knowledge mesh](./multilingual-knowledge-mesh) है, जहाँ एक कोरियाई नोट केवल शब्द-मिलान के जरिए नहीं, बल्कि अंतर्निहित अवधारणा के माध्यम से किसी अंग्रेज़ी नोट से लिंक कर सके।
+यह केवल अनुवाद की बात नहीं है। एक वास्तव में पार-भाषाई  प्रणाली को अवधारणाओं का [language-agnostic index](./language-agnostic-indexing) बनाए रखना चाहिए, [translation fidelity](./translation-fidelity) को सुरक्षित रखना चाहिए, और [translation nuance loss](./translation-nuance-loss) से बचाव करना चाहिए। लक्ष्य एक [multilingual knowledge mesh](./multilingual-knowledge-mesh) है, जहाँ एक कोरियाई नोट केवल शब्द-मिलान के जरिए नहीं, बल्कि अंतर्निहित अवधारणा के माध्यम से किसी अंग्रेज़ी नोट से लिंक कर सके।
 
-[एक्स्ट्राक्रेनियल](./extracranial) इसे द्विभाषी सामग्री, स्वचालित भाषा पहचान, और hreflang टैग्स के माध्यम से लागू करता है। [सह-वैज्ञानिक](./coscientist) इस दृष्टि को आगे बढ़ाता है: क्योंकि यह [बड़े भाषा मॉडल](./llm) का उपयोग करता है, यह किसी भी भाषा में साहित्य पढ़ और समेकित (synthesize) कर सकता है, जिससे [cross-linguistic synthesis](./cross-linguistic-synthesis) किसी बाद की जोड़ (afterthought) के बजाय एक मूल (native) क्षमता बन जाती है।
+[एक्स्ट्राक्रेनियल](./extracranial) इसे द्विभाषी सामग्री, स्वचालित भाषा पहचान, और hreflang टैग्स के माध्यम से लागू करता है। [सह-वैज्ञानिक](./coscientist) इस दृष्टि को आगे बढ़ाता है: क्योंकि यह [बड़े भाषा मॉडल](./llm) का उपयोग करता है, यह किसी भी भाषा में साहित्य पढ़ और समेकित  कर सकता है, जिससे [cross-linguistic synthesis](./cross-linguistic-synthesis) किसी बाद की जोड़  के बजाय एक मूल  क्षमता बन जाती है।
 
 संदर्भ: https://cho.sh/r/2EB438।

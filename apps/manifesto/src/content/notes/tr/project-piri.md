@@ -3,7 +3,7 @@ title: Proje PIRI
 description: Programlama dokümantasyonunun sınırsız çevirileri için iptal edilmiş bir girişim
 ---
 
-Proje PIRI (Programmatic Interlingual Resource Integration), büyük programlama ve geliştirici dokümantasyonlarının sınırsız çevirilerini sağlamak için [Sunghyun Cho](./sunghyun-cho)'nun girişimiydi. Sloganı: "İngilizce öğrenmeden 10x geliştirici ol."
+Proje PIRI , büyük programlama ve geliştirici dokümantasyonlarının sınırsız çevirilerini sağlamak için [Sunghyun Cho](./sunghyun-cho)'nun girişimiydi. Sloganı: "İngilizce öğrenmeden 10x geliştirici ol."
 
 Proje, [Sprachraum'lar boyunca](./across-the-sprachraums) vizyonunu pratik bir alanda somutlaştırdı. Teknik dokümantasyon ezici biçimde İngilizce-merkezli; bu da dünya çapındaki geliştiriciler için bir engel oluşturuyor. PIRI, dokümantasyonu herhangi bir dilde erişilebilir kılarak bu engeli kaldırmayı hedefledi; böylece geliştiriciler önce İngilizce öğrenmek yerine kod yazmayı öğrenmeye odaklanabilecekti.
 

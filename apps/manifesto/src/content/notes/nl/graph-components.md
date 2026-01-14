@@ -5,7 +5,7 @@ description: De knoop- en randtypen die samen een dialectische graaf vormen
 
 Graafcomponenten zijn de bouwstenen van een [Dialectische Graaf](./dialectical-graph): de knooptypen die epistemische objecten representeren en de randtypen die relaties daartussen representeren.
 
-**Knooptypen** (zie [Knooppunten in de Dialectische Graaf](./dialectical-graph-nodes)):
+**Knooptypen** ):
 
 - [Bewering](./claim) — verifieerbare proposities
 - [Evidentiefragment](./evidence-span) — exact geciteerde tekst uit bronnen
@@ -16,7 +16,7 @@ Graafcomponenten zijn de bouwstenen van een [Dialectische Graaf](./dialectical-g
 - [Tegenvoorbeeld](./counterexample) — gevallen die beweringen doorbreken
 - [Issue-knooppunt](./issue-node) — bundels van botsende beweringen
 
-**Randtypen** (zie [Randen in de Dialectische Graaf](./dialectical-graph-edges)):
+**Randtypen** ):
 
 - [Aanval](./attack) — directe betwistingen van waarheid
 - [Ondergraving](./undercut) — betwistingen van de grondslag

@@ -7,4 +7,4 @@ Un intervallo di evidenza è il testo citato esatto tratto da una fonte che supp
 
 In un [Grafo dialettico](./dialectical-graph), gli intervalli di evidenza sono memorizzati come nodi con collegamenti alla loro [fonte](./source) e alle affermazioni a cui si riferiscono. Questo è il primo livello della [tripla separazione](./triple-separation): testo grezzo preservato, affermazioni normalizzate, relazioni esplicite.
 
-Gli intervalli di evidenza prevengono il problema del troncamento degli estratti in [RAG](./rag-limitations), in cui la citazione può eliminare silenziosamente l’attribuzione ("B riferisce che A ha affermato...") e lasciare solo la conclusione, interrompendo la [linea di responsabilità](./responsibility-line).
+Gli intervalli di evidenza prevengono il problema del troncamento degli estratti in [RAG](./rag-limitations), in cui la citazione può eliminare silenziosamente l’attribuzione  e lasciare solo la conclusione, interrompendo la [linea di responsabilità](./responsibility-line).

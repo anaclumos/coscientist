@@ -13,6 +13,6 @@ Il sistema di verifica è l’insieme di meccanismi che [Coscienziato](./coscien
 - [Requisito di Unanimità](./unanimity-requirement) — accettare le affermazioni solo quando tutti i revisori sono d’accordo
 - [Linea di Responsabilità](./responsibility-line) — tracciare chi ha affermato cosa
 - [Controesempio](./counterexample) — casi che mandano in crisi le affermazioni
-- [Ingestione Zero-Trust](./zero-trust-ingestion) — richiedere la provenienza (provenance) prima dell’autorità
+- [Ingestione Zero-Trust](./zero-trust-ingestion) — richiedere la provenienza  prima dell’autorità
 
 Il sistema è progettato per mantenere la [correzione più economica della deriva](./correction-vs-drift) e per supportare la [difficoltà desiderabile](./desirable-difficulty-in-verification), così che l’[Operatore](./operator) rimanga coinvolto.

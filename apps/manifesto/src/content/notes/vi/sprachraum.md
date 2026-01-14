@@ -3,7 +3,7 @@ title: Sprachraum
 description: Một không gian hay miền ngôn ngữ định hình tư duy và tri thức
 ---
 
-Sprachraum (tiếng Đức: "không gian ngôn ngữ” hoặc "miền ngôn ngữ”) là miền được xác định bởi một ngôn ngữ cụ thể, bao gồm không chỉ người nói mà còn các khung khái niệm, bối cảnh văn hóa và truyền thống tri thức mà ngôn ngữ đó mang theo.
+Sprachraum (tiếng Đức: "không gian ngôn ngữ" hoặc "miền ngôn ngữ") là miền được xác định bởi một ngôn ngữ cụ thể, bao gồm không chỉ người nói mà còn các khung khái niệm, bối cảnh văn hóa và truyền thống tri thức mà ngôn ngữ đó mang theo.
 
 Thuật ngữ này quan trọng đối với [Nhà đồng khoa học](./coscientist) vì tri thức thường bị chia cắt theo Sprachraum. Tài liệu khoa học bằng tiếng Trung có thể chứa những hiểu biết mà các nhà nghiên cứu chỉ dùng tiếng Anh không thể nhìn thấy. Tài liệu kỹ thuật viết bằng tiếng Anh có thể không tiếp cận được đối với các lập trình viên chưa từng học ngôn ngữ đó. Mỗi Sprachraum là một khu vườn có tường bao với những bông hoa của riêng mình.
 

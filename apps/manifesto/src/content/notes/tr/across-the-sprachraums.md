@@ -13,6 +13,6 @@ Bu vizyonun üç parçası vardır:
 
 Bu, yalnızca çeviriyle ilgili değildir. Gerçekten diller arası bir sistem, kavramların [dilden bağımsız bir indeksini](./language-agnostic-indexing) korumalı, [çeviri sadakatini](./translation-fidelity) muhafaza etmeli ve [çeviri nüansı kaybına](./translation-nuance-loss) karşı önlem almalıdır. Amaç, bir Korece notun, yalnızca kelime eşleştirme ile değil, alttaki kavram üzerinden bir İngilizce nota bağlanabildiği bir [çok dilli bilgi ağıdır](./multilingual-knowledge-mesh).
 
-[Extracranial](./extracranial) bunu iki dilli içerik, otomatik dil tespiti ve hreflang etiketleriyle uygular. [Eşbilimci](./coscientist) vizyonu genişletir: [LLM'leri](./llm) kullandığı için, herhangi bir dildeki literatürü okuyup sentezleyebilir; böylece [diller arası sentez](./cross-linguistic-synthesis) sonradan eklenen bir özellik değil, yerel (native) bir yetenek hâline gelir.
+[Extracranial](./extracranial) bunu iki dilli içerik, otomatik dil tespiti ve hreflang etiketleriyle uygular. [Eşbilimci](./coscientist) vizyonu genişletir: [LLM'leri](./llm) kullandığı için, herhangi bir dildeki literatürü okuyup sentezleyebilir; böylece [diller arası sentez](./cross-linguistic-synthesis) sonradan eklenen bir özellik değil, yerel  bir yetenek hâline gelir.
 
 Referans: https://cho.sh/r/2EB438.

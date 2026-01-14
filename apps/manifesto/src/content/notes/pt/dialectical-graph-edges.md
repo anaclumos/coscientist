@@ -3,7 +3,7 @@ title: Arestas do Grafo Dialético
 description: Os tipos de relação que conectam nós em um grafo de conhecimento dialético
 ---
 
-Em um [Grafo Dialético](./dialectical-graph), as arestas codificam tipos de relação em vez de pontuações de similaridade. O valor disso é que você pode perguntar "como isto afeta aquilo?” em vez de apenas "isto e aquilo são sobre o mesmo tópico?”
+Em um [Grafo Dialético](./dialectical-graph), as arestas codificam tipos de relação em vez de pontuações de similaridade. O valor disso é que você pode perguntar "como isto afeta aquilo?" em vez de apenas "isto e aquilo são sobre o mesmo tópico?"
 
 Tipos de relação comuns incluem:
 

@@ -12,9 +12,9 @@ La deriva del sistema è la categoria di [fenomeni di deriva](./drift-phenomena)
 
 ## Perché è importante
 
-La deriva del sistema è la modalità di guasto in cui un sistema di conoscenza si stabilizza attorno a un falso stato stazionario "mantenuto approssimativamente”. Gli errori persistono perché correggerli è costoso; i contenuti generati dall’IA contaminano i dati di addestramento; e il sistema perde gradualmente il contatto con la verità di base (ground truth).
+La deriva del sistema è la modalità di guasto in cui un sistema di conoscenza si stabilizza attorno a un falso stato stazionario "mantenuto approssimativamente". Gli errori persistono perché correggerli è costoso; i contenuti generati dall’IA contaminano i dati di addestramento; e il sistema perde gradualmente il contatto con la verità di base .
 
-[Collasso dell’enciclopedia](./encyclopedia-meltdown) è la forma estrema: quando l’IA prende l’iniziativa di scrivere, la [linea di responsabilità](./responsibility-line) scompare e il sistema deriva verso un collasso autoreferenziale. La difesa è lo [strato di protocollo epistemico](./epistemic-protocol-layer): mantenere la correzione meno costosa della deriva tramite [tracciabilità](./traceability), [ingestione zero-trust](./zero-trust-ingestion) e [ricerca "prima la confutazione”](./rebuttal-first-search).
+[Collasso dell’enciclopedia](./encyclopedia-meltdown) è la forma estrema: quando l’IA prende l’iniziativa di scrivere, la [linea di responsabilità](./responsibility-line) scompare e il sistema deriva verso un collasso autoreferenziale. La difesa è lo [strato di protocollo epistemico](./epistemic-protocol-layer): mantenere la correzione meno costosa della deriva tramite [tracciabilità](./traceability), [ingestione zero-trust](./zero-trust-ingestion) e [ricerca "prima la confutazione"](./rebuttal-first-search).
 
 ## Correlati
 

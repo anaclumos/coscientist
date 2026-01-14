@@ -3,7 +3,7 @@ title: 그래프 구성 요소
 description: 변증법적 그래프를 구성하는 노드 및 엣지 유형
 ---
 
-그래프 구성 요소는 [변증법적 그래프](./dialectical-graph)의 기본 단위다. 즉, 인식론적 객체(epistemic objects)를 나타내는 노드 유형과, 그들 사이의 관계를 나타내는 엣지 유형이다.
+그래프 구성 요소는 [변증법적 그래프](./dialectical-graph)의 기본 단위다. 즉, 인식론적 객체를 나타내는 노드 유형과, 그들 사이의 관계를 나타내는 엣지 유형이다.
 
 **노드 유형**([변증법적 그래프 노드](./dialectical-graph-nodes) 참고):
 
@@ -12,7 +12,7 @@ description: 변증법적 그래프를 구성하는 노드 및 엣지 유형
 - [범위](./scope) — 적용 조건
 - [가정](./assumption) — 암묵적 전제
 - [방법](./method) — 증거를 생성하기 위한 절차
-- [출처](./source) — 출처/기원(provenance) 앵커
+- [출처](./source) — 출처/기원 앵커
 - [반례](./counterexample) — 주장을 깨뜨리는 사례
 - [이슈 노드](./issue-node) — 충돌하는 주장들의 묶음
 

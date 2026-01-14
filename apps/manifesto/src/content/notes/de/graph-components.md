@@ -5,7 +5,7 @@ description: Die Knoten- und Kantentypen, aus denen ein dialektischer Graph best
 
 Graph-Komponenten sind die Bausteine eines [Dialektischen Graphen](./dialectical-graph): die Knotentypen, die epistemische Objekte repräsentieren, und die Kantentypen, die Relationen zwischen ihnen darstellen.
 
-**Knotentypen** (siehe [Knoten des Dialektischen Graphen](./dialectical-graph-nodes)):
+**Knotentypen** ):
 
 - [Behauptung](./claim) — überprüfbare Aussagen
 - [Evidenzspanne](./evidence-span) — exakt zitierter Text aus Quellen
@@ -16,7 +16,7 @@ Graph-Komponenten sind die Bausteine eines [Dialektischen Graphen](./dialectical
 - [Gegenbeispiel](./counterexample) — Fälle, die Behauptungen widerlegen
 - [Issue-Knoten](./issue-node) — Bündel kollidierender Behauptungen
 
-**Kantentypen** (siehe [Kanten des Dialektischen Graphen](./dialectical-graph-edges)):
+**Kantentypen** ):
 
 - [Angriff](./attack) — direkte Infragestellungen der Wahrheit
 - [Untergrabung](./undercut) — Infragestellungen der Grundlage

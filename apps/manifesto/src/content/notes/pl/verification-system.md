@@ -8,7 +8,7 @@ System weryfikacji to zestaw mechanizmów, których [Współnaukowiec](./coscien
 ## Kluczowe komponenty
 
 - [Weryfikacja](./verification) — proces sprawdzania twierdzeń
-- [Wyszukiwanie w trybie „najpierw obalenie”](./rebuttal-first-search) — poszukiwanie kontrdowodów przed akceptacją
+- [Wyszukiwanie w trybie „najpierw obalenie"](./rebuttal-first-search) — poszukiwanie kontrdowodów przed akceptacją
 - [Protokół konsensusu wielu modeli AI](./multi-ai-consensus-protocol) — wykorzystywanie rozbieżności między modelami jako sygnału
 - [Wymóg jednomyślności](./unanimity-requirement) — akceptowanie twierdzeń tylko wtedy, gdy wszyscy recenzenci się zgadzają
 - [Linia odpowiedzialności](./responsibility-line) — śledzenie, kto co stwierdził

@@ -3,7 +3,7 @@ title: SI
 description: Sztuczna inteligencja jako narzędzie i wyzwanie dla systemów wiedzy
 ---
 
-SI (Sztuczna Inteligencja) w kontekście [Współnaukowiec](./coscientist) odnosi się do systemów wykonujących zadania poznawcze tradycyjnie wymagające ludzkiej inteligencji: czytanie, streszczanie, generowanie oraz rozumowanie na temat tekstu. Podstawową technologią jest [Duży model językowy](./llm) (Large Language Model).
+SI  w kontekście [Współnaukowiec](./coscientist) odnosi się do systemów wykonujących zadania poznawcze tradycyjnie wymagające ludzkiej inteligencji: czytanie, streszczanie, generowanie oraz rozumowanie na temat tekstu. Podstawową technologią jest [Duży model językowy](./llm) .
 
 SI jest jednocześnie silnikiem i zagrożeniem. Z jednej strony SI wykonuje [pracę kontemplacyjną](./contemplation-labor): wyszukiwanie, strukturyzowanie i generowanie propozycji w tempie niemożliwym dla ludzi. Z drugiej strony SI tworzy tryby awarii, które wymagają nowych zabezpieczeń: [halucynacje](./hallucination), [Śmieci AI](./ai-slop), [kolaps modelu](./model-collapse) oraz [Załamanie Encyklopedii](./encyclopedia-meltdown).
 

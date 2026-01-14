@@ -7,4 +7,4 @@ Eine Methode ist das Verfahren, mit dem Evidenz gesammelt oder eine Schlussfolge
 
 Methoden sind wichtig, weil dieselbe Schlussfolgerung auf sehr unterschiedlichen Grundlagen beruhen kann. Zwei Studien, die bei den Ergebnissen übereinstimmen, können beide falsch sein, wenn sie einen methodischen Fehler teilen. Deshalb beinhalten [Explorationsstrategien](./exploration-strategies) die Kopplung von Methode und Schlussfolgerung: Behauptungen nach Methode statt nach Schlussfolgerung zu clustern, um geteilte Verwundbarkeiten zu erkennen.
 
-In einem [Dialektischen Graphen](./dialectical-graph) sind Methoden Knoten, die mit Behauptungen und Evidenz verbunden sind (siehe [Knoten im Dialektischen Graphen](./dialectical-graph-nodes)). Ein [Undercut](./undercut) kann die Methode angreifen und argumentieren, dass das Verfahren fehlerhaft war, selbst wenn die Daten korrekt berichtet wurden.
+In einem [Dialektischen Graphen](./dialectical-graph) sind Methoden Knoten, die mit Behauptungen und Evidenz verbunden sind ). Ein [Undercut](./undercut) kann die Methode angreifen und argumentieren, dass das Verfahren fehlerhaft war, selbst wenn die Daten korrekt berichtet wurden.

@@ -23,6 +23,6 @@ Las relaciones argumentativas son los tipos de aristas en un [Grafo dialéctico]
 - `refines` — acota o aclara una afirmación
 - `generalizes` / `specializes` — ajustes de alcance
 - `depends_on` — vincula afirmaciones con sus [supuestos](./assumption)
-- `defines` — conecta términos con sus definiciones (registradas a lo largo del tiempo mediante [Deriva de definiciones](./definition-drift))
+- `defines` — conecta términos con sus definiciones )
 
 Consulta [Aristas del grafo dialéctico](./dialectical-graph-edges) para la especificación completa y [Tipado de relaciones vs similitud](./relation-typing-vs-similarity) para entender por qué importan las aristas tipadas.

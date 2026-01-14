@@ -3,12 +3,12 @@ title: Lapisan Sistem Pengetahuan
 description: Lapisan arsitektural dari Coscientist
 ---
 
-Lapisan sistem pengetahuan adalah komponen arsitektural yang berbeda yang membentuk [Kosaintis](./coscientist). Pemisahan lapisan-lapisan ini memungkinkan berbagai aspek (concern) berevolusi secara independen.
+Lapisan sistem pengetahuan adalah komponen arsitektural yang berbeda yang membentuk [Kosaintis](./coscientist). Pemisahan lapisan-lapisan ini memungkinkan berbagai aspek  berevolusi secara independen.
 
 ## Lapisan Data
 
 - [Rentang Bukti](./evidence-span) — teks kutipan mentah yang dipertahankan apa adanya
-- [Sumber](./source) — jangkar asal-usul (provenance) untuk keterlacakan
+- [Sumber](./source) — jangkar asal-usul  untuk keterlacakan
 
 ## Lapisan Inferensi
 

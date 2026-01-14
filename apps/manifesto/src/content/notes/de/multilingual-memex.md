@@ -7,7 +7,7 @@ Ein mehrsprachiger Memex ist ein persönliches Wissenssystem, das Inhalte in meh
 
 [Sunghyun Cho](./sunghyun-cho)s [Extracranial](./extracranial) ist eine Umsetzung dieses Konzepts. Es umfasst automatische Spracherkennung, lokalspezifische Auslieferung mittels hreflang-Tags und die Möglichkeit, in einer Sprache zu schreiben, während Übersetzungssysteme die Auslieferung in anderen Sprachen übernehmen.
 
-Die architektonischen Implikationen sind erheblich. UI-Elemente (Interface elements), Suche und Verknüpfungen müssen Sprache durchgängig berücksichtigen:
+Die architektonischen Implikationen sind erheblich. UI-Elemente , Suche und Verknüpfungen müssen Sprache durchgängig berücksichtigen:
 
 - Eine Anfrage auf Koreanisch sollte relevante Inhalte finden, unabhängig davon, ob sie ursprünglich auf Koreanisch verfasst oder aus dem Englischen übersetzt wurden.
 - Backlinks sollten sprachübergreifend funktionieren.

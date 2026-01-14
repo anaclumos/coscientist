@@ -22,7 +22,7 @@ L’evoluzione della conoscenza personale ripercorre lo sviluppo di strumenti e 
 - [Progetto Aldehyde](./project-aldehyde) — primo tentativo di [Sunghyun Cho](./sunghyun-cho)
 - [Extracranial](./extracranial) — sistema di cervello digitale personale di Cho
 - [Memex multilingue](./multilingual-memex) — sistema di conoscenza consapevole della lingua con traduzione automatica
-- [Progetto PIRI](./project-piri) — iniziativa di traduzione annullata (resa obsoleta dagli agenti di coding IA)
+- [Progetto PIRI](./project-piri) — iniziativa di traduzione annullata 
 
 ## Principio di progettazione
 

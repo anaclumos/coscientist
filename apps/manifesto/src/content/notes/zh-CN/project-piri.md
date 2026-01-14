@@ -3,7 +3,7 @@ title: 项目 PIRI
 description: 一个已取消的倡议，旨在为编程文档提供无限翻译
 ---
 
-项目 PIRI（Programmatic Interlingual Resource Integration，程序化跨语言资源整合）是 [曹成贤](./sunghyun-cho) 发起的一项倡议，旨在为主要的编程与开发者文档提供无限翻译。其座右铭是："不学英语，也能成为 10x 开发者。”
+项目 PIRI（Programmatic Interlingual Resource Integration，程序化跨语言资源整合）是 [曹成贤](./sunghyun-cho) 发起的一项倡议，旨在为主要的编程与开发者文档提供无限翻译。其座右铭是："不学英语，也能成为 10x 开发者。"
 
 该项目在一个实际领域中体现了 [跨越 Sprachraums](./across-the-sprachraums) 的愿景。技术文档高度以英语为中心，这为全球开发者造成了障碍。PIRI 试图通过让文档以任何语言可访问来消除这一障碍，使开发者能够专注于学习编程，而不是先学英语。
 

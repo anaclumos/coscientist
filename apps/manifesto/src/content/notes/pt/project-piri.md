@@ -3,7 +3,7 @@ title: Projeto PIRI
 description: Uma iniciativa cancelada para traduções ilimitadas de documentação de programação
 ---
 
-O Projeto PIRI (Programmatic Interlingual Resource Integration) foi uma iniciativa de [Sunghyun Cho](./sunghyun-cho) para fornecer traduções ilimitadas de grandes documentações de programação e para desenvolvedores. O lema: "Torne-se um dev 10x sem aprender inglês."
+O Projeto PIRI  foi uma iniciativa de [Sunghyun Cho](./sunghyun-cho) para fornecer traduções ilimitadas de grandes documentações de programação e para desenvolvedores. O lema: "Torne-se um dev 10x sem aprender inglês."
 
 O projeto incorporava a visão de [através dos Sprachraums](./across-the-sprachraums) em um domínio prático. A documentação técnica é esmagadoramente centrada no inglês, criando uma barreira para desenvolvedores no mundo todo. O PIRI tinha como objetivo remover essa barreira ao tornar a documentação acessível em qualquer idioma, permitindo que desenvolvedores se concentrassem em aprender a programar, em vez de aprender inglês primeiro.
 

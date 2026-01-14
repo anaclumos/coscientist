@@ -12,7 +12,7 @@ Systemdrift ist die Kategorie von [Driftphänomenen](./drift-phenomena), bei der
 
 ## Warum es wichtig ist
 
-Systemdrift ist der Fehlermodus, bei dem sich ein Wissenssystem um einen „annähernd gepflegten" falschen stationären Zustand stabilisiert. Fehler bleiben bestehen, weil Korrektur teuer ist; KI-generierte Inhalte kontaminieren die Trainingsdaten; und das System verliert allmählich den Kontakt zur Grundwahrheit (ground truth).
+Systemdrift ist der Fehlermodus, bei dem sich ein Wissenssystem um einen „annähernd gepflegten" falschen stationären Zustand stabilisiert. Fehler bleiben bestehen, weil Korrektur teuer ist; KI-generierte Inhalte kontaminieren die Trainingsdaten; und das System verliert allmählich den Kontakt zur Grundwahrheit .
 
 [Enzyklopädie-Meltdown](./encyclopedia-meltdown) ist die Extremform: Wenn KI die Initiative des Schreibens übernimmt, verschwindet die [Verantwortungslinie](./responsibility-line), und das System driftet in Richtung eines selbstreferenziellen Kollapses. Die Abwehr ist die [epistemische Protokollschicht](./epistemic-protocol-layer): Korrektur durch [Nachverfolgbarkeit](./traceability), [Zero-Trust-Ingestion](./zero-trust-ingestion) und [Rebuttal-First-Suche](./rebuttal-first-search) günstiger als Drift zu halten.
 

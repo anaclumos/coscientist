@@ -22,7 +22,7 @@ Kişisel bilgi evrimi, 20. yüzyıl ortasındaki vizyonlardan günümüz sisteml
 - [Proje Aldehyde](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho)'nun erken dönem denemesi
 - [Kafatası Dışı](./extracranial) — Cho'nun kişisel dijital beyin sistemi
 - [Çok Dilli Memex](./multilingual-memex) — otomatik çeviriyle dil farkındalığı olan bilgi sistemi
-- [Proje PIRI](./project-piri) — iptal edilen çeviri girişimi (AI kodlama ajanları (AI coding agents) tarafından geçersiz kılındı)
+- [Proje PIRI](./project-piri) — iptal edilen çeviri girişimi (AI kodlama ajanları  tarafından geçersiz kılındı)
 
 ## Tasarım İlkesi
 

@@ -8,7 +8,7 @@ Các lớp của hệ thống tri thức là những thành phần kiến trúc 
 ## Lớp Dữ liệu
 
 - [Đoạn bằng chứng](./evidence-span) — văn bản trích dẫn thô được giữ nguyên văn
-- [Nguồn](./source) — các mỏ neo xuất xứ (provenance) để đảm bảo khả năng truy vết
+- [Nguồn](./source) — các mỏ neo xuất xứ  để đảm bảo khả năng truy vết
 
 ## Lớp Suy luận
 
@@ -17,7 +17,7 @@ Các lớp của hệ thống tri thức là những thành phần kiến trúc 
 
 ## Lớp Tường thuật
 
-- [Lớp Tường thuật](./narrative-layer) — các biểu diễn của đồ thị (graph) theo cách con người có thể đọc hiểu
+- [Lớp Tường thuật](./narrative-layer) — các biểu diễn của đồ thị  theo cách con người có thể đọc hiểu
 - Tài liệu như các ảnh chụp nhanh có đóng dấu thời gian, không phải chân lý nền tảng
 
 ## Lớp Giao thức

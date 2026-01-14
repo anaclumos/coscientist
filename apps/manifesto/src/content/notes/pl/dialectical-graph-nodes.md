@@ -12,7 +12,7 @@ W [Grafie dialektycznym](./dialectical-graph) węzły reprezentują obiekty epis
 - [Metoda](./method) — procedury generujące dowody lub wnioski
 - Dane — pomiary lub wyniki
 - [Zakres dowodu](./evidence-span) — dokładne cytowane fragmenty
-- [Źródło](./source) — kotwice pochodzenia (provenance)
+- [Źródło](./source) — kotwice pochodzenia 
 - [Kontrprzykład](./counterexample) — przypadki, które obalają tezy lub zawężają ich zakres
 - [Węzeł problemu](./issue-node) — pakiety zderzających się klastrów tez
 

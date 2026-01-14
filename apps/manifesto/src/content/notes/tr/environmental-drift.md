@@ -11,7 +11,7 @@ description: Daha önce geçerli olan bilgiyi geçersiz kılan dünyadaki deği�
 
 ## Neden Önemli?
 
-Çevresel sürüklenme, bilginin zamansal bir kapsamı (scope) olduğunu ifade eder. 2010’da doğru olan bir iddia, 2025’te doğru olmayabilir—yanlış olduğu için değil, dünyanın değişmiş olması nedeniyle. Piyasalar kayar, teknolojiler evrilir, nüfuslar değişir ve bir zamanlar güvenilir olan bir örüntü artık geçerli olmayabilir.
+Çevresel sürüklenme, bilginin zamansal bir kapsamı  olduğunu ifade eder. 2010’da doğru olan bir iddia, 2025’te doğru olmayabilir—yanlış olduğu için değil, dünyanın değişmiş olması nedeniyle. Piyasalar kayar, teknolojiler evrilir, nüfuslar değişir ve bir zamanlar güvenilir olan bir örüntü artık geçerli olmayabilir.
 
 Bu, [anlamsal sürüklenme](./semantic-drift) ile farklıdır: kelimeler aynı şeyi ifade eder, fakat tanımladıkları dünya farklıdır. Eski bilginin yeni bağlamlara sessizce uygulanması yerine işaretlenebilmesi için, iddiaların ne zaman ve nerede doğrulandığının izlenmesini gerektirir.
 

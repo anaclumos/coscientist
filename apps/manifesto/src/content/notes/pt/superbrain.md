@@ -3,7 +3,7 @@ title: Supercérebro
 description: A visão de um exoesqueleto cognitivo externalizado que amplifica a inteligência humana
 ---
 
-Supercérebro é o termo de [Sunghyun Cho](./sunghyun-cho) para a visão de um [exoesqueleto cognitivo](./cognitive-exoskeleton) que amplifica a inteligência humana para além dos limites biológicos. [Extracraniano](./extracranial) é descrito como um "Exofato para Supercérebros”: uma extensão de memória externalizada destinada a guardar cada ideia que o utilizador tem.
+Supercérebro é o termo de [Sunghyun Cho](./sunghyun-cho) para a visão de um [exoesqueleto cognitivo](./cognitive-exoskeleton) que amplifica a inteligência humana para além dos limites biológicos. [Extracraniano](./extracranial) é descrito como um "Exofato para Supercérebros": uma extensão de memória externalizada destinada a guardar cada ideia que o utilizador tem.
 
 O supercérebro não é um substituto da cognição humana, mas um amplificador. Ele deve:
 

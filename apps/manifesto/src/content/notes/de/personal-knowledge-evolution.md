@@ -22,7 +22,7 @@ Die persönliche Wissensevolution zeichnet die Entwicklung von Werkzeugen und Id
 - [Projekt Aldehyd](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho)s früher Versuch
 - [Extracranial](./extracranial) — Chos persönliches Digital-Brain-System
 - [Multilingual Memex](./multilingual-memex) — sprachbewusstes Wissenssystem mit automatischer Übersetzung
-- [Project PIRI](./project-piri) — eingestellte Übersetzungsinitiative (durch KI-Coding-Agents obsolet geworden)
+- [Project PIRI](./project-piri) — eingestellte Übersetzungsinitiative 
 
 ## Designprinzip
 

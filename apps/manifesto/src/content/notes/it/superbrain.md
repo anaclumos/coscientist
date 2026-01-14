@@ -3,7 +3,7 @@ title: Supercervello
 description: La visione di un esoscheletro cognitivo esternalizzato che amplifica l’intelligenza umana
 ---
 
-Supercervello è il termine di [Sunghyun Cho](./sunghyun-cho) per la visione di un [esoscheletro cognitivo](./cognitive-exoskeleton) che amplifica l’intelligenza umana oltre i limiti biologici. [Extracranial](./extracranial) è descritto come un "Exosuit for Superbrains”: un’estensione della memoria esternalizzata pensata per contenere ogni idea che l’utente abbia.
+Supercervello è il termine di [Sunghyun Cho](./sunghyun-cho) per la visione di un [esoscheletro cognitivo](./cognitive-exoskeleton) che amplifica l’intelligenza umana oltre i limiti biologici. [Extracranial](./extracranial) è descritto come un "Exosuit for Superbrains": un’estensione della memoria esternalizzata pensata per contenere ogni idea che l’utente abbia.
 
 Il supercervello non è un sostituto della cognizione umana, ma un amplificatore. Dovrebbe:
 

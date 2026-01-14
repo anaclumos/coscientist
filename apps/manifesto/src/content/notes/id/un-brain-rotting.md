@@ -7,4 +7,4 @@ Un-brain-rotting adalah proses aktif untuk memulihkan kapasitas verifikasi dan a
 
 Istilah ini mengakui bahwa kerusakan sudah terjadi. Paparan konstan terhadap konten yang tampak masuk akal tetapi tidak terverifikasi melatih penerimaan pasif. Un-brain-rotting adalah protokol pemulihan: mengaktifkan kembali [active recall](./active-recall), menuntut [traceability](./traceability), dan memperlakukan [verification](./verification) sebagai keterampilan yang perlu dilatih.
 
-[Kosaintis](./coscientist) dirancang untuk mendukung un-brain-rotting dengan membuat bukti tandingan terlihat, menjaga [responsibility line](./responsibility-line), dan mempertahankan [Operator](./operator) dalam peran sebagai pemeriksa (verifier) alih-alih konsumen.
+[Kosaintis](./coscientist) dirancang untuk mendukung un-brain-rotting dengan membuat bukti tandingan terlihat, menjaga [responsibility line](./responsibility-line), dan mempertahankan [Operator](./operator) dalam peran sebagai pemeriksa  alih-alih konsumen.

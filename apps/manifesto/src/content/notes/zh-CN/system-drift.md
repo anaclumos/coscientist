@@ -12,7 +12,7 @@ description: 知识系统因自我污染或疏于维护而退化
 
 ## 为什么重要
 
-系统漂移是一种失效模式：知识系统会稳定在一个"近似维持”的虚假稳态上。错误之所以持续存在，是因为纠错代价高昂；AI 生成内容会污染训练数据；系统也会逐渐与真实世界的事实（ground truth）脱节。
+系统漂移是一种失效模式：知识系统会稳定在一个"近似维持"的虚假稳态上。错误之所以持续存在，是因为纠错代价高昂；AI 生成内容会污染训练数据；系统也会逐渐与真实世界的事实（ground truth）脱节。
 
 [百科全书式崩溃](./encyclopedia-meltdown)是其极端形态：当 AI 主动承担写作时，[责任线](./responsibility-line)消失，系统会朝着自指性崩塌漂移。防御手段是[认识论协议层](./epistemic-protocol-layer)：通过[可追溯性](./traceability)、[零信任摄取](./zero-trust-ingestion)和[反驳优先搜索](./rebuttal-first-search)，让纠错始终比漂移更便宜。
 

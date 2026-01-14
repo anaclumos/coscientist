@@ -3,8 +3,8 @@ title: 공격
 description: 주장 진실성에 대한 직접적인 도전
 ---
 
-공격(attack)은 [주장](./claim)의 진실성에 대한 직접적인 도전이다. 근거를 겨냥하는 [언더컷](./undercut)과 달리, 공격은 해당 주장 자체가 거짓이거나 오해를 불러일으킨다고 말하며, 보통 [반례](./counterexample) 또는 모순되는 증거를 제시함으로써 이를 뒷받침한다.
+공격은 [주장](./claim)의 진실성에 대한 직접적인 도전이다. 근거를 겨냥하는 [언더컷](./undercut)과 달리, 공격은 해당 주장 자체가 거짓이거나 오해를 불러일으킨다고 말하며, 보통 [반례](./counterexample) 또는 모순되는 증거를 제시함으로써 이를 뒷받침한다.
 
-공격은 [변증법 그래프](./dialectical-graph)의 핵심 엣지(edge) 유형이다([변증법 그래프 엣지](./dialectical-graph-edges) 참고). 공격이 등록되면, 도전의 강도와 유형에 따라 주장 상태가 `supported`에서 `contested` 또는 `refuted`로 바뀔 수 있다.
+공격은 [변증법 그래프](./dialectical-graph)의 핵심 엣지 유형이다([변증법 그래프 엣지](./dialectical-graph-edges) 참고). 공격이 등록되면, 도전의 강도와 유형에 따라 주장 상태가 `supported`에서 `contested` 또는 `refuted`로 바뀔 수 있다.
 
 모든 공격이 동등한 것은 아니다. 출처가 확실한 반례는 단순한 반대 주장보다 더 큰 무게를 가진다. 이런 이유로 [코사이언티스트](./coscientist)는 주장뿐 아니라 공격에 대해서도 [증거 구간](./evidence-span)과 [출처 정보](./provenance)를 추적한다.

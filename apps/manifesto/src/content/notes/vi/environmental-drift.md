@@ -7,7 +7,7 @@ Trôi dạt môi trường là một nhóm của [các hiện tượng trôi d�
 
 ## Hình thức chính
 
-- [Tính không dừng (Nonstationarity)](./nonstationarity) — khi quá trình tạo ra dữ liệu thay đổi theo thời gian
+- [Tính không dừng ](./nonstationarity) — khi quá trình tạo ra dữ liệu thay đổi theo thời gian
 
 ## Vì sao điều này quan trọng
 

@@ -3,8 +3,8 @@ title: Üçlü Ayrım
 description: Ham metni, normalize edilmiş iddiaları ve açık ilişkileri birbirinden ayıran mimari kural
 ---
 
-Üçlü ayrım, bir [Diyalektik Graf](./dialectical-graph) içinde üç katmanı birbirinden ayrı tutan mimari kuraldır: özgün metin, alıntılanabilir [kanıt aralıkları](./evidence-span) olarak korunur; [iddialar](./claim) [normalize edilmiş önermelere](./normalized-proposition) ayrıştırılır; ilişkiler ise açık tartışmacı bağlar (argumentative bindings) olarak saklanır (bkz. [Diyalektik Graf Kenarları](./dialectical-graph-edges)).
+Üçlü ayrım, bir [Diyalektik Graf](./dialectical-graph) içinde üç katmanı birbirinden ayrı tutan mimari kuraldır: özgün metin, alıntılanabilir [kanıt aralıkları](./evidence-span) olarak korunur; [iddialar](./claim) [normalize edilmiş önermelere](./normalized-proposition) ayrıştırılır; ilişkiler ise açık tartışmacı bağlar  olarak saklanır (bkz. [Diyalektik Graf Kenarları](./dialectical-graph-edges)).
 
-Bu ayrım, [RAG](./rag-limitations) içinde yaygın bir arıza modunu önler: alıntı kesilmesi (excerpt truncation). Metin, özgün ifade biçimi korunmadan geri getirilip özetlendiğinde, atıf sessizce ortadan kaybolabilir. Üçlü ayrım, bir iddiayı her zaman onu üreten tam kelimelere ve onları üreten [kaynağa](./source) geri izleyebilmenizi sağlar.
+Bu ayrım, [RAG](./rag-limitations) içinde yaygın bir arıza modunu önler: alıntı kesilmesi . Metin, özgün ifade biçimi korunmadan geri getirilip özetlendiğinde, atıf sessizce ortadan kaybolabilir. Üçlü ayrım, bir iddiayı her zaman onu üreten tam kelimelere ve onları üreten [kaynağa](./source) geri izleyebilmenizi sağlar.
 
-Ayrıca yapıyı sorgulanabilir kılarak [bilgi sentezini](./knowledge-synthesis) mümkün kılar. "Bu iddiaya ne saldırıyor?” veya "Bu hangi tanımlara dayanıyor?” diye sorabilirsiniz; çünkü bu ilişkiler ima edilmez, saklanır.
+Ayrıca yapıyı sorgulanabilir kılarak [bilgi sentezini](./knowledge-synthesis) mümkün kılar. "Bu iddiaya ne saldırıyor?" veya "Bu hangi tanımlara dayanıyor?" diye sorabilirsiniz; çünkü bu ilişkiler ima edilmez, saklanır.

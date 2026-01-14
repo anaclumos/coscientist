@@ -3,7 +3,7 @@ title: RAG
 description: Retrieval-Augmented Generation, eine Technik zur Fundierung von KI-Ausgaben in abgerufenen Dokumenten
 ---
 
-RAG (Retrieval-Augmented Generation) ist eine Technik, die die Genauigkeit von KI-Ausgaben verbessert, indem sie relevante Dokumente aus einem Korpus abruft und sie als Kontext für die Generierung verwendet. Anstatt sich ausschließlich auf während des Trainings gelernte Parameter zu verlassen, kann das Modell auf externe Quellen verweisen, wodurch [Halluzinationen](./hallucination) reduziert und Wissen ermöglicht wird, das nicht in den Trainingsdaten enthalten war.
+RAG  ist eine Technik, die die Genauigkeit von KI-Ausgaben verbessert, indem sie relevante Dokumente aus einem Korpus abruft und sie als Kontext für die Generierung verwendet. Anstatt sich ausschließlich auf während des Trainings gelernte Parameter zu verlassen, kann das Modell auf externe Quellen verweisen, wodurch [Halluzinationen](./hallucination) reduziert und Wissen ermöglicht wird, das nicht in den Trainingsdaten enthalten war.
 
 Die Standard-RAG-Pipeline funktioniert wie folgt: Eine Anfrage wird in einen Vektorraum eingebettet, ähnliche Dokumente werden anhand von Vektorähnlichkeit abgerufen, und der abgerufene Text wird einem [LLM](./llm) als Kontext zur Generierung einer Antwort bereitgestellt. Dieser Ansatz ist für Fragebeantwortung, Suche und wissensintensive Aufgaben weit verbreitet.
 

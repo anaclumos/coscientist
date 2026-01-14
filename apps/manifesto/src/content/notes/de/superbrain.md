@@ -10,11 +10,11 @@ Das Supergehirn ist kein Ersatz für menschliche Kognition, sondern ein Verstär
 - speichern, was nicht im Gedächtnis gehalten werden kann
 - abrufen, was sonst verloren ginge
 - in Maßstäben suchen und vergleichen, die für unbehelfliches Denken unmöglich sind
-- über Sprachen hinweg operieren – durch ein [mehrsprachiges Wissensnetz (multilingual knowledge mesh)](./multilingual-knowledge-mesh)
+- über Sprachen hinweg operieren – durch ein [mehrsprachiges Wissensnetz ](./multilingual-knowledge-mesh)
 
 Der Mensch bleibt souverän; das System übernimmt die mechanische Arbeit.
 
-Die mehrsprachige Dimension ist entscheidend. Ein Supergehirn, das auf einen [Sprachraum](./sprachraum) beschränkt ist, ist grundsätzlich limitiert. Echte kognitive Verstärkung bedeutet, [über die Sprachräume hinweg zu denken](./across-the-sprachraums), Wissen zu erschließen – unabhängig davon, in welcher Sprache es ursprünglich festgehalten wurde – und Einsichten durch [sprachübergreifende Synthese (cross-linguistic synthesis)](./cross-linguistic-synthesis) zu bündeln.
+Die mehrsprachige Dimension ist entscheidend. Ein Supergehirn, das auf einen [Sprachraum](./sprachraum) beschränkt ist, ist grundsätzlich limitiert. Echte kognitive Verstärkung bedeutet, [über die Sprachräume hinweg zu denken](./across-the-sprachraums), Wissen zu erschließen – unabhängig davon, in welcher Sprache es ursprünglich festgehalten wurde – und Einsichten durch [sprachübergreifende Synthese ](./cross-linguistic-synthesis) zu bündeln.
 
 [Kozientist](./coscientist) ist die forschungsorientierte Ausprägung dieser Vision: ein Multi-Agenten-[LLM](./llm)-System, das Literatur in jeder Sprache liest und Hypothesen durch strukturierte Vorschlags- und Kritikschleifen diskutiert. Der Supergehirn-Traum ist keine ferne Science-Fiction; er ist das Designziel.
 

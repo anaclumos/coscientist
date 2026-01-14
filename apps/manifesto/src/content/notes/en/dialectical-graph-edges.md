@@ -12,6 +12,6 @@ Common relation types include:
 - Refinement and scope: `refines`, `generalizes`, `specializes`, `depends_on`
 - Provenance and measurement: `cites`, `defines`, `measures`
 - Replication: `replicates`, `fails_to_replicate`
-- Optional topical links: `is_about` (useful, but not epistemic on its own)
+- Optional topical links: `is_about` 
 
-Typed edges enable knowledge updating through rebuttal chains, detection of definition conflicts, and tracking of replication status. These are capabilities that similarity-based retrieval struggles to represent (see [RAG limitations](./rag-limitations)). They also support quality assessment: knowledge quality depends less on the direction of a conclusion and more on the durability of the path that produced it, and edges encode that path structure.
+Typed edges enable knowledge updating through rebuttal chains, detection of definition conflicts, and tracking of replication status. These are capabilities that similarity-based retrieval struggles to represent ). They also support quality assessment: knowledge quality depends less on the direction of a conclusion and more on the durability of the path that produced it, and edges encode that path structure.

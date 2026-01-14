@@ -7,4 +7,4 @@ description: 来自来源的精确引用范围，用于支持或反驳一项主�
 
 在[辩证图](./dialectical-graph)中，证据片段被存储为节点，并通过链接指向其[来源](./source)以及它所关联的主张。这是[三重分离](./triple-separation)的第一层：保留原始文本、规范化主张、关系显式化。
 
-证据片段可以避免在[RAG](./rag-limitations)中出现的摘录截断问题：引用时可能会悄然丢失归因（"B 报告称 A 声称……”），只留下结论，从而切断[责任链](./responsibility-line)。
+证据片段可以避免在[RAG](./rag-limitations)中出现的摘录截断问题：引用时可能会悄然丢失归因（"B 报告称 A 声称……"），只留下结论，从而切断[责任链](./responsibility-line)。

@@ -11,4 +11,4 @@ Trong bản tuyên ngôn này, điều đó quan trọng vì nó gợi mở mộ
 
 - liên kết ghi chú xuyên ngôn ngữ thông qua các khái niệm chung, hình thành một [lưới tri thức đa ngôn ngữ](./multilingual-knowledge-mesh)
 - bảo toàn [độ trung thực của bản dịch](./translation-fidelity) đồng thời gắn cờ [sự mất mát sắc thái khi dịch](./translation-nuance-loss)
-- giữ [nguồn gốc (provenance)](./provenance) để các khẳng định có thể được lần ngược về các nguồn ở ngôn ngữ gốc
+- giữ [nguồn gốc ](./provenance) để các khẳng định có thể được lần ngược về các nguồn ở ngôn ngữ gốc

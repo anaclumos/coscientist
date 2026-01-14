@@ -14,7 +14,7 @@ Evolusi pengetahuan pribadi menelusuri perkembangan alat dan gagasan untuk menge
 
 - [Otak Digital](./digital-brain) — sistem yang mencerminkan dan memperluas pikiran
 - [Kebun Digital](./digital-garden) — catatan publik yang terus berkembang dan saling terhubung
-- [Rimba Digital](./digital-jungle) — ruang pengetahuan berfriksi rendah (low-friction) yang mengorganisasi diri
+- [Rimba Digital](./digital-jungle) — ruang pengetahuan berfriksi rendah  yang mengorganisasi diri
 - [Otak Kedua](./second-brain) — praktik manajemen pengetahuan pribadi
 
 ## Implementasi
@@ -22,7 +22,7 @@ Evolusi pengetahuan pribadi menelusuri perkembangan alat dan gagasan untuk menge
 - [Proyek Aldehyde](./project-aldehyde) — upaya awal [Sunghyun Cho](./sunghyun-cho)
 - [Ekstrakranial](./extracranial) — sistem otak digital pribadi Cho
 - [Memex Multibahasa](./multilingual-memex) — sistem pengetahuan peka bahasa dengan penerjemahan otomatis
-- [Proyek PIRI](./project-piri) — inisiatif penerjemahan yang dibatalkan (menjadi usang oleh agen pengodean AI)
+- [Proyek PIRI](./project-piri) — inisiatif penerjemahan yang dibatalkan 
 
 ## Prinsip Desain
 

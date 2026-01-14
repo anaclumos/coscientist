@@ -3,7 +3,7 @@ title: Supercerveau
 description: La vision d’un exosquelette cognitif externalisé qui amplifie l’intelligence humaine
 ---
 
-Supercerveau (Superbrain) est le terme de [Sunghyun Cho](./sunghyun-cho) pour désigner la vision d’un [exosquelette cognitif](./cognitive-exoskeleton) qui amplifie l’intelligence humaine au-delà des limites biologiques. [Extracrânien](./extracranial) est décrit comme une « Exosuit for Superbrains » : une extension de mémoire externalisée destinée à conserver chaque idée que l’utilisateur a.
+Supercerveau  est le terme de [Sunghyun Cho](./sunghyun-cho) pour désigner la vision d’un [exosquelette cognitif](./cognitive-exoskeleton) qui amplifie l’intelligence humaine au-delà des limites biologiques. [Extracrânien](./extracranial) est décrit comme une « Exosuit for Superbrains » : une extension de mémoire externalisée destinée à conserver chaque idée que l’utilisateur a.
 
 Le supercerveau n’est pas un remplacement de la cognition humaine, mais un amplificateur. Il devrait :
 

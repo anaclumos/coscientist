@@ -3,7 +3,7 @@ title: Limites du RAG
 description: Pourquoi la génération augmentée par récupération standard ne peut pas produire une véritable découverte
 ---
 
-Le [RAG](./rag) (Retrieval-Augmented Generation) améliore la factualité en récupérant des documents pertinents, mais le RAG standard conserve des limitations structurelles pour la production de connaissances. Il récupère des extraits de texte et produit une prose fluide ; il ne représente pas les objets nécessaires à la découverte : affirmations, contre-affirmations, définitions, méthodes, et les relations qui les lient.
+Le [RAG](./rag)  améliore la factualité en récupérant des documents pertinents, mais le RAG standard conserve des limitations structurelles pour la production de connaissances. Il récupère des extraits de texte et produit une prose fluide ; il ne représente pas les objets nécessaires à la découverte : affirmations, contre-affirmations, définitions, méthodes, et les relations qui les lient.
 
 Un mode d’échec est le biais quantitatif. Si de nombreuses sources répètent une affirmation et qu’un petit nombre contient des réfutations décisives ou des contre-exemples, la récupération fondée sur la similarité tend à amplifier la majorité et à lisser les points de bascule. Un seul contre-exemple ou une révision de définition peut avoir plus de poids épistémique qu’une centaine de répétitions, mais il n’est pas nécessairement « plus similaire ».
 

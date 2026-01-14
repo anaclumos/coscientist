@@ -12,7 +12,7 @@ Các nguyên lý khoa học về học tập là những kỹ thuật dựa trê
 - [Lặp lại ngắt quãng](./spaced-repetition) — lên lịch ôn tập theo các khoảng cách ngày càng giãn ra
 - [Hiệu ứng giãn cách](./spacing-effect) — trí nhớ cải thiện với việc luyện tập phân tán
 - [Xen kẽ](./interleaving) — trộn các chủ đề để cải thiện khả năng phân biệt
-- [Siêu học (meta-learning)](./meta-learning) — học về chính cách bạn học
+- [Siêu học ](./meta-learning) — học về chính cách bạn học
 
 ## Hiện tượng
 

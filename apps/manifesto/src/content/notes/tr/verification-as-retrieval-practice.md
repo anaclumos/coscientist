@@ -7,4 +7,4 @@ Geri getirme alıştırması olarak doğrulama, [Operatörün](./operator) doğr
 
 Bu bağlantı önemlidir; çünkü titiz [doğrulamanın](./verification) yalnızca epistemik olarak daha güvenli olmadığını, aynı zamanda öğrenme açısından da daha iyi olduğunu ima eder. Kontrol etme çabası hafızayı güçlendirir. [Akıcılık tuzağı](./fluency-trap) her iki açıdan da başarısız olur: Pürüzsüz düzyazıyı incelemeden kabul etmek ne doğrular ne de öğretir.
 
-[Eşbilimci](./coscientist), anlatının arkasına gizlemek yerine iddiaların yapısını görünür kılarak bunu destekler. [Operatör](./operator), [Diyalektik Grafik](./dialectical-graph) ile etkileşime girdiğinde, öğrenme biliminin (learning science) etkili olduğunu gösterdiği bilişsel çalışmayı gerçekleştirir.
+[Eşbilimci](./coscientist), anlatının arkasına gizlemek yerine iddiaların yapısını görünür kılarak bunu destekler. [Operatör](./operator), [Diyalektik Grafik](./dialectical-graph) ile etkileşime girdiğinde, öğrenme biliminin  etkili olduğunu gösterdiği bilişsel çalışmayı gerçekleştirir.

@@ -3,7 +3,7 @@ title: Sprachraum
 description: A language sphere or domain that shapes thought and knowledge
 ---
 
-Sprachraum (German: "language space" or "language sphere") is the domain defined by a particular language, encompassing not just speakers but the conceptual frameworks, cultural contexts, and knowledge traditions that language carries.
+Sprachraum  is the domain defined by a particular language, encompassing not just speakers but the conceptual frameworks, cultural contexts, and knowledge traditions that language carries.
 
 The term matters for [Coscientist](./coscientist) because knowledge is often siloed by Sprachraum. Scientific literature in Chinese may contain insights invisible to English-only researchers. Technical documentation written in English may be inaccessible to developers who never learned the language. Each Sprachraum is a walled garden with its own flowers.
 

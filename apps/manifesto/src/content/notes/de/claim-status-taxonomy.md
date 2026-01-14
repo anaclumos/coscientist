@@ -16,4 +16,4 @@ Die Taxonomie des Anspruchsstatus definiert die Zustände, die ein [Anspruch](./
 
 Status ist kein einzelner Konfidenzwert. Ein Anspruch kann hinsichtlich der Evidenzdiversität robust sein, aber hinsichtlich des Geltungsbereichs umstritten; er kann in einem Kontext bedingt gestützt und in einem anderen widerlegt sein. Mehrdimensionale Statusmodelle erfassen diese Komplexität.
 
-Übergänge zwischen Zuständen werden durch die Art der Widerlegung (rebuttal) bestimmt, nicht durch die Menge. Ein einzelnes gut belegtes [Gegenbeispiel](./counterexample) kann einen Anspruch von robust zu widerlegt verschieben; viele schwache Einwände können ihn umstritten lassen, ohne ihn zu klären.
+Übergänge zwischen Zuständen werden durch die Art der Widerlegung  bestimmt, nicht durch die Menge. Ein einzelnes gut belegtes [Gegenbeispiel](./counterexample) kann einen Anspruch von robust zu widerlegt verschieben; viele schwache Einwände können ihn umstritten lassen, ohne ihn zu klären.

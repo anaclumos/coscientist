@@ -5,7 +5,7 @@ description: Dialogue and knowledge exchange across language domains
 
 Inter-Sprachraum communication is the exchange of ideas across language boundaries in a way that preserves meaning and enables genuine dialogue. It is not merely translation; it is the ability to think and argue across [Sprachraums](./sprachraum) without losing the essence of what is being communicated.
 
-[Sunghyun Cho](./sunghyun-cho) identifies this as one of the three pillars of [across the Sprachraums](./across-the-sprachraums). The goal is detaching ideas from the specific language they were birthed in so that the essence (the abstraction) can transfer freely and combine with ideas from other linguistic traditions.
+[Sunghyun Cho](./sunghyun-cho) identifies this as one of the three pillars of [across the Sprachraums](./across-the-sprachraums). The goal is detaching ideas from the specific language they were birthed in so that the essence  can transfer freely and combine with ideas from other linguistic traditions.
 
 The challenge is that languages are not isomorphic. Some concepts exist in one language and have no direct equivalent in another. Some distinctions that are grammatically mandatory in one language are optional or absent in another. Inter-Sprachraum communication must navigate these asymmetries without pretending they do not exist.
 

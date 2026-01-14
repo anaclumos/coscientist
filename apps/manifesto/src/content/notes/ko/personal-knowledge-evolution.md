@@ -14,7 +14,7 @@ description: 개인 지식 관리 도구와 아이디어의 역사적 전개
 
 - [디지털 브레인](./digital-brain) — 마음을 모방하고 확장하는 시스템
 - [디지털 가든](./digital-garden) — 공개적으로 진화하는 상호연결된 노트
-- [디지털 정글](./digital-jungle) — 자가 조직화되는 저마찰(low-friction) 지식 공간
+- [디지털 정글](./digital-jungle) — 자가 조직화되는 저마찰 지식 공간
 - [세컨드 브레인](./second-brain) — 개인 지식 관리 실천법
 
 ## 구현

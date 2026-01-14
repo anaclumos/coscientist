@@ -3,7 +3,7 @@ title: RAG-Einschränkungen
 description: Warum Standard Retrieval-Augmented Generation keine echte Entdeckung hervorbringen kann
 ---
 
-[RAG](./rag) (Retrieval-Augmented Generation) verbessert die Faktentreue, indem es relevante Dokumente abruft, aber Standard-RAG hat weiterhin strukturelle Einschränkungen für die Wissensproduktion. Es ruft Textausschnitte ab und erzeugt flüssige Prosa; es repräsentiert jedoch nicht die Objekte, die man für Entdeckung braucht: Behauptungen, Gegenbehauptungen, Definitionen, Methoden und die Beziehungen, die sie miteinander verbinden.
+[RAG](./rag)  verbessert die Faktentreue, indem es relevante Dokumente abruft, aber Standard-RAG hat weiterhin strukturelle Einschränkungen für die Wissensproduktion. Es ruft Textausschnitte ab und erzeugt flüssige Prosa; es repräsentiert jedoch nicht die Objekte, die man für Entdeckung braucht: Behauptungen, Gegenbehauptungen, Definitionen, Methoden und die Beziehungen, die sie miteinander verbinden.
 
 Ein Fehlermodus ist quantitative Verzerrung. Wenn viele Quellen eine Behauptung wiederholen und nur wenige entscheidende Widerlegungen oder Gegenbeispiele enthalten, neigt ähnlichkeitsbasiertes Retrieval dazu, die Mehrheit zu verstärken und die Wendepunkte zu glätten. Ein einzelnes Gegenbeispiel oder eine Definitionsrevision kann mehr epistemisches Gewicht tragen als hundert Wiederholungen, ist aber nicht notwendigerweise „ähnlicher".
 

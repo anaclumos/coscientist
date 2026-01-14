@@ -7,4 +7,4 @@ Düzeltme vs kayma, bir bilgi sisteminin ancak hataları düzeltmenin maliyeti, 
 
 [Epistemik protokol katmanı](./epistemic-protocol-layer), düzeltmeyi ucuz tutmak için tasarlanmıştır. [İzlenebilirlik](./traceability), neyin düzeltilmesi gerektiğini bulabilmeniz anlamına gelir; açık [iddialar](./claim), değişiklikleri tam isabetle hedefleyebilmenizi sağlar; ve [Diyalektik Grafik](./dialectical-graph), güncellemelerin manuel yeniden yazımlar gerektirmek yerine ilişkiler üzerinden yayılmasını sağlar.
 
-[Ansiklopedi Erimesi](./encyclopedia-meltdown), kaymanın kalıcı olarak kazandığında olan şeydir: sistemi temizlemeye kimsenin gücü yetmediği için sistem, "yaklaşık olarak sürdürülen” yanlış bir durağan durum etrafında dengelenir.
+[Ansiklopedi Erimesi](./encyclopedia-meltdown), kaymanın kalıcı olarak kazandığında olan şeydir: sistemi temizlemeye kimsenin gücü yetmediği için sistem, "yaklaşık olarak sürdürülen" yanlış bir durağan durum etrafında dengelenir.

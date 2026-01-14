@@ -3,7 +3,7 @@ title: Ruhun Karanlık Gecesi
 description: Kimliğin yeniden inşasına yol açan derin bir içsel kriz için edebi bir araç
 ---
 
-"Ruhun Karanlık Gecesi" (La noche oscura del alma), kimliğin, inancın ve kişinin benlik-modelinin çöktüğü derin bir içsel krizi adlandırır. Dışarıdan bakıldığında bir çöküş gibi görünebilir; içeriden bakıldığında ise çoğu zaman yeni ölçütler etrafında bir söküm ve yeniden inşadır.
+"Ruhun Karanlık Gecesi" , kimliğin, inancın ve kişinin benlik-modelinin çöktüğü derin bir içsel krizi adlandırır. Dışarıdan bakıldığında bir çöküş gibi görünebilir; içeriden bakıldığında ise çoğu zaman yeni ölçütler etrafında bir söküm ve yeniden inşadır.
 
 İfade, 16. yüzyıldaki dinsel bir bağlamdan doğar; ancak modern kullanım daha geniş biçimde varoluşsal bir çöküş ve yeniden kuruluşa işaret eder. Yaygın bir örüntü şudur: eski ödüller (rahatlık, kesinlik, role dayalı kimlik) artık işe yaramaz; bağlanmalar ve kendini kandırma görünür hale gelir; ve iyileşme önceki duruma dönüş değil, farklı bir değer merkezi altında yeniden örgütlenmedir.
 

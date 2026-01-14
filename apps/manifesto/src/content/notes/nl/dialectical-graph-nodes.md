@@ -8,7 +8,7 @@ In een [Dialectische Graaf](./dialectical-graph) vertegenwoordigen knooppunten e
 - [Claim](./claim) — verifieerbare proposities
 - [Scope](./scope) — voorwaarden voor toepasbaarheid
 - [Assumption](./assumption) — impliciete premissen
-- Definities — termbetekenissen (door de tijd heen gevolgd via [Definition Drift](./definition-drift))
+- Definities — termbetekenissen )
 - [Method](./method) — procedures die bewijs of conclusies genereren
 - Data — metingen of resultaten
 - [Evidence Span](./evidence-span) — exacte geciteerde passages
@@ -18,4 +18,4 @@ In een [Dialectische Graaf](./dialectical-graph) vertegenwoordigen knooppunten e
 
 Deze decompositie voorkomt een veelvoorkomende verwarring: een document is niet één ding. Datzelfde paper kan een definitie introduceren, een claim poneren, bewijs aanhalen en een eerder resultaat weerleggen; elk van die onderdelen moet adresseerbaar blijven als je wilt dat kennis wordt bijgewerkt in plaats van louter geaccumuleerd.
 
-Claimstatus is multidimensionaal in plaats van één enkele vertrouwensscore (zie [Claimstatus-taxonomie](./claim-status-taxonomy)). Overgangen worden minder gedreven door het aantal weerleggingen en meer door het soort weerlegging en of die slaagt op het niveau van scope, aanname, definitie of methode.
+Claimstatus is multidimensionaal in plaats van één enkele vertrouwensscore ). Overgangen worden minder gedreven door het aantal weerleggingen en meer door het soort weerlegging en of die slaagt op het niveau van scope, aanname, definitie of methode.

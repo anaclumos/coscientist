@@ -16,4 +16,4 @@ Taksonomia statusu twierdzeń definiuje stany, jakie [twierdzenie](./claim) moż
 
 Status nie jest pojedynczym wynikiem pewności. Twierdzenie może być robust ze względu na różnorodność dowodów, ale contested co do zakresu; może być conditionally supported w jednym kontekście, a refuted w innym. Wielowymiarowy status oddaje tę złożoność.
 
-Przejścia między stanami są napędzane rodzajem riposty (rebuttal), a nie ich liczbą. Pojedynczy, dobrze udokumentowany [kontrprzykład](./counterexample) może przenieść twierdzenie z robust do refuted; wiele słabych zastrzeżeń może pozostawić je contested bez rozstrzygnięcia.
+Przejścia między stanami są napędzane rodzajem riposty , a nie ich liczbą. Pojedynczy, dobrze udokumentowany [kontrprzykład](./counterexample) może przenieść twierdzenie z robust do refuted; wiele słabych zastrzeżeń może pozostawić je contested bez rozstrzygnięcia.

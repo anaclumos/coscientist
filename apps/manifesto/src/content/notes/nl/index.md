@@ -11,11 +11,11 @@ Dat inzicht vormde het startschot voor [Project Aldehyde](./project-aldehyde), m
 
 Halverwege 2022 implementeerde ik een prototype met een statische-site-pipeline van Obsidian naar het web en noemde het [Extracranial](./extracranial). Het was een persoonlijk digitaal brein dat content automatisch indexeerde, backlinks suggereerde, oude posts liet vergaan tenzij ze als evergreen waren gemarkeerd, en tweetalig opereerde [over de Sprachraums heen](./across-the-sprachraums). Het bevrijdde me van het micromanagen van links en liet me focussen op schrijven en denken.
 
-Maar terwijl ik die persoonlijke wiki bouwde, kwam een groter probleem in beeld: zelfs een perfecte persoonlijke Memex is niet genoeg als de bredere epistemische omgeving is aangetast. Toen generatieve AI alomtegenwoordig werd, verschoof de diepere vraag van "hoe sla ik kennis op?” naar "hoe voorkomen we dat verificatie instort wanneer AI systemen kan overspoelen met plausibele tekst?”
+Maar terwijl ik die persoonlijke wiki bouwde, kwam een groter probleem in beeld: zelfs een perfecte persoonlijke Memex is niet genoeg als de bredere epistemische omgeving is aangetast. Toen generatieve AI alomtegenwoordig werd, verschoof de diepere vraag van "hoe sla ik kennis op?" naar "hoe voorkomen we dat verificatie instort wanneer AI systemen kan overspoelen met plausibele tekst?"
 
 ## Van Digitale Breinen naar Protocollen
 
-Traditionele media dwingen een lineaire structuur af. Kennis in de praktijk is een netwerk. Het "next-gen digital brain” was mijn antwoord op die kloof. De principes waren eenvoudig:
+Traditionele media dwingen een lineaire structuur af. Kennis in de praktijk is een netwerk. Het "next-gen digital brain" was mijn antwoord op die kloof. De principes waren eenvoudig:
 
 - frictieloze invoer — ideeën vastleggen zonder opgedrongen taxonomie
 - geautomatiseerde organisatie — verbanden algorithmisch afleiden
@@ -27,22 +27,22 @@ Handmatig linken kan begrip nog steeds aanscherpen, maar het zou optioneel moete
 
 In 2023 worstelde ik met vragen die verder gingen dan persoonlijke notities. Door AI gegenereerde content bedreigde verificatie zelf. Ik noemde het instortingsscenario [Encyclopedie-ineenstorting](./encyclopedia-meltdown): wanneer AI het initiatief neemt om te schrijven, verdwijnt de [responsibility line](./responsibility-line) en versterken fouten zichzelf via links.
 
-De tegenmaatregel is een [epistemic protocol layer](./epistemic-protocol-layer), een constitutionele laag voor kennissystemen. De kernverplichtingen zijn soevereiniteit (kennisautoriteit blijft bij de menselijke [Operator](./operator)), traceerbaarheid (elke claim behoudt een responsibility line), en rebuttal-first-validatie (gebruik [weerlegging-eerst zoeken](./rebuttal-first-search) om naar tegenbewijs te zoeken vóór acceptatie). Deze laag pakt ook druk aan zoals [modelinstorting](./model-collapse) en de vloed aan [AI-rommel](./ai-slop) door expliciete herkomst (provenance) en zero-trust-inname af te dwingen.
+De tegenmaatregel is een [epistemic protocol layer](./epistemic-protocol-layer), een constitutionele laag voor kennissystemen. De kernverplichtingen zijn soevereiniteit ), traceerbaarheid , en rebuttal-first-validatie  om naar tegenbewijs te zoeken vóór acceptatie). Deze laag pakt ook druk aan zoals [modelinstorting](./model-collapse) en de vloed aan [AI-rommel](./ai-slop) door expliciete herkomst  en zero-trust-inname af te dwingen.
 
 ## ScienceOps en Institutionele Schaal
 
 Persoonlijke kennisinfrastructuur loste gemak op, niet institutionele schaal. De volgende sprong was [ScienceOps](./scienceops): het toepassen van software-operationsdiscipline op wetenschappelijk onderzoek via reproduceerbare experimenten, automatisering en snelle iteratie, terwijl de rol van de [natural science engineer](./natural-science-engineer) werd geïntroduceerd. Wanneer experimenten pipelines worden, geen eenmalige acties, kan de lus tussen hypothese en verificatie dramatisch krimpen.
 
-Het grotere doel is een "GitHub voor wetenschappers” die experimenten behandelt als code: geversioneerd, herhaalbaar en auditbaar. Dat is de operationele context die een cognitieve engine zoals [Cowetenschapper](./coscientist) vereist.
+Het grotere doel is een "GitHub voor wetenschappers" die experimenten behandelt als code: geversioneerd, herhaalbaar en auditbaar. Dat is de operationele context die een cognitieve engine zoals [Cowetenschapper](./coscientist) vereist.
 
 ## Coscientist: Architectuur, Agency en Blueprint
 
 [Cowetenschapper](./coscientist) is het systeem dat deze lijnen samenbrengt. Het is een multi-agent-[Groot taalmodel](./llm)-architectuur die is ontworpen om te functioneren als onderzoekssamenwerker in plaats van als één enkele antwoordenmachine. De interne lus scheidt voorstel, kritiek, rangschikking en verfijning, met een meta-reviewlaag die coherentie, traceerbaarheid en onzekerheid controleert.
 
-Op de kennislaag onderhoudt het een [Dialectische graaf](./dialectical-graph) die claims en relaties opslaat in plaats van ruwe tekst. Narratieve output wordt behandeld als een projectie van een inferentielaag, zodat elke uitspraak kan terugsporen naar bronnen, evidence spans (bewijssegmenten) en expliciete relaties. Deze scheiding vermijdt de "glad maar niet verifieerbaar”-faalmodus van conventionele generatie.
+Op de kennislaag onderhoudt het een [Dialectische graaf](./dialectical-graph) die claims en relaties opslaat in plaats van ruwe tekst. Narratieve output wordt behandeld als een projectie van een inferentielaag, zodat elke uitspraak kan terugsporen naar bronnen, evidence spans  en expliciete relaties. Deze scheiding vermijdt de "glad maar niet verifieerbaar"-faalmodus van conventionele generatie.
 
 Traditionele AI-veiligheid framet het probleem vaak als alignment. Ik leg de nadruk op [cognitive agency preservation](./cognitive-agency-preservation): AI moet menselijk oordeel versterken, niet vervangen. Praktisch betekent dat de gebruiker in de rol van verificateur houden: het werk laten zien, onzekerheid zichtbaar maken, alternatieve hypotheses presenteren en rebuttal-seeking als standaard instellen.
 
-Coscientist is bedoeld als blueprint voor een nieuwe epistemische infrastructuur: frictieloos maar soeverein, snel maar verantwoordingsplichtig, krachtig zonder agency uit te hollen. Het richt zich op drie faalmodi: institutionele brain rot (gemitigeerd door kruisverwijzingen en adversarial review), verificatie-instorting (gemitigeerd door traceerbaarheid en geautomatiseerde rebuttal search), en agency-verlies (gemitigeerd door transparantie en menselijk veto).
+Coscientist is bedoeld als blueprint voor een nieuwe epistemische infrastructuur: frictieloos maar soeverein, snel maar verantwoordingsplichtig, krachtig zonder agency uit te hollen. Het richt zich op drie faalmodi: institutionele brain rot , verificatie-instorting , en agency-verlies .
 
-De langetermijnvisie is een gefedereerd netwerk van Coscientist-instanties op persoonlijke, organisatorische en publieke schaal die gevalideerde kennis uitwisselen terwijl lokale soevereiniteit behouden blijft. Als je een leesroute wilt: begin met [Digitale breinen van de volgende generatie creëren](./creating-next-gen-digital-brains) (persoonlijke tooling), ga dan naar [Encyclopedie-ineenstorting](./encyclopedia-meltdown) en de [epistemic protocol layer](./epistemic-protocol-layer) (de faalmodus en de verdediging), en daarna naar [Dialectische graaf](./dialectical-graph) en [kennissynthese](./knowledge-synthesis) (de architectuur).
+De langetermijnvisie is een gefedereerd netwerk van Coscientist-instanties op persoonlijke, organisatorische en publieke schaal die gevalideerde kennis uitwisselen terwijl lokale soevereiniteit behouden blijft. Als je een leesroute wilt: begin met [Digitale breinen van de volgende generatie creëren](./creating-next-gen-digital-brains) , ga dan naar [Encyclopedie-ineenstorting](./encyclopedia-meltdown) en de [epistemic protocol layer](./epistemic-protocol-layer) , en daarna naar [Dialectische graaf](./dialectical-graph) en [kennissynthese](./knowledge-synthesis) .

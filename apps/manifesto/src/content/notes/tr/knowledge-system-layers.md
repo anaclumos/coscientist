@@ -8,7 +8,7 @@ Bilgi sistemi katmanları, [Eşbilimci](./coscientist) sistemini oluşturan birb
 ## Veri Katmanı
 
 - [Kanıt Aralığı](./evidence-span) — ham alıntılanmış metin, aynen korunur
-- [Kaynak](./source) — izlenebilirlik için köken (provenance) ankrajları
+- [Kaynak](./source) — izlenebilirlik için köken  ankrajları
 
 ## Çıkarım Katmanı
 

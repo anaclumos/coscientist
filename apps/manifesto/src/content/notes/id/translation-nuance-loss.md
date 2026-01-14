@@ -7,7 +7,7 @@ Hilangnya nuansa dalam terjemahan adalah terkikisnya kehalusan semantik ketika g
 
 Ini adalah perhatian utama bagi visi [Sunghyun Cho](./sunghyun-cho) tentang [melintasi Sprachraum](./across-the-sprachraums). Terjemahan mesin membuat konten multibahasa memungkinkan dalam skala besar, tetapi juga membuat hilangnya nuansa menjadi sistematis. Terjemahan yang lancar dapat menyamarkan kesalahan-kesalahan halus, sebagaimana [jebakan kelancaran](./fluency-trap) membuat prosa AI yang mulus tampak akurat padahal mungkin tidak.
 
-Contohnya berlimpah: konsep Jepang seperti "wa" (harmoni, tetapi juga penghindaran konflik langsung yang bergantung pada konteks) tidak berpadanan rapi dengan satu kata bahasa Inggris mana pun. Kata benda majemuk (compound noun) dalam bahasa Jerman memadatkan makna yang dalam bahasa Inggris memerlukan sebuah frasa. Terminologi teknis di satu bidang dapat memiliki konotasi berbeda ketika diterjemahkan ke bahasa lain.
+Contohnya berlimpah: konsep Jepang seperti "wa"  tidak berpadanan rapi dengan satu kata bahasa Inggris mana pun. Kata benda majemuk  dalam bahasa Jerman memadatkan makna yang dalam bahasa Inggris memerlukan sebuah frasa. Terminologi teknis di satu bidang dapat memiliki konotasi berbeda ketika diterjemahkan ke bahasa lain.
 
 Pertahanannya bukan menghindari terjemahan, melainkan mengakui keterbatasannya. [Kosaintis](./coscientist) harus melacak kapan sebuah [klaim](./claim) telah melewati proses terjemahan, mempertahankan sumber bahasa asli dalam [provenans](./provenance), dan menandai bagian-bagian yang mungkin kehilangan nuansa. [Verifikasi](./verification) terhadap konten terjemahan seharusnya mencakup pemeriksaan apakah terjemahan mempertahankan makna yang dimaksud, bukan hanya kata-kata literalnya.
 

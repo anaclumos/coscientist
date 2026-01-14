@@ -3,7 +3,7 @@ title: Menselijke regie bij AI
 description: Principes en mechanismen om mensen de controle te laten houden over AI-ondersteund kenniswerk
 ---
 
-Menselijke regie bij [AI](./ai) is het geheel van principes en mechanismen dat de menselijke [Operator](./operator) de controle laat houden over kenniswerk, zelfs wanneer AI een substantieel deel van de [contemplation labor](./contemplation-labor) (reflectiewerk) uitvoert.
+Menselijke regie bij [AI](./ai) is het geheel van principes en mechanismen dat de menselijke [Operator](./operator) de controle laat houden over kenniswerk, zelfs wanneer AI een substantieel deel van de [contemplation labor](./contemplation-labor)  uitvoert.
 
 ## Kernprincipes
 

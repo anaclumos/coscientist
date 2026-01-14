@@ -3,7 +3,7 @@ title: RAG
 description: Retrieval-Augmented Generation, a technique for grounding AI outputs in retrieved documents
 ---
 
-RAG (Retrieval-Augmented Generation) is a technique that improves AI output accuracy by retrieving relevant documents from a corpus and using them as context for generation. Instead of relying solely on parameters learned during training, the model can reference external sources, reducing [hallucination](./hallucination) and enabling knowledge that was not in the training data.
+RAG  is a technique that improves AI output accuracy by retrieving relevant documents from a corpus and using them as context for generation. Instead of relying solely on parameters learned during training, the model can reference external sources, reducing [hallucination](./hallucination) and enabling knowledge that was not in the training data.
 
 The standard RAG pipeline works as follows: a query is embedded into a vector space, similar documents are retrieved based on vector similarity, and the retrieved text is provided to an [LLM](./llm) as context for generating a response. This approach has become widespread for question-answering, search, and knowledge-intensive tasks.
 

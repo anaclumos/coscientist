@@ -3,7 +3,7 @@ title: Tipado de relaciones vs similitud
 description: Por qué las aristas tipadas resuelven lo que la recuperación basada en similitud no puede
 ---
 
-Tipado de relaciones vs similitud contrapone dos enfoques para conectar conocimiento: la recuperación basada en similitud (como en [RAG](./rag)) pregunta "¿de qué trata esto?", mientras que los grafos con relaciones tipadas (como en el [Grafo Dialéctico](./dialectical-graph)) preguntan "¿qué le hace esto a aquello?"
+Tipado de relaciones vs similitud contrapone dos enfoques para conectar conocimiento: la recuperación basada en similitud ) pregunta "¿de qué trata esto?", mientras que los grafos con relaciones tipadas (como en el [Grafo Dialéctico](./dialectical-graph)) preguntan "¿qué le hace esto a aquello?"
 
 La recuperación por similitud saca a la superficie documentos que usan palabras similares. No puede decirte si esos documentos están de acuerdo, entran en conflicto o abordan preguntas diferentes. Las aristas tipadas—[apoya](./dialectical-graph-edges), [ataca](./attack), [socava](./undercut), [cita](./source)—capturan la relación argumentativa, habilitando preguntas como "¿qué cuestiona esta afirmación?" o "¿de qué supuestos depende esto?"
 

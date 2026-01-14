@@ -3,7 +3,7 @@ title: Các thành phần của đồ thị
 description: Các loại nút và cạnh tạo nên một đồ thị biện chứng
 ---
 
-Các thành phần đồ thị là những khối xây dựng của một [Đồ thị Biện chứng](./dialectical-graph): các loại nút biểu diễn các đối tượng nhận thức luận (epistemic objects) và các loại cạnh biểu diễn các quan hệ giữa chúng.
+Các thành phần đồ thị là những khối xây dựng của một [Đồ thị Biện chứng](./dialectical-graph): các loại nút biểu diễn các đối tượng nhận thức luận  và các loại cạnh biểu diễn các quan hệ giữa chúng.
 
 **Các loại nút** (xem [Các nút của Đồ thị Biện chứng](./dialectical-graph-nodes)):
 
@@ -12,7 +12,7 @@ Các thành phần đồ thị là những khối xây dựng của một [Đồ
 - [Phạm vi](./scope) — các điều kiện áp dụng
 - [Giả định](./assumption) — các tiền đề ngầm
 - [Phương pháp](./method) — các quy trình tạo ra bằng chứng
-- [Nguồn](./source) — các mốc neo về xuất xứ (provenance)
+- [Nguồn](./source) — các mốc neo về xuất xứ 
 - [Phản ví dụ](./counterexample) — các trường hợp làm sai mệnh đề
 - [Nút vấn đề](./issue-node) — các cụm mệnh đề xung đột
 

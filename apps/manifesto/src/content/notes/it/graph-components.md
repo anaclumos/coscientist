@@ -5,7 +5,7 @@ description: I tipi di nodi e archi che compongono un grafo dialettico
 
 I componenti del grafo sono i mattoni di un [Grafo Dialettico](./dialectical-graph): i tipi di nodo che rappresentano oggetti epistemici e i tipi di arco che rappresentano le relazioni tra di essi.
 
-**Tipi di nodo** (vedi [Nodi del Grafo Dialettico](./dialectical-graph-nodes)):
+**Tipi di nodo** ):
 
 - [Affermazione](./claim) — proposizioni verificabili
 - [Estratto di evidenza](./evidence-span) — testo citato esatto dalle fonti
@@ -16,7 +16,7 @@ I componenti del grafo sono i mattoni di un [Grafo Dialettico](./dialectical-gra
 - [Controesempio](./counterexample) — casi che smentiscono le affermazioni
 - [Nodo di questione](./issue-node) — raggruppamenti di affermazioni in collisione
 
-**Tipi di arco** (vedi [Archi del Grafo Dialettico](./dialectical-graph-edges)):
+**Tipi di arco** ):
 
 - [Attacco](./attack) — contestazioni dirette della verità
 - [Undercut](./undercut) — contestazioni dei fondamenti

@@ -1,6 +1,6 @@
 ---
 title: Protocole de consensus multi-IA
-description: Le système d’écriture et de vérification 1+4 (humain + quatre IA)
+description: Le système d’écriture et de vérification 1+4 
 ---
 
 Le Protocole de consensus multi-IA est un flux de travail collaboratif dans lequel l’[Opérateur](./operator) coordonne plusieurs systèmes d’IA afin de réduire le risque d’hallucination d’un modèle unique et d’aider à se prémunir contre la [Fonte de l’Encyclopédie](./encyclopedia-meltdown).
@@ -18,6 +18,6 @@ Le protocole est aussi culturel : il entraîne l’habitude de demander « qu’
 
 ## Limites
 
-L’unanimité n’est pas une preuve de vérité. Les modèles partagent des données d’entraînement et peuvent converger vers des modes d’échec corrélés ; l’accord peut donc refléter un biais partagé plutôt qu’une [vérification](./verification) indépendante (voir [Indépendance des preuves](./evidence-independence)). L’unanimité peut aussi pousser l’écriture vers des formulations prudentes (hedging) ou des affirmations au plus petit dénominateur commun.
+L’unanimité n’est pas une preuve de vérité. Les modèles partagent des données d’entraînement et peuvent converger vers des modes d’échec corrélés ; l’accord peut donc refléter un biais partagé plutôt qu’une [vérification](./verification) indépendante (voir [Indépendance des preuves](./evidence-independence)). L’unanimité peut aussi pousser l’écriture vers des formulations prudentes  ou des affirmations au plus petit dénominateur commun.
 
 Lors d’une revue multi-IA du protocole, il a reçu 2 approbations, 1 objection et 1 mise en attente, ce qui suggère qu’il a besoin de procédures de réfutation plus solides et de règles concernant l’indépendance des preuves.

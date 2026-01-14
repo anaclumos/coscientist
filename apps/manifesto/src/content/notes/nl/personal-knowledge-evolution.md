@@ -22,7 +22,7 @@ De evolutie van persoonlijke kennis volgt de ontwikkeling van tools en ideeën v
 - [Project Aldehyde](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho)'s vroege poging
 - [Extracranial](./extracranial) — Cho's persoonlijke digitale-breinsysteem
 - [Meertalige Memex](./multilingual-memex) — taalbewust kennissysteem met automatische vertaling
-- [Project PIRI](./project-piri) — geannuleerd vertaalinitiatief (achterhaald door AI-coding agents)
+- [Project PIRI](./project-piri) — geannuleerd vertaalinitiatief 
 
 ## Ontwerpprincipe
 

@@ -7,4 +7,4 @@ Sumber adalah titik asal untuk sebuah [rentang bukti](./evidence-span) atau [kla
 
 Tidak semua sumber setara. Sumber primer melaporkan pengamatan asli; sumber sekunder merangkum atau menafsirkan; sumber tersier mengompilasi dari sumber sekunder. Setiap langkah memperkenalkan potensi penyimpangan, dan [Kosaintis](./coscientist) melacak pembedaan ini melalui edge `cites` yang eksplisit di [Graf Dialektik](./dialectical-graph).
 
-Sumber adalah node dalam graf (lihat [Node Graf Dialektik](./dialectical-graph-nodes)) dengan metadata seperti penulis, tanggal, dan konteks. Ketika sebuah klaim dipersoalkan, sumber menyediakan titik awal untuk pemeriksaan ulang.
+Sumber adalah node dalam graf ) dengan metadata seperti penulis, tanggal, dan konteks. Ketika sebuah klaim dipersoalkan, sumber menyediakan titik awal untuk pemeriksaan ulang.

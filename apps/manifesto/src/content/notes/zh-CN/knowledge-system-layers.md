@@ -18,7 +18,7 @@ description: Coscientist 的架构层级
 ## 叙事层
 
 - [叙事层](./narrative-layer) — 图（graph）的可供人阅读的投影
-- 文档是带时间戳的快照，而非"地面真相”（ground truth）
+- 文档是带时间戳的快照，而非"地面真相"（ground truth）
 
 ## 协议层
 

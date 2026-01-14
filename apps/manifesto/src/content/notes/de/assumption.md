@@ -7,4 +7,4 @@ Eine Annahme ist eine implizite Prämisse, von der eine [Behauptung](./claim) ab
 
 Verborgene Annahmen sind eine häufige Quelle falscher Uneinigkeit. Zwei Parteien können zu unterschiedlichen Schlussfolgerungen gelangen, nicht weil sich ihre Belege unterscheiden, sondern weil sie unterschiedliche, nicht ausgesprochene Prämissen über Definitionen, Ausgangsniveaus oder den Kontext haben. Annahmen explizit zu machen ist ein zentraler Schritt der [Wissenssynthese](./knowledge-synthesis).
 
-In einem [Dialektischen Graphen](./dialectical-graph) sind Annahmen Knotentypen (siehe [Knoten im Dialektischen Graphen](./dialectical-graph-nodes)), die über `depends_on`-Kanten mit Behauptungen verbunden sind. Ein [Undercut](./undercut) greift eine Annahme an, statt die Behauptung direkt; fällt die Annahme, verliert die Behauptung ihre Grundlage.
+In einem [Dialektischen Graphen](./dialectical-graph) sind Annahmen Knotentypen ), die über `depends_on`-Kanten mit Behauptungen verbunden sind. Ein [Undercut](./undercut) greift eine Annahme an, statt die Behauptung direkt; fällt die Annahme, verliert die Behauptung ihre Grundlage.

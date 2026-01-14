@@ -13,6 +13,6 @@ Meltdown typically emerges from three coupled loops:
 
 The result is not just "more errors." Writing loses meaning because there is no longer a reliable responsibility line; hallucinations can self-reinforce; contradictions proliferate; and links repackage contamination as authority. Once the attitude "it must be right because the encyclopedia linked it" takes hold, human contemplation degenerates from verification into mere ratification.
 
-Prevention starts with a first principle: sovereignty over knowledge must remain with the [Operator](./operator). In [Coscientist](./coscientist), that shows up as an [epistemic protocol layer](./epistemic-protocol-layer) (including [rebuttal-first search](./rebuttal-first-search) and preserving the [responsibility line](./responsibility-line)), a [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol), and a [Dialectical Graph](./dialectical-graph) that separates inference from narrative.
+Prevention starts with a first principle: sovereignty over knowledge must remain with the [Operator](./operator). In [Coscientist](./coscientist), that shows up as an [epistemic protocol layer](./epistemic-protocol-layer)  and preserving the [responsibility line](./responsibility-line)), a [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol), and a [Dialectical Graph](./dialectical-graph) that separates inference from narrative.
 
 Reference: https://cho.sh/r/C36398.

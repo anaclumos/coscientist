@@ -12,7 +12,7 @@ Graf bileşenleri, bir [Diyalektik Grafın](./dialectical-graph) yapı taşları
 - [Kapsam](./scope) — uygulanabilirlik koşulları
 - [Varsayım](./assumption) — örtük öncüller
 - [Yöntem](./method) — kanıt üretmeye yönelik prosedürler
-- [Kaynak](./source) — köken (provenans) dayanakları
+- [Kaynak](./source) — köken  dayanakları
 - [Karşı Örnek](./counterexample) — iddiaları bozan durumlar
 - [Sorun Düğümü](./issue-node) — çarpışan iddiaların demetleri
 

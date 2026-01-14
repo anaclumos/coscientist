@@ -3,7 +3,7 @@ title: Rozgałęziona mapa rozstrzygnięć
 description: Struktura pokazująca wiele poprawnych wniosków na podstawie różnych definicji lub metod
 ---
 
-Rozgałęziona mapa rozstrzygnięć to struktura, która przedstawia wiele poprawnych wniosków jako gałęzie wychodzące z różnych punktów startowych: definicji, metod lub założeń. Zamiast wymuszać jedną odpowiedź, pokazuje: „jeśli zdefiniujesz X w ten sposób, to A; jeśli zdefiniujesz X w tamten sposób, to B”.
+Rozgałęziona mapa rozstrzygnięć to struktura, która przedstawia wiele poprawnych wniosków jako gałęzie wychodzące z różnych punktów startowych: definicji, metod lub założeń. Zamiast wymuszać jedną odpowiedź, pokazuje: „jeśli zdefiniujesz X w ten sposób, to A; jeśli zdefiniujesz X w tamten sposób, to B".
 
 To jest format wyjściowy dla [syntezy wiedzy](./knowledge-synthesis), gdy niezgodności nie da się rozwiązać do postaci jednej prawdy. Mapa wyraźnie pokazuje, że spór nie dotyczy faktów, lecz przesłanek, a czytelnicy mogą dokładnie zobaczyć, gdzie rozchodzą się wnioski.
 

@@ -3,7 +3,7 @@ title: Superbrain
 description: Visi tentang eksoskeleton kognitif yang dieksternalisasi yang memperkuat kecerdasan manusia
 ---
 
-Superbrain adalah istilah [Sunghyun Cho](./sunghyun-cho) untuk visi tentang sebuah [eksoskeleton kognitif](./cognitive-exoskeleton) yang memperkuat kecerdasan manusia melampaui batas biologis. [Extracranial](./extracranial) dideskripsikan sebagai "Exosuit untuk Superbrains”: perluasan memori yang dieksternalisasi, yang dimaksudkan untuk menampung setiap ide yang dimiliki pengguna.
+Superbrain adalah istilah [Sunghyun Cho](./sunghyun-cho) untuk visi tentang sebuah [eksoskeleton kognitif](./cognitive-exoskeleton) yang memperkuat kecerdasan manusia melampaui batas biologis. [Extracranial](./extracranial) dideskripsikan sebagai "Exosuit untuk Superbrains": perluasan memori yang dieksternalisasi, yang dimaksudkan untuk menampung setiap ide yang dimiliki pengguna.
 
 Superbrain bukan pengganti kognisi manusia, melainkan penguat. Ia seharusnya:
 

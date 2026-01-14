@@ -7,7 +7,7 @@ Translation nuance loss is the stripping away of semantic subtleties when ideas 
 
 This is a central concern for [Sunghyun Cho](./sunghyun-cho)'s vision of [across the Sprachraums](./across-the-sprachraums). Machine translation makes multilingual content feasible at scale, but it also makes nuance loss systematic. A fluent translation can mask subtle errors, just as the [fluency trap](./fluency-trap) makes smooth AI prose seem accurate when it may not be.
 
-Examples abound: a Japanese concept like "wa" (harmony, but also context-dependent avoidance of direct conflict) does not map cleanly to any English word. A German compound noun packs meaning that requires a phrase in English. Technical terminology in one field may have different connotations in another language's translation.
+Examples abound: a Japanese concept like "wa"  does not map cleanly to any English word. A German compound noun packs meaning that requires a phrase in English. Technical terminology in one field may have different connotations in another language's translation.
 
 The defense is not to avoid translation but to acknowledge its limitations. [Coscientist](./coscientist) must track when a [claim](./claim) has passed through translation, preserve the original language source in [provenance](./provenance), and flag places where nuance may have been lost. [Verification](./verification) of translated content should include checking whether the translation preserved the intended meaning, not just the literal words.
 

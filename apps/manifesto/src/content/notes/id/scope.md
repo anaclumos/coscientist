@@ -7,4 +7,4 @@ Ruang lingkup mendefinisikan di mana dan kapan sebuah [klaim](./claim) dimaksudk
 
 Banyak perbedaan pendapat menguap ketika ruang lingkup dibuat eksplisit. Dua studi dapat mencapai kesimpulan yang berlawanan dan keduanya benar jika mereka berlaku untuk populasi atau kondisi yang berbeda. Inilah alasan mengapa [sintesis pengetahuan](./knowledge-synthesis) memisahkan ketidakcocokan berbasis ruang lingkup dari kontradiksi yang sesungguhnya.
 
-Dalam sebuah [Graf Dialektik](./dialectical-graph), ruang lingkup adalah tipe simpul yang terhubung ke klaim (lihat [Simpul Graf Dialektik](./dialectical-graph-nodes)). Ketika sebuah contoh tandingan ditemukan, sistem dapat mempersempit ruang lingkup alih-alih membuang klaim sepenuhnya.
+Dalam sebuah [Graf Dialektik](./dialectical-graph), ruang lingkup adalah tipe simpul yang terhubung ke klaim ). Ketika sebuah contoh tandingan ditemukan, sistem dapat mempersempit ruang lingkup alih-alih membuang klaim sepenuhnya.
