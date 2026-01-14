@@ -6,7 +6,20 @@
       "Bash(mv:*)",
       "Bash(tree:*)",
       "Bash(bun run:*)",
-      "Bash(bun run build:*)"
+      "Bash(bun run build:*)",
+      "Bash(ls:*)",
+      "Bash(bun add:*)",
+      "Bash(bunx lefthook:*)",
+      "Bash(bun remove:*)",
+      "Bash(curl:*)",
+      "Bash(lsof:*)",
+      "Bash(convert:*)",
+      "WebSearch",
+      "WebFetch(domain:github.com)",
+      "WebFetch(domain:vercel.com)",
+      "Bash(bun install:*)",
+      "Bash(git add:*)",
+      "Bash(GIT_AUTHOR_DATE=\"2026-01-14T09:59:59+0900\" GIT_COMMITTER_DATE=\"2026-01-14T09:59:59+0900\" git commit:*)"
     ],
     "deny": [],
     "ask": []
