@@ -1,23 +1,23 @@
 "use client";
 
-import { useMemo } from "react";
-import { motion, AnimatePresence } from "motion/react";
+import { AnimatePresence, motion } from "motion/react";
 import { useTranslations } from "next-intl";
+import { useMemo } from "react";
+import { ScrollArea } from "@/components/ui/scroll-area";
+import { useReducedMotion } from "@/hooks/use-reduced-motion";
+import {
+  paneContentVariants,
+  paneVariants,
+  spineVariants,
+  springQuick,
+  springSubtle,
+} from "@/lib/animations";
+import { buildNoteHref } from "@/lib/note-links";
 import type { Note } from "@/lib/types";
 import { cn } from "@/lib/utils";
-import { buildNoteHref } from "@/lib/note-links";
-import {
-  paneVariants,
-  paneContentVariants,
-  spineVariants,
-  springSubtle,
-  springQuick,
-} from "@/lib/animations";
-import { useReducedMotion } from "@/hooks/use-reduced-motion";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { PreviewLink } from "./preview-link";
 import { usePaneCollapse } from "./pane-container";
 import { PaneSpine } from "./pane-spine";
+import { PreviewLink } from "./preview-link";
 
 interface AllNotesListProps {
   notes: Note[];
@@ -42,7 +42,7 @@ export function AllNotesList({
 
   const sortedNotes = useMemo(
     () => [...notes].sort((a, b) => a.title.localeCompare(b.title)),
-    [notes],
+    [notes]
   );
 
   const stackIndexBySlug = useMemo(() => {
@@ -61,27 +61,27 @@ export function AllNotesList({
 
   return (
     <motion.aside
-      data-pane
-      data-index={index}
-      layout
-      initial={prefersReducedMotion ? false : "initial"}
       animate="animate"
-      exit="exit"
-      variants={paneVariants}
-      transition={transition}
       className={cn(
-        "flex-shrink-0 w-full md:w-1/3 md:min-w-pane-min h-full overflow-hidden",
-        "bg-background border-x border-border relative",
-        "sticky left-0",
+        "h-full w-full flex-shrink-0 overflow-hidden md:w-1/3 md:min-w-pane-min",
+        "relative border-border border-x bg-background",
+        "sticky left-0"
       )}
+      data-index={index}
+      data-pane
+      exit="exit"
+      initial={prefersReducedMotion ? false : "initial"}
+      layout
       style={{
         left: `calc(${index} * var(--pane-spine-width))`,
         zIndex: `calc(var(--z-pane) + ${index})`,
       }}
+      transition={transition}
+      variants={paneVariants}
     >
-      <div className="absolute inset-0 pointer-events-none select-none overflow-hidden">
+      <div className="pointer-events-none absolute inset-0 select-none overflow-hidden">
         <div
-          className="absolute -top-[300px] -right-[100px] w-[800px] h-[800px] opacity-0 dark:opacity-100 transition-opacity duration-1000"
+          className="absolute -top-[300px] -right-[100px] h-[800px] w-[800px] opacity-0 transition-opacity duration-1000 dark:opacity-100"
           style={{
             background:
               "radial-gradient(circle, rgba(255,255,255,0.03) 0%, transparent 70%)",
@@ -89,7 +89,7 @@ export function AllNotesList({
           }}
         />
         <div
-          className="absolute -bottom-[300px] -left-[100px] w-[800px] h-[800px] opacity-0 dark:opacity-100 transition-opacity duration-1000"
+          className="absolute -bottom-[300px] -left-[100px] h-[800px] w-[800px] opacity-0 transition-opacity duration-1000 dark:opacity-100"
           style={{
             background:
               "radial-gradient(circle, rgba(59, 130, 246, 0.05) 0%, transparent 70%)",
@@ -101,45 +101,45 @@ export function AllNotesList({
       <AnimatePresence>
         {isCollapsed && (
           <motion.div
-            key="spine"
-            initial="hidden"
             animate="visible"
-            exit="hidden"
-            variants={spineVariants}
-            transition={quickTransition}
             className="absolute inset-0 z-10"
+            exit="hidden"
+            initial="hidden"
+            key="spine"
+            transition={quickTransition}
+            variants={spineVariants}
           >
-            <PaneSpine index={index} title={t("title")} showIndex={false} />
+            <PaneSpine index={index} showIndex={false} title={t("title")} />
           </motion.div>
         )}
       </AnimatePresence>
 
       <motion.div
-        className="absolute top-0 left-0 bottom-0 w-full h-full"
         animate={isCollapsed ? "collapsed" : "expanded"}
-        variants={paneContentVariants}
+        className="absolute top-0 bottom-0 left-0 h-full w-full"
         transition={transition}
+        variants={paneContentVariants}
       >
         {isCollapsed && (
           <button
-            type="button"
-            onClick={onExpand}
-            className="absolute inset-0 z-overlay cursor-pointer"
             aria-label={`${tPane("expand")} ${t("title")}`}
+            className="absolute inset-0 z-overlay cursor-pointer"
+            onClick={onExpand}
+            type="button"
           >
             <span className="sr-only">{tPane("expand")}</span>
           </button>
         )}
         {isCollapsed && (
-          <div className="absolute left-0 top-0 bottom-0 w-px bg-border z-sticky" />
+          <div className="absolute top-0 bottom-0 left-0 z-sticky w-px bg-border" />
         )}
 
-        <ScrollArea className="h-full relative z-0">
-          <div className="sticky top-0 z-sticky bg-background/80 backdrop-blur-md px-4 pt-4 pb-2 border-b border-border/50">
-            <h2 className="text-2xl font-normal tracking-tight text-foreground dark:text-transparent dark:bg-clip-text dark:bg-gradient-to-br dark:from-white dark:via-white dark:to-neutral-500">
+        <ScrollArea className="relative z-0 h-full">
+          <div className="sticky top-0 z-sticky border-border/50 border-b bg-background/80 px-4 pt-4 pb-2 backdrop-blur-md">
+            <h2 className="font-normal text-2xl text-foreground tracking-tight dark:bg-gradient-to-br dark:from-white dark:via-white dark:to-neutral-500 dark:bg-clip-text dark:text-transparent">
               {t("title")}
             </h2>
-            <p className="text-sm text-muted-foreground mt-1 font-mono">
+            <p className="mt-1 font-mono text-muted-foreground text-sm">
               {t("noteCount", { count: notes.length })}
             </p>
           </div>
@@ -159,19 +159,19 @@ export function AllNotesList({
                     >
                       <span
                         className={cn(
-                          "flex items-center gap-3 py-2 px-3 rounded-md text-sm transition-all duration-150",
+                          "flex items-center gap-3 rounded-md px-3 py-2 text-sm transition-all duration-150",
                           "hover:bg-muted/50 dark:hover:bg-white/5",
                           isInStack
-                            ? "bg-primary/5 dark:bg-white/5 text-foreground"
-                            : "text-muted-foreground hover:text-foreground",
+                            ? "bg-primary/5 text-foreground dark:bg-white/5"
+                            : "text-muted-foreground hover:text-foreground"
                         )}
                       >
                         <span
                           className={cn(
-                            "flex-shrink-0 w-6 text-[10px] font-mono tabular-nums",
+                            "w-6 flex-shrink-0 font-mono text-[10px] tabular-nums",
                             isInStack
                               ? "text-primary dark:text-white/70"
-                              : "text-muted-foreground/30",
+                              : "text-muted-foreground/30"
                           )}
                         >
                           {isInStack

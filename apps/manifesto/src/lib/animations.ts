@@ -50,7 +50,7 @@ export const reducedMotion: Transition = {
  */
 export function getTransition(
   prefersReducedMotion: boolean,
-  transition: Transition = springSubtle,
+  transition: Transition = springSubtle
 ): Transition {
   return prefersReducedMotion ? reducedMotion : transition;
 }

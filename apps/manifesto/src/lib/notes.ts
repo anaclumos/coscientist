@@ -2,9 +2,12 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import matter from "gray-matter";
 import { remark } from "remark";
-import html from "remark-html";
 import gfm from "remark-gfm";
-import type { Note, BacklinkInfo } from "./types";
+import html from "remark-html";
+import type { BacklinkInfo, Note } from "./types";
+
+const MD_EXTENSION_REGEX = /\.md$/;
+const TITLE_LINE_REGEX = /^#\s+.+\n+/;
 
 function getNotesDirectory(locale = "en") {
   return path.join(process.cwd(), `src/content/notes/${locale}`);
@@ -30,7 +33,7 @@ function extractOutboundLinks(content: string): string[] {
   const mdMatches = content.matchAll(mdLinkRegex);
   for (const match of mdMatches) {
     const slug = match[2];
-    if (!slug.startsWith("http") && !slug.startsWith("mailto:")) {
+    if (!(slug.startsWith("http") || slug.startsWith("mailto:"))) {
       links.add(slug);
     }
   }
@@ -46,7 +49,7 @@ function extractOutboundLinks(content: string): string[] {
 
 function extractExcerpt(
   content: string,
-  targetSlug: string,
+  targetSlug: string
 ): string | undefined {
   const patterns = [
     new RegExp(`\\[([^\\]]+)\\]\\(\\.?\\/?${targetSlug}(?:\\.md)?\\)`, "i"),
@@ -61,12 +64,16 @@ function extractExcerpt(
       const end = Math.min(content.length, index + match[0].length + 50);
       let excerpt = content.slice(start, end);
 
-      if (start > 0) excerpt = `...${excerpt}`;
-      if (end < content.length) excerpt = `${excerpt}...`;
+      if (start > 0) {
+        excerpt = `...${excerpt}`;
+      }
+      if (end < content.length) {
+        excerpt = `${excerpt}...`;
+      }
 
       const targetLinkPattern = new RegExp(
         `\\[([^\\]]+)\\]\\(\\.?\\/?${targetSlug}(?:\\.md)?\\)`,
-        "gi",
+        "gi"
       );
       excerpt = excerpt.replace(targetLinkPattern, "**$1**");
       excerpt = excerpt.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1");
@@ -98,7 +105,7 @@ export async function getAllNoteSlugs(locale = "en"): Promise<string[]> {
     const fileNames = await fs.readdir(dirToUse);
     return fileNames
       .filter((name) => name.endsWith(".md"))
-      .map((name) => name.replace(/\.md$/, ""));
+      .map((name) => name.replace(MD_EXTENSION_REGEX, ""));
   } catch (error) {
     if (isMissingFile(error)) {
       return [];
@@ -108,10 +115,10 @@ export async function getAllNoteSlugs(locale = "en"): Promise<string[]> {
 }
 
 function generateExcerpt(content: string, maxLength = 300): string {
-  const withoutTitle = content.replace(/^#\s+.+\n+/, "");
+  const withoutTitle = content.replace(TITLE_LINE_REGEX, "");
   const plainText = withoutTitle
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-    .replace(/[#*_`\[\]]/g, "")
+    .replace(/[#*_`[\]]/g, "")
     .replace(/\n+/g, " ")
     .trim();
 
@@ -125,7 +132,7 @@ function generateExcerpt(content: string, maxLength = 300): string {
 
 export async function getNoteBySlug(
   slug: string,
-  locale = "en",
+  locale = "en"
 ): Promise<Note | null> {
   const notesDir = getNotesDirectory(locale);
   const legacyDir = getLegacyNotesDirectory();
@@ -170,7 +177,7 @@ export async function getNoteBySlug(
 export async function getAllNotes(locale = "en"): Promise<Note[]> {
   const slugs = await getAllNoteSlugs(locale);
   const notes = await Promise.all(
-    slugs.map((slug) => getNoteBySlug(slug, locale)),
+    slugs.map((slug) => getNoteBySlug(slug, locale))
   );
   return notes.filter((note): note is Note => note !== null);
 }
@@ -210,9 +217,9 @@ export async function buildNoteGraph(locale = "en"): Promise<{
   return { notes, backlinks };
 }
 
-export async function getNotesBySlugs(
+export function getNotesBySlugs(
   slugs: string[],
-  locale = "en",
+  locale = "en"
 ): Promise<(Note | null)[]> {
   return Promise.all(slugs.map((slug) => getNoteBySlug(slug, locale)));
 }

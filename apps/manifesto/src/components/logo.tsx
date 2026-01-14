@@ -4,44 +4,21 @@ interface LogoProps {
 }
 
 export function Logo({ className, size = 20 }: LogoProps) {
-  const height = size;
-  const width = (36 / 32) * size;
-
   return (
     <svg
-      width={width}
-      height={height}
-      viewBox="0 0 36 32"
-      fill="none"
-      xmlns="http://www.w3.org/2000/svg"
-      className={className}
       aria-label="Coscientist logo"
+      className={className}
+      fill="none"
+      height={size}
       role="img"
+      viewBox="0 0 32 32"
+      width={size}
+      xmlns="http://www.w3.org/2000/svg"
     >
-      <rect
-        x="0"
-        y="0"
-        width="8"
-        height="32"
-        fill="currentColor"
-        fillOpacity="1"
-      />
-      <rect
-        x="14"
-        y="0"
-        width="8"
-        height="32"
-        fill="currentColor"
-        fillOpacity="0.5"
-      />
-      <rect
-        x="28"
-        y="0"
-        width="8"
-        height="32"
-        fill="currentColor"
-        fillOpacity="0.2"
-      />
+      <rect fill="#0a0a0a" height="32" width="32" />
+      <rect fill="white" fillOpacity="1" height="20" width="6" x="5" y="6" />
+      <rect fill="white" fillOpacity="0.5" height="20" width="6" x="13" y="6" />
+      <rect fill="white" fillOpacity="0.2" height="20" width="6" x="21" y="6" />
     </svg>
   );
 }

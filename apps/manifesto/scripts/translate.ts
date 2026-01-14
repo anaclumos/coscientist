@@ -1,13 +1,14 @@
-import OpenAI from "openai";
 import fs from "node:fs/promises";
 import path from "node:path";
+import OpenAI from "openai";
 
 const openai = new OpenAI();
 
 const CONCURRENCY_LIMIT = 32;
 const MAX_RETRIES = 5;
 const BASE_DELAY_MS = 1000;
-const MAX_DELAY_MS = 32000;
+const MAX_DELAY_MS = 32_000;
+const JSON_EXTRACT_REGEX = /\{[\s\S]*\}/;
 
 interface TranslationTask<T> {
   id: string;
@@ -16,7 +17,7 @@ interface TranslationTask<T> {
 
 async function executeWithConcurrency<T>(
   tasks: TranslationTask<T>[],
-  concurrency: number = CONCURRENCY_LIMIT,
+  concurrency: number = CONCURRENCY_LIMIT
 ): Promise<Map<string, T | Error>> {
   const results = new Map<string, T | Error>();
   const executing = new Set<Promise<void>>();
@@ -29,7 +30,7 @@ async function executeWithConcurrency<T>(
       } catch (error) {
         results.set(
           task.id,
-          error instanceof Error ? error : new Error(String(error)),
+          error instanceof Error ? error : new Error(String(error))
         );
       }
     })();
@@ -49,7 +50,7 @@ async function executeWithConcurrency<T>(
 async function executeWithRetry<T>(
   fn: () => Promise<T>,
   taskId: string,
-  maxRetries: number = MAX_RETRIES,
+  maxRetries: number = MAX_RETRIES
 ): Promise<T> {
   let lastError: Error | undefined;
 
@@ -61,14 +62,14 @@ async function executeWithRetry<T>(
 
       if (attempt === maxRetries) {
         console.error(
-          `✗ ${taskId}: Failed after ${maxRetries + 1} attempts - ${lastError.message}`,
+          `✗ ${taskId}: Failed after ${maxRetries + 1} attempts - ${lastError.message}`
         );
         throw lastError;
       }
 
       const delay = calculateBackoffDelay(attempt);
       console.log(
-        `⟳ ${taskId}: Retry ${attempt + 1}/${maxRetries} in ${delay}ms...`,
+        `⟳ ${taskId}: Retry ${attempt + 1}/${maxRetries} in ${delay}ms...`
       );
       await sleep(delay);
     }
@@ -184,7 +185,7 @@ const ENGLISH_UI = {
 async function translateWithGPT52(
   content: string,
   targetLocale: string,
-  type: "json" | "markdown",
+  type: "json" | "markdown"
 ): Promise<string> {
   const langName = LOCALE_NAMES[targetLocale] || targetLocale;
 
@@ -214,7 +215,7 @@ RULES:
     reasoning: { effort: "high" },
     input: [
       { role: "developer", content: systemPrompt },
-      { role: "user", content: content },
+      { role: "user", content },
     ],
   });
 
@@ -233,7 +234,7 @@ async function translateUI(locales: string[]) {
 
   await fs.writeFile(
     path.join(messagesDir, "en.json"),
-    JSON.stringify(ENGLISH_UI, null, 2),
+    JSON.stringify(ENGLISH_UI, null, 2)
   );
   console.log("✓ en.json (source)");
 
@@ -248,11 +249,13 @@ async function translateUI(locales: string[]) {
         const translated = await translateWithGPT52(
           JSON.stringify(ENGLISH_UI, null, 2),
           locale,
-          "json",
+          "json"
         );
 
-        const jsonMatch = translated.match(/\{[\s\S]*\}/);
-        if (!jsonMatch) throw new Error("No valid JSON in response");
+        const jsonMatch = translated.match(JSON_EXTRACT_REGEX);
+        if (!jsonMatch) {
+          throw new Error("No valid JSON in response");
+        }
 
         JSON.parse(jsonMatch[0]);
         await fs.writeFile(filePath, jsonMatch[0]);
@@ -283,8 +286,8 @@ async function translateMarkdown(locales: string[]) {
   const targetLocales = locales.filter((locale) => locale !== "en");
   await Promise.all(
     targetLocales.map((locale) =>
-      fs.mkdir(path.join(notesDir, locale), { recursive: true }),
-    ),
+      fs.mkdir(path.join(notesDir, locale), { recursive: true })
+    )
   );
 
   const tasks: TranslationTask<void>[] = [];
@@ -309,7 +312,7 @@ async function translateMarkdown(locales: string[]) {
             const translated = await translateWithGPT52(
               content,
               locale,
-              "markdown",
+              "markdown"
             );
             await fs.writeFile(targetPath, translated);
             console.log(`✓ ${locale}/${file}`);

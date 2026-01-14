@@ -5,7 +5,7 @@ export interface StackState {
 
 export function parseStackFromParams(
   rootSlug: string,
-  searchParams: URLSearchParams,
+  searchParams: URLSearchParams
 ): StackState {
   const stackParam = searchParams.get("stack");
   const focusParam = searchParams.get("focus");
@@ -41,13 +41,17 @@ export function serializeStackToParams(stack: string[]): string {
 }
 
 export function buildStackUrl(stack: string[], focusIndex?: number): string {
-  if (stack.length === 0) return "/";
+  if (stack.length === 0) {
+    return "/";
+  }
 
   const rootSlug = stack[0];
   const stackParams = serializeStackToParams(stack);
 
   const params: string[] = [];
-  if (stackParams) params.push(stackParams);
+  if (stackParams) {
+    params.push(stackParams);
+  }
   if (focusIndex !== undefined && focusIndex !== stack.length - 1) {
     params.push(`focus=${focusIndex}`);
   }
@@ -59,7 +63,7 @@ export function buildStackUrl(stack: string[], focusIndex?: number): string {
 export function pushToStack(
   currentStack: string[],
   newSlug: string,
-  fromIndex: number,
+  fromIndex: number
 ): string[] {
   if (currentStack.length === 0) {
     return [newSlug];

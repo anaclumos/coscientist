@@ -1,15 +1,15 @@
 "use client";
 
-import { Suspense, useMemo, useState, useCallback } from "react";
 import { AnimatePresence, LayoutGroup } from "motion/react";
-import type { Note, BacklinkInfo } from "@/lib/types";
-import { useNoteStack } from "@/lib/use-note-stack";
-import { useKeyboardNavigation } from "@/components/keyboard-navigation";
-import { PaneContainer } from "@/components/pane-container";
-import { NotePane } from "@/components/note-pane";
+import { Suspense, useCallback, useMemo, useState } from "react";
 import { AllNotesList } from "@/components/all-notes-list";
+import { useKeyboardNavigation } from "@/components/keyboard-navigation";
+import { NotePane } from "@/components/note-pane";
+import { PaneContainer } from "@/components/pane-container";
 import { NotePreviewProvider } from "@/components/preview-link";
 import { Spinner } from "@/components/ui/spinner";
+import type { BacklinkInfo, Note } from "@/lib/types";
+import { useNoteStack } from "@/lib/use-note-stack";
 
 interface NotesPageClientProps {
   rootSlug: string;
@@ -28,7 +28,7 @@ function NotesContent({
   const { stack, focusIndex, pushNote, popNote, focusPane, setStack } =
     useNoteStack(rootSlug);
   const [keyboardFocusIndex, setKeyboardFocusIndex] = useState(() =>
-    Math.max(0, initialNotesData.length - 1),
+    Math.max(0, initialNotesData.length - 1)
   );
   const [prevLength, setPrevLength] = useState(initialNotesData.length);
 
@@ -59,7 +59,7 @@ function NotesContent({
     (slug: string, fromPaneIndex: number) => {
       pushNote(slug, fromPaneIndex);
     },
-    [pushNote],
+    [pushNote]
   );
 
   const handleExpandPane = useCallback(
@@ -69,24 +69,26 @@ function NotesContent({
         focusPane(index);
       }
     },
-    [focusPane, stack.length],
+    [focusPane, stack.length]
   );
 
   const handleAllNotesClick = useCallback(
     (slug: string) => {
       pushNote(slug, stack.length - 1);
     },
-    [pushNote, stack.length],
+    [pushNote, stack.length]
   );
 
   const handleClosePane = useCallback(
     (index: number) => {
-      if (index === 0 || stack.length <= 1) return;
+      if (index === 0 || stack.length <= 1) {
+        return;
+      }
       const newStack = [...stack.slice(0, index), ...stack.slice(index + 1)];
       const newFocusIndex = Math.min(index, newStack.length - 1);
       setStack(newStack, newFocusIndex);
     },
-    [stack, setStack],
+    [stack, setStack]
   );
 
   const mobileData = useMemo(() => {
@@ -110,24 +112,24 @@ function NotesContent({
           <AnimatePresence initial={false} mode="popLayout">
             {initialNotesData.map((data, index) => (
               <NotePane
-                key={`pane-${stack.slice(0, index + 1).join("-")}`}
-                note={data.note}
-                index={index}
-                isFocused={index === keyboardFocusIndex}
-                isClosable={index > 0}
                 backlinks={data.backlinks}
-                onLinkClick={handleLinkClick}
-                onExpand={() => handleExpandPane(index)}
+                index={index}
+                isClosable={index > 0}
+                isFocused={index === keyboardFocusIndex}
+                key={`pane-${index}-${data.note.slug}`}
+                note={data.note}
                 onClose={() => handleClosePane(index)}
+                onExpand={() => handleExpandPane(index)}
+                onLinkClick={handleLinkClick}
               />
             ))}
             <AllNotesList
-              key="all-notes-list"
-              notes={allNotes}
               currentStack={stack}
               index={initialNotesData.length}
-              onNoteClick={handleAllNotesClick}
+              key="all-notes-list"
+              notes={allNotes}
               onExpand={() => handleExpandPane(initialNotesData.length)}
+              onNoteClick={handleAllNotesClick}
             />
           </AnimatePresence>
         </LayoutGroup>

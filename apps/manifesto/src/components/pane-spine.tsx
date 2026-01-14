@@ -20,35 +20,35 @@ export function PaneSpine({
   return (
     <div
       className={cn(
-        "absolute left-0 top-0 bottom-0 w-pane-spine flex flex-col items-center py-4 bg-card/80 backdrop-blur-md border-r border-border/50 z-sticky gap-6 group/spine",
-        className,
+        "group/spine absolute top-0 bottom-0 left-0 z-sticky flex w-pane-spine flex-col items-center gap-6 border-border/50 border-r bg-card/80 py-4 backdrop-blur-md",
+        className
       )}
     >
-      <div className="flex flex-col gap-1 items-center opacity-50 grayscale group-hover/spine:grayscale-0 group-hover/spine:opacity-100 transition-all duration-300">
-        <div className="w-1.5 h-6 bg-foreground/90 rounded-sm" />
-        <div className="w-1.5 h-6 bg-foreground/50 rounded-sm" />
-        <div className="w-1.5 h-6 bg-foreground/20 rounded-sm" />
+      <div className="flex flex-col items-center gap-1 opacity-50 grayscale transition-all duration-300 group-hover/spine:opacity-100 group-hover/spine:grayscale-0">
+        <div className="h-6 w-1.5 rounded-sm bg-foreground/90" />
+        <div className="h-6 w-1.5 rounded-sm bg-foreground/50" />
+        <div className="h-6 w-1.5 rounded-sm bg-foreground/20" />
       </div>
 
       {showIndex && (
-        <span className="text-[10px] font-mono text-muted-foreground/50 font-medium">
+        <span className="font-medium font-mono text-[10px] text-muted-foreground/50">
           {index < 10 ? `0${index}` : index}
         </span>
       )}
 
-      <div className="flex-1 w-full relative flex items-start justify-center overflow-hidden pt-2">
+      <div className="relative flex w-full flex-1 items-start justify-center overflow-hidden pt-2">
         <div
-          className="flex items-center gap-2 absolute"
+          className="absolute flex items-center gap-2"
           style={{
             writingMode: "vertical-rl",
             textOrientation: "sideways",
           }}
         >
-          <span className="text-sm font-medium text-foreground whitespace-nowrap tracking-wide">
+          <span className="whitespace-nowrap font-medium text-foreground text-sm tracking-wide">
             {title}
           </span>
           {description && (
-            <span className="text-xs text-muted-foreground/50 whitespace-nowrap">
+            <span className="whitespace-nowrap text-muted-foreground/50 text-xs">
               {description}
             </span>
           )}

@@ -3,7 +3,7 @@ import type { NextRequest } from "next/server";
 import { getFontsForLocale } from "@/lib/og/fonts";
 
 export const runtime = "edge";
-export const revalidate = 86400;
+export const revalidate = 86_400;
 
 const OG_WIDTH = 2400;
 const OG_HEIGHT = 1260;
@@ -177,6 +177,6 @@ export async function GET(request: NextRequest) {
         weight: font.weight,
         style: font.style,
       })),
-    },
+    }
   );
 }

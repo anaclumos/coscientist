@@ -27,7 +27,7 @@ function SelectTrigger({
         size === "sm" &&
           "min-h-8 gap-1.5 px-[calc(--spacing(2.5)-1px)] sm:min-h-7",
         size === "lg" && "min-h-10 sm:min-h-9",
-        className,
+        className
       )}
       data-slot="select-trigger"
       {...props}
@@ -45,7 +45,7 @@ function SelectValue({ className, ...props }: SelectPrimitive.Value.Props) {
     <SelectPrimitive.Value
       className={cn(
         "flex-1 truncate data-placeholder:text-muted-foreground",
-        className,
+        className
       )}
       data-slot="select-value"
       {...props}
@@ -86,7 +86,7 @@ function SelectPopup({
             <SelectPrimitive.List
               className={cn(
                 "max-h-(--available-height) min-w-(--anchor-width) overflow-y-auto p-1",
-                className,
+                className
               )}
               data-slot="select-list"
             >
@@ -114,7 +114,7 @@ function SelectItem({
     <SelectPrimitive.Item
       className={cn(
         "grid min-h-8 in-data-[side=none]:min-w-[calc(var(--anchor-width)+1.25rem)] cursor-default grid-cols-[1rem_1fr] items-center gap-2 rounded-sm py-1 ps-2 pe-4 text-base outline-none data-disabled:pointer-events-none data-highlighted:bg-accent data-highlighted:text-accent-foreground data-disabled:opacity-64 sm:min-h-7 sm:text-sm [&_svg:not([class*='size-'])]:size-4.5 sm:[&_svg:not([class*='size-'])]:size-4 [&_svg]:pointer-events-none [&_svg]:shrink-0",
-        className,
+        className
       )}
       data-slot="select-item"
       {...props}

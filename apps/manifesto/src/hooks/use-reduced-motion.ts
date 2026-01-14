@@ -1,9 +1,9 @@
-import * as React from "react";
+import { useEffect, useState } from "react";
 
 export function useReducedMotion() {
-  const [prefersReducedMotion, setPrefersReducedMotion] = React.useState(false);
+  const [prefersReducedMotion, setPrefersReducedMotion] = useState(false);
 
-  React.useEffect(() => {
+  useEffect(() => {
     const mql = window.matchMedia("(prefers-reduced-motion: reduce)");
     const onChange = (event: MediaQueryListEvent) => {
       setPrefersReducedMotion(event.matches);

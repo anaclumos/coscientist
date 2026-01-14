@@ -1,17 +1,17 @@
 "use client";
 
 import {
-  useRef,
-  useEffect,
-  useState,
-  useCallback,
   createContext,
-  useContext,
   type ReactNode,
+  useCallback,
+  useContext,
+  useEffect,
+  useRef,
+  useState,
 } from "react";
-import { cn } from "@/lib/utils";
 import { useIsMobile } from "@/hooks/use-mobile";
-import type { Note, BacklinkInfo } from "@/lib/types";
+import type { BacklinkInfo, Note } from "@/lib/types";
+import { cn } from "@/lib/utils";
 import { MobilePaneCarousel } from "./mobile-pane-carousel";
 
 interface PaneCollapseContextValue {
@@ -44,13 +44,15 @@ export function PaneContainer({
 }: PaneContainerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [collapsedIndices, setCollapsedIndices] = useState<Set<number>>(
-    new Set(),
+    new Set()
   );
   const collapseThresholdRef = useRef(0);
   const isMobile = useIsMobile();
 
   const getScrollBehavior = useCallback(() => {
-    if (typeof window === "undefined") return "smooth" as const;
+    if (typeof window === "undefined") {
+      return "smooth" as const;
+    }
     return window.matchMedia("(prefers-reduced-motion: reduce)").matches
       ? "auto"
       : "smooth";
@@ -58,12 +60,16 @@ export function PaneContainer({
 
   const updateCollapseThreshold = useCallback(() => {
     const container = containerRef.current;
-    if (!container) return;
+    if (!container) {
+      return;
+    }
 
     const firstPane = container.querySelector(
-      "[data-pane]",
+      "[data-pane]"
     ) as HTMLElement | null;
-    if (!firstPane) return;
+    if (!firstPane) {
+      return;
+    }
 
     const paneWidth = firstPane.offsetWidth;
     const rootStyles = getComputedStyle(document.documentElement);
@@ -77,7 +83,9 @@ export function PaneContainer({
   }, []);
 
   const updateCollapsedIndices = useCallback(() => {
-    if (!containerRef.current) return;
+    if (!containerRef.current) {
+      return;
+    }
 
     if (isMobile) {
       setCollapsedIndices(new Set());
@@ -97,19 +105,27 @@ export function PaneContainer({
     }
 
     setCollapsedIndices((prev) => {
-      if (prev.size !== newCollapsed.size) return newCollapsed;
+      if (prev.size !== newCollapsed.size) {
+        return newCollapsed;
+      }
       for (const i of newCollapsed) {
-        if (!prev.has(i)) return newCollapsed;
+        if (!prev.has(i)) {
+          return newCollapsed;
+        }
       }
       return prev;
     });
   }, [isMobile]);
 
   useEffect(() => {
-    if (isMobile) return;
+    if (isMobile) {
+      return;
+    }
 
     const container = containerRef.current;
-    if (!container) return;
+    if (!container) {
+      return;
+    }
 
     updateCollapseThreshold();
     const frameId = requestAnimationFrame(updateCollapsedIndices);
@@ -121,7 +137,9 @@ export function PaneContainer({
       });
       observer.observe(container);
       const firstPane = container.querySelector("[data-pane]");
-      if (firstPane) observer.observe(firstPane);
+      if (firstPane) {
+        observer.observe(firstPane);
+      }
       return () => {
         cancelAnimationFrame(frameId);
         observer.disconnect();
@@ -140,10 +158,14 @@ export function PaneContainer({
   }, [isMobile, updateCollapseThreshold, updateCollapsedIndices]);
 
   useEffect(() => {
-    if (isMobile) return;
+    if (isMobile) {
+      return;
+    }
 
     const container = containerRef.current;
-    if (!container) return;
+    if (!container) {
+      return;
+    }
 
     container.addEventListener("scroll", updateCollapsedIndices, {
       passive: true,
@@ -153,7 +175,9 @@ export function PaneContainer({
   }, [isMobile, updateCollapsedIndices]);
 
   useEffect(() => {
-    if (isMobile) return;
+    if (isMobile) {
+      return;
+    }
 
     if (containerRef.current) {
       const panes = containerRef.current.querySelectorAll("[data-pane]");
@@ -172,11 +196,11 @@ export function PaneContainer({
   if (isMobile && mobileData) {
     return (
       <MobilePaneCarousel
-        notes={mobileData.notes}
         backlinksMap={mobileData.backlinksMap}
-        onLinkClick={mobileData.onLinkClick}
-        onClose={mobileData.onClose}
         focusIndex={focusIndex}
+        notes={mobileData.notes}
+        onClose={mobileData.onClose}
+        onLinkClick={mobileData.onLinkClick}
       />
     );
   }
@@ -184,13 +208,13 @@ export function PaneContainer({
   return (
     <PaneCollapseContext.Provider value={{ collapsedIndices }}>
       <div
-        ref={containerRef}
         className={cn(
-          "relative flex flex-1 min-h-0 overflow-x-auto overflow-y-hidden",
-          "scroll-smooth bg-background overscroll-x-none",
+          "relative flex min-h-0 flex-1 overflow-x-auto overflow-y-hidden",
+          "overscroll-x-none scroll-smooth bg-background",
           "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20",
-          "md:snap-none snap-x snap-mandatory",
+          "snap-x snap-mandatory md:snap-none"
         )}
+        ref={containerRef}
       >
         {children}
       </div>

@@ -8,16 +8,11 @@
       "outputs": [".next/**", "!.next/cache/**"],
       "env": ["NUCLEO_LICENSE_KEY"]
     },
-    "lint": {
-      "dependsOn": ["^lint"]
-    },
+
     "check-types": {
       "dependsOn": ["^check-types"]
     },
-    "format": {
-      "dependsOn": ["^format"],
-      "cache": false
-    },
+
     "dev": {
       "cache": false,
       "persistent": true

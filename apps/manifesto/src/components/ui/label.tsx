@@ -12,8 +12,8 @@ function Label({
 }: useRender.ComponentProps<"label">) {
   const defaultProps = {
     className: cn(
-      "inline-flex items-center gap-2 text-base/4.5 sm:text-sm/4 font-medium",
-      className,
+      "inline-flex items-center gap-2 font-medium text-base/4.5 sm:text-sm/4",
+      className
     ),
     "data-slot": "label",
   };

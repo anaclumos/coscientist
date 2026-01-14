@@ -1,17 +1,17 @@
 "use client";
 
-import { createContext, useContext, type ReactNode } from "react";
-import type { Note } from "@/lib/types";
+import { createContext, type ReactNode, useContext } from "react";
+import {
+  PreviewCard,
+  PreviewCardPopup,
+  PreviewCardTrigger,
+} from "@/components/ui/preview-card";
 import {
   buildNoteHref,
   isExternalHref,
   normalizeNoteSlug,
 } from "@/lib/note-links";
-import {
-  PreviewCard,
-  PreviewCardTrigger,
-  PreviewCardPopup,
-} from "@/components/ui/preview-card";
+import type { Note } from "@/lib/types";
 
 interface NotePreviewContextValue {
   notesMap: Map<string, Note>;
@@ -69,8 +69,8 @@ export function PreviewLink({ href, children, onClick }: PreviewLinkProps) {
           </a>
         }
       />
-      <PreviewCardPopup side="bottom" align="start" sideOffset={8}>
-        <p className="text-xs text-muted-foreground line-clamp-4">
+      <PreviewCardPopup align="start" side="bottom" sideOffset={8}>
+        <p className="line-clamp-4 text-muted-foreground text-xs">
           {note.excerpt}
         </p>
       </PreviewCardPopup>

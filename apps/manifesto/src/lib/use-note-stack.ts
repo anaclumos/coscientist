@@ -1,12 +1,12 @@
 "use client";
 
-import { useCallback, useMemo } from "react";
 import { useRouter, useSearchParams } from "next/navigation";
+import { useCallback, useMemo } from "react";
 import {
-  parseStackFromParams,
   buildStackUrl,
-  pushToStack,
+  parseStackFromParams,
   popFromStack,
+  pushToStack,
 } from "./stack";
 
 export function useNoteStack(rootSlug: string) {
@@ -23,7 +23,7 @@ export function useNoteStack(rootSlug: string) {
       const newUrl = buildStackUrl(newStack);
       router.push(newUrl);
     },
-    [stack, router],
+    [stack, router]
   );
 
   const popNote = useCallback(() => {
@@ -34,12 +34,16 @@ export function useNoteStack(rootSlug: string) {
 
   const focusPane = useCallback(
     (index: number) => {
-      if (index < 0 || index >= stack.length) return;
-      if (index === focusIndex) return;
+      if (index < 0 || index >= stack.length) {
+        return;
+      }
+      if (index === focusIndex) {
+        return;
+      }
       const newUrl = buildStackUrl(stack, index);
       router.replace(newUrl, { scroll: false });
     },
-    [stack, focusIndex, router],
+    [stack, focusIndex, router]
   );
 
   const setStack = useCallback(
@@ -47,7 +51,7 @@ export function useNoteStack(rootSlug: string) {
       const newUrl = buildStackUrl(newStack, focusIdx);
       router.push(newUrl);
     },
-    [router],
+    [router]
   );
 
   const goBack = useCallback(() => {

@@ -1,23 +1,24 @@
 "use client";
 
-import * as React from "react";
 import {
-  motion,
   AnimatePresence,
-  useMotionValue,
-  useTransform,
   animate,
   type MotionValue,
+  motion,
   type PanInfo,
+  useMotionValue,
+  useSpring,
+  useTransform,
 } from "motion/react";
 import { IconXmarkOutline18 } from "nucleo-ui-outline-18";
-import type { Note, BacklinkInfo } from "@/lib/types";
+import { memo, useCallback, useEffect, useRef } from "react";
+import { ScrollArea } from "@/components/ui/scroll-area";
 import { useReducedMotion } from "@/hooks/use-reduced-motion";
 import { springSubtle } from "@/lib/animations";
-import { ScrollArea } from "@/components/ui/scroll-area";
-import { NoteContent } from "./note-content";
-import { BacklinksSection } from "./backlinks-section";
+import type { BacklinkInfo, Note } from "@/lib/types";
 import { cn } from "@/lib/utils";
+import { BacklinksSection } from "./backlinks-section";
+import { NoteContent } from "./note-content";
 
 interface MobilePaneCarouselProps {
   notes: Note[];
@@ -42,23 +43,25 @@ function SliderNotch({
   activeIndex: MotionValue<number>;
   onTap: () => void;
 }) {
-  const height = useTransform(activeIndex, (v) =>
-    Math.round(v) === index ? 28 : 12,
-  );
-  const opacity = useTransform(activeIndex, (v) =>
-    Math.round(v) === index ? 1 : 0.3,
-  );
+  const isActive = Math.round(activeIndex.get()) === index;
+  const height = useSpring(isActive ? 24 : 12, { duration: 0.2, bounce: 0 });
+  const opacity = useSpring(isActive ? 1 : 0.3, { duration: 0.2, bounce: 0 });
+
+  useEffect(() => {
+    return activeIndex.on("change", (v) => {
+      const active = Math.round(v) === index;
+      animate(height, active ? 24 : 12, { duration: 0.2, bounce: 0 });
+      animate(opacity, active ? 1 : 0.3, { duration: 0.2, bounce: 0 });
+    });
+  }, [activeIndex, index, height, opacity]);
 
   return (
     <button
-      type="button"
+      className="flex h-10 touch-none items-center justify-center px-1"
       onClick={onTap}
-      className="px-1.5 flex items-end justify-center h-10 touch-none"
+      type="button"
     >
-      <motion.div
-        className="w-0.5 rounded-full bg-foreground"
-        style={{ height, opacity }}
-      />
+      <motion.div className="w-1.5 bg-foreground" style={{ height, opacity }} />
     </button>
   );
 }
@@ -78,7 +81,7 @@ function clamp(min: number, value: number, max: number): number {
   return Math.min(Math.max(value, min), max);
 }
 
-const CoverflowPane = React.memo(
+const CoverflowPane = memo(
   function CoverflowPane({
     note,
     index,
@@ -92,13 +95,17 @@ const CoverflowPane = React.memo(
     const coverflowX = useTransform(progress, (p) => (index - p) * 260);
 
     const rotateY = useTransform(progress, (p) => {
-      if (prefersReducedMotion) return 0;
+      if (prefersReducedMotion) {
+        return 0;
+      }
       const offset = (index - p) * 200;
       return clamp(-20, offset * 0.1, 20);
     });
 
     const coverflowScale = useTransform(progress, (p) => {
-      if (prefersReducedMotion) return 1;
+      if (prefersReducedMotion) {
+        return 1;
+      }
       const offset = Math.abs(index - p) * 200;
       return clamp(0.8, 1 - offset * 0.001, 1);
     });
@@ -117,19 +124,19 @@ const CoverflowPane = React.memo(
 
     return (
       <motion.li
-        initial={prefersReducedMotion ? false : "initial"}
         animate="animate"
+        className="pointer-events-none absolute inset-0 flex items-center justify-center"
         exit="exit"
-        variants={paneVariants}
-        transition={transition}
-        className="absolute inset-0 flex items-center justify-center pointer-events-none"
+        initial={prefersReducedMotion ? false : "initial"}
         style={{ zIndex }}
+        transition={transition}
+        variants={paneVariants}
       >
         <motion.article
           className={cn(
-            "w-[92dvw] h-full",
-            "bg-background border border-border rounded-2xl overflow-hidden",
-            "shadow-lg pointer-events-auto",
+            "h-full w-[92dvw]",
+            "overflow-hidden rounded-2xl border border-border bg-background",
+            "pointer-events-auto shadow-lg"
           )}
           style={{
             x: coverflowX,
@@ -144,18 +151,18 @@ const CoverflowPane = React.memo(
           <ScrollArea className="h-full">
             <div className="p-5 pb-10">
               <header className="mb-4 pr-8">
-                <h1 className="text-xl font-semibold text-foreground leading-snug">
+                <h1 className="font-semibold text-foreground text-xl leading-snug">
                   {note.title}
                 </h1>
                 {note.description && (
-                  <p className="mt-2 text-sm text-muted-foreground leading-relaxed">
+                  <p className="mt-2 text-muted-foreground text-sm leading-relaxed">
                     {note.description}
                   </p>
                 )}
               </header>
               <NoteContent note={note} onLinkClick={onLinkClick} />
               {backlinks.length > 0 && (
-                <footer className="mt-6 pt-4 border-t border-border/40">
+                <footer className="mt-6 border-border/40 border-t pt-4">
                   <BacklinksSection
                     backlinks={backlinks}
                     onBacklinkClick={onLinkClick}
@@ -167,13 +174,13 @@ const CoverflowPane = React.memo(
 
           {isClosable && (
             <button
-              type="button"
+              aria-label={`Close ${note.title}`}
+              className="absolute top-3 right-3 z-50 flex size-7 items-center justify-center rounded-full bg-muted/80 text-muted-foreground backdrop-blur-sm transition-colors hover:text-foreground"
               onClick={(e) => {
                 e.stopPropagation();
                 onClose();
               }}
-              className="absolute top-3 right-3 size-7 rounded-full bg-muted/80 backdrop-blur-sm flex items-center justify-center text-muted-foreground hover:text-foreground transition-colors z-50"
-              aria-label={`Close ${note.title}`}
+              type="button"
             >
               <IconXmarkOutline18 className="size-4" />
             </button>
@@ -186,7 +193,7 @@ const CoverflowPane = React.memo(
     prev.note.slug === next.note.slug &&
     prev.index === next.index &&
     prev.isClosable === next.isClosable &&
-    prev.prefersReducedMotion === next.prefersReducedMotion,
+    prev.prefersReducedMotion === next.prefersReducedMotion
 );
 
 export function MobilePaneCarousel({
@@ -198,14 +205,15 @@ export function MobilePaneCarousel({
 }: MobilePaneCarouselProps) {
   const prefersReducedMotion = useReducedMotion();
   const currentIndex = useMotionValue(focusIndex);
-  const containerRef = React.useRef<HTMLDivElement>(null);
-  const prevNotesLengthRef = React.useRef(notes.length);
-  const prevFocusIndexRef = React.useRef(focusIndex);
-  const dragStartIndex = React.useRef(focusIndex);
-  const isInitialMount = React.useRef(true);
-  const isDragging = React.useRef(false);
+  const containerRef = useRef<HTMLDivElement>(null);
+  const prevNotesLengthRef = useRef(notes.length);
+  const prevFocusIndexRef = useRef(focusIndex);
+  const prevFocusedSlugRef = useRef(notes[focusIndex]?.slug);
+  const dragStartIndex = useRef(focusIndex);
+  const isInitialMount = useRef(true);
+  const isDragging = useRef(false);
 
-  const animateToIndex = React.useCallback(
+  const animateToIndex = useCallback(
     (index: number, instant = false) => {
       const clampedIndex = Math.max(0, Math.min(index, notes.length - 1));
       if (prefersReducedMotion || instant) {
@@ -218,23 +226,30 @@ export function MobilePaneCarousel({
         });
       }
     },
-    [notes.length, currentIndex, prefersReducedMotion],
+    [notes.length, currentIndex, prefersReducedMotion]
   );
 
-  React.useEffect(() => {
+  const focusedSlug = notes[focusIndex]?.slug;
+
+  useEffect(() => {
     if (isInitialMount.current) {
       isInitialMount.current = false;
       currentIndex.set(focusIndex);
       dragStartIndex.current = focusIndex;
       prevFocusIndexRef.current = focusIndex;
+      prevFocusedSlugRef.current = focusedSlug;
       return;
     }
 
     const notesAdded = notes.length > prevNotesLengthRef.current;
-    prevNotesLengthRef.current = notes.length;
+    const focusIndexChanged = focusIndex !== prevFocusIndexRef.current;
+    const focusedNoteChanged = focusedSlug !== prevFocusedSlugRef.current;
 
-    if (focusIndex !== prevFocusIndexRef.current) {
-      prevFocusIndexRef.current = focusIndex;
+    prevNotesLengthRef.current = notes.length;
+    prevFocusIndexRef.current = focusIndex;
+    prevFocusedSlugRef.current = focusedSlug;
+
+    if (focusIndexChanged || focusedNoteChanged) {
       if (!isDragging.current) {
         dragStartIndex.current = focusIndex;
       }
@@ -246,28 +261,28 @@ export function MobilePaneCarousel({
         animateToIndex(focusIndex);
       }
     }
-  }, [focusIndex, notes.length, animateToIndex, currentIndex]);
+  }, [focusIndex, focusedSlug, notes.length, animateToIndex, currentIndex]);
 
-  const handleDragStart = React.useCallback(() => {
+  const handleDragStart = useCallback(() => {
     isDragging.current = true;
     dragStartIndex.current = currentIndex.get();
   }, [currentIndex]);
 
-  const handleDrag = React.useCallback(
+  const handleDrag = useCallback(
     (_: unknown, info: PanInfo) => {
       const cardWidth = containerRef.current?.offsetWidth ?? 350;
       const dragProgress = -info.offset.x / cardWidth;
       const newIndex = dragStartIndex.current + dragProgress;
       const clampedIndex = Math.max(
         -0.15,
-        Math.min(newIndex, notes.length - 1 + 0.15),
+        Math.min(newIndex, notes.length - 1 + 0.15)
       );
       currentIndex.set(clampedIndex);
     },
-    [currentIndex, notes.length],
+    [currentIndex, notes.length]
   );
 
-  const handleDragEnd = React.useCallback(
+  const handleDragEnd = useCallback(
     (_: unknown, info: PanInfo) => {
       isDragging.current = false;
       const velocity = info.velocity.x;
@@ -288,23 +303,23 @@ export function MobilePaneCarousel({
 
       const clampedTarget = Math.max(
         0,
-        Math.min(targetIndex, notes.length - 1),
+        Math.min(targetIndex, notes.length - 1)
       );
       dragStartIndex.current = clampedTarget;
       animateToIndex(clampedTarget);
     },
-    [currentIndex, animateToIndex, notes.length],
+    [currentIndex, animateToIndex, notes.length]
   );
 
   return (
-    <div className="flex-1 flex flex-col items-center justify-center overflow-hidden w-full h-full bg-background">
-      <div className="w-full h-12 flex items-center justify-center px-4">
-        <div className="flex items-end justify-center h-10">
+    <div className="flex h-full w-full flex-1 flex-col items-center justify-center overflow-hidden bg-background">
+      <div className="flex h-10 w-full items-center justify-center px-4">
+        <div className="flex h-10 items-end justify-center">
           {notes.map((note, index) => (
             <SliderNotch
-              key={note.slug}
-              index={index}
               activeIndex={currentIndex}
+              index={index}
+              key={`${note.slug}-${index}`}
               onTap={() => animateToIndex(index)}
             />
           ))}
@@ -312,29 +327,29 @@ export function MobilePaneCarousel({
       </div>
 
       <motion.div
-        ref={containerRef}
-        className="flex-1 w-full flex items-center justify-center overflow-hidden relative cursor-grab active:cursor-grabbing"
-        style={{ perspective: 1000 }}
+        className="relative flex w-full flex-1 cursor-grab items-center justify-center overflow-hidden active:cursor-grabbing"
         drag="x"
         dragConstraints={{ left: 0, right: 0 }}
         dragElastic={0.08}
-        onDragStart={handleDragStart}
         onDrag={handleDrag}
         onDragEnd={handleDragEnd}
+        onDragStart={handleDragStart}
+        ref={containerRef}
+        style={{ perspective: 1000 }}
       >
-        <ul className="relative w-full h-full">
+        <ul className="relative h-full w-full">
           <AnimatePresence initial={false} mode="sync">
             {notes.map((note, index) => (
               <CoverflowPane
+                backlinks={backlinksMap.get(note.slug) || []}
+                index={index}
+                isClosable={index > 0}
                 key={`${note.slug}-${index}`}
                 note={note}
-                index={index}
-                backlinks={backlinksMap.get(note.slug) || []}
-                onLinkClick={(slug) => onLinkClick(slug, index)}
                 onClose={() => onClose(index)}
-                isClosable={index > 0}
-                progress={currentIndex}
+                onLinkClick={(slug) => onLinkClick(slug, index)}
                 prefersReducedMotion={prefersReducedMotion}
+                progress={currentIndex}
               />
             ))}
           </AnimatePresence>

@@ -2,14 +2,15 @@
 
 import { useLocale, useTranslations } from "next-intl";
 import { IconLanguageOutline18 } from "nucleo-ui-outline-18";
-import { useRouter, usePathname } from "@/i18n/navigation";
-import { routing, type Locale } from "@/i18n/routing";
+import { Button } from "@/components/ui/button";
 import {
   Select,
-  SelectPopup,
   SelectItem,
+  SelectPopup,
   SelectTrigger,
 } from "@/components/ui/select";
+import { usePathname, useRouter } from "@/i18n/navigation";
+import { type Locale, routing } from "@/i18n/routing";
 import { cn } from "@/lib/utils";
 
 const localeNames: Record<Locale, string> = {
@@ -53,16 +54,19 @@ export function LanguageSwitcher({ className }: { className?: string }) {
   };
 
   return (
-    <Select value={locale} onValueChange={handleChange}>
-      <SelectTrigger
-        className={cn(
-          "size-9 min-w-0 min-h-0 justify-center sm:size-8 [&_[data-slot=select-icon]]:hidden",
-          className,
-        )}
+    <Select onValueChange={handleChange} value={locale}>
+      <Button
         aria-label={t("selectLanguage")}
+        className={cn(
+          "w-auto min-w-0 [&_[data-slot=select-icon]]:hidden",
+          className
+        )}
+        render={<SelectTrigger />}
+        size="icon"
+        variant="outline"
       >
         <IconLanguageOutline18 className="size-[1.2rem]" />
-      </SelectTrigger>
+      </Button>
       <SelectPopup className="max-h-[300px]">
         {routing.locales.map((loc) => (
           <SelectItem key={loc} value={loc}>

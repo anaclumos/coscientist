@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
-import { setRequestLocale, getTranslations } from "next-intl/server";
 import { hasLocale } from "next-intl";
-import { buildNoteGraph, getAllNoteSlugs, getNoteBySlug } from "@/lib/notes";
-import type { Note, BacklinkInfo } from "@/lib/types";
-import { parseStackFromParams } from "@/lib/stack";
+import { getTranslations, setRequestLocale } from "next-intl/server";
 import { routing } from "@/i18n/routing";
+import { buildNoteGraph, getAllNoteSlugs, getNoteBySlug } from "@/lib/notes";
+import { parseStackFromParams } from "@/lib/stack";
+import type { BacklinkInfo, Note } from "@/lib/types";
 import { NotesPageClient } from "./client";
 
 interface PageProps {
@@ -103,7 +103,9 @@ export default async function Page({ params, searchParams }: PageProps) {
   const notesData: NotePaneData[] = [];
   for (const slug of stack) {
     const note = notes.get(slug);
-    if (!note) continue;
+    if (!note) {
+      continue;
+    }
     notesData.push({
       note,
       backlinks: backlinks.get(slug) || [],
@@ -112,9 +114,9 @@ export default async function Page({ params, searchParams }: PageProps) {
 
   return (
     <NotesPageClient
-      rootSlug={rootSlug}
       allNotes={Array.from(notes.values())}
       initialNotesData={notesData}
+      rootSlug={rootSlug}
     />
   );
 }
@@ -122,7 +124,7 @@ export default async function Page({ params, searchParams }: PageProps) {
 export async function generateStaticParams() {
   const slugs = await getAllNoteSlugs();
 
-  const params = [];
+  const params: Array<{ locale: string; slug: string[] | undefined }> = [];
   for (const locale of routing.locales) {
     params.push({ locale, slug: undefined });
     for (const slug of slugs) {

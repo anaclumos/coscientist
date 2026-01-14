@@ -1,19 +1,19 @@
 "use client";
 
-import { useCallback, useMemo } from "react";
 import parse, {
-  domToReact,
-  type HTMLReactParserOptions,
   type DOMNode,
+  domToReact,
   Element,
+  type HTMLReactParserOptions,
 } from "html-react-parser";
 import { IconArrowUpRightOutline18 } from "nucleo-ui-outline-18";
-import type { Note } from "@/lib/types";
+import { useCallback, useMemo } from "react";
 import {
   buildNoteHref,
   isExternalHref,
   normalizeNoteSlug,
 } from "@/lib/note-links";
+import type { Note } from "@/lib/types";
 import { PreviewLink } from "./preview-link";
 
 interface NoteContentProps {
@@ -27,7 +27,7 @@ export function NoteContent({ note, onLinkClick }: NoteContentProps) {
       e.preventDefault();
       onLinkClick(slug);
     },
-    [onLinkClick],
+    [onLinkClick]
   );
 
   const parserOptions = useMemo<HTMLReactParserOptions>(() => {
@@ -35,24 +35,28 @@ export function NoteContent({ note, onLinkClick }: NoteContentProps) {
       replace: (domNode: DOMNode) => {
         if (domNode instanceof Element && domNode.name === "a") {
           const href = domNode.attribs?.href;
-          if (!href) return;
+          if (!href) {
+            return;
+          }
 
           if (isExternalHref(href)) {
             return (
               <a
-                href={href}
-                target="_blank"
-                rel="noopener noreferrer"
                 className={domNode.attribs?.class}
+                href={href}
+                rel="noopener noreferrer"
+                target="_blank"
               >
                 {domToReact(domNode.children as DOMNode[], options)}
-                <IconArrowUpRightOutline18 className="inline-block size-[0.85em] ml-0.5 align-baseline" />
+                <IconArrowUpRightOutline18 className="ml-0.5 inline-block size-[0.85em] align-baseline" />
               </a>
             );
           }
 
           const slug = normalizeNoteSlug(href);
-          if (!slug) return;
+          if (!slug) {
+            return;
+          }
 
           return (
             <PreviewLink
@@ -71,7 +75,7 @@ export function NoteContent({ note, onLinkClick }: NoteContentProps) {
 
   const parsedContent = useMemo(
     () => parse(note.contentHtml, parserOptions),
-    [note.contentHtml, parserOptions],
+    [note.contentHtml, parserOptions]
   );
 
   return <div className="prose-note md:px-4 md:py-3">{parsedContent}</div>;

@@ -4,6 +4,10 @@ const GOOGLE_FONTS_CSS_API = "https://fonts.googleapis.com/css2";
 const TTF_USER_AGENT =
   "Mozilla/5.0 (Macintosh; U; Intel Mac OS X 10_6_8; de-at) AppleWebKit/533.21.1 (KHTML, like Gecko) Version/5.0.5 Safari/533.21.1";
 
+// Regex to extract font URL from Google Fonts CSS
+const FONT_URL_REGEX =
+  /src: url\(([^)]+)\) format\(['"](?:truetype|opentype)['"]\)/;
+
 interface FontConfig {
   family: string;
   weight: number;
@@ -87,16 +91,13 @@ async function fetchGoogleFont(config: FontConfig): Promise<ArrayBuffer> {
 
   if (!cssResponse.ok) {
     throw new Error(
-      `Failed to fetch font CSS: ${cssResponse.status} ${cssResponse.statusText}`,
+      `Failed to fetch font CSS: ${cssResponse.status} ${cssResponse.statusText}`
     );
   }
 
   const css = await cssResponse.text();
 
-  // Regex: src: url(https://fonts.gstatic.com/...) format('truetype'|'opentype')
-  const fontUrlMatch = css.match(
-    /src: url\(([^)]+)\) format\(['"](?:truetype|opentype)['"]\)/,
-  );
+  const fontUrlMatch = css.match(FONT_URL_REGEX);
 
   if (!fontUrlMatch?.[1]) {
     throw new Error(`Could not extract font URL from CSS for ${family}`);
@@ -106,7 +107,7 @@ async function fetchGoogleFont(config: FontConfig): Promise<ArrayBuffer> {
 
   if (!fontResponse.ok) {
     throw new Error(
-      `Failed to fetch font file: ${fontResponse.status} ${fontResponse.statusText}`,
+      `Failed to fetch font file: ${fontResponse.status} ${fontResponse.statusText}`
     );
   }
 
@@ -138,7 +139,7 @@ export function getFacultyGlyphic(): Promise<ArrayBuffer> {
 }
 
 export async function getLocaleFallbackFont(
-  locale: string,
+  locale: string
 ): Promise<OGFont | null> {
   const script = getScriptForLocale(locale);
 

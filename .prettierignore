@@ -1,7 +1,0 @@
-node_modules
-.next
-.turbo
-bun.lock
-*.lock
-dist
-build

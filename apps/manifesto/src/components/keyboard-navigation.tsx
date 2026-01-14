@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useCallback } from "react";
+import { useCallback, useEffect } from "react";
 
 interface KeyboardNavigationProps {
   stackLength: number;
@@ -64,9 +64,12 @@ export function useKeyboardNavigation({
           onFocusChange(upperBound);
           scrollToPane(upperBound);
           break;
+
+        default:
+          break;
       }
     },
-    [focusIndex, stackLength, maxFocusIndex, onFocusChange, onPopStack],
+    [focusIndex, stackLength, maxFocusIndex, onFocusChange, onPopStack]
   );
 
   useEffect(() => {
@@ -103,6 +106,8 @@ function isTextInput(target: EventTarget | null): boolean {
 }
 
 function prefersReducedMotion(): boolean {
-  if (typeof window === "undefined") return false;
+  if (typeof window === "undefined") {
+    return false;
+  }
   return window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 }
