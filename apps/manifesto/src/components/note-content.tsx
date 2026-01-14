@@ -6,6 +6,7 @@ import parse, {
   Element,
   type HTMLReactParserOptions,
 } from "html-react-parser"
+import { useTranslations } from "next-intl"
 import { IconArrowUpRightOutline18 } from "nucleo-ui-outline-18"
 import { useCallback, useMemo } from "react"
 import {
@@ -22,6 +23,7 @@ interface NoteContentProps {
 }
 
 export function NoteContent({ note, onLinkClick }: NoteContentProps) {
+  const t = useTranslations("common")
   const handleInternalLink = useCallback(
     (slug: string, e: React.MouseEvent) => {
       e.preventDefault()
@@ -48,7 +50,11 @@ export function NoteContent({ note, onLinkClick }: NoteContentProps) {
                 target="_blank"
               >
                 {domToReact(domNode.children as DOMNode[], options)}
-                <IconArrowUpRightOutline18 className="ml-0.5 inline-block size-[0.85em] align-baseline" />
+                <IconArrowUpRightOutline18
+                  aria-hidden="true"
+                  className="ml-0.5 inline-block size-[0.85em] align-baseline"
+                />
+                <span className="sr-only"> ({t("opensInNewTab")})</span>
               </a>
             )
           }
@@ -71,7 +77,7 @@ export function NoteContent({ note, onLinkClick }: NoteContentProps) {
     }
 
     return options
-  }, [handleInternalLink])
+  }, [handleInternalLink, t])
 
   const parsedContent = useMemo(
     () => parse(note.contentHtml, parserOptions),

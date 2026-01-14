@@ -4,11 +4,17 @@
     "description": "토큰 ≠ 지식"
   },
   "header": {
-    "title": "Coscientist 선언문"
+    "title": "Coscientist 선언문",
+    "github": "GitHub (새 탭에서 열림)",
+    "twitter": "X (Twitter) (새 탭에서 열림)"
   },
   "allNotes": {
     "title": "전체 노트",
-    "noteCount": "노트 {count}개"
+    "noteCount": "노트 {count}개",
+    "currentlyOpen": "현재 {position}번 위치에 열림"
+  },
+  "mobileCarousel": {
+    "goToNote": "{position}번 노트로 이동: {title}"
   },
   "notePane": {
     "expand": "창 확장",
@@ -42,7 +48,8 @@
   "common": {
     "close": "닫기",
     "remove": "삭제",
-    "loading": "로딩 중"
+    "loading": "로딩 중",
+    "opensInNewTab": "새 탭에서 열림"
   },
   "languageSwitcher": {
     "label": "언어",

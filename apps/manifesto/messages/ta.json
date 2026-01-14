@@ -4,11 +4,14 @@
     "description": "டோகன்கள் ≠ அறிவு"
   },
   "header": {
-    "title": "கோசையன்டிஸ்ட் அறிக்கை"
+    "title": "கோசையன்டிஸ்ட் அறிக்கை",
+    "github": "GitHub (புதிய தாவலில் திறக்கும்)",
+    "twitter": "X (Twitter) (புதிய தாவலில் திறக்கும்)"
   },
   "allNotes": {
     "title": "அனைத்து குறிப்புகள்",
-    "noteCount": "{count} குறிப்புகள்"
+    "noteCount": "{count} குறிப்புகள்",
+    "currentlyOpen": "தற்போது {position} நிலையில் திறக்கப்பட்டுள்ளது"
   },
   "notePane": {
     "expand": "பலகையை விரிவாக்கு",
@@ -16,6 +19,9 @@
     "closeNote": "{title} ஐ மூடு",
     "closePane": "பலகை {index} ஐ மூடு",
     "editOnGitHub": "GitHub-இல் திருத்து"
+  },
+  "mobileCarousel": {
+    "goToNote": "குறிப்பு {position}-க்கு செல்: {title}"
   },
   "backlinks": {
     "singular": "{count} குறிப்பு இதற்கு இணைக்கிறது",
@@ -42,7 +48,8 @@
   "common": {
     "close": "மூடு",
     "remove": "நீக்கு",
-    "loading": "ஏற்றுகிறது"
+    "loading": "ஏற்றுகிறது",
+    "opensInNewTab": "புதிய தாவலில் திறக்கும்"
   },
   "languageSwitcher": {
     "label": "மொழி",

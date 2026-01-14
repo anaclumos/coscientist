@@ -4,11 +4,17 @@
     "description": "Токени ≠ знання"
   },
   "header": {
-    "title": "Маніфест Coscientist"
+    "title": "Маніфест Coscientist",
+    "github": "GitHub (відкривається в новій вкладці)",
+    "twitter": "X (Twitter) (відкривається в новій вкладці)"
   },
   "allNotes": {
     "title": "Усі нотатки",
-    "noteCount": "{count} нотаток"
+    "noteCount": "{count} нотаток",
+    "currentlyOpen": "наразі відкрито на позиції {position}"
+  },
+  "mobileCarousel": {
+    "goToNote": "Перейти до нотатки {position}: {title}"
   },
   "notePane": {
     "expand": "Розгорнути панель",
@@ -42,7 +48,8 @@
   "common": {
     "close": "Закрити",
     "remove": "Видалити",
-    "loading": "Завантаження"
+    "loading": "Завантаження",
+    "opensInNewTab": "відкривається в новій вкладці"
   },
   "languageSwitcher": {
     "label": "Мова",

@@ -4,11 +4,14 @@
     "description": "توکن‌ها ≠ دانش"
   },
   "header": {
-    "title": "مانیفست Coscientist"
+    "title": "مانیفست Coscientist",
+    "github": "GitHub (در تب جدید باز می‌شود)",
+    "twitter": "X (توییتر) (در تب جدید باز می‌شود)"
   },
   "allNotes": {
     "title": "همهٔ یادداشت‌ها",
-    "noteCount": "{count} یادداشت"
+    "noteCount": "{count} یادداشت",
+    "currentlyOpen": "در حال حاضر در موقعیت {position} باز است"
   },
   "notePane": {
     "expand": "باز کردن پنل",
@@ -16,6 +19,9 @@
     "closeNote": "بستن {title}",
     "closePane": "بستن پنل {index}",
     "editOnGitHub": "ویرایش در GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "رفتن به یادداشت {position}: {title}"
   },
   "backlinks": {
     "singular": "{count} یادداشت به این لینک دارد",
@@ -42,7 +48,8 @@
   "common": {
     "close": "بستن",
     "remove": "حذف",
-    "loading": "در حال بارگذاری"
+    "loading": "در حال بارگذاری",
+    "opensInNewTab": "در تب جدید باز می‌شود"
   },
   "languageSwitcher": {
     "label": "زبان",

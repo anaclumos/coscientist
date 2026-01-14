@@ -4,11 +4,17 @@
     "description": "トークン ≠ 知識"
   },
   "header": {
-    "title": "Coscientist マニフェスト"
+    "title": "Coscientist マニフェスト",
+    "github": "GitHub（新しいタブで開く）",
+    "twitter": "X (Twitter)（新しいタブで開く）"
   },
   "allNotes": {
     "title": "すべてのノート",
-    "noteCount": "{count}件のノート"
+    "noteCount": "{count}件のノート",
+    "currentlyOpen": "現在{position}番目に開いています"
+  },
+  "mobileCarousel": {
+    "goToNote": "{position}番目のノートへ移動: {title}"
   },
   "notePane": {
     "expand": "ペインを展開",
@@ -42,7 +48,8 @@
   "common": {
     "close": "閉じる",
     "remove": "削除",
-    "loading": "読み込み中"
+    "loading": "読み込み中",
+    "opensInNewTab": "新しいタブで開く"
   },
   "languageSwitcher": {
     "label": "言語",

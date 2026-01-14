@@ -42,7 +42,7 @@ export function serializeStackToParams(stack: string[]): string {
 
 export function buildStackUrl(stack: string[], focusIndex?: number): string {
   if (stack.length === 0) {
-    return "/"
+    return "/manifesto"
   }
 
   const rootSlug = stack[0]
@@ -56,7 +56,8 @@ export function buildStackUrl(stack: string[], focusIndex?: number): string {
     params.push(`focus=${focusIndex}`)
   }
 
-  const basePath = rootSlug === "index" ? "/" : `/${rootSlug}`
+  const basePath =
+    rootSlug === "index" ? "/manifesto" : `/manifesto/${rootSlug}`
   return `${basePath}${params.length > 0 ? `?${params.join("&")}` : ""}`
 }
 

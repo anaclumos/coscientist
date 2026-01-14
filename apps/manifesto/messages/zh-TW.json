@@ -4,11 +4,17 @@
     "description": "Token ≠ 知識"
   },
   "header": {
-    "title": "共科學家宣言"
+    "title": "共科學家宣言",
+    "github": "GitHub（在新分頁中開啟）",
+    "twitter": "X (Twitter)（在新分頁中開啟）"
   },
   "allNotes": {
     "title": "所有筆記",
-    "noteCount": "{count} 則筆記"
+    "noteCount": "{count} 則筆記",
+    "currentlyOpen": "目前在第 {position} 位開啟"
+  },
+  "mobileCarousel": {
+    "goToNote": "前往第 {position} 則筆記：{title}"
   },
   "notePane": {
     "expand": "展開窗格",
@@ -42,7 +48,8 @@
   "common": {
     "close": "關閉",
     "remove": "移除",
-    "loading": "載入中"
+    "loading": "載入中",
+    "opensInNewTab": "在新分頁中開啟"
   },
   "languageSwitcher": {
     "label": "語言",

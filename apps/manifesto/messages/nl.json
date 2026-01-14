@@ -4,11 +4,17 @@
     "description": "Tokens ≠ kennis"
   },
   "header": {
-    "title": "Coscientist Manifest"
+    "title": "Coscientist Manifest",
+    "github": "GitHub (opent in nieuw tabblad)",
+    "twitter": "X (Twitter) (opent in nieuw tabblad)"
   },
   "allNotes": {
     "title": "Alle notities",
-    "noteCount": "{count} notities"
+    "noteCount": "{count} notities",
+    "currentlyOpen": "momenteel geopend op positie {position}"
+  },
+  "mobileCarousel": {
+    "goToNote": "Ga naar notitie {position}: {title}"
   },
   "notePane": {
     "expand": "Paneel uitklappen",
@@ -42,7 +48,8 @@
   "common": {
     "close": "Sluiten",
     "remove": "Verwijderen",
-    "loading": "Laden"
+    "loading": "Laden",
+    "opensInNewTab": "opent in nieuw tabblad"
   },
   "languageSwitcher": {
     "label": "Taal",

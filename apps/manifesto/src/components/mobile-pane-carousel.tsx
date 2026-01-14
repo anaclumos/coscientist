@@ -10,6 +10,7 @@ import {
   useSpring,
   useTransform,
 } from "motion/react"
+import { useTranslations } from "next-intl"
 import { IconXmarkOutline18 } from "nucleo-ui-outline-18"
 import { memo, useCallback, useEffect, useRef } from "react"
 import { ScrollArea } from "@/components/ui/scroll-area"
@@ -38,10 +39,12 @@ function SliderNotch({
   index,
   activeIndex,
   onTap,
+  ariaLabel,
 }: {
   index: number
   activeIndex: MotionValue<number>
   onTap: () => void
+  ariaLabel: string
 }) {
   const isActive = Math.round(activeIndex.get()) === index
   const height = useSpring(isActive ? 24 : 12, { duration: 0.2, bounce: 0 })
@@ -57,6 +60,7 @@ function SliderNotch({
 
   return (
     <button
+      aria-label={ariaLabel}
       className="flex h-10 touch-none items-center justify-center px-1"
       onClick={onTap}
       type="button"
@@ -75,6 +79,7 @@ interface CoverflowPaneProps {
   isClosable: boolean
   progress: MotionValue<number>
   prefersReducedMotion: boolean
+  closeLabel: string
 }
 
 function clamp(min: number, value: number, max: number): number {
@@ -91,6 +96,7 @@ const CoverflowPane = memo(
     isClosable,
     progress,
     prefersReducedMotion,
+    closeLabel,
   }: CoverflowPaneProps) {
     const coverflowX = useTransform(progress, (p) => (index - p) * 260)
 
@@ -174,7 +180,7 @@ const CoverflowPane = memo(
 
           {isClosable && (
             <button
-              aria-label={`Close ${note.title}`}
+              aria-label={closeLabel}
               className="absolute top-3 right-3 z-50 flex size-7 items-center justify-center rounded-full bg-muted/80 text-muted-foreground backdrop-blur-sm transition-colors hover:text-foreground"
               onClick={(e) => {
                 e.stopPropagation()
@@ -193,7 +199,8 @@ const CoverflowPane = memo(
     prev.note.slug === next.note.slug &&
     prev.index === next.index &&
     prev.isClosable === next.isClosable &&
-    prev.prefersReducedMotion === next.prefersReducedMotion
+    prev.prefersReducedMotion === next.prefersReducedMotion &&
+    prev.closeLabel === next.closeLabel
 )
 
 export function MobilePaneCarousel({
@@ -203,6 +210,8 @@ export function MobilePaneCarousel({
   onClose,
   focusIndex,
 }: MobilePaneCarouselProps) {
+  const t = useTranslations("mobileCarousel")
+  const tPane = useTranslations("notePane")
   const prefersReducedMotion = useReducedMotion()
   const currentIndex = useMotionValue(focusIndex)
   const containerRef = useRef<HTMLDivElement>(null)
@@ -315,6 +324,10 @@ export function MobilePaneCarousel({
           {notes.map((note, index) => (
             <SliderNotch
               activeIndex={currentIndex}
+              ariaLabel={t("goToNote", {
+                position: index + 1,
+                title: note.title,
+              })}
               index={index}
               key={`${note.slug}-${index}`}
               onTap={() => animateToIndex(index)}
@@ -339,6 +352,7 @@ export function MobilePaneCarousel({
             {notes.map((note, index) => (
               <CoverflowPane
                 backlinks={backlinksMap.get(note.slug) || []}
+                closeLabel={tPane("closeNote", { title: note.title })}
                 index={index}
                 isClosable={index > 0}
                 key={`${note.slug}-${index}`}

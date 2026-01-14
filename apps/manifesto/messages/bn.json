@@ -4,11 +4,14 @@
     "description": "টোকেন ≠ জ্ঞান"
   },
   "header": {
-    "title": "কো-সায়েন্টিস্ট ঘোষণা"
+    "title": "কো-সায়েন্টিস্ট ঘোষণা",
+    "github": "GitHub (নতুন ট্যাবে খোলে)",
+    "twitter": "X (Twitter) (নতুন ট্যাবে খোলে)"
   },
   "allNotes": {
     "title": "সব নোট",
-    "noteCount": "{count}টি নোট"
+    "noteCount": "{count}টি নোট",
+    "currentlyOpen": "বর্তমানে {position} অবস্থানে খোলা আছে"
   },
   "notePane": {
     "expand": "প্যান প্রসারিত করুন",
@@ -16,6 +19,9 @@
     "closeNote": "{title} বন্ধ করুন",
     "closePane": "{index} নম্বর প্যান বন্ধ করুন",
     "editOnGitHub": "GitHub-এ সম্পাদনা করুন"
+  },
+  "mobileCarousel": {
+    "goToNote": "নোট {position}-এ যান: {title}"
   },
   "backlinks": {
     "singular": "{count}টি নোট এতে লিঙ্ক করে",
@@ -42,7 +48,8 @@
   "common": {
     "close": "বন্ধ করুন",
     "remove": "সরান",
-    "loading": "লোড হচ্ছে"
+    "loading": "লোড হচ্ছে",
+    "opensInNewTab": "নতুন ট্যাবে খোলে"
   },
   "languageSwitcher": {
     "label": "ভাষা",

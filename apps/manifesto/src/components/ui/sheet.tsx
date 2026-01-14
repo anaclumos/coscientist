@@ -61,11 +61,13 @@ function SheetPopup({
   className,
   children,
   showCloseButton = true,
+  closeButtonLabel = "Close",
   side = "right",
   inset = false,
   ...props
 }: SheetPrimitive.Popup.Props & {
   showCloseButton?: boolean
+  closeButtonLabel?: string
   side?: "right" | "left" | "top" | "bottom"
   inset?: boolean
 }) {
@@ -94,7 +96,7 @@ function SheetPopup({
           {children}
           {showCloseButton && (
             <SheetPrimitive.Close
-              aria-label="Close"
+              aria-label={closeButtonLabel}
               className="absolute end-2 top-2"
               render={<Button size="icon" variant="ghost" />}
             >

@@ -4,11 +4,17 @@
     "description": "Token'lar ≠ Bilgi"
   },
   "header": {
-    "title": "Coscientist Manifestosu"
+    "title": "Coscientist Manifestosu",
+    "github": "GitHub (yeni sekmede açılır)",
+    "twitter": "X (Twitter) (yeni sekmede açılır)"
   },
   "allNotes": {
     "title": "Tüm Notlar",
-    "noteCount": "{count} not"
+    "noteCount": "{count} not",
+    "currentlyOpen": "şu anda {position}. konumda açık"
+  },
+  "mobileCarousel": {
+    "goToNote": "{position}. nota git: {title}"
   },
   "notePane": {
     "expand": "Paneli genişlet",
@@ -42,7 +48,8 @@
   "common": {
     "close": "Kapat",
     "remove": "Kaldır",
-    "loading": "Yükleniyor"
+    "loading": "Yükleniyor",
+    "opensInNewTab": "yeni sekmede açılır"
   },
   "languageSwitcher": {
     "label": "Dil",

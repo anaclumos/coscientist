@@ -4,11 +4,17 @@
     "description": "Token ≠ Tri thức"
   },
   "header": {
-    "title": "Tuyên ngôn Coscientist"
+    "title": "Tuyên ngôn Coscientist",
+    "github": "GitHub (mở trong tab mới)",
+    "twitter": "X (Twitter) (mở trong tab mới)"
   },
   "allNotes": {
     "title": "Tất cả ghi chú",
-    "noteCount": "{count} ghi chú"
+    "noteCount": "{count} ghi chú",
+    "currentlyOpen": "hiện đang mở ở vị trí {position}"
+  },
+  "mobileCarousel": {
+    "goToNote": "Đi tới ghi chú {position}: {title}"
   },
   "notePane": {
     "expand": "Mở rộng khung",
@@ -42,7 +48,8 @@
   "common": {
     "close": "Đóng",
     "remove": "Xóa",
-    "loading": "Đang tải"
+    "loading": "Đang tải",
+    "opensInNewTab": "mở trong tab mới"
   },
   "languageSwitcher": {
     "label": "Ngôn ngữ",

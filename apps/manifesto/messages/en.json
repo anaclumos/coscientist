@@ -4,11 +4,14 @@
     "description": "Tokens ≠ Knowledge"
   },
   "header": {
-    "title": "Coscientist Manifesto"
+    "title": "Coscientist Manifesto",
+    "github": "GitHub (opens in new tab)",
+    "twitter": "X (Twitter) (opens in new tab)"
   },
   "allNotes": {
     "title": "All Notes",
-    "noteCount": "{count} notes"
+    "noteCount": "{count} notes",
+    "currentlyOpen": "currently open at position {position}"
   },
   "notePane": {
     "expand": "Expand pane",
@@ -16,6 +19,9 @@
     "closeNote": "Close {title}",
     "closePane": "Close pane {index}",
     "editOnGitHub": "Edit on GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "Go to note {position}: {title}"
   },
   "backlinks": {
     "singular": "{count} note links to this",
@@ -42,7 +48,8 @@
   "common": {
     "close": "Close",
     "remove": "Remove",
-    "loading": "Loading"
+    "loading": "Loading",
+    "opensInNewTab": "opens in new tab"
   },
   "languageSwitcher": {
     "label": "Language",

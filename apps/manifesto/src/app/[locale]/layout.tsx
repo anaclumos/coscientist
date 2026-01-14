@@ -128,7 +128,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             <header className="sticky top-0 z-50 flex h-16 flex-shrink-0 items-center justify-between border-border border-b bg-card px-6">
               <Link
                 className="flex items-center gap-3 transition-opacity hover:opacity-80"
-                href="/"
+                href="/manifesto"
               >
                 <Logo className="text-foreground" size={20} />
                 <span className="font-semibold text-foreground text-lg">
@@ -144,7 +144,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        <span className="sr-only">GitHub</span>
+                        <span className="sr-only">{t("github")}</span>
                       </a>
                     }
                     size="icon"
@@ -169,7 +169,7 @@ export default async function LocaleLayout({ children, params }: Props) {
                         rel="noopener noreferrer"
                         target="_blank"
                       >
-                        <span className="sr-only">X (Twitter)</span>
+                        <span className="sr-only">{t("twitter")}</span>
                       </a>
                     }
                     size="icon"

@@ -174,6 +174,7 @@ export function AllNotesList({
                         )}
                       >
                         <span
+                          aria-hidden="true"
                           className={cn(
                             "w-6 flex-shrink-0 font-mono text-[10px] tabular-nums",
                             isInStack
@@ -186,6 +187,16 @@ export function AllNotesList({
                             : "—"}
                         </span>
                         <span className="truncate">{note.title}</span>
+                        {isInStack && (
+                          <span className="sr-only">
+                            {" "}
+                            (
+                            {t("currentlyOpen", {
+                              position: stackPosition + 1,
+                            })}
+                            )
+                          </span>
+                        )}
                       </span>
                     </PreviewLink>
                   </li>

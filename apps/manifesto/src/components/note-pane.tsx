@@ -44,6 +44,7 @@ export function NotePane({
   const isCollapsed = collapsedIndices.has(index)
   const prefersReducedMotion = useReducedMotion()
   const t = useTranslations("notePane")
+  const tCommon = useTranslations("common")
   const locale = useLocale()
   const paneRef = useRef<HTMLElement>(null)
 
@@ -182,6 +183,7 @@ export function NotePane({
                 target="_blank"
               >
                 {t("editOnGitHub")}
+                <span className="sr-only"> ({tCommon("opensInNewTab")})</span>
               </a>
             </footer>
           </div>

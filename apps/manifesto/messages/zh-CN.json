@@ -4,11 +4,17 @@
     "description": "Token ≠ 知识"
   },
   "header": {
-    "title": "Coscientist 宣言"
+    "title": "Coscientist 宣言",
+    "github": "GitHub（在新标签页中打开）",
+    "twitter": "X (Twitter)（在新标签页中打开）"
   },
   "allNotes": {
     "title": "全部笔记",
-    "noteCount": "{count} 条笔记"
+    "noteCount": "{count} 条笔记",
+    "currentlyOpen": "当前在第 {position} 位打开"
+  },
+  "mobileCarousel": {
+    "goToNote": "前往第 {position} 条笔记：{title}"
   },
   "notePane": {
     "expand": "展开面板",
@@ -42,7 +48,8 @@
   "common": {
     "close": "关闭",
     "remove": "移除",
-    "loading": "加载中"
+    "loading": "加载中",
+    "opensInNewTab": "在新标签页中打开"
   },
   "languageSwitcher": {
     "label": "语言",

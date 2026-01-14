@@ -4,11 +4,14 @@
     "description": "टोकन ≠ ज्ञान"
   },
   "header": {
-    "title": "कॉसाइंटिस्ट घोषणापत्र"
+    "title": "कॉसाइंटिस्ट घोषणापत्र",
+    "github": "GitHub (नई टैब में खुलता है)",
+    "twitter": "X (Twitter) (नई टैब में खुलता है)"
   },
   "allNotes": {
     "title": "सभी नोट्स",
-    "noteCount": "{count} नोट्स"
+    "noteCount": "{count} नोट्स",
+    "currentlyOpen": "वर्तमान में स्थिति {position} पर खुला है"
   },
   "notePane": {
     "expand": "पैनल फैलाएँ",
@@ -16,6 +19,9 @@
     "closeNote": "{title} बंद करें",
     "closePane": "पैनल {index} बंद करें",
     "editOnGitHub": "GitHub पर संपादित करें"
+  },
+  "mobileCarousel": {
+    "goToNote": "नोट {position} पर जाएं: {title}"
   },
   "backlinks": {
     "singular": "{count} नोट इससे लिंक करता है",
@@ -42,7 +48,8 @@
   "common": {
     "close": "बंद करें",
     "remove": "हटाएँ",
-    "loading": "लोड हो रहा है"
+    "loading": "लोड हो रहा है",
+    "opensInNewTab": "नई टैब में खुलता है"
   },
   "languageSwitcher": {
     "label": "भाषा",

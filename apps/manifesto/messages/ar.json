@@ -4,11 +4,14 @@
     "description": "رموز ≠ المعرفة"
   },
   "header": {
-    "title": "بيان كوساينتست"
+    "title": "بيان كوساينتست",
+    "github": "GitHub (يفتح في نافذة جديدة)",
+    "twitter": "X (تويتر) (يفتح في نافذة جديدة)"
   },
   "allNotes": {
     "title": "كل الملاحظات",
-    "noteCount": "{count} ملاحظات"
+    "noteCount": "{count} ملاحظات",
+    "currentlyOpen": "مفتوح حاليًا في الموضع {position}"
   },
   "notePane": {
     "expand": "توسيع اللوحة",
@@ -16,6 +19,9 @@
     "closeNote": "إغلاق {title}",
     "closePane": "إغلاق اللوحة {index}",
     "editOnGitHub": "تعديل على GitHub"
+  },
+  "mobileCarousel": {
+    "goToNote": "انتقل إلى الملاحظة {position}: {title}"
   },
   "backlinks": {
     "singular": "{count} ملاحظة تشير إلى هذا",
@@ -42,7 +48,8 @@
   "common": {
     "close": "إغلاق",
     "remove": "إزالة",
-    "loading": "جارٍ التحميل"
+    "loading": "جارٍ التحميل",
+    "opensInNewTab": "يفتح في نافذة جديدة"
   },
   "languageSwitcher": {
     "label": "اللغة",

@@ -4,11 +4,17 @@
     "description": "โทเคน ≠ ความรู้"
   },
   "header": {
-    "title": "แถลงการณ์ Coscientist"
+    "title": "แถลงการณ์ Coscientist",
+    "github": "GitHub (เปิดในแท็บใหม่)",
+    "twitter": "X (Twitter) (เปิดในแท็บใหม่)"
   },
   "allNotes": {
     "title": "โน้ตทั้งหมด",
-    "noteCount": "{count} โน้ต"
+    "noteCount": "{count} โน้ต",
+    "currentlyOpen": "เปิดอยู่ในตำแหน่งที่ {position}"
+  },
+  "mobileCarousel": {
+    "goToNote": "ไปที่โน้ตที่ {position}: {title}"
   },
   "notePane": {
     "expand": "ขยายแผง",
@@ -42,7 +48,8 @@
   "common": {
     "close": "ปิด",
     "remove": "ลบ",
-    "loading": "กำลังโหลด"
+    "loading": "กำลังโหลด",
+    "opensInNewTab": "เปิดในแท็บใหม่"
   },
   "languageSwitcher": {
     "label": "ภาษา",

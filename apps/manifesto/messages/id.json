@@ -4,11 +4,17 @@
     "description": "Token ≠ Pengetahuan"
   },
   "header": {
-    "title": "Manifesto Coscientist"
+    "title": "Manifesto Coscientist",
+    "github": "GitHub (buka di tab baru)",
+    "twitter": "X (Twitter) (buka di tab baru)"
   },
   "allNotes": {
     "title": "Semua Catatan",
-    "noteCount": "{count} catatan"
+    "noteCount": "{count} catatan",
+    "currentlyOpen": "saat ini terbuka di posisi {position}"
+  },
+  "mobileCarousel": {
+    "goToNote": "Ke catatan {position}: {title}"
   },
   "notePane": {
     "expand": "Perluas panel",
@@ -42,7 +48,8 @@
   "common": {
     "close": "Tutup",
     "remove": "Hapus",
-    "loading": "Memuat"
+    "loading": "Memuat",
+    "opensInNewTab": "buka di tab baru"
   },
   "languageSwitcher": {
     "label": "Bahasa",

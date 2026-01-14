@@ -4,11 +4,17 @@
     "description": "Tokens ≠ conocimiento"
   },
   "header": {
-    "title": "Manifiesto de Coscientist"
+    "title": "Manifiesto de Coscientist",
+    "github": "GitHub (abre en pestaña nueva)",
+    "twitter": "X (Twitter) (abre en pestaña nueva)"
   },
   "allNotes": {
     "title": "Todas las notas",
-    "noteCount": "{count} notas"
+    "noteCount": "{count} notas",
+    "currentlyOpen": "actualmente abierto en posición {position}"
+  },
+  "mobileCarousel": {
+    "goToNote": "Ir a nota {position}: {title}"
   },
   "notePane": {
     "expand": "Expandir panel",
@@ -42,7 +48,8 @@
   "common": {
     "close": "Cerrar",
     "remove": "Eliminar",
-    "loading": "Cargando"
+    "loading": "Cargando",
+    "opensInNewTab": "abre en pestaña nueva"
   },
   "languageSwitcher": {
     "label": "Idioma",

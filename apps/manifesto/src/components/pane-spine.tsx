@@ -24,7 +24,10 @@ export function PaneSpine({
         className
       )}
     >
-      <div className="flex flex-col items-center gap-1 opacity-50 grayscale transition-all duration-300 group-hover/spine:opacity-100 group-hover/spine:grayscale-0">
+      <div
+        aria-hidden="true"
+        className="flex flex-col items-center gap-1 opacity-50 grayscale transition-all duration-300 group-hover/spine:opacity-100 group-hover/spine:grayscale-0"
+      >
         <div className="h-6 w-1.5 rounded-sm bg-foreground/90" />
         <div className="h-6 w-1.5 rounded-sm bg-foreground/50" />
         <div className="h-6 w-1.5 rounded-sm bg-foreground/20" />

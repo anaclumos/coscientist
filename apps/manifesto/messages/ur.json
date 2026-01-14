@@ -4,11 +4,14 @@
     "description": "ٹوکنز ≠ علم"
   },
   "header": {
-    "title": "کوسائنٹسٹ منشور"
+    "title": "کوسائنٹسٹ منشور",
+    "github": "GitHub (نئے ٹیب میں کھلتا ہے)",
+    "twitter": "X (Twitter) (نئے ٹیب میں کھلتا ہے)"
   },
   "allNotes": {
     "title": "تمام نوٹس",
-    "noteCount": "{count} نوٹس"
+    "noteCount": "{count} نوٹس",
+    "currentlyOpen": "فی الحال پوزیشن {position} پر کھلا ہے"
   },
   "notePane": {
     "expand": "پین کو پھیلائیں",
@@ -16,6 +19,9 @@
     "closeNote": "{title} بند کریں",
     "closePane": "پین {index} بند کریں",
     "editOnGitHub": "GitHub پر ترمیم کریں"
+  },
+  "mobileCarousel": {
+    "goToNote": "نوٹ {position} پر جائیں: {title}"
   },
   "backlinks": {
     "singular": "{count} نوٹ اس سے لنک ہے",
@@ -42,7 +48,8 @@
   "common": {
     "close": "بند کریں",
     "remove": "ہٹائیں",
-    "loading": "لوڈ ہو رہا ہے"
+    "loading": "لوڈ ہو رہا ہے",
+    "opensInNewTab": "نئے ٹیب میں کھلتا ہے"
   },
   "languageSwitcher": {
     "label": "زبان",

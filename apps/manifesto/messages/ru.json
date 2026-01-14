@@ -4,11 +4,17 @@
     "description": "Токены ≠ знание"
   },
   "header": {
-    "title": "Манифест косайентиста"
+    "title": "Манифест косайентиста",
+    "github": "GitHub (откроется в новой вкладке)",
+    "twitter": "X (Twitter) (откроется в новой вкладке)"
   },
   "allNotes": {
     "title": "Все заметки",
-    "noteCount": "{count} заметок"
+    "noteCount": "{count} заметок",
+    "currentlyOpen": "сейчас открыто на позиции {position}"
+  },
+  "mobileCarousel": {
+    "goToNote": "Перейти к заметке {position}: {title}"
   },
   "notePane": {
     "expand": "Развернуть панель",
@@ -42,7 +48,8 @@
   "common": {
     "close": "Закрыть",
     "remove": "Удалить",
-    "loading": "Загрузка"
+    "loading": "Загрузка",
+    "opensInNewTab": "откроется в новой вкладке"
   },
   "languageSwitcher": {
     "label": "Язык",

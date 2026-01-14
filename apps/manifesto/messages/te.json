@@ -4,11 +4,14 @@
     "description": "టోకెన్లు ≠ జ్ఞానం"
   },
   "header": {
-    "title": "కోసైంటిస్ట్ మానిఫెస్టో"
+    "title": "కోసైంటిస్ట్ మానిఫెస్టో",
+    "github": "GitHub (కొత్త ట్యాబ్‌లో తెరవబడుతుంది)",
+    "twitter": "X (Twitter) (కొత్త ట్యాబ్‌లో తెరవబడుతుంది)"
   },
   "allNotes": {
     "title": "అన్ని నోట్లు",
-    "noteCount": "{count} నోట్లు"
+    "noteCount": "{count} నోట్లు",
+    "currentlyOpen": "ప్రస్తుతం {position} స్థానంలో తెరవబడింది"
   },
   "notePane": {
     "expand": "పేన్‌ను విస్తరించండి",
@@ -16,6 +19,9 @@
     "closeNote": "{title} ను మూసివేయండి",
     "closePane": "పేన్ {index} ను మూసివేయండి",
     "editOnGitHub": "GitHub లో సవరించండి"
+  },
+  "mobileCarousel": {
+    "goToNote": "నోట్ {position}కి వెళ్ళండి: {title}"
   },
   "backlinks": {
     "singular": "{count} నోట్ దీనికి లింక్ అవుతుంది",
@@ -42,7 +48,8 @@
   "common": {
     "close": "మూసివేయండి",
     "remove": "తొలగించండి",
-    "loading": "లోడ్ అవుతోంది"
+    "loading": "లోడ్ అవుతోంది",
+    "opensInNewTab": "కొత్త ట్యాబ్‌లో తెరవబడుతుంది"
   },
   "languageSwitcher": {
     "label": "భాష",
