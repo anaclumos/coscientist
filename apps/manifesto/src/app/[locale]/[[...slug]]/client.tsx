@@ -1,6 +1,6 @@
 "use client";
 
-import { Suspense, useMemo, useState, useEffect, useCallback } from "react";
+import { Suspense, useMemo, useState, useCallback } from "react";
 import { AnimatePresence, LayoutGroup } from "motion/react";
 import type { Note, BacklinkInfo } from "@/lib/types";
 import { useNoteStack } from "@/lib/use-note-stack";

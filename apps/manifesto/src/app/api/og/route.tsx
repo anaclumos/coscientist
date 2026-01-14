@@ -124,7 +124,7 @@ export async function GET(request: NextRequest) {
           <h1
             style={{
               fontSize: "160px",
-              lineHeight: "0.9",
+              lineHeight: "1.5",
               margin: 0,
               fontWeight: 400,
               background:
@@ -140,7 +140,7 @@ export async function GET(request: NextRequest) {
             <p
               style={{
                 fontSize: "64px",
-                lineHeight: "1.3",
+                lineHeight: "1.5",
                 color: "#a1a1aa",
                 margin: 0,
                 maxWidth: "1800px",
