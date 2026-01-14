@@ -10,6 +10,9 @@ import {
   type ReactNode,
 } from "react";
 import { cn } from "@/lib/utils";
+import { useIsMobile } from "@/hooks/use-mobile";
+import type { Note, BacklinkInfo } from "@/lib/types";
+import { MobilePaneCarousel } from "./mobile-pane-carousel";
 
 interface PaneCollapseContextValue {
   collapsedIndices: Set<number>;
@@ -26,14 +29,25 @@ export function usePaneCollapse() {
 interface PaneContainerProps {
   children: ReactNode;
   focusIndex: number;
+  mobileData?: {
+    notes: Note[];
+    backlinksMap: Map<string, BacklinkInfo[]>;
+    onLinkClick: (slug: string, fromIndex: number) => void;
+    onClose: (index: number) => void;
+  };
 }
 
-export function PaneContainer({ children, focusIndex }: PaneContainerProps) {
+export function PaneContainer({
+  children,
+  focusIndex,
+  mobileData,
+}: PaneContainerProps) {
   const containerRef = useRef<HTMLDivElement>(null);
   const [collapsedIndices, setCollapsedIndices] = useState<Set<number>>(
     new Set(),
   );
   const collapseThresholdRef = useRef(0);
+  const isMobile = useIsMobile();
 
   const getScrollBehavior = useCallback(() => {
     if (typeof window === "undefined") return "smooth" as const;
@@ -65,6 +79,11 @@ export function PaneContainer({ children, focusIndex }: PaneContainerProps) {
   const updateCollapsedIndices = useCallback(() => {
     if (!containerRef.current) return;
 
+    if (isMobile) {
+      setCollapsedIndices(new Set());
+      return;
+    }
+
     const scrollLeft = containerRef.current.scrollLeft;
     const collapseThreshold = collapseThresholdRef.current;
     const newCollapsed = new Set<number>();
@@ -84,9 +103,11 @@ export function PaneContainer({ children, focusIndex }: PaneContainerProps) {
       }
       return prev;
     });
-  }, []);
+  }, [isMobile]);
 
   useEffect(() => {
+    if (isMobile) return;
+
     const container = containerRef.current;
     if (!container) return;
 
@@ -116,9 +137,11 @@ export function PaneContainer({ children, focusIndex }: PaneContainerProps) {
       cancelAnimationFrame(frameId);
       window.removeEventListener("resize", handleResize);
     };
-  }, [updateCollapseThreshold, updateCollapsedIndices]);
+  }, [isMobile, updateCollapseThreshold, updateCollapsedIndices]);
 
   useEffect(() => {
+    if (isMobile) return;
+
     const container = containerRef.current;
     if (!container) return;
 
@@ -127,9 +150,11 @@ export function PaneContainer({ children, focusIndex }: PaneContainerProps) {
     });
     return () =>
       container.removeEventListener("scroll", updateCollapsedIndices);
-  }, [updateCollapsedIndices]);
+  }, [isMobile, updateCollapsedIndices]);
 
   useEffect(() => {
+    if (isMobile) return;
+
     if (containerRef.current) {
       const panes = containerRef.current.querySelectorAll("[data-pane]");
       const targetPane = panes[focusIndex] as HTMLElement | undefined;
@@ -142,7 +167,19 @@ export function PaneContainer({ children, focusIndex }: PaneContainerProps) {
         });
       }
     }
-  }, [focusIndex, getScrollBehavior]);
+  }, [isMobile, focusIndex, getScrollBehavior]);
+
+  if (isMobile && mobileData) {
+    return (
+      <MobilePaneCarousel
+        notes={mobileData.notes}
+        backlinksMap={mobileData.backlinksMap}
+        onLinkClick={mobileData.onLinkClick}
+        onClose={mobileData.onClose}
+        focusIndex={focusIndex}
+      />
+    );
+  }
 
   return (
     <PaneCollapseContext.Provider value={{ collapsedIndices }}>
@@ -150,7 +187,7 @@ export function PaneContainer({ children, focusIndex }: PaneContainerProps) {
         ref={containerRef}
         className={cn(
           "relative flex flex-1 min-h-0 overflow-x-auto overflow-y-hidden",
-          "scroll-smooth bg-background",
+          "scroll-smooth bg-background overscroll-x-none",
           "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20",
           "md:snap-none snap-x snap-mandatory",
         )}

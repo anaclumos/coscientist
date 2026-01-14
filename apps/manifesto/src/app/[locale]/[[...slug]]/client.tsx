@@ -89,9 +89,23 @@ function NotesContent({
     [stack, setStack],
   );
 
+  const mobileData = useMemo(() => {
+    const backlinksMap = new Map<string, BacklinkInfo[]>();
+    const notes = initialNotesData.map((data) => {
+      backlinksMap.set(data.note.slug, data.backlinks);
+      return data.note;
+    });
+    return {
+      notes,
+      backlinksMap,
+      onLinkClick: handleLinkClick,
+      onClose: handleClosePane,
+    };
+  }, [initialNotesData, handleLinkClick, handleClosePane]);
+
   return (
     <NotePreviewProvider notesMap={notesMap}>
-      <PaneContainer focusIndex={focusIndex}>
+      <PaneContainer focusIndex={focusIndex} mobileData={mobileData}>
         <LayoutGroup>
           <AnimatePresence initial={false} mode="popLayout">
             {initialNotesData.map((data, index) => (

@@ -70,13 +70,15 @@ export function NotePane({
       className={cn(
         "flex-shrink-0 w-full md:w-1/3 md:min-w-pane-min h-full overflow-hidden",
         "bg-background border-l border-border relative group/pane",
-        "sticky left-0",
+        "md:sticky left-0 md:left-[var(--pane-left-offset)]",
         "snap-start md:snap-align-none",
       )}
-      style={{
-        left: `calc(${index} * var(--pane-spine-width))`,
-        zIndex: `calc(var(--z-pane) + ${index})`,
-      }}
+      style={
+        {
+          "--pane-left-offset": `calc(${index} * var(--pane-spine-width))`,
+          zIndex: `calc(var(--z-pane) + ${index})`,
+        } as React.CSSProperties
+      }
     >
       <div className="absolute inset-0 pointer-events-none select-none overflow-hidden">
         <div
