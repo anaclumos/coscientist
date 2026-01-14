@@ -3,7 +3,7 @@ title: กลยุทธ์การสำรวจ
 description: กลยุทธ์การท่องกราฟเพื่อการค้นพบความรู้อย่างต่อเนื่อง
 ---
 
-[Coscientist](./coscientist) ต้องการมากกว่าการดึงข้อมูล (retrieval): มันต้องการการสำรวจที่ช่วยผุดให้เห็นความขัดแย้ง เงื่อนไขขอบเขต (boundary conditions) และการพึ่งพาวิธีการ (method dependence) อย่างจริงจังใน [Dialectical Graph](./dialectical-graph)
+[นักวิทยาศาสตร์ร่วม](./coscientist) ต้องการมากกว่าการดึงข้อมูล (retrieval): มันต้องการการสำรวจที่ช่วยผุดให้เห็นความขัดแย้ง เงื่อนไขขอบเขต (boundary conditions) และการพึ่งพาวิธีการ (method dependence) อย่างจริงจังใน [กราฟวิภาษวิธี](./dialectical-graph)
 
 กลยุทธ์หลักประกอบด้วย:
 

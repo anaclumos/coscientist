@@ -11,6 +11,6 @@ Il progetto incarnava la visione [attraverso gli Sprachraums](./across-the-sprac
 
 Questo esito è stato preoccupante, più che motivo di celebrazione. Ha dimostrato quanto rapidamente le capacità dell’AI possano rendere obsoleti progetti infrastrutturali umani ben intenzionati. Ciò che ha richiesto mesi per essere progettato e costruito è diventato irrilevante non perché avesse fallito, ma perché il problema che risolveva è evaporato. La velocità di questo cambiamento solleva domande più profonde sulla stabilità di qualsiasi infrastruttura della conoscenza in un’epoca di rapido avanzamento dell’AI.
 
-Per [Coscientist](./coscientist), PIRI resta un monito: i sistemi progettati attorno alle attuali limitazioni dell’AI possono diventare obsoleti man mano che tali limitazioni scompaiono. La visione [attraverso gli Sprachraums](./across-the-sprachraums) persiste, ma la sua implementazione deve tenere conto di capacità dell’AI che cambiano più velocemente di quanto i progetti umani riescano ad adattarsi.
+Per [Coscienziato](./coscientist), PIRI resta un monito: i sistemi progettati attorno alle attuali limitazioni dell’AI possono diventare obsoleti man mano che tali limitazioni scompaiono. La visione [attraverso gli Sprachraums](./across-the-sprachraums) persiste, ma la sua implementazione deve tenere conto di capacità dell’AI che cambiano più velocemente di quanto i progetti umani riescano ad adattarsi.
 
 Riferimento: https://cho.sh/r/69794B.

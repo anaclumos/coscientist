@@ -3,7 +3,7 @@ title: Hệ thống xác minh
 description: Các cơ chế để kiểm tra các khẳng định dựa trên bằng chứng và phản bằng chứng
 ---
 
-Hệ thống xác minh là tập hợp các cơ chế mà [Coscientist](./coscientist) sử dụng để kiểm tra các [khẳng định](./claim) dựa trên bằng chứng, phản bằng chứng và các lời giải thích thay thế. Đây không phải là một công cụ đơn lẻ mà là một bộ giao thức và thực hành phối hợp với nhau.
+Hệ thống xác minh là tập hợp các cơ chế mà [Nhà đồng khoa học](./coscientist) sử dụng để kiểm tra các [khẳng định](./claim) dựa trên bằng chứng, phản bằng chứng và các lời giải thích thay thế. Đây không phải là một công cụ đơn lẻ mà là một bộ giao thức và thực hành phối hợp với nhau.
 
 ## Các thành phần cốt lõi
 
@@ -15,4 +15,4 @@ Hệ thống xác minh là tập hợp các cơ chế mà [Coscientist](./coscie
 - [Phản ví dụ](./counterexample) — các trường hợp làm “gãy” khẳng định
 - [Nạp dữ liệu theo mô hình không tin cậy mặc định (Zero-Trust Ingestion)](./zero-trust-ingestion) — yêu cầu nguồn gốc (provenance) trước khi trao quyền uy
 
-Hệ thống được thiết kế để đảm bảo [sửa sai rẻ hơn lệch hướng](./correction-vs-drift) và hỗ trợ [độ khó mong muốn](./desirable-difficulty-in-verification) để [Operator](./operator) luôn duy trì sự tham gia.
+Hệ thống được thiết kế để đảm bảo [sửa sai rẻ hơn lệch hướng](./correction-vs-drift) và hỗ trợ [độ khó mong muốn](./desirable-difficulty-in-verification) để [Người vận hành](./operator) luôn duy trì sự tham gia.

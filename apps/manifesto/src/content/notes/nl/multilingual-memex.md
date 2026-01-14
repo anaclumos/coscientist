@@ -15,4 +15,4 @@ De architecturale implicaties zijn aanzienlijk. Interface-elementen, zoeken en k
 
 Daarom beschouwt [Extracranial](./extracranial) communitybijdragen via GitHub om vertalingen te verfijnen: machinevertaling maakt meertalige inhoud mogelijk, maar menselijke beoordeling is nodig om de [vertalingsgetrouwheid](./translation-fidelity) te behouden. De meertalige Memex is geen opgelost probleem, maar een voortdurende samenwerking tussen geautomatiseerde systemen en menselijk oordeel.
 
-Voor [Coscientist](./coscientist) wordt de meertalige Memex de meertalige [Dialectical Graph](./dialectical-graph): een structuur die [claims](./claim), [evidence spans](./evidence-span) en relaties uit elke taal opslaat, waarbij taal als metadata wordt behandeld in plaats van als een fundamentele grens.
+Voor [Cowetenschapper](./coscientist) wordt de meertalige Memex de meertalige [Dialectische graaf](./dialectical-graph): een structuur die [claims](./claim), [evidence spans](./evidence-span) en relaties uit elke taal opslaat, waarbij taal als metadata wordt behandeld in plaats van als een fundamentele grens.

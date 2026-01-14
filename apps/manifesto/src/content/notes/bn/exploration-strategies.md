@@ -3,7 +3,7 @@ title: অনুসন্ধান কৌশলসমূহ
 description: ধারাবাহিক জ্ঞান আবিষ্কারের জন্য গ্রাফ ট্রাভার্সাল কৌশলসমূহ
 ---
 
-[Coscientist](./coscientist)-এর শুধু রিট্রিভাল (retrieval) নয়: এর দরকার এমন অনুসন্ধান, যা [Dialectical Graph](./dialectical-graph)-এ সক্রিয়ভাবে বিরোধ (contradictions), সীমা-শর্ত (boundary conditions), এবং পদ্ধতি-নির্ভরতা (method dependence) উন্মোচন করে।
+[সহ-বিজ্ঞানী](./coscientist)-এর শুধু রিট্রিভাল (retrieval) নয়: এর দরকার এমন অনুসন্ধান, যা [দ্বান্দ্বিক গ্রাফ](./dialectical-graph)-এ সক্রিয়ভাবে বিরোধ (contradictions), সীমা-শর্ত (boundary conditions), এবং পদ্ধতি-নির্ভরতা (method dependence) উন্মোচন করে।
 
 মূল কৌশলগুলো হলো:
 

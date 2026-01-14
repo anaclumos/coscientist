@@ -3,7 +3,7 @@ title: 基地小說
 description: 受阿西莫夫啟發、形塑 Coscientist 願景的概念
 ---
 
-「基地小說」指的是出自 [艾薩克·阿西莫夫](./isaac-asimov)《基地》系列、並形塑 [Coscientist](./coscientist) 願景的一組概念。虛構的 [《銀河百科全書》](./encyclopedia-galactica) 是思考知識保存與能力（capability）的一個關鍵參照。
+「基地小說」指的是出自 [艾薩克·阿西莫夫](./isaac-asimov)《基地》系列、並形塑 [共科學家](./coscientist) 願景的一組概念。虛構的 [《銀河百科全書》](./encyclopedia-galactica) 是思考知識保存與能力（capability）的一個關鍵參照。
 
 ## 核心概念
 

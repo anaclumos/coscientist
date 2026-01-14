@@ -3,7 +3,7 @@ title: Wyszukiwanie najpierw kontrprzykładów
 description: Strategia priorytetyzująca kontrprzykłady ponad dowody wspierające
 ---
 
-Wyszukiwanie najpierw kontrprzykładów to [strategia eksploracji](./exploration-strategies), która traktuje popularność jako sygnał ryzyka, a nie dowód jakości. Im szerzej jakaś [teza](./claim) jest powtarzana, tym cenniejsze staje się znajdowanie [kontrprzykładów](./counterexample) i warunków brzegowych, ponieważ błędy w popularnych tezach mają większy promień rażenia w [Encyclopedia Meltdown](./encyclopedia-meltdown).
+Wyszukiwanie najpierw kontrprzykładów to [strategia eksploracji](./exploration-strategies), która traktuje popularność jako sygnał ryzyka, a nie dowód jakości. Im szerzej jakaś [teza](./claim) jest powtarzana, tym cenniejsze staje się znajdowanie [kontrprzykładów](./counterexample) i warunków brzegowych, ponieważ błędy w popularnych tezach mają większy promień rażenia w [Załamanie Encyklopedii](./encyclopedia-meltdown).
 
 Ta strategia odwraca normalny priorytet wyszukiwania. Standardowe wyszukiwanie szereguje wyniki według trafności lub częstości, co zwykle wydobywa zgodę. Wyszukiwanie najpierw kontrprzykładów celowo szuka niezgody, przypadków skrajnych i porażek, ponieważ są one bardziej informacyjne dla aktualizowania wiedzy.
 

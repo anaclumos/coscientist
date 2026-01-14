@@ -3,7 +3,7 @@ title: 探索機制
 description: 在辯證圖中進行持續知識發現的策略
 ---
 
-探索機制是 [Coscientist](./coscientist) 用來在 [辯證圖](./dialectical-graph) 中持續發現矛盾、邊界條件與方法依賴關係的策略。
+探索機制是 [共科學家](./coscientist) 用來在 [辯證圖](./dialectical-graph) 中持續發現矛盾、邊界條件與方法依賴關係的策略。
 
 ## 搜尋策略
 

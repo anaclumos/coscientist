@@ -7,4 +7,4 @@ description: 設計原則：摩擦力會扼殺個人知識工作流程
 
 這個原則促成了[數位叢林](./digital-jungle)模型：把原始知識直接丟進去，讓系統自行整理、連結，並在需要時重新浮現。管理一座花園的最佳方式不是不斷修剪照料，而是建立能自我維護的系統。
 
-摩擦力並不是在逃避懶惰；而是在承認認知負擔（cognitive overhead）會與思考互相競爭。花在分類法（taxonomy）上的時間，就是沒有花在洞見上的時間。[Coscientist](./coscientist)從[Extracranial](./extracranial)以及[打造下一代數位大腦](./creating-next-gen-digital-brains)中的想法繼承了這項原則。
+摩擦力並不是在逃避懶惰；而是在承認認知負擔（cognitive overhead）會與思考互相競爭。花在分類法（taxonomy）上的時間，就是沒有花在洞見上的時間。[共科學家](./coscientist)從[Extracranial](./extracranial)以及[打造下一代數位大腦](./creating-next-gen-digital-brains)中的想法繼承了這項原則。

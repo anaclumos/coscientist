@@ -7,4 +7,4 @@ description: تلاش کے دوران دعووں کی اقسام کو ملانا
 
 اس کا فائدہ امتیاز (discrimination) ہے: جب آپ مختلف سیاق و سباق کے دعوے ترتیب وار دیکھتے ہیں تو آپ محسوس کرتے ہیں کہ جو پیٹرن عالمگیر لگ رہا تھا وہ دراصل چھپی ہوئی [assumptions](./assumption) یا [scope](./scope) پر منحصر ہے۔ آپ اس سائیلو اثر (silo effect) سے بھی بچتے ہیں جہاں صرف ایک زاویۂ نظر کا جائزہ لینے سے [illusions of competence](./illusions-of-competence) پیدا ہو جاتی ہیں۔
 
-[exploration strategies](./exploration-strategies) میں جدلیاتی بین البنیادی کا مطلب ہے تائیدی شواہد اور [attacks](./attack) کے درمیان، مختلف [methods](./method) کے درمیان، اور ہم خیال و مخالف ذرائع کے درمیان باری باری جانا۔ [Operator](./operator) اس طرح علاقے (territory) کا ایک زیادہ مضبوط نقشہ تیار کرتا ہے۔
+[exploration strategies](./exploration-strategies) میں جدلیاتی بین البنیادی کا مطلب ہے تائیدی شواہد اور [attacks](./attack) کے درمیان، مختلف [methods](./method) کے درمیان، اور ہم خیال و مخالف ذرائع کے درمیان باری باری جانا۔ [آپریٹر](./operator) اس طرح علاقے (territory) کا ایک زیادہ مضبوط نقشہ تیار کرتا ہے۔

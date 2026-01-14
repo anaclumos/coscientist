@@ -3,7 +3,7 @@ title: 멀티-AI 합의 프로토콜
 description: 1+4(인간 + 4개의 AI) 글쓰기 및 검증 시스템
 ---
 
-멀티-AI 합의 프로토콜(Multi-AI Consensus Protocol)은 [오퍼레이터](./operator)가 여러 AI 시스템을 조율하여 단일 모델 환각(hallucination) 위험을 줄이고 [백과사전 멜트다운](./encyclopedia-meltdown)에 대한 방어를 돕는 협업 워크플로우다.
+다중-AI 합의 프로토콜은 [오퍼레이터](./operator)가 여러 AI 시스템을 조율하여 단일 모델 환각 위험을 줄이고 [백과사전 붕괴](./encyclopedia-meltdown)에 대한 방어를 돕는 협업 워크플로우다.
 
 "1+4" 변형에서는 한 명의 인간이 네 명의 AI 어시스턴트(2025년 12월 기준: ChatGPT, Gemini, Claude, Grok)를 조율한다. 핵심은 "더 많은 기억"이 아니라, 구조화된 이견(disagreement)과 추적 가능성(traceability)이다.
 
@@ -11,7 +11,7 @@ description: 1+4(인간 + 4개의 AI) 글쓰기 및 검증 시스템
 
 - 만장일치에 도달했을 때만 수정안을 수용한다(참고: [만장일치 요구 사항](./unanimity-requirement)).
 - 불확실성을 명시적으로 유지하고, 문장으로 매끈하게 덮어버리지 않는다.
-- 주장에는 추적 가능한 출처(provenance)를 요구한다(참고: [책임 라인](./responsibility-line) 및 [출처](./provenance)).
+- 주장에는 추적 가능한 출처를 요구한다(참고: [책임 라인](./responsibility-line) 및 [출처](./provenance)).
 - 확증 탐색(confirmatory search) 대신 의도적인 반박 탐색(rebuttal search)을 수행한다(참고: [반박 우선 탐색](./rebuttal-first-search)).
 
 이 프로토콜은 문화적이기도 하다. "내 생각을 바꾸게 할 만한 것은 무엇인가?"라고 묻는 습관을 훈련한다.

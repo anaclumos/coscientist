@@ -7,4 +7,4 @@ description: 在后 AI 信息环境中，主动恢复验证能力与认知能动
 
 这个术语承认：损害已经发生。持续暴露在看似可信却未经核验的内容中，会训练出被动接受。去脑腐是一套恢复协议：重新启用[主动回忆](./active-recall)，要求[可追溯性](./traceability)，并将[验证](./verification)当作需要练习的技能。
 
-[Coscientist](./coscientist)旨在通过让反证更可见、保留[责任线](./responsibility-line)，并让[操作员（Operator）](./operator)处于验证者而非消费者的角色，来支持去脑腐。
+[共研者](./coscientist)旨在通过让反证更可见、保留[责任线](./responsibility-line)，并让[操作员（Operator）](./operator)处于验证者而非消费者的角色，来支持去脑腐。

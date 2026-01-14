@@ -9,6 +9,6 @@ description: 弁証法的知識システムにおいて、統合が平均化と�
 
 解決（resolution）が一文で済むことはまれだ。多くの場合、それは [分岐解決マップ（branched resolution map）](./branched-resolution-map) になる。異なる定義やスコープが異なる結論につながるなら、平均化された単一の答えがあるふりをするのではなく、適切な層で分岐を記録する。[イシュー・ノード（Issue nodes）](./issue-node) は、何が何と衝突しているかを束ね、そのイシューが解決できる条件を記録する。
 
-目標は、矛盾の地図と、明示的な解決条件である。そうすれば将来の作業は、書き換えではなく並べ替えによって知識を更新できる。これが、[Coscientist](./coscientist) における熟考AI（contemplation AI）が、文書同士を衝突させることを狙っている理由だ。つまり、イシュー・クラスター、洗練された条件、構造化された反駁（rebuttals）、比較のための明示的な座標系（coordinate systems）を生成する。
+目標は、矛盾の地図と、明示的な解決条件である。そうすれば将来の作業は、書き換えではなく並べ替えによって知識を更新できる。これが、[コサイエンティスト](./coscientist) における熟考AI（contemplation AI）が、文書同士を衝突させることを狙っている理由だ。つまり、イシュー・クラスター、洗練された条件、構造化された反駁（rebuttals）、比較のための明示的な座標系（coordinate systems）を生成する。
 
 [LLM](./llm) は多言語を読めるため、統合は [言語横断統合（cross-linguistic synthesis）](./cross-linguistic-synthesis) にも拡張される。異なる言語のソースを集め、それらの主張を [言語非依存インデックス（language-agnostic index）](./language-agnostic-indexing) の中で整合させる。[翻訳におけるニュアンス損失（translation nuance loss）](./translation-nuance-loss) は、追跡し解決すべき別種の非互換性となる。

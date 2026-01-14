@@ -3,7 +3,7 @@ title: Mecanismos de síntesis
 description: Patrones para hacer comparables fuentes incompatibles
 ---
 
-Los mecanismos de síntesis son los patrones y protocolos que [Coscientist](./coscientist) utiliza para hacer comparables fuentes incompatibles y para producir salida estructurada a partir del conflicto.
+Los mecanismos de síntesis son los patrones y protocolos que [Cocientífico](./coscientist) utiliza para hacer comparables fuentes incompatibles y para producir salida estructurada a partir del conflicto.
 
 ## Proceso central
 

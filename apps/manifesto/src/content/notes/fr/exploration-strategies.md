@@ -3,7 +3,7 @@ title: Stratégies d’exploration
 description: Stratégies de parcours de graphe pour une découverte continue des connaissances
 ---
 
-[Coscientist](./coscientist) a besoin de plus que de la récupération : il lui faut une exploration qui mette activement au jour les contradictions, les conditions aux limites et la dépendance à la méthode dans le [Graphe dialectique](./dialectical-graph).
+[Coscientifique](./coscientist) a besoin de plus que de la récupération : il lui faut une exploration qui mette activement au jour les contradictions, les conditions aux limites et la dépendance à la méthode dans le [Graphe dialectique](./dialectical-graph).
 
 Les principales stratégies incluent :
 

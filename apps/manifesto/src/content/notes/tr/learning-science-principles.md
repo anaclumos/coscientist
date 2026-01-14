@@ -3,7 +3,7 @@ title: Öğrenme Bilimi İlkeleri
 description: Kalıcı öğrenme ve bellek için kanıta dayalı teknikler
 ---
 
-Öğrenme bilimi ilkeleri, kalıcı olan, aktarılabilen ve baskı altında erişilebilir kalan bilgiyi edinmeye yönelik kanıta dayalı tekniklerdir. Bu ilkeler, [Coscientist](./coscientist)’in [Operatör](./operator)’ün bilişsel çalışmalarını nasıl desteklediğine yön verir.
+Öğrenme bilimi ilkeleri, kalıcı olan, aktarılabilen ve baskı altında erişilebilir kalan bilgiyi edinmeye yönelik kanıta dayalı tekniklerdir. Bu ilkeler, [Eşbilimci](./coscientist)’in [Operatör](./operator)’ün bilişsel çalışmalarını nasıl desteklediğine yön verir.
 
 ## Temel Teknikler
 

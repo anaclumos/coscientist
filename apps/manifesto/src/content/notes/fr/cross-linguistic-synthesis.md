@@ -5,7 +5,7 @@ description: Combiner des connaissances issues de plusieurs langues en une compr
 
 La synthèse interlinguistique est le processus consistant à combiner des connaissances provenant de sources dans différentes langues en une compréhension unique et cohérente. C’est plus que de la traduction : cela permet à des idées issues de différents [espaces linguistiques](./sprachraum) de se rencontrer, de se contredire et de se mettre à jour mutuellement.
 
-Pour [Coscientist](./coscientist), c’est une capacité native, car les [LLM](./llm) modernes peuvent lire de nombreuses langues. En pratique, la synthèse interlinguistique peut :
+Pour [Coscientifique](./coscientist), c’est une capacité native, car les [LLM](./llm) modernes peuvent lire de nombreuses langues. En pratique, la synthèse interlinguistique peut :
 
 - mobiliser des [sources](./source) dans plusieurs langues
 - extraire et normaliser des [affirmations](./claim)

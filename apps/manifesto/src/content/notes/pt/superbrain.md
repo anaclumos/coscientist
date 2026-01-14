@@ -16,6 +16,6 @@ O humano mantém-se soberano; o sistema trata do trabalho mecânico.
 
 A dimensão multilingue é crucial. Um supercérebro limitado a um só [Sprachraum](./sprachraum) é fundamentalmente limitado. A verdadeira amplificação cognitiva significa pensar [através dos Sprachraums](./across-the-sprachraums), aceder ao conhecimento independentemente da língua em que foi originalmente registado e sintetizar insights através da [síntese interlinguística](./cross-linguistic-synthesis).
 
-[Coscientist](./coscientist) é a instanciação orientada para a investigação desta visão: um sistema multiagente de [LLM](./llm) que lê literatura em qualquer língua e debate hipóteses através de ciclos estruturados de proposta e crítica. O sonho do supercérebro não é ficção científica distante; é o alvo de design.
+[Cocientista](./coscientist) é a instanciação orientada para a investigação desta visão: um sistema multiagente de [LLM](./llm) que lê literatura em qualquer língua e debate hipóteses através de ciclos estruturados de proposta e crítica. O sonho do supercérebro não é ficção científica distante; é o alvo de design.
 
 Referência: https://cho.sh/r/4AED52.

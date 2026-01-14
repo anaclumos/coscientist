@@ -3,8 +3,8 @@ title: ヴァネヴァー・ブッシュ
 description: メメックスを構想したエンジニア兼科学技術行政官
 ---
 
-ヴァネヴァー・ブッシュ（1890–1974）は、第二次世界大戦中に米国の科学研究開発局（Office of Scientific Research and Development）を指揮した、アメリカのエンジニア、発明家、そして科学技術行政官である。知識システム史において最もよく知られているのは、[As We May Think](./as-we-may-think)（1945年）の論考で、そこで[メメックス](./memex)を提案した。
+ヴァネヴァー・ブッシュ（1890–1974）は、第二次世界大戦中に米国の科学研究開発局（Office of Scientific Research and Development）を指揮した、アメリカのエンジニア、発明家、そして科学技術行政官である。知識システム史において最もよく知られているのは、[われわれが考えるように](./as-we-may-think)（1945年）の論考で、そこで[メメックス](./memex)を提案した。
 
 メメックスは実際には製作されなかったが、連想的なトレイル（associative trails）によって情報を保存し、リンクし、探索する個人用デバイスというそのビジョンは、ハイパーテキスト、パーソナルコンピューティング、そしてナレッジマネジメントのその後数十年にわたる研究開発を方向づけた。ブッシュの洞察は、知的作業が本質的に非線形であり、あらゆるものを単一のアウトラインに押し込めるのではなく、情報源同士の間にトレイルを構築できる道具を人々に提供すべきだ、という点にあった。
 
-[Coscientist](./coscientist)にとって、ブッシュは系譜の起点をなす存在である。メメックスから[digital brain](./digital-brain)、そして[Dialectical Graph](./dialectical-graph)へ。進化の流れは[from Memex to Dialectical Graph](./from-memex-to-dialectical-graph)であり、ブッシュの連想的トレイルは、型付けされた論証的関係へと変化していく。
+[コサイエンティスト](./coscientist)にとって、ブッシュは系譜の起点をなす存在である。メメックスから[デジタル脳](./digital-brain)、そして[弁証法グラフ](./dialectical-graph)へ。進化の流れは[from Memex to Dialectical Graph](./from-memex-to-dialectical-graph)であり、ブッシュの連想的トレイルは、型付けされた論証的関係へと変化していく。

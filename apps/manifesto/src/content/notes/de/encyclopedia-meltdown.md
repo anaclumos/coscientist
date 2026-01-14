@@ -13,6 +13,6 @@ Der Meltdown entsteht typischerweise aus drei gekoppelten Schleifen:
 
 Das Ergebnis sind nicht nur „mehr Fehler“. Schreiben verliert Bedeutung, weil es keine verlässliche Verantwortungslinie mehr gibt; Halluzinationen können sich selbst verstärken; Widersprüche proliferieren; und Links verpacken Kontamination als Autorität. Sobald sich die Haltung „es muss stimmen, weil die Enzyklopädie es verlinkt hat“ durchsetzt, verkommt menschliche Kontemplation von Verifikation zu bloßer Ratifizierung.
 
-Prävention beginnt mit einem ersten Prinzip: Souveränität über Wissen muss beim [Operator](./operator) bleiben. In [Coscientist](./coscientist) zeigt sich das als eine [epistemische Protokollschicht](./epistemic-protocol-layer) (einschließlich [rebuttal-first search](./rebuttal-first-search) und dem Bewahren der [Verantwortungslinie](./responsibility-line)), ein [Multi-AI-Konsensprotokoll](./multi-ai-consensus-protocol) und ein [Dialektischer Graph](./dialectical-graph), der Inferenz von Narrativ trennt.
+Prävention beginnt mit einem ersten Prinzip: Souveränität über Wissen muss beim [Betreiber](./operator) bleiben. In [Kozientist](./coscientist) zeigt sich das als eine [epistemische Protokollschicht](./epistemic-protocol-layer) (einschließlich [Widerlegung-zuerst-Suche](./rebuttal-first-search) und dem Bewahren der [Verantwortungslinie](./responsibility-line)), ein [Multi-AI-Konsensprotokoll](./multi-ai-consensus-protocol) und ein [Dialektischer Graph](./dialectical-graph), der Inferenz von Narrativ trennt.
 
 Referenz: https://cho.sh/r/C36398.

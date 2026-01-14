@@ -5,7 +5,7 @@ description: Kết hợp tri thức từ nhiều ngôn ngữ thành một sự h
 
 Tổng hợp liên ngôn ngữ là quá trình kết hợp tri thức từ các nguồn ở những ngôn ngữ khác nhau thành một sự hiểu biết duy nhất, mạch lạc. Nó không chỉ là dịch thuật: nó cho phép các ý tưởng từ những [vùng ngôn ngữ (Sprachraums)](./sprachraum) khác nhau gặp nhau, bất đồng và cập nhật lẫn nhau.
 
-Với [Coscientist](./coscientist), đây là một năng lực bẩm sinh vì các [mô hình ngôn ngữ lớn (LLMs)](./llm) hiện đại có thể đọc nhiều ngôn ngữ. Trong thực tế, tổng hợp liên ngôn ngữ có thể:
+Với [Nhà đồng khoa học](./coscientist), đây là một năng lực bẩm sinh vì các [mô hình ngôn ngữ lớn (LLMs)](./llm) hiện đại có thể đọc nhiều ngôn ngữ. Trong thực tế, tổng hợp liên ngôn ngữ có thể:
 
 - thu thập [nguồn](./source) xuyên các ngôn ngữ
 - trích xuất và chuẩn hoá các [khẳng định](./claim)

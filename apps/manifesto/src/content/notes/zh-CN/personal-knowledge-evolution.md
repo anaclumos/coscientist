@@ -8,7 +8,7 @@ description: 个人知识管理工具与理念的历史演进
 ## 奠基性愿景
 
 - [我们可以如何思考](./as-we-may-think) — [万尼瓦尔·布什](./vannevar-bush) 于 1945 年发表的文章
-- [Memex](./memex) — 布什提出的个人知识机器
+- [记忆延伸器](./memex) — 布什提出的个人知识机器
 
 ## 概念框架
 
@@ -19,7 +19,7 @@ description: 个人知识管理工具与理念的历史演进
 
 ## 实现
 
-- [Project Aldehyde](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho) 的早期尝试
+- [醛项目](./project-aldehyde) — [曹成贤](./sunghyun-cho) 的早期尝试
 - [Extracranial](./extracranial) — Cho 的个人数字大脑系统
 - [多语言 Memex](./multilingual-memex) — 具备语言感知与自动翻译的知识系统
 - [Project PIRI](./project-piri) — 已取消的翻译计划（被 AI 编程代理所淘汰）

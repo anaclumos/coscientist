@@ -3,7 +3,7 @@ title: Sistema de Verificação
 description: Os mecanismos para verificar afirmações em relação a evidência e contraevidência
 ---
 
-O sistema de verificação é o conjunto de mecanismos que o [Coscientist](./coscientist) usa para verificar [afirmações](./claim) em relação a evidência, contraevidência e explicações alternativas. Não é uma única ferramenta, mas um conjunto coordenado de protocolos e práticas.
+O sistema de verificação é o conjunto de mecanismos que o [Cocientista](./coscientist) usa para verificar [afirmações](./claim) em relação a evidência, contraevidência e explicações alternativas. Não é uma única ferramenta, mas um conjunto coordenado de protocolos e práticas.
 
 ## Componentes Principais
 

@@ -3,7 +3,7 @@ title: Doğrulama Sistemi
 description: İddiaları kanıt ve karşı kanıtlarla karşılaştırarak kontrol etme mekanizmaları
 ---
 
-Doğrulama sistemi, [Coscientist](./coscientist)'in [iddiaları](./claim) kanıt, karşı kanıt ve alternatif açıklamalara karşı kontrol etmek için kullandığı mekanizmalar bütünüdür. Tek bir araç değil, uyum içinde çalışan bir protokol ve pratikler kümesidir.
+Doğrulama sistemi, [Eşbilimci](./coscientist)'in [iddiaları](./claim) kanıt, karşı kanıt ve alternatif açıklamalara karşı kontrol etmek için kullandığı mekanizmalar bütünüdür. Tek bir araç değil, uyum içinde çalışan bir protokol ve pratikler kümesidir.
 
 ## Temel Bileşenler
 

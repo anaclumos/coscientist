@@ -7,4 +7,4 @@ Yöntem-sonuç bağlaşımı, [iddiaları](./claim) vardıkları sonuca göre de
 
 Üç çalışma aynı kusurlu metodolojiyi kullanıp aynı sonuca varıyorsa, bu güçlü bir kanıt değildir; bu, ilişkili bir başarısızlıktır. Buna karşılık, iki çalışma bağımsız yöntemler kullanıp aynı sonuca varıyorsa, bu, tek bir yöntemi kullanan üç çalışmadan daha güçlüdür.
 
-Bu desen, görünen uzlaşının bağımsız kanıtlardan mı yoksa aynı yaklaşımın tekrar tekrar kullanılmasından mı kaynaklandığını sormayı içeren [replikasyon yolu ayrımı](./replication-path-separation) yaklaşımını destekler. [Coscientist](./coscientist) içinde, iddiaları yönteme göre kümelendiren uzmanlaşmış bir ajan olarak uygulanır.
+Bu desen, görünen uzlaşının bağımsız kanıtlardan mı yoksa aynı yaklaşımın tekrar tekrar kullanılmasından mı kaynaklandığını sormayı içeren [replikasyon yolu ayrımı](./replication-path-separation) yaklaşımını destekler. [Eşbilimci](./coscientist) içinde, iddiaları yönteme göre kümelendiren uzmanlaşmış bir ajan olarak uygulanır.

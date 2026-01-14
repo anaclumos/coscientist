@@ -20,7 +20,7 @@ description: 개인 지식 관리 도구와 아이디어의 역사적 전개
 ## 구현
 
 - [프로젝트 알데하이드](./project-aldehyde) — [선현 조](./sunghyun-cho)의 초기 시도
-- [두개강 외부(Extracranial)](./extracranial) — 조의 개인 디지털 브레인 시스템
+- [엑스트라크래니얼](./extracranial) — 조의 개인 디지털 브레인 시스템
 - [다국어 메멕스](./multilingual-memex) — 자동 번역을 갖춘 언어 인지형 지식 시스템
 - [프로젝트 PIRI](./project-piri) — 취소된 번역 이니셔티브(AI 코딩 에이전트에 의해 구식화됨)
 
@@ -28,7 +28,7 @@ description: 개인 지식 관리 도구와 아이디어의 역사적 전개
 
 - [마찰은 적이다](./friction-as-enemy) — 오버헤드를 최소화해 수집을 극대화하기
 
-## 코사이언티스트(Coscientist)로의 연결
+## 코사이언티스트로의 연결
 
-- [메멕스에서 변증법적 그래프(Dialectical Graph)로](./from-memex-to-dialectical-graph)
+- [메멕스에서 변증법적 그래프로](./from-memex-to-dialectical-graph)
 - [개인 지식에서 제도적 지식으로](./personal-to-institutional-knowledge)

@@ -7,4 +7,4 @@ L’acquisizione zero-trust è un protocollo che tratta le informazioni in arriv
 
 Il nome prende in prestito dal concetto di sicurezza zero-trust: non dare nulla per sicuro finché non viene dimostrato. In pratica, questo significa che le nuove affermazioni entrano con stato `tentative`, devono essere tracciabili fino alle [fonti](./source) e ai [segmenti di evidenza](./evidence-span), e dovrebbero essere esposte alla [ricerca con priorità alle confutazioni](./rebuttal-first-search) prima di essere trattate come consolidate.
 
-L’acquisizione zero-trust è una difesa contro la [sbobba AI](./ai-slop) e l’[Encyclopedia Meltdown](./encyclopedia-meltdown). Quando l’ambiente è inondato di contenuti plausibili ma non verificati, l’unica postura sicura è richiedere una prova dell’origine e resistere alle contestazioni prima dell’accettazione.
+L’acquisizione zero-trust è una difesa contro la [sbobba AI](./ai-slop) e l’[Crollo dell'Enciclopedia](./encyclopedia-meltdown). Quando l’ambiente è inondato di contenuti plausibili ma non verificati, l’unica postura sicura è richiedere una prova dell’origine e resistere alle contestazioni prima dell’accettazione.

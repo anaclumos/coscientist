@@ -3,7 +3,7 @@ title: Principes van de leerwetenschap
 description: Evidence-based technieken voor duurzaam leren en geheugen
 ---
 
-Principes uit de leerwetenschap zijn evidence-based technieken voor het verwerven van kennis die blijft hangen, overdraagbaar is en toegankelijk blijft onder druk. Deze principes bepalen hoe [Coscientist](./coscientist) het cognitieve werk van de [Operator](./operator) ondersteunt.
+Principes uit de leerwetenschap zijn evidence-based technieken voor het verwerven van kennis die blijft hangen, overdraagbaar is en toegankelijk blijft onder druk. Deze principes bepalen hoe [Cowetenschapper](./coscientist) het cognitieve werk van de [Operator](./operator) ondersteunt.
 
 ## Kerntechnieken
 

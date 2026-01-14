@@ -3,7 +3,7 @@ title: Estratégias de Exploração
 description: Estratégias de travessia de grafo para descoberta contínua de conhecimento
 ---
 
-O [Coscientist](./coscientist) precisa de mais do que recuperação: precisa de exploração que traga ativamente à tona contradições, condições de contorno e dependência do método no [Grafo Dialético](./dialectical-graph).
+O [Cocientista](./coscientist) precisa de mais do que recuperação: precisa de exploração que traga ativamente à tona contradições, condições de contorno e dependência do método no [Grafo Dialético](./dialectical-graph).
 
 As principais estratégias incluem:
 

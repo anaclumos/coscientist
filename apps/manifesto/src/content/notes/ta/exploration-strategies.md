@@ -3,7 +3,7 @@ title: ஆராய்ச்சி உத்திகள்
 description: தொடர்ச்சியான அறிவுக் கண்டுபிடிப்புக்கான கிராஃப் (Graph) ஊடுருவல் உத்திகள்
 ---
 
-[Coscientist](./coscientist) க்கு retrieval மட்டும் போதாது: [Dialectical Graph](./dialectical-graph) இல் முரண்பாடுகள், எல்லை நிபந்தனைகள் (boundary conditions), மற்றும் முறைக்கு சார்பான தன்மை (method dependence) ஆகியவற்றைச் செயலில் வெளிக்கொணரும் ஆராய்ச்சி (exploration) தேவை.
+[இணை-விஞ்ஞானி](./coscientist) க்கு retrieval மட்டும் போதாது: [இயங்கியல் வரைபடம்](./dialectical-graph) இல் முரண்பாடுகள், எல்லை நிபந்தனைகள் (boundary conditions), மற்றும் முறைக்கு சார்பான தன்மை (method dependence) ஆகியவற்றைச் செயலில் வெளிக்கொணரும் ஆராய்ச்சி (exploration) தேவை.
 
 முக்கிய உத்திகள்:
 

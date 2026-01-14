@@ -15,4 +15,4 @@ Konsekwencje architektoniczne są znaczące. Elementy interfejsu, wyszukiwanie i
 
 Dlatego [Extracranial](./extracranial) uwzględnia wkład społeczności poprzez GitHub, aby udoskonalać tłumaczenia: tłumaczenie maszynowe umożliwia wielojęzyczne treści, ale do utrzymania [wierności tłumaczenia](./translation-fidelity) potrzebna jest ludzka weryfikacja. Wielojęzyczny Memex nie jest rozwiązanym problemem, lecz trwającą współpracą między zautomatyzowanymi systemami a ludzką oceną.
 
-Dla [Coscientist](./coscientist) wielojęzyczny Memex staje się wielojęzycznym [Grafem Dialektycznym](./dialectical-graph): strukturą, która przechowuje [twierdzenia](./claim), [fragmenty dowodów](./evidence-span) oraz relacje z dowolnego języka, traktując język jako metadane, a nie fundamentalną granicę.
+Dla [Współnaukowiec](./coscientist) wielojęzyczny Memex staje się wielojęzycznym [Grafem Dialektycznym](./dialectical-graph): strukturą, która przechowuje [twierdzenia](./claim), [fragmenty dowodów](./evidence-span) oraz relacje z dowolnego języka, traktując język jako metadane, a nie fundamentalną granicę.

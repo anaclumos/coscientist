@@ -3,7 +3,7 @@ title: Coscientist
 description: Um sistema de companhia intelectual para produção de conhecimento na era pós-IA
 ---
 
-Coscientist é um serviço open-source inspirado na fictícia [Encyclopedia Galactica](./encyclopedia-galactica) de [Isaac Asimov](./isaac-asimov). Ele foi pensado para ser mais do que uma [arca do conhecimento](./knowledge-ark) de informações: um [companheiro intelectual](./intellectual-companion) que realiza [trabalho de contemplação](./contemplation-labor) ao lado do [Operador](./operator) humano. Na era pós-IA, seu objetivo é apoiar o [desapodrecimento do cérebro](./un-brain-rotting): restaurar verificação e agência.
+Coscientist é um serviço open-source inspirado na fictícia [Enciclopédia Galáctica](./encyclopedia-galactica) de [Isaac Asimov](./isaac-asimov). Ele foi pensado para ser mais do que uma [arca do conhecimento](./knowledge-ark) de informações: um [companheiro intelectual](./intellectual-companion) que realiza [trabalho de contemplação](./contemplation-labor) ao lado do [Operador](./operator) humano. Na era pós-IA, seu objetivo é apoiar o [desapodrecimento do cérebro](./un-brain-rotting): restaurar verificação e agência.
 
 Ele é construído por [Sunghyun Cho](./sunghyun-cho). A história de origem é direta: preservação importa, mas preservação por si só não produz compreensão. O Coscientist foi projetado para tornar o conhecimento atualizável, de modo que contradições, contraexemplos e [deriva de definição](./definition-drift) se tornem visíveis e acionáveis, em vez de serem suavizados por resumos fluentes.
 

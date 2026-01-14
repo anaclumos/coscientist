@@ -3,7 +3,7 @@ title: 探索戦略
 description: 継続的な知識発見のためのグラフ横断戦略
 ---
 
-[Coscientist](./coscientist) には検索（retrieval）以上のものが必要です。すなわち、[弁証法グラフ](./dialectical-graph) において、矛盾、境界条件、手法依存性を能動的に浮かび上がらせる探索が求められます。
+[コサイエンティスト](./coscientist) には検索（retrieval）以上のものが必要です。すなわち、[弁証法グラフ](./dialectical-graph) において、矛盾、境界条件、手法依存性を能動的に浮かび上がらせる探索が求められます。
 
 主な戦略は次のとおりです：
 

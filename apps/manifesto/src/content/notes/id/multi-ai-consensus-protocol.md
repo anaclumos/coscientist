@@ -3,7 +3,7 @@ title: Protokol Konsensus Multi-AI
 description: Sistem penulisan dan verifikasi 1+4 (manusia + empat AI)
 ---
 
-Protokol Konsensus Multi-AI adalah alur kerja kolaborasi di mana [Operator](./operator) mengoordinasikan beberapa sistem AI untuk mengurangi risiko halusinasi dari satu model dan membantu bertahan melawan [Encyclopedia Meltdown](./encyclopedia-meltdown).
+Protokol Konsensus Multi-AI adalah alur kerja kolaborasi di mana [Operator](./operator) mengoordinasikan beberapa sistem AI untuk mengurangi risiko halusinasi dari satu model dan membantu bertahan melawan [Kehancuran Ensiklopedia](./encyclopedia-meltdown).
 
 Dalam varian "1+4", satu manusia mengoordinasikan empat asisten AI (per Desember 2025: ChatGPT, Gemini, Claude, dan Grok). Intinya bukan "lebih banyak memori"; melainkan ketidaksepakatan yang terstruktur dan keterlacakan.
 

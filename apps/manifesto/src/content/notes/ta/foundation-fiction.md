@@ -3,11 +3,11 @@ title: அடித்தளம் புனைகதை
 description: Coscientist-இன் பார்வையை வடிவமைக்கும், அசிமோவ்-ஈர்க்கப்பட்ட கருத்துகள்
 ---
 
-அடித்தளம் புனைகதை என்பது [Isaac Asimov](./isaac-asimov) அவர்களின் *Foundation* தொடரிலிருந்து வரும் கருத்துகளை குறிக்கும்; அவை [Coscientist](./coscientist)-இன் பார்வையை வழிநடத்துகின்றன. புனைவு [Encyclopedia Galactica](./encyclopedia-galactica) என்பது அறிவைப் பாதுகாப்பதும் திறனையும் பற்றி சிந்திப்பதற்கான ஒரு முக்கியத் தாங்கு-சுட்டியாக (touchstone) செயல்படுகிறது.
+அடித்தளம் புனைகதை என்பது [Isaac Asimov](./isaac-asimov) அவர்களின் _Foundation_ தொடரிலிருந்து வரும் கருத்துகளை குறிக்கும்; அவை [இணை-விஞ்ஞானி](./coscientist)-இன் பார்வையை வழிநடத்துகின்றன. புனைவு [கேலக்டிக் கலைக்களஞ்சியம்](./encyclopedia-galactica) என்பது அறிவைப் பாதுகாப்பதும் திறனையும் பற்றி சிந்திப்பதற்கான ஒரு முக்கியத் தாங்கு-சுட்டியாக (touchstone) செயல்படுகிறது.
 
 ## மையக் கருத்துகள்
 
-- [Encyclopedia Galactica](./encyclopedia-galactica) — புனைவு அறிவுக் களஞ்சியம்
+- [கேலக்டிக் கலைக்களஞ்சியம்](./encyclopedia-galactica) — புனைவு அறிவுக் களஞ்சியம்
 - [Psychohistory](./psychohistory) — அசிமோவ் உருவாக்கிய நாகரிகங்களின் புள்ளியியல் அறிவியல்
 - [Seldon Plan](./seldon-plan) — [Hari Seldon](./hari-seldon) அவர்களின் நீண்டகாலத் திட்டம்
 - [Dark Night of the Soul](./dark-night-of-the-soul) — நாகரிக அல்லது அறிவியற் (epistemic) வீழ்ச்சிக்கான உவமை

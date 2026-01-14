@@ -7,4 +7,4 @@ Durum geçiş kuralları, bir [iddianın](./claim) [iddia durum taksonomisinde](
 
 Başlıca geçişler şunlardır: geçici → ihtilaflı (bir [saldırı](./attack) kaydedildiğinde), ihtilaflı → koşullu olarak desteklenen (saldırı, [kapsamın](./scope) daraltılması veya [varsayımların](./assumption) netleştirilmesiyle yanıtlandığında), koşullu olarak desteklenen → sağlam (birden çok bağımsız yol doğruladığında), sağlam → çürütülmüş (bir karşı-örnek incelemeye rağmen ayakta kaldığında) ve herhangi bir durum → geçersiz ( [tanım kayması](./definition-drift) iddianın anlam bağını kopardığında).
 
-Bu kurallar, [Coscientist](./coscientist) içindeki [epistemik protokol katmanının](./epistemic-protocol-layer) bir parçasıdır. Bilgi güncellemeyi, düzyazıda örtük olmak yerine açık ve denetlenebilir hale getirirler.
+Bu kurallar, [Eşbilimci](./coscientist) içindeki [epistemik protokol katmanının](./epistemic-protocol-layer) bir parçasıdır. Bilgi güncellemeyi, düzyazıda örtük olmak yerine açık ve denetlenebilir hale getirirler.

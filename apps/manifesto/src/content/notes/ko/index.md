@@ -3,13 +3,13 @@ title: "출력 토큰 ≠ 지식"
 description: 인지 외골격을 향한 개인적 탐구
 ---
 
-나, [조성현](./sunghyun-cho)은 백과사전과 단일한 권위적 지식 저장소라는 개념을 경외하는 마음으로 자랐다. 어릴 적 나는 _Encyclopedia Galactica_를 파고들며, 내 모든 프로젝트와 연구가 보편적 참고문헌 안에 들어가 살아갈 수 있는 세상을 상상했다. 이후 [바네바 부시](./vannevar-bush)의 1945년 에세이 [As We May Think](./as-we-may-think)를 알게 되었는데, 그 글은 [메멕스(Memex)](./memex)를 묘사했다. 개인이 기록을 저장하고 연상 경로(associative trails)를 통해 이를 찾아낼 수 있게 해주는 아카이브였다. 그 비전은 인지 외골격(cognitive exoskeleton)처럼 느껴졌다.
+나, [조성현](./sunghyun-cho)은 백과사전과 단일한 권위적 지식 저장소라는 개념을 경외하는 마음으로 자랐다. 어릴 적 나는 _Encyclopedia Galactica_를 파고들며, 내 모든 프로젝트와 연구가 보편적 참고문헌 안에 들어가 살아갈 수 있는 세상을 상상했다. 이후 [바네바 부시](./vannevar-bush)의 1945년 에세이 [우리가 생각하는 대로](./as-we-may-think)를 알게 되었는데, 그 글은 [메멕스](./memex)를 묘사했다. 개인이 기록을 저장하고 연상 경로(associative trails)를 통해 이를 찾아낼 수 있게 해주는 아카이브였다. 그 비전은 인지 외골격(cognitive exoskeleton)처럼 느껴졌다.
 
 21세기에 내 커리어를 시작할 무렵, 인터넷은 전 지구적 메멕스의 거친 근사치가 되어 있었다. 하지만 뭔가가 빠져 있었다. 인터넷은 집단의 기록은 보존했지만, 개인의 마음—개인적 맥락, 변화하는 통찰, 살아 있는 아이디어—은 포착하지 못했다. 나는 [세컨드 브레인](./second-brain) 도구와 [디지털 가든](./digital-garden) 실천을 실험했지만, 그것들은 너무 수동적이고 너무 취약했다. 나는 마찰을 최소화하면서 함께 성장하고 적응하는 외재화된 [디지털 브레인](./digital-brain)을 원했다.
 
-그 깨달음은 개인용으로 메멕스의 상위집합을 만들려는 나의 시도, [프로젝트 알데하이드](./project-aldehyde)를 촉발했다. 수년간의 반복은 2022년 5월 에세이 [Creating Next-gen Digital Brains](./creating-next-gen-digital-brains)로 결실을 맺었는데, 그 글은 마찰(friction)이 개인 지식 워크플로의 적이라고 주장했다. 정원을 관리하는 최선의 방법은 끊임없는 손질이 아니라, 스스로 조직되는 [디지털 정글](./digital-jungle)을 길러내는 것이다. 원지식(raw knowledge)을 던져 넣기만 하면 시스템이 그것을 정리하고, 연결하고, 다시 떠올리게(resurface) 해줘야 한다.
+그 깨달음은 개인용으로 메멕스의 상위집합을 만들려는 나의 시도, [프로젝트 알데하이드](./project-aldehyde)를 촉발했다. 수년간의 반복은 2022년 5월 에세이 [차세대 디지털 브레인 구축](./creating-next-gen-digital-brains)로 결실을 맺었는데, 그 글은 마찰(friction)이 개인 지식 워크플로의 적이라고 주장했다. 정원을 관리하는 최선의 방법은 끊임없는 손질이 아니라, 스스로 조직되는 [디지털 정글](./digital-jungle)을 길러내는 것이다. 원지식(raw knowledge)을 던져 넣기만 하면 시스템이 그것을 정리하고, 연결하고, 다시 떠올리게(resurface) 해줘야 한다.
 
-2022년 중반, 나는 Obsidian에서 웹으로 이어지는 정적 사이트 파이프라인을 사용해 프로토타입을 구현했고, 이를 [Extracranial](./extracranial)이라고 이름 붙였다. 그것은 콘텐츠를 자동으로 인덱싱하고, 백링크를 제안하며, 상시성(evergreen)으로 표시하지 않은 오래된 글은 쇠퇴(decay)하도록 두고, [Sprachraums 전반](./across-the-sprachraums)에 걸쳐 이중언어로 작동하는 개인 디지털 브레인이었다. 덕분에 나는 링크를 미시관리(micromanaging)하는 부담에서 벗어나 글쓰기와 사고에 집중할 수 있었다.
+2022년 중반, 나는 Obsidian에서 웹으로 이어지는 정적 사이트 파이프라인을 사용해 프로토타입을 구현했고, 이를 [엑스트라크래니얼](./extracranial)이라고 이름 붙였다. 그것은 콘텐츠를 자동으로 인덱싱하고, 백링크를 제안하며, 상시성(evergreen)으로 표시하지 않은 오래된 글은 쇠퇴(decay)하도록 두고, [Sprachraums 전반](./across-the-sprachraums)에 걸쳐 이중언어로 작동하는 개인 디지털 브레인이었다. 덕분에 나는 링크를 미시관리(micromanaging)하는 부담에서 벗어나 글쓰기와 사고에 집중할 수 있었다.
 
 하지만 그 개인 위키를 만들면서 더 큰 문제가 보이기 시작했다. 더 넓은 인식론적(epistemic) 환경이 훼손되어 있다면, 아무리 완벽한 개인 메멕스도 충분하지 않다. 생성형 AI가 어디에나 존재하게 되면서, 더 깊은 질문은 “지식을 어떻게 저장하지?”에서 “AI가 그럴듯한 텍스트로 시스템을 범람시킬 수 있을 때, 검증이 붕괴하는 것을 어떻게 막지?”로 옮겨갔다.
 
@@ -25,24 +25,24 @@ description: 인지 외골격을 향한 개인적 탐구
 
 수동 링크는 여전히 이해를 정교화할 수 있지만, 선택 사항이어야 한다. 무거운 작업은 시스템이 맡아야 한다.
 
-2023년이 되자 나는 개인적 노트테이킹을 넘어서는 질문들과 씨름하고 있었다. AI 생성 콘텐츠는 검증 그 자체를 위협했다. 나는 그 붕괴 시나리오를 [Encyclopedia Meltdown](./encyclopedia-meltdown)이라고 불렀다. AI가 글쓰기를 주도권을 쥐는 순간, [책임선(responsibility line)](./responsibility-line)이 사라지고 오류가 링크를 통해 자기증폭(self-amplify)한다.
+2023년이 되자 나는 개인적 노트테이킹을 넘어서는 질문들과 씨름하고 있었다. AI 생성 콘텐츠는 검증 그 자체를 위협했다. 나는 그 붕괴 시나리오를 [백과사전 붕괴](./encyclopedia-meltdown)이라고 불렀다. AI가 글쓰기를 주도권을 쥐는 순간, [책임선(responsibility line)](./responsibility-line)이 사라지고 오류가 링크를 통해 자기증폭(self-amplify)한다.
 
-대응책은 [인식론적 프로토콜 레이어(epistemic protocol layer)](./epistemic-protocol-layer)다. 지식 시스템을 위한 헌법적 층(constitutional layer)이다. 핵심 약속은 주권(지식 권위는 인간 [Operator](./operator)에게 남는다), 추적 가능성(모든 주장(claim)이 책임선을 유지한다), 그리고 반박 우선 검증(rebuttal-first validation)이다(수용하기 전에 [rebuttal-first search](./rebuttal-first-search)로 반증 증거(counterevidence)를 먼저 찾는다). 이 레이어는 또한 명시적 기원(provenance)과 제로 트러스트(zero-trust) 수집(ingestion)을 강제함으로써 [모델 붕괴(model collapse)](./model-collapse)와 [AI 슬롭(AI slop)](./ai-slop)의 범람 같은 압력도 다룬다.
+대응책은 [인식론적 프로토콜 레이어(epistemic protocol layer)](./epistemic-protocol-layer)다. 지식 시스템을 위한 헌법적 층(constitutional layer)이다. 핵심 약속은 주권(지식 권위는 인간 [오퍼레이터](./operator)에게 남는다), 추적 가능성(모든 주장(claim)이 책임선을 유지한다), 그리고 반박 우선 검증(rebuttal-first validation)이다(수용하기 전에 [반박 우선 검색](./rebuttal-first-search)로 반증 증거(counterevidence)를 먼저 찾는다). 이 레이어는 또한 명시적 기원(provenance)과 제로 트러스트(zero-trust) 수집(ingestion)을 강제함으로써 [모델 붕괴(model collapse)](./model-collapse)와 [AI 슬롭(AI slop)](./ai-slop)의 범람 같은 압력도 다룬다.
 
 ## ScienceOps와 제도적 스케일
 
-개인 지식 인프라는 편의성은 해결했지만, 제도적 스케일은 해결하지 못했다. 다음 도약은 [ScienceOps](./scienceops)였다. 재현 가능한 실험, 자동화, 빠른 반복을 통해 과학 연구에 소프트웨어 운영(operations) 규율을 적용하고, 동시에 [자연과학 엔지니어(natural science engineer)](./natural-science-engineer)라는 역할을 도입하는 것이다. 실험이 일회성(one-offs)이 아니라 파이프라인이 될 때, 가설과 검증 사이의 루프는 극적으로 줄어들 수 있다.
+개인 지식 인프라는 편의성은 해결했지만, 제도적 스케일은 해결하지 못했다. 다음 도약은 [사이언스옵스](./scienceops)였다. 재현 가능한 실험, 자동화, 빠른 반복을 통해 과학 연구에 소프트웨어 운영(operations) 규율을 적용하고, 동시에 [자연과학 엔지니어(natural science engineer)](./natural-science-engineer)라는 역할을 도입하는 것이다. 실험이 일회성(one-offs)이 아니라 파이프라인이 될 때, 가설과 검증 사이의 루프는 극적으로 줄어들 수 있다.
 
-더 큰 목표는 실험을 코드처럼 다루는 “과학자를 위한 GitHub”다. 버전 관리되고, 반복 가능하며, 감사를 받을 수 있어야 한다. 이것이 바로 [Coscientist](./coscientist) 같은 인지 엔진을 요구하는 운영 맥락이다.
+더 큰 목표는 실험을 코드처럼 다루는 “과학자를 위한 GitHub”다. 버전 관리되고, 반복 가능하며, 감사를 받을 수 있어야 한다. 이것이 바로 [코사이언티스트](./coscientist) 같은 인지 엔진을 요구하는 운영 맥락이다.
 
 ## Coscientist: 아키텍처, 에이전시, 블루프린트
 
-[Coscientist](./coscientist)는 이러한 실타래를 종합하는 시스템이다. 단일 답변 엔진이 아니라 연구 협업자로 기능하도록 설계된 멀티 에이전트 [LLM](./llm) 아키텍처다. 내부 루프는 제안(proposal), 비판(critique), 순위화(ranking), 정련(refinement)을 분리하며, 메타 리뷰(meta-review) 레이어가 일관성(coherence), 추적 가능성, 불확실성을 점검한다.
+[코사이언티스트](./coscientist)는 이러한 실타래를 종합하는 시스템이다. 단일 답변 엔진이 아니라 연구 협업자로 기능하도록 설계된 멀티 에이전트 [대규모 언어 모델](./llm) 아키텍처다. 내부 루프는 제안(proposal), 비판(critique), 순위화(ranking), 정련(refinement)을 분리하며, 메타 리뷰(meta-review) 레이어가 일관성(coherence), 추적 가능성, 불확실성을 점검한다.
 
-지식 레이어에서 Coscientist는 원문 텍스트가 아니라 주장과 관계를 저장하는 [변증법적 그래프(Dialectical Graph)](./dialectical-graph)를 유지한다. 서술형 출력(narrative output)은 추론 레이어의 투영(projection)으로 취급되므로, 모든 문장은 출처, 증거 구간(evidence spans), 명시적 관계로 되짚어(backtrack) 갈 수 있다. 이런 분리는 기존 생성의 “매끄럽지만 검증 불가(smooth but unverifiable)” 실패 모드를 피한다.
+지식 레이어에서 Coscientist는 원문 텍스트가 아니라 주장과 관계를 저장하는 [변증법적 그래프](./dialectical-graph)를 유지한다. 서술형 출력(narrative output)은 추론 레이어의 투영(projection)으로 취급되므로, 모든 문장은 출처, 증거 구간(evidence spans), 명시적 관계로 되짚어(backtrack) 갈 수 있다. 이런 분리는 기존 생성의 “매끄럽지만 검증 불가(smooth but unverifiable)” 실패 모드를 피한다.
 
 전통적 AI 안전은 종종 문제를 정렬(alignment)로 틀짓는다. 나는 [인지적 에이전시 보존(cognitive agency preservation)](./cognitive-agency-preservation)을 강조한다. AI는 인간의 판단을 대체하는 것이 아니라 강화해야 한다. 실천적으로는 사용자를 검증자(verifier) 역할에 남겨두는 것을 뜻한다. 작업 과정을 보여주고(showing work), 불확실성을 드러내며, 대안 가설을 제시하고, 반박 탐색(rebuttal-seeking)을 기본값으로 만드는 것이다.
 
 Coscientist는 새로운 인식론적 인프라를 위한 블루프린트가 되도록 의도되었다. 마찰이 없되 주권적이고, 빠르되 책임 가능하며, 강력하지만 에이전시를 침식하지 않는다. 이는 세 가지 실패 모드를 겨냥한다: 제도적 뇌 부패(institutional brain rot)(교차 참조와 적대적 리뷰(adversarial review)로 완화), 검증 붕괴(추적 가능성과 자동화된 반박 검색으로 완화), 그리고 에이전시 상실(투명성과 인간 거부권(human veto)으로 완화).
 
-장기 비전은 개인, 조직, 공공 스케일에서 연합(federated)된 Coscientist 인스턴스 네트워크가 지역적 주권(local sovereignty)을 보존하면서 검증된 지식을 교환하는 것이다. 읽기 경로가 필요하다면 [Creating Next-gen Digital Brains](./creating-next-gen-digital-brains)(개인 도구), 다음으로 [Encyclopedia Meltdown](./encyclopedia-meltdown)와 [인식론적 프로토콜 레이어](./epistemic-protocol-layer)(실패 모드와 방어), 그다음 [Dialectical Graph](./dialectical-graph)와 [지식 합성(knowledge synthesis)](./knowledge-synthesis)(아키텍처)부터 시작하라.
+장기 비전은 개인, 조직, 공공 스케일에서 연합(federated)된 Coscientist 인스턴스 네트워크가 지역적 주권(local sovereignty)을 보존하면서 검증된 지식을 교환하는 것이다. 읽기 경로가 필요하다면 [차세대 디지털 브레인 구축](./creating-next-gen-digital-brains)(개인 도구), 다음으로 [백과사전 붕괴](./encyclopedia-meltdown)와 [인식론적 프로토콜 레이어](./epistemic-protocol-layer)(실패 모드와 방어), 그다음 [변증법적 그래프](./dialectical-graph)와 [지식 합성(knowledge synthesis)](./knowledge-synthesis)(아키텍처)부터 시작하라.

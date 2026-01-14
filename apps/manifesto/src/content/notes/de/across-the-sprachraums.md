@@ -13,6 +13,6 @@ Die Vision besteht aus drei Teilen:
 
 Dabei geht es nicht nur um Übersetzung. Ein wirklich sprachübergreifendes System muss einen [sprachagnostischen Index](./language-agnostic-indexing) von Konzepten führen, die [Übersetzungstreue](./translation-fidelity) bewahren und sich gegen [Verlust von Übersetzungsnuancen](./translation-nuance-loss) schützen. Das Ziel ist ein [mehrsprachiges Wissensnetz](./multilingual-knowledge-mesh), in dem eine koreanische Notiz über das zugrunde liegende Konzept mit einer englischen Notiz verknüpft werden kann — nicht nur über Wortübereinstimmungen.
 
-[Extracranial](./extracranial) setzt dies durch zweisprachige Inhalte, automatische Spracherkennung und hreflang-Tags um. [Coscientist](./coscientist) erweitert die Vision: Weil es [LLMs](./llm) nutzt, kann es Literatur in jeder Sprache lesen und synthetisieren, wodurch [sprachübergreifende Synthese](./cross-linguistic-synthesis) zu einer nativen Fähigkeit wird statt zu einem nachträglichen Zusatz.
+[Extracranial](./extracranial) setzt dies durch zweisprachige Inhalte, automatische Spracherkennung und hreflang-Tags um. [Kozientist](./coscientist) erweitert die Vision: Weil es [LLMs](./llm) nutzt, kann es Literatur in jeder Sprache lesen und synthetisieren, wodurch [sprachübergreifende Synthese](./cross-linguistic-synthesis) zu einer nativen Fähigkeit wird statt zu einem nachträglichen Zusatz.
 
 Referenz: https://cho.sh/r/2EB438.

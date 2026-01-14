@@ -3,11 +3,11 @@ title: Fiksi Foundation
 description: Konsep-konsep terinspirasi Asimov yang membentuk visi Coscientist
 ---
 
-Fiksi Foundation merujuk pada konsep-konsep dari seri Foundation karya [Isaac Asimov](./isaac-asimov) yang membentuk visi [Coscientist](./coscientist). [Encyclopedia Galactica](./encyclopedia-galactica) yang fiktif menjadi rujukan penting untuk memikirkan pelestarian pengetahuan dan kapabilitas.
+Fiksi Foundation merujuk pada konsep-konsep dari seri Foundation karya [Isaac Asimov](./isaac-asimov) yang membentuk visi [Kosaintis](./coscientist). [Ensiklopedia Galaktika](./encyclopedia-galactica) yang fiktif menjadi rujukan penting untuk memikirkan pelestarian pengetahuan dan kapabilitas.
 
 ## Konsep Inti
 
-- [Encyclopedia Galactica](./encyclopedia-galactica) — repositori pengetahuan fiktif
+- [Ensiklopedia Galaktika](./encyclopedia-galactica) — repositori pengetahuan fiktif
 - [Psychohistory](./psychohistory) — ilmu statistik (statistical science) Asimov tentang peradaban
 - [Seldon Plan](./seldon-plan) — strategi jangka panjang [Hari Seldon](./hari-seldon)
 - [Dark Night of the Soul](./dark-night-of-the-soul) — metafora bagi keruntuhan peradaban atau epistemik

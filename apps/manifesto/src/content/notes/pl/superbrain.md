@@ -16,6 +16,6 @@ Człowiek pozostaje suwerenny; system wykonuje mechaniczną pracę.
 
 Wymiar wielojęzyczny jest kluczowy. Supermózg ograniczony do jednego [Sprachraumu](./sprachraum) jest zasadniczo ograniczony. Prawdziwe wzmocnienie poznawcze oznacza myślenie [ponad Sprachraumami](./across-the-sprachraums), dostęp do wiedzy niezależnie od języka, w którym została pierwotnie zapisana, oraz syntezę wniosków poprzez [syntezę międzyjęzykową](./cross-linguistic-synthesis).
 
-[Coscientist](./coscientist) jest zorientowaną na badania instancją tej wizji: wieloagentowy system [LLM](./llm), który czyta literaturę w dowolnym języku i debatuje hipotezy poprzez ustrukturyzowane pętle „propozycja–krytyka”. Marzenie o supermózgu nie jest odległą fantastyką naukową; to docelowy punkt projektu.
+[Współnaukowiec](./coscientist) jest zorientowaną na badania instancją tej wizji: wieloagentowy system [Duży model językowy](./llm), który czyta literaturę w dowolnym języku i debatuje hipotezy poprzez ustrukturyzowane pętle „propozycja–krytyka”. Marzenie o supermózgu nie jest odległą fantastyką naukową; to docelowy punkt projektu.
 
 Odniesienie: https://cho.sh/r/4AED52.

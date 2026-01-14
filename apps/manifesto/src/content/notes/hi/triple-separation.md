@@ -3,7 +3,7 @@ title: त्रि-विभाजन
 description: कच्चे पाठ, सामान्यीकृत दावों, और स्पष्ट संबंधों को अलग रखने वाला वास्तुकला नियम
 ---
 
-त्रि-विभाजन (Triple separation) [Dialectical Graph](./dialectical-graph) में एक वास्तुकला नियम है, जो तीन परतों को अलग रखता है: मूल पाठ को उद्धृत किए जा सकने वाले [evidence spans](./evidence-span) के रूप में सुरक्षित रखा जाता है; [claims](./claim) को [normalized propositions](./normalized-proposition) में विघटित किया जाता है; और संबंधों को स्पष्ट तर्कात्मक बाइंडिंग्स (argumentative bindings) के रूप में संग्रहीत किया जाता है (देखें: [Dialectical Graph Edges](./dialectical-graph-edges))।
+त्रि-विभाजन (Triple separation) [द्वंद्वात्मक ग्राफ](./dialectical-graph) में एक वास्तुकला नियम है, जो तीन परतों को अलग रखता है: मूल पाठ को उद्धृत किए जा सकने वाले [evidence spans](./evidence-span) के रूप में सुरक्षित रखा जाता है; [claims](./claim) को [normalized propositions](./normalized-proposition) में विघटित किया जाता है; और संबंधों को स्पष्ट तर्कात्मक बाइंडिंग्स (argumentative bindings) के रूप में संग्रहीत किया जाता है (देखें: [Dialectical Graph Edges](./dialectical-graph-edges))।
 
 यह विभाजन [RAG](./rag-limitations) में एक आम विफलता-प्रकार (failure mode) से बचाता है: अंश का कट जाना (excerpt truncation)। जब पाठ को मूल शब्दावली संरक्षित किए बिना पुनःप्राप्त (retrieve) करके सारांशित किया जाता है, तो श्रेय/स्रोत-उल्लेख (attribution) चुपचाप गायब हो सकता है। त्रि-विभाजन सुनिश्चित करता है कि आप हमेशा किसी दावे को उन सटीक शब्दों और उस [source](./source) तक वापस ट्रेस कर सकें जिन्होंने उन्हें उत्पन्न किया।
 

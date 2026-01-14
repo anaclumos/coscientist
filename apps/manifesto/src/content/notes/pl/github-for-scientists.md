@@ -7,4 +7,4 @@ description: Wizja traktowania eksperymentów jako wersjonowanego, audytowalnego
 
 Ta wizja jest centralna dla [ScienceOps](./scienceops). Gdy eksperymenty stają się wersjonowanymi artefaktami, pętla między hipotezą a [weryfikacją](./verification) się skraca. Porażki stają się możliwe do prześledzenia. Sukcesy stają się możliwe do powtórzenia przez innych bez heroicznego wysiłku.
 
-[Coscientist](./coscientist) to warstwa poznawcza dla takiego workflow: zarządzanie [twierdzeniami](./claim), [dowodami](./evidence-span) i kontrargumentami w wielu projektach, przy jednoczesnym zachowaniu [linii odpowiedzialności](./responsibility-line) oraz wspieraniu roli [inżyniera nauk przyrodniczych](./natural-science-engineer).
+[Współnaukowiec](./coscientist) to warstwa poznawcza dla takiego workflow: zarządzanie [twierdzeniami](./claim), [dowodami](./evidence-span) i kontrargumentami w wielu projektach, przy jednoczesnym zachowaniu [linii odpowiedzialności](./responsibility-line) oraz wspieraniu roli [inżyniera nauk przyrodniczych](./natural-science-engineer).

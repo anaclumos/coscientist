@@ -3,7 +3,7 @@ title: Capas del sistema de conocimiento
 description: Las capas arquitectónicas de Coscientist
 ---
 
-Las capas del sistema de conocimiento son los componentes arquitectónicos distintos que conforman [Coscientist](./coscientist). Separar estas capas permite que distintas preocupaciones evolucionen de forma independiente.
+Las capas del sistema de conocimiento son los componentes arquitectónicos distintos que conforman [Cocientífico](./coscientist). Separar estas capas permite que distintas preocupaciones evolucionen de forma independiente.
 
 ## Capa de Datos
 

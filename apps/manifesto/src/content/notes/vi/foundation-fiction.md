@@ -3,11 +3,11 @@ title: Hư cấu Foundation
 description: Các khái niệm lấy cảm hứng từ Asimov định hình tầm nhìn của Coscientist
 ---
 
-“Hư cấu Foundation” đề cập đến các khái niệm từ loạt truyện Foundation của [Isaac Asimov](./isaac-asimov) vốn định hình tầm nhìn của [Coscientist](./coscientist). [Encyclopedia Galactica](./encyclopedia-galactica) hư cấu là một điểm tựa để suy nghĩ về việc bảo tồn tri thức và năng lực.
+“Hư cấu Foundation” đề cập đến các khái niệm từ loạt truyện Foundation của [Isaac Asimov](./isaac-asimov) vốn định hình tầm nhìn của [Nhà đồng khoa học](./coscientist). [Bách khoa toàn thư Thiên hà](./encyclopedia-galactica) hư cấu là một điểm tựa để suy nghĩ về việc bảo tồn tri thức và năng lực.
 
 ## Các khái niệm cốt lõi
 
-- [Encyclopedia Galactica](./encyclopedia-galactica) — kho lưu trữ tri thức hư cấu
+- [Bách khoa toàn thư Thiên hà](./encyclopedia-galactica) — kho lưu trữ tri thức hư cấu
 - [Psychohistory](./psychohistory) — khoa học thống kê về các nền văn minh của Asimov
 - [Kế hoạch Seldon](./seldon-plan) — chiến lược dài hạn của [Hari Seldon](./hari-seldon)
 - [Đêm tối của linh hồn](./dark-night-of-the-soul) — ẩn dụ cho sự sụp đổ của nền văn minh hoặc nhận thức luận

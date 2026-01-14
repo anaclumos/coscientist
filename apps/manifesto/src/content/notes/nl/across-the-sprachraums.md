@@ -13,6 +13,6 @@ De visie heeft drie onderdelen:
 
 Dit gaat niet louter over vertaling. Een werkelijk cross-linguïstisch systeem moet een [taalagnostische index](./language-agnostic-indexing) van concepten bijhouden, de [vertaalfideliteit](./translation-fidelity) behouden en waken tegen [verlies van vertaalnuance](./translation-nuance-loss). Het doel is een [meertalig kennisnetwerk](./multilingual-knowledge-mesh) waarin een Koreaanse notitie via het onderliggende concept kan linken naar een Engelse notitie, niet alleen via woordovereenkomst.
 
-[Extracranial](./extracranial) implementeert dit via tweetalige content, automatische taaldetectie en hreflang-tags. [Coscientist](./coscientist) breidt de visie uit: omdat het [LLM's](./llm) gebruikt, kan het literatuur in elke taal lezen en synthetiseren, waardoor [cross-linguïstische synthese](./cross-linguistic-synthesis) een kerncapaciteit wordt in plaats van een bijzaak.
+[Extracranial](./extracranial) implementeert dit via tweetalige content, automatische taaldetectie en hreflang-tags. [Cowetenschapper](./coscientist) breidt de visie uit: omdat het [Grote taalmodellen](./llm) gebruikt, kan het literatuur in elke taal lezen en synthetiseren, waardoor [cross-linguïstische synthese](./cross-linguistic-synthesis) een kerncapaciteit wordt in plaats van een bijzaak.
 
 Referentie: https://cho.sh/r/2EB438.

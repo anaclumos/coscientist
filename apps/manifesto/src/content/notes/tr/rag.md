@@ -9,4 +9,4 @@ Standart RAG hattı (pipeline) şöyle işler: bir sorgu vektör uzayına gömü
 
 Ancak RAG’nin bilgi üretimi açısından yapısal sınırlamaları vardır. Benzerliğe dayalı olarak metin parçacıkları (snippets) geri getirir; argümantatif ilişkileri temel almaz. Desteği saldırıdan, kanıtı görüşten veya birincil kaynağı yeniden ifade edilenden ayırt edemez. Kaynaklar çatıştığında, RAG genellikle [ihtilafı](./contention) görünür kılmak yerine onları pürüzsüz özetler halinde harmanlama eğilimindedir. Tam eleştiri için [RAG Sınırlamaları](./rag-limitations)’na bakın.
 
-[Coscientist](./coscientist), [iddiaları](./claim), [kanıt bölümlerini](./evidence-span) ve türlendirilmiş ilişkileri depolayan bir [Diyalektik Grafik](./dialectical-graph) tutarak RAG’nin ötesine geçer. Erişim, “bu iddiayla ilgili olan nedir?” haline gelir; “bu sorguya benzer olan nedir?” değil.
+[Eşbilimci](./coscientist), [iddiaları](./claim), [kanıt bölümlerini](./evidence-span) ve türlendirilmiş ilişkileri depolayan bir [Diyalektik Grafik](./dialectical-graph) tutarak RAG’nin ötesine geçer. Erişim, “bu iddiayla ilgili olan nedir?” haline gelir; “bu sorguya benzer olan nedir?” değil.

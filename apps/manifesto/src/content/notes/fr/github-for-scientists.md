@@ -7,4 +7,4 @@ description: Vision consistant à traiter les expériences comme du code version
 
 Cette vision est au cœur de [ScienceOps](./scienceops). Lorsque les expériences deviennent des artefacts versionnés, la boucle entre l’hypothèse et la [vérification](./verification) se raccourcit. Les échecs deviennent traçables. Les réussites deviennent réplicables par d’autres sans effort héroïque.
 
-[Coscientist](./coscientist) est la couche cognitive d’un tel flux de travail : gérer les [affirmations](./claim), les [preuves](./evidence-span) et les réfutations à travers de nombreux projets tout en préservant la [ligne de responsabilité](./responsibility-line) et en soutenant le rôle d’[ingénieur en sciences naturelles](./natural-science-engineer).
+[Coscientifique](./coscientist) est la couche cognitive d’un tel flux de travail : gérer les [affirmations](./claim), les [preuves](./evidence-span) et les réfutations à travers de nombreux projets tout en préservant la [ligne de responsabilité](./responsibility-line) et en soutenant le rôle d’[ingénieur en sciences naturelles](./natural-science-engineer).

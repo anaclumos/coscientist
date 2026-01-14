@@ -3,7 +3,7 @@ title: 綜合機制
 description: 讓不相容來源具可比性的模式
 ---
 
-綜合機制（Synthesis mechanisms）是 [Coscientist](./coscientist) 用來讓不相容的來源變得可比，並從衝突中產生結構化輸出的模式與協定。
+綜合機制（Synthesis mechanisms）是 [共科學家](./coscientist) 用來讓不相容的來源變得可比，並從衝突中產生結構化輸出的模式與協定。
 
 ## 核心流程
 

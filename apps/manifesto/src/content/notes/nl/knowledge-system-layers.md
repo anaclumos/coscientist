@@ -3,7 +3,7 @@ title: Lagen van het kennissysteem
 description: De architecturale lagen van Coscientist
 ---
 
-De lagen van het kennissysteem zijn de afzonderlijke architecturale componenten waaruit [Coscientist](./coscientist) bestaat. Door deze lagen te scheiden, kunnen verschillende aandachtspunten onafhankelijk van elkaar evolueren.
+De lagen van het kennissysteem zijn de afzonderlijke architecturale componenten waaruit [Cowetenschapper](./coscientist) bestaat. Door deze lagen te scheiden, kunnen verschillende aandachtspunten onafhankelijk van elkaar evolueren.
 
 ## Datalayer
 

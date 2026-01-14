@@ -5,7 +5,7 @@ description: 將多種語言的知識整合為一致的理解
 
 跨語言綜合（cross-linguistic synthesis）是把不同語言來源的知識結合成單一、連貫理解的過程。它不只是翻譯：它讓來自不同 [語言文化圈（Sprachraums）](./sprachraum) 的想法相遇、分歧，並彼此更新。
 
-對於 [Coscientist](./coscientist) 而言，這是一種原生能力，因為現代 [LLMs](./llm) 能閱讀多種語言。實務上，跨語言綜合可以：
+對於 [共科學家](./coscientist) 而言，這是一種原生能力，因為現代 [LLMs](./llm) 能閱讀多種語言。實務上，跨語言綜合可以：
 
 - 跨語言拉取 [來源](./source)
 - 擷取並正規化 [主張](./claim)

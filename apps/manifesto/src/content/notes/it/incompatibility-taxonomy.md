@@ -7,4 +7,4 @@ La tassonomia delle incompatibilità è una classificazione dei motivi per cui l
 
 Distinguere questi aspetti è importante perché le strategie di risoluzione differiscono. Una differenza di definizione si risolve con la disambiguazione; una differenza di metodo può richiedere di ripetere gli esperimenti; una differenza di ambito si dissolve quando le condizioni vengono rese esplicite. Trattare ogni disaccordo come “non sono d’accordo e basta” fa perdere questa struttura.
 
-La [sintesi della conoscenza](./knowledge-synthesis) in [Coscientist](./coscientist) usa questa tassonomia per scomporre i conflitti nelle loro cause, producendo [mappe di risoluzione ramificate](./branched-resolution-map) invece di medie forzate.
+La [sintesi della conoscenza](./knowledge-synthesis) in [Coscienziato](./coscientist) usa questa tassonomia per scomporre i conflitti nelle loro cause, producendo [mappe di risoluzione ramificate](./branched-resolution-map) invece di medie forzate.

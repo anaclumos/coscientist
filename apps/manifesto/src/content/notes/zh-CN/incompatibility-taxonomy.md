@@ -7,4 +7,4 @@ description: 来源之间分歧的类别
 
 区分这些很重要，因为解决策略不同。定义差异可通过消歧来解决；方法差异可能需要重新进行实验；范围差异在条件被明确说明时就会消解。把所有分歧都当作“他们就是不一致”，会丢失这种结构。
 
-[Coscientist](./coscientist)中的[知识综合](./knowledge-synthesis)使用这套分类体系将冲突分解为其成因，从而产出[分支式解决映射](./branched-resolution-map)，而不是强行求平均。
+[共研者](./coscientist)中的[知识综合](./knowledge-synthesis)使用这套分类体系将冲突分解为其成因，从而产出[分支式解决映射](./branched-resolution-map)，而不是强行求平均。

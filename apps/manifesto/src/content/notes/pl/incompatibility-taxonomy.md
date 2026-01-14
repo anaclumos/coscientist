@@ -7,4 +7,4 @@ Taksonomia niezgodności to klasyfikacja powodów, dla których źródła się n
 
 Rozróżnianie tych przypadków ma znaczenie, ponieważ strategie rozwiązywania są różne. Różnicę definicyjną rozwiązuje się przez doprecyzowanie znaczenia; różnica metod może wymagać ponownego przeprowadzenia eksperymentów; różnica zakresu znika, gdy warunki zostaną jasno określone. Traktowanie każdej rozbieżności jako „po prostu się nie zgadzają” zaciera tę strukturę.
 
-[Synteza wiedzy](./knowledge-synthesis) w [Coscientist](./coscientist) wykorzystuje tę taksonomię do rozkładania konfliktów na ich przyczyny, tworząc [rozgałęzione mapy rozstrzygnięć](./branched-resolution-map) zamiast wymuszonych uśrednień.
+[Synteza wiedzy](./knowledge-synthesis) w [Współnaukowiec](./coscientist) wykorzystuje tę taksonomię do rozkładania konfliktów na ich przyczyny, tworząc [rozgałęzione mapy rozstrzygnięć](./branched-resolution-map) zamiast wymuszonych uśrednień.

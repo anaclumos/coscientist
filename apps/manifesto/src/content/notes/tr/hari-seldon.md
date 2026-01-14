@@ -3,7 +3,7 @@ title: Hari Seldon
 description: Asimov’un Vakıf serisinde psikotarihi yaratan kurgusal matematikçi
 ---
 
-Hari Seldon, [Isaac Asimov](./isaac-asimov)’un *Vakıf* serisinde [psikotarih](./psychohistory) geliştiren ve [Seldon Planı](./seldon-plan)’nı tasarlayan kurgusal matematikçidir. [Galaktik İmparatorluk](./galactic-empire)’un kaçınılmaz olarak çökeceğini fark ederek, görünüşte [Encyclopedia Galactica](./encyclopedia-galactica)’yı derlemek için Terminus’ta Vakıf’ı kurar; ancak gizlice, insanlığın toparlanmasına tohum ekmeyi amaçlar.
+Hari Seldon, [Isaac Asimov](./isaac-asimov)’un *Vakıf* serisinde [psikotarih](./psychohistory) geliştiren ve [Seldon Planı](./seldon-plan)’nı tasarlayan kurgusal matematikçidir. [Galaktik İmparatorluk](./galactic-empire)’un kaçınılmaz olarak çökeceğini fark ederek, görünüşte [Galaktik Ansiklopedi](./encyclopedia-galactica)’yı derlemek için Terminus’ta Vakıf’ı kurar; ancak gizlice, insanlığın toparlanmasına tohum ekmeyi amaçlar.
 
 Seldon’ın yaklaşımı, öngörüyü müdahaleyle birleştirir: psikotarih olası gelecekleri açığa çıkarır ve özenle konumlandırılmış kurumlar daha iyi sonuçlara doğru yön verebilir. Ansiklopedi projesi hem sahiden gerçektir (bilgiyi korumak önemlidir) hem de araçsaldır (asıl işlevi, çöküş sonrası gidişatları yeniden şekillendirmektir).
 

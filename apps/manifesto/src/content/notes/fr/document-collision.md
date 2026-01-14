@@ -7,4 +7,4 @@ La collision de documents est le protocole consistant à forcer des sources disp
 
 C’est l’opposé de l’approche du « résumé équilibré », qui lisse les désaccords. La collision dit : « Ces deux sources affirment des choses incompatibles. Qu’est-ce qui entre précisément en conflit ? Dans quelles conditions ? Qu’est-ce qui permettrait de le résoudre ? »
 
-Dans [Coscientist](./coscientist), la collision de documents est mise en œuvre via le [Graphe dialectique](./dialectical-graph) : les prétentions sont extraites, normalisées, et reliées par des relations d’[attaque](./attack), de [réfutation par exception](./undercut) et de soutien. Le résultat est une carte indiquant où les sources s’accordent, où elles s’opposent, et ce qui reste ouvert.
+Dans [Coscientifique](./coscientist), la collision de documents est mise en œuvre via le [Graphe dialectique](./dialectical-graph) : les prétentions sont extraites, normalisées, et reliées par des relations d’[attaque](./attack), de [réfutation par exception](./undercut) et de soutien. Le résultat est une carte indiquant où les sources s’accordent, où elles s’opposent, et ce qui reste ouvert.

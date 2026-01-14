@@ -5,7 +5,7 @@ description: Combinando conhecimento de múltiplas línguas em uma compreensão 
 
 A síntese interlinguística é o processo de combinar conhecimento de fontes em diferentes línguas em uma única compreensão coerente. É mais do que tradução: permite que ideias de diferentes [espaços linguísticos (Sprachraums)](./sprachraum) se encontrem, discordem e se atualizem mutuamente.
 
-Para o [Coscientist](./coscientist), isso é uma capacidade nativa porque os [LLMs](./llm) modernos conseguem ler muitas línguas. Na prática, a síntese interlinguística pode:
+Para o [Cocientista](./coscientist), isso é uma capacidade nativa porque os [LLMs](./llm) modernos conseguem ler muitas línguas. Na prática, a síntese interlinguística pode:
 
 - reunir [fontes](./source) em diferentes línguas
 - extrair e normalizar [alegações (claims)](./claim)

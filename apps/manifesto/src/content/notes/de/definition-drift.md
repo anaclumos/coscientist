@@ -5,4 +5,4 @@ description: Wenn sich die Bedeutung eines Begriffs über die Zeit oder in unter
 
 Definitionsdrift ist die allmähliche Verschiebung der Bedeutung eines Begriffs über die Zeit, Schulen oder Fachgebiete hinweg. Er erzeugt falsche Übereinstimmung und falschen Widerspruch, wenn dasselbe Wort für unterschiedliche Konzepte verwendet wird, sodass es so wirkt, als würden Menschen über Schlussfolgerungen streiten, obwohl sie tatsächlich aneinander vorbeireden.
 
-In [Coscientist](./coscientist) wird Drift explizit nachverfolgt, indem Definitionsobjekte von Behauptungen getrennt werden. Wenn ein Begriff seine Bedeutung ändert, können alte Behauptungen aufgrund von [Bedeutungsverlust](./meaning-loss) als obsolet markiert oder neu abgegrenzt werden, statt stillschweigend in einem einzigen „Konsens“ vermischt zu werden.
+In [Kozientist](./coscientist) wird Drift explizit nachverfolgt, indem Definitionsobjekte von Behauptungen getrennt werden. Wenn ein Begriff seine Bedeutung ändert, können alte Behauptungen aufgrund von [Bedeutungsverlust](./meaning-loss) als obsolet markiert oder neu abgegrenzt werden, statt stillschweigend in einem einzigen „Konsens“ vermischt zu werden.

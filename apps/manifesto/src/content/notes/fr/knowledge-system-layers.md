@@ -3,7 +3,7 @@ title: Couches du système de connaissance
 description: Les couches architecturales de Coscientist
 ---
 
-Les couches d’un système de connaissance sont les composants architecturaux distincts qui composent [Coscientist](./coscientist). La séparation de ces couches permet à différentes préoccupations d’évoluer indépendamment.
+Les couches d’un système de connaissance sont les composants architecturaux distincts qui composent [Coscientifique](./coscientist). La séparation de ces couches permet à différentes préoccupations d’évoluer indépendamment.
 
 ## Couche de données
 

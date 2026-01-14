@@ -7,4 +7,4 @@ AIによって誘発される有能さの錯覚は、ユーザーが流暢なAI�
 
 これは、学習科学における[有能さの錯覚](./illusions-of-competence)という概念と並行しています。再読やハイライトは、教材が馴染み深く見えるため生産的に感じられますが、その感覚は想起（recall）や転移（transfer）を予測しません。AIの支援は、同じ錯覚をスケールさせて生み出し得ます。AIが答えを提示してくれたから「知っている」と思う一方で、それを再現したり、批判的に検討したり、発展させたりできないのです。
 
-防御策は、意図的な努力です。[Coscientist](./coscientist)では、それは[オペレーター](./operator)を検証者の役割に保つこと、[想起練習としての検証](./verification-as-retrieval-practice)を用いること、そして[望ましい困難](./desirable-difficulty-in-verification)をバグではなく機能として扱うことを意味します。
+防御策は、意図的な努力です。[コサイエンティスト](./coscientist)では、それは[オペレーター](./operator)を検証者の役割に保つこと、[想起練習としての検証](./verification-as-retrieval-practice)を用いること、そして[望ましい困難](./desirable-difficulty-in-verification)をバグではなく機能として扱うことを意味します。

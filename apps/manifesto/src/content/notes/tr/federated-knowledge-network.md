@@ -3,7 +3,7 @@ title: Federe Bilgi Ağı
 description: Yerel egemenliği korurken doğrulanmış bilgiyi değiş tokuş eden, birbirine bağlı Coscientist örnekleri
 ---
 
-Federe bir bilgi ağı, yerel egemenliği korurken doğrulanmış bilgiyi değiş tokuş eden; kişisel, kurumsal ve kamusal ölçeklerde birbirine bağlı [Coscientist](./coscientist) örneklerinden oluşan bir sistemdir. Her düğüm kendi [Diyalektik Grafiği](./dialectical-graph) ve [epistemik protokol katmanını](./epistemic-protocol-layer) sürdürür; federasyon, kontrolü devretmeden paylaşım için bir kanal sağlar.
+Federe bir bilgi ağı, yerel egemenliği korurken doğrulanmış bilgiyi değiş tokuş eden; kişisel, kurumsal ve kamusal ölçeklerde birbirine bağlı [Eşbilimci](./coscientist) örneklerinden oluşan bir sistemdir. Her düğüm kendi [Diyalektik Grafiği](./dialectical-graph) ve [epistemik protokol katmanını](./epistemic-protocol-layer) sürdürür; federasyon, kontrolü devretmeden paylaşım için bir kanal sağlar.
 
 Federasyon, işbirliği ile özerklik arasındaki gerilimi ele alır. Bir araştırma ekibi, doğrulanmış kamusal iddiaları içe aktarırken özel hipotezlerini koruyabilir. Kamusal bir bilgi ortak alanı (knowledge commons), tek bir otoritenin gerçeği dikte etmesine gerek kalmadan katkıları bir araya getirebilir.
 

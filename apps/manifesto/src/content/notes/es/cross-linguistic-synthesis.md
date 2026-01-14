@@ -5,7 +5,7 @@ description: Combinación de conocimiento de múltiples lenguas en una comprensi
 
 La síntesis translingüística es el proceso de combinar conocimiento de fuentes en distintas lenguas en una única comprensión coherente. Es más que traducción: permite que ideas de diferentes [espacios lingüísticos](./sprachraum) se encuentren, discrepen y se actualicen entre sí.
 
-Para [Coscientist](./coscientist), esta es una capacidad nativa porque los [LLM](./llm) modernos pueden leer muchas lenguas. En la práctica, la síntesis translingüística puede:
+Para [Cocientífico](./coscientist), esta es una capacidad nativa porque los [LLM](./llm) modernos pueden leer muchas lenguas. En la práctica, la síntesis translingüística puede:
 
 - reunir [fuentes](./source) entre lenguas
 - extraer y normalizar [afirmaciones](./claim)

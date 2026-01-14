@@ -7,4 +7,4 @@ La couche d’inférence est le réseau vivant et évolutif de [revendications](
 
 Contrairement à la [couche narrative](./narrative-layer), qui produit des documents lisibles par des humains, la couche d’inférence est une structure de graphe optimisée pour le raisonnement et la mise à jour. Lorsque de nouvelles preuves arrivent, la couche d’inférence change ; les récits sont régénérés selon les besoins.
 
-Cette séparation explique pourquoi [Coscientist](./coscientist) traite les documents comme des projections, et non comme une vérité fondamentale. Un document est un instantané de la couche d’inférence à un moment donné. Le savoir vivant est dans le graphe ; la prose en est un rendu.
+Cette séparation explique pourquoi [Coscientifique](./coscientist) traite les documents comme des projections, et non comme une vérité fondamentale. Un document est un instantané de la couche d’inférence à un moment donné. Le savoir vivant est dans le graphe ; la prose en est un rendu.

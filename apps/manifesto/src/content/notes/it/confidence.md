@@ -3,7 +3,7 @@ title: Fiducia
 description: Una misura multidimensionale del supporto a una tesi
 ---
 
-La fiducia in [Coscientist](./coscientist) non è un singolo punteggio di probabilità. È uno stato multidimensionale che riflette come una [tesi](./claim) abbia superato lo scrutinio: quali tipi di evidenza la supportano, quali contestazioni ha resistito e quanto sia robusta la sua struttura dei percorsi.
+La fiducia in [Coscienziato](./coscientist) non è un singolo punteggio di probabilità. È uno stato multidimensionale che riflette come una [tesi](./claim) abbia superato lo scrutinio: quali tipi di evidenza la supportano, quali contestazioni ha resistito e quanto sia robusta la sua struttura dei percorsi.
 
 Le dimensioni includono il tipo di evidenza (osservazione diretta vs. inferenza), lo stato di replicazione (percorsi indipendenti vs. citazione ripetuta), la storia delle contestazioni (è stata attaccata ed è sopravvissuta?) e la diversità dei percorsi (il supporto proviene da più vie indipendenti?). Una tesi può avere alta fiducia in una dimensione ed essere debole in un’altra.
 

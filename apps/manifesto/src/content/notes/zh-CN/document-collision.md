@@ -7,4 +7,4 @@ description: 迫使不同来源相互对对方的主张进行交锋的协议
 
 这与“平衡式总结”（balanced summary）的做法正相反：后者会把分歧磨平。碰撞的立场是：“这两个来源说了相互不相容的话。具体冲突在哪里？在什么条件下冲突？需要什么才能解决它？”
 
-在 [Coscientist](./coscientist) 中，文档碰撞通过[辩证图](./dialectical-graph)（Dialectical Graph）来实现：抽取主张、进行规范化（normalized），并通过[攻击](./attack)、[削弱](./undercut)以及支持关系将它们链接起来。结果是一张地图：标出来源在哪里一致、在哪里冲突，以及哪些问题仍然悬而未决。
+在 [共研者](./coscientist) 中，文档碰撞通过[辩证图](./dialectical-graph)（Dialectical Graph）来实现：抽取主张、进行规范化（normalized），并通过[攻击](./attack)、[削弱](./undercut)以及支持关系将它们链接起来。结果是一张地图：标出来源在哪里一致、在哪里冲突，以及哪些问题仍然悬而未决。

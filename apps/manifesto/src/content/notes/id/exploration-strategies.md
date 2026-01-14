@@ -3,7 +3,7 @@ title: Strategi Eksplorasi
 description: Strategi penelusuran graf untuk penemuan pengetahuan berkelanjutan
 ---
 
-[Coscientist](./coscientist) membutuhkan lebih dari sekadar retrieval: ia membutuhkan eksplorasi yang secara aktif memunculkan kontradiksi, kondisi batas, dan ketergantungan pada metode dalam [Graf Dialektik](./dialectical-graph).
+[Kosaintis](./coscientist) membutuhkan lebih dari sekadar retrieval: ia membutuhkan eksplorasi yang secara aktif memunculkan kontradiksi, kondisi batas, dan ketergantungan pada metode dalam [Graf Dialektik](./dialectical-graph).
 
 Strategi kunci meliputi:
 

@@ -7,4 +7,4 @@ Institutionele hersenrot is een faalmodus waarbij het collectieve vermogen van e
 
 Symptomen zijn onder meer het vertrouwen op verouderde interne documenten, het onvermogen om geruchten van feiten te onderscheiden, angst om hogere autoriteit te corrigeren, en de geleidelijke vervanging van welbespraaktheid door grondigheid. De organisatie "weet" dingen die niet langer waar zijn, en de kosten van correctie zijn hoger dan de waargenomen kosten van afdrijven.
 
-[Coscientist](./coscientist) pakt institutionele hersenrot aan door kruisverwijzingen, adversariële beoordeling via [rebuttal-first search](./rebuttal-first-search), en expliciete [traceerbaarheid](./traceability) zodat beweringen kunnen worden betwist zonder sociale wrijving.
+[Cowetenschapper](./coscientist) pakt institutionele hersenrot aan door kruisverwijzingen, adversariële beoordeling via [weerlegging-eerst zoeken](./rebuttal-first-search), en expliciete [traceerbaarheid](./traceability) zodat beweringen kunnen worden betwist zonder sociale wrijving.

@@ -16,6 +16,6 @@ L’humain reste souverain ; le système prend en charge le travail mécanique.
 
 La dimension multilingue est cruciale. Un supercerveau limité à un seul [Sprachraum](./sprachraum) est fondamentalement restreint. Une véritable amplification cognitive implique de penser [à travers les Sprachraums](./across-the-sprachraums), d’accéder au savoir quelle que soit la langue dans laquelle il a été initialement consigné, et de synthétiser des idées grâce à la [synthèse interlinguistique](./cross-linguistic-synthesis).
 
-[Coscientist](./coscientist) est l’instanciation orientée recherche de cette vision : un système multi-agents de [LLM](./llm) (grand modèle de langage) qui lit la littérature dans n’importe quelle langue et débat des hypothèses via des boucles structurées de proposition et de critique. Le rêve du supercerveau n’est pas de la science-fiction lointaine ; c’est l’objectif de conception.
+[Coscientifique](./coscientist) est l’instanciation orientée recherche de cette vision : un système multi-agents de [LLM](./llm) (grand modèle de langage) qui lit la littérature dans n’importe quelle langue et débat des hypothèses via des boucles structurées de proposition et de critique. Le rêve du supercerveau n’est pas de la science-fiction lointaine ; c’est l’objectif de conception.
 
 Référence : https://cho.sh/r/4AED52.

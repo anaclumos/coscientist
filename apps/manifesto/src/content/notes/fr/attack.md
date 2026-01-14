@@ -7,4 +7,4 @@ Une attaque est une contestation directe de la vérité d’une [affirmation](./
 
 Les attaques constituent un type d’arête central dans le [Graphe dialectique](./dialectical-graph) (voir [Arêtes du Graphe dialectique](./dialectical-graph-edges)). Lorsqu’une attaque est enregistrée, le statut de l’affirmation peut passer de `supported` à `contested` ou `refuted` selon la force et la nature de la contestation.
 
-Toutes les attaques ne se valent pas. Un contre-exemple bien documenté a plus de poids qu’une simple affirmation de désaccord. C’est pourquoi [Coscientist](./coscientist) suit les [segments de preuve](./evidence-span) et la [provenance](./provenance) pour les attaques comme pour les affirmations.
+Toutes les attaques ne se valent pas. Un contre-exemple bien documenté a plus de poids qu’une simple affirmation de désaccord. C’est pourquoi [Coscientifique](./coscientist) suit les [segments de preuve](./evidence-span) et la [provenance](./provenance) pour les attaques comme pour les affirmations.

@@ -5,7 +5,7 @@ description: Wissen aus mehreren Sprachen zu einem einheitlichen Verständnis zu
 
 Sprachübergreifende Synthese ist der Prozess, Wissen aus Quellen in verschiedenen Sprachen zu einem einzigen, kohärenten Verständnis zusammenzuführen. Sie ist mehr als Übersetzung: Sie lässt Ideen aus unterschiedlichen [Sprachräumen](./sprachraum) aufeinandertreffen, widersprechen und sich gegenseitig aktualisieren.
 
-Für [Coscientist](./coscientist) ist dies eine native Fähigkeit, weil moderne [LLMs](./llm) viele Sprachen lesen können. In der Praxis kann sprachübergreifende Synthese:
+Für [Kozientist](./coscientist) ist dies eine native Fähigkeit, weil moderne [LLMs](./llm) viele Sprachen lesen können. In der Praxis kann sprachübergreifende Synthese:
 
 - [Quellen](./source) sprachübergreifend zusammenführen
 - [Behauptungen](./claim) extrahieren und normalisieren

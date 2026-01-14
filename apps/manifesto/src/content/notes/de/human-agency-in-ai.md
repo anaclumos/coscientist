@@ -3,13 +3,13 @@ title: Menschliche Handlungsfähigkeit in KI
 description: Prinzipien und Mechanismen, um Menschen bei KI-gestützter Wissensarbeit in Kontrolle zu halten
 ---
 
-Menschliche Handlungsfähigkeit in [KI](./ai) ist das Bündel aus Prinzipien und Mechanismen, das den menschlichen [Operator](./operator) bei der Wissensarbeit in Kontrolle hält – selbst dann, wenn KI einen erheblichen Anteil an [Kontemplationsarbeit](./contemplation-labor) übernimmt.
+Menschliche Handlungsfähigkeit in [KI](./ai) ist das Bündel aus Prinzipien und Mechanismen, das den menschlichen [Betreiber](./operator) bei der Wissensarbeit in Kontrolle hält – selbst dann, wenn KI einen erheblichen Anteil an [Kontemplationsarbeit](./contemplation-labor) übernimmt.
 
 ## Kernprinzipien
 
 - [Kognitive Souveränität](./cognitive-sovereignty) — menschliche Kontrolle über Urteilsbildung und Verifikation
 - [Erhalt kognitiver Handlungsfähigkeit](./cognitive-agency-preservation) — KI stärkt das Urteilsvermögen, ersetzt es nicht
-- [Operator](./operator) — die menschliche Rolle als souveräner Verifizierer
+- [Betreiber](./operator) — die menschliche Rolle als souveräner Verifizierer
 
 ## Mechanismen
 

@@ -7,4 +7,4 @@ Fricção como inimiga é o princípio de design de que o esforço desnecessári
 
 Esse princípio motiva o modelo de [selva digital](./digital-jungle): jogue conhecimento bruto lá dentro e deixe o sistema organizá-lo, vinculá-lo e trazê-lo de volta à tona. A melhor forma de administrar um jardim não é o cuidado constante, mas construir sistemas que se automantenham.
 
-Fricção não é evitar a preguiça; é reconhecer que a sobrecarga cognitiva compete com o pensar. Tempo gasto em taxonomia é tempo não gasto em insight. O [Coscientist](./coscientist) herda esse princípio do [Extracranial](./extracranial) e das ideias em [Criando Cérebros Digitais de Próxima Geração](./creating-next-gen-digital-brains).
+Fricção não é evitar a preguiça; é reconhecer que a sobrecarga cognitiva compete com o pensar. Tempo gasto em taxonomia é tempo não gasto em insight. O [Cocientista](./coscientist) herda esse princípio do [Extracranial](./extracranial) e das ideias em [Criando Cérebros Digitais de Próxima Geração](./creating-next-gen-digital-brains).

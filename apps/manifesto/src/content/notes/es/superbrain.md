@@ -16,6 +16,6 @@ El ser humano sigue siendo soberano; el sistema se encarga del trabajo mecánico
 
 La dimensión multilingüe es crucial. Un supercerebro restringido a un solo [Sprachraum](./sprachraum) es fundamentalmente limitado. La verdadera amplificación cognitiva significa pensar [a través de los Sprachraums](./across-the-sprachraums), acceder al conocimiento independientemente del idioma en que se registró originalmente y sintetizar ideas mediante la [síntesis interlingüística](./cross-linguistic-synthesis).
 
-[Coscientist](./coscientist) es la materialización orientada a la investigación de esta visión: un sistema [LLM](./llm) multiagente que lee literatura en cualquier idioma y debate hipótesis mediante bucles estructurados de propuesta y crítica. El sueño del supercerebro no es una ciencia ficción lejana; es el objetivo de diseño.
+[Cocientífico](./coscientist) es la materialización orientada a la investigación de esta visión: un sistema [LLM](./llm) multiagente que lee literatura en cualquier idioma y debate hipótesis mediante bucles estructurados de propuesta y crítica. El sueño del supercerebro no es una ciencia ficción lejana; es el objetivo de diseño.
 
 Referencia: https://cho.sh/r/4AED52.

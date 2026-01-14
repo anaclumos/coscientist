@@ -7,4 +7,4 @@ description: Vision, Experimente als versionierten, auditierbaren Code zu behand
 
 Diese Vision ist zentral für [ScienceOps](./scienceops). Wenn Experimente zu versionierten Artefakten werden, verkleinert sich die Schleife zwischen Hypothese und [Verifizierung](./verification). Fehlschläge werden nachvollziehbar. Erfolge werden von anderen ohne heroischen Aufwand replizierbar.
 
-[Coscientist](./coscientist) ist die kognitive Schicht für einen solchen Workflow: Verwaltung von [Behauptungen](./claim), [Evidenz](./evidence-span) und Widerlegungen über viele Projekte hinweg, während die [Verantwortungslinie](./responsibility-line) gewahrt bleibt und die Rolle des [Natural Science Engineer](./natural-science-engineer) unterstützt wird.
+[Kozientist](./coscientist) ist die kognitive Schicht für einen solchen Workflow: Verwaltung von [Behauptungen](./claim), [Evidenz](./evidence-span) und Widerlegungen über viele Projekte hinweg, während die [Verantwortungslinie](./responsibility-line) gewahrt bleibt und die Rolle des [Natural Science Engineer](./natural-science-engineer) unterstützt wird.

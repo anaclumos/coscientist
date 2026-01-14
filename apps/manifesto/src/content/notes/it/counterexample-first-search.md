@@ -3,7 +3,7 @@ title: Ricerca prima dei controesempi
 description: Strategia che dà priorità ai controesempi rispetto alle prove a supporto
 ---
 
-La ricerca prima dei controesempi è una [strategia di esplorazione](./exploration-strategies) che tratta la popolarità come un segnale di rischio, piuttosto che come una prova di qualità. Quanto più ampiamente viene ripetuta una [affermazione](./claim), tanto più diventa prezioso trovare [controesempi](./counterexample) e condizioni al contorno, perché gli errori nelle affermazioni popolari hanno un raggio d’impatto maggiore in [Encyclopedia Meltdown](./encyclopedia-meltdown).
+La ricerca prima dei controesempi è una [strategia di esplorazione](./exploration-strategies) che tratta la popolarità come un segnale di rischio, piuttosto che come una prova di qualità. Quanto più ampiamente viene ripetuta una [affermazione](./claim), tanto più diventa prezioso trovare [controesempi](./counterexample) e condizioni al contorno, perché gli errori nelle affermazioni popolari hanno un raggio d’impatto maggiore in [Crollo dell'Enciclopedia](./encyclopedia-meltdown).
 
 Questa strategia inverte la normale priorità di reperimento. La ricerca standard ordina per pertinenza o frequenza, il che tende a far emergere il consenso. La ricerca prima dei controesempi cerca deliberatamente il disaccordo, i casi limite e i fallimenti, perché sono più informativi per aggiornare la conoscenza.
 

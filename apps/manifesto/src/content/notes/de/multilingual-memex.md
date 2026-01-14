@@ -15,4 +15,4 @@ Die architektonischen Implikationen sind erheblich. UI-Elemente (Interface eleme
 
 Deshalb berücksichtigt [Extracranial](./extracranial) Community-Beiträge via GitHub, um Übersetzungen zu verfeinern: Maschinelle Übersetzung macht mehrsprachige Inhalte möglich, aber menschliche Prüfung ist nötig, um die [Übersetzungstreue](./translation-fidelity) zu bewahren. Der mehrsprachige Memex ist kein gelöstes Problem, sondern eine fortlaufende Zusammenarbeit zwischen automatisierten Systemen und menschlichem Urteilsvermögen.
 
-Für [Coscientist](./coscientist) wird der mehrsprachige Memex zum mehrsprachigen [Dialektischen Graphen](./dialectical-graph): einer Struktur, die [Behauptungen](./claim), [Evidenzspannen](./evidence-span) und Relationen aus jeder Sprache speichert, wobei Sprache als Metadatum statt als grundlegende Grenze behandelt wird.
+Für [Kozientist](./coscientist) wird der mehrsprachige Memex zum mehrsprachigen [Dialektischen Graphen](./dialectical-graph): einer Struktur, die [Behauptungen](./claim), [Evidenzspannen](./evidence-span) und Relationen aus jeder Sprache speichert, wobei Sprache als Metadatum statt als grundlegende Grenze behandelt wird.

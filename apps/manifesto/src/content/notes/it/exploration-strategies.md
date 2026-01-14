@@ -3,7 +3,7 @@ title: Strategie di esplorazione
 description: Strategie di attraversamento del grafo per una scoperta continua della conoscenza
 ---
 
-[Coscientist](./coscientist) ha bisogno di più del semplice recupero: ha bisogno di un’esplorazione che faccia emergere attivamente contraddizioni, condizioni al contorno e dipendenza dal metodo nel [Grafo dialettico](./dialectical-graph).
+[Coscienziato](./coscientist) ha bisogno di più del semplice recupero: ha bisogno di un’esplorazione che faccia emergere attivamente contraddizioni, condizioni al contorno e dipendenza dal metodo nel [Grafo dialettico](./dialectical-graph).
 
 Le strategie principali includono:
 

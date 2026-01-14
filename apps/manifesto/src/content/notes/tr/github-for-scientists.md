@@ -7,4 +7,4 @@ description: Deneyleri sürümlenmiş, denetlenebilir kod olarak ele alma vizyon
 
 Bu vizyon [ScienceOps](./scienceops) için merkezîdir. Deneyler sürümlenmiş yapıtlar (artifact) hâline geldiğinde, hipotez ile [doğrulama](./verification) arasındaki döngü kısalır. Hatalar izlenebilir hâle gelir. Başarılar, başkaları tarafından olağanüstü bir çaba gerektirmeden tekrar edilebilir hâle gelir.
 
-[Coscientist](./coscientist), böyle bir iş akışı için bilişsel katmandır: [iddiaları](./claim), [kanıtları](./evidence-span) ve itirazları birçok proje boyunca yönetirken, [sorumluluk hattını](./responsibility-line) korur ve [doğal bilim mühendisi](./natural-science-engineer) rolünü destekler.
+[Eşbilimci](./coscientist), böyle bir iş akışı için bilişsel katmandır: [iddiaları](./claim), [kanıtları](./evidence-span) ve itirazları birçok proje boyunca yönetirken, [sorumluluk hattını](./responsibility-line) korur ve [doğal bilim mühendisi](./natural-science-engineer) rolünü destekler.

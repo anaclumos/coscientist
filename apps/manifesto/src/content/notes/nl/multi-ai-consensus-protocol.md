@@ -3,7 +3,7 @@ title: Multi-AI-consensusprotocol
 description: Het 1+4 (mens + vier AI) schrijf- en verificatiesysteem
 ---
 
-Het Multi-AI Consensus Protocol is een samenwerkingsworkflow waarbij de [Operator](./operator) meerdere AI-systemen coördineert om het risico op hallucinaties van één enkel model te verkleinen en te helpen verdedigen tegen [Encyclopedia Meltdown](./encyclopedia-meltdown).
+Het Multi-AI Consensus Protocol is een samenwerkingsworkflow waarbij de [Operator](./operator) meerdere AI-systemen coördineert om het risico op hallucinaties van één enkel model te verkleinen en te helpen verdedigen tegen [Encyclopedie-ineenstorting](./encyclopedia-meltdown).
 
 In de "1+4"-variant coördineert één mens vier AI-assistenten (per december 2025: ChatGPT, Gemini, Claude en Grok). Het doel is niet "meer geheugen"; het is gestructureerde onenigheid en traceerbaarheid.
 

@@ -3,7 +3,7 @@ title: 知識系統分層
 description: Coscientist 的架構分層
 ---
 
-知識系統分層是構成 [Coscientist](./coscientist) 的不同架構元件。將這些層分離，能讓不同關注點各自獨立演進。
+知識系統分層是構成 [共科學家](./coscientist) 的不同架構元件。將這些層分離，能讓不同關注點各自獨立演進。
 
 ## 資料層
 

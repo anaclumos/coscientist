@@ -7,4 +7,4 @@ Korrektur vs. Drift ist das ökonomische Prinzip, dass ein Wissenssystem nur dan
 
 Die [epistemische Protokollschicht](./epistemic-protocol-layer) ist darauf ausgelegt, Korrekturen günstig zu halten. [Nachverfolgbarkeit](./traceability) bedeutet, dass man findet, was repariert werden muss; explizite [Behauptungen](./claim) bedeuten, dass man Änderungen präzise ansetzen kann; und der [Dialektische Graph](./dialectical-graph) bedeutet, dass sich Updates über Relationen fortpflanzen, statt manuelle Umschreibungen zu erfordern.
 
-[Encyclopedia Meltdown](./encyclopedia-meltdown) ist das, was passiert, wenn Drift dauerhaft gewinnt: Das System stabilisiert sich um einen „ungefähr gepflegten“ falschen stationären Zustand, weil niemand es sich leisten kann, es aufzuräumen.
+[Enzyklopädie-Zusammenbruch](./encyclopedia-meltdown) ist das, was passiert, wenn Drift dauerhaft gewinnt: Das System stabilisiert sich um einen „ungefähr gepflegten“ falschen stationären Zustand, weil niemand es sich leisten kann, es aufzuräumen.

@@ -7,7 +7,7 @@ La cognition bilingue est la capacité de penser et de travailler dans plus d’
 
 Dans ce manifeste, cela compte parce que cela suggère une structure plus profonde : les concepts se situent au-dessus des mots. C’est l’intuition derrière le fait d’aller [à travers les Sprachraums](./across-the-sprachraums) et de construire un [index indépendant de la langue](./language-agnostic-indexing) — les idées devraient être retrouvables quelle que soit la langue dans laquelle elles ont d’abord été consignées.
 
-[Sunghyun Cho](./sunghyun-cho) travaille de manière bilingue (anglais et coréen) dans son [cerveau numérique](./digital-brain). [Extracranial](./extracranial) et [Coscientist](./coscientist) visent à refléter cela à l’échelle du système en :
+[Sunghyun Cho](./sunghyun-cho) travaille de manière bilingue (anglais et coréen) dans son [cerveau numérique](./digital-brain). [Extracranial](./extracranial) et [Coscientifique](./coscientist) visent à refléter cela à l’échelle du système en :
 
 - reliant des notes entre les langues via des concepts partagés, formant un [maillage de connaissances multilingue](./multilingual-knowledge-mesh)
 - préservant la [fidélité de traduction](./translation-fidelity) tout en signalant la [perte de nuance de traduction](./translation-nuance-loss)

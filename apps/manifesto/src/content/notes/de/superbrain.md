@@ -16,6 +16,6 @@ Der Mensch bleibt souverän; das System übernimmt die mechanische Arbeit.
 
 Die mehrsprachige Dimension ist entscheidend. Ein Supergehirn, das auf einen [Sprachraum](./sprachraum) beschränkt ist, ist grundsätzlich limitiert. Echte kognitive Verstärkung bedeutet, [über die Sprachräume hinweg zu denken](./across-the-sprachraums), Wissen zu erschließen – unabhängig davon, in welcher Sprache es ursprünglich festgehalten wurde – und Einsichten durch [sprachübergreifende Synthese (cross-linguistic synthesis)](./cross-linguistic-synthesis) zu bündeln.
 
-[Coscientist](./coscientist) ist die forschungsorientierte Ausprägung dieser Vision: ein Multi-Agenten-[LLM](./llm)-System, das Literatur in jeder Sprache liest und Hypothesen durch strukturierte Vorschlags- und Kritikschleifen diskutiert. Der Supergehirn-Traum ist keine ferne Science-Fiction; er ist das Designziel.
+[Kozientist](./coscientist) ist die forschungsorientierte Ausprägung dieser Vision: ein Multi-Agenten-[LLM](./llm)-System, das Literatur in jeder Sprache liest und Hypothesen durch strukturierte Vorschlags- und Kritikschleifen diskutiert. Der Supergehirn-Traum ist keine ferne Science-Fiction; er ist das Designziel.
 
 Referenz: https://cho.sh/r/4AED52.

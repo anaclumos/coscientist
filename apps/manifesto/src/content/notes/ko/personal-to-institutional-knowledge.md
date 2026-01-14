@@ -5,6 +5,6 @@ description: 개인 지식 실천을 조직으로 확장하기
 
 개인 지식에서 기관 지식으로의 전환은, 한 사람을 위해 작동하는 [디지털 브레인](./digital-brain)에서 팀, 연구실, 혹은 조직을 위해 작동하는 시스템으로 옮겨가는 것을 뜻한다. 개인 노트에 효과적인 방식이 자동으로 확장되지는 않는다. 거버넌스(governance), 공유 어휘, 그리고 신뢰 경계(trust boundaries)가 1차적(핵심) 관심사가 된다.
 
-개인 시스템은 사용자가 자신의 맥락을 알고 있기 때문에 모호함을 어느 정도 허용할 수 있다. 반면 기관 시스템은 [출처(프로비넌스)](./provenance)를 명시적으로 드러내고, [추적 가능성](./traceability)을 강제하며, 기여자들 사이의 의견 불일치를 처리해야 한다. 그래서 [Coscientist](./coscientist)는 [인식론적 프로토콜 계층](./epistemic-protocol-layer)을 [지식 헌법](./knowledge-constitution)으로서 강조한다.
+개인 시스템은 사용자가 자신의 맥락을 알고 있기 때문에 모호함을 어느 정도 허용할 수 있다. 반면 기관 시스템은 [출처(프로비넌스)](./provenance)를 명시적으로 드러내고, [추적 가능성](./traceability)을 강제하며, 기여자들 사이의 의견 불일치를 처리해야 한다. 그래서 [코사이언티스트](./coscientist)는 [인식론적 프로토콜 계층](./epistemic-protocol-layer)을 [지식 헌법](./knowledge-constitution)으로서 강조한다.
 
-[ScienceOps](./scienceops)는 이러한 전환의 한 가지 구현이다. 개인 지식 습관(수집, 연결, 반복)을 연구팀에 적용하되, 재현성(reproducibility)과 감사(audit)를 위한 추가 도구를 더한다. [자연과학 엔지니어](./natural-science-engineer)는 개인 규모와 기관 규모를 잇는 역할이다.
+[사이언스옵스](./scienceops)는 이러한 전환의 한 가지 구현이다. 개인 지식 습관(수집, 연결, 반복)을 연구팀에 적용하되, 재현성(reproducibility)과 감사(audit)를 위한 추가 도구를 더한다. [자연과학 엔지니어](./natural-science-engineer)는 개인 규모와 기관 규모를 잇는 역할이다.

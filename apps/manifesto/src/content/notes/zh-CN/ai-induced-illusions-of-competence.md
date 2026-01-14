@@ -7,4 +7,4 @@ AI 诱发的能力错觉发生在用户把 AI 流畅的输出误认为是自己�
 
 这与学习科学中的概念[能力错觉](./illusions-of-competence)相呼应：反复阅读或做标注会让人感觉很有收获，因为材料看起来很熟悉，但这种感觉并不能预测回忆或迁移。AI 辅助可以把同样的错觉以规模化方式制造出来：你之所以“知道”答案，是因为 AI 给了你，但你无法复现、批判或扩展它。
 
-防御方式是刻意努力。在 [Coscientist](./coscientist) 中，这意味着让[操作员](./operator)保持在验证者的角色，使用[将验证作为检索练习](./verification-as-retrieval-practice)，并把[验证中的理想难度](./desirable-difficulty-in-verification)当作特性而不是缺陷。
+防御方式是刻意努力。在 [共研者](./coscientist) 中，这意味着让[操作员](./operator)保持在验证者的角色，使用[将验证作为检索练习](./verification-as-retrieval-practice)，并把[验证中的理想难度](./desirable-difficulty-in-verification)当作特性而不是缺陷。

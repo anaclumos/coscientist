@@ -7,4 +7,4 @@ description: 人間の認知を拡張し増幅する外部ツール
 
 この言葉は、身体を置き換えることなく筋力を増幅する物理的な外骨格（エクソスケルトン）を想起させる。認知エクソスケルトンも同じことを心に対して行う。置き換えるのではなく支援し、機械的な労働を外部に委ねつつ、判断の主導権は人間の側に残す。
 
-[Vannevar Bush](./vannevar-bush) の [Memex](./memex) は、そのようなエクソスケルトンの初期のビジョンだった。[Coscientist](./coscientist) は、より能力の高いものを目指す。単に保存してリンクするだけでなく、[観想労働](./contemplation-labor)を実行し、矛盾を浮かび上がらせ、[認知主権](./cognitive-sovereignty)を保ちながら [Encyclopedia Meltdown](./encyclopedia-meltdown) に防御する。[Superbrain](./superbrain) のビジョンは、これをさらに [多言語の知識メッシュ](./multilingual-knowledge-mesh)へと拡張し、[Sprachraum を横断して](./across-the-sprachraums)動作し、複数の言語で同時に思考する。
+[Vannevar Bush](./vannevar-bush) の [Memex](./memex) は、そのようなエクソスケルトンの初期のビジョンだった。[コサイエンティスト](./coscientist) は、より能力の高いものを目指す。単に保存してリンクするだけでなく、[観想労働](./contemplation-labor)を実行し、矛盾を浮かび上がらせ、[認知主権](./cognitive-sovereignty)を保ちながら [百科事典崩壊](./encyclopedia-meltdown) に防御する。[Superbrain](./superbrain) のビジョンは、これをさらに [多言語の知識メッシュ](./multilingual-knowledge-mesh)へと拡張し、[Sprachraum を横断して](./across-the-sprachraums)動作し、複数の言語で同時に思考する。

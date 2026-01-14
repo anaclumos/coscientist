@@ -7,4 +7,4 @@ description: 지식 시스템이 생존하려면 교정 비용이 드리프트 �
 
 [인식론적 프로토콜 계층](./epistemic-protocol-layer)은 교정을 싸게 유지하도록 설계되었다. [추적 가능성](./traceability)은 무엇을 고쳐야 하는지 찾아낼 수 있게 해주고, 명시적인 [주장](./claim)은 변경을 정밀하게 겨냥할 수 있게 해준다. 그리고 [변증법적 그래프](./dialectical-graph)는 수동 재작성(manual rewrite)을 요구하는 대신, 관계를 통해 업데이트가 전파되도록 한다.
 
-[백과사전 멜트다운](./encyclopedia-meltdown)은 드리프트가 영구적으로 이겼을 때 벌어지는 일이다. 아무도 정리할 여력이 없기 때문에, 시스템은 “대략적으로 유지되는(approximately maintained)” 거짓된 정상 상태(false steady state)를 중심으로 안정화된다.
+[백과사전 붕괴](./encyclopedia-meltdown)은 드리프트가 영구적으로 이겼을 때 벌어지는 일이다. 아무도 정리할 여력이 없기 때문에, 시스템은 “대략적으로 유지되는(approximately maintained)” 거짓된 정상 상태(false steady state)를 중심으로 안정화된다.

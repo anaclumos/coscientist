@@ -3,7 +3,7 @@ title: 超级大脑
 description: 一种外置化的认知外骨骼愿景，用以放大人类智能
 ---
 
-“超级大脑”（Superbrain）是 [Sunghyun Cho](./sunghyun-cho) 提出的术语，用来描述一种 [认知外骨骼](./cognitive-exoskeleton) 的愿景：将人类智能放大到超越生物学极限。[颅外](./extracranial) 被描述为“为超级大脑打造的外骨骼套装（Exosuit for Superbrains）”：一种外置化的记忆扩展，旨在容纳用户拥有的每一个想法。
+“超级大脑”（Superbrain）是 [曹成贤](./sunghyun-cho) 提出的术语，用来描述一种 [认知外骨骼](./cognitive-exoskeleton) 的愿景：将人类智能放大到超越生物学极限。[颅外](./extracranial) 被描述为“为超级大脑打造的外骨骼套装（Exosuit for Superbrains）”：一种外置化的记忆扩展，旨在容纳用户拥有的每一个想法。
 
 超级大脑不是对人类认知的替代，而是放大器。它应该：
 

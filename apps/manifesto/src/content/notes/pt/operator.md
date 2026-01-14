@@ -3,8 +3,8 @@ title: Operador
 description: O soberano humano sobre o conhecimento no Coscientist
 ---
 
-O Operador é o soberano humano sobre o conhecimento no [Coscientist](./coscientist). O nome evoca um guardião-arquiteto de uma [Encyclopedia Galactica](./encyclopedia-galactica): alguém responsável pela estrutura, pela proveniência e pela correção, não apenas pela produção.
+O Operador é o soberano humano sobre o conhecimento no [Cocientista](./coscientist). O nome evoca um guardião-arquiteto de uma [Enciclopédia Galáctica](./encyclopedia-galactica): alguém responsável pela estrutura, pela proveniência e pela correção, não apenas pela produção.
 
-Evitar o [Encyclopedia Meltdown](./encyclopedia-meltdown) exige que o Operador mantenha a iniciativa sobre a contemplação enquanto usa a IA como ferramenta. Isso significa manter a [soberania cognitiva](./cognitive-sovereignty), coordenar a deliberação multi-modelo quando os riscos são altos (ver o [Protocolo de Consenso Multi-IA](./multi-ai-consensus-protocol)), exercer poder de veto e investir o escasso tempo humano no [conjunto mínimo de contradições](./minimum-contradiction-set), em vez de em trabalho frase a frase.
+Evitar o [Colapso da Enciclopédia](./encyclopedia-meltdown) exige que o Operador mantenha a iniciativa sobre a contemplação enquanto usa a IA como ferramenta. Isso significa manter a [soberania cognitiva](./cognitive-sovereignty), coordenar a deliberação multi-modelo quando os riscos são altos (ver o [Protocolo de Consenso Multi-IA](./multi-ai-consensus-protocol)), exercer poder de veto e investir o escasso tempo humano no [conjunto mínimo de contradições](./minimum-contradiction-set), em vez de em trabalho frase a frase.
 
 Esse papel é tanto cultural quanto técnico. Como um motorista com sistemas de segurança, o Operador ainda precisa criar o hábito da verificação, porque o sistema não consegue compensar um usuário que trata a fluência como verdade (ver [Armadilha da Fluência](./fluency-trap)).

@@ -3,7 +3,7 @@ title: Các nguyên lý khoa học về học tập
 description: Các kỹ thuật dựa trên bằng chứng để học và ghi nhớ bền vững
 ---
 
-Các nguyên lý khoa học về học tập là những kỹ thuật dựa trên bằng chứng để tiếp thu kiến thức sao cho kiến thức đó bền vững, có thể chuyển giao, và vẫn dễ truy cập khi chịu áp lực. Các nguyên lý này định hướng cách [Coscientist](./coscientist) hỗ trợ công việc nhận thức của [Operator](./operator).
+Các nguyên lý khoa học về học tập là những kỹ thuật dựa trên bằng chứng để tiếp thu kiến thức sao cho kiến thức đó bền vững, có thể chuyển giao, và vẫn dễ truy cập khi chịu áp lực. Các nguyên lý này định hướng cách [Nhà đồng khoa học](./coscientist) hỗ trợ công việc nhận thức của [Người vận hành](./operator).
 
 ## Các kỹ thuật cốt lõi
 

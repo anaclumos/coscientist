@@ -3,7 +3,7 @@ title: Sistema de verificación
 description: Los mecanismos para contrastar afirmaciones con evidencia y contraevidencia
 ---
 
-El sistema de verificación es el conjunto de mecanismos que [Coscientist](./coscientist) utiliza para contrastar [afirmaciones](./claim) con evidencia, contraevidencia y explicaciones alternativas. No es una única herramienta, sino un conjunto coordinado de protocolos y prácticas.
+El sistema de verificación es el conjunto de mecanismos que [Cocientífico](./coscientist) utiliza para contrastar [afirmaciones](./claim) con evidencia, contraevidencia y explicaciones alternativas. No es una única herramienta, sino un conjunto coordinado de protocolos y prácticas.
 
 ## Componentes principales
 

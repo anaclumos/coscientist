@@ -3,7 +3,7 @@ title: 探索策略
 description: 用于持续知识发现的图遍历策略
 ---
 
-[Coscientist](./coscientist) 需要的不仅仅是检索：它需要探索，在[辩证图](./dialectical-graph)中主动浮现矛盾、边界条件以及对方法的依赖性。
+[共研者](./coscientist) 需要的不仅仅是检索：它需要探索，在[辩证图](./dialectical-graph)中主动浮现矛盾、边界条件以及对方法的依赖性。
 
 关键策略包括：
 

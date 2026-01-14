@@ -3,7 +3,7 @@ title: Synthesemechanismen
 description: Patronen om incompatibele bronnen vergelijkbaar te maken
 ---
 
-Synthesemechanismen zijn de patronen en protocollen die [Coscientist](./coscientist) gebruikt om incompatibele bronnen vergelijkbaar te maken en om gestructureerde output te produceren uit conflict.
+Synthesemechanismen zijn de patronen en protocollen die [Cowetenschapper](./coscientist) gebruikt om incompatibele bronnen vergelijkbaar te maken en om gestructureerde output te produceren uit conflict.
 
 ## Kernproces
 

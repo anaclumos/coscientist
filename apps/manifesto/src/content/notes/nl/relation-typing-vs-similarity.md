@@ -3,7 +3,7 @@ title: Relatietyping vs. gelijkenis
 description: Waarom getypeerde randen oplossen wat op gelijkenis gebaseerde retrieval niet kan
 ---
 
-Relatietyping vs. gelijkenis zet twee benaderingen om kennis te verbinden tegenover elkaar: op gelijkenis gebaseerde retrieval (zoals in [RAG](./rag)) vraagt “waar gaat dit over?”, terwijl grafen met relatietypen (zoals in de [Dialectical Graph](./dialectical-graph)) vragen “wat doet dit met dat?”
+Relatietyping vs. gelijkenis zet twee benaderingen om kennis te verbinden tegenover elkaar: op gelijkenis gebaseerde retrieval (zoals in [RAG](./rag)) vraagt “waar gaat dit over?”, terwijl grafen met relatietypen (zoals in de [Dialectische graaf](./dialectical-graph)) vragen “wat doet dit met dat?”
 
 Gelijkenis-retrieval brengt documenten boven water die vergelijkbare woorden gebruiken. Het kan je niet vertellen of die documenten het eens zijn, met elkaar in conflict zijn, of verschillende vragen behandelen. Getypeerde randen—[ondersteunt](./dialectical-graph-edges), [valt aan](./attack), [ondermijnt](./undercut), [citeert](./source)—leggen de argumentatieve relatie vast en maken vragen mogelijk zoals “wat betwist deze claim?” of “van welke aannames hangt dit af?”
 

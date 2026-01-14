@@ -13,6 +13,6 @@ Krach zazwyczaj wyłania się z trzech sprzężonych pętli:
 
 Skutek to nie tylko „więcej błędów”. Pisanie traci znaczenie, ponieważ nie ma już wiarygodnej linii odpowiedzialności; halucynacje mogą się samowzmacniać; mnożą się sprzeczności; a linki przepakowują skażenie w autorytet. Gdy utrwali się postawa „musi być prawdą, bo encyklopedia to podlinkowała”, ludzka refleksja degeneruje się z weryfikacji do samej ratyfikacji.
 
-Zapobieganie zaczyna się od pierwszej zasady: suwerenność nad wiedzą musi pozostać po stronie [Operatora](./operator). W [Coscientist](./coscientist) przejawia się to jako [warstwa protokołu epistemicznego](./epistemic-protocol-layer) (w tym [wyszukiwanie najpierw kontrargumentów](./rebuttal-first-search) oraz zachowanie [linii odpowiedzialności](./responsibility-line)), [Protokół Konsensusu Wielu AI](./multi-ai-consensus-protocol) oraz [Graf Dialektyczny](./dialectical-graph), który oddziela wnioskowanie od narracji.
+Zapobieganie zaczyna się od pierwszej zasady: suwerenność nad wiedzą musi pozostać po stronie [Operatora](./operator). W [Współnaukowiec](./coscientist) przejawia się to jako [warstwa protokołu epistemicznego](./epistemic-protocol-layer) (w tym [wyszukiwanie najpierw kontrargumentów](./rebuttal-first-search) oraz zachowanie [linii odpowiedzialności](./responsibility-line)), [Protokół Konsensusu Wielu AI](./multi-ai-consensus-protocol) oraz [Graf Dialektyczny](./dialectical-graph), który oddziela wnioskowanie od narracji.
 
 Odniesienie: https://cho.sh/r/C36398.

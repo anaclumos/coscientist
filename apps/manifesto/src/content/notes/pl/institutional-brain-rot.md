@@ -7,4 +7,4 @@ Instytucjonalna zgnilizna mózgu to tryb awarii, w którym zbiorowa zdolność o
 
 Do symptomów należą: poleganie na przestarzałych dokumentach wewnętrznych, niezdolność do odróżnienia plotki od faktu, strach przed korygowaniem wyższych rangą autorytetów oraz stopniowe zastępowanie biegłości retorycznej rygorem. Organizacja „wie” rzeczy, które nie są już prawdziwe, a koszt korekty przekracza postrzegany koszt dryfu.
 
-[Coscientist](./coscientist) przeciwdziała instytucjonalnej zgniliźnie mózgu poprzez weryfikację krzyżową, recenzję adversarialną (adversarial review) za pomocą [wyszukiwania najpierw-replika](./rebuttal-first-search) oraz jawną [identyfikowalność](./traceability), tak aby twierdzenia mogły być kwestionowane bez tarcia społecznego.
+[Współnaukowiec](./coscientist) przeciwdziała instytucjonalnej zgniliźnie mózgu poprzez weryfikację krzyżową, recenzję adversarialną (adversarial review) za pomocą [wyszukiwania najpierw-replika](./rebuttal-first-search) oraz jawną [identyfikowalność](./traceability), tak aby twierdzenia mogły być kwestionowane bez tarcia społecznego.

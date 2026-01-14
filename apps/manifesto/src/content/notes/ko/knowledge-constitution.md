@@ -5,6 +5,6 @@ description: 주장(claim)이 권위를 획득하는 방식에 대한 통치 문
 
 지식 헌법(knowledge constitution)이란 [주장](./claim)이 지식 시스템에 어떻게 들어오는지, 어떻게 이의제기되는지, 그리고 권위를 얻기 전에 어떤 [추적 가능성](./traceability)이 요구되는지를 규정하는 규칙의 집합이다. 이는 정치적 헌법처럼 내용이 아니라 권한, 한계, 절차를 명시한다.
 
-[인식론적 프로토콜 계층](./epistemic-protocol-layer)은 [Coscientist](./coscientist)의 헌법이다. 이는 주권(최종 판단은 [오퍼레이터(Operator)](./operator)에게 남는다), 추적 가능성([책임 라인](./responsibility-line) 보존), 그리고 대립적 검증(예: [반박 우선 검색](./rebuttal-first-search))에 헌신한다. 이는 결론에 대한 제약이 아니라 과정에 대한 제약이다.
+[인식론적 프로토콜 계층](./epistemic-protocol-layer)은 [코사이언티스트](./coscientist)의 헌법이다. 이는 주권(최종 판단은 [오퍼레이터](./operator)에게 남는다), 추적 가능성([책임 라인](./responsibility-line) 보존), 그리고 대립적 검증(예: [반박 우선 검색](./rebuttal-first-search))에 헌신한다. 이는 결론에 대한 제약이 아니라 과정에 대한 제약이다.
 
 헌법이 중요한 이유는 특정한 어떤 주장보다도 오래 지속되기 때문이다. 사실은 변한다. 사실을 평가하는 규칙은 영역과 시간을 가로질러 적용될 수 있을 만큼 충분히 안정적이어야 한다.

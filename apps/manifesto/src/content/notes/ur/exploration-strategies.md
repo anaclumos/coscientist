@@ -3,7 +3,7 @@ title: تلاش کی حکمتِ عملیاں
 description: مسلسل علم کی دریافت کے لیے گراف ٹراورسل کی حکمتِ عملیاں
 ---
 
-[Coscientist](./coscientist) کو محض بازیافت (retrieval) سے زیادہ کی ضرورت ہے: اسے ایسی تلاش (exploration) درکار ہے جو [Dialectical Graph](./dialectical-graph) میں تضادات، حدی شرائط (boundary conditions)، اور طریقۂ کار پر انحصار (method dependence) کو فعال طور پر سامنے لائے۔
+[کوسائنٹسٹ](./coscientist) کو محض بازیافت (retrieval) سے زیادہ کی ضرورت ہے: اسے ایسی تلاش (exploration) درکار ہے جو [جدلیاتی گراف](./dialectical-graph) میں تضادات، حدی شرائط (boundary conditions)، اور طریقۂ کار پر انحصار (method dependence) کو فعال طور پر سامنے لائے۔
 
 اہم حکمتِ عملیاں یہ ہیں:
 

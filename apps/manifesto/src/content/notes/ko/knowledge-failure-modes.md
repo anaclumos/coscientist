@@ -7,7 +7,7 @@ description: 지식 시스템에서 무엇이 잘못될 수 있는지에 대한 
 
 ## 시스템 수준 실패
 
-- [백과사전 멜트다운](./encyclopedia-meltdown) — 인간의 개입 없이 AI가 주도권을 잡을 때 발생하는 지식 붕괴
+- [백과사전 붕괴](./encyclopedia-meltdown) — 인간의 개입 없이 AI가 주도권을 잡을 때 발생하는 지식 붕괴
 - [모델 붕괴](./model-collapse) — AI가 생성한 데이터로 학습하면서 발생하는 성능 저하
 - [제도적 두뇌 부패](./institutional-brain-rot) — 조직의 검증 역량이 쇠퇴하는 현상
 

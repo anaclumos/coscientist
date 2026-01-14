@@ -5,7 +5,7 @@ description: Łączenie wiedzy z wielu języków w spójną całość
 
 Synteza międzyjęzykowa to proces łączenia wiedzy ze źródeł w różnych językach w jedno, spójne rozumienie. To coś więcej niż tłumaczenie: pozwala, by idee z różnych [Sprachraumów](./sprachraum) spotykały się, spierały i wzajemnie aktualizowały.
 
-Dla [Coscientist](./coscientist) jest to natywna zdolność, ponieważ nowoczesne [LLM-y](./llm) potrafią czytać wiele języków. W praktyce synteza międzyjęzykowa może:
+Dla [Współnaukowiec](./coscientist) jest to natywna zdolność, ponieważ nowoczesne [LLM-y](./llm) potrafią czytać wiele języków. W praktyce synteza międzyjęzykowa może:
 
 - pozyskiwać [źródła](./source) z różnych języków
 - wydobywać i normalizować [twierdzenia](./claim)

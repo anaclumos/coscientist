@@ -3,15 +3,15 @@ title: 교차언어 종합
 description: 여러 언어의 지식을 결합해 통합된 이해로 만드는 것
 ---
 
-교차언어 종합(cross-linguistic synthesis)은 서로 다른 언어로 된 출처의 지식을 하나의 일관된 이해로 결합하는 과정이다. 이는 번역을 넘어선다. 서로 다른 [언어권(Sprachraum)](./sprachraum)의 아이디어들이 만나고, 불일치하며, 서로를 갱신하도록 만든다.
+교차언어 종합은 서로 다른 언어로 된 출처의 지식을 하나의 일관된 이해로 결합하는 과정이다. 이는 번역을 넘어선다. 서로 다른 [언어권](./sprachraum)의 아이디어들이 만나고, 불일치하며, 서로를 갱신하도록 만든다.
 
-[Coscientist](./coscientist)에게 이는 현대 [LLM](./llm)이 많은 언어를 읽을 수 있기 때문에 기본(네이티브) 역량이다. 실제로 교차언어 종합은 다음을 할 수 있다:
+[코사이언티스트](./coscientist)에게 이는 현대 [대규모 언어 모델](./llm)이 많은 언어를 읽을 수 있기 때문에 기본(네이티브) 역량이다. 실제로 교차언어 종합은 다음을 할 수 있다:
 
 - 언어를 가로질러 [출처](./source)를 가져오기
 - [주장](./claim)을 추출하고 정규화하기
-- [언어-비의존적 인덱싱(language-agnostic indexing)](./language-agnostic-indexing)을 통해 공유 개념으로 주장들을 연결하기
+- [언어-비의존적 인덱싱](./language-agnostic-indexing)을 통해 공유 개념으로 주장들을 연결하기
 - 원문 언어 출처까지 추적 가능한 가설과 반박을 산출하기
 
-어려운 점은 거짓된 합의(false agreement)와 거짓된 불일치(false disagreement)를 피하는 것이다. 이 과정은 언어 간 [번역에서의 뉘앙스 손실](./translation-nuance-loss)과 [정의의 표류(definition drift)](./definition-drift)를 고려해야 한다. 하나의 용어가 서로 다른 개념에 대응될 수 있고, 번역 오류가 합의가 있는 것처럼 보이게 만드는 착시를 만들 수 있다.
+어려운 점은 거짓된 합의(false agreement)와 거짓된 불일치(false disagreement)를 피하는 것이다. 이 과정은 언어 간 [번역에서의 뉘앙스 손실](./translation-nuance-loss)과 [정의의 표류](./definition-drift)를 고려해야 한다. 하나의 용어가 서로 다른 개념에 대응될 수 있고, 번역 오류가 합의가 있는 것처럼 보이게 만드는 착시를 만들 수 있다.
 
 따라서 문제가 생겼을 때는 유려한 번역 요약만이 아니라, 원래의 표현으로 되돌아갈 수 있는 [추적 가능성](./traceability)이 필요하다.

@@ -3,7 +3,7 @@ title: Système de vérification
 description: Les mécanismes permettant de confronter les affirmations aux preuves et aux contre-preuves
 ---
 
-Le système de vérification est l’ensemble des mécanismes que [Coscientist](./coscientist) utilise pour confronter les [affirmations](./claim) aux preuves, aux contre-preuves et aux explications alternatives. Ce n’est pas un outil unique, mais une suite coordonnée de protocoles et de pratiques.
+Le système de vérification est l’ensemble des mécanismes que [Coscientifique](./coscientist) utilise pour confronter les [affirmations](./claim) aux preuves, aux contre-preuves et aux explications alternatives. Ce n’est pas un outil unique, mais une suite coordonnée de protocoles et de pratiques.
 
 ## Composants essentiels
 

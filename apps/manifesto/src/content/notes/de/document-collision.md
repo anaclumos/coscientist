@@ -7,4 +7,4 @@ Dokumentenkollision ist das Protokoll, das unterschiedliche Quellen dazu zwingt,
 
 Dies ist das Gegenteil des Ansatzes der „ausgewogenen Zusammenfassung“, der Uneinigkeit glättet. Kollision sagt: „Diese zwei Quellen behaupten Unvereinbares. Was genau steht im Konflikt? Unter welchen Bedingungen? Was würde ihn auflösen?“
 
-In [Coscientist](./coscientist) wird Dokumentenkollision durch den [Dialektischen Graphen](./dialectical-graph) umgesetzt: Behauptungen werden extrahiert, normalisiert und über [Angriff](./attack), [Untergrabung](./undercut) und Unterstützungsrelationen verknüpft. Das Ergebnis ist eine Karte dessen, wo Quellen übereinstimmen, wo sie in Konflikt stehen, und was offen bleibt.
+In [Kozientist](./coscientist) wird Dokumentenkollision durch den [Dialektischen Graphen](./dialectical-graph) umgesetzt: Behauptungen werden extrahiert, normalisiert und über [Angriff](./attack), [Untergrabung](./undercut) und Unterstützungsrelationen verknüpft. Das Ergebnis ist eine Karte dessen, wo Quellen übereinstimmen, wo sie in Konflikt stehen, und was offen bleibt.

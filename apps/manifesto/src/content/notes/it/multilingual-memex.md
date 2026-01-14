@@ -15,4 +15,4 @@ Le implicazioni architetturali sono significative. Gli elementi dell’interfacc
 
 Per questo [Extracranial](./extracranial) considera i contributi della comunità tramite GitHub per perfezionare le traduzioni: la traduzione automatica rende possibile il contenuto multilingue, ma è necessaria una revisione umana per mantenere la [fedeltà della traduzione](./translation-fidelity). Il Memex multilingue non è un problema risolto, ma una collaborazione continua tra sistemi automatizzati e giudizio umano.
 
-Per [Coscientist](./coscientist), il Memex multilingue diventa il [Grafo dialettico](./dialectical-graph) multilingue: una struttura che archivia [affermazioni](./claim), [porzioni di evidenza](./evidence-span) e relazioni provenienti da qualsiasi lingua, trattando la lingua come metadato anziché come un confine fondamentale.
+Per [Coscienziato](./coscientist), il Memex multilingue diventa il [Grafo dialettico](./dialectical-graph) multilingue: una struttura che archivia [affermazioni](./claim), [porzioni di evidenza](./evidence-span) e relazioni provenienti da qualsiasi lingua, trattando la lingua come metadato anziché come un confine fondamentale.

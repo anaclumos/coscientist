@@ -3,7 +3,7 @@ title: Contemplatiearbeid
 description: Het cognitieve werk dat AI verricht bij kennisproductie
 ---
 
-Contemplatiearbeid is het cognitieve werk van kennisproductie: hypothesen voorstellen, bewijs verzamelen, tegenvoorbeelden vinden, argumenten structureren en conclusies aanscherpen. In [Coscientist](./coscientist) neemt AI de contemplatiearbeid op zich, terwijl de menselijke [Operator](./operator) het oordeel behoudt.
+Contemplatiearbeid is het cognitieve werk van kennisproductie: hypothesen voorstellen, bewijs verzamelen, tegenvoorbeelden vinden, argumenten structureren en conclusies aanscherpen. In [Cowetenschapper](./coscientist) neemt AI de contemplatiearbeid op zich, terwijl de menselijke [Operator](./operator) het oordeel behoudt.
 
 Die verdeling is belangrijk. AI kan sneller zoeken, meer context vasthouden en op schaal kandidaten genereren. Maar AI kan niet beslissen wat als geverifieerd geldt: daarvoor zijn waarden, inzet en verantwoordelijkheid nodig die alleen de mens meebrengt. Contemplatiearbeid is het mechaniek; [verificatie](./verification) is het controlepunt.
 

@@ -3,7 +3,7 @@ title: Mạng lưới Tri thức Liên bang
 description: Các phiên bản Coscientist được liên kết, trao đổi tri thức đã được xác thực trong khi vẫn bảo toàn chủ quyền cục bộ
 ---
 
-Mạng lưới tri thức liên bang (federated knowledge network) là một hệ thống gồm các phiên bản [Coscientist](./coscientist) được liên kết với nhau ở quy mô cá nhân, tổ chức và công cộng, trao đổi tri thức đã được xác thực trong khi vẫn bảo toàn chủ quyền cục bộ. Mỗi nút duy trì [Đồ thị Biện chứng](./dialectical-graph) và [lớp giao thức nhận thức luận](./epistemic-protocol-layer) của riêng mình; cơ chế liên bang cung cấp một kênh để chia sẻ mà không phải từ bỏ quyền kiểm soát.
+Mạng lưới tri thức liên bang (federated knowledge network) là một hệ thống gồm các phiên bản [Nhà đồng khoa học](./coscientist) được liên kết với nhau ở quy mô cá nhân, tổ chức và công cộng, trao đổi tri thức đã được xác thực trong khi vẫn bảo toàn chủ quyền cục bộ. Mỗi nút duy trì [Đồ thị Biện chứng](./dialectical-graph) và [lớp giao thức nhận thức luận](./epistemic-protocol-layer) của riêng mình; cơ chế liên bang cung cấp một kênh để chia sẻ mà không phải từ bỏ quyền kiểm soát.
 
 Liên bang giải quyết sự căng thẳng giữa hợp tác và tự chủ. Một nhóm nghiên cứu có thể giữ các giả thuyết riêng tư trong khi nhập các khẳng định công khai đã được kiểm chứng. Một “công ích tri thức” (knowledge commons) công cộng có thể tổng hợp các đóng góp mà không để bất kỳ một thẩm quyền đơn lẻ nào áp đặt chân lý.
 

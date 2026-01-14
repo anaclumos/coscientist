@@ -7,4 +7,4 @@ La capa de inferencia es la red viva y evolutiva de [afirmaciones](./claim), [at
 
 A diferencia de la [capa narrativa](./narrative-layer), que produce documentos legibles para humanos, la capa de inferencia es una estructura de grafo optimizada para razonar y actualizarse. Cuando llega nueva evidencia, la capa de inferencia cambia; las narrativas se regeneran según sea necesario.
 
-Esta separación es la razón por la que [Coscientist](./coscientist) trata los documentos como proyecciones, no como verdad fundamental. Un documento es una instantánea de la capa de inferencia en un momento dado. El conocimiento vivo está en el grafo; la prosa es una representación.
+Esta separación es la razón por la que [Cocientífico](./coscientist) trata los documentos como proyecciones, no como verdad fundamental. Un documento es una instantánea de la capa de inferencia en un momento dado. El conocimiento vivo está en el grafo; la prosa es una representación.

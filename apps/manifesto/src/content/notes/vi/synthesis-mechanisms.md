@@ -3,7 +3,7 @@ title: Cơ chế Tổng hợp
 description: Các mẫu hình để làm cho những nguồn không tương thích có thể so sánh được
 ---
 
-Cơ chế tổng hợp là các mẫu hình và giao thức mà [Coscientist](./coscientist) sử dụng để làm cho những nguồn không tương thích có thể so sánh được và để tạo ra đầu ra có cấu trúc từ xung đột.
+Cơ chế tổng hợp là các mẫu hình và giao thức mà [Nhà đồng khoa học](./coscientist) sử dụng để làm cho những nguồn không tương thích có thể so sánh được và để tạo ra đầu ra có cấu trúc từ xung đột.
 
 ## Quy trình Cốt lõi
 

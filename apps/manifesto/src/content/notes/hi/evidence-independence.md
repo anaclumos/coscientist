@@ -7,4 +7,4 @@ description: यह सिद्धांत कि साझा प्रशि
 
 यह [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol) की एक ज्ञात सीमा है। यह प्रोटोकॉल मॉडल असहमति को एक चेतावनी संकेत (red flag) मानता है, लेकिन सहमति केवल कमजोर आश्वासन देती है क्योंकि मॉडल स्वतंत्र पर्यवेक्षक (independent observers) नहीं हैं।
 
-सच्चा [सत्यापन](./verification) दावों को प्रशिक्षण वितरण (training distribution) से बाहर के स्वतंत्र [स्रोतों](./source) और [साक्ष्य अंशों](./evidence-span) तक ट्रेस करने की मांग करता है। [Operator](./operator) को AI सहमति के प्रति संदेहवादी रहना चाहिए और उच्च-दांव (high-stakes) दावों के लिए बाहरी पुष्टि (external confirmation) तलाशनी चाहिए।
+सच्चा [सत्यापन](./verification) दावों को प्रशिक्षण वितरण (training distribution) से बाहर के स्वतंत्र [स्रोतों](./source) और [साक्ष्य अंशों](./evidence-span) तक ट्रेस करने की मांग करता है। [ऑपरेटर](./operator) को AI सहमति के प्रति संदेहवादी रहना चाहिए और उच्च-दांव (high-stakes) दावों के लिए बाहरी पुष्टि (external confirmation) तलाशनी चाहिए।

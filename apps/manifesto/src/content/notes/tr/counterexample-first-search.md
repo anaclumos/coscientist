@@ -3,7 +3,7 @@ title: Karşı-Örnek Öncelikli Arama
 description: Destekleyici kanıtlar yerine karşı örneklere öncelik veren strateji
 ---
 
-Karşı-örnek öncelikli arama, popülerliği kalite kanıtı olarak değil, bir risk sinyali olarak ele alan bir [keşif stratejisidir](./exploration-strategies). Bir [iddia](./claim) ne kadar yaygın biçimde tekrar ediliyorsa, [karşı örnekleri](./counterexample) ve sınır koşullarını bulmak o kadar değerli hale gelir; çünkü popüler iddialardaki hatalar, [Encyclopedia Meltdown](./encyclopedia-meltdown) içinde daha büyük bir etki alanına sahiptir.
+Karşı-örnek öncelikli arama, popülerliği kalite kanıtı olarak değil, bir risk sinyali olarak ele alan bir [keşif stratejisidir](./exploration-strategies). Bir [iddia](./claim) ne kadar yaygın biçimde tekrar ediliyorsa, [karşı örnekleri](./counterexample) ve sınır koşullarını bulmak o kadar değerli hale gelir; çünkü popüler iddialardaki hatalar, [Ansiklopedi Çöküşü](./encyclopedia-meltdown) içinde daha büyük bir etki alanına sahiptir.
 
 Bu strateji, normal bilgi getirme (retrieval) önceliğini tersine çevirir. Standart arama, alaka düzeyine veya sıklığa göre sıralar; bu da genellikle uzlaşıyı görünür kılar. Karşı-örnek öncelikli arama ise bilerek uyuşmazlık, uç durumlar ve başarısızlıkları arar; çünkü bunlar bilgiyi güncellemek için daha bilgilendiricidir.
 

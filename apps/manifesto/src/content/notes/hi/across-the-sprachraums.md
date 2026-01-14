@@ -3,7 +3,7 @@ title: Sprachraums के पार
 description: ज्ञान प्रणालियों के लिए भाषा सीमाओं से परे जाने की दृष्टि
 ---
 
-"Sprachraums के पार" भाषा सीमाओं से परे जाने वाली ज्ञान प्रणालियों के लिए [Sunghyun Cho](./sunghyun-cho) की दृष्टि है। यह वाक्यांश एक अंग्रेज़ी preposition को एक जर्मन संज्ञा के साथ जोड़कर अपने ही अर्थ को मूर्त रूप देता है: कोई एकल [Sprachraum](./sprachraum) इस बात को सीमित नहीं करना चाहिए कि ज्ञान कैसे प्रवाहित होता है।
+"Sprachraums के पार" भाषा सीमाओं से परे जाने वाली ज्ञान प्रणालियों के लिए [सुंगह्यून चो](./sunghyun-cho) की दृष्टि है। यह वाक्यांश एक अंग्रेज़ी preposition को एक जर्मन संज्ञा के साथ जोड़कर अपने ही अर्थ को मूर्त रूप देता है: कोई एकल [Sprachraum](./sprachraum) इस बात को सीमित नहीं करना चाहिए कि ज्ञान कैसे प्रवाहित होता है।
 
 इस दृष्टि के तीन हिस्से हैं:
 
@@ -13,6 +13,6 @@ description: ज्ञान प्रणालियों के लिए भ
 
 यह केवल अनुवाद की बात नहीं है। एक वास्तव में पार-भाषाई (cross-linguistic) प्रणाली को अवधारणाओं का [language-agnostic index](./language-agnostic-indexing) बनाए रखना चाहिए, [translation fidelity](./translation-fidelity) को सुरक्षित रखना चाहिए, और [translation nuance loss](./translation-nuance-loss) से बचाव करना चाहिए। लक्ष्य एक [multilingual knowledge mesh](./multilingual-knowledge-mesh) है, जहाँ एक कोरियाई नोट केवल शब्द-मिलान के जरिए नहीं, बल्कि अंतर्निहित अवधारणा के माध्यम से किसी अंग्रेज़ी नोट से लिंक कर सके।
 
-[Extracranial](./extracranial) इसे द्विभाषी सामग्री, स्वचालित भाषा पहचान, और hreflang टैग्स के माध्यम से लागू करता है। [Coscientist](./coscientist) इस दृष्टि को आगे बढ़ाता है: क्योंकि यह [LLMs](./llm) का उपयोग करता है, यह किसी भी भाषा में साहित्य पढ़ और समेकित (synthesize) कर सकता है, जिससे [cross-linguistic synthesis](./cross-linguistic-synthesis) किसी बाद की जोड़ (afterthought) के बजाय एक मूल (native) क्षमता बन जाती है।
+[एक्स्ट्राक्रेनियल](./extracranial) इसे द्विभाषी सामग्री, स्वचालित भाषा पहचान, और hreflang टैग्स के माध्यम से लागू करता है। [सह-वैज्ञानिक](./coscientist) इस दृष्टि को आगे बढ़ाता है: क्योंकि यह [बड़े भाषा मॉडल](./llm) का उपयोग करता है, यह किसी भी भाषा में साहित्य पढ़ और समेकित (synthesize) कर सकता है, जिससे [cross-linguistic synthesis](./cross-linguistic-synthesis) किसी बाद की जोड़ (afterthought) के बजाय एक मूल (native) क्षमता बन जाती है।
 
 संदर्भ: https://cho.sh/r/2EB438।

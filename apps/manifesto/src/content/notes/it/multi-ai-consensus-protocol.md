@@ -3,7 +3,7 @@ title: Protocollo di Consenso Multi-AI
 description: Il sistema 1+4 (umano + quattro AI) di scrittura e verifica
 ---
 
-Il Protocollo di Consenso Multi-AI è un flusso di lavoro collaborativo in cui l’[Operatore](./operator) coordina più sistemi di AI per ridurre il rischio di allucinazioni di un singolo modello e aiutare a difendersi dall’[Encyclopedia Meltdown](./encyclopedia-meltdown).
+Il Protocollo di Consenso Multi-AI è un flusso di lavoro collaborativo in cui l’[Operatore](./operator) coordina più sistemi di AI per ridurre il rischio di allucinazioni di un singolo modello e aiutare a difendersi dall’[Crollo dell'Enciclopedia](./encyclopedia-meltdown).
 
 Nella variante "1+4", un essere umano coordina quattro assistenti AI (a dicembre 2025: ChatGPT, Gemini, Claude e Grok). Il punto non è "più memoria"; è disaccordo strutturato e tracciabilità.
 

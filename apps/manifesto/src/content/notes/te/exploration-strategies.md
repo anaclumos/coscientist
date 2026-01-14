@@ -3,14 +3,14 @@ title: అన్వేషణ వ్యూహాలు
 description: నిరంతర జ్ఞాన అన్వేషణ కోసం గ్రాఫ్ ట్రావర్సల్ వ్యూహాలు
 ---
 
-[Coscientist](./coscientist) కు రిట్రీవల్ (retrieval) కంటే ఎక్కువ అవసరం: [Dialectical Graph](./dialectical-graph) లో విరుద్ధతలు, సరిహద్దు పరిస్థితులు, మరియు విధాన-ఆధారితత (method dependence) ని క్రియాశీలంగా వెలికితీసే అన్వేషణ (exploration) అవసరం.
+[కోసైంటిస్ట్](./coscientist) కు రిట్రీవల్ (retrieval) కంటే ఎక్కువ అవసరం: [డయలెక్టికల్ గ్రాఫ్](./dialectical-graph) లో విరుద్ధతలు, సరిహద్దు పరిస్థితులు, మరియు విధాన-ఆధారితత (method dependence) ని క్రియాశీలంగా వెలికితీసే అన్వేషణ (exploration) అవసరం.
 
 ముఖ్యమైన వ్యూహాలు ఇవి:
 
-- [Counterexample-First Search](./counterexample-first-search) — ప్రాచుర్యాన్ని (popularity) ప్రమాద సంకేతంగా పరిగణించండి; ప్రతివ్యతిరేక ఉదాహరణలు మరియు సరిహద్దు పరిస్థితులకు ప్రాధాన్యం ఇవ్వండి
-- [Minimum Cut](./minimum-cut) — విరుద్ధతను సృష్టించే కనిష్ఠ నిర్మాణాన్ని వేరుచేసి, ఆపై [minimum contradiction set](./minimum-contradiction-set) పై దృష్టి కేంద్రీకరించండి
-- [Definition Drift](./definition-drift) — పంచుకున్న భావనలని (concepts) ఊహించకుండా, అర్థ మార్పులను గుర్తించండి
-- [Method-Conclusion Coupling](./method-conclusion-coupling) — సాధారణ లోపాలను కనుగొనేందుకు విధానం ఆధారంగా క్లెయిమ్‌లను (claims) క్లస్టర్ చేయండి
-- [Replication Path Separation](./replication-path-separation) — స్వతంత్ర ఆధారాలను పునరావృత పునర్వ్యాఖ్యల (repeated restatements) నుండి వేరు చేయండి
+- [కౌంటర్‌ఎగ్జాంపుల్-ఫస్ట్ శోధన](./counterexample-first-search) — ప్రాచుర్యాన్ని (popularity) ప్రమాద సంకేతంగా పరిగణించండి; ప్రతివ్యతిరేక ఉదాహరణలు మరియు సరిహద్దు పరిస్థితులకు ప్రాధాన్యం ఇవ్వండి
+- [కనిష్ఠ కట్](./minimum-cut) — విరుద్ధతను సృష్టించే కనిష్ఠ నిర్మాణాన్ని వేరుచేసి, ఆపై [minimum contradiction set](./minimum-contradiction-set) పై దృష్టి కేంద్రీకరించండి
+- [నిర్వచన విసరణ](./definition-drift) — పంచుకున్న భావనలని (concepts) ఊహించకుండా, అర్థ మార్పులను గుర్తించండి
+- [విధానం-నిష్కర్ష అనుసంధానం](./method-conclusion-coupling) — సాధారణ లోపాలను కనుగొనేందుకు విధానం ఆధారంగా క్లెయిమ్‌లను (claims) క్లస్టర్ చేయండి
+- [పునరావృత మార్గ విభజన](./replication-path-separation) — స్వతంత్ర ఆధారాలను పునరావృత పునర్వ్యాఖ్యల (repeated restatements) నుండి వేరు చేయండి
 
 అమలులో (implementation), ఇవి సాధారణీకరణ (normalization), ఊహల వెలికితీత (assumption extraction), ప్రతివ్యతిరేక ఉదాహరణల శోధన (counterexample search), పరిధి పునర్నిర్మాణం (scope reconstruction), మరియు ధృవీకరణ వ్యూహ రూపకల్పన (verification strategy design) కోసం ప్రత్యేక ఏజెంట్లుగా కనిపిస్తాయి.

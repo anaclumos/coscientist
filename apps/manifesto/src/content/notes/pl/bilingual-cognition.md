@@ -7,7 +7,7 @@ Poznanie dwujęzyczne to umiejętność myślenia i pracy w więcej niż jednym 
 
 W tym manifeście ma to znaczenie, ponieważ sugeruje głębszą strukturę: pojęcia znajdują się ponad słowami. To intuicja stojąca za przechodzeniem [przez Sprachraumy](./across-the-sprachraums) i budowaniem [indeksu niezależnego od języka](./language-agnostic-indexing) — idee powinny dać się odzyskać niezależnie od języka, w którym zostały po raz pierwszy zapisane.
 
-[Sunghyun Cho](./sunghyun-cho) pracuje dwujęzycznie (angielski i koreański) w swoim [cyfrowym mózgu](./digital-brain). [Extracranial](./extracranial) i [Coscientist](./coscientist) dążą do odtworzenia tego w skali systemu poprzez:
+[Sunghyun Cho](./sunghyun-cho) pracuje dwujęzycznie (angielski i koreański) w swoim [cyfrowym mózgu](./digital-brain). [Extracranial](./extracranial) i [Współnaukowiec](./coscientist) dążą do odtworzenia tego w skali systemu poprzez:
 
 - łączenie notatek między językami poprzez wspólne pojęcia, tworząc [wielojęzyczną siatkę wiedzy](./multilingual-knowledge-mesh)
 - zachowanie [wierności tłumaczenia](./translation-fidelity) przy jednoczesnym oznaczaniu [utraty niuansów w tłumaczeniu](./translation-nuance-loss)

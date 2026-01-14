@@ -9,4 +9,4 @@ O pipeline padrão de RAG funciona assim: uma consulta é incorporada (embedded)
 
 No entanto, o RAG tem limitações estruturais para a produção de conhecimento. Ele recupera trechos de texto com base em similaridade, não em relações argumentativas. Ele não consegue distinguir apoio de ataque, evidência de opinião, ou fonte primária de reformulação. Quando as fontes entram em conflito, o RAG tende a mesclá-las em resumos “suaves” em vez de expor a [controvérsia](./contention). Veja [Limitações do RAG](./rag-limitations) para a crítica completa.
 
-O [Coscientist](./coscientist) vai além do RAG ao manter um [Grafo Dialético](./dialectical-graph) que armazena [alegações](./claim), [trechos de evidência](./evidence-span) e relações tipadas. A recuperação passa a ser “o que incide sobre esta alegação?” em vez de “o que é semelhante a esta consulta?”
+O [Cocientista](./coscientist) vai além do RAG ao manter um [Grafo Dialético](./dialectical-graph) que armazena [alegações](./claim), [trechos de evidência](./evidence-span) e relações tipadas. A recuperação passa a ser “o que incide sobre esta alegação?” em vez de “o que é semelhante a esta consulta?”

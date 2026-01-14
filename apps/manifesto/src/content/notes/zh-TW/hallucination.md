@@ -7,4 +7,4 @@ description: AI 輸出看似可信，但在事實上不正確或捏造的內容
 
 幻覺是 [LLMs](./llm) 運作方式的症狀：它們預測的是「最可能的下一個 token」，而不是「真正正確的 token」。當訓練資料在某個主題上稀疏或彼此矛盾時，模型會進行插值（interpolate），結果可能是流暢但錯得很順。這也是為什麼 [流暢度陷阱](./fluency-trap) 如此危險：流暢不代表準確。
 
-在 [Coscientist](./coscientist) 中，幻覺風險透過 [認識論協定層](./epistemic-protocol-layer) 來管理：[可追溯性](./traceability) 要求主張必須連結到 [證據片段](./evidence-span)，[先反駁搜尋](./rebuttal-first-search) 在接受之前進行壓力測試，而 [多 AI 共識協定](./multi-ai-consensus-protocol) 則把模型間的分歧作為需要更仔細檢查的訊號。
+在 [共科學家](./coscientist) 中，幻覺風險透過 [認識論協定層](./epistemic-protocol-layer) 來管理：[可追溯性](./traceability) 要求主張必須連結到 [證據片段](./evidence-span)，[先反駁搜尋](./rebuttal-first-search) 在接受之前進行壓力測試，而 [多 AI 共識協定](./multi-ai-consensus-protocol) 則把模型間的分歧作為需要更仔細檢查的訊號。

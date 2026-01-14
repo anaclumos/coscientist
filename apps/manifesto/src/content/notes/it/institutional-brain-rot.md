@@ -7,4 +7,4 @@ Il marciume cerebrale istituzionale è una modalità di fallimento in cui la cap
 
 I sintomi includono il ricorso a documenti interni obsoleti, l'incapacità di distinguere le voci dai fatti, la paura di correggere l'autorità senior e la graduale sostituzione della scorrevolezza con il rigore. L'organizzazione "sa" cose che non sono più vere, e il costo della correzione supera il costo percepito della deriva.
 
-[Coscientist](./coscientist) affronta il marciume cerebrale istituzionale tramite riferimenti incrociati, revisione avversariale tramite [ricerca con confutazione per prima](./rebuttal-first-search) e [tracciabilità](./traceability) esplicita, così che le affermazioni possano essere contestate senza attrito sociale.
+[Coscienziato](./coscientist) affronta il marciume cerebrale istituzionale tramite riferimenti incrociati, revisione avversariale tramite [ricerca con confutazione per prima](./rebuttal-first-search) e [tracciabilità](./traceability) esplicita, così che le affermazioni possano essere contestate senza attrito sociale.

@@ -13,6 +13,6 @@ Wizja składa się z trzech części:
 
 To nie jest jedynie kwestia tłumaczenia. Naprawdę międzyjęzykowy system musi utrzymywać [indeks pojęć niezależny od języka](./language-agnostic-indexing), zachowywać [wierność tłumaczenia](./translation-fidelity) oraz chronić przed [utratą niuansów w tłumaczeniu](./translation-nuance-loss). Celem jest [wielojęzyczna siatka wiedzy](./multilingual-knowledge-mesh), w której koreańska notatka może łączyć się z angielską poprzez leżące u podstaw pojęcie, a nie tylko dopasowanie słów.
 
-[Extracranial](./extracranial) realizuje to poprzez treści dwujęzyczne, automatyczne wykrywanie języka oraz tagi hreflang. [Coscientist](./coscientist) rozwija tę wizję: ponieważ używa [LLM-ów](./llm), potrafi czytać i syntetyzować literaturę w dowolnym języku, czyniąc [syntezę międzyjęzykową](./cross-linguistic-synthesis) natywną funkcją, a nie dodatkiem na końcu.
+[Extracranial](./extracranial) realizuje to poprzez treści dwujęzyczne, automatyczne wykrywanie języka oraz tagi hreflang. [Współnaukowiec](./coscientist) rozwija tę wizję: ponieważ używa [LLM-ów](./llm), potrafi czytać i syntetyzować literaturę w dowolnym języku, czyniąc [syntezę międzyjęzykową](./cross-linguistic-synthesis) natywną funkcją, a nie dodatkiem na końcu.
 
 Referencja: https://cho.sh/r/2EB438.

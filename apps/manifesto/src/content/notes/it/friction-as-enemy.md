@@ -7,4 +7,4 @@ L’attrito come nemico è il principio di progettazione secondo cui lo sforzo i
 
 Questo principio motiva il modello della [giungla digitale](./digital-jungle): getta dentro conoscenza grezza e lascia che il sistema la organizzi, la colleghi e la riporti a galla. Il modo migliore per gestire un giardino non è la cura costante, ma costruire sistemi che si mantengono da soli.
 
-L’attrito non serve a evitare la pigrizia; è il riconoscimento che il sovraccarico cognitivo compete con il pensiero. Il tempo speso sulla tassonomia è tempo non speso sull’intuizione. [Coscientist](./coscientist) eredita questo principio da [Extracranial](./extracranial) e dalle idee in [Creare cervelli digitali di nuova generazione](./creating-next-gen-digital-brains).
+L’attrito non serve a evitare la pigrizia; è il riconoscimento che il sovraccarico cognitivo compete con il pensiero. Il tempo speso sulla tassonomia è tempo non speso sull’intuizione. [Coscienziato](./coscientist) eredita questo principio da [Extracranial](./extracranial) e dalle idee in [Creare cervelli digitali di nuova generazione](./creating-next-gen-digital-brains).

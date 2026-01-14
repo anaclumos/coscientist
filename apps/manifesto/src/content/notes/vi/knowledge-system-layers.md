@@ -3,7 +3,7 @@ title: Các lớp của hệ thống tri thức
 description: Các lớp kiến trúc của Coscientist
 ---
 
-Các lớp của hệ thống tri thức là những thành phần kiến trúc riêng biệt cấu thành [Coscientist](./coscientist). Việc tách các lớp này giúp những mối quan tâm khác nhau có thể phát triển độc lập.
+Các lớp của hệ thống tri thức là những thành phần kiến trúc riêng biệt cấu thành [Nhà đồng khoa học](./coscientist). Việc tách các lớp này giúp những mối quan tâm khác nhau có thể phát triển độc lập.
 
 ## Lớp Dữ liệu
 

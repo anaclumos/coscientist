@@ -3,11 +3,11 @@ title: Fiction fondationnelle
 description: Concepts inspirés d’Asimov qui éclairent la vision de Coscientist
 ---
 
-La fiction fondationnelle désigne des concepts tirés de la série *Foundation* d’[Isaac Asimov](./isaac-asimov) qui éclairent la vision de [Coscientist](./coscientist). L’[Encyclopedia Galactica](./encyclopedia-galactica) fictive est une référence pour penser la préservation des connaissances et les capacités.
+La fiction fondationnelle désigne des concepts tirés de la série *Foundation* d’[Isaac Asimov](./isaac-asimov) qui éclairent la vision de [Coscientifique](./coscientist). L’[Encyclopédie Galactica](./encyclopedia-galactica) fictive est une référence pour penser la préservation des connaissances et les capacités.
 
 ## Concepts fondamentaux
 
-- [Encyclopedia Galactica](./encyclopedia-galactica) — le dépôt fictif de connaissances
+- [Encyclopédie Galactica](./encyclopedia-galactica) — le dépôt fictif de connaissances
 - [Psychohistoire](./psychohistory) — la science statistique des civilisations selon Asimov
 - [Plan Seldon](./seldon-plan) — la stratégie à long terme de [Hari Seldon](./hari-seldon)
 - [Nuit noire de l’âme](./dark-night-of-the-soul) — métaphore d’un effondrement civilisationnel ou épistémique

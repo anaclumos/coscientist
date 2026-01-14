@@ -7,4 +7,4 @@ Ont-breinrot is het actieve proces van het herstellen van verificatievermogen en
 
 De term erkent dat er al schade is ontstaan. Constante blootstelling aan plausibele maar niet-geverifieerde content traint passieve acceptatie. Ont-breinrot is een herstelprotocol: [actief ophalen](./active-recall) opnieuw inschakelen, [traceerbaarheid](./traceability) eisen, en [verificatie](./verification) behandelen als een vaardigheid die je moet oefenen.
 
-[Coscientist](./coscientist) is ontworpen om ont-breinrot te ondersteunen door tegenbewijs zichtbaar te maken, de [verantwoordelijkheidslijn](./responsibility-line) te behouden, en de [Operator](./operator) in de rol van verifieerder te houden in plaats van consument.
+[Cowetenschapper](./coscientist) is ontworpen om ont-breinrot te ondersteunen door tegenbewijs zichtbaar te maken, de [verantwoordelijkheidslijn](./responsibility-line) te behouden, en de [Operator](./operator) in de rol van verifieerder te houden in plaats van consument.

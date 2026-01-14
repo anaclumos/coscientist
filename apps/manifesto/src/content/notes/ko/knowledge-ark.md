@@ -5,4 +5,4 @@ description: 문명 붕괴를 거쳐 지식을 보존하기 위해 설계된 저
 
 지식 방주(knowledge ark)란 문명 쇠퇴의 시기를 거치면서도 지식을 보존하고 전달하도록 설계된 저장소를 말한다. ‘방주’라는 은유가 강조하는 것은 단순한 저장이 아니라 연속성이다. 즉, 미래의 독자들이 주장을 그저 물려받는 데 그치지 않고 결론을 다시 도출할 수 있도록, 출처, 방법, 맥락이 함께 살아남아야 한다.
 
-[은하 백과사전](./encyclopedia-galactica)은 이러한 클리셰(trope)의 가공(가상) 예시이며, 이 용어는 문화 보존에 관한 논의에서 더 폭넓은 역사도 지닌다(https://en.wikipedia.org/wiki/Knowledge_ark 참고).
+[은하 백과사전](./encyclopedia-galactica)은 이러한 클리셰의 가공(가상) 예시이며, 이 용어는 문화 보존에 관한 논의에서 더 폭넓은 역사도 지닌다(https://en.wikipedia.org/wiki/Knowledge_ark 참고).

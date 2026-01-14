@@ -7,7 +7,7 @@ Zweisprachige Kognition ist die Fähigkeit, in mehr als einer Sprache zu denken 
 
 In diesem Manifest ist das wichtig, weil es auf eine tiefere Struktur hindeutet: Konzepte stehen über Wörtern. Das ist die Intuition hinter dem Vorgehen [über die Sprachräume hinweg](./across-the-sprachraums) und dem Aufbau eines [sprachagnostischen Index](./language-agnostic-indexing)—Ideen sollten auffindbar sein, unabhängig davon, in welcher Sprache sie zuerst festgehalten wurden.
 
-[Sunghyun Cho](./sunghyun-cho) arbeitet zweisprachig (Englisch und Koreanisch) in seinem [digitalen Gehirn](./digital-brain). [Extracranial](./extracranial) und [Coscientist](./coscientist) zielen darauf ab, dies auf Systemebene zu spiegeln, indem sie:
+[Sunghyun Cho](./sunghyun-cho) arbeitet zweisprachig (Englisch und Koreanisch) in seinem [digitalen Gehirn](./digital-brain). [Extracranial](./extracranial) und [Kozientist](./coscientist) zielen darauf ab, dies auf Systemebene zu spiegeln, indem sie:
 
 - Notizen über Sprachen hinweg durch gemeinsame Konzepte verknüpfen und so ein [mehrsprachiges Wissensnetz](./multilingual-knowledge-mesh) bilden
 - [Übersetzungstreue](./translation-fidelity) bewahren und zugleich auf [Verlust von Übersetzungsnuancen](./translation-nuance-loss) hinweisen

@@ -3,8 +3,8 @@ title: रिट्रीवल प्रैक्टिस के रूप म
 description: ज्ञान-धारण (retention) को मजबूत करने वाले सक्रिय पुनःस्मरण (active recall) के एक रूप के तौर पर Operator का सत्यापन लूप
 ---
 
-रिट्रीवल प्रैक्टिस के रूप में सत्यापन (Verification as retrieval practice) यह अंतर्दृष्टि है कि [Operator](./operator) का सत्यापन कार्य स्वयं [active recall](./active-recall) का एक रूप है। जब आप किसी [दावे](./claim) को उसके [evidence span](./evidence-span) तक पीछे ट्रेस करते हैं, [counterexamples](./counterexample) की जाँच करते हैं, और [responsibility line](./responsibility-line) का मूल्यांकन करते हैं, तो आप निष्क्रिय उपभोग नहीं, बल्कि रिट्रीवल का अभ्यास कर रहे होते हैं।
+रिट्रीवल प्रैक्टिस के रूप में सत्यापन (Verification as retrieval practice) यह अंतर्दृष्टि है कि [ऑपरेटर](./operator) का सत्यापन कार्य स्वयं [active recall](./active-recall) का एक रूप है। जब आप किसी [दावे](./claim) को उसके [evidence span](./evidence-span) तक पीछे ट्रेस करते हैं, [counterexamples](./counterexample) की जाँच करते हैं, और [responsibility line](./responsibility-line) का मूल्यांकन करते हैं, तो आप निष्क्रिय उपभोग नहीं, बल्कि रिट्रीवल का अभ्यास कर रहे होते हैं।
 
 यह संबंध महत्वपूर्ण है क्योंकि यह संकेत देता है कि कठोर [verification](./verification) केवल ज्ञान-संबंधी (epistemic) रूप से अधिक सुरक्षित नहीं है; यह सीखने के लिए भी बेहतर है। जाँच-पड़ताल का प्रयास स्मृति को मजबूत करता है। [fluency trap](./fluency-trap) दोनों ही पैमानों पर विफल होता है: बिना समीक्षा के सहज/धाराप्रवाह गद्य को स्वीकार करना न तो सत्यापन करता है, न ही सिखाता है।
 
-[Coscientist](./coscientist) इसका समर्थन करता है, क्योंकि वह दावों की संरचना को उजागर करता है, उसे कथा (narrative) के पीछे छिपाता नहीं। जब [Operator](./operator) [Dialectical Graph](./dialectical-graph) के साथ जुड़ता है, तो वह वही संज्ञानात्मक काम करता है जिसे सीखने का विज्ञान प्रभावी दिखाता है।
+[सह-वैज्ञानिक](./coscientist) इसका समर्थन करता है, क्योंकि वह दावों की संरचना को उजागर करता है, उसे कथा (narrative) के पीछे छिपाता नहीं। जब [ऑपरेटर](./operator) [द्वंद्वात्मक ग्राफ](./dialectical-graph) के साथ जुड़ता है, तो वह वही संज्ञानात्मक काम करता है जिसे सीखने का विज्ञान प्रभावी दिखाता है।

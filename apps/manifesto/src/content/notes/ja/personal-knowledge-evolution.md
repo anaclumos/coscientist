@@ -7,7 +7,7 @@ description: 個人知識管理ツールとアイデアの歴史的進展
 
 ## 基盤となるビジョン
 
-- [As We May Think](./as-we-may-think) — [Vannevar Bush](./vannevar-bush) による1945年のエッセイ
+- [われわれが考えるように](./as-we-may-think) — [Vannevar Bush](./vannevar-bush) による1945年のエッセイ
 - [Memex](./memex) — Bush が提案した個人知識マシン
 
 ## 概念的フレームワーク
@@ -19,7 +19,7 @@ description: 個人知識管理ツールとアイデアの歴史的進展
 
 ## 実装
 
-- [Project Aldehyde](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho) による初期の試み
+- [プロジェクト・アルデヒド](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho) による初期の試み
 - [Extracranial](./extracranial) — Cho の個人用デジタル・ブレイン（digital brain）システム
 - [Multilingual Memex](./multilingual-memex) — 自動翻訳を備えた言語対応の知識システム
 - [Project PIRI](./project-piri) — 中止された翻訳イニシアチブ（AI コーディングエージェントにより陳腐化）

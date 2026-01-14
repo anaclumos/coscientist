@@ -7,4 +7,4 @@ Reguły przejść statusu określają, co przenosi [roszczenie](./claim) z jedne
 
 Kluczowe przejścia obejmują: wstępny → sporny (gdy zarejestrowany zostaje [atak](./attack)), sporny → warunkowo wspierany (gdy na atak odpowiada się poprzez zawężenie [zakresu](./scope) lub doprecyzowanie [założeń](./assumption)), warunkowo wspierany → solidny (gdy wiele niezależnych ścieżek potwierdza), solidny → obalony (gdy kontrprzykład przechodzi weryfikację), oraz dowolny stan → nieaktualny (gdy [dryf definicji](./definition-drift) zrywa znaczenie roszczenia).
 
-Reguły te są częścią [warstwy protokołu epistemicznego](./epistemic-protocol-layer) w [Coscientist](./coscientist). Sprawiają, że aktualizowanie wiedzy jest jawne i poddawalne audytowi, zamiast ukryte w prozie.
+Reguły te są częścią [warstwy protokołu epistemicznego](./epistemic-protocol-layer) w [Współnaukowiec](./coscientist). Sprawiają, że aktualizowanie wiedzy jest jawne i poddawalne audytowi, zamiast ukryte w prozie.

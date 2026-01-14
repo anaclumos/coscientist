@@ -3,7 +3,7 @@ title: Zoekstrategie: eerst tegenvoorbeelden
 description: Strategie die tegenvoorbeelden voorrang geeft boven ondersteunend bewijs
 ---
 
-Zoekstrategie waarbij je eerst tegenvoorbeelden zoekt (counterexample-first search) is een [verkenningsstrategie](./exploration-strategies) die populariteit behandelt als een risicosignaal in plaats van als bewijs van kwaliteit. Hoe breder een [bewering](./claim) wordt herhaald, hoe waardevoller het wordt om [tegenvoorbeelden](./counterexample) en randvoorwaarden te vinden, omdat fouten in populaire beweringen een grotere impactradius hebben in [Encyclopedia Meltdown](./encyclopedia-meltdown).
+Zoekstrategie waarbij je eerst tegenvoorbeelden zoekt (counterexample-first search) is een [verkenningsstrategie](./exploration-strategies) die populariteit behandelt als een risicosignaal in plaats van als bewijs van kwaliteit. Hoe breder een [bewering](./claim) wordt herhaald, hoe waardevoller het wordt om [tegenvoorbeelden](./counterexample) en randvoorwaarden te vinden, omdat fouten in populaire beweringen een grotere impactradius hebben in [Encyclopedie-ineenstorting](./encyclopedia-meltdown).
 
 Deze strategie keert de normale prioriteit bij het ophalen van informatie om. Standaardzoekopdrachten rangschikken op relevantie of frequentie, wat meestal overeenstemming naar boven haalt. Zoekstrategie waarbij je eerst tegenvoorbeelden zoekt, zoekt juist doelbewust naar tegenspraak, randgevallen en mislukkingen, omdat die informatiever is voor het bijstellen van kennis.
 

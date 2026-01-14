@@ -3,7 +3,7 @@ title: Cơ chế khám phá
 description: Chiến lược khám phá tri thức liên tục trong một đồ thị biện chứng
 ---
 
-Các cơ chế khám phá là những chiến lược mà [Coscientist](./coscientist) sử dụng để liên tục phát hiện các mâu thuẫn, điều kiện biên, và các phụ thuộc của phương pháp trong [Đồ thị Biện chứng](./dialectical-graph).
+Các cơ chế khám phá là những chiến lược mà [Nhà đồng khoa học](./coscientist) sử dụng để liên tục phát hiện các mâu thuẫn, điều kiện biên, và các phụ thuộc của phương pháp trong [Đồ thị Biện chứng](./dialectical-graph).
 
 ## Chiến lược tìm kiếm
 

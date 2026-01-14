@@ -7,7 +7,7 @@ Die persönliche Wissensevolution zeichnet die Entwicklung von Werkzeugen und Id
 
 ## Grundlegende Vision
 
-- [As We May Think](./as-we-may-think) — [Vannevar Bush](./vannevar-bush)s Essay von 1945
+- [Wie wir denken könnten](./as-we-may-think) — [Vannevar Bush](./vannevar-bush)s Essay von 1945
 - [Memex](./memex) — Bushs vorgeschlagene persönliche Wissensmaschine
 
 ## Konzeptionelle Rahmenwerke
@@ -19,7 +19,7 @@ Die persönliche Wissensevolution zeichnet die Entwicklung von Werkzeugen und Id
 
 ## Umsetzungen
 
-- [Project Aldehyde](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho)s früher Versuch
+- [Projekt Aldehyd](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho)s früher Versuch
 - [Extracranial](./extracranial) — Chos persönliches Digital-Brain-System
 - [Multilingual Memex](./multilingual-memex) — sprachbewusstes Wissenssystem mit automatischer Übersetzung
 - [Project PIRI](./project-piri) — eingestellte Übersetzungsinitiative (durch KI-Coding-Agents obsolet geworden)

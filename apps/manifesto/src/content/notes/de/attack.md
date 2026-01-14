@@ -7,4 +7,4 @@ Ein Angriff ist eine direkte Anfechtung des Wahrheitsgehalts einer [Behauptung](
 
 Angriffe sind ein zentraler Kantentyp im [Dialektischen Graphen](./dialectical-graph) (siehe [Kanten des Dialektischen Graphen](./dialectical-graph-edges)). Wenn ein Angriff registriert wird, kann sich der Status der Behauptung je nach Stärke und Art der Anfechtung von `supported` zu `contested` oder `refuted` verschieben.
 
-Nicht alle Angriffe sind gleich. Ein gut belegtes Gegenbeispiel hat mehr Gewicht als die bloße Behauptung, anderer Meinung zu sein. Deshalb verfolgt [Coscientist](./coscientist) für Angriffe ebenso wie für Behauptungen [Evidenzspannen](./evidence-span) und [Herkunft](./provenance).
+Nicht alle Angriffe sind gleich. Ein gut belegtes Gegenbeispiel hat mehr Gewicht als die bloße Behauptung, anderer Meinung zu sein. Deshalb verfolgt [Kozientist](./coscientist) für Angriffe ebenso wie für Behauptungen [Evidenzspannen](./evidence-span) und [Herkunft](./provenance).

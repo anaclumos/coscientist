@@ -3,7 +3,7 @@ title: Sentez Mekanizmaları
 description: Uyuşmaz kaynakları karşılaştırılabilir kılma kalıpları
 ---
 
-Sentez mekanizmaları, [Coscientist](./coscientist)’in uyuşmaz kaynakları karşılaştırılabilir kılmak ve çatışmadan yapılandırılmış çıktı üretmek için kullandığı kalıp ve protokollerdir.
+Sentez mekanizmaları, [Eşbilimci](./coscientist)’in uyuşmaz kaynakları karşılaştırılabilir kılmak ve çatışmadan yapılandırılmış çıktı üretmek için kullandığı kalıp ve protokollerdir.
 
 ## Temel Süreç
 

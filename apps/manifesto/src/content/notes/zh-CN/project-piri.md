@@ -3,7 +3,7 @@ title: 项目 PIRI
 description: 一个已取消的倡议，旨在为编程文档提供无限翻译
 ---
 
-项目 PIRI（Programmatic Interlingual Resource Integration，程序化跨语言资源整合）是 [Sunghyun Cho](./sunghyun-cho) 发起的一项倡议，旨在为主要的编程与开发者文档提供无限翻译。其座右铭是：“不学英语，也能成为 10x 开发者。”
+项目 PIRI（Programmatic Interlingual Resource Integration，程序化跨语言资源整合）是 [曹成贤](./sunghyun-cho) 发起的一项倡议，旨在为主要的编程与开发者文档提供无限翻译。其座右铭是：“不学英语，也能成为 10x 开发者。”
 
 该项目在一个实际领域中体现了 [跨越 Sprachraums](./across-the-sprachraums) 的愿景。技术文档高度以英语为中心，这为全球开发者造成了障碍。PIRI 试图通过让文档以任何语言可访问来消除这一障碍，使开发者能够专注于学习编程，而不是先学英语。
 
@@ -11,6 +11,6 @@ description: 一个已取消的倡议，旨在为编程文档提供无限翻译
 
 这一结果令人担忧，而非值得庆祝。它表明，AI 能力的提升可以多么迅速地让善意的人类基础设施项目过时。数月的设计与建设之所以变得无关紧要，并非因为它失败了，而是因为它所解决的问题消失了。这种转变的速度引出了更深层的问题：在 AI 快速进步的时代，任何知识基础设施的稳定性究竟如何？
 
-对 [Coscientist](./coscientist) 而言，PIRI 仍是一则警示故事：围绕当前 AI 局限制定的系统，可能会随着这些限制的消失而变得过时。[跨越 Sprachraums](./across-the-sprachraums) 的愿景仍在延续，但其落地方式必须考虑到：AI 能力变化的速度，可能快于人类项目的适应速度。
+对 [共研者](./coscientist) 而言，PIRI 仍是一则警示故事：围绕当前 AI 局限制定的系统，可能会随着这些限制的消失而变得过时。[跨越 Sprachraums](./across-the-sprachraums) 的愿景仍在延续，但其落地方式必须考虑到：AI 能力变化的速度，可能快于人类项目的适应速度。
 
 参考：https://cho.sh/r/69794B。

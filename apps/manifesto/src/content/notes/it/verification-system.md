@@ -3,7 +3,7 @@ title: Sistema di Verifica
 description: I meccanismi per controllare le affermazioni rispetto a prove e controprove
 ---
 
-Il sistema di verifica è l’insieme di meccanismi che [Coscientist](./coscientist) usa per controllare le [affermazioni](./claim) rispetto a prove, controprove e spiegazioni alternative. Non è un singolo strumento, ma una suite coordinata di protocolli e pratiche.
+Il sistema di verifica è l’insieme di meccanismi che [Coscienziato](./coscientist) usa per controllare le [affermazioni](./claim) rispetto a prove, controprove e spiegazioni alternative. Non è un singolo strumento, ma una suite coordinata di protocolli e pratiche.
 
 ## Componenti Principali
 

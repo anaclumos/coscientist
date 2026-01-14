@@ -5,6 +5,6 @@ description: ہموار AI نثر کو درستگی سمجھ لینا
 
 روانی کا فریب (fluency trap) وہ ادراکی تعصب ہے جس میں ہموار، پُراعتماد لہجے والی نثر کو درست سمجھ لیا جاتا ہے۔ چونکہ [LLMs](./llm) قابلِ یقین اگلے ٹوکنز کے لیے optimize کرتے ہیں، اس لیے ان کی پیداوار اکثر اچھی لگتی ہے حتیٰ کہ جب وہ غلط ہو۔ روانی، تصدیق کی بنیاد کے بغیر، مہارت کی سطحی خصوصیات کی نقل کرتی ہے۔
 
-یہ فریب [Encyclopedia Meltdown](./encyclopedia-meltdown) میں ایک کلیدی طریقۂ کار ہے: جب صارفین AI کی پیداوار اس لیے قبول کر لیتے ہیں کہ وہ "درست لگتی" ہے، تو غلطیاں بغیر رکاوٹ کے پھیلتی رہتی ہیں۔ سیکھنے کے دوران یہی مظہر [illusions of competence](./illusions-of-competence) میں بھی دکھائی دیتا ہے: بار بار دوبارہ پڑھنا کارآمد محسوس ہوتا ہے کیونکہ مواد مانوس لگتا ہے۔
+یہ فریب [انسائیکلوپیڈیا تباہی](./encyclopedia-meltdown) میں ایک کلیدی طریقۂ کار ہے: جب صارفین AI کی پیداوار اس لیے قبول کر لیتے ہیں کہ وہ "درست لگتی" ہے، تو غلطیاں بغیر رکاوٹ کے پھیلتی رہتی ہیں۔ سیکھنے کے دوران یہی مظہر [illusions of competence](./illusions-of-competence) میں بھی دکھائی دیتا ہے: بار بار دوبارہ پڑھنا کارآمد محسوس ہوتا ہے کیونکہ مواد مانوس لگتا ہے۔
 
-روانی کے فریب کا توڑ فعال کوشش مانگتا ہے۔ [Coscientist](./coscientist) میں اس کا مطلب ہے [rebuttal-first search](./rebuttal-first-search)، [traceability](./traceability) کے ذریعے [evidence spans](./evidence-span) تک رسائی، اور [verification](./verification) کو [Operator](./operator) کی واضح ذمہ داری بنانا۔
+روانی کے فریب کا توڑ فعال کوشش مانگتا ہے۔ [کوسائنٹسٹ](./coscientist) میں اس کا مطلب ہے [تردید اول تلاش](./rebuttal-first-search)، [traceability](./traceability) کے ذریعے [evidence spans](./evidence-span) تک رسائی، اور [verification](./verification) کو [آپریٹر](./operator) کی واضح ذمہ داری بنانا۔

@@ -7,4 +7,4 @@ O apodrecimento cerebral institucional é um modo de falha em que a capacidade c
 
 Os sintomas incluem dependência de documentos internos desatualizados, incapacidade de distinguir boato de fato, medo de corrigir autoridades superiores e a substituição gradual de rigor por fluência. A organização "sabe" coisas que já não são verdade, e o custo da correção excede o custo percebido do desvio.
 
-O [Coscientist](./coscientist) aborda o apodrecimento cerebral institucional por meio de referência cruzada, revisão adversarial via [busca com réplica primeiro](./rebuttal-first-search) e [rastreabilidade](./traceability) explícita para que alegações possam ser contestadas sem atrito social.
+O [Cocientista](./coscientist) aborda o apodrecimento cerebral institucional por meio de referência cruzada, revisão adversarial via [busca com réplica primeiro](./rebuttal-first-search) e [rastreabilidade](./traceability) explícita para que alegações possam ser contestadas sem atrito social.

@@ -3,7 +3,7 @@ title: Tefekkür Emeği
 description: Yapay zekânın bilgi üretiminde gerçekleştirdiği bilişsel çalışma
 ---
 
-Tefekkür emeği, bilgi üretiminin bilişsel çalışmasıdır: hipotezler önermek, kanıt toplamak, karşı-örnekler bulmak, argümanları yapılandırmak ve sonuçları rafine etmek. [Coscientist](./coscientist) yaklaşımında, yapay zekâ tefekkür emeğini üstlenirken insan [Operatör](./operator) muhakemeyi elinde tutar.
+Tefekkür emeği, bilgi üretiminin bilişsel çalışmasıdır: hipotezler önermek, kanıt toplamak, karşı-örnekler bulmak, argümanları yapılandırmak ve sonuçları rafine etmek. [Eşbilimci](./coscientist) yaklaşımında, yapay zekâ tefekkür emeğini üstlenirken insan [Operatör](./operator) muhakemeyi elinde tutar.
 
 Bu ayrım önemlidir. Yapay zekâ daha hızlı arayabilir, daha fazla bağlamı akılda tutabilir ve büyük ölçekte adaylar üretebilir. Ancak yapay zekâ, neyin doğrulanmış sayılacağına karar veremez: bunun için yalnızca insanın getirdiği değerler, risk/çıkarlar ve hesap verebilirlik gerekir. Tefekkür emeği makinedir; [doğrulama](./verification) ise kontrol noktasıdır.
 

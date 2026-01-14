@@ -3,7 +3,7 @@ title: 知识系统层级
 description: Coscientist 的架构层级
 ---
 
-知识系统层级是构成 [Coscientist](./coscientist) 的不同架构组件。将这些层级分离，使不同关注点能够彼此独立地演进。
+知识系统层级是构成 [共研者](./coscientist) 的不同架构组件。将这些层级分离，使不同关注点能够彼此独立地演进。
 
 ## 数据层
 

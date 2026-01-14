@@ -3,8 +3,8 @@ title: Сонхьон Чо
 description: Розробник Coscientist і автор її засадничих есеїв
 ---
 
-Сонхьон Чо — розробник [Coscientist](./coscientist) і автор есеїв, що визначили її напрям. Його робота поєднує інструменти для особистої роботи зі знаннями (наприклад [Creating Next-gen Digital Brains](./creating-next-gen-digital-brains) і [Extracranial](./extracranial)) із ширшою турботою: як зберегти верифікацію та агентивність у середовищі, насиченому ШІ.
+Сонхьон Чо — розробник [Конауковець](./coscientist) і автор есеїв, що визначили її напрям. Його робота поєднує інструменти для особистої роботи зі знаннями (наприклад [Створення цифрових мозків нового покоління](./creating-next-gen-digital-brains) і [Extracranial](./extracranial)) із ширшою турботою: як зберегти верифікацію та агентивність у середовищі, насиченому ШІ.
 
 Чо працює двома мовами (англійською та корейською) у своєму [цифровому мозку](./digital-brain) — практиці, що формує його бачення [крізь Sprachraums](./across-the-sprachraums): систем знань, які долають мовні межі. Ця багатомовна мрія втілилася в [Project PIRI](./project-piri) (скасований, коли ШІ-агенти для програмування зробили переклад непотрібним) і зберігається в дизайні [Extracranial](./extracranial) як [багатомовного Memex](./multilingual-memex). Концепція [Superbrain](./superbrain) відображає його прагнення до [когнітивного екзоскелета](./cognitive-exoskeleton), який підсилює людський інтелект крізь мови.
 
-Точки входу: [ScienceOps](./scienceops), [AI Slop](./ai-slop), [Encyclopedia Meltdown](./encyclopedia-meltdown) та огляд системи в [Coscientist](./coscientist).
+Точки входу: [ScienceOps](./scienceops), [AI Slop](./ai-slop), [Крах енциклопедії](./encyclopedia-meltdown) та огляд системи в [Конауковець](./coscientist).

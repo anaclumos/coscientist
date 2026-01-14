@@ -3,7 +3,7 @@ title: 探索机制
 description: 在辩证图中持续进行知识发现的策略
 ---
 
-探索机制是 [Coscientist](./coscientist) 用来在[辩证图](./dialectical-graph)中持续发现矛盾、边界条件以及方法依赖关系的策略。
+探索机制是 [共研者](./coscientist) 用来在[辩证图](./dialectical-graph)中持续发现矛盾、边界条件以及方法依赖关系的策略。
 
 ## 搜索策略
 

@@ -7,4 +7,4 @@ Verifikation als Abrufübung ist die Einsicht, dass die Verifikationsarbeit des 
 
 Diese Verbindung ist wichtig, weil sie nahelegt, dass strenge [Verifikation](./verification) nicht nur epistemisch sicherer ist; sie ist auch besser fürs Lernen. Die Anstrengung des Prüfens stärkt das Gedächtnis. Die [Fluency-Falle](./fluency-trap) scheitert in beiderlei Hinsicht: Glatte Prosa ohne kritische Prüfung zu akzeptieren, verifiziert weder noch lehrt es.
 
-[Coscientist](./coscientist) unterstützt dies, indem es die Struktur von Behauptungen sichtbar macht, statt sie hinter einer Erzählung zu verbergen. Wenn der [Operator](./operator) mit dem [Dialektischen Graphen](./dialectical-graph) arbeitet, verrichtet er die kognitive Arbeit, die die Lernforschung als wirksam ausweist.
+[Kozientist](./coscientist) unterstützt dies, indem es die Struktur von Behauptungen sichtbar macht, statt sie hinter einer Erzählung zu verbergen. Wenn der [Betreiber](./operator) mit dem [Dialektischen Graphen](./dialectical-graph) arbeitet, verrichtet er die kognitive Arbeit, die die Lernforschung als wirksam ausweist.

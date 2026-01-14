@@ -7,7 +7,7 @@ Tweetalige cognitie is het vermogen om in meer dan één taal te denken en te we
 
 In dit manifest is dat belangrijk omdat het wijst op een diepere structuur: concepten staan boven woorden. Dat is de intuïtie achter het gaan [dwars door de Sprachraums heen](./across-the-sprachraums) en het bouwen van een [taalonafhankelijke index](./language-agnostic-indexing)—ideeën moeten terugvindbaar zijn ongeacht de taal waarin ze oorspronkelijk zijn vastgelegd.
 
-[Sunghyun Cho](./sunghyun-cho) werkt tweetalig (Engels en Koreaans) in zijn [digitale brein](./digital-brain). [Extracranial](./extracranial) en [Coscientist](./coscientist) proberen dit op systeemschaal te weerspiegelen door:
+[Sunghyun Cho](./sunghyun-cho) werkt tweetalig (Engels en Koreaans) in zijn [digitale brein](./digital-brain). [Extracranial](./extracranial) en [Cowetenschapper](./coscientist) proberen dit op systeemschaal te weerspiegelen door:
 
 - notities over talen heen te koppelen via gedeelde concepten, en zo een [meertalige kennismesh](./multilingual-knowledge-mesh) te vormen
 - [vertaalgetrouwheid](./translation-fidelity) te bewaren terwijl [verlies van vertaalnuance](./translation-nuance-loss) wordt gemarkeerd

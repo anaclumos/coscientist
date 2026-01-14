@@ -3,7 +3,7 @@ title: Strategie eksploracji
 description: Strategie przemierzania grafu dla ciągłego odkrywania wiedzy
 ---
 
-[Coscientist](./coscientist) potrzebuje czegoś więcej niż wyszukiwania: potrzebuje eksploracji, która aktywnie ujawnia sprzeczności, warunki brzegowe oraz zależność od metody w [Grafie Dialektycznym](./dialectical-graph).
+[Współnaukowiec](./coscientist) potrzebuje czegoś więcej niż wyszukiwania: potrzebuje eksploracji, która aktywnie ujawnia sprzeczności, warunki brzegowe oraz zależność od metody w [Grafie Dialektycznym](./dialectical-graph).
 
 Kluczowe strategie obejmują:
 

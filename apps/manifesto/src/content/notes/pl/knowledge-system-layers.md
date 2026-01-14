@@ -3,7 +3,7 @@ title: Warstwy systemu wiedzy
 description: Architektoniczne warstwy Coscientist
 ---
 
-Warstwy systemu wiedzy to odrębne komponenty architektoniczne, które składają się na [Coscientist](./coscientist). Rozdzielenie tych warstw pozwala różnym obszarom odpowiedzialności ewoluować niezależnie.
+Warstwy systemu wiedzy to odrębne komponenty architektoniczne, które składają się na [Współnaukowiec](./coscientist). Rozdzielenie tych warstw pozwala różnym obszarom odpowiedzialności ewoluować niezależnie.
 
 ## Warstwa danych
 

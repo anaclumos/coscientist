@@ -3,11 +3,11 @@ title: Foundation-fictie
 description: Door Asimov geïnspireerde concepten die de visie van Coscientist vormgeven
 ---
 
-Foundation-fictie verwijst naar concepten uit de Foundation-reeks van [Isaac Asimov](./isaac-asimov) die de visie van [Coscientist](./coscientist) vormgeven. De fictieve [Encyclopedia Galactica](./encyclopedia-galactica) is een referentiepunt voor het nadenken over kennisbehoud en -capaciteit.
+Foundation-fictie verwijst naar concepten uit de Foundation-reeks van [Isaac Asimov](./isaac-asimov) die de visie van [Cowetenschapper](./coscientist) vormgeven. De fictieve [Encyclopedie Galactica](./encyclopedia-galactica) is een referentiepunt voor het nadenken over kennisbehoud en -capaciteit.
 
 ## Kernconcepten
 
-- [Encyclopedia Galactica](./encyclopedia-galactica) — het fictieve kennisarchief
+- [Encyclopedie Galactica](./encyclopedia-galactica) — het fictieve kennisarchief
 - [Psychohistory](./psychohistory) — Asimovs statistische wetenschap van beschavingen
 - [Seldon Plan](./seldon-plan) — de langetermijnstrategie van [Hari Seldon](./hari-seldon)
 - [Dark Night of the Soul](./dark-night-of-the-soul) — metafoor voor beschavings- of epistemische instorting

@@ -3,13 +3,13 @@ title: SI
 description: Sztuczna inteligencja jako narzędzie i wyzwanie dla systemów wiedzy
 ---
 
-SI (Sztuczna Inteligencja) w kontekście [Coscientist](./coscientist) odnosi się do systemów wykonujących zadania poznawcze tradycyjnie wymagające ludzkiej inteligencji: czytanie, streszczanie, generowanie oraz rozumowanie na temat tekstu. Podstawową technologią jest [LLM](./llm) (Large Language Model).
+SI (Sztuczna Inteligencja) w kontekście [Współnaukowiec](./coscientist) odnosi się do systemów wykonujących zadania poznawcze tradycyjnie wymagające ludzkiej inteligencji: czytanie, streszczanie, generowanie oraz rozumowanie na temat tekstu. Podstawową technologią jest [Duży model językowy](./llm) (Large Language Model).
 
-SI jest jednocześnie silnikiem i zagrożeniem. Z jednej strony SI wykonuje [pracę kontemplacyjną](./contemplation-labor): wyszukiwanie, strukturyzowanie i generowanie propozycji w tempie niemożliwym dla ludzi. Z drugiej strony SI tworzy tryby awarii, które wymagają nowych zabezpieczeń: [halucynacje](./hallucination), [AI slop](./ai-slop), [kolaps modelu](./model-collapse) oraz [Encyclopedia Meltdown](./encyclopedia-meltdown).
+SI jest jednocześnie silnikiem i zagrożeniem. Z jednej strony SI wykonuje [pracę kontemplacyjną](./contemplation-labor): wyszukiwanie, strukturyzowanie i generowanie propozycji w tempie niemożliwym dla ludzi. Z drugiej strony SI tworzy tryby awarii, które wymagają nowych zabezpieczeń: [halucynacje](./hallucination), [Śmieci AI](./ai-slop), [kolaps modelu](./model-collapse) oraz [Załamanie Encyklopedii](./encyclopedia-meltdown).
 
 ## SI jako narzędzie
 
-- [LLM](./llm) — technologia bazowa
+- [Duży model językowy](./llm) — technologia bazowa
 - [Praca kontemplacyjna](./contemplation-labor) — praca poznawcza wykonywana przez SI
 - [Synteza międzyjęzykowa](./cross-linguistic-synthesis) — czytanie w dowolnym języku
 - [Protokół konsensusu wielu SI](./multi-ai-consensus-protocol) — użycie wielu modeli
@@ -17,7 +17,7 @@ SI jest jednocześnie silnikiem i zagrożeniem. Z jednej strony SI wykonuje [pra
 ## Tryby awarii SI
 
 - [Halucynacje](./hallucination) — wiarygodne, lecz zmyślone odpowiedzi
-- [AI slop](./ai-slop) — niskiej jakości treści generowane
+- [Śmieci AI](./ai-slop) — niskiej jakości treści generowane
 - [Pułapka płynności](./fluency-trap) — mylenie gładkiej prozy z trafnością
 - [Kolaps modelu](./model-collapse) — degradacja wskutek trenowania na własnych danych
 

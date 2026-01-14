@@ -3,10 +3,10 @@ title: 다국어 지식 메쉬
 description: 여러 언어를 가로질러 전 세계로 분산되는 지식 네트워크
 ---
 
-다국어 지식 메쉬(multilingual knowledge mesh)는 어떤 언어로 된 콘텐츠든 단어 매칭이 아니라 공유된 개념을 통해 다른 어떤 언어의 콘텐츠와도 연결될 수 있는 지식 네트워크다. 이는 [Sunghyun Cho](./sunghyun-cho)가 [Sprachraum들](./across-the-sprachraums)을 가로지르며(across) 나아가려는 비전의 한 표현이기도 하다.
+다국어 지식 메쉬(multilingual knowledge mesh)는 어떤 언어로 된 콘텐츠든 단어 매칭이 아니라 공유된 개념을 통해 다른 어떤 언어의 콘텐츠와도 연결될 수 있는 지식 네트워크다. 이는 [조성현](./sunghyun-cho)가 [Sprachraum들](./across-the-sprachraums)을 가로지르며(across) 나아가려는 비전의 한 표현이기도 하다.
 
 이는 단순한 번역을 넘어선다. 진정한 다국어 메쉬에서는, 예컨대 어떤 개념에 대해 한국어로 작성된 노트가 키워드가 겹쳐서가 아니라 그 밑바탕의 아이디어를 통해 동일한 개념에 대한 영어 노트로 연결된다. [언어-불가지론적 인덱스](./language-agnostic-indexing)는 개념적 척추 역할을 하며, 콘텐츠가 어떤 [Sprachraum](./sprachraum)에서 비롯되었는지와 무관하게 검색과 연결을 가능하게 한다.
 
-[Extracranial](./extracranial)은 자동 언어 감지, 콘텐츠 네고시에이션(content negotiation), 그리고 로케일별 전달을 위한 hreflang 태그를 통해 이러한 개념의 초기 형태를 구현한다. 비전은 시스템이 원문 언어와 무관하게 오래된(outdated) 콘텐츠에는 불이익을 주면서, 콘텐츠를 언어들 사이로 자동으로 분산시키는 것이다.
+[엑스트라크래니얼](./extracranial)은 자동 언어 감지, 콘텐츠 네고시에이션(content negotiation), 그리고 로케일별 전달을 위한 hreflang 태그를 통해 이러한 개념의 초기 형태를 구현한다. 비전은 시스템이 원문 언어와 무관하게 오래된(outdated) 콘텐츠에는 불이익을 주면서, 콘텐츠를 언어들 사이로 자동으로 분산시키는 것이다.
 
-[Coscientist](./coscientist)에게 다국어 메쉬는 필수적이다. 전 세계 과학은 많은 언어에 걸쳐 있으며, 영어만 읽을 수 있는 연구 협력자는 근본적으로 한계가 있다. [변증법적 그래프](./dialectical-graph)는 어떤 언어에서든 [주장](./claim)을 저장할 수 있고, [출처 정보](./provenance)를 통해 어떤 출발 언어(source language)가 어떤 통찰(insight)을 만들어냈는지 추적한다.
+[코사이언티스트](./coscientist)에게 다국어 메쉬는 필수적이다. 전 세계 과학은 많은 언어에 걸쳐 있으며, 영어만 읽을 수 있는 연구 협력자는 근본적으로 한계가 있다. [변증법적 그래프](./dialectical-graph)는 어떤 언어에서든 [주장](./claim)을 저장할 수 있고, [출처 정보](./provenance)를 통해 어떤 출발 언어(source language)가 어떤 통찰(insight)을 만들어냈는지 추적한다.

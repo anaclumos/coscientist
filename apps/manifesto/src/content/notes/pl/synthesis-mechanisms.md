@@ -3,7 +3,7 @@ title: Mechanizmy syntezy
 description: Wzorce ułatwiające porównywanie niekompatybilnych źródeł
 ---
 
-Mechanizmy syntezy to wzorce i protokoły, których [Coscientist](./coscientist) używa, aby porównywać niekompatybilne źródła oraz tworzyć ustrukturyzowane wyniki z konfliktu.
+Mechanizmy syntezy to wzorce i protokoły, których [Współnaukowiec](./coscientist) używa, aby porównywać niekompatybilne źródła oraz tworzyć ustrukturyzowane wyniki z konfliktu.
 
 ## Proces podstawowy
 

@@ -3,7 +3,7 @@ title: Princípios da Ciência da Aprendizagem
 description: Técnicas baseadas em evidências para aprendizagem e memória duradouras
 ---
 
-Os princípios da ciência da aprendizagem são técnicas baseadas em evidências para adquirir conhecimento que persiste, se transfere e permanece acessível sob pressão. Esses princípios orientam como o [Coscientist](./coscientist) apoia o trabalho cognitivo do [Operador](./operator).
+Os princípios da ciência da aprendizagem são técnicas baseadas em evidências para adquirir conhecimento que persiste, se transfere e permanece acessível sob pressão. Esses princípios orientam como o [Cocientista](./coscientist) apoia o trabalho cognitivo do [Operador](./operator).
 
 ## Técnicas Centrais
 

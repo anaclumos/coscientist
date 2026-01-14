@@ -3,7 +3,7 @@ title: Schichten des Wissenssystems
 description: Die architektonischen Schichten von Coscientist
 ---
 
-Die Schichten des Wissenssystems sind die klar abgegrenzten Architekturkomponenten, aus denen [Coscientist](./coscientist) besteht. Die Trennung dieser Schichten ermöglicht es, dass sich unterschiedliche Anliegen unabhängig voneinander weiterentwickeln.
+Die Schichten des Wissenssystems sind die klar abgegrenzten Architekturkomponenten, aus denen [Kozientist](./coscientist) besteht. Die Trennung dieser Schichten ermöglicht es, dass sich unterschiedliche Anliegen unabhängig voneinander weiterentwickeln.
 
 ## Datenschicht
 

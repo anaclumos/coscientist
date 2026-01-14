@@ -3,7 +3,7 @@ title: Livelli del sistema di conoscenza
 description: I livelli architetturali di Coscientist
 ---
 
-I livelli del sistema di conoscenza sono i componenti architetturali distinti che compongono [Coscientist](./coscientist). Separare questi livelli consente a preoccupazioni diverse di evolvere in modo indipendente.
+I livelli del sistema di conoscenza sono i componenti architetturali distinti che compongono [Coscienziato](./coscientist). Separare questi livelli consente a preoccupazioni diverse di evolvere in modo indipendente.
 
 ## Livello dei dati
 

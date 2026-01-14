@@ -7,4 +7,4 @@ Le regole di transizione dello stato definiscono che cosa fa passare una [tesi](
 
 Le transizioni chiave includono: provvisoria → contestata (quando viene registrato un [attacco](./attack)), contestata → supportata condizionalmente (quando all’attacco si risponde restringendo l’[ambito](./scope) o chiarendo le [assunzioni](./assumption)), supportata condizionalmente → robusta (quando più percorsi indipendenti confermano), robusta → confutata (quando un controesempio supera lo scrutinio), e qualsiasi stato → obsoleta (quando la [deriva definitoria](./definition-drift) recide il significato della tesi).
 
-Queste regole fanno parte del [livello del protocollo epistemico](./epistemic-protocol-layer) in [Coscientist](./coscientist). Rendono l’aggiornamento della conoscenza esplicito e verificabile, anziché implicito nella prosa.
+Queste regole fanno parte del [livello del protocollo epistemico](./epistemic-protocol-layer) in [Coscienziato](./coscientist). Rendono l’aggiornamento della conoscenza esplicito e verificabile, anziché implicito nella prosa.

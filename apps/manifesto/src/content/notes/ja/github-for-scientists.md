@@ -7,4 +7,4 @@ description: 実験をバージョン管理され、監査可能なコードと�
 
 このビジョンは[ScienceOps](./scienceops)の中核です。実験がバージョン管理された成果物（artifact）になると、仮説と[検証](./verification)のあいだのループは短くなります。失敗は追跡可能になります。成功は、他者が超人的な努力をせずとも再現できるようになります。
 
-[Coscientist](./coscientist)は、そのようなワークフローのための認知レイヤーです。多くのプロジェクトにまたがって[主張](./claim)、[証拠](./evidence-span)、および反論を管理しつつ、[責任の線](./responsibility-line)を保ち、[自然科学エンジニア](./natural-science-engineer)という役割を支援します。
+[コサイエンティスト](./coscientist)は、そのようなワークフローのための認知レイヤーです。多くのプロジェクトにまたがって[主張](./claim)、[証拠](./evidence-span)、および反論を管理しつつ、[責任の線](./responsibility-line)を保ち、[自然科学エンジニア](./natural-science-engineer)という役割を支援します。

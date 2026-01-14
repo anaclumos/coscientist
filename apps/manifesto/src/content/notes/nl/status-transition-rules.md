@@ -7,4 +7,4 @@ Regels voor statusovergangen bepalen wat een [claim](./claim) van de ene toestan
 
 Belangrijke overgangen zijn onder andere: voorlopig → betwist (wanneer een [aanval](./attack) wordt geregistreerd), betwist → voorwaardelijk ondersteund (wanneer de aanval wordt beantwoord door de [reikwijdte](./scope) te beperken of [aannames](./assumption) te verduidelijken), voorwaardelijk ondersteund → robuust (wanneer meerdere onafhankelijke paden bevestigen), robuust → weerlegd (wanneer een tegenvoorbeeld toetsing doorstaat), en elke toestand → achterhaald (wanneer [definitieverschuiving](./definition-drift) de betekenis van de claim verbreekt).
 
-Deze regels maken deel uit van de [epistemische protocollaag](./epistemic-protocol-layer) in [Coscientist](./coscientist). Ze maken kennisupdates expliciet en controleerbaar in plaats van impliciet in proza.
+Deze regels maken deel uit van de [epistemische protocollaag](./epistemic-protocol-layer) in [Cowetenschapper](./coscientist). Ze maken kennisupdates expliciet en controleerbaar in plaats van impliciet in proza.

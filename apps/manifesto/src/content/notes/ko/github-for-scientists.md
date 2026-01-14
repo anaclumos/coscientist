@@ -3,8 +3,8 @@ title: 과학자를 위한 GitHub
 description: 실험을 버전 관리되고 감사 가능한 코드로 취급한다는 비전
 ---
 
-"과학자를 위한 GitHub"는 과학 실험을 코드처럼 다루는 비전입니다. 즉, 버전 관리되고, 반복 가능하며, 감사(audit) 가능한 것입니다. 소프트웨어 공학이 즉흥적인 스크립트에서 지속적 통합(continuous integration)과 버전 관리로 옮겨갔듯이, 과학도 일회성 실험 노트에서 출처(provenance) 추적을 갖춘 재현 가능한 파이프라인으로 이동할 수 있습니다.
+"과학자를 위한 GitHub"는 과학 실험을 코드처럼 다루는 비전입니다. 즉, 버전 관리되고, 반복 가능하며, 감사(audit) 가능한 것입니다. 소프트웨어 공학이 즉흥적인 스크립트에서 지속적 통합(continuous integration)과 버전 관리로 옮겨갔듯이, 과학도 일회성 실험 노트에서 출처 추적을 갖춘 재현 가능한 파이프라인으로 이동할 수 있습니다.
 
-이 비전은 [ScienceOps](./scienceops)의 핵심입니다. 실험이 버전 관리되는 아티팩트(artifact)가 되면, 가설과 [검증](./verification) 사이의 루프가 줄어듭니다. 실패는 추적 가능해집니다. 성공은 다른 사람들이 영웅적인 노력 없이도 재현할 수 있게 됩니다.
+이 비전은 [사이언스옵스](./scienceops)의 핵심입니다. 실험이 버전 관리되는 아티팩트(artifact)가 되면, 가설과 [검증](./verification) 사이의 루프가 줄어듭니다. 실패는 추적 가능해집니다. 성공은 다른 사람들이 영웅적인 노력 없이도 재현할 수 있게 됩니다.
 
-[Coscientist](./coscientist)는 이러한 워크플로를 위한 인지 계층(cognitive layer)입니다. 여러 프로젝트 전반에 걸쳐 [주장](./claim), [증거](./evidence-span), 그리고 반박을 관리하면서, [책임 라인](./responsibility-line)을 보존하고 [자연과학 엔지니어](./natural-science-engineer) 역할을 지원합니다.
+[코사이언티스트](./coscientist)는 이러한 워크플로를 위한 인지 계층(cognitive layer)입니다. 여러 프로젝트 전반에 걸쳐 [주장](./claim), [증거](./evidence-span), 그리고 반박을 관리하면서, [책임 라인](./responsibility-line)을 보존하고 [자연과학 엔지니어](./natural-science-engineer) 역할을 지원합니다.

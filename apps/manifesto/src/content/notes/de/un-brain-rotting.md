@@ -7,4 +7,4 @@ Ent-Hirnverrottung ist der aktive Prozess, die Fähigkeit zur Verifikation und d
 
 Der Begriff erkennt an, dass bereits Schaden entstanden ist. Ständige Exposition gegenüber plausiblen, aber ungeprüften Inhalten trainiert passive Akzeptanz. Ent-Hirnverrottung ist ein Erholungsprotokoll: [aktives Abrufen](./active-recall) wieder zu aktivieren, [Nachvollziehbarkeit](./traceability) einzufordern und [Verifikation](./verification) als eine Fähigkeit zu behandeln, die geübt werden muss.
 
-[Coscientist](./coscientist) ist darauf ausgelegt, Ent-Hirnverrottung zu unterstützen, indem Gegenbelege sichtbar gemacht werden, die [Verantwortungslinie](./responsibility-line) erhalten bleibt und die bzw. der [Operator](./operator) in der Rolle der Verifizierenden statt der Konsumierenden bleibt.
+[Kozientist](./coscientist) ist darauf ausgelegt, Ent-Hirnverrottung zu unterstützen, indem Gegenbelege sichtbar gemacht werden, die [Verantwortungslinie](./responsibility-line) erhalten bleibt und die bzw. der [Betreiber](./operator) in der Rolle der Verifizierenden statt der Konsumierenden bleibt.

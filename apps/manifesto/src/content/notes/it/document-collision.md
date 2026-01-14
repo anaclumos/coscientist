@@ -7,4 +7,4 @@ La collisione documentale è il protocollo che costringe fonti disparate a confr
 
 Questo è l’opposto dell’approccio del “riassunto bilanciato”, che attenua i disaccordi. La collisione dice: “Queste due fonti affermano cose incompatibili. Che cosa, nello specifico, è in conflitto? In quali condizioni? Che cosa lo risolverebbe?”
 
-In [Coscientist](./coscientist), la collisione documentale è implementata attraverso il [Grafo dialettico](./dialectical-graph): le affermazioni vengono estratte, normalizzate e collegate tramite relazioni di [attacco](./attack), [smentita](./undercut) e supporto. Il risultato è una mappa di dove le fonti concordano, dove sono in conflitto e che cosa resta aperto.
+In [Coscienziato](./coscientist), la collisione documentale è implementata attraverso il [Grafo dialettico](./dialectical-graph): le affermazioni vengono estratte, normalizzate e collegate tramite relazioni di [attacco](./attack), [smentita](./undercut) e supporto. Il risultato è una mappa di dove le fonti concordano, dove sono in conflitto e che cosa resta aperto.

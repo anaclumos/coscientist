@@ -1,10 +1,10 @@
 ---
 title: 배니버 부시
-description: 메멕스(Memex)를 구상한 엔지니어이자 과학 행정가
+description: 메멕스를 구상한 엔지니어이자 과학 행정가
 ---
 
-배니버 부시(Vannevar Bush, 1890–1974)는 미국의 엔지니어, 발명가, 과학 행정가로, 제2차 세계대전 동안 미국 과학연구개발국(Office of Scientific Research and Development)을 이끌었다. 그는 지식 시스템 역사에서 1945년 에세이 [As We May Think](./as-we-may-think)로 가장 잘 알려져 있으며, 이 글에서 [메멕스(Memex)](./memex)를 제안했다.
+버니바 부시(, 1890–1974)는 미국의 엔지니어, 발명가, 과학 행정가로, 제2차 세계대전 동안 미국 과학연구개발국(Office of Scientific Research and Development)을 이끌었다. 그는 지식 시스템 역사에서 1945년 에세이 [우리가 생각하는 대로](./as-we-may-think)로 가장 잘 알려져 있으며, 이 글에서 [메멕스](./memex)를 제안했다.
 
 메멕스는 실제로 제작되지는 않았지만, 연상적 경로(associative trails)를 통해 정보를 저장하고, 연결하고, 탐색하는 개인용 장치라는 그 비전은 하이퍼텍스트, 개인용 컴퓨팅, 지식 관리 분야의 이후 수십 년간의 작업에 큰 영향을 미쳤다. 부시의 통찰은 지식 노동이 본질적으로 비선형적이며, 도구는 모든 것을 하나의 개요로 억지로 밀어 넣기보다 사람들이 출처들 사이에 경로를 구축할 수 있게 해야 한다는 점이었다.
 
-[Coscientist](./coscientist)에서 부시는 하나의 계보가 시작되는 기점으로 제시된다. 즉, 메멕스에서 [디지털 브레인(digital brain)](./digital-brain)을 거쳐 [변증법적 그래프(Dialectical Graph)](./dialectical-graph)로 이어지는 흐름이다. 그 진화는 [메멕스에서 변증법적 그래프로(from Memex to Dialectical Graph)](./from-memex-to-dialectical-graph) 설명되는데, 부시의 연상적 경로가 유형화된 논증적 관계(typed argumentative relations)로 바뀌는 것이다.
+[코사이언티스트](./coscientist)에서 부시는 하나의 계보가 시작되는 기점으로 제시된다. 즉, 메멕스에서 [디지털 브레인](./digital-brain)을 거쳐 [변증법적 그래프](./dialectical-graph)로 이어지는 흐름이다. 그 진화는 [메멕스에서 변증법적 그래프로](./from-memex-to-dialectical-graph) 설명되는데, 부시의 연상적 경로가 유형화된 논증적 관계(typed argumentative relations)로 바뀌는 것이다.

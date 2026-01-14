@@ -15,4 +15,4 @@ Mimari etkileri önemlidir. Arayüz öğeleri, arama ve bağlantılar (linkages)
 
 Bu nedenle [Extracranial](./extracranial), çevirileri iyileştirmek için GitHub üzerinden topluluk katkılarını dikkate alır: makine çevirisi çokdilli içeriği mümkün kılar, ancak [çeviri sadakatini](./translation-fidelity) korumak için insan incelemesi gerekir. Çokdilli Memex çözülmüş bir problem değil, otomatik sistemler ile insan muhakemesi arasındaki süregelen bir iş birliğidir.
 
-[Coscientist](./coscientist) için çokdilli Memex, çokdilli [Diyalektik Grafik](./dialectical-graph) hâline gelir: dili temel bir sınır olarak değil metadata olarak ele alarak, herhangi bir dilden [iddiaları](./claim), [kanıt aralıklarını](./evidence-span) ve ilişkileri depolayan bir yapı.
+[Eşbilimci](./coscientist) için çokdilli Memex, çokdilli [Diyalektik Grafik](./dialectical-graph) hâline gelir: dili temel bir sınır olarak değil metadata olarak ele alarak, herhangi bir dilden [iddiaları](./claim), [kanıt aralıklarını](./evidence-span) ve ilişkileri depolayan bir yapı.

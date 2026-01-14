@@ -3,7 +3,7 @@ title: Meccanismi di sintesi
 description: Pattern per rendere comparabili fonti incompatibili
 ---
 
-I meccanismi di sintesi sono i pattern e i protocolli che [Coscientist](./coscientist) usa per rendere comparabili fonti incompatibili e per produrre output strutturato a partire dal conflitto.
+I meccanismi di sintesi sono i pattern e i protocolli che [Coscienziato](./coscientist) usa per rendere comparabili fonti incompatibili e per produrre output strutturato a partire dal conflitto.
 
 ## Processo fondamentale
 

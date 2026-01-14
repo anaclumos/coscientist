@@ -15,4 +15,4 @@ Implikasi arsitekturalnya signifikan. Elemen antarmuka, pencarian, dan keterkait
 
 Inilah mengapa [Extracranial](./extracranial) mempertimbangkan kontribusi komunitas melalui GitHub untuk menyempurnakan terjemahan: terjemahan mesin (machine translation) membuat konten multibahasa menjadi mungkin, tetapi peninjauan manusia diperlukan untuk menjaga [kesetiaan terjemahan](./translation-fidelity). Memex multibahasa bukanlah masalah yang sudah tuntas, melainkan kolaborasi yang terus berjalan antara sistem otomatis dan penilaian manusia.
 
-Bagi [Coscientist](./coscientist), Memex multibahasa menjadi [Graf Dialektis](./dialectical-graph) multibahasa: sebuah struktur yang menyimpan [klaim](./claim), [rentang bukti](./evidence-span), serta relasi dari bahasa mana pun, dengan memperlakukan bahasa sebagai metadata, bukan sebagai batas yang fundamental.
+Bagi [Kosaintis](./coscientist), Memex multibahasa menjadi [Graf Dialektis](./dialectical-graph) multibahasa: sebuah struktur yang menyimpan [klaim](./claim), [rentang bukti](./evidence-span), serta relasi dari bahasa mana pun, dengan memperlakukan bahasa sebagai metadata, bukan sebagai batas yang fundamental.

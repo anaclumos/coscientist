@@ -3,7 +3,7 @@ title: AI
 description: 人工智慧作為知識系統的工具與挑戰
 ---
 
-在 [Coscientist](./coscientist) 的語境中，AI（Artificial Intelligence，人工智慧）指的是能夠執行傳統上需要人類智能的認知任務之系統：閱讀、摘要、生成，以及對文本進行推理。其核心技術是 [LLM](./llm)（Large Language Model，大型語言模型）。
+在 [共科學家](./coscientist) 的語境中，AI（Artificial Intelligence，人工智慧）指的是能夠執行傳統上需要人類智能的認知任務之系統：閱讀、摘要、生成，以及對文本進行推理。其核心技術是 [LLM](./llm)（Large Language Model，大型語言模型）。
 
 AI 同時是引擎也是威脅。一方面，AI 執行 [沉思勞動](./contemplation-labor)：以人類無法企及的速度進行搜尋、結構化與生成候選內容。另一方面，AI 也帶來需要新防禦機制的失效模式：[幻覺](./hallucination)、[AI 廢料](./ai-slop)、[模型崩塌](./model-collapse) 與 [百科熔毀](./encyclopedia-meltdown)。
 

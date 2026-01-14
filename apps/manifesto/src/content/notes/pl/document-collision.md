@@ -7,4 +7,4 @@ Kolizja dokumentów to protokół wymuszania, by rozbieżne źródła wchodziły
 
 To przeciwieństwo podejścia „zrównoważonego streszczenia”, które wygładza niezgodę. Kolizja mówi: „Te dwa źródła mówią rzeczy niezgodne. Co konkretnie jest w konflikcie? W jakich warunkach? Co by to rozstrzygnęło?”
 
-W [Coscientist](./coscientist) kolizja dokumentów jest realizowana poprzez [Graf dialektyczny](./dialectical-graph): twierdzenia są wyodrębniane, normalizowane i łączone relacjami [ataku](./attack), [podcięcia](./undercut) oraz wsparcia. Rezultatem jest mapa tego, gdzie źródła się zgadzają, gdzie są w konflikcie i co pozostaje otwarte.
+W [Współnaukowiec](./coscientist) kolizja dokumentów jest realizowana poprzez [Graf dialektyczny](./dialectical-graph): twierdzenia są wyodrębniane, normalizowane i łączone relacjami [ataku](./attack), [podcięcia](./undercut) oraz wsparcia. Rezultatem jest mapa tego, gdzie źródła się zgadzają, gdzie są w konflikcie i co pozostaje otwarte.

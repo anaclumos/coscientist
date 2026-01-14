@@ -16,6 +16,6 @@ Manusia tetap berdaulat; sistem menangani kerja mekanis.
 
 Dimensi multibahasa bersifat krusial. Superbrain yang dibatasi pada satu [Sprachraum](./sprachraum) pada dasarnya terbatas. Penguatan kognitif yang sejati berarti berpikir [melintasi Sprachraum](./across-the-sprachraums), mengakses pengetahuan tanpa memandang bahasa apa pengetahuan itu mula-mula dicatat, serta menyintesis wawasan melalui [sintesis lintas-bahasa](./cross-linguistic-synthesis).
 
-[Coscientist](./coscientist) adalah perwujudan berorientasi riset dari visi ini: sebuah sistem [LLM](./llm) multi-agen yang membaca literatur dalam bahasa apa pun dan memperdebatkan hipotesis melalui putaran terstruktur usulan-dan-kritik. Impian superbrain bukan fiksi ilmiah yang jauh; itu adalah target desain.
+[Kosaintis](./coscientist) adalah perwujudan berorientasi riset dari visi ini: sebuah sistem [Model Bahasa Besar](./llm) multi-agen yang membaca literatur dalam bahasa apa pun dan memperdebatkan hipotesis melalui putaran terstruktur usulan-dan-kritik. Impian superbrain bukan fiksi ilmiah yang jauh; itu adalah target desain.
 
 Referensi: https://cho.sh/r/4AED52.

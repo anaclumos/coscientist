@@ -13,6 +13,6 @@ La visione ha tre parti:
 
 Non si tratta semplicemente di traduzione. Un sistema davvero cross-linguistico deve mantenere un [indice language-agnostic (indipendente dalla lingua)](./language-agnostic-indexing) dei concetti, preservare la [fedeltà della traduzione](./translation-fidelity) e proteggere dalla [perdita di sfumature nella traduzione](./translation-nuance-loss). L’obiettivo è una [rete di conoscenza multilingue](./multilingual-knowledge-mesh) in cui una nota in coreano possa collegarsi a una nota in inglese attraverso il concetto sottostante, non solo tramite la corrispondenza delle parole.
 
-[Extracranial](./extracranial) lo implementa tramite contenuti bilingui, rilevamento automatico della lingua e tag hreflang. [Coscientist](./coscientist) estende la visione: poiché usa [LLM](./llm), può leggere e sintetizzare letteratura in qualsiasi lingua, rendendo la [sintesi cross-linguistica](./cross-linguistic-synthesis) una capacità nativa anziché un ripensamento.
+[Extracranial](./extracranial) lo implementa tramite contenuti bilingui, rilevamento automatico della lingua e tag hreflang. [Coscienziato](./coscientist) estende la visione: poiché usa [LLM](./llm), può leggere e sintetizzare letteratura in qualsiasi lingua, rendendo la [sintesi cross-linguistica](./cross-linguistic-synthesis) una capacità nativa anziché un ripensamento.
 
 Riferimento: https://cho.sh/r/2EB438.

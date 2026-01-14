@@ -7,4 +7,4 @@ Keterkaitan metode-kesimpulan adalah pola analisis yang mengelompokkan [klaim](.
 
 Jika tiga studi menggunakan metodologi cacat yang sama dan mencapai kesimpulan yang sama, itu bukan bukti yang kuat; itu adalah kegagalan yang berkorelasi. Sebaliknya, jika dua studi menggunakan metode yang independen dan mencapai kesimpulan yang sama, itu lebih kuat daripada tiga studi yang menggunakan satu metode.
 
-Pola ini mendukung [pemisahan jalur replikasi](./replication-path-separation): menanyakan apakah kesepakatan yang tampak berasal dari bukti yang independen atau dari penggunaan berulang atas pendekatan yang sama. Dalam [Coscientist](./coscientist), ini diimplementasikan sebagai agen khusus untuk mengelompokkan klaim berdasarkan metode.
+Pola ini mendukung [pemisahan jalur replikasi](./replication-path-separation): menanyakan apakah kesepakatan yang tampak berasal dari bukti yang independen atau dari penggunaan berulang atas pendekatan yang sama. Dalam [Kosaintis](./coscientist), ini diimplementasikan sebagai agen khusus untuk mengelompokkan klaim berdasarkan metode.

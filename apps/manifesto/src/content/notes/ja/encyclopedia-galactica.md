@@ -7,6 +7,6 @@ description: 暗黒時代を越えて知識を保存するというコンセプ�
 
 物語では、[ハリ・セルダン](./hari-seldon)の[心理歴史学](./psychohistory)が[銀河帝国](./galactic-empire)の崩壊が不可避であること、そしてその後に長い[魂の暗夜](./dark-night-of-the-soul)が続くことを予測する。[セルダン計画](./seldon-plan)は、崩壊後の軌道を形作ることでその暗黒時代を短縮しようとする彼の試みだ。ターミナスで編纂される百科事典プロジェクトは、明示的な保存事業であると同時に、復興のための戦略的な種として機能する。
 
-[Coscientist](./coscientist)にとっての着想は、単なるストレージからケイパビリティ（capability）への転換にある。保存は重要だが、来歴（provenance）を保持できず、矛盾を可視化できず、反論によって更新できない百科事典は、いずれ崩壊してしまう。架空の百科事典は、AIが飽和した認識論的環境（epistemic environment）を生き延びられる現実のツールに向けた設計目標となる。
+[コサイエンティスト](./coscientist)にとっての着想は、単なるストレージからケイパビリティ（capability）への転換にある。保存は重要だが、来歴（provenance）を保持できず、矛盾を可視化できず、反論によって更新できない百科事典は、いずれ崩壊してしまう。架空の百科事典は、AIが飽和した認識論的環境（epistemic environment）を生き延びられる現実のツールに向けた設計目標となる。
 
-銀河にふさわしい百科事典は、必然的に[シュプラッハラウム（Sprachraum）をまたいだ知識](./across-the-sprachraums)——文化、言語、伝統を横断する知——を統合しなければならない。この多言語の次元こそが、[Coscientist](./coscientist)が[言語横断的シンセシス](./cross-linguistic-synthesis)のために設計され、英語オンリーのシステムではなく[多言語知識メッシュ](./multilingual-knowledge-mesh)として動作する理由である。
+銀河にふさわしい百科事典は、必然的に[シュプラッハラウム（Sprachraum）をまたいだ知識](./across-the-sprachraums)——文化、言語、伝統を横断する知——を統合しなければならない。この多言語の次元こそが、[コサイエンティスト](./coscientist)が[言語横断的シンセシス](./cross-linguistic-synthesis)のために設計され、英語オンリーのシステムではなく[多言語知識メッシュ](./multilingual-knowledge-mesh)として動作する理由である。

@@ -7,4 +7,4 @@ Le dé-ramollissement du cerveau est le processus actif de restauration de la ca
 
 Le terme reconnaît que des dommages ont déjà eu lieu. Une exposition constante à des contenus plausibles mais non vérifiés entraîne l’acceptation passive. Le dé-ramollissement du cerveau est un protocole de récupération : se réengager dans le [rappel actif](./active-recall), exiger la [traçabilité](./traceability) et considérer la [vérification](./verification) comme une compétence à pratiquer.
 
-[Coscientist](./coscientist) est conçu pour soutenir le dé-ramollissement du cerveau en rendant visibles les contre-preuves, en préservant la [ligne de responsabilité](./responsibility-line) et en maintenant l’[Operator](./operator) dans le rôle de vérificateur plutôt que de consommateur.
+[Coscientifique](./coscientist) est conçu pour soutenir le dé-ramollissement du cerveau en rendant visibles les contre-preuves, en préservant la [ligne de responsabilité](./responsibility-line) et en maintenant l’[Opérateur](./operator) dans le rôle de vérificateur plutôt que de consommateur.

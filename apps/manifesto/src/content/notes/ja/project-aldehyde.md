@@ -5,4 +5,4 @@ description: 個人用デジタルブレインを構築する初期の試み
 
 プロジェクト・アルデハイドは、[Sunghyun Cho](./sunghyun-cho) による個人用の[デジタルブレイン](./digital-brain)を構築する初期の試みでした。これは、絶え間ない手作業での整理なしに、文章、情報源、コンテキストを蓄積できるシステムです。
 
-この取り組みは[Extracranial](./extracranial)へとつながり、後の[Coscientist](./coscientist)のアイデアにも影響を与えました。特に、出典情報（provenance）を保ったまま摩擦を下げることに関してです。
+この取り組みは[Extracranial](./extracranial)へとつながり、後の[コサイエンティスト](./coscientist)のアイデアにも影響を与えました。特に、出典情報（provenance）を保ったまま摩擦を下げることに関してです。

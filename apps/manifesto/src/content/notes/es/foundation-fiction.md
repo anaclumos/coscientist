@@ -3,11 +3,11 @@ title: Ficción de la Fundación
 description: Conceptos inspirados en Asimov que orientan la visión de Coscientist
 ---
 
-La ficción de la Fundación se refiere a conceptos de la serie *Foundation* de [Isaac Asimov](./isaac-asimov) que orientan la visión de [Coscientist](./coscientist). La ficticia [Encyclopedia Galactica](./encyclopedia-galactica) es un referente para pensar en la preservación del conocimiento y la capacidad.
+La ficción de la Fundación se refiere a conceptos de la serie *Foundation* de [Isaac Asimov](./isaac-asimov) que orientan la visión de [Cocientífico](./coscientist). La ficticia [Enciclopedia Galáctica](./encyclopedia-galactica) es un referente para pensar en la preservación del conocimiento y la capacidad.
 
 ## Conceptos centrales
 
-- [Encyclopedia Galactica](./encyclopedia-galactica) — el repositorio ficticio de conocimiento
+- [Enciclopedia Galáctica](./encyclopedia-galactica) — el repositorio ficticio de conocimiento
 - [Psicohistoria](./psychohistory) — la ciencia estadística de las civilizaciones de Asimov
 - [Plan Seldon](./seldon-plan) — la estrategia a largo plazo de [Hari Seldon](./hari-seldon)
 - [Noche oscura del alma](./dark-night-of-the-soul) — metáfora del colapso civilizatorio o epistémico

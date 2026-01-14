@@ -3,7 +3,7 @@ title: Principi della scienza dell’apprendimento
 description: Tecniche basate su evidenze per un apprendimento e una memoria duraturi
 ---
 
-I principi della scienza dell’apprendimento sono tecniche basate su evidenze per acquisire conoscenze che persistono, si trasferiscono e rimangono accessibili sotto pressione. Questi principi orientano il modo in cui [Coscientist](./coscientist) supporta il lavoro cognitivo dell’[Operator](./operator).
+I principi della scienza dell’apprendimento sono tecniche basate su evidenze per acquisire conoscenze che persistono, si trasferiscono e rimangono accessibili sotto pressione. Questi principi orientano il modo in cui [Coscienziato](./coscientist) supporta il lavoro cognitivo dell’[Operatore](./operator).
 
 ## Tecniche fondamentali
 

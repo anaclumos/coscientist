@@ -7,4 +7,4 @@ description: Visión de tratar los experimentos como código versionado y audita
 
 Esta visión es central para [ScienceOps](./scienceops). Cuando los experimentos se convierten en artefactos versionados, el bucle entre la hipótesis y la [verificación](./verification) se acorta. Los fallos se vuelven rastreables. Los éxitos se vuelven replicables por otros sin esfuerzos heroicos.
 
-[Coscientist](./coscientist) es la capa cognitiva para ese flujo de trabajo: gestiona [afirmaciones](./claim), [evidencia](./evidence-span) y refutaciones a través de muchos proyectos, a la vez que preserva la [línea de responsabilidad](./responsibility-line) y apoya el rol de [ingeniero de ciencias naturales](./natural-science-engineer).
+[Cocientífico](./coscientist) es la capa cognitiva para ese flujo de trabajo: gestiona [afirmaciones](./claim), [evidencia](./evidence-span) y refutaciones a través de muchos proyectos, a la vez que preserva la [línea de responsabilidad](./responsibility-line) y apoya el rol de [ingeniero de ciencias naturales](./natural-science-engineer).

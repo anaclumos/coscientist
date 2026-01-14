@@ -3,9 +3,9 @@ title: AI
 description: 知識システムにとってのツールであり課題でもある人工知能
 ---
 
-[Coscientist](./coscientist) の文脈におけるAI（Artificial Intelligence、人工知能）とは、人間の知性を従来必要としてきた認知タスク――読み取り、要約、生成、テキストについての推論――を実行するシステムを指す。中核となる技術は [LLM](./llm)（Large Language Model、大規模言語モデル）である。
+[コサイエンティスト](./coscientist) の文脈におけるAI（Artificial Intelligence、人工知能）とは、人間の知性を従来必要としてきた認知タスク――読み取り、要約、生成、テキストについての推論――を実行するシステムを指す。中核となる技術は [LLM](./llm)（Large Language Model、大規模言語モデル）である。
 
-AIは同時にエンジンであり脅威でもある。一方でAIは [contemplation labor](./contemplation-labor)（熟考労働）を担い、探索・構造化・候補生成を、人間には不可能な速度で行う。他方でAIは、新たな防御を求める失敗モードも生み出す： [hallucination](./hallucination)、[AI slop](./ai-slop)、[model collapse](./model-collapse)、そして [Encyclopedia Meltdown](./encyclopedia-meltdown)。
+AIは同時にエンジンであり脅威でもある。一方でAIは [contemplation labor](./contemplation-labor)（熟考労働）を担い、探索・構造化・候補生成を、人間には不可能な速度で行う。他方でAIは、新たな防御を求める失敗モードも生み出す： [hallucination](./hallucination)、[AI slop](./ai-slop)、[モデル崩壊](./model-collapse)、そして [百科事典崩壊](./encyclopedia-meltdown)。
 
 ## ツールとしてのAI
 
@@ -23,7 +23,7 @@ AIは同時にエンジンであり脅威でもある。一方でAIは [contempl
 
 ## 人間とAIの関係
 
-- [Operator](./operator) — 人間の主権者
+- [オペレーター](./operator) — 人間の主権者
 - [Cognitive Sovereignty](./cognitive-sovereignty) — 人間が制御を保つこと
 - [Deskilling Through AI Delegation](./deskilling-through-ai-delegation) — スキルが退化するリスク
 - [AI-Induced Illusions of Competence](./ai-induced-illusions-of-competence) — 偽の熟達感

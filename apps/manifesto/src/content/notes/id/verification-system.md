@@ -3,7 +3,7 @@ title: Sistem Verifikasi
 description: Mekanisme untuk memeriksa klaim terhadap bukti dan bukti tandingan
 ---
 
-Sistem verifikasi adalah sekumpulan mekanisme yang digunakan [Coscientist](./coscientist) untuk memeriksa [klaim](./claim) terhadap bukti, bukti tandingan, dan penjelasan alternatif. Ini bukan satu alat tunggal, melainkan serangkaian protokol dan praktik yang terkoordinasi.
+Sistem verifikasi adalah sekumpulan mekanisme yang digunakan [Kosaintis](./coscientist) untuk memeriksa [klaim](./claim) terhadap bukti, bukti tandingan, dan penjelasan alternatif. Ini bukan satu alat tunggal, melainkan serangkaian protokol dan praktik yang terkoordinasi.
 
 ## Komponen Inti
 

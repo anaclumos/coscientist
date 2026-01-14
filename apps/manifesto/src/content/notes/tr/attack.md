@@ -7,4 +7,4 @@ Bir saldırı, bir [iddianın](./claim) doğruluğuna yönelik doğrudan bir mey
 
 Saldırılar, [Diyalektik Grafik](./dialectical-graph) içinde temel bir kenar türüdür (bkz. [Diyalektik Grafik Kenarları](./dialectical-graph-edges)). Bir saldırı kaydedildiğinde, iddianın durumu, meydan okumanın gücüne ve türüne bağlı olarak `supported` konumundan `contested` ya da `refuted` konumuna kayabilir.
 
-Tüm saldırılar eşit değildir. İyi kaynaklandırılmış bir karşı örnek, çıplak bir “katılmıyorum” iddiasından daha fazla ağırlık taşır. Bu nedenle [Coscientist](./coscientist), saldırılar için de iddialar için olduğu gibi [kanıt aralıklarını](./evidence-span) ve [kaynak/iz bilgisi](./provenance) (provenance) takibini yapar.
+Tüm saldırılar eşit değildir. İyi kaynaklandırılmış bir karşı örnek, çıplak bir “katılmıyorum” iddiasından daha fazla ağırlık taşır. Bu nedenle [Eşbilimci](./coscientist), saldırılar için de iddialar için olduğu gibi [kanıt aralıklarını](./evidence-span) ve [kaynak/iz bilgisi](./provenance) (provenance) takibini yapar.

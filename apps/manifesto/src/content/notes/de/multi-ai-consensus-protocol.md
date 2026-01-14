@@ -3,7 +3,7 @@ title: Multi-AI-Konsensprotokoll
 description: Das 1+4-System (Mensch + vier KI) zum Schreiben und Verifizieren
 ---
 
-Das Multi-AI-Konsensprotokoll ist ein Kollaborations-Workflow, in dem der [Operator](./operator) mehrere KI-Systeme koordiniert, um das Risiko von Halluzinationen eines einzelnen Modells zu verringern und dabei zu helfen, sich gegen [Encyclopedia Meltdown](./encyclopedia-meltdown) zu verteidigen.
+Das Multi-AI-Konsensprotokoll ist ein Kollaborations-Workflow, in dem der [Betreiber](./operator) mehrere KI-Systeme koordiniert, um das Risiko von Halluzinationen eines einzelnen Modells zu verringern und dabei zu helfen, sich gegen [Enzyklopädie-Zusammenbruch](./encyclopedia-meltdown) zu verteidigen.
 
 In der „1+4“-Variante koordiniert ein Mensch vier KI-Assistenten (Stand: Dezember 2025: ChatGPT, Gemini, Claude und Grok). Der Punkt ist nicht „mehr Gedächtnis“; es geht um strukturierten Dissens und Nachverfolgbarkeit.
 

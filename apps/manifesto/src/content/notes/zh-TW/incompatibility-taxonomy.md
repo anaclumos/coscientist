@@ -7,4 +7,4 @@ description: 來源之間分歧的類別
 
 區分這些差異很重要，因為解決策略不同。定義差異可透過消歧（disambiguation）解決；方法差異可能需要重新進行實驗；範疇差異在把條件明確化後就會消解。把所有分歧都當成「他們就是不一致」會失去這種結構。
 
-[Coscientist](./coscientist) 中的[知識綜合](./knowledge-synthesis)使用這套分類法把衝突拆解為其成因，產生的是[分支式解決地圖](./branched-resolution-map)，而不是被迫取平均值。
+[共科學家](./coscientist) 中的[知識綜合](./knowledge-synthesis)使用這套分類法把衝突拆解為其成因，產生的是[分支式解決地圖](./branched-resolution-map)，而不是被迫取平均值。

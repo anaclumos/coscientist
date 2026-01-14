@@ -3,7 +3,7 @@ title: Gefedereerd kennisnetwerk
 description: Onderling verbonden Coscientist-instanties die gevalideerde kennis uitwisselen met behoud van lokale soevereiniteit
 ---
 
-Een gefedereerd kennisnetwerk is een systeem van onderling verbonden [Coscientist](./coscientist)-instanties op persoonlijke, organisatorische en publieke schaal, die gevalideerde kennis uitwisselen met behoud van lokale soevereiniteit. Elk knooppunt onderhoudt zijn eigen [Dialectical Graph](./dialectical-graph) en [epistemische protocollaag](./epistemic-protocol-layer); federatie biedt een kanaal om te delen zonder de controle uit handen te geven.
+Een gefedereerd kennisnetwerk is een systeem van onderling verbonden [Cowetenschapper](./coscientist)-instanties op persoonlijke, organisatorische en publieke schaal, die gevalideerde kennis uitwisselen met behoud van lokale soevereiniteit. Elk knooppunt onderhoudt zijn eigen [Dialectische graaf](./dialectical-graph) en [epistemische protocollaag](./epistemic-protocol-layer); federatie biedt een kanaal om te delen zonder de controle uit handen te geven.
 
 Federatie pakt de spanning aan tussen samenwerking en autonomie. Een onderzoeksteam kan privéhypotheses behouden en tegelijk geverifieerde publieke claims importeren. Een publieke kenniscommons kan bijdragen bundelen zonder dat één enkele autoriteit de waarheid dicteert.
 

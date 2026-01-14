@@ -3,7 +3,7 @@ title: 基地小说
 description: 受阿西莫夫启发、塑造 Coscientist 愿景的概念
 ---
 
-基地小说（Foundation fiction）指来自 [艾萨克·阿西莫夫](./isaac-asimov)《基地》系列、用于塑造 [Coscientist](./coscientist) 愿景的相关概念。虚构的 [银河百科全书](./encyclopedia-galactica) 是一个重要参照点，用于思考知识保存与能力（capability）。
+基地小说（Foundation fiction）指来自 [艾萨克·阿西莫夫](./isaac-asimov)《基地》系列、用于塑造 [共研者](./coscientist) 愿景的相关概念。虚构的 [银河百科全书](./encyclopedia-galactica) 是一个重要参照点，用于思考知识保存与能力（capability）。
 
 ## 核心概念
 

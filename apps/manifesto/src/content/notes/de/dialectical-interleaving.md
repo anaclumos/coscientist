@@ -7,4 +7,4 @@ Dialektisches Interleaving ist die Praxis, während der Exploration [Claim](./cl
 
 Der Nutzen liegt in der Unterscheidungsfähigkeit: Wenn du Claims aus unterschiedlichen Kontexten nacheinander siehst, bemerkst du, wann ein Muster, das universell zu sein scheint, tatsächlich von versteckten [Annahmen](./assumption) oder vom [Geltungsbereich](./scope) abhängt. Außerdem vermeidest du den Siloeffekt, bei dem das Durcharbeiten nur einer Perspektive [Kompetenzillusionen](./illusions-of-competence) erzeugt.
 
-In [Explorationsstrategien](./exploration-strategies) bedeutet dialektisches Interleaving, zwischen stützenden Belegen und [Angriffen](./attack), zwischen unterschiedlichen [Methoden](./method) sowie zwischen wohlgesinnten und feindseligen Quellen zu alternieren. Der [Operator](./operator) baut eine robustere Karte des Terrains auf.
+In [Explorationsstrategien](./exploration-strategies) bedeutet dialektisches Interleaving, zwischen stützenden Belegen und [Angriffen](./attack), zwischen unterschiedlichen [Methoden](./method) sowie zwischen wohlgesinnten und feindseligen Quellen zu alternieren. Der [Betreiber](./operator) baut eine robustere Karte des Terrains auf.

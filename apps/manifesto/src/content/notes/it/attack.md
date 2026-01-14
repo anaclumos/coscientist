@@ -7,4 +7,4 @@ Un attacco è una contestazione diretta della verità di un'[asserzione](./claim
 
 Gli attacchi sono un tipo di arco fondamentale nel [Grafo Dialettico](./dialectical-graph) (vedi [Archi del Grafo Dialettico](./dialectical-graph-edges)). Quando viene registrato un attacco, lo stato dell'asserzione può passare da `supported` a `contested` o `refuted` a seconda della forza e del tipo della contestazione.
 
-Non tutti gli attacchi sono uguali. Un controesempio ben documentato ha più peso di una semplice affermazione di disaccordo. Per questo [Coscientist](./coscientist) tiene traccia degli [intervalli di evidenza](./evidence-span) e della [provenienza](./provenance) per gli attacchi, così come per le asserzioni.
+Non tutti gli attacchi sono uguali. Un controesempio ben documentato ha più peso di una semplice affermazione di disaccordo. Per questo [Coscienziato](./coscientist) tiene traccia degli [intervalli di evidenza](./evidence-span) e della [provenienza](./provenance) per gli attacchi, così come per le asserzioni.

@@ -7,7 +7,7 @@ Evolusi pengetahuan pribadi menelusuri perkembangan alat dan gagasan untuk menge
 
 ## Visi Dasar
 
-- [As We May Think](./as-we-may-think) — esai tahun 1945 karya [Vannevar Bush](./vannevar-bush)
+- [Sebagaimana Kita Dapat Berpikir](./as-we-may-think) — esai tahun 1945 karya [Vannevar Bush](./vannevar-bush)
 - [Memex](./memex) — mesin pengetahuan pribadi yang diusulkan Bush
 
 ## Kerangka Konseptual

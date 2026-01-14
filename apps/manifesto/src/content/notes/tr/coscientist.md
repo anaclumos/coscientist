@@ -3,11 +3,11 @@ title: Coscientist
 description: Yapay zekâ sonrası çağda bilgi üretimi için entelektüel bir yoldaş sistemi
 ---
 
-Coscientist, [Isaac Asimov](./isaac-asimov)'un kurgusal [Encyclopedia Galactica](./encyclopedia-galactica) eserinden ilham alan açık kaynaklı bir servistir. Yalnızca bilgiden oluşan bir [bilgi gemisi](./knowledge-ark) olmaktan fazlası olması amaçlanır: insan [Operatör](./operator) ile birlikte [tefekkür emeği](./contemplation-labor) yürüten bir [entelektüel yoldaş](./intellectual-companion). Yapay zekâ sonrası çağda hedefi, [beyin çürütmeme](./un-brain-rotting) sürecini desteklemektir: doğrulamayı ve özneyliği (agency) yeniden tesis etmek.
+Coscientist, [Isaac Asimov](./isaac-asimov)'un kurgusal [Galaktik Ansiklopedi](./encyclopedia-galactica) eserinden ilham alan açık kaynaklı bir servistir. Yalnızca bilgiden oluşan bir [bilgi gemisi](./knowledge-ark) olmaktan fazlası olması amaçlanır: insan [Operatör](./operator) ile birlikte [tefekkür emeği](./contemplation-labor) yürüten bir [entelektüel yoldaş](./intellectual-companion). Yapay zekâ sonrası çağda hedefi, [beyin çürütmeme](./un-brain-rotting) sürecini desteklemektir: doğrulamayı ve özneyliği (agency) yeniden tesis etmek.
 
 [Sunghyun Cho](./sunghyun-cho) tarafından geliştirilmiştir. Köken hikâyesi basittir: koruma önemlidir, ancak tek başına koruma anlayış üretmez. Coscientist, bilginin güncellenebilir olmasını sağlayacak şekilde tasarlanmıştır; böylece çelişkiler, karşı-örnekler ve [tanım kayması](./definition-drift), akıcı özetler tarafından yumuşatılıp geçiştirilmek yerine görünür ve üzerinde işlem yapılabilir hâle gelir.
 
-İlk ilke egemenliktir: bilgi otoritesi [Operatör](./operator)'de kalmalıdır. [Encyclopedia Meltdown](./encyclopedia-meltdown)'a karşı korunmak sonradan eklenen bir düşünce değildir; bir tasarım kısıtıdır. Yapay zekâ tefekkür emeği yapabilir, ancak yazma ve ilan etme inisiyatifini ele geçirmemelidir.
+İlk ilke egemenliktir: bilgi otoritesi [Operatör](./operator)'de kalmalıdır. [Ansiklopedi Çöküşü](./encyclopedia-meltdown)'a karşı korunmak sonradan eklenen bir düşünce değildir; bir tasarım kısıtıdır. Yapay zekâ tefekkür emeği yapabilir, ancak yazma ve ilan etme inisiyatifini ele geçirmemelidir.
 
 Bu nedenle Coscientist, Soru-Cevap tarzı RAG’in ötesine geçer (bkz. [RAG sınırlamaları](./rag-limitations)). Ham belge metni yerine [tartışmacı eylemleri](./argumentative-act) depolayan bir [Diyalektik Grafik](./dialectical-graph) tutar; böylece her iddia kanıt parçalarına (evidence spans), kaynaklara ve açık ilişkilere bağlanabilir (bkz. [Diyalektik Grafik Düğümleri](./dialectical-graph-nodes) ve [Diyalektik Grafik Kenarları](./dialectical-graph-edges)).
 

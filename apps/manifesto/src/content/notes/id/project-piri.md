@@ -11,6 +11,6 @@ Proyek ini mewujudkan visi [lintas Sprachraums](./across-the-sprachraums) dalam 
 
 Hasil ini lebih mengkhawatirkan daripada layak dirayakan. Ini menunjukkan betapa cepatnya kemampuan AI dapat mengusangkan proyek infrastruktur buatan manusia yang diniatkan baik. Apa yang membutuhkan waktu berbulan-bulan untuk dirancang dan dibangun menjadi tidak relevan bukan karena gagal, melainkan karena masalah yang dipecahkannya menguap. Kecepatan pergeseran ini memunculkan pertanyaan yang lebih dalam tentang stabilitas infrastruktur pengetahuan apa pun di era kemajuan AI yang cepat.
 
-Bagi [Coscientist](./coscientist), PIRI tetap menjadi kisah peringatan: sistem yang dirancang berdasarkan keterbatasan AI saat ini dapat menjadi usang ketika keterbatasan itu lenyap. Visi [lintas Sprachraums](./across-the-sprachraums) tetap bertahan, tetapi implementasinya harus memperhitungkan kemampuan AI yang berubah lebih cepat daripada proyek manusia dapat beradaptasi.
+Bagi [Kosaintis](./coscientist), PIRI tetap menjadi kisah peringatan: sistem yang dirancang berdasarkan keterbatasan AI saat ini dapat menjadi usang ketika keterbatasan itu lenyap. Visi [lintas Sprachraums](./across-the-sprachraums) tetap bertahan, tetapi implementasinya harus memperhitungkan kemampuan AI yang berubah lebih cepat daripada proyek manusia dapat beradaptasi.
 
 Referensi: https://cho.sh/r/69794B.

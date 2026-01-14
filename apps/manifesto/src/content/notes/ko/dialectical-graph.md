@@ -5,8 +5,8 @@ description: 문서 내용이 아니라 주장과 관계를 저장하는 지식 
 
 변증법적 그래프(dialectical graph)는 문서를 구분되지 않은 텍스트로 취급하는 대신, 논증 구조(주장, 정의, 가정, 방법, 증거 범위(evidence spans), 그리고 그들 사이의 관계)를 저장하는 지식 그래프다. 핵심 통찰은 단순하다. 텍스트를 지식으로 착각하지 말라. 텍스트는 포장이고, 지식은 주장들이 서로를 지지하고(support), 공격하고(attack), 정교화(refine)할 수 있게 만드는 제약 구조(constraint structure)다.
 
-[Coscientist](./coscientist)는 세 가지를 분리하도록 강제한다. 원문 텍스트는 인용 가능한 증거 범위로 보존되고, 주장은 정규화된 명제(normalized propositions)로 분해되며, 관계는 명시적인 논증적 결속(argumentative bindings)으로 저장된다. 이는 흔한 [RAG](./rag) 실패 모드인 발췌문 절단(excerpt truncation)에 대한 구조적 해결책이다. 증거 범위는 정확한 문구와 출처를 유지하고, 주장은 누가 무엇을 주장했는지를 기록하며, `cites` 엣지는 산문에 암묵적으로 기대지 않고 귀속(attribution)을 명시적으로 만든다.
+[코사이언티스트](./coscientist)는 세 가지를 분리하도록 강제한다. 원문 텍스트는 인용 가능한 증거 범위로 보존되고, 주장은 정규화된 명제(normalized propositions)로 분해되며, 관계는 명시적인 논증적 결속(argumentative bindings)으로 저장된다. 이는 흔한 [RAG](./rag) 실패 모드인 발췌문 절단(excerpt truncation)에 대한 구조적 해결책이다. 증거 범위는 정확한 문구와 출처를 유지하고, 주장은 누가 무엇을 주장했는지를 기록하며, `cites` 엣지는 산문에 암묵적으로 기대지 않고 귀속(attribution)을 명시적으로 만든다.
 
 그래프는 또한 추론 계층(진화하는 주장 네트워크)과 서사 계층(읽기에 적합한, 타임스탬프가 찍힌 투영)을 분리한다. 문서는 최종 진리가 아니라 그래프의 스냅샷이다. 모든 문장은 주장, 범위(scope), 가정, 방법, 데이터, 증거 범위, 출처를 통해 되짚어 올라갈 수 있어야 한다. 그 사슬이 없으면 문장은 그저 문장일 뿐, 지식이 아니다.
 
-[Encyclopedia Meltdown](./encyclopedia-meltdown)에 제동을 거는 역할을 하기 위해, 시스템은 합의(consensus)보다 모순과 반례(counterexamples)를 우선시한다. 어떤 주장이 그래프에 들어오면 기본 자세는 대립적(adversarial)이다. 반복에 의해 구조가 표류(drifting)하기보다, 이른 시점에 공격(attack)과 약화(undercuts)를 찾아 반박(rebuttal)으로 구조가 갱신되도록 한다. 구체적인 노드 및 관계 유형은 [변증법적 그래프 노드](./dialectical-graph-nodes)와 [변증법적 그래프 엣지](./dialectical-graph-edges)를 보라.
+[백과사전 붕괴](./encyclopedia-meltdown)에 제동을 거는 역할을 하기 위해, 시스템은 합의(consensus)보다 모순과 반례(counterexamples)를 우선시한다. 어떤 주장이 그래프에 들어오면 기본 자세는 대립적(adversarial)이다. 반복에 의해 구조가 표류(drifting)하기보다, 이른 시점에 공격(attack)과 약화(undercuts)를 찾아 반박(rebuttal)으로 구조가 갱신되도록 한다. 구체적인 노드 및 관계 유형은 [변증법적 그래프 노드](./dialectical-graph-nodes)와 [변증법적 그래프 엣지](./dialectical-graph-edges)를 보라.

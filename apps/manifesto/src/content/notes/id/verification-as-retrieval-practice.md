@@ -7,4 +7,4 @@ Verifikasi sebagai latihan pengambilan kembali adalah wawasan bahwa pekerjaan ve
 
 Keterkaitan ini penting karena menunjukkan bahwa [verifikasi](./verification) yang ketat bukan hanya lebih aman secara epistemik; tetapi juga lebih baik untuk pembelajaran. Upaya untuk memeriksa memperkuat memori. [Jebakan kelancaran](./fluency-trap) gagal di kedua sisi: menerima prosa yang mengalir mulus tanpa pengujian tidak memverifikasi maupun mengajarkan.
 
-[Coscientist](./coscientist) mendukung hal ini dengan menampilkan struktur klaim alih-alih menyembunyikannya di balik narasi. Ketika [Operator](./operator) berinteraksi dengan [Graf Dialektis](./dialectical-graph), mereka melakukan kerja kognitif yang, menurut ilmu pembelajaran, terbukti efektif.
+[Kosaintis](./coscientist) mendukung hal ini dengan menampilkan struktur klaim alih-alih menyembunyikannya di balik narasi. Ketika [Operator](./operator) berinteraksi dengan [Graf Dialektis](./dialectical-graph), mereka melakukan kerja kognitif yang, menurut ilmu pembelajaran, terbukti efektif.

@@ -7,4 +7,4 @@ Pelapukan otak institusional adalah mode kegagalan di mana kapasitas kolektif se
 
 Gejalanya mencakup ketergantungan pada dokumen internal yang usang, ketidakmampuan membedakan rumor dari fakta, rasa takut mengoreksi otoritas senior, dan penggantian ketelitian secara bertahap dengan kefasihan. Organisasi tersebut "mengetahui" hal-hal yang sudah tidak benar, dan biaya untuk mengoreksi melebihi biaya penyimpangan yang dirasakan.
 
-[Coscientist](./coscientist) menangani pelapukan otak institusional melalui rujuk silang, tinjauan adversarial melalui [pencarian yang mengutamakan bantahan](./rebuttal-first-search), serta [keterlacakan](./traceability) yang eksplisit sehingga klaim dapat ditantang tanpa friksi sosial.
+[Kosaintis](./coscientist) menangani pelapukan otak institusional melalui rujuk silang, tinjauan adversarial melalui [pencarian yang mengutamakan bantahan](./rebuttal-first-search), serta [keterlacakan](./traceability) yang eksplisit sehingga klaim dapat ditantang tanpa friksi sosial.

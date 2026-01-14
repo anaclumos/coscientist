@@ -13,6 +13,6 @@ O colapso normalmente emerge de três ciclos acoplados:
 
 O resultado não é apenas “mais erros”. A escrita perde significado porque já não existe uma linha de responsabilidade confiável; alucinações podem se auto-reforçar; contradições proliferam; e links reembalam contaminação como autoridade. Uma vez que a atitude “deve estar certo porque a enciclopédia linkou” se instala, a contemplação humana degenera de verificação para mera ratificação.
 
-A prevenção começa com um primeiro princípio: a soberania sobre o conhecimento deve permanecer com o [Operador](./operator). Em [Coscientist](./coscientist), isso aparece como uma [camada de protocolo epistêmico](./epistemic-protocol-layer) (incluindo [busca com refutação primeiro](./rebuttal-first-search) e a preservação da [linha de responsabilidade](./responsibility-line)), um [Protocolo de Consenso Multi-IA](./multi-ai-consensus-protocol) e um [Grafo Dialético](./dialectical-graph) que separa inferência de narrativa.
+A prevenção começa com um primeiro princípio: a soberania sobre o conhecimento deve permanecer com o [Operador](./operator). Em [Cocientista](./coscientist), isso aparece como uma [camada de protocolo epistêmico](./epistemic-protocol-layer) (incluindo [busca com refutação primeiro](./rebuttal-first-search) e a preservação da [linha de responsabilidade](./responsibility-line)), um [Protocolo de Consenso Multi-IA](./multi-ai-consensus-protocol) e um [Grafo Dialético](./dialectical-graph) que separa inferência de narrativa.
 
 Referência: https://cho.sh/r/C36398.

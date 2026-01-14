@@ -3,13 +3,13 @@ title: AI
 description: Kunstmatige intelligentie als zowel hulpmiddel als uitdaging voor kennissystemen
 ---
 
-AI (Artificial Intelligence) in de context van [Coscientist](./coscientist) verwijst naar systemen die cognitieve taken uitvoeren die traditioneel menselijke intelligentie vereisen: lezen, samenvatten, genereren en redeneren over tekst. De belangrijkste technologie is het [LLM](./llm) (Large Language Model).
+AI (Artificial Intelligence) in de context van [Cowetenschapper](./coscientist) verwijst naar systemen die cognitieve taken uitvoeren die traditioneel menselijke intelligentie vereisen: lezen, samenvatten, genereren en redeneren over tekst. De belangrijkste technologie is het [Groot taalmodel](./llm) (Large Language Model).
 
 AI is tegelijk de motor en de bedreiging. Enerzijds verricht AI [contemplatieve arbeid](./contemplation-labor): zoeken, structureren en kandidaten genereren met snelheden die voor mensen onmogelijk zijn. Anderzijds creëert AI faalmodi die nieuwe verdedigingen vereisen: [hallucinatie](./hallucination), [AI-slop](./ai-slop), [modelinstorting](./model-collapse) en [Encyclopedie-meltdown](./encyclopedia-meltdown).
 
 ## AI als hulpmiddel
 
-- [LLM](./llm) — de onderliggende technologie
+- [Groot taalmodel](./llm) — de onderliggende technologie
 - [Contemlatieve arbeid](./contemplation-labor) — cognitief werk dat AI verricht
 - [Cross-linguïstische synthese](./cross-linguistic-synthesis) — elke taal kunnen lezen
 - [Multi-AI-consensusprotocol](./multi-ai-consensus-protocol) — meerdere modellen gebruiken

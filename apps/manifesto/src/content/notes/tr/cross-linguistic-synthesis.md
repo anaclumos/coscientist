@@ -5,7 +5,7 @@ description: Birden çok dilden gelen bilgiyi birleşik bir anlayışta birleşt
 
 Diller arası sentez, farklı dillerdeki kaynaklardan gelen bilgiyi tek ve tutarlı bir anlayışta birleştirme sürecidir. Bu, çeviriden daha fazlasıdır: farklı [Sprachraumların](./sprachraum) fikirlerinin bir araya gelmesine, uyuşmasına, çatışmasına ve birbirini güncellemesine olanak tanır.
 
-[Coscientist](./coscientist) için bu yerel (native) bir yetenektir; çünkü modern [LLM'ler](./llm) birçok dili okuyabilir. Uygulamada diller arası sentez şunları yapabilir:
+[Eşbilimci](./coscientist) için bu yerel (native) bir yetenektir; çünkü modern [LLM'ler](./llm) birçok dili okuyabilir. Uygulamada diller arası sentez şunları yapabilir:
 
 - diller arasında [kaynakları](./source) bir araya getirmek
 - [iddiaları](./claim) çıkarmak ve standartlaştırmak

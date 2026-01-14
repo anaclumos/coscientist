@@ -3,7 +3,7 @@ title: Travail de contemplation
 description: Le travail cognitif qu’effectue l’IA dans la production de connaissances
 ---
 
-Le travail de contemplation est le travail cognitif de la production de connaissances : proposer des hypothèses, rassembler des preuves, trouver des contre-exemples, structurer des arguments et affiner des conclusions. Dans [Coscientist](./coscientist), l’IA prend en charge le travail de contemplation, tandis que l’[Opérateur](./operator) humain conserve le jugement.
+Le travail de contemplation est le travail cognitif de la production de connaissances : proposer des hypothèses, rassembler des preuves, trouver des contre-exemples, structurer des arguments et affiner des conclusions. Dans [Coscientifique](./coscientist), l’IA prend en charge le travail de contemplation, tandis que l’[Opérateur](./operator) humain conserve le jugement.
 
 Cette division compte. L’IA peut chercher plus vite, conserver davantage de contexte et générer des propositions à grande échelle. Mais l’IA ne peut pas décider de ce qui compte comme vérifié : cela exige des valeurs, des enjeux et une responsabilité que seul l’humain apporte. Le travail de contemplation est la machinerie ; la [vérification](./verification) est le point de contrôle.
 

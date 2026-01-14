@@ -7,4 +7,4 @@ Um ataque é um desafio direto à veracidade de uma [alegação](./claim). Ao co
 
 Ataques são um tipo central de aresta no [Grafo Dialético](./dialectical-graph) (ver [Arestas do Grafo Dialético](./dialectical-graph-edges)). Quando um ataque é registado, o estado da alegação pode mudar de `supported` para `contested` ou `refuted`, dependendo da força e do tipo do desafio.
 
-Nem todos os ataques são iguais. Um contraexemplo bem fundamentado tem mais peso do que uma simples afirmação de discordância. É por isso que o [Coscientist](./coscientist) acompanha [trechos de evidência](./evidence-span) e [proveniência](./provenance) tanto para ataques quanto para alegações.
+Nem todos os ataques são iguais. Um contraexemplo bem fundamentado tem mais peso do que uma simples afirmação de discordância. É por isso que o [Cocientista](./coscientist) acompanha [trechos de evidência](./evidence-span) e [proveniência](./provenance) tanto para ataques quanto para alegações.

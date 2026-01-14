@@ -9,6 +9,6 @@ Komunikacja międzyprzestrzenna (Inter-Sprachraum) to wymiana idei ponad granica
 
 Wyzwanie polega na tym, że języki nie są izomorficzne. Niektóre pojęcia istnieją w jednym języku i nie mają bezpośredniego odpowiednika w innym. Niektóre rozróżnienia, które w jednym języku są gramatycznie obowiązkowe, w innym są opcjonalne albo nie występują wcale. Komunikacja międzyprzestrzenna (Inter-Sprachraum) musi nawigować po tych asymetriach, nie udając, że one nie istnieją.
 
-Dla [Coscientist](./coscientist) oznacza to, że [Graf Dialektyczny](./dialectical-graph) musi umieć reprezentować twierdzenia pochodzące z różnych źródeł językowych, śledzić, kiedy pozorna niezgoda jest w istocie artefaktem tłumaczenia, oraz wydobywać rzeczywistą [kontrowersję](./contention), która wykracza poza językową ekspresję. System musi rozróżniać „nie zgadzają się, bo inaczej używają słów” od „nie zgadzają się, bo mają inne dowody”.
+Dla [Współnaukowiec](./coscientist) oznacza to, że [Graf Dialektyczny](./dialectical-graph) musi umieć reprezentować twierdzenia pochodzące z różnych źródeł językowych, śledzić, kiedy pozorna niezgoda jest w istocie artefaktem tłumaczenia, oraz wydobywać rzeczywistą [kontrowersję](./contention), która wykracza poza językową ekspresję. System musi rozróżniać „nie zgadzają się, bo inaczej używają słów” od „nie zgadzają się, bo mają inne dowody”.
 
 To także dlatego ważne jest [indeksowanie niezależne od języka](./language-agnostic-indexing): kręgosłup pojęciowy musi być na tyle solidny, by służyć jako punkt spotkania dla idei wyrażonych w dowolnym języku.

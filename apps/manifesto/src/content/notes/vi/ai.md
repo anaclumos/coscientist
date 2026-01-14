@@ -3,7 +3,7 @@ title: AI
 description: Trí tuệ nhân tạo vừa là công cụ vừa là thách thức đối với các hệ thống tri thức
 ---
 
-AI (Artificial Intelligence) trong bối cảnh [Coscientist](./coscientist) chỉ các hệ thống thực hiện những nhiệm vụ nhận thức vốn truyền thống đòi hỏi trí tuệ con người: đọc, tóm tắt, tạo sinh, và suy luận về văn bản. Công nghệ cốt lõi là [LLM](./llm) (Large Language Model).
+AI (Artificial Intelligence) trong bối cảnh [Nhà đồng khoa học](./coscientist) chỉ các hệ thống thực hiện những nhiệm vụ nhận thức vốn truyền thống đòi hỏi trí tuệ con người: đọc, tóm tắt, tạo sinh, và suy luận về văn bản. Công nghệ cốt lõi là [LLM](./llm) (Large Language Model).
 
 AI đồng thời là động cơ và là mối đe dọa. Một mặt, AI thực hiện [lao động chiêm nghiệm](./contemplation-labor): tìm kiếm, cấu trúc hóa, và tạo ra các phương án ở tốc độ con người không thể đạt được. Mặt khác, AI tạo ra các chế độ thất bại (failure modes) đòi hỏi những cơ chế phòng vệ mới: [ảo giác](./hallucination), [AI slop](./ai-slop), [suy sụp mô hình](./model-collapse), và [Khủng hoảng Tan chảy Bách khoa](./encyclopedia-meltdown).
 

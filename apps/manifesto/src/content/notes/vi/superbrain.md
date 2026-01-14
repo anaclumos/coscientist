@@ -16,6 +16,6 @@ Con người vẫn là chủ thể tối thượng; hệ thống đảm nhận l
 
 Chiều kích đa ngôn ngữ là then chốt. Một siêu não bị giới hạn trong một [Sprachraum](./sprachraum) về bản chất là bị hạn chế. Khuếch đại nhận thức thực sự nghĩa là tư duy [xuyên qua các Sprachraum](./across-the-sprachraums), tiếp cận tri thức bất kể nó ban đầu được ghi lại bằng ngôn ngữ nào, và tổng hợp hiểu biết thông qua [tổng hợp liên ngôn ngữ](./cross-linguistic-synthesis).
 
-[Coscientist](./coscientist) là hiện thân theo hướng nghiên cứu của tầm nhìn này: một hệ thống [LLM](./llm) đa tác tử (multi-agent) có thể đọc tài liệu ở bất kỳ ngôn ngữ nào và tranh luận các giả thuyết thông qua các vòng lặp đề xuất-và-phê bình có cấu trúc. Giấc mơ siêu não không phải là khoa học viễn tưởng xa vời; đó là đích thiết kế.
+[Nhà đồng khoa học](./coscientist) là hiện thân theo hướng nghiên cứu của tầm nhìn này: một hệ thống [LLM](./llm) đa tác tử (multi-agent) có thể đọc tài liệu ở bất kỳ ngôn ngữ nào và tranh luận các giả thuyết thông qua các vòng lặp đề xuất-và-phê bình có cấu trúc. Giấc mơ siêu não không phải là khoa học viễn tưởng xa vời; đó là đích thiết kế.
 
 Tham khảo: https://cho.sh/r/4AED52.

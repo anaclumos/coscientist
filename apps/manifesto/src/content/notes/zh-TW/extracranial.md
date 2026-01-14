@@ -7,6 +7,6 @@ description: 趙成賢（Sunghyun Cho）的個人數位大腦與出版系統
 
 此系統實作了 [多語 Memex](./multilingual-memex) 的原則：自動語言偵測、針對不同地區語系內容的 hreflang 標籤，以及英語與韓語的雙語運作。這支援了 [趙成賢（Sunghyun Cho）](./sunghyun-cho) 的願景——[跨越 Sprachraums](./across-the-sprachraums)：知識不受限於任何單一語言圈。其架構允許以一種語言撰寫內容，並自動以不同語言在全球範圍內分發。
 
-它源自 [Project Aldehyde](./project-aldehyde) 以及 [打造下一代數位大腦（Creating Next-gen Digital Brains）](./creating-next-gen-digital-brains) 中的想法。
+它源自 [醛計劃](./project-aldehyde) 以及 [打造下一代數位大腦（Creating Next-gen Digital Brains）](./creating-next-gen-digital-brains) 中的想法。
 
 參考資料：https://cho.sh/r/000000。

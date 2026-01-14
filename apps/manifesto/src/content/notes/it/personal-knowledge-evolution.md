@@ -7,7 +7,7 @@ L’evoluzione della conoscenza personale ripercorre lo sviluppo di strumenti e 
 
 ## Visione fondativa
 
-- [As We May Think](./as-we-may-think) — saggio del 1945 di [Vannevar Bush](./vannevar-bush)
+- [Come Potremmo Pensare](./as-we-may-think) — saggio del 1945 di [Vannevar Bush](./vannevar-bush)
 - [Memex](./memex) — la macchina per la conoscenza personale proposta da Bush
 
 ## Quadri concettuali

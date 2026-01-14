@@ -3,7 +3,7 @@ title: Mécanismes de synthèse
 description: Modèles pour rendre comparables des sources incompatibles
 ---
 
-Les mécanismes de synthèse sont les modèles et protocoles que [Coscientist](./coscientist) utilise pour rendre comparables des sources incompatibles et produire une sortie structurée à partir d’un conflit.
+Les mécanismes de synthèse sont les modèles et protocoles que [Coscientifique](./coscientist) utilise pour rendre comparables des sources incompatibles et produire une sortie structurée à partir d’un conflit.
 
 ## Processus central
 

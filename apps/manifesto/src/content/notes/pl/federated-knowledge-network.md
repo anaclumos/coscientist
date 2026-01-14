@@ -3,7 +3,7 @@ title: Sfederowana sieć wiedzy
 description: Wzajemnie połączone instancje Coscientist wymieniające zweryfikowaną wiedzę przy zachowaniu lokalnej suwerenności
 ---
 
-Sfederowana sieć wiedzy to system wzajemnie połączonych instancji [Coscientist](./coscientist) na skali osobistej, organizacyjnej i publicznej, które wymieniają zweryfikowaną wiedzę, jednocześnie zachowując lokalną suwerenność. Każdy węzeł utrzymuje własny [Graf Dialektyczny](./dialectical-graph) oraz [warstwę protokołu epistemicznego](./epistemic-protocol-layer); federacja zapewnia kanał do współdzielenia bez oddawania kontroli.
+Sfederowana sieć wiedzy to system wzajemnie połączonych instancji [Współnaukowiec](./coscientist) na skali osobistej, organizacyjnej i publicznej, które wymieniają zweryfikowaną wiedzę, jednocześnie zachowując lokalną suwerenność. Każdy węzeł utrzymuje własny [Graf Dialektyczny](./dialectical-graph) oraz [warstwę protokołu epistemicznego](./epistemic-protocol-layer); federacja zapewnia kanał do współdzielenia bez oddawania kontroli.
 
 Federacja rozwiązuje napięcie między współpracą a autonomią. Zespół badawczy może utrzymywać prywatne hipotezy, jednocześnie importując zweryfikowane twierdzenia publiczne. Publiczna wspólnota wiedzy (knowledge commons) może agregować wkład bez tego, by jakikolwiek pojedynczy autorytet dyktował prawdę.
 

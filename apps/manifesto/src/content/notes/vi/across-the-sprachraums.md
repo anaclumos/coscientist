@@ -13,6 +13,6 @@ Tầm nhìn này có ba phần:
 
 Điều này không chỉ đơn thuần là dịch thuật. Một hệ thống thực sự xuyên-ngôn-ngữ phải duy trì một [chỉ mục bất phụ thuộc ngôn ngữ](./language-agnostic-indexing) của các khái niệm, bảo toàn [độ trung thực của bản dịch](./translation-fidelity), và phòng tránh [mất sắc thái khi dịch](./translation-nuance-loss). Mục tiêu là một [lưới tri thức đa ngôn ngữ](./multilingual-knowledge-mesh) nơi một ghi chú tiếng Hàn có thể liên kết tới một ghi chú tiếng Anh thông qua khái niệm nền tảng, chứ không chỉ dựa vào việc khớp từ.
 
-[Extracranial](./extracranial) hiện thực hóa điều này thông qua nội dung song ngữ, tự động phát hiện ngôn ngữ, và các thẻ hreflang. [Coscientist](./coscientist) mở rộng tầm nhìn: vì nó sử dụng [LLMs](./llm), nó có thể đọc và tổng hợp tài liệu ở bất kỳ ngôn ngữ nào, khiến [tổng hợp xuyên-ngôn-ngữ](./cross-linguistic-synthesis) trở thành một năng lực bản địa (native capability) thay vì một phần bổ sung về sau.
+[Extracranial](./extracranial) hiện thực hóa điều này thông qua nội dung song ngữ, tự động phát hiện ngôn ngữ, và các thẻ hreflang. [Nhà đồng khoa học](./coscientist) mở rộng tầm nhìn: vì nó sử dụng [LLMs](./llm), nó có thể đọc và tổng hợp tài liệu ở bất kỳ ngôn ngữ nào, khiến [tổng hợp xuyên-ngôn-ngữ](./cross-linguistic-synthesis) trở thành một năng lực bản địa (native capability) thay vì một phần bổ sung về sau.
 
 Tham khảo: https://cho.sh/r/2EB438.

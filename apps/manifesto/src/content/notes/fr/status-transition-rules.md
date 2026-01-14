@@ -7,4 +7,4 @@ Les règles de transition de statut définissent ce qui fait passer une [revendi
 
 Les transitions clés incluent : provisoire → contestée (lorsqu’une [attaque](./attack) est enregistrée), contestée → soutenue conditionnellement (lorsque l’attaque reçoit une réponse en restreignant la [portée](./scope) ou en clarifiant les [hypothèses](./assumption)), soutenue conditionnellement → robuste (lorsque plusieurs voies indépendantes confirment), robuste → réfutée (lorsqu’un contre-exemple résiste à l’examen), et n’importe quel état → obsolète (lorsqu’une [dérive de définition](./definition-drift) rompt le sens de la revendication).
 
-Ces règles font partie de la [couche de protocole épistémique](./epistemic-protocol-layer) dans [Coscientist](./coscientist). Elles rendent la mise à jour des connaissances explicite et vérifiable plutôt qu’implicite dans la prose.
+Ces règles font partie de la [couche de protocole épistémique](./epistemic-protocol-layer) dans [Coscientifique](./coscientist). Elles rendent la mise à jour des connaissances explicite et vérifiable plutôt qu’implicite dans la prose.

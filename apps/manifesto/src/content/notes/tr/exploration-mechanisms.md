@@ -3,7 +3,7 @@ title: Keşif Mekanizmaları
 description: Diyalektik bir grafikte sürekli bilgi keşfi için stratejiler
 ---
 
-Keşif mekanizmaları, [Coscientist](./coscientist)’in [Diyalektik Grafik](./dialectical-graph) içinde çelişkileri, sınır koşullarını ve yöntem bağımlılıklarını sürekli olarak keşfetmek için kullandığı stratejilerdir.
+Keşif mekanizmaları, [Eşbilimci](./coscientist)’in [Diyalektik Grafik](./dialectical-graph) içinde çelişkileri, sınır koşullarını ve yöntem bağımlılıklarını sürekli olarak keşfetmek için kullandığı stratejilerdir.
 
 ## Arama Stratejileri
 

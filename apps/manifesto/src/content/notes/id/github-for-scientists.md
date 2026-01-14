@@ -7,4 +7,4 @@ description: Visi memperlakukan eksperimen sebagai kode yang diberi versi dan da
 
 Visi ini merupakan inti dari [ScienceOps](./scienceops). Ketika eksperimen menjadi artefak yang diberi versi, putaran antara hipotesis dan [verifikasi](./verification) menyusut. Kegagalan menjadi dapat ditelusuri. Keberhasilan menjadi dapat direplikasi oleh orang lain tanpa upaya luar biasa.
 
-[Coscientist](./coscientist) adalah lapisan kognitif untuk alur kerja seperti itu: mengelola [klaim](./claim), [bukti](./evidence-span), dan sanggahan di banyak proyek sambil mempertahankan [garis tanggung jawab](./responsibility-line) serta mendukung peran [insinyur sains alam](./natural-science-engineer).
+[Kosaintis](./coscientist) adalah lapisan kognitif untuk alur kerja seperti itu: mengelola [klaim](./claim), [bukti](./evidence-span), dan sanggahan di banyak proyek sambil mempertahankan [garis tanggung jawab](./responsibility-line) serta mendukung peran [insinyur sains alam](./natural-science-engineer).

@@ -13,6 +13,6 @@ Erime genellikle birbiriyle bağlantılı üç döngüden ortaya çıkar:
 
 Sonuç sadece “daha fazla hata” değildir. Artık güvenilir bir sorumluluk hattı olmadığından yazı anlamını yitirir; halüsinasyonlar kendi kendini pekiştirebilir; çelişkiler çoğalır; bağlantılar ise bulaşmayı otorite olarak yeniden paketler. “Ansiklopedi bağladıysa doğrudur” tutumu yerleştiğinde, insan tefekkürü doğrulamadan salt onaylamaya (ratification) doğru yozlaşır.
 
-Önleme, bir ilk ilkeyle başlar: bilgi üzerindeki egemenlik [Operatör](./operator)'de kalmalıdır. [Coscientist](./coscientist) içinde bu; bir [epistemik protokol katmanı](./epistemic-protocol-layer) ( [itiraz-önce arama](./rebuttal-first-search) ve [sorumluluk hattını](./responsibility-line) korumayı içerir), bir [Çoklu YZ Uzlaşı Protokolü](./multi-ai-consensus-protocol) ve çıkarımı anlatıdan ayıran bir [Diyalektik Grafik](./dialectical-graph) olarak kendini gösterir.
+Önleme, bir ilk ilkeyle başlar: bilgi üzerindeki egemenlik [Operatör](./operator)'de kalmalıdır. [Eşbilimci](./coscientist) içinde bu; bir [epistemik protokol katmanı](./epistemic-protocol-layer) ( [itiraz-önce arama](./rebuttal-first-search) ve [sorumluluk hattını](./responsibility-line) korumayı içerir), bir [Çoklu YZ Uzlaşı Protokolü](./multi-ai-consensus-protocol) ve çıkarımı anlatıdan ayıran bir [Diyalektik Grafik](./dialectical-graph) olarak kendini gösterir.
 
 Referans: https://cho.sh/r/C36398.

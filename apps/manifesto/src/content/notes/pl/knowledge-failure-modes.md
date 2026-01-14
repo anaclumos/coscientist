@@ -13,7 +13,7 @@ Tryby awarii wiedzy to sposoby, w jakie systemy wiedzy ulegają degradacji, zał
 
 ## Awarie na poziomie wejścia
 
-- [AI slop](./ai-slop) — zalew środowiska informacyjnego niskiej jakości treściami AI
+- [Śmieci AI](./ai-slop) — zalew środowiska informacyjnego niskiej jakości treściami AI
 - [Halucynacje](./hallucination) — wiarygodnie brzmiące, lecz sfabrykowane wyjścia AI
 
 ## Awarie na poziomie człowieka

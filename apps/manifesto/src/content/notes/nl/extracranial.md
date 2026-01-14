@@ -7,6 +7,6 @@ Extracranial is het persoonlijke digitale brein van [Sunghyun Cho](./sunghyun-ch
 
 Het systeem implementeert principes van een [meertalig Memex](./multilingual-memex): automatische taaldetectie, hreflang-tags voor locale-specifieke content, en tweetalige werking in het Engels en Koreaans. Dit ondersteunt [Sunghyun Cho](./sunghyun-cho)'s visie om [over de Sprachraums heen](./across-the-sprachraums) te gaan, waarbij kennis niet wordt beperkt door één enkele taalsfeer. De architectuur maakt het mogelijk dat content in één taal wordt geschreven en automatisch wereldwijd in verschillende talen wordt verspreid.
 
-Het is voortgekomen uit [Project Aldehyde](./project-aldehyde) en de ideeën in [Creating Next-gen Digital Brains](./creating-next-gen-digital-brains).
+Het is voortgekomen uit [Project Aldehyde](./project-aldehyde) en de ideeën in [Digitale breinen van de volgende generatie creëren](./creating-next-gen-digital-brains).
 
 Referentie: https://cho.sh/r/000000.

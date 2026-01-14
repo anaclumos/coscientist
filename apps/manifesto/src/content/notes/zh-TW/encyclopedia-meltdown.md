@@ -13,6 +13,6 @@ description: 當 AI 在無人類介入下主動接管時出現的知識崩塌現
 
 結果不只是「更多錯誤」。寫作會失去意義，因為不再有可靠的責任鏈；幻覺（hallucinations）會自我強化；矛盾大量滋生；而連結則把污染重新包裝成權威。一旦「百科都連結了它，那它一定是對的」這種態度成形，人類的思考就會從驗證退化為單純的追認。
 
-預防始於一個第一原理：對知識的主權必須始終掌握在 [操作員](./operator) 手中。在 [Coscientist](./coscientist) 中，這體現在一個 [認識論協定層](./epistemic-protocol-layer)（包含 [先反駁式搜尋](./rebuttal-first-search) 與保留 [責任鏈](./responsibility-line)）、一個 [多 AI 共識協定](./multi-ai-consensus-protocol)，以及一個將推論與敘事分離的 [辯證圖](./dialectical-graph)。
+預防始於一個第一原理：對知識的主權必須始終掌握在 [操作員](./operator) 手中。在 [共科學家](./coscientist) 中，這體現在一個 [認識論協定層](./epistemic-protocol-layer)（包含 [先反駁式搜尋](./rebuttal-first-search) 與保留 [責任鏈](./responsibility-line)）、一個 [多 AI 共識協定](./multi-ai-consensus-protocol)，以及一個將推論與敘事分離的 [辯證圖](./dialectical-graph)。
 
 參考：https://cho.sh/r/C36398。

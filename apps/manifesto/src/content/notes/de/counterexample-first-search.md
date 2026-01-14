@@ -3,7 +3,7 @@ title: Gegenbeispiel-zuerst-Suche
 description: Strategie, die Gegenbeispiele gegenüber unterstützenden Belegen priorisiert
 ---
 
-Die Gegenbeispiel-zuerst-Suche ist eine [Explorationsstrategie](./exploration-strategies), die Popularität als Risikosignal statt als Qualitätsbeleg behandelt. Je weiter eine [Behauptung](./claim) wiederholt wird, desto wertvoller wird es, [Gegenbeispiele](./counterexample) und Randbedingungen zu finden, weil Fehler in populären Behauptungen in [Encyclopedia Meltdown](./encyclopedia-meltdown) einen größeren Wirkungsradius haben.
+Die Gegenbeispiel-zuerst-Suche ist eine [Explorationsstrategie](./exploration-strategies), die Popularität als Risikosignal statt als Qualitätsbeleg behandelt. Je weiter eine [Behauptung](./claim) wiederholt wird, desto wertvoller wird es, [Gegenbeispiele](./counterexample) und Randbedingungen zu finden, weil Fehler in populären Behauptungen in [Enzyklopädie-Zusammenbruch](./encyclopedia-meltdown) einen größeren Wirkungsradius haben.
 
 Diese Strategie kehrt die normale Priorität bei der Informationsbeschaffung um. Standard-Suche rankt nach Relevanz oder Häufigkeit, was dazu neigt, Übereinstimmung nach oben zu spülen. Die Gegenbeispiel-zuerst-Suche sucht absichtlich nach Widerspruch, Grenzfällen und Fehlschlägen, weil diese informativer sind, um Wissen zu aktualisieren.
 

@@ -7,7 +7,7 @@ description: 個人知識管理工具與理念的歷史演進
 
 ## 奠基性願景
 
-- [As We May Think](./as-we-may-think) — [Vannevar Bush](./vannevar-bush) 於 1945 年發表的文章
+- [誠如所思](./as-we-may-think) — [Vannevar Bush](./vannevar-bush) 於 1945 年發表的文章
 - [Memex](./memex) — Bush 提出的個人知識機器構想
 
 ## 概念框架
@@ -19,7 +19,7 @@ description: 個人知識管理工具與理念的歷史演進
 
 ## 實作
 
-- [Project Aldehyde](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho) 的早期嘗試
+- [醛計劃](./project-aldehyde) — [Sunghyun Cho](./sunghyun-cho) 的早期嘗試
 - [Extracranial](./extracranial) — Cho 的個人數位大腦系統
 - [Multilingual Memex](./multilingual-memex) — 具語言感知並支援自動翻譯的知識系統
 - [Project PIRI](./project-piri) — 已取消的翻譯計畫（因 AI 程式碼代理（AI coding agents）而過時）

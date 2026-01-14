@@ -7,7 +7,7 @@ Nhận thức song ngữ là khả năng suy nghĩ và làm việc bằng nhiề
 
 Trong bản tuyên ngôn này, điều đó quan trọng vì nó gợi mở một cấu trúc sâu hơn: khái niệm nằm phía trên từ ngữ. Đó là trực giác đằng sau việc đi [xuyên qua các Sprachraums](./across-the-sprachraums) và xây dựng một [chỉ mục bất phụ thuộc ngôn ngữ](./language-agnostic-indexing)—ý tưởng nên có thể được truy hồi bất kể chúng được ghi lại lần đầu bằng ngôn ngữ nào.
 
-[Sunghyun Cho](./sunghyun-cho) làm việc song ngữ (tiếng Anh và tiếng Hàn) trong [bộ não số](./digital-brain) của mình. [Extracranial](./extracranial) và [Coscientist](./coscientist) hướng tới việc phản chiếu điều này ở quy mô hệ thống bằng cách:
+[Sunghyun Cho](./sunghyun-cho) làm việc song ngữ (tiếng Anh và tiếng Hàn) trong [bộ não số](./digital-brain) của mình. [Extracranial](./extracranial) và [Nhà đồng khoa học](./coscientist) hướng tới việc phản chiếu điều này ở quy mô hệ thống bằng cách:
 
 - liên kết ghi chú xuyên ngôn ngữ thông qua các khái niệm chung, hình thành một [lưới tri thức đa ngôn ngữ](./multilingual-knowledge-mesh)
 - bảo toàn [độ trung thực của bản dịch](./translation-fidelity) đồng thời gắn cờ [sự mất mát sắc thái khi dịch](./translation-nuance-loss)

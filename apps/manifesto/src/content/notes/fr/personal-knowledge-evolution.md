@@ -7,7 +7,7 @@ L’évolution des connaissances personnelles retrace le développement des outi
 
 ## Vision fondatrice
 
-- [As We May Think](./as-we-may-think) — essai de 1945 de [Vannevar Bush](./vannevar-bush)
+- [Comme nous pourrions penser](./as-we-may-think) — essai de 1945 de [Vannevar Bush](./vannevar-bush)
 - [Memex](./memex) — machine de connaissances personnelles proposée par Bush
 
 ## Cadres conceptuels

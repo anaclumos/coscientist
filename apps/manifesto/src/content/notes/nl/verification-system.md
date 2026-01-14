@@ -3,7 +3,7 @@ title: Verificatiesysteem
 description: De mechanismen om beweringen te toetsen aan bewijs en tegenbewijs
 ---
 
-Het verificatiesysteem is het geheel aan mechanismen dat [Coscientist](./coscientist) gebruikt om [beweringen](./claim) te toetsen aan bewijs, tegenbewijs en alternatieve verklaringen. Het is geen enkel hulpmiddel, maar een gecoördineerde set protocollen en praktijken.
+Het verificatiesysteem is het geheel aan mechanismen dat [Cowetenschapper](./coscientist) gebruikt om [beweringen](./claim) te toetsen aan bewijs, tegenbewijs en alternatieve verklaringen. Het is geen enkel hulpmiddel, maar een gecoördineerde set protocollen en praktijken.
 
 ## Kerncomponenten
 

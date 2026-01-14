@@ -7,4 +7,4 @@ description: Gestaltungsprinzip, dass Reibung persönliche Wissens-Workflows zer
 
 Dieses Prinzip motiviert das Modell des [digitalen Dschungels](./digital-jungle): Wirf rohes Wissen hinein und lass das System es organisieren, verknüpfen und wieder hervorholen. Die beste Art, einen Garten zu managen, ist nicht ständiges Pflegen, sondern Systeme zu bauen, die sich selbst erhalten.
 
-Reibung ist nicht das Vermeiden von Faulheit; sie ist die Erkenntnis, dass kognitiver Overhead mit dem Denken konkurriert. Zeit, die man in Taxonomien steckt, ist Zeit, die nicht in Erkenntnis fließt. [Coscientist](./coscientist) übernimmt dieses Prinzip von [Extracranial](./extracranial) und den Ideen in [Digitale Gehirne der nächsten Generation erschaffen](./creating-next-gen-digital-brains).
+Reibung ist nicht das Vermeiden von Faulheit; sie ist die Erkenntnis, dass kognitiver Overhead mit dem Denken konkurriert. Zeit, die man in Taxonomien steckt, ist Zeit, die nicht in Erkenntnis fließt. [Kozientist](./coscientist) übernimmt dieses Prinzip von [Extracranial](./extracranial) und den Ideen in [Digitale Gehirne der nächsten Generation erschaffen](./creating-next-gen-digital-brains).

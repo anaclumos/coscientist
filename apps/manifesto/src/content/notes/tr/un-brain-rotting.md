@@ -7,4 +7,4 @@ Beyin çürümesini geri çevirme, bozulmuş bilgi ortamlarına maruz kaldıktan
 
 Terim, hasarın zaten meydana geldiğini kabul eder. Makul görünen ama doğrulanmamış içeriğe sürekli maruz kalmak, pasif kabullenişi eğitir. Beyin çürümesini geri çevirme bir iyileşme protokolüdür: [aktif hatırlama](./active-recall) ile yeniden temas kurmak, [izlenebilirlik](./traceability) talep etmek ve [doğrulama](./verification)’yı pratik edilmesi gereken bir beceri olarak görmek.
 
-[Coscientist](./coscientist), karşı kanıtı görünür kılarak, [sorumluluk çizgisini](./responsibility-line) koruyarak ve [Operatör](./operator)’ü tüketici yerine doğrulayıcı rolünde tutarak beyin çürümesini geri çevirmeyi desteklemek üzere tasarlanmıştır.
+[Eşbilimci](./coscientist), karşı kanıtı görünür kılarak, [sorumluluk çizgisini](./responsibility-line) koruyarak ve [Operatör](./operator)’ü tüketici yerine doğrulayıcı rolünde tutarak beyin çürümesini geri çevirmeyi desteklemek üzere tasarlanmıştır.

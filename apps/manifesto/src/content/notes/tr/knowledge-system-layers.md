@@ -3,7 +3,7 @@ title: Bilgi Sistemi Katmanları
 description: Coscientist’in mimari katmanları
 ---
 
-Bilgi sistemi katmanları, [Coscientist](./coscientist) sistemini oluşturan birbirinden ayrık mimari bileşenlerdir. Bu katmanları ayırmak, farklı kaygıların bağımsız olarak evrimleşmesini sağlar.
+Bilgi sistemi katmanları, [Eşbilimci](./coscientist) sistemini oluşturan birbirinden ayrık mimari bileşenlerdir. Bu katmanları ayırmak, farklı kaygıların bağımsız olarak evrimleşmesini sağlar.
 
 ## Veri Katmanı
 

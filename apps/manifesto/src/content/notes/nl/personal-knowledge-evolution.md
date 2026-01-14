@@ -7,7 +7,7 @@ De evolutie van persoonlijke kennis volgt de ontwikkeling van tools en ideeën v
 
 ## Grondleggende visie
 
-- [As We May Think](./as-we-may-think) — [Vannevar Bush](./vannevar-bush)'s essay uit 1945
+- [Zoals wij zouden kunnen denken](./as-we-may-think) — [Vannevar Bush](./vannevar-bush)'s essay uit 1945
 - [Memex](./memex) — Bush' voorgestelde machine voor persoonlijke kennis
 
 ## Conceptuele kaders
@@ -15,7 +15,7 @@ De evolutie van persoonlijke kennis volgt de ontwikkeling van tools en ideeën v
 - [Digitaal brein](./digital-brain) — een systeem dat een geest weerspiegelt en uitbreidt
 - [Digitale tuin](./digital-garden) — openbare, evoluerende onderling gelinkte notities
 - [Digitale jungle](./digital-jungle) — zelforganiserende kennisruimte met lage frictie
-- [Second Brain](./second-brain) — praktijk voor persoonlijk kennisbeheer
+- [Tweede brein](./second-brain) — praktijk voor persoonlijk kennisbeheer
 
 ## Implementaties
 

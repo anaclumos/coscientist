@@ -3,11 +3,11 @@ title: Vakıf Kurgusu
 description: Coscientist'in vizyonunu şekillendiren, Asimov esinli kavramlar
 ---
 
-Vakıf kurgusu, [Isaac Asimov](./isaac-asimov)'un Vakıf serisinden, [Coscientist](./coscientist)'in vizyonunu şekillendiren kavramlara verilen addır. Kurgusal [Encyclopedia Galactica](./encyclopedia-galactica), bilgi koruma ve yetkinlik üzerine düşünmek için bir referans noktasıdır.
+Vakıf kurgusu, [Isaac Asimov](./isaac-asimov)'un Vakıf serisinden, [Eşbilimci](./coscientist)'in vizyonunu şekillendiren kavramlara verilen addır. Kurgusal [Galaktik Ansiklopedi](./encyclopedia-galactica), bilgi koruma ve yetkinlik üzerine düşünmek için bir referans noktasıdır.
 
 ## Temel Kavramlar
 
-- [Encyclopedia Galactica](./encyclopedia-galactica) — kurgusal bilgi deposu
+- [Galaktik Ansiklopedi](./encyclopedia-galactica) — kurgusal bilgi deposu
 - [Psychohistory](./psychohistory) — Asimov'un uygarlıkların istatistiksel bilimi
 - [Seldon Plan](./seldon-plan) — [Hari Seldon](./hari-seldon)'un uzun vadeli stratejisi
 - [Dark Night of the Soul](./dark-night-of-the-soul) — uygarlık düzeyinde ya da epistemik çöküş için bir metafor

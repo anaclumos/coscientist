@@ -7,4 +7,4 @@ description: 迫使彼此分歧的來源相互回應對方主張的協議
 
 這與「平衡摘要」的方法正好相反；後者會把分歧抹平。碰撞的立場是：「這兩個來源說了互不相容的事情。到底是哪裡衝突？在什麼條件下衝突？要如何才能解決？」
 
-在 [Coscientist](./coscientist) 中，文件碰撞是透過[辯證圖（Dialectical Graph）](./dialectical-graph)來實作：抽取主張、進行正規化（normalize），並透過[攻擊](./attack)、[反駁前提（undercut）](./undercut)與支持關係將它們連結起來。其結果是一張地圖，標示來源在哪些地方一致、在哪些地方衝突，以及哪些問題仍未定案。
+在 [共科學家](./coscientist) 中，文件碰撞是透過[辯證圖（Dialectical Graph）](./dialectical-graph)來實作：抽取主張、進行正規化（normalize），並透過[攻擊](./attack)、[反駁前提（undercut）](./undercut)與支持關係將它們連結起來。其結果是一張地圖，標示來源在哪些地方一致、在哪些地方衝突，以及哪些問題仍未定案。

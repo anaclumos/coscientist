@@ -7,4 +7,4 @@ Uyumsuzluk taksonomisi, kaynakların neden anlaşamadığını sınıflandırır
 
 Bunları ayırt etmek önemlidir; çünkü çözüm stratejileri farklıdır. Bir tanım farklılığı, anlam ayrıştırma (disambiguation) ile çözülür; bir yöntem farklılığı deneylerin yeniden yürütülmesini gerektirebilir; bir kapsam farklılığı ise koşullar açıkça belirtildiğinde ortadan kalkar. Tüm anlaşmazlığı “sadece anlaşamıyorlar” diye ele almak bu yapıyı kaybettirir.
 
-[Coscientist](./coscientist) içindeki [bilgi sentezi](./knowledge-synthesis), çatışmaları nedenlerine ayırmak için bu taksonomiyi kullanır; zoraki ortalamalar yerine [dallanmış çözüm haritaları](./branched-resolution-map) üretir.
+[Eşbilimci](./coscientist) içindeki [bilgi sentezi](./knowledge-synthesis), çatışmaları nedenlerine ayırmak için bu taksonomiyi kullanır; zoraki ortalamalar yerine [dallanmış çözüm haritaları](./branched-resolution-map) üretir.

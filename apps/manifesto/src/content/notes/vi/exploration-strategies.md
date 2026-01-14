@@ -3,7 +3,7 @@ title: Chiến lược Khám phá
 description: Các chiến lược duyệt đồ thị cho việc khám phá tri thức liên tục
 ---
 
-[Coscientist](./coscientist) cần nhiều hơn chỉ truy hồi (retrieval): nó cần khả năng khám phá (exploration) để chủ động làm lộ ra các mâu thuẫn, các điều kiện biên, và sự phụ thuộc vào phương pháp trong [Đồ thị Biện chứng](./dialectical-graph).
+[Nhà đồng khoa học](./coscientist) cần nhiều hơn chỉ truy hồi (retrieval): nó cần khả năng khám phá (exploration) để chủ động làm lộ ra các mâu thuẫn, các điều kiện biên, và sự phụ thuộc vào phương pháp trong [Đồ thị Biện chứng](./dialectical-graph).
 
 Các chiến lược chính bao gồm:
 

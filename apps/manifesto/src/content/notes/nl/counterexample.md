@@ -7,4 +7,4 @@ Een tegenvoorbeeld is een geval dat de voorspelling van een [bewering](./claim) 
 
 Tegenvoorbeelden zijn epistemisch krachtig omdat ze concreet zijn. Eén goed gedocumenteerd tegenvoorbeeld kan zwaarder wegen dan veel bevestigende gevallen, vooral als de bewering als universeel werd geformuleerd. Daarom geven [weerlegging-eerst-zoeken](./rebuttal-first-search) en [tegenvoorbeeld-eerst-zoeken](./counterexample-first-search) prioriteit aan het vroeg vinden ervan.
 
-In een [Dialectical Graph](./dialectical-graph) zijn tegenvoorbeelden knooppunten die via een `attacks`-rand met beweringen verbonden zijn. Ze hebben hun eigen [bewijsfragmenten](./evidence-span), [reikwijdte](./scope) en [bron](./source), zodat de aanval zelf ook kritisch beoordeeld kan worden.
+In een [Dialectische graaf](./dialectical-graph) zijn tegenvoorbeelden knooppunten die via een `attacks`-rand met beweringen verbonden zijn. Ze hebben hun eigen [bewijsfragmenten](./evidence-span), [reikwijdte](./scope) en [bron](./source), zodat de aanval zelf ook kritisch beoordeeld kan worden.

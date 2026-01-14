@@ -15,4 +15,4 @@ description: 一套具語言感知能力的個人知識系統，支援自動翻�
 
 這也是為什麼 [Extracranial](./extracranial) 會透過 GitHub 納入社群貢獻來精煉翻譯：機器翻譯讓多語言內容成為可能，但要維持[翻譯忠實度](./translation-fidelity)仍需要人工審閱。多語言 Memex 並非已解決的問題，而是自動化系統與人類判斷之間持續協作的成果。
 
-對於 [Coscientist](./coscientist) 而言，多語言 Memex 會成為多語言的[辯證圖（Dialectical Graph）](./dialectical-graph)：一種可儲存任何語言的[主張](./claim)、[證據片段（evidence spans）](./evidence-span)與關係的結構，將語言視為中繼資料（metadata），而非根本性的邊界。
+對於 [共科學家](./coscientist) 而言，多語言 Memex 會成為多語言的[辯證圖（Dialectical Graph）](./dialectical-graph)：一種可儲存任何語言的[主張](./claim)、[證據片段（evidence spans）](./evidence-span)與關係的結構，將語言視為中繼資料（metadata），而非根本性的邊界。

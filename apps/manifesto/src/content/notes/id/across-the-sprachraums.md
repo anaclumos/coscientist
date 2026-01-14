@@ -13,6 +13,6 @@ Visi ini memiliki tiga bagian:
 
 Ini bukan semata-mata tentang penerjemahan. Sistem yang benar-benar lintas bahasa harus mempertahankan [indeks konsep yang agnostik terhadap bahasa](./language-agnostic-indexing), menjaga [fidelitas terjemahan](./translation-fidelity), dan melindungi dari [hilangnya nuansa terjemahan](./translation-nuance-loss). Tujuannya adalah [mesh pengetahuan multibahasa](./multilingual-knowledge-mesh) di mana sebuah catatan berbahasa Korea dapat menaut ke catatan berbahasa Inggris melalui konsep yang mendasarinya, bukan sekadar pencocokan kata.
 
-[Extracranial](./extracranial) mengimplementasikan ini melalui konten dwibahasa, deteksi bahasa otomatis, dan tag hreflang. [Coscientist](./coscientist) memperluas visi ini: karena menggunakan [LLM](./llm), ia dapat membaca dan mensintesis literatur dalam bahasa apa pun, menjadikan [sintesis lintas bahasa](./cross-linguistic-synthesis) sebagai kemampuan bawaan alih-alih sekadar tambahan belakangan.
+[Extracranial](./extracranial) mengimplementasikan ini melalui konten dwibahasa, deteksi bahasa otomatis, dan tag hreflang. [Kosaintis](./coscientist) memperluas visi ini: karena menggunakan [Model Bahasa Besar](./llm), ia dapat membaca dan mensintesis literatur dalam bahasa apa pun, menjadikan [sintesis lintas bahasa](./cross-linguistic-synthesis) sebagai kemampuan bawaan alih-alih sekadar tambahan belakangan.
 
 Referensi: https://cho.sh/r/2EB438.

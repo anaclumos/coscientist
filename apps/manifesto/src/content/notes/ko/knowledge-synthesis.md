@@ -9,6 +9,6 @@ description: 변증법적 지식 시스템에서 종합이 평균과 어떻게 �
 
 해결(resolution)은 단 한 문장인 경우가 드물다. 대개 [분기형 해결 지도](./branched-resolution-map)다: 서로 다른 정의나 범위가 서로 다른 결론으로 이어진다면, 평균화된 하나의 답이 있는 척하기보다 적절한 계층(layer)에서 그 분기를 기록하라. [이슈 노드](./issue-node)는 무엇이 무엇과 충돌하는지 묶고, 해당 이슈가 어떤 조건에서 해결될 수 있는지를 기록한다.
 
-목표는 모순들의 지도와, 명시적인 해결 조건들의 집합이다. 그래야 향후 작업이 재작성(rewriting)이 아니라 재배열(rearrangement)로 지식을 업데이트할 수 있다. 이것이 [Coscientist](./coscientist)의 관조(contmemplation) AI가 문서들을 서로 충돌시키는 데 초점을 두는 이유다: 이슈 클러스터를 만들고, 조건을 정제하며, 구조화된 반박(rebuttal)과 비교를 위한 명시적 좌표계(coordinate systems)를 산출한다.
+목표는 모순들의 지도와, 명시적인 해결 조건들의 집합이다. 그래야 향후 작업이 재작성(rewriting)이 아니라 재배열(rearrangement)로 지식을 업데이트할 수 있다. 이것이 [코사이언티스트](./coscientist)의 관조(contmemplation) AI가 문서들을 서로 충돌시키는 데 초점을 두는 이유다: 이슈 클러스터를 만들고, 조건을 정제하며, 구조화된 반박(rebuttal)과 비교를 위한 명시적 좌표계(coordinate systems)를 산출한다.
 
-[LLM](./llm)은 여러 언어를 읽을 수 있으므로, 종합은 [교차언어 종합](./cross-linguistic-synthesis)으로 확장된다: 서로 다른 언어의 출처를 끌어오고, [언어 불가지론적 인덱스](./language-agnostic-indexing)에서 그 주장들을 정렬하는 것이다. [번역 뉘앙스 손실](./translation-nuance-loss)은 추적하고 해결해야 할 또 하나의 비호환성 형태가 된다.
+[대규모 언어 모델](./llm)은 여러 언어를 읽을 수 있으므로, 종합은 [교차언어 종합](./cross-linguistic-synthesis)으로 확장된다: 서로 다른 언어의 출처를 끌어오고, [언어 불가지론적 인덱스](./language-agnostic-indexing)에서 그 주장들을 정렬하는 것이다. [번역 뉘앙스 손실](./translation-nuance-loss)은 추적하고 해결해야 할 또 하나의 비호환성 형태가 된다.

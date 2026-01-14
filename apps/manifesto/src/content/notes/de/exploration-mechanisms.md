@@ -3,7 +3,7 @@ title: Explorationsmechanismen
 description: Strategien zur kontinuierlichen Wissensentdeckung in einem dialektischen Graphen
 ---
 
-Explorationsmechanismen sind die Strategien, die [Coscientist](./coscientist) verwendet, um im [Dialektischen Graphen](./dialectical-graph) fortlaufend Widersprüche, Randbedingungen und Methodenabhängigkeiten zu entdecken.
+Explorationsmechanismen sind die Strategien, die [Kozientist](./coscientist) verwendet, um im [Dialektischen Graphen](./dialectical-graph) fortlaufend Widersprüche, Randbedingungen und Methodenabhängigkeiten zu entdecken.
 
 ## Suchstrategien
 

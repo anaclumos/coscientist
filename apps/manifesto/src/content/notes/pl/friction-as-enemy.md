@@ -7,4 +7,4 @@ description: Zasada projektowa mówiąca, że tarcie zabija osobiste przepływy 
 
 Ta zasada motywuje model [cyfrowej dżungli](./digital-jungle): wrzucaj surową wiedzę, a system niech ją organizuje, linkuje i ponownie wydobywa na powierzchnię. Najlepszym sposobem zarządzania ogrodem nie jest ciągła pielęgnacja, lecz budowanie systemów, które same się utrzymują.
 
-Tarcie nie jest unikaniem lenistwa; to uznanie, że narzut poznawczy (cognitive overhead) konkuruje z myśleniem. Czas poświęcony na taksonomię (taxonomy) to czas niepoświęcony na wgląd. [Coscientist](./coscientist) dziedziczy tę zasadę po [Extracranial](./extracranial) oraz po ideach z [Tworzenie cyfrowych mózgów nowej generacji](./creating-next-gen-digital-brains).
+Tarcie nie jest unikaniem lenistwa; to uznanie, że narzut poznawczy (cognitive overhead) konkuruje z myśleniem. Czas poświęcony na taksonomię (taxonomy) to czas niepoświęcony na wgląd. [Współnaukowiec](./coscientist) dziedziczy tę zasadę po [Extracranial](./extracranial) oraz po ideach z [Tworzenie cyfrowych mózgów nowej generacji](./creating-next-gen-digital-brains).

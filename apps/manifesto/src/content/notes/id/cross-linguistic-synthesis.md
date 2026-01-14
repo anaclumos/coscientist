@@ -5,7 +5,7 @@ description: Menggabungkan pengetahuan dari berbagai bahasa menjadi pemahaman te
 
 Sintesis lintas-bahasa adalah proses menggabungkan pengetahuan dari sumber dalam berbagai bahasa menjadi satu pemahaman yang koheren. Ini lebih dari sekadar terjemahan: ia memungkinkan gagasan dari berbagai [ruang bahasa](./sprachraum) bertemu, tidak sepakat, dan saling memperbarui.
 
-Bagi [Coscientist](./coscientist), ini adalah kemampuan bawaan karena [LLM](./llm) modern dapat membaca banyak bahasa. Dalam praktiknya, sintesis lintas-bahasa dapat:
+Bagi [Kosaintis](./coscientist), ini adalah kemampuan bawaan karena [Model Bahasa Besar](./llm) modern dapat membaca banyak bahasa. Dalam praktiknya, sintesis lintas-bahasa dapat:
 
 - menarik [sumber](./source) lintas bahasa
 - mengekstrak dan menormalkan [klaim](./claim)

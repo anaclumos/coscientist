@@ -3,7 +3,7 @@ title: Mekanisme Sintesis
 description: Pola untuk membuat sumber yang tidak kompatibel menjadi dapat diperbandingkan
 ---
 
-Mekanisme sintesis adalah pola dan protokol yang digunakan [Coscientist](./coscientist) untuk membuat sumber yang tidak kompatibel menjadi dapat diperbandingkan dan untuk menghasilkan keluaran terstruktur dari konflik.
+Mekanisme sintesis adalah pola dan protokol yang digunakan [Kosaintis](./coscientist) untuk membuat sumber yang tidak kompatibel menjadi dapat diperbandingkan dan untuk menghasilkan keluaran terstruktur dari konflik.
 
 ## Proses Inti
 

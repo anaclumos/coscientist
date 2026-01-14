@@ -3,7 +3,7 @@ title: Réseau de connaissance fédéré
 description: Instances de Coscientist interconnectées échangeant des connaissances validées tout en préservant la souveraineté locale
 ---
 
-Un réseau de connaissance fédéré est un système d’instances [Coscientist](./coscientist) interconnectées, à l’échelle personnelle, organisationnelle et publique, qui échangent des connaissances validées tout en préservant la souveraineté locale. Chaque nœud maintient son propre [Graphe dialectique](./dialectical-graph) et sa propre [couche de protocole épistémique](./epistemic-protocol-layer) ; la fédération fournit un canal de partage sans abandonner le contrôle.
+Un réseau de connaissance fédéré est un système d’instances [Coscientifique](./coscientist) interconnectées, à l’échelle personnelle, organisationnelle et publique, qui échangent des connaissances validées tout en préservant la souveraineté locale. Chaque nœud maintient son propre [Graphe dialectique](./dialectical-graph) et sa propre [couche de protocole épistémique](./epistemic-protocol-layer) ; la fédération fournit un canal de partage sans abandonner le contrôle.
 
 La fédération répond à la tension entre collaboration et autonomie. Une équipe de recherche peut conserver des hypothèses privées tout en important des affirmations publiques vérifiées. Un commun de connaissances public peut agréger des contributions sans qu’aucune autorité unique ne dicte la vérité.
 

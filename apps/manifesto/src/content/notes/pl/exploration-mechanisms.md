@@ -3,7 +3,7 @@ title: Mechanizmy eksploracji
 description: Strategie ciągłego odkrywania wiedzy w grafie dialektycznym
 ---
 
-Mechanizmy eksploracji to strategie, których [Coscientist](./coscientist) używa do ciągłego wykrywania sprzeczności, warunków brzegowych oraz zależności między metodami w [Grafie Dialektycznym](./dialectical-graph).
+Mechanizmy eksploracji to strategie, których [Współnaukowiec](./coscientist) używa do ciągłego wykrywania sprzeczności, warunków brzegowych oraz zależności między metodami w [Grafie Dialektycznym](./dialectical-graph).
 
 ## Strategie wyszukiwania
 

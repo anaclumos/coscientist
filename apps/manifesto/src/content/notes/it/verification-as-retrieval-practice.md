@@ -7,4 +7,4 @@ La verifica come pratica di recupero è l’intuizione secondo cui il lavoro di 
 
 Questa connessione è importante perché suggerisce che una [verifica](./verification) rigorosa non è solo epistemicamente più sicura; è anche migliore per l’apprendimento. Lo sforzo del controllo rafforza la memoria. La [trappola della fluidità](./fluency-trap) fallisce su entrambi i fronti: accettare una prosa scorrevole senza scrutinio non verifica e non insegna.
 
-[Coscientist](./coscientist) lo sostiene portando in superficie la struttura delle affermazioni, invece di nasconderla dietro la narrazione. Quando l’[Operatore](./operator) interagisce con il [Grafo dialettico](./dialectical-graph), sta svolgendo il lavoro cognitivo che la scienza dell’apprendimento mostra essere efficace.
+[Coscienziato](./coscientist) lo sostiene portando in superficie la struttura delle affermazioni, invece di nasconderla dietro la narrazione. Quando l’[Operatore](./operator) interagisce con il [Grafo dialettico](./dialectical-graph), sta svolgendo il lavoro cognitivo che la scienza dell’apprendimento mostra essere efficace.

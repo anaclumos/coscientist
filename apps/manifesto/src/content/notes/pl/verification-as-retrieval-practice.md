@@ -7,4 +7,4 @@ Weryfikacja jako praktyka wydobywania z pamięci to spostrzeżenie, że praca we
 
 To powiązanie jest istotne, ponieważ sugeruje, że rygorystyczna [weryfikacja](./verification) jest nie tylko epistemicznie bezpieczniejsza; jest też lepsza dla uczenia się. Wysiłek sprawdzania wzmacnia pamięć. [Pułapka płynności](./fluency-trap) zawodzi na obu frontach: akceptowanie gładkiej prozy bez krytycznego namysłu ani nie weryfikuje, ani nie uczy.
 
-[Coscientist](./coscientist) wspiera to, ujawniając strukturę twierdzeń zamiast ukrywać ją za narracją. Gdy [Operator](./operator) pracuje z [Grafem Dialektycznym](./dialectical-graph), wykonuje wysiłek poznawczy, który — jak pokazuje nauka o uczeniu się — jest skuteczny.
+[Współnaukowiec](./coscientist) wspiera to, ujawniając strukturę twierdzeń zamiast ukrywać ją za narracją. Gdy [Operator](./operator) pracuje z [Grafem Dialektycznym](./dialectical-graph), wykonuje wysiłek poznawczy, który — jak pokazuje nauka o uczeniu się — jest skuteczny.

@@ -7,4 +7,4 @@ Die Inkompatibilitäts-Taxonomie ist eine Klassifikation der Gründe, warum Quel
 
 Diese Unterscheidungen sind wichtig, weil sich die Strategien zur Auflösung unterscheiden. Ein Definitionsunterschied wird durch Disambiguierung geklärt; ein Methodenunterschied kann das erneute Durchführen von Experimenten erfordern; ein Scope-Unterschied löst sich auf, wenn die Bedingungen explizit gemacht werden. Wenn man jede Uneinigkeit als „sie sind sich halt uneinig“ behandelt, geht diese Struktur verloren.
 
-[Wissenssynthese](./knowledge-synthesis) in [Coscientist](./coscientist) nutzt diese Taxonomie, um Konflikte in ihre Ursachen zu zerlegen, und erzeugt [verzweigte Auflösungslandkarten](./branched-resolution-map) statt erzwungener Mittelwerte.
+[Wissenssynthese](./knowledge-synthesis) in [Kozientist](./coscientist) nutzt diese Taxonomie, um Konflikte in ihre Ursachen zu zerlegen, und erzeugt [verzweigte Auflösungslandkarten](./branched-resolution-map) statt erzwungener Mittelwerte.

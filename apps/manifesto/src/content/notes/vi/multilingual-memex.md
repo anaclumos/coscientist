@@ -15,4 +15,4 @@ Hệ quả về mặt kiến trúc là rất đáng kể. Các thành phần gia
 
 Đó là lý do [Extracranial](./extracranial) xem đóng góp của cộng đồng qua GitHub như một cách để tinh chỉnh bản dịch: dịch máy giúp nội dung đa ngôn ngữ trở nên khả thi, nhưng cần con người rà soát để duy trì [độ trung thực của bản dịch](./translation-fidelity). Memex đa ngôn ngữ không phải là một bài toán đã được giải, mà là một sự cộng tác liên tục giữa các hệ thống tự động và năng lực phán đoán của con người.
 
-Đối với [Coscientist](./coscientist), Memex đa ngôn ngữ trở thành [Đồ thị biện chứng](./dialectical-graph) đa ngôn ngữ: một cấu trúc lưu trữ [các khẳng định](./claim), [các đoạn bằng chứng](./evidence-span), và các quan hệ từ bất kỳ ngôn ngữ nào, coi ngôn ngữ như siêu dữ liệu (metadata) thay vì một ranh giới nền tảng.
+Đối với [Nhà đồng khoa học](./coscientist), Memex đa ngôn ngữ trở thành [Đồ thị biện chứng](./dialectical-graph) đa ngôn ngữ: một cấu trúc lưu trữ [các khẳng định](./claim), [các đoạn bằng chứng](./evidence-span), và các quan hệ từ bất kỳ ngôn ngữ nào, coi ngôn ngữ như siêu dữ liệu (metadata) thay vì một ranh giới nền tảng.

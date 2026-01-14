@@ -3,7 +3,7 @@ title: Estrategias de exploración
 description: Estrategias de recorrido de grafos para el descubrimiento continuo de conocimiento
 ---
 
-[Coscientist](./coscientist) necesita más que recuperación: necesita exploración que haga aflorar activamente contradicciones, condiciones de contorno y dependencia del método en el [Grafo dialéctico](./dialectical-graph).
+[Cocientífico](./coscientist) necesita más que recuperación: necesita exploración que haga aflorar activamente contradicciones, condiciones de contorno y dependencia del método en el [Grafo dialéctico](./dialectical-graph).
 
 Las estrategias clave incluyen:
 

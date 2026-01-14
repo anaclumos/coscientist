@@ -3,7 +3,7 @@ title: IA
 description: L’intelligence artificielle à la fois comme outil et comme défi pour les systèmes de connaissance
 ---
 
-L’IA (Intelligence Artificielle) dans le contexte de [Coscientist](./coscientist) désigne des systèmes qui accomplissent des tâches cognitives traditionnellement associées à l’intelligence humaine : lire, résumer, générer et raisonner à propos de textes. La technologie principale est le [LLM](./llm) (Large Language Model).
+L’IA (Intelligence Artificielle) dans le contexte de [Coscientifique](./coscientist) désigne des systèmes qui accomplissent des tâches cognitives traditionnellement associées à l’intelligence humaine : lire, résumer, générer et raisonner à propos de textes. La technologie principale est le [LLM](./llm) (Large Language Model).
 
 L’IA est simultanément le moteur et la menace. D’un côté, l’IA effectue le [travail de contemplation](./contemplation-labor) : chercher, structurer et générer des candidats à des vitesses impossibles pour les humains. De l’autre, l’IA crée des modes de défaillance qui exigent de nouvelles défenses : [hallucination](./hallucination), [boue d’IA](./ai-slop), [effondrement du modèle](./model-collapse) et [Fusion de l’Encyclopédie](./encyclopedia-meltdown).
 

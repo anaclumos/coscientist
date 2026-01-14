@@ -3,11 +3,11 @@ title: Foundation-Fiktion
 description: Von Asimov inspirierte Konzepte, die Coscientists Vision prägen
 ---
 
-Foundation-Fiktion bezeichnet Konzepte aus [Isaac Asimov](./isaac-asimov)s Foundation-Reihe, die [Coscientist](./coscientist)s Vision prägen. Die fiktive [Encyclopedia Galactica](./encyclopedia-galactica) ist ein Bezugspunkt, um über Wissensbewahrung und Leistungsfähigkeit nachzudenken.
+Foundation-Fiktion bezeichnet Konzepte aus [Isaac Asimov](./isaac-asimov)s Foundation-Reihe, die [Kozientist](./coscientist)s Vision prägen. Die fiktive [Enzyklopädie Galactica](./encyclopedia-galactica) ist ein Bezugspunkt, um über Wissensbewahrung und Leistungsfähigkeit nachzudenken.
 
 ## Kernkonzepte
 
-- [Encyclopedia Galactica](./encyclopedia-galactica) — das fiktive Wissensarchiv
+- [Enzyklopädie Galactica](./encyclopedia-galactica) — das fiktive Wissensarchiv
 - [Psychohistorie](./psychohistory) — Asimovs statistische Wissenschaft der Zivilisationen
 - [Seldon-Plan](./seldon-plan) — [Hari Seldon](./hari-seldon)s langfristige Strategie
 - [Dunkle Nacht der Seele](./dark-night-of-the-soul) — Metapher für zivilisatorischen oder epistemischen Kollaps

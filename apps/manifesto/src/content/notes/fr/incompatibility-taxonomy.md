@@ -7,4 +7,4 @@ La taxonomie des incompatibilités est une classification des raisons pour lesqu
 
 Il est important de distinguer ces cas, car les stratégies de résolution diffèrent. Une différence de définition se résout par désambiguïsation ; une différence de méthode peut nécessiter de relancer les expériences ; une différence de périmètre se dissipe lorsque les conditions sont rendues explicites. Traiter tout désaccord comme « ils ne sont juste pas d’accord » fait perdre cette structure.
 
-La [synthèse des connaissances](./knowledge-synthesis) dans [Coscientist](./coscientist) utilise cette taxonomie pour décomposer les conflits en leurs causes, en produisant des [cartes de résolution ramifiées](./branched-resolution-map) plutôt que des moyennes forcées.
+La [synthèse des connaissances](./knowledge-synthesis) dans [Coscientifique](./coscientist) utilise cette taxonomie pour décomposer les conflits en leurs causes, en produisant des [cartes de résolution ramifiées](./branched-resolution-map) plutôt que des moyennes forcées.

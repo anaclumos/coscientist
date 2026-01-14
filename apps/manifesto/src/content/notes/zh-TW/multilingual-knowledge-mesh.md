@@ -9,4 +9,4 @@ description: 一個跨越語言並在全球分散式運作的知識網路
 
 [Extracranial](./extracranial) 透過自動語言偵測、內容協商（content negotiation），以及用於依地區語系投遞的 hreflang 標籤，實作了這一理念的早期形式。其願景是：系統應能跨語言自動分發內容，同時不論其原始語言為何，都會對過時內容施加懲罰。
 
-對於 [Coscientist](./coscientist) 而言，多語言網格是不可或缺的。全球科學橫跨多種語言；若研究協作者只能閱讀英文，就在根本上有所侷限。[辯證圖（Dialectical Graph）](./dialectical-graph) 可以儲存任何語言的[主張](./claim)，並透過[溯源（provenance）](./provenance) 追蹤哪一種來源語言產生了哪些洞見。
+對於 [共科學家](./coscientist) 而言，多語言網格是不可或缺的。全球科學橫跨多種語言；若研究協作者只能閱讀英文，就在根本上有所侷限。[辯證圖（Dialectical Graph）](./dialectical-graph) 可以儲存任何語言的[主張](./claim)，並透過[溯源（provenance）](./provenance) 追蹤哪一種來源語言產生了哪些洞見。

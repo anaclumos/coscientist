@@ -3,7 +3,7 @@ title: Synthesemechanismen
 description: Muster, um inkompatible Quellen vergleichbar zu machen
 ---
 
-Synthesemechanismen sind die Muster und Protokolle, die [Coscientist](./coscientist) verwendet, um inkompatible Quellen vergleichbar zu machen und aus Konflikten strukturierte Ausgaben zu erzeugen.
+Synthesemechanismen sind die Muster und Protokolle, die [Kozientist](./coscientist) verwendet, um inkompatible Quellen vergleichbar zu machen und aus Konflikten strukturierte Ausgaben zu erzeugen.
 
 ## Kernprozess
 

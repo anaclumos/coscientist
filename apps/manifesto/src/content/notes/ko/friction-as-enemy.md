@@ -7,4 +7,4 @@ description: 마찰이 개인 지식 워크플로를 죽인다는 설계 원칙
 
 이 원칙은 [디지털 정글](./digital-jungle) 모델을 뒷받침한다. 날것의 지식을 그냥 던져 넣고, 시스템이 그것을 정리하고 연결하며 다시 떠올리게(resurface) 하도록 한다. 정원을 관리하는 최선의 방법은 끊임없는 손질이 아니라, 스스로 유지되는 시스템을 만드는 것이다.
 
-마찰은 게으름을 피하려는 것이 아니다. 인지적 오버헤드(cognitive overhead)가 사고와 경쟁한다는 사실을 인정하는 것이다. 분류 체계(taxonomy)에 쓰는 시간은 통찰에 쓰지 못하는 시간이다. [Coscientist](./coscientist)는 이 원칙을 [Extracranial](./extracranial)과 [차세대 디지털 브레인 만들기](./creating-next-gen-digital-brains)에 담긴 아이디어에서 물려받는다.
+마찰은 게으름을 피하려는 것이 아니다. 인지적 오버헤드(cognitive overhead)가 사고와 경쟁한다는 사실을 인정하는 것이다. 분류 체계(taxonomy)에 쓰는 시간은 통찰에 쓰지 못하는 시간이다. [코사이언티스트](./coscientist)는 이 원칙을 [엑스트라크래니얼](./extracranial)과 [차세대 디지털 브레인 만들기](./creating-next-gen-digital-brains)에 담긴 아이디어에서 물려받는다.

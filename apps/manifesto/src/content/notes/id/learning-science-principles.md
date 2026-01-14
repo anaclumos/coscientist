@@ -3,7 +3,7 @@ title: Prinsip-Prinsip Sains Pembelajaran
 description: Teknik berbasis bukti untuk pembelajaran dan memori yang bertahan lama
 ---
 
-Prinsip-prinsip sains pembelajaran adalah teknik berbasis bukti untuk memperoleh pengetahuan yang bertahan, dapat ditransfer, dan tetap mudah diakses di bawah tekanan. Prinsip-prinsip ini menjelaskan bagaimana [Coscientist](./coscientist) mendukung kerja kognitif [Operator](./operator).
+Prinsip-prinsip sains pembelajaran adalah teknik berbasis bukti untuk memperoleh pengetahuan yang bertahan, dapat ditransfer, dan tetap mudah diakses di bawah tekanan. Prinsip-prinsip ini menjelaskan bagaimana [Kosaintis](./coscientist) mendukung kerja kognitif [Operator](./operator).
 
 ## Teknik Inti
 

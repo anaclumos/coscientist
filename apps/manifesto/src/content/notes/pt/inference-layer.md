@@ -7,4 +7,4 @@ A camada de inferência é a rede viva e evolutiva de [alegações](./claim), [a
 
 Ao contrário da [camada narrativa](./narrative-layer), que produz documentos legíveis por humanos, a camada de inferência é uma estrutura de grafo otimizada para raciocínio e atualização. Quando novas evidências chegam, a camada de inferência muda; as narrativas são regeneradas conforme necessário.
 
-Essa separação é o motivo pelo qual o [Coscientist](./coscientist) trata documentos como projeções, e não como verdade fundamental. Um documento é um instantâneo da camada de inferência em um determinado momento. O conhecimento vivo está no grafo; a prosa é uma renderização.
+Essa separação é o motivo pelo qual o [Cocientista](./coscientist) trata documentos como projeções, e não como verdade fundamental. Um documento é um instantâneo da camada de inferência em um determinado momento. O conhecimento vivo está no grafo; a prosa é uma renderização.

@@ -3,11 +3,11 @@ title: "输出 Token ≠ 知识"
 description: 一场关于认知外骨骼的个人探索
 ---
 
-我，[Sunghyun Cho](./sunghyun-cho)，从小就对百科全书怀有敬畏之心，也迷恋“单一权威知识仓库”的想法。孩童时期，我反复研读 _Encyclopedia Galactica_，想象一个世界：我所有的项目与研究都能栖居在一个通用参考体系中。后来我读到 [Vannevar Bush](./vannevar-bush) 在 1945 年发表的文章 [As We May Think](./as-we-may-think)，其中描述了 [Memex](./memex)：一种档案系统，允许个人保存记录，并通过联想式路径将其取回。那种愿景对我而言就像一种认知外骨骼。
+我，[曹成贤](./sunghyun-cho)，从小就对百科全书怀有敬畏之心，也迷恋“单一权威知识仓库”的想法。孩童时期，我反复研读 _Encyclopedia Galactica_，想象一个世界：我所有的项目与研究都能栖居在一个通用参考体系中。后来我读到 [范内瓦·布什](./vannevar-bush) 在 1945 年发表的文章 [诚如所思](./as-we-may-think)，其中描述了 [记忆延伸器](./memex)：一种档案系统，允许个人保存记录，并通过联想式路径将其取回。那种愿景对我而言就像一种认知外骨骼。
 
 当我在 21 世纪开启自己的职业生涯时，互联网已成为“全球 Memex”的粗糙近似。然而仍缺了点什么：它保存了集体记录，却没能捕捉个体的心智——包括个人语境、不断演化的洞见与“活的”想法。我尝试过 [第二大脑](./second-brain) 工具与 [数字花园](./digital-garden) 实践，却发现它们过于依赖手工、也过于脆弱。我想要一个外置的 [数字大脑](./digital-brain)，能够以最小摩擦持续生长与自我适配。
 
-这个意识引发了 [Project Aldehyde](./project-aldehyde)：我试图为个人用途构建一个超越 Memex 的系统。多年的迭代最终汇聚到我在 2022 年 5 月的文章 [Creating Next-gen Digital Brains](./creating-next-gen-digital-brains)。我在文中主张：摩擦是个人知识工作流的敌人——管理花园的最佳方式不是持续修剪照料，而是培育一个能自组织的 [数字丛林](./digital-jungle)。你应该能把原始知识直接“扔进去”，让系统自行组织、链接并重新浮现相关内容。
+这个意识引发了 [醛项目](./project-aldehyde)：我试图为个人用途构建一个超越 Memex 的系统。多年的迭代最终汇聚到我在 2022 年 5 月的文章 [构建下一代数字大脑](./creating-next-gen-digital-brains)。我在文中主张：摩擦是个人知识工作流的敌人——管理花园的最佳方式不是持续修剪照料，而是培育一个能自组织的 [数字丛林](./digital-jungle)。你应该能把原始知识直接“扔进去”，让系统自行组织、链接并重新浮现相关内容。
 
 到 2022 年年中，我用一个从 Obsidian 到网页的静态站点流水线实现了原型，并将其命名为 [Extracranial](./extracranial)。它是一个个人数字大脑：自动索引内容、建议反向链接、允许旧文章自然“腐烂”（除非标记为 evergreen/常青），并能在 [跨越 Sprachraums](./across-the-sprachraums) 的双语环境中运行。它让我不必再事无巨细地管理链接，从而把精力集中在写作与思考上。
 
@@ -25,19 +25,19 @@ description: 一场关于认知外骨骼的个人探索
 
 手动链接仍能深化理解，但它应该是可选项。系统应当承担重体力工作。
 
-到 2023 年，我开始困扰于一些超越个人笔记的问题。AI 生成内容威胁到“验证”本身。我把这种崩塌情景称为 [Encyclopedia Meltdown](./encyclopedia-meltdown)：当 AI 主动承担写作时，[责任线](./responsibility-line) 消失，错误会通过链接自我放大。
+到 2023 年，我开始困扰于一些超越个人笔记的问题。AI 生成内容威胁到“验证”本身。我把这种崩塌情景称为 [百科全书崩溃](./encyclopedia-meltdown)：当 AI 主动承担写作时，[责任线](./responsibility-line) 消失，错误会通过链接自我放大。
 
-对策是构建一个 [认识论协议层](./epistemic-protocol-layer)：为知识系统提供一种“宪法式”的底层。其核心承诺包括：主权（知识权威仍归属于人类 [Operator](./operator)）、可追溯性（每个主张都保留一条责任线）、以及“反驳优先”的验证（在接受之前使用 [rebuttal-first search](./rebuttal-first-search) 寻找反证）。这一层也通过强制显式溯源与零信任摄取（zero-trust ingestion）来应对 [模型崩塌](./model-collapse) 与 [AI slop](./ai-slop) 泛滥等压力。
+对策是构建一个 [认识论协议层](./epistemic-protocol-layer)：为知识系统提供一种“宪法式”的底层。其核心承诺包括：主权（知识权威仍归属于人类 [操作者](./operator)）、可追溯性（每个主张都保留一条责任线）、以及“反驳优先”的验证（在接受之前使用 [反驳优先搜索](./rebuttal-first-search) 寻找反证）。这一层也通过强制显式溯源与零信任摄取（zero-trust ingestion）来应对 [模型崩塌](./model-collapse) 与 [AI slop](./ai-slop) 泛滥等压力。
 
 ## ScienceOps 与机构尺度
 
 个人知识基础设施解决的是便利性，而不是机构尺度。下一次跃迁是 [ScienceOps](./scienceops)：将软件运维（operations）纪律应用到科学研究中，通过可复现实验、自动化与快速迭代，并引入 [自然科学工程师](./natural-science-engineer) 的角色。当实验变成流水线而非一次性操作时，假设与验证之间的循环可以显著缩短。
 
-更大的目标是打造一个“科学家的 GitHub”，把实验当作代码来对待：可版本化、可重复、可审计。这种运营语境要求一种像 [Coscientist](./coscientist) 这样的认知引擎。
+更大的目标是打造一个“科学家的 GitHub”，把实验当作代码来对待：可版本化、可重复、可审计。这种运营语境要求一种像 [共研者](./coscientist) 这样的认知引擎。
 
 ## Coscientist：架构、能动性与蓝图
 
-[Coscientist](./coscientist) 是将这些线索综合到一起的系统。它是一种多智能体 [LLM](./llm) 架构，目标是作为研究协作者运作，而非单一的答案引擎。其内部循环把提案、批判、排序与精炼分离，并通过一个元审查层（meta-review）检查一致性、可追溯性与不确定性。
+[共研者](./coscientist) 是将这些线索综合到一起的系统。它是一种多智能体 [大语言模型](./llm) 架构，目标是作为研究协作者运作，而非单一的答案引擎。其内部循环把提案、批判、排序与精炼分离，并通过一个元审查层（meta-review）检查一致性、可追溯性与不确定性。
 
 在知识层面，它维护一个 [辩证图谱](./dialectical-graph)：存储的是主张及其关系，而非原始文本。叙事输出被视为推理层的投影，因此每一句陈述都能回溯到来源、证据片段（evidence spans）与显式关系。这种分离避免了传统生成中“顺滑但不可验证”的失效模式。
 
@@ -45,4 +45,4 @@ description: 一场关于认知外骨骼的个人探索
 
 Coscientist 被设计为一种新认识论基础设施的蓝图：无摩擦但具主权、快速但可问责、强大但不侵蚀能动性。它瞄准三种失效模式：机构性脑腐（通过交叉引用与对抗式审查缓解）、验证崩塌（通过可追溯性与自动化反驳搜索缓解）、以及能动性流失（通过透明性与人类否决权缓解）。
 
-长期愿景是：在个人、组织与公共尺度上形成一个联邦式的 Coscientist 实例网络，在保留本地主权的同时交换已验证的知识。如果你想按路径阅读，可以从 [Creating Next-gen Digital Brains](./creating-next-gen-digital-brains)（个人工具）开始，然后读 [Encyclopedia Meltdown](./encyclopedia-meltdown) 与 [认识论协议层](./epistemic-protocol-layer)（失效模式及其防御），再读 [Dialectical Graph](./dialectical-graph) 与 [knowledge synthesis](./knowledge-synthesis)（架构）。
+长期愿景是：在个人、组织与公共尺度上形成一个联邦式的 Coscientist 实例网络，在保留本地主权的同时交换已验证的知识。如果你想按路径阅读，可以从 [构建下一代数字大脑](./creating-next-gen-digital-brains)（个人工具）开始，然后读 [百科全书崩溃](./encyclopedia-meltdown) 与 [认识论协议层](./epistemic-protocol-layer)（失效模式及其防御），再读 [辩证图谱](./dialectical-graph) 与 [知识合成](./knowledge-synthesis)（架构）。

@@ -7,4 +7,4 @@ Utrata kompetencji wskutek delegowania zadań do AI to ryzyko, że przenoszenie 
 
 To zjawisko jest powiązane z [załamaniem modelu](./model-collapse), ale zachodzi u człowieka, a nie w modelu: umiejętności zanikają, gdy nie są ćwiczone. [Metauczenie](./meta-learning) wymaga wykonywania procesu uczenia się, a nie tylko otrzymywania wyniku.
 
-[Coscientist](./coscientist) przeciwdziała temu, traktując AI jako partnera w [pracy kontemplacyjnej](./contemplation-labor), a nie jako zamiennik osądu. Operator nadal wykonuje [aktywne odtwarzanie](./active-recall), śledzi [fragmenty dowodowe](./evidence-span) i angażuje się w [spór](./contention). System zajmuje się wyszukiwaniem i strukturyzacją; człowiek — weryfikacją i podejmowaniem decyzji.
+[Współnaukowiec](./coscientist) przeciwdziała temu, traktując AI jako partnera w [pracy kontemplacyjnej](./contemplation-labor), a nie jako zamiennik osądu. Operator nadal wykonuje [aktywne odtwarzanie](./active-recall), śledzi [fragmenty dowodowe](./evidence-span) i angażuje się w [spór](./contention). System zajmuje się wyszukiwaniem i strukturyzacją; człowiek — weryfikacją i podejmowaniem decyzji.

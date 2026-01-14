@@ -13,6 +13,6 @@ description: 知識システムにおける言語の境界を超えるという�
 
 これは単なる翻訳の話ではありません。真に言語横断的なシステムは、概念の [language-agnostic index](./language-agnostic-indexing)（言語非依存インデックス）を維持し、[translation fidelity](./translation-fidelity)（翻訳忠実度）を保ち、[translation nuance loss](./translation-nuance-loss)（翻訳によるニュアンスの損失）を防がなければなりません。目標は、韓国語のノートが単なる単語の一致ではなく、その背後にある概念を介して英語のノートへリンクできるような [multilingual knowledge mesh](./multilingual-knowledge-mesh)（多言語知識メッシュ）です。
 
-[Extracranial](./extracranial) は、バイリンガルコンテンツ、自動言語検出、hreflang タグによってこれを実装します。[Coscientist](./coscientist) はこのビジョンをさらに拡張します。[LLMs](./llm) を用いるため、あらゆる言語の文献を読み取り統合（synthesize）でき、[cross-linguistic synthesis](./cross-linguistic-synthesis)（言語横断的統合）を後付けではなくネイティブな能力として実現します。
+[Extracranial](./extracranial) は、バイリンガルコンテンツ、自動言語検出、hreflang タグによってこれを実装します。[コサイエンティスト](./coscientist) はこのビジョンをさらに拡張します。[LLMs](./llm) を用いるため、あらゆる言語の文献を読み取り統合（synthesize）でき、[cross-linguistic synthesis](./cross-linguistic-synthesis)（言語横断的統合）を後付けではなくネイティブな能力として実現します。
 
 参照: https://cho.sh/r/2EB438.

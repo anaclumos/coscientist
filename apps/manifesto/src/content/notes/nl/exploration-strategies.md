@@ -3,7 +3,7 @@ title: Verkenningsstrategieën
 description: Strategieën voor graf-traversal voor continue kennisontdekking
 ---
 
-[Coscientist](./coscientist) heeft meer nodig dan retrieval: het heeft verkenning nodig die actief tegenstrijdigheden, randvoorwaarden en methode-afhankelijkheid in de [Dialectische Graaf](./dialectical-graph) naar boven haalt.
+[Cowetenschapper](./coscientist) heeft meer nodig dan retrieval: het heeft verkenning nodig die actief tegenstrijdigheden, randvoorwaarden en methode-afhankelijkheid in de [Dialectische Graaf](./dialectical-graph) naar boven haalt.
 
 Belangrijke strategieën zijn:
 

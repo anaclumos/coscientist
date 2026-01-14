@@ -11,6 +11,6 @@ Le projet incarnait la vision [à travers les Sprachraums](./across-the-sprachra
 
 Cette issue était préoccupante plutôt que réjouissante. Elle a montré à quelle vitesse les capacités de l’IA peuvent rendre obsolètes des projets d’infrastructure humaine pourtant bien intentionnés. Ce qui a pris des mois à concevoir et à construire est devenu sans objet, non pas parce que le projet a échoué, mais parce que le problème qu’il résolvait s’est évaporé. La rapidité de ce basculement soulève des questions plus profondes sur la stabilité de toute infrastructure de connaissance à l’ère d’une progression rapide de l’IA.
 
-Pour [Coscientist](./coscientist), PIRI reste une mise en garde : les systèmes conçus autour des limites actuelles de l’IA peuvent devenir obsolètes à mesure que ces limites disparaissent. La vision [à travers les Sprachraums](./across-the-sprachraums) perdure, mais sa mise en œuvre doit tenir compte de capacités de l’IA qui évoluent plus vite que les projets humains ne peuvent s’adapter.
+Pour [Coscientifique](./coscientist), PIRI reste une mise en garde : les systèmes conçus autour des limites actuelles de l’IA peuvent devenir obsolètes à mesure que ces limites disparaissent. La vision [à travers les Sprachraums](./across-the-sprachraums) perdure, mais sa mise en œuvre doit tenir compte de capacités de l’IA qui évoluent plus vite que les projets humains ne peuvent s’adapter.
 
 Référence : https://cho.sh/r/69794B.

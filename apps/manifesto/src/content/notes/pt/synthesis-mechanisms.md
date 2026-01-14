@@ -3,7 +3,7 @@ title: Mecanismos de Síntese
 description: Padrões para tornar fontes incompatíveis comparáveis
 ---
 
-Mecanismos de síntese são os padrões e protocolos que o [Coscientist](./coscientist) usa para tornar fontes incompatíveis comparáveis e para produzir saídas estruturadas a partir de conflitos.
+Mecanismos de síntese são os padrões e protocolos que o [Cocientista](./coscientist) usa para tornar fontes incompatíveis comparáveis e para produzir saídas estruturadas a partir de conflitos.
 
 ## Processo Central
 

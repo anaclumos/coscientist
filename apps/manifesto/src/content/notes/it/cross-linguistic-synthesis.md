@@ -5,7 +5,7 @@ description: Combinare conoscenze provenienti da più lingue in una comprensione
 
 La sintesi interlinguistica è il processo di combinare conoscenze provenienti da fonti in lingue diverse in un’unica comprensione coerente. È più della traduzione: permette alle idee di diversi [Sprachraums](./sprachraum) di incontrarsi, dissentire e aggiornarsi a vicenda.
 
-Per [Coscientist](./coscientist), questa è una capacità nativa perché i moderni [LLMs](./llm) possono leggere molte lingue. In pratica, la sintesi interlinguistica può:
+Per [Coscienziato](./coscientist), questa è una capacità nativa perché i moderni [LLMs](./llm) possono leggere molte lingue. In pratica, la sintesi interlinguistica può:
 
 - raccogliere [fonti](./source) tra più lingue
 - estrarre e normalizzare [affermazioni](./claim)

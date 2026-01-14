@@ -3,7 +3,7 @@ title: Mécanismes d’exploration
 description: Stratégies de découverte continue des connaissances dans un graphe dialectique
 ---
 
-Les mécanismes d’exploration sont les stratégies que [Coscientist](./coscientist) utilise pour découvrir en continu des contradictions, des conditions aux limites et des dépendances de méthode dans le [Graphe dialectique](./dialectical-graph).
+Les mécanismes d’exploration sont les stratégies que [Coscientifique](./coscientist) utilise pour découvrir en continu des contradictions, des conditions aux limites et des dépendances de méthode dans le [Graphe dialectique](./dialectical-graph).
 
 ## Stratégies de recherche
 

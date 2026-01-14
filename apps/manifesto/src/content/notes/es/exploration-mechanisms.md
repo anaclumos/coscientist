@@ -3,7 +3,7 @@ title: Mecanismos de exploración
 description: Estrategias para el descubrimiento continuo de conocimiento en un grafo dialéctico
 ---
 
-Los mecanismos de exploración son las estrategias que [Coscientist](./coscientist) utiliza para descubrir continuamente contradicciones, condiciones de contorno y dependencias de método en el [Grafo dialéctico](./dialectical-graph).
+Los mecanismos de exploración son las estrategias que [Cocientífico](./coscientist) utiliza para descubrir continuamente contradicciones, condiciones de contorno y dependencias de método en el [Grafo dialéctico](./dialectical-graph).
 
 ## Estrategias de búsqueda
 

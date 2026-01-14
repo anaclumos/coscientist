@@ -7,6 +7,6 @@ Extracranialは、[Sunghyun Cho](./sunghyun-cho)の個人的なデジタル脳�
 
 このシステムは[多言語Memex](./multilingual-memex)の原則を実装している。つまり、自動言語検出、ロケール別コンテンツのためのhreflangタグ、そして英語と韓国語によるバイリンガル運用である。これにより、知識が単一の言語圏に制約されない、[Sunghyun Cho](./sunghyun-cho)の「[Sprachraumsを横断する](./across-the-sprachraums)」というビジョンを支援する。このアーキテクチャは、ある言語で書かれたコンテンツを、異なる言語で自動的にグローバル配信できるようにする。
 
-それは[Project Aldehyde](./project-aldehyde)および[次世代デジタル脳の創り方](./creating-next-gen-digital-brains)にあるアイデアから発展した。
+それは[プロジェクト・アルデヒド](./project-aldehyde)および[次世代デジタル脳の創り方](./creating-next-gen-digital-brains)にあるアイデアから発展した。
 
 参照: https://cho.sh/r/000000。

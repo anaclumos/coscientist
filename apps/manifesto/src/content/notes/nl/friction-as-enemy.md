@@ -7,4 +7,4 @@ Frictie als vijand is het ontwerpprincipe dat onnodige moeite bij het vastleggen
 
 Dit principe motiveert het model van de [digitale jungle](./digital-jungle): gooi ruwe kennis erin en laat het systeem het organiseren, linken en opnieuw naar boven halen. De beste manier om een tuin te beheren is niet voortdurend wieden en snoeien, maar systemen bouwen die zichzelf onderhouden.
 
-Frictie gaat niet over het vermijden van luiheid; het is de erkenning dat cognitieve overhead concurreert met denken. Tijd besteed aan taxonomie is tijd die niet aan inzicht wordt besteed. [Coscientist](./coscientist) erft dit principe van [Extracranial](./extracranial) en de ideeën in [Next-gen digitale breinen creëren](./creating-next-gen-digital-brains).
+Frictie gaat niet over het vermijden van luiheid; het is de erkenning dat cognitieve overhead concurreert met denken. Tijd besteed aan taxonomie is tijd die niet aan inzicht wordt besteed. [Cowetenschapper](./coscientist) erft dit principe van [Extracranial](./extracranial) en de ideeën in [Next-gen digitale breinen creëren](./creating-next-gen-digital-brains).

@@ -5,6 +5,6 @@ description: 作為治理文件的認識論協議層，用以規範主張如何�
 
 知識憲章是一套規則，用來規範 [主張](./claim) 如何進入知識系統、如何受到質疑，以及在獲得權威之前需要具備哪些 [可追溯性](./traceability)。它的功能類似政治憲法：規定權力、限制與程序，而非具體內容。
 
-[認識論協議層](./epistemic-protocol-layer) 是 [Coscientist](./coscientist) 的憲章。它承諾主權（最終判斷仍由 [操作員](./operator) 掌握）、可追溯性（保留 [責任鏈](./responsibility-line)），以及對抗式驗證（如同 [以反駁為先的搜尋](./rebuttal-first-search)）。這些是對流程的約束，而不是對結論的約束。
+[認識論協議層](./epistemic-protocol-layer) 是 [共科學家](./coscientist) 的憲章。它承諾主權（最終判斷仍由 [操作員](./operator) 掌握）、可追溯性（保留 [責任鏈](./responsibility-line)），以及對抗式驗證（如同 [以反駁為先的搜尋](./rebuttal-first-search)）。這些是對流程的約束，而不是對結論的約束。
 
 憲章之所以重要，是因為它能超越任何特定主張而長存。事實會改變；用來評估事實的規則應該足夠穩定，才能跨領域、跨時間適用。

@@ -13,6 +13,6 @@ Meltdown thường xuất hiện từ ba vòng lặp liên kết với nhau:
 
 Kết quả không chỉ là “nhiều lỗi hơn”. Việc viết mất ý nghĩa vì không còn một ranh giới trách nhiệm đáng tin cậy; ảo giác (hallucinations) có thể tự củng cố; mâu thuẫn lan rộng; và các liên kết đóng gói lại sự nhiễm bẩn như thẩm quyền. Một khi thái độ “chắc nó đúng vì bách khoa toàn thư đã liên kết tới nó” bám rễ, sự suy tư của con người suy thoái từ kiểm chứng thành chỉ còn phê chuẩn.
 
-Phòng ngừa bắt đầu từ một nguyên lý đầu tiên: chủ quyền đối với tri thức phải thuộc về [Người vận hành](./operator). Trong [Coscientist](./coscientist), điều đó thể hiện qua một [lớp giao thức nhận thức luận](./epistemic-protocol-layer) (bao gồm [tìm kiếm ưu tiên phản biện](./rebuttal-first-search) và việc giữ gìn [ranh giới trách nhiệm](./responsibility-line)), một [Giao thức Đồng thuận Đa-AI](./multi-ai-consensus-protocol), và một [Đồ thị Biện chứng](./dialectical-graph) tách suy luận khỏi tường thuật.
+Phòng ngừa bắt đầu từ một nguyên lý đầu tiên: chủ quyền đối với tri thức phải thuộc về [Người vận hành](./operator). Trong [Nhà đồng khoa học](./coscientist), điều đó thể hiện qua một [lớp giao thức nhận thức luận](./epistemic-protocol-layer) (bao gồm [tìm kiếm ưu tiên phản biện](./rebuttal-first-search) và việc giữ gìn [ranh giới trách nhiệm](./responsibility-line)), một [Giao thức Đồng thuận Đa-AI](./multi-ai-consensus-protocol), và một [Đồ thị Biện chứng](./dialectical-graph) tách suy luận khỏi tường thuật.
 
 Tham khảo: https://cho.sh/r/C36398.

@@ -7,4 +7,4 @@ Een aanval is een directe betwisting van de waarheid van een [bewering](./claim)
 
 Aanvallen zijn een kern-edge type in de [Dialectische Graaf](./dialectical-graph) (zie [Dialectische Graaf-randen](./dialectical-graph-edges)). Wanneer een aanval wordt geregistreerd, kan de status van de bewering verschuiven van `supported` naar `contested` of `refuted`, afhankelijk van de sterkte en het type van de betwisting.
 
-Niet alle aanvallen zijn gelijk. Een goed onderbouwd tegenvoorbeeld weegt zwaarder dan een kale bewering van onenigheid. Daarom houdt [Coscientist](./coscientist) [evidence spans](./evidence-span) en [herkomst](./provenance) bij voor aanvallen, evenals voor beweringen.
+Niet alle aanvallen zijn gelijk. Een goed onderbouwd tegenvoorbeeld weegt zwaarder dan een kale bewering van onenigheid. Daarom houdt [Cowetenschapper](./coscientist) [evidence spans](./evidence-span) en [herkomst](./provenance) bij voor aanvallen, evenals voor beweringen.
