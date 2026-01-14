@@ -3,6 +3,9 @@ title: Arêtes du graphe dialectique
 description:
   Les types de relations reliant les nœuds dans un graphe de connaissances
   dialectique
+sourceLocale: en
+sourceHash: e060cb9fd333
+translatedAt: 2026-01-14
 ---
 
 Dans un [Graphe dialectique](./dialectical-graph), les arêtes encodent des types

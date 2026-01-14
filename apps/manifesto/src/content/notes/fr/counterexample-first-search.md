@@ -1,6 +1,9 @@
 ---
 title: Recherche axée sur les contre-exemples
 description: Stratégie qui privilégie les contre-exemples plutôt que les preuves à l’appui
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 La recherche axée sur les contre-exemples est une

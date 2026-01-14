@@ -1,6 +1,9 @@
 ---
 title: Cross-linguïstische synthese
 description: Kennis uit meerdere talen combineren tot één samenhangend begrip
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 Cross-linguïstische synthese is het proces waarbij kennis uit bronnen in

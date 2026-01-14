@@ -1,6 +1,9 @@
 ---
 title: 间隔重复
 description: 一种基于逐步延长复习间隔的学习技巧
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 间隔重复是一种有证据支持的复习安排方法：在你即将遗忘之前进行回忆练习。它利用了[间隔效应](./spacing-effect)以及[遗忘曲线](./forgetting-curve)的形状：当你记得住时，间隔会拉长；当你记不住时，间隔会缩短。

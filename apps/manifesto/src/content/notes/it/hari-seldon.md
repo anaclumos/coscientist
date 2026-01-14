@@ -3,6 +3,9 @@ title: Hari Seldon
 description:
   Matematico immaginario che ha creato la psicostoria nella saga della
   Fondazione di Asimov
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 Hari Seldon è il matematico immaginario della serie _Foundation_ di

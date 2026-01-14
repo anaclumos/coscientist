@@ -1,6 +1,9 @@
 ---
 title: Collasso del modello
 description: Degradazione dei modelli addestrati sui propri dati generati
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 Il collasso del modello è una degradazione che può verificarsi quando i modelli

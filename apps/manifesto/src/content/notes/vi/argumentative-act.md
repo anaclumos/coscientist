@@ -1,6 +1,9 @@
 ---
 title: Hành động lập luận
 description: Một động tác trong lập luận như khẳng định, định nghĩa hoặc phản bác
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 Một hành động lập luận là một động tác riêng biệt trong quá trình lập luận,

@@ -1,6 +1,9 @@
 ---
 title: Keşif Stratejileri
 description: Sürekli bilgi keşfi için grafik dolaşım stratejileri
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [Eşbilimci](./coscientist) yalnızca geri getirmeden fazlasına ihtiyaç duyar:

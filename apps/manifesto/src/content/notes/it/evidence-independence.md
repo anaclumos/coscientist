@@ -3,6 +3,9 @@ title: Indipendenza delle prove
 description:
   Principio secondo cui l’accordo dovuto a un bias di addestramento condiviso
   non è un vero consenso
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 L’indipendenza delle prove è il principio secondo cui l’apparente accordo tra

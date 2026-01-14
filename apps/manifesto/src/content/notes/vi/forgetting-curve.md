@@ -1,6 +1,9 @@
 ---
 title: Đường cong quên lãng
 description: Sự suy giảm có thể dự đoán của trí nhớ nếu không ôn tập
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 Đường cong quên lãng mô tả sự suy giảm có thể dự đoán trong khả năng nhớ lại khi

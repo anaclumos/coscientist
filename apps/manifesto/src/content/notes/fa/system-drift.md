@@ -1,6 +1,9 @@
 ---
 title: رانش سیستم
 description: زوال سامانه‌های دانشی بر اثر آلودگیِ خودزا یا بی‌توجهی
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 رانش سیستم دسته‌ای از [پدیده‌های رانش](./drift-phenomena) است که در آن خودِ

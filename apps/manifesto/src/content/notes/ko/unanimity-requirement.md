@@ -1,6 +1,9 @@
 ---
 title: 만장일치 요구사항
 description: 모든 검토자가 동의할 때에만 주장이 수용된다는 규칙
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 만장일치 요구사항은 [멀티-AI 합의 프로토콜](./multi-ai-consensus-protocol)에서,

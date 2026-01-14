@@ -1,6 +1,9 @@
 ---
 title: "டோக்கன்கள் ≠ அறிவு"
 description: ஒரு அறிவாற்றல் எக்ஸோஸ்கெலிட்டனுக்கான என் தனிப்பட்ட தேடல்
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 நான், [சங்க்யூன் சோ](./sunghyun-cho), கலைக்களஞ்சியங்களின் மீது ஒரு

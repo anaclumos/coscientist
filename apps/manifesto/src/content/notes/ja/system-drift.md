@@ -1,6 +1,9 @@
 ---
 title: システム・ドリフト
 description: 自己汚染や放置による知識システムの劣化
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 システム・ドリフトは、[ドリフト現象](./drift-phenomena)の一種であり、意味論的変化や環境変化とは独立に、知識システムそのものが時間とともに劣化していく現象を指します。

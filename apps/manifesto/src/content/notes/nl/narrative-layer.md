@@ -3,6 +3,9 @@ title: Narratieve laag
 description:
   Tijdgestempelde projecties van de dialectische graaf die geschikt zijn voor
   menselijke lectuur
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 De narratieve laag is de door mensen leesbare projectie van een

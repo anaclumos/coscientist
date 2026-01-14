@@ -1,6 +1,9 @@
 ---
 title: 幻觉
 description: 看似可信但在事实层面不正确或捏造的 AI 输出
+sourceLocale: en
+sourceHash: 35a042b51f6a
+translatedAt: 2026-01-14
 ---
 
 幻觉（hallucination）是指一种 AI 输出：读起来自信且连贯，但包含事实错误、捏造的信息或虚构的引用。危险之处不在于随机性，而在于"看起来很合理"。幻觉文本往往能经受住随意的审查，因为它遵循了真实散文的统计模式。

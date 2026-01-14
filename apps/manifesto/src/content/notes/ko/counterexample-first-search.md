@@ -1,6 +1,9 @@
 ---
 title: 반례 우선 탐색
 description: 지지 증거보다 반례를 우선시하는 전략
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 반례 우선 탐색은 인기를 품질의 증거가 아니라 위험 신호로 취급하는

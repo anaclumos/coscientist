@@ -1,6 +1,9 @@
 ---
 title: 三重分离
 description: 将原始文本、规范化主张与显式关系分离的架构规则
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 三重分离（Triple

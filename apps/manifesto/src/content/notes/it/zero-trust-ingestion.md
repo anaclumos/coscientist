@@ -3,6 +3,9 @@ title: Acquisizione zero-trust
 description:
   Protocollo che richiede una provenienza esplicita prima di accettare
   affermazioni
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 L’acquisizione zero-trust è un protocollo che tratta le informazioni in arrivo

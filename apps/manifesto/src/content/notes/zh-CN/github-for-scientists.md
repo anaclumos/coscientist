@@ -1,6 +1,9 @@
 ---
 title: 面向科学家的 GitHub
 description: 将实验视为可版本化、可审计代码的愿景
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 "面向科学家的 GitHub"是一种愿景：将科学实验像代码一样对待——可版本化、可重复、可审计。正如软件工程从临时脚本发展到持续集成与版本控制，科学也可以从一次性的实验记录本（lab

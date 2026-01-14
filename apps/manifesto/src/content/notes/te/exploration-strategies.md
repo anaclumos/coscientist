@@ -1,6 +1,9 @@
 ---
 title: అన్వేషణ వ్యూహాలు
 description: నిరంతర జ్ఞాన అన్వేషణ కోసం గ్రాఫ్ ట్రావర్సల్ వ్యూహాలు
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [కోసైంటిస్ట్](./coscientist) కు రిట్రీవల్ కంటే ఎక్కువ అవసరం:

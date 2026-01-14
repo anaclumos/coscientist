@@ -1,6 +1,9 @@
 ---
 title: Mode Kegagalan Pengetahuan
 description: Taksonomi tentang apa yang bisa salah dalam sistem pengetahuan
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Mode kegagalan pengetahuan adalah cara-cara sistem pengetahuan mengalami

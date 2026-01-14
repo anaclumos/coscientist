@@ -1,6 +1,9 @@
 ---
 title: Operator
 description: Der menschliche Souverän über Wissen in Coscientist
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 Der Operator ist der menschliche Souverän über Wissen in

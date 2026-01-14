@@ -1,6 +1,9 @@
 ---
 title: Ontvaardiging door AI-delegatie
 description: Risico op verlies van leervermogen wanneer AI het cognitieve werk doet
+sourceLocale: en
+sourceHash: 4403bb1f64b0
+translatedAt: 2026-01-14
 ---
 
 Ontvaardiging door AI-delegatie is het risico dat het uitbesteden van cognitief

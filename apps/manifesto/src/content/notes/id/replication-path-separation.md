@@ -3,6 +3,9 @@ title: Pemisahan Jalur Replikasi
 description:
   Menanyakan apakah dukungan berasal dari jalur independen atau pengulangan
   pernyataan yang sama
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 Pemisahan jalur replikasi adalah praktik menanyakan apakah kesepakatan yang

@@ -1,6 +1,9 @@
 ---
 title: RAG 的限制
 description: 為何標準的檢索增強生成無法產生真正的發現
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag)（Retrieval-Augmented

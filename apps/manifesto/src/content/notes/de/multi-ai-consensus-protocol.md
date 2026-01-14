@@ -1,6 +1,9 @@
 ---
 title: Multi-AI-Konsensprotokoll
 description: Das 1+4-System zum Schreiben und Verifizieren
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 Das Multi-AI-Konsensprotokoll ist ein Kollaborations-Workflow, in dem der

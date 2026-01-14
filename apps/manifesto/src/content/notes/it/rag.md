@@ -3,6 +3,9 @@ title: RAG
 description:
   Retrieval-Augmented Generation, una tecnica per ancorare gli output dell’IA ai
   documenti recuperati
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG è una tecnica che migliora l’accuratezza degli output dell’IA recuperando

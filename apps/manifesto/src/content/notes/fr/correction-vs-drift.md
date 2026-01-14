@@ -3,6 +3,9 @@ title: Correction vs dérive
 description:
   Principe économique selon lequel un système de connaissance ne survit que si
   le coût de correction reste inférieur au coût de la dérive
+sourceLocale: en
+sourceHash: 5b62e4845eb0
+translatedAt: 2026-01-14
 ---
 
 La correction vs dérive est le principe économique selon lequel un système de

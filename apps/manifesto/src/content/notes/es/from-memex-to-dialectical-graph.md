@@ -1,6 +1,9 @@
 ---
 title: Del Memex al Grafo Dialéctico
 description: Evolución desde senderos asociativos hacia una estructura argumentativa
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Del Memex al Grafo Dialéctico traza la evolución de los sistemas personales de

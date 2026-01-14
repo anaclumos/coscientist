@@ -1,6 +1,9 @@
 ---
 title: Kwestieknooppunt
 description: Een bundel botsende claimclusters in een dialectische graaf
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 Een kwestieknooppunt is een graafobject dat botsende [claims](./claim) bundelt

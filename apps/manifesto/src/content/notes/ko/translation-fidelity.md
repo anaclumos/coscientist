@@ -1,6 +1,9 @@
 ---
 title: 번역 충실도
 description: 언어의 경계를 넘어 의미와 정확성을 보존하기
+sourceLocale: en
+sourceHash: 5b698486c4d0
+translatedAt: 2026-01-14
 ---
 
 번역 충실도란 번역된 콘텐츠가 원문의 의미, 뉘앙스, 정확성을 어느 정도까지

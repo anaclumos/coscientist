@@ -1,6 +1,9 @@
 ---
 title: 辩证交错
 description: 在探索中混合不同类型的主张以防止信息孤岛，并戳破虚假的胜任感
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 辩证交错是在探索过程中混合不同的[主张](./claim)类型、领域和来源的做法，而不是在转向下一个主题之前先把一个主题彻底复习完。它将学习科学中的[交错练习](./interleaving)原则应用到知识验证中。

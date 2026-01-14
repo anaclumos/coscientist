@@ -3,6 +3,9 @@ title: Limites du RAG
 description:
   Pourquoi la génération augmentée par récupération standard ne peut pas
   produire une véritable découverte
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 Le [RAG](./rag) améliore la factualité en récupérant des documents pertinents,

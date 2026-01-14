@@ -1,6 +1,9 @@
 ---
 title: خارج القحف
 description: الدماغ الرقمي الشخصي ونظام النشر الخاص بسونغهيون تشو
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 خارج القحف هو «الدماغ الرقمي الشخصي» الخاص بـ[سونغ هيون تشو](./sunghyun-cho):

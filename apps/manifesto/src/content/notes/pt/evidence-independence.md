@@ -3,6 +3,9 @@ title: Independência de evidências
 description:
   Princípio de que concordância decorrente de viés de treino compartilhado não é
   consenso real
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 Independência de evidências é o princípio de que a concordância aparente entre

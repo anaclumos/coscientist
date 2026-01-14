@@ -1,6 +1,9 @@
 ---
 title: 多言語Memex
 description: 自動翻訳支援を備えた言語対応のパーソナル知識システム
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 多言語Memexとは、複数言語のコンテンツをネイティブにサポートし、自動言語検出、翻訳、言語横断的なリンクを備えたパーソナル知識システムである。これは、知識が言語の境界に縛られない世界に向けて、[Vannevar Bush](./vannevar-bush)

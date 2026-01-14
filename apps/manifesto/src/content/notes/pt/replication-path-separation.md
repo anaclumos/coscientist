@@ -3,6 +3,9 @@ title: Separação de Caminhos de Replicação
 description:
   Perguntar se o apoio vem de caminhos independentes ou de reafirmações
   repetidas
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 A separação de caminhos de replicação é a prática de perguntar se o aparente

@@ -1,6 +1,9 @@
 ---
 title: అర్థ నష్టం
 description: ఒక క్లెయిమ్‌లోని పదాల అర్థం మారిపోవడం వల్ల అది పాతదైపోవడం
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 [definition drift](./definition-drift) ద్వారా అది ఉపయోగించే పదాల అర్థం మారిపోవడం

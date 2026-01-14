@@ -3,6 +3,9 @@ title: Pérdida de matiz en la traducción
 description:
   Las sutilezas semánticas que desaparecen cuando las ideas cruzan fronteras
   lingüísticas
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 La pérdida de matiz en la traducción es el despojo de sutilezas semánticas

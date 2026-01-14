@@ -1,6 +1,9 @@
 ---
 title: Aktives Abrufen
 description: Lernen durch das Abrufen von Informationen aus dem Gedächtnis
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 Aktives Abrufen bedeutet, zu lernen, indem du versuchst, die Antwort aus dem

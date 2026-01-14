@@ -1,6 +1,9 @@
 ---
 title: ஆதாரம்
 description: கூற்றுகளுக்கும் ஆதாரங்களுக்கும் மூலத்தைச் சுட்டும் நங்கூரம்
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 ஒரு ஆதாரம் என்பது ஒரு [ஆதாரத் துண்டு](./evidence-span) அல்லது [கூற்று](./claim)

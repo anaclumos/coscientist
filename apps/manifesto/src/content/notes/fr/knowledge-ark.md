@@ -1,6 +1,9 @@
 ---
 title: Arche de la connaissance
 description: Un dépôt conçu pour préserver le savoir à travers l’effondrement
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 Une arche de la connaissance est un dépôt conçu pour préserver et transmettre le

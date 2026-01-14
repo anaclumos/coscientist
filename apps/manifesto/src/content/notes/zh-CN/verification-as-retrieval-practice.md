@@ -1,6 +1,9 @@
 ---
 title: 将验证作为检索练习
 description: Operator 的验证循环是一种主动回忆形式，能够强化知识保持
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 将验证作为检索练习（retrieval practice）的洞见在于：[操作者](./operator)

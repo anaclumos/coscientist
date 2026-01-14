@@ -1,6 +1,9 @@
 ---
 title: Kennissynthese
 description: Hoe synthese verschilt van middelen in dialectische kennissystemen
+sourceLocale: en
+sourceHash: 8035aade2986
+translatedAt: 2026-01-14
 ---
 
 Kennissynthese is wat er na retrieval gebeurt wanneer je onverenigbare bronnen

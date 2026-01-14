@@ -3,6 +3,9 @@ title: Ma sát là kẻ thù
 description:
   Nguyên tắc thiết kế rằng ma sát giết chết các quy trình làm việc tri thức cá
   nhân
+sourceLocale: en
+sourceHash: 78d664aa5836
+translatedAt: 2026-01-14
 ---
 
 "Ma sát là kẻ thù" là nguyên tắc thiết kế cho rằng những nỗ lực không cần thiết

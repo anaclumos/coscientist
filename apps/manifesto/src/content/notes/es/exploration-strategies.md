@@ -3,6 +3,9 @@ title: Estrategias de exploración
 description:
   Estrategias de recorrido de grafos para el descubrimiento continuo de
   conocimiento
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [Cocientífico](./coscientist) necesita más que recuperación: necesita

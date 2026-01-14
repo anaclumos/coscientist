@@ -2,6 +2,9 @@
 title: Persönliche Wissensevolution
 description: Historische Entwicklung von Werkzeugen und Ideen des persönlichen
   Wissensmanagements
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 Die persönliche Wissensevolution zeichnet die Entwicklung von Werkzeugen und

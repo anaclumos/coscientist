@@ -1,6 +1,9 @@
 ---
 title: モデル崩壊
 description: 自身が生成したデータで学習したモデルが劣化する現象
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 モデル崩壊（Model

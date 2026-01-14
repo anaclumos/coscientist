@@ -1,6 +1,9 @@
 ---
 title: 推論レイヤー
 description: 弁証法グラフにおける、生きて進化する主張ネットワーク
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 推論レイヤーは、[弁証法グラフ](./dialectical-graph)における、生きて進化し続ける[主張](./claim)、[攻撃](./attack)、[アンダーカット](./undercut)、および支持関係のネットワークです。これは知識の現在の状態——何が信じられているか、何が争点になっているか、何が反駁されたか——を表します。

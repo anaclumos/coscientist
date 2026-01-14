@@ -1,6 +1,9 @@
 ---
 title: 은하 제국
 description: 아시모프의 파운데이션에서 엔사이클로피디아 갈락티카를 추동하는, 몰락하는 문명
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 은하 제국은 [아이작 아시모프](./isaac-asimov)의 _파운데이션_ 시리즈에서, 피할 수

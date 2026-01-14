@@ -1,6 +1,9 @@
 ---
 title: AI에서의 인간 행위성
 description: AI 보조 지식 노동에서 인간이 통제권을 유지하기 위한 원칙과 메커니즘
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 [AI](./ai)에서의 인간 행위성은 AI가 상당한 [숙고 노동](./contemplation-labor)을

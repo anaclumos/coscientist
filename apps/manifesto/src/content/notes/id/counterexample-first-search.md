@@ -1,6 +1,9 @@
 ---
 title: Pencarian Utamakan Kontra Contoh
 description: Strategi yang memprioritaskan kontra contoh dibanding bukti pendukung
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 Pencarian utamakan kontra contoh adalah sebuah

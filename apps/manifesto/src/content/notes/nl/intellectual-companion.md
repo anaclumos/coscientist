@@ -1,6 +1,9 @@
 ---
 title: Intellectuele metgezel
 description: AI als contemplatiepartner in plaats van een antwoordmachine
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 Een intellectuele metgezel is een AI-systeem dat is ontworpen om met de mens mee

@@ -1,6 +1,9 @@
 ---
 title: வெளிமண்டை
 description: சுன்க்யூன் சோவின் தனிப்பட்ட டிஜிட்டல் மூளை மற்றும் வெளியீட்டு அமைப்பு
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranial என்பது [சுன்க்யூன் சோ](./sunghyun-cho)வின் தனிப்பட்ட டிஜிட்டல்

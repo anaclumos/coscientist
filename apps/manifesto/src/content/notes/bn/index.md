@@ -1,6 +1,9 @@
 ---
 title: "টোকেন ≠ জ্ঞান"
 description: একটি কগনিটিভ এক্সোস্কেলেটনের জন্য ব্যক্তিগত অনুসন্ধান
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 আমি, [সুংহিউন চো](./sunghyun-cho), বড় হয়েছি বিশ্বকোষ এবং জ্ঞানের একক,

@@ -1,6 +1,9 @@
 ---
 title: Operator
 description: Penguasa manusia atas pengetahuan dalam Coscientist
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 Operator adalah penguasa manusia atas pengetahuan dalam

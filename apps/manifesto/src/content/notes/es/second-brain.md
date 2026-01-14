@@ -1,6 +1,9 @@
 ---
 title: Segundo cerebro
 description: Un enfoque de gestión del conocimiento personal para externalizar ideas
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 El "segundo cerebro" es un enfoque de gestión del conocimiento personal centrado

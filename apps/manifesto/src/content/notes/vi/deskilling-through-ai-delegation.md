@@ -1,6 +1,9 @@
 ---
 title: Mất kỹ năng do ủy thác cho AI
 description: Nguy cơ mất năng lực học khi AI làm thay công việc nhận thức
+sourceLocale: en
+sourceHash: 4403bb1f64b0
+translatedAt: 2026-01-14
 ---
 
 Mất kỹ năng do ủy thác cho AI là rủi ro rằng việc chuyển giao công việc nhận

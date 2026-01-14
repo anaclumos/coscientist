@@ -1,6 +1,9 @@
 ---
 title: Coscientist
 description: ระบบสหายทางปัญญาสำหรับการผลิตองค์ความรู้ในยุคหลัง AI
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist คือบริการโอเพนซอร์สที่ได้แรงบันดาลใจจาก

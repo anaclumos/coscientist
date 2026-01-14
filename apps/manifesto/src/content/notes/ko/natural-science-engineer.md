@@ -1,6 +1,9 @@
 ---
 title: 자연과학 엔지니어
 description: 과학에 소프트웨어식 운영을 적용하는 역할
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 자연과학 엔지니어는 실험이 더 재현 가능하고 확장 가능하도록 과학 연구와

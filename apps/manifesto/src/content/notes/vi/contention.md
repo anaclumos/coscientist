@@ -1,6 +1,9 @@
 ---
 title: Tranh chấp
 description: Một xung đột có cấu trúc giữa các mệnh đề cần được giải quyết
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 Tranh chấp là một xung đột có cấu trúc giữa các mệnh đề, định nghĩa, hoặc phương

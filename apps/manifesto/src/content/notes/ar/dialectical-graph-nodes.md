@@ -1,6 +1,9 @@
 ---
 title: عُقَد الرسم البياني الجدلي
 description: أنواع العُقَد في رسم بياني معرفي جدلي
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 في [الرسم البياني الجدلي](./dialectical-graph)، تمثّل العُقَد كائنات إبستمولوجية

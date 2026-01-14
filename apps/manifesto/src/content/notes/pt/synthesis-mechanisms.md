@@ -1,6 +1,9 @@
 ---
 title: Mecanismos de Síntese
 description: Padrões para tornar fontes incompatíveis comparáveis
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 Mecanismos de síntese são os padrões e protocolos que o

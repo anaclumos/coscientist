@@ -1,6 +1,9 @@
 ---
 title: Vannevar Bush
 description: Ingénieur et administrateur scientifique qui a imaginé le Memex
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 Vannevar Bush (1890–1974) était un ingénieur, inventeur et administrateur

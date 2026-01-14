@@ -1,6 +1,9 @@
 ---
 title: Chiến lược Khám phá
 description: Các chiến lược duyệt đồ thị cho việc khám phá tri thức liên tục
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [Nhà đồng khoa học](./coscientist) cần nhiều hơn chỉ truy hồi : nó cần khả năng

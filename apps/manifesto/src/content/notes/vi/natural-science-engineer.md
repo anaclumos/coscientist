@@ -1,6 +1,9 @@
 ---
 title: Kỹ sư khoa học tự nhiên
 description: Một vai trò áp dụng vận hành kiểu phần mềm vào khoa học
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 Một kỹ sư khoa học tự nhiên là người thực hành kết hợp nghiên cứu khoa học với

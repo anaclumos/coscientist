@@ -1,6 +1,9 @@
 ---
 title: AI 中的人類能動性
 description: 讓人類在 AI 輔助的知識工作中保持掌控的原則與機制
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 在 [AI](./ai) 中，人類能動性（human

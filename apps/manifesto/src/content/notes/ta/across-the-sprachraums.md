@@ -1,6 +1,9 @@
 ---
 title: Sprachraum-களைத் தாண்டி
 description: அறிவு அமைப்புகளுக்காக மொழி எல்லைகளைத் தாண்டும் கனவு
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums" என்பது மொழி எல்லைகளைத் தாண்டும் அறிவு அமைப்புகளுக்கான

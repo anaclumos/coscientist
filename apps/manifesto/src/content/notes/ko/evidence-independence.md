@@ -1,6 +1,9 @@
 ---
 title: 증거 독립성
 description: 공유된 학습 편향에서 비롯된 일치는 진정한 합의가 아니라는 원칙
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 증거 독립성은 AI 모델들 사이의 겉보기 합의가, 그 합의가 독립적인 증거가 아니라

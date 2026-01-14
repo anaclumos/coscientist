@@ -1,6 +1,9 @@
 ---
 title: "Токени ≠ знання"
 description: Особистий пошук когнітивного екзоскелета
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Я, [Сонгхьон Чо](./sunghyun-cho), виріс із шанобою до енциклопедій і ідеї

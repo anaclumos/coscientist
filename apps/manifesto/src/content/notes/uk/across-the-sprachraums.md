@@ -1,6 +1,9 @@
 ---
 title: Крізь Sprachraums
 description: Візія подолання мовних кордонів для систем знань
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 «Across the Sprachraums» — це візія [Sunghyun Cho](./sunghyun-cho) щодо систем

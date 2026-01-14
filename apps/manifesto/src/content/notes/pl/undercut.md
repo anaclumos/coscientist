@@ -1,6 +1,9 @@
 ---
 title: Podcięcie
 description: Atak na metodę, założenie lub definicję leżącą u podstaw tezy
+sourceLocale: en
+sourceHash: d67bef7771ea
+translatedAt: 2026-01-14
 ---
 
 Podcięcie to zarzut, który nie uderza w samą [tezę](./claim), lecz w podstawy,

@@ -1,6 +1,9 @@
 ---
 title: Teza
 description: Weryfikowalne twierdzenie przechowywane jako węzeł w grafie dialektycznym
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 Teza to weryfikowalne twierdzenie wyodrębnione z tekstu i przechowywane jako

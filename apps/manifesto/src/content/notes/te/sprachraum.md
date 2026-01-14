@@ -1,6 +1,9 @@
 ---
 title: స్ప్రాఖ్‌రౌమ్
 description: ఆలోచన మరియు జ్ఞానాన్ని ఆకారమిచ్చే ఒక భాషా పరిధి లేదా డొమైన్
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 స్ప్రాఖ్‌రౌమ్ (జర్మన్: "language space" లేదా "language sphere") అనేది ఒక

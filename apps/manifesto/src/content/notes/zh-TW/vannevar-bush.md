@@ -1,6 +1,9 @@
 ---
 title: 范尼瓦·布希
 description: 工程師與科學行政管理者，構想了 Memex
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 范尼瓦·布希（Vannevar

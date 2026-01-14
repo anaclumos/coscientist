@@ -1,6 +1,9 @@
 ---
 title: Semantische Drift
 description: Bedeutungsänderungen, durch die Wissen veraltet oder irreführend wird
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 Semantische Drift ist die Kategorie der [Driftphänomene](./drift-phenomena), bei

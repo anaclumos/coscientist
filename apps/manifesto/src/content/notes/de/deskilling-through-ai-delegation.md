@@ -1,6 +1,9 @@
 ---
 title: Dequalifizierung durch KI-Delegation
 description: Risiko, Lernfähigkeit zu verlieren, wenn KI die kognitive Arbeit übernimmt
+sourceLocale: en
+sourceHash: 4403bb1f64b0
+translatedAt: 2026-01-14
 ---
 
 Dequalifizierung durch KI-Delegation ist das Risiko, dass das Auslagern

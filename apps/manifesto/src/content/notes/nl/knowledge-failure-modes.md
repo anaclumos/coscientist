@@ -1,6 +1,9 @@
 ---
 title: Faalmodi van kennis
 description: Taxonomie van wat er mis kan gaan in kennissystemen
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Faalmodi van kennis zijn de manieren waarop kennissystemen achteruitgaan,

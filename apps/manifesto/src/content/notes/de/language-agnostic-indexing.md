@@ -1,6 +1,9 @@
 ---
 title: Sprachagnostische Indexierung
 description: Ein konzeptioneller Index, der spezifische Sprachen überwindet
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 Sprachagnostische Indexierung ist die Praxis, Wissen nach Konzepten statt nach

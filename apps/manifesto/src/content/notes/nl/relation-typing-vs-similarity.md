@@ -3,6 +3,9 @@ title: Relatietyping vs. gelijkenis
 description:
   Waarom getypeerde randen oplossen wat op gelijkenis gebaseerde retrieval niet
   kan
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 Relatietyping vs. gelijkenis zet twee benaderingen om kennis te verbinden

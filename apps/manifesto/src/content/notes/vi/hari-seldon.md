@@ -1,6 +1,9 @@
 ---
 title: Hari Seldon
 description: Nhà toán học hư cấu đã tạo ra tâm sử học trong bộ Foundation của Asimov
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 Hari Seldon là nhà toán học hư cấu trong loạt _Foundation_ của

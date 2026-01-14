@@ -3,6 +3,9 @@ title: Unanimiteitsvereiste
 description:
   Regel dat beweringen alleen worden geaccepteerd wanneer alle reviewers het
   eens zijn
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 Het unanimiteitsvereiste is de regel in het

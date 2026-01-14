@@ -3,6 +3,9 @@ title: Kekaisaran Galaktik
 description:
   Peradaban yang kejatuhannya memotivasi Encyclopedia Galactica dalam seri
   Foundation karya Asimov
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 Kekaisaran Galaktik adalah peradaban dalam seri Foundation karya

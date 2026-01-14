@@ -1,6 +1,9 @@
 ---
 title: 方法
 description: 用于生成证据或得出结论的程序
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 方法是用来收集证据或推导结论的程序：实验设计、测量协议、统计分析或逻辑推导。论断会继承其方法的优势与弱点。

@@ -1,6 +1,9 @@
 ---
 title: Nichtstationarität
 description: Wenn sich der datengenerierende Prozess im Laufe der Zeit verändert
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 Nichtstationarität bedeutet, dass sich der zugrunde liegende Prozess, der Daten

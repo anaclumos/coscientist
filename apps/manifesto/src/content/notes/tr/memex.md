@@ -1,6 +1,9 @@
 ---
 title: Memex
 description: Vannevar Bush’un önerdiği kişisel bilgi makinesi
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 Memex, [Vannevar Bush](./vannevar-bush)’un kayıtları depolamak ve aralarındaki

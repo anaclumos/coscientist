@@ -1,6 +1,9 @@
 ---
 title: 争议节点
 description: 辩证图中相互碰撞的主张簇的集合
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 争议节点是一种图对象，它将相互碰撞的[主张](./claim)打包成一个连贯的探究对象。它为问题命名，记录哪些主张彼此冲突，并跟踪在何种条件下该冲突可能得到解决。

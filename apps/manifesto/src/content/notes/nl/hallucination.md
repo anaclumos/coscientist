@@ -1,6 +1,9 @@
 ---
 title: Hallucinatie
 description: AI-uitvoer die plausibel is maar feitelijk onjuist of verzonnen
+sourceLocale: en
+sourceHash: 35a042b51f6a
+translatedAt: 2026-01-14
 ---
 
 Een hallucinatie is AI-uitvoer die zelfverzekerd en coherent leest, maar

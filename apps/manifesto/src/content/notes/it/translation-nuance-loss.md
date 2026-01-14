@@ -3,6 +3,9 @@ title: Perdita di sfumature nella traduzione
 description:
   Le sottigliezze semantiche che scompaiono quando le idee attraversano i
   confini linguistici
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 La perdita di sfumature nella traduzione è l’eliminazione delle sottigliezze

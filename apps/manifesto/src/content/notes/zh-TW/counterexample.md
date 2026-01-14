@@ -1,6 +1,9 @@
 ---
 title: 反例
 description: 會打破或縮小主張的案例
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 反例是一種違反某個[主張](./claim)之預測的案例，迫使我們要嘛拒絕該主張，要嘛縮小其[範圍](./scope)。它是一種特定的[攻擊](./attack)：不是主張在一般情況下是錯的論證，而是證據顯示它在某個特定實例中失效。

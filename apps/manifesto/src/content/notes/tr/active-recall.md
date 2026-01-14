@@ -1,6 +1,9 @@
 ---
 title: Aktif Hatırlama
 description: Bilgiyi hafızadan geri çağırarak çalışma
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 Aktif hatırlama, yeniden okumak veya altını çizmek yerine cevabı hafızadan

@@ -1,6 +1,9 @@
 ---
 title: 规范化命题
 description: 从自然语言文本中提取并标准化的主张
+sourceLocale: en
+sourceHash: 368d1ed37641
+translatedAt: 2026-01-14
 ---
 
 规范化命题（normalized

@@ -1,6 +1,9 @@
 ---
 title: Yeterlilik Yanılsamaları
 description: Pasif aşinalığın yarattığı sahte bir ustalık hissi
+sourceLocale: en
+sourceHash: 75804f84b0ff
+translatedAt: 2026-01-14
 ---
 
 Yeterlilik yanılsamaları, aşinalığın ustalıkla karıştırılması durumunda ortaya

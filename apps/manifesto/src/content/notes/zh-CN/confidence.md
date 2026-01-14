@@ -1,6 +1,9 @@
 ---
 title: 置信度
 description: 对某个主张支持程度的多维度度量
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 在 [共研者](./coscientist)

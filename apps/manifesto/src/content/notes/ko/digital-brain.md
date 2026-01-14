@@ -1,6 +1,9 @@
 ---
 title: 디지털 브레인
 description: 마음을 비추고 확장하는 개인 지식 시스템
+sourceLocale: en
+sourceHash: 6503fc9c630c
+translatedAt: 2026-01-14
 ---
 
 디지털 브레인은 시간이 지나도 아이디어를 포착하고, 연결하고, 진화시키도록 설계된

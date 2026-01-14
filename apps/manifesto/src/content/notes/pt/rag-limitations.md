@@ -3,6 +3,9 @@ title: Limitações do RAG
 description:
   Por que a geração aumentada por recuperação padrão não consegue produzir
   descoberta genuína
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) melhora a factualidade ao recuperar documentos relevantes, mas o

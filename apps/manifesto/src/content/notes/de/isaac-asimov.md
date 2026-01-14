@@ -3,6 +3,9 @@ title: Isaac Asimov
 description:
   Science-Fiction-Autor, dessen Foundation-Reihe Coscientists Vision inspiriert
   hat
+sourceLocale: en
+sourceHash: 83360f2cee16
+translatedAt: 2026-01-14
 ---
 
 Isaac Asimov (1920–1992) war ein äußerst produktiver Science-Fiction-Autor und

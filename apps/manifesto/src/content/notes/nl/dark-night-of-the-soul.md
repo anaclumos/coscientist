@@ -3,6 +3,9 @@ title: Donkere nacht van de ziel
 description:
   Een literair middel voor een diepgaande innerlijke crisis die leidt tot
   reconstructie van identiteit
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 "De Donkere Nacht van de Ziel" duidt op een diepgaande innerlijke crisis waarin

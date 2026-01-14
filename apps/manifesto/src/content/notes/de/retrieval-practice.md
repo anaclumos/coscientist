@@ -1,6 +1,9 @@
 ---
 title: Abrufübung
 description: Gedächtnis stärken durch aktives Abrufen von Informationen
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 Abrufübung bedeutet, das Gedächtnis zu stärken, indem man Informationen aktiv

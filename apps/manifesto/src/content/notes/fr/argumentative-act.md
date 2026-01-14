@@ -1,6 +1,9 @@
 ---
 title: Acte argumentatif
 description: Un mouvement de raisonnement, comme affirmer, définir ou réfuter
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 Un acte argumentatif est un mouvement distinct dans le raisonnement, comme

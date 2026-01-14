@@ -1,6 +1,9 @@
 ---
 title: 驗證系統
 description: 將主張與證據及反證進行核對的機制
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 驗證系統是一組機制，用於讓 [共科學家](./coscientist)

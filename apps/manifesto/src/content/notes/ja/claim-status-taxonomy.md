@@ -1,6 +1,9 @@
 ---
 title: 主張ステータス分類
 description: 弁証法的グラフにおいて主張が取り得る状態
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 主張ステータス分類は、[弁証法的グラフ](./dialectical-graph)において[主張](./claim)が取り得る状態を定義する。

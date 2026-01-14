@@ -3,6 +3,9 @@ title: Principes des sciences de l’apprentissage
 description:
   Techniques fondées sur des preuves pour un apprentissage et une mémoire
   durables
+sourceLocale: en
+sourceHash: 9b01e1de519a
+translatedAt: 2026-01-14
 ---
 
 Les principes des sciences de l’apprentissage sont des techniques fondées sur

@@ -1,6 +1,9 @@
 ---
 title: Wierność tłumaczenia
 description: Zachowanie znaczenia i dokładności ponad granicami językowymi
+sourceLocale: en
+sourceHash: 5b698486c4d0
+translatedAt: 2026-01-14
 ---
 
 Wierność tłumaczenia to stopień, w jakim przetłumaczona treść zachowuje

@@ -2,6 +2,9 @@
 title: Проект PIRI
 description: Отменённая инициатива по безлимитным переводам документации по
   программированию
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Проект PIRI был инициативой [Сонхён Чо](./sunghyun-cho), направленной на

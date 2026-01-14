@@ -1,6 +1,9 @@
 ---
 title: SI
 description: Sztuczna inteligencja jako narzędzie i wyzwanie dla systemów wiedzy
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 SI w kontekście [Współnaukowiec](./coscientist) odnosi się do systemów

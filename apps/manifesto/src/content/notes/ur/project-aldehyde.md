@@ -1,6 +1,9 @@
 ---
 title: پروجیکٹ الڈیہائیڈ
 description: ایک ذاتی ڈیجیٹل دماغ بنانے کی ابتدائی کوشش
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 پروجیکٹ الڈیہائیڈ [Sunghyun Cho](./sunghyun-cho) کی ذاتی

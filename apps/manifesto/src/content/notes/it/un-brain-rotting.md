@@ -3,6 +3,9 @@ title: De-marcire il cervello
 description:
   Processo attivo di ripristino della capacità di verifica e dell’agency
   cognitiva in un ambiente informativo post-AI
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Il de-marcire il cervello è il processo attivo di ripristinare la capacità di

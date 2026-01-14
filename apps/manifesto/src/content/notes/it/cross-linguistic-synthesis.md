@@ -1,6 +1,9 @@
 ---
 title: Sintesi interlinguistica
 description: Combinare conoscenze provenienti da più lingue in una comprensione unificata
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 La sintesi interlinguistica è il processo di combinare conoscenze provenienti da

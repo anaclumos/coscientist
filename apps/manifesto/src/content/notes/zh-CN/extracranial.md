@@ -1,6 +1,9 @@
 ---
 title: 颅外（Extracranial）
 description: 赵成贤（Sunghyun Cho）的个人数字大脑与发布系统
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranial 是 [赵成贤（Sunghyun Cho）](./sunghyun-cho)

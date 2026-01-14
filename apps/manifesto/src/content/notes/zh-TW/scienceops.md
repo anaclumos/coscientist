@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: 應用軟體營運原則以加速科學研究
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps 是 [Sunghyun Cho](./sunghyun-cho)

@@ -1,6 +1,9 @@
 ---
 title: Como podríamos pensar
 description: Ensayo de 1945 de Vannevar Bush que expone el Memex
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 «Como podríamos pensar» es el ensayo de 1945 de [Vannevar Bush](./vannevar-bush)

@@ -1,6 +1,9 @@
 ---
 title: Minimale snede
 description: De kleinste verzameling randen die een graaf ontkoppelt
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 Een minimale snede is de kleinste verzameling randen waarvan de verwijdering een

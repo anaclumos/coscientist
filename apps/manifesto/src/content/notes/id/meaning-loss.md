@@ -3,6 +3,9 @@ title: Kehilangan Makna
 description:
   Ketika sebuah klaim menjadi usang karena istilah-istilahnya telah bergeser
   makna
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 Kehilangan makna terjadi ketika sebuah [klaim](./claim) menjadi usang bukan

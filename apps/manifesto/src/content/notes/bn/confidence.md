@@ -1,6 +1,9 @@
 ---
 title: আত্মবিশ্বাস
 description: একটি দাবির সমর্থনের বহুমাত্রিক পরিমাপ
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 [সহ-বিজ্ঞানী](./coscientist)-এ আত্মবিশ্বাস কোনো একক সম্ভাব্যতার স্কোর নয়। এটি

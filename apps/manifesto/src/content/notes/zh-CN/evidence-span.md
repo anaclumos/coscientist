@@ -1,6 +1,9 @@
 ---
 title: 证据片段
 description: 来自来源的精确引用范围，用于支持或反驳一项主张
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 证据片段（evidence

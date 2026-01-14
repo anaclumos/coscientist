@@ -1,6 +1,9 @@
 ---
 title: পরিসর
 description: কোনো দাবির প্রযোজ্যতার শর্তসমূহ
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 পরিসর নির্ধারণ করে—কোথায় এবং কখন একটি [দাবি](./claim) প্রযোজ্য হবে: কোন

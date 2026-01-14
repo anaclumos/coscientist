@@ -1,6 +1,9 @@
 ---
 title: వాదాత్మక గ్రాఫ్ నోడ్లు
 description: వాదాత్మక జ్ఞాన గ్రాఫ్‌లోని నోడ్ రకాలవి
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 ఒక [వాదాత్మక గ్రాఫ్](./dialectical-graph) లో, నోడ్లు ముడి పాఠ్యం కాకుండా జ్ఞాన

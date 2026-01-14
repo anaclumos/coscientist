@@ -1,6 +1,9 @@
 ---
 title: Nós do Grafo Dialético
 description: Os tipos de nós em um grafo de conhecimento dialético
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 Em um [Grafo Dialético](./dialectical-graph), os nós representam objetos

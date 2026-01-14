@@ -1,6 +1,9 @@
 ---
 title: Ogród cyfrowy
 description: Publiczna, ewoluująca kolekcja wzajemnie połączonych notatek
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 Ogród cyfrowy to publiczna, ewoluująca kolekcja wzajemnie połączonych notatek,

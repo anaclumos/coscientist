@@ -1,6 +1,9 @@
 ---
 title: 주장 상태 분류 체계
 description: 변증법적 그래프에서 주장이 가질 수 있는 상태들
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 주장 상태 분류 체계는 [주장](./claim)이 [변증법적 그래프](./dialectical-graph)

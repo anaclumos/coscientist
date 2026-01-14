@@ -3,6 +3,9 @@ title: Mạng lưới Tri thức Liên bang
 description:
   Các phiên bản Coscientist được liên kết, trao đổi tri thức đã được xác thực
   trong khi vẫn bảo toàn chủ quyền cục bộ
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 Mạng lưới tri thức liên bang là một hệ thống gồm các phiên bản

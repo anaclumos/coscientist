@@ -1,6 +1,9 @@
 ---
 title: 주장
 description: 변증법적 그래프의 노드로 저장되는 검증 가능한 명제
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 주장은 텍스트에서 추출되어 [변증법적 그래프](./dialectical-graph)에 1급 객체로

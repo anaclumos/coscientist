@@ -1,6 +1,9 @@
 ---
 title: Armadilha da Fluência
 description: Confundir prosa fluida de IA com precisão
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 A armadilha da fluência é o viés cognitivo de tratar uma prosa fluida e que soa

@@ -3,6 +3,9 @@ title: Trecho de Evidência
 description:
   Um intervalo citado exatamente de uma fonte que apoia ou contesta uma
   afirmação
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Um trecho de evidência é o texto citado exatamente de uma fonte que apoia ou

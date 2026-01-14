@@ -3,6 +3,9 @@ title: Geri Getirme Alıştırması Olarak Doğrulama
 description:
   Operatörün doğrulama döngüsünün, bilgi kalıcılığını güçlendiren bir etkin
   hatırlama biçimi olması
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 Geri getirme alıştırması olarak doğrulama, [Operatörün](./operator) doğrulama

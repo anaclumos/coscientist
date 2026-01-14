@@ -1,6 +1,9 @@
 ---
 title: 個人知識演化
 description: 個人知識管理工具與理念的歷史演進
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 個人知識演化追溯管理個人知識的工具與理念之發展，從 20 世紀中葉的願景一路延伸到當代系統。

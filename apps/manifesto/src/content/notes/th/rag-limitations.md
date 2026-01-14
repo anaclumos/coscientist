@@ -1,6 +1,9 @@
 ---
 title: ข้อจำกัดของ RAG
 description: ทำไมการสร้างข้อความแบบเสริมการค้นคืนมาตรฐานจึงไม่สามารถก่อให้เกิดการค้นพบที่แท้จริงได้
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag)

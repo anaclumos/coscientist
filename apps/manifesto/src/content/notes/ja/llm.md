@@ -1,6 +1,9 @@
 ---
 title: LLM
 description: Coscientist の熟考労働を支える AI アーキテクチャである大規模言語モデル
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM（Large Language

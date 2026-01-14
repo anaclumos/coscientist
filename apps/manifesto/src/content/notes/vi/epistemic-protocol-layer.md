@@ -1,6 +1,9 @@
 ---
 title: Lớp Giao thức Nhận thức
 description: Các quy tắc và quy trình làm cứng hệ thống tri thức trước nguy cơ sụp đổ
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 Một lớp giao thức nhận thức là một tập hợp các quy tắc, cơ chế kiểm tra và quy

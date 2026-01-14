@@ -3,6 +3,9 @@ title: Đồ thị biện chứng
 description:
   Một mô hình đồ thị tri thức lưu trữ các mệnh đề và quan hệ thay vì nội dung
   tài liệu
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 Đồ thị biện chứng là một đồ thị tri thức lưu trữ cấu trúc lập luận (các mệnh

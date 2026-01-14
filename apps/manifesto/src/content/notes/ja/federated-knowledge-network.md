@@ -1,6 +1,9 @@
 ---
 title: 連合型知識ネットワーク
 description: ローカル主権を保持しつつ、検証済み知識を交換する相互接続されたCoscientistインスタンス群
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 連合型知識ネットワーク（federated knowledge

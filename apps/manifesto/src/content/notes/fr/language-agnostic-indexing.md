@@ -1,6 +1,9 @@
 ---
 title: Indexation indépendante de la langue
 description: Un index conceptuel qui transcende les langues spécifiques
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 L’indexation indépendante de la langue est la pratique consistant à organiser la

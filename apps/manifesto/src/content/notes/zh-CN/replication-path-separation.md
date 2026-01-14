@@ -1,6 +1,9 @@
 ---
 title: 复制路径分离
 description: 询问支持是否来自独立路径，还是同一主张的反复转述
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 复制路径分离（Replication path

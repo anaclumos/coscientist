@@ -1,6 +1,9 @@
 ---
 title: Isaac Asimov
 description: Vakıf serisi Coscientist'in vizyonuna ilham veren bilimkurgu yazarı
+sourceLocale: en
+sourceHash: 83360f2cee16
+translatedAt: 2026-01-14
 ---
 
 Isaac Asimov (1920–1992), Vakıf serisi [Eşbilimci](./coscientist) için kurgusal

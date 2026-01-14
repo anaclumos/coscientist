@@ -1,6 +1,9 @@
 ---
 title: جدلیاتی گراف نوڈز
 description: جدلیاتی علم کے گراف میں نوڈ کی اقسام
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 ایک [جدلیاتی گراف](./dialectical-graph) میں، نوڈز خام متن کے بجائے ابستمیاتی

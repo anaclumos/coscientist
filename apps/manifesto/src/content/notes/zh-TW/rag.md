@@ -3,6 +3,9 @@ title: RAG
 description:
   檢索增強生成（Retrieval-Augmented Generation），一種透過檢索文件來讓 AI
   輸出有所依據的技術
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG（Retrieval-Augmented

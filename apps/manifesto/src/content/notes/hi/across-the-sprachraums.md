@@ -1,6 +1,9 @@
 ---
 title: Sprachraums के पार
 description: ज्ञान प्रणालियों के लिए भाषा सीमाओं से परे जाने की दृष्टि
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Sprachraums के पार" भाषा सीमाओं से परे जाने वाली ज्ञान प्रणालियों के लिए

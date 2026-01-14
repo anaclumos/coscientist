@@ -1,6 +1,9 @@
 ---
 title: Sampah AI
 description: Konten buatan AI berkualitas rendah yang membanjiri internet
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 Sampah AI adalah konten berupaya rendah dan bervolume tinggi yang diproduksi

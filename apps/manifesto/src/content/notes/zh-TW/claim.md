@@ -1,6 +1,9 @@
 ---
 title: 主張
 description: 儲存在辯證圖中、可被驗證的命題節點
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 主張（claim）是從文本中抽取、可被驗證的命題，並以一級物件（first-class

@@ -1,6 +1,9 @@
 ---
 title: Psicostoria
 description: Una scienza statistica fittizia nella saga della Fondazione di Asimov
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 La psicostoria è una disciplina fittizia nella saga della Fondazione di

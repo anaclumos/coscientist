@@ -1,6 +1,9 @@
 ---
 title: Inkompatibilitäts-Taxonomie
 description: Kategorien von Uneinigkeit zwischen Quellen
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 Die Inkompatibilitäts-Taxonomie ist eine Klassifikation der Gründe, warum

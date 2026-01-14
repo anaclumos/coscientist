@@ -2,6 +2,9 @@
 title: RAG
 description: Retrieval-Augmented Generation เทคนิคสำหรับยึดโยงผลลัพธ์ของ AI
   เข้ากับเอกสารที่ดึงมา
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG คือเทคนิคที่ช่วยเพิ่มความแม่นยำของผลลัพธ์จาก AI

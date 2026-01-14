@@ -3,6 +3,9 @@ title: Perda de nuances na tradução
 description:
   As sutilezas semânticas que desaparecem quando ideias atravessam fronteiras
   linguísticas
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 A perda de nuances na tradução é o apagamento de sutilezas semânticas quando

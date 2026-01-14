@@ -1,6 +1,9 @@
 ---
 title: Pratica di recupero
 description: Rafforzare la memoria richiamando attivamente le informazioni
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 La pratica di recupero consiste nel rafforzare la memoria richiamando

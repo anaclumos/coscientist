@@ -1,6 +1,9 @@
 ---
 title: 超級大腦
 description: 一種外部化的認知外骨骼願景，用以放大人類智慧
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 「超級大腦」（Superbrain）是 [Sunghyun Cho](./sunghyun-cho)

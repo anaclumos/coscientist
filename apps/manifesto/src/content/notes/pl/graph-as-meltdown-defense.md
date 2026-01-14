@@ -1,6 +1,9 @@
 ---
 title: Graf jako obrona przed meltdownem
 description: Jak dialektyczna struktura grafu zapobiega zapadaniu się wiedzy
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 „Graf jako obrona przed meltdownem" wyjaśnia, w jaki sposób

@@ -1,6 +1,9 @@
 ---
 title: 이중언어 인지
 description: 여러 언어를 동시에 사고하고 운용할 수 있는 능력
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 이중언어 인지는 둘 이상의 언어로 생각하고 일할 수 있는 능력으로, 맥락에 따라

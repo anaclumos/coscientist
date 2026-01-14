@@ -1,6 +1,9 @@
 ---
 title: Driftfenomenen
 description: Tijdgedreven veranderingen in kennissystemen
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 Driftfenomenen zijn de manieren waarop kennissystemen in de loop van de tijd

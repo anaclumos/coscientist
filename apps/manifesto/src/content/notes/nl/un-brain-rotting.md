@@ -3,6 +3,9 @@ title: Ont-breinrot
 description:
   Actief proces van het herstellen van verificatievermogen en handelingsvrijheid
   in een post-AI-informatieomgeving
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Ont-breinrot is het actieve proces van het herstellen van verificatievermogen en

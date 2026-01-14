@@ -1,6 +1,9 @@
 ---
 title: 打造新世代數位大腦
 description: 關於無摩擦、演算法驅動的個人知識系統之隨筆
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 〈打造新世代數位大腦〉是一篇由 [Sunghyun Cho](./sunghyun-cho)

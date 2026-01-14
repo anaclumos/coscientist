@@ -3,6 +3,9 @@ title: Carte de résolution ramifiée
 description:
   Structure présentant plusieurs conclusions valides en fonction de définitions
   ou de méthodes différentes
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 Une carte de résolution ramifiée est une structure qui présente plusieurs

@@ -1,6 +1,9 @@
 ---
 title: 환경 드리프트
 description: 이전에는 유효했던 지식을 무효화하는 세계의 변화
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 환경 드리프트는 외부 세계가 변화하여, 이전에는 유효했던 지식이 시간이 지나며

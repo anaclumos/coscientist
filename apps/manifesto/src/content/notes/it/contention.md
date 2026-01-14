@@ -1,6 +1,9 @@
 ---
 title: Contesa
 description: Un conflitto strutturato tra affermazioni che richiede risoluzione
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 La contesa è un conflitto strutturato tra affermazioni, definizioni o metodi. È

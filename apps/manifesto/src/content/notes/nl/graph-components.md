@@ -1,6 +1,9 @@
 ---
 title: Graafcomponenten
 description: De knoop- en randtypen die samen een dialectische graaf vormen
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 Graafcomponenten zijn de bouwstenen van een

@@ -1,6 +1,9 @@
 ---
 title: Weerleggings-eerst zoeken
 description: Een validatieprotocol dat op zoek gaat naar tegenbewijs vóór acceptatie
+sourceLocale: en
+sourceHash: 038f5f56fc2f
+translatedAt: 2026-01-14
 ---
 
 Weerleggings-eerst zoeken is een validatieprotocol dat naar tegenbewijs zoekt

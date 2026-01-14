@@ -1,6 +1,9 @@
 ---
 title: 跨语域交流
 description: 跨语言领域的对话与知识交换
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 跨语域交流（Inter-Sprachraum

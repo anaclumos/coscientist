@@ -1,6 +1,9 @@
 ---
 title: 언어권 간 커뮤니케이션
 description: 언어 영역을 넘나드는 대화와 지식 교환
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 언어권 간 커뮤니케이션은 언어의 경계를 넘어 아이디어를 교환하되, 의미를 보존하고

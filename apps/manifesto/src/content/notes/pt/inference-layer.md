@@ -1,6 +1,9 @@
 ---
 title: Camada de Inferência
 description: A rede viva e evolutiva de alegações em um grafo dialético
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 A camada de inferência é a rede viva e evolutiva de [alegações](./claim),

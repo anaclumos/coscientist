@@ -1,6 +1,9 @@
 ---
 title: "Tokeny ≠ wiedza"
 description: Osobista wyprawa po egzoszkielet poznawczy
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Ja, [Sunghyun Cho](./sunghyun-cho), dorastałem z nabożnym szacunkiem do

@@ -1,6 +1,9 @@
 ---
 title: Dérive environnementale
 description: Changements dans le monde qui invalident des connaissances auparavant valides
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 La dérive environnementale est la catégorie de

@@ -1,6 +1,9 @@
 ---
 title: Giả định
 description: Một tiền đề ngầm làm nền tảng cho một khẳng định
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Giả định là một tiền đề ngầm mà một [khẳng định](./claim) dựa vào nhưng không

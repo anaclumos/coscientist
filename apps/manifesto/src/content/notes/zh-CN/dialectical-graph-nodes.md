@@ -1,6 +1,9 @@
 ---
 title: 辩证图节点
 description: 辩证知识图谱中的节点类型
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 在一个[辩证图](./dialectical-graph)中，节点表示的是认识论对象（epistemic

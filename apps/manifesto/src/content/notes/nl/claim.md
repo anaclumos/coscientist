@@ -3,6 +3,9 @@ title: Bewering
 description:
   Een verifieerbare propositie die als knooppunt in een dialectische grafiek
   wordt opgeslagen
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 Een bewering is een verifieerbare propositie die uit tekst wordt geëxtraheerd en

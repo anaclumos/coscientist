@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: Một không gian hay miền ngôn ngữ định hình tư duy và tri thức
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum (tiếng Đức: "không gian ngôn ngữ" hoặc "miền ngôn ngữ") là miền được

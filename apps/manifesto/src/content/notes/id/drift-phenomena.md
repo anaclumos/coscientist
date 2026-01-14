@@ -1,6 +1,9 @@
 ---
 title: Fenomena Drift
 description: Perubahan yang digerakkan oleh waktu dalam sistem pengetahuan
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 Fenomena drift adalah cara sistem pengetahuan berubah seiring waktu, sering kali

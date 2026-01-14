@@ -1,6 +1,9 @@
 ---
 title: Tổng hợp liên ngôn ngữ
 description: Kết hợp tri thức từ nhiều ngôn ngữ thành một sự hiểu biết thống nhất
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 Tổng hợp liên ngôn ngữ là quá trình kết hợp tri thức từ các nguồn ở những ngôn

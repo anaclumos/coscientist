@@ -1,6 +1,9 @@
 ---
 title: 验证中的理想难度
 description: 让验证需要付出努力，以维持真实理解
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 验证中的理想难度（desirable difficulty）是一项原则： [验证](./verification)

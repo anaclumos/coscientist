@@ -1,6 +1,9 @@
 ---
 title: Selva Digital
 description: Um espaço pessoal de conhecimento de baixo atrito que se auto-organiza
+sourceLocale: en
+sourceHash: 30a3de2b3fcf
+translatedAt: 2026-01-14
 ---
 
 Uma selva digital é um espaço pessoal de conhecimento que cresce com mínima

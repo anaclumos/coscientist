@@ -1,6 +1,9 @@
 ---
 title: Nodo de cuestión
 description: Un conjunto de clústeres de afirmaciones en colisión en un grafo dialéctico
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 Un nodo de cuestión es un objeto del grafo que agrupa [afirmaciones](./claim) en

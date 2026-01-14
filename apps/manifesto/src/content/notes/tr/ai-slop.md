@@ -1,6 +1,9 @@
 ---
 title: Yapay Zekâ Çamuru
 description: Düşük kaliteli, yapay zekâ üretimi içeriğin interneti istila etmesi
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 Yapay zekâ çamuru (ya da kısaca _slop_), üretken modellerle üretilen; anlamdan

@@ -1,6 +1,9 @@
 ---
 title: 人工智能
 description: 人工智能既是知识系统的工具，也是其面临的挑战
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 在 [共研者](./coscientist) 的语境中，AI（Artificial

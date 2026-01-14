@@ -1,6 +1,9 @@
 ---
 title: Graf sebagai Pertahanan dari Meltdown
 description: Bagaimana struktur graf dialektis mencegah runtuhnya pengetahuan
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 Graf sebagai pertahanan dari meltdown menjelaskan bagaimana

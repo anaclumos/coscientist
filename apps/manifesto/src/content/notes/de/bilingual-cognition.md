@@ -1,6 +1,9 @@
 ---
 title: Zweisprachige Kognition
 description: Die Fähigkeit, in mehreren Sprachen gleichzeitig zu denken und zu agieren
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 Zweisprachige Kognition ist die Fähigkeit, in mehr als einer Sprache zu denken

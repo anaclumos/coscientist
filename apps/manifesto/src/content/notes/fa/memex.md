@@ -1,6 +1,9 @@
 ---
 title: ممکس
 description: ماشین دانش شخصیِ پیشنهادیِ ونیوار بوش
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 ممکس بایگانی شخصیِ الکترومکانیکیِ پیشنهادیِ [ونیوار بوش](./vannevar-bush) برای

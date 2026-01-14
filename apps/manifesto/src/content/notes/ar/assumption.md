@@ -1,6 +1,9 @@
 ---
 title: افتراض
 description: مقدّمة ضمنية تقوم عليها دعوى
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 الافتراض هو مقدّمة ضمنية تعتمد عليها [دعوى](./claim) دون أن تذكرها صراحة.

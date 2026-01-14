@@ -3,6 +3,9 @@ title: Noite Escura da Alma
 description:
   Um recurso literário para uma crise interior profunda que leva à reconstrução
   da identidade
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 "A Noite Escura da Alma" nomeia uma crise interior profunda na qual a

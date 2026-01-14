@@ -1,6 +1,9 @@
 ---
 title: 오퍼레이터
 description: Coscientist에서 지식에 대한 인간 주권자
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 오퍼레이터는 [Coscientist](./coscientist)에서 지식에 대한 인간 주권자이다. 이

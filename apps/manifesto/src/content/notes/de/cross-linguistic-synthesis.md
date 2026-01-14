@@ -1,6 +1,9 @@
 ---
 title: Sprachübergreifende Synthese
 description: Wissen aus mehreren Sprachen zu einem einheitlichen Verständnis zusammenführen
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 Sprachübergreifende Synthese ist der Prozess, Wissen aus Quellen in

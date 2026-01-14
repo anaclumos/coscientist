@@ -1,6 +1,9 @@
 ---
 title: Джерело
 description: Якір походження для тверджень і доказів
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 Джерело — це точка походження для [фрагмента доказів](./evidence-span) або

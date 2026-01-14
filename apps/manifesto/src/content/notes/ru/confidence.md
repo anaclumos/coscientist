@@ -1,6 +1,9 @@
 ---
 title: Уверенность
 description: Многомерная мера поддержки утверждения
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 Уверенность в [Соисследователь](./coscientist) — это не единый показатель

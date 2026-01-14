@@ -3,6 +3,9 @@ title: Kennisgrondwet
 description:
   De epistemische protocollaag als een bestuursdocument voor hoe beweringen
   gezag krijgen
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 Een kennisgrondwet is het geheel van regels dat bepaalt hoe

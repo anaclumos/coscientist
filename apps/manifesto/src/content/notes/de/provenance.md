@@ -1,6 +1,9 @@
 ---
 title: Provenienz
 description: Der Ursprung und die Nachweiskette für Behauptungen und Belege
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 Provenienz ist der Ursprung und die Nachweiskette einer Behauptung oder eines

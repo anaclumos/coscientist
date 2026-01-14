@@ -1,6 +1,9 @@
 ---
 title: Tâm sử học
 description: Một khoa học thống kê hư cấu trong loạt Foundation của Asimov
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 Tâm sử học là một ngành hư cấu trong loạt Foundation của

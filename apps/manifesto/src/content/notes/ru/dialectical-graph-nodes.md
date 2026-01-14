@@ -1,6 +1,9 @@
 ---
 title: Узлы диалектического графа
 description: Типы узлов в диалектическом графе знаний
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 В [Диалектическом графе](./dialectical-graph) узлы представляют эпистемические

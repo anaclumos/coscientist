@@ -1,6 +1,9 @@
 ---
 title: 탐색 메커니즘
 description: 변증법적 그래프에서 지속적인 지식 발견을 위한 전략
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 탐색 메커니즘은 [Coscientist](./coscientist)가

@@ -1,6 +1,9 @@
 ---
 title: Seldon-Plan
 description: Hari Seldons langfristige Strategie, um ein dunkles Zeitalter zu verkürzen
+sourceLocale: en
+sourceHash: 879a58531fb4
+translatedAt: 2026-01-14
 ---
 
 Der Seldon-Plan ist [Hari Seldon](./hari-seldon)s langfristige Strategie, um ein

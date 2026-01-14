@@ -1,6 +1,9 @@
 ---
 title: Vertrauen
 description: Ein mehrdimensionales Maß für die Unterstützung einer Behauptung
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 Vertrauen in [Kozientist](./coscientist) ist kein einzelner

@@ -3,6 +3,9 @@ title: Digitaler Garten
 description:
   Eine öffentliche, sich weiterentwickelnde Sammlung miteinander verknüpfter
   Notizen
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 Ein digitaler Garten ist eine öffentliche, sich weiterentwickelnde Sammlung

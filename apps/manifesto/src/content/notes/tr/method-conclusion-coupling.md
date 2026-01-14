@@ -1,6 +1,9 @@
 ---
 title: Yöntem-Sonuç Bağlaşımı
 description: İddiaları sonuca değil, yönteme göre kümelendiren analiz deseni
+sourceLocale: en
+sourceHash: 8987bb9190cf
+translatedAt: 2026-01-14
 ---
 
 Yöntem-sonuç bağlaşımı, [iddiaları](./claim) vardıkları sonuca göre değil,

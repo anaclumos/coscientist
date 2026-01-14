@@ -1,6 +1,9 @@
 ---
 title: যাচাইয়ে কাম্য কঠিনতা
 description: প্রকৃত বোঝাপড়া বজায় রাখতে যাচাইকে পরিশ্রমসাধ্য করা
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 যাচাইয়ে কাম্য কঠিনতা হলো এই নীতি যে [যাচাই](./verification) এমন পরিমাণ

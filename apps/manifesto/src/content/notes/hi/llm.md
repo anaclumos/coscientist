@@ -3,6 +3,9 @@ title: LLM
 description:
   लार्ज लैंग्वेज मॉडल, Coscientist के contemplation labor के पीछे की AI
   आर्किटेक्चर
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM उन न्यूरल नेटवर्क मॉडलों को संदर्भित करता है जिन्हें विशाल टेक्स्ट कॉर्पस पर

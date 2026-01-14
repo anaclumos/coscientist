@@ -3,6 +3,9 @@ title: Malam Gelap Jiwa
 description:
   Perangkat sastra untuk krisis batin yang mendalam yang mengarah pada
   rekonstruksi identitas
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 "Dark Night of the Soul" menamai sebuah krisis batin yang mendalam di mana

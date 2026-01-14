@@ -3,6 +3,9 @@ title: Drugi mózg
 description:
   Podejście do zarządzania wiedzą osobistą polegające na eksternalizowaniu
   pomysłów
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 „Drugi mózg" to podejście do zarządzania wiedzą osobistą skoncentrowane na

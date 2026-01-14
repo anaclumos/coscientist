@@ -3,6 +3,9 @@ title: LLM
 description:
   Large Language Model, arsitektur AI yang mendasari kerja kontemplasi
   Coscientist
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM merujuk pada model jaringan saraf yang dilatih pada korpus teks berskala

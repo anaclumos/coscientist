@@ -1,6 +1,9 @@
 ---
 title: Çekişme
 description: Çözüm gerektiren iddialar arasındaki yapılandırılmış bir çatışma
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 Çekişme, iddialar, tanımlar veya yöntemler arasındaki yapılandırılmış bir

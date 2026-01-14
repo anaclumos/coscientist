@@ -1,6 +1,9 @@
 ---
 title: โหนดของกราฟวิภาษวิธี
 description: ประเภทของโหนดในกราฟความรู้แบบวิภาษวิธี
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 ใน [กราฟวิภาษวิธี](./dialectical-graph) โหนดเป็นตัวแทนของวัตถุเชิงญาณวิทยา

@@ -3,6 +3,9 @@ title: Coscientist
 description:
   Un sistema de acompañante intelectual para la producción de conocimiento en la
   era pos-IA
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist es un servicio de código abierto inspirado en la

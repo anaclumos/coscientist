@@ -1,6 +1,9 @@
 ---
 title: Kebun Digital
 description: Kumpulan catatan saling-terkait yang bersifat publik dan terus berkembang
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 Kebun digital adalah kumpulan catatan saling-terkait yang bersifat publik dan

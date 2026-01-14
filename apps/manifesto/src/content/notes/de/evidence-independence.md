@@ -3,6 +3,9 @@ title: Evidenzunabhängigkeit
 description:
   Prinzip, dass Übereinstimmung durch gemeinsamen Trainingsbias kein echter
   Konsens ist
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 Evidenzunabhängigkeit ist das Prinzip, dass eine scheinbare Übereinstimmung

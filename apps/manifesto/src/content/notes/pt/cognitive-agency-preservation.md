@@ -1,6 +1,9 @@
 ---
 title: Preservação da Agência Cognitiva
 description: Enquadramento de segurança em IA que mantém os humanos no controlo do juízo
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 A preservação da agência cognitiva é o princípio de que a IA deve reforçar o

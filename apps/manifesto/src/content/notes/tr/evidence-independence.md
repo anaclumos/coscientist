@@ -3,6 +3,9 @@ title: Kanıt Bağımsızlığı
 description:
   Paylaşılan eğitim önyargısından doğan uzlaşının gerçek bir fikir birliği
   olmadığı ilkesi
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 Kanıt bağımsızlığı, AI modelleri arasındaki görünürdeki uzlaşının, uzlaşma

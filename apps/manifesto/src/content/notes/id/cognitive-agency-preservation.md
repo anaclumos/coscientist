@@ -1,6 +1,9 @@
 ---
 title: Pelestarian Agensi Kognitif
 description: Kerangka keselamatan AI yang menjaga manusia tetap memegang kendali penilaian
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 Pelestarian agensi kognitif adalah prinsip bahwa AI harus memperkuat penilaian

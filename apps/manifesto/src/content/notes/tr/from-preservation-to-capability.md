@@ -1,6 +1,9 @@
 ---
 title: Koruma’dan Yetkinliğe
 description: Bilgiyi depolamaktan anlayış üretmeye geçiş
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 Koruma’dan yetkinliğe geçiş, bilgi depolayan bilgi sistemlerinden; keşfi,

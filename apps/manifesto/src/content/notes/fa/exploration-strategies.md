@@ -1,6 +1,9 @@
 ---
 title: راهبردهای اکتشاف
 description: راهبردهای پیمایش گراف برای کشف پیوستهٔ دانش
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [پژوهشگر مشترک](./coscientist) به چیزی بیش از بازیابی نیاز دارد: به اکتشافی نیاز

@@ -3,6 +3,9 @@ title: এলএলএম
 description:
   বৃহৎ ভাষা মডেল, কসায়েন্টিস্টের contemplation labor-এর অন্তর্নিহিত এআই
   স্থাপত্য
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM বলতে বোঝায় এমন নিউরাল নেটওয়ার্ক মডেল, যেগুলো বিশাল টেক্সট কর্পাসে

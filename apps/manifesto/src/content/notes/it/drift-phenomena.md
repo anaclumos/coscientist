@@ -1,6 +1,9 @@
 ---
 title: Fenomeni di drift
 description: Cambiamenti nel tempo nei sistemi di conoscenza
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 I fenomeni di drift sono i modi in cui i sistemi di conoscenza cambiano nel

@@ -1,6 +1,9 @@
 ---
 title: Tìm kiếm ưu tiên phản ví dụ
 description: Chiến lược ưu tiên phản ví dụ thay vì bằng chứng ủng hộ
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 Tìm kiếm ưu tiên phản ví dụ là một

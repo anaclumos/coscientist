@@ -1,6 +1,9 @@
 ---
 title: プロジェクトPIRI
 description: プログラミング文書の無制限翻訳を目指した、中止された取り組み
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Project PIRI（Programmatic Interlingual Resource

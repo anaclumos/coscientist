@@ -3,6 +3,9 @@ title: Ciclo di vita di un'affermazione
 description:
   Come le affermazioni evolvono da ipotesi provvisoria a conoscenza solida o
   obsolescenza
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 Il ciclo di vita di un'[affermazione](./claim) descrive come un'affermazione

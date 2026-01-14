@@ -1,6 +1,9 @@
 ---
 title: 프로젝트 알데하이드
 description: 개인 디지털 브레인을 구축하려는 초기 시도
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 프로젝트 알데하이드는 [조성현](./sunghyun-cho)의 개인

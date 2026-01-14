@@ -2,6 +2,9 @@
 title: Projekt PIRI
 description: Eine eingestellte Initiative für unbegrenzte Übersetzungen von
   Programmierdokumentation
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Projekt PIRI war die Initiative von [Sunghyun Cho](./sunghyun-cho), unbegrenzte

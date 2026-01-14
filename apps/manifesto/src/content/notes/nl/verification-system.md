@@ -1,6 +1,9 @@
 ---
 title: Verificatiesysteem
 description: De mechanismen om beweringen te toetsen aan bewijs en tegenbewijs
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 Het verificatiesysteem is het geheel aan mechanismen dat

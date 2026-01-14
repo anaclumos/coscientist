@@ -1,6 +1,9 @@
 ---
 title: 銀河百科全書
 description: 一個用於在黑暗時代中保存知識的概念
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 《銀河百科全書》（Encyclopedia

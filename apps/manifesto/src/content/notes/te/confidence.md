@@ -1,6 +1,9 @@
 ---
 title: నమ్మకం
 description: ఒక దావాకు మద్దతును కొలిచే బహు-మితీయ ప్రమాణం
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 [కోసైంటిస్ట్](./coscientist) లోని నమ్మకం ఒకే ఒక్క సంభావ్యత స్కోరు కాదు. అది ఒక

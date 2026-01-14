@@ -1,6 +1,9 @@
 ---
 title: Lặp lại ngắt quãng dựa trên đồ thị
 description: Dùng tuổi của khẳng định hoặc tuổi phản biện để kích hoạt việc tái xác minh
+sourceLocale: en
+sourceHash: 1c4655730a74
+translatedAt: 2026-01-14
 ---
 
 Lặp lại ngắt quãng dựa trên đồ thị áp dụng các nguyên lý của

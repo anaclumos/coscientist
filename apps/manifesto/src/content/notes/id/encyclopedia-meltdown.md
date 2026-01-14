@@ -3,6 +3,9 @@ title: Kehancuran Ensiklopedia
 description:
   Fenomena keruntuhan pengetahuan ketika AI mengambil inisiatif tanpa intervensi
   manusia
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 Kehancuran Ensiklopedia adalah mode kegagalan keruntuhan pengetahuan yang

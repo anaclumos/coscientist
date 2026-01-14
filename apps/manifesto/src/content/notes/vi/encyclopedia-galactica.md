@@ -1,6 +1,9 @@
 ---
 title: Bách khoa toàn thư Galactica
 description: Một khái niệm nhằm gìn giữ tri thức xuyên qua những thời kỳ đen tối
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 Bách khoa toàn thư Galactica là một thiết bị hư cấu trong loạt _Foundation_ của

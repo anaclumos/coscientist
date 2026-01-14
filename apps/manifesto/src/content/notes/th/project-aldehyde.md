@@ -1,6 +1,9 @@
 ---
 title: โปรเจกต์ Aldehyde
 description: ความพยายามระยะแรกในการสร้างสมองดิจิทัลส่วนตัว
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 โปรเจกต์ Aldehyde เป็นความพยายามระยะแรกของ [ซองฮยอน โช](./sunghyun-cho)

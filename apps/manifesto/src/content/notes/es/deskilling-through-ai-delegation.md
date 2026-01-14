@@ -3,6 +3,9 @@ title: Pérdida de habilidades por delegación en la IA
 description:
   Riesgo de perder la capacidad de aprendizaje cuando la IA hace el trabajo
   cognitivo
+sourceLocale: en
+sourceHash: 4403bb1f64b0
+translatedAt: 2026-01-14
 ---
 
 La pérdida de habilidades por delegación en la IA es el riesgo de que, al

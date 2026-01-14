@@ -3,6 +3,9 @@ title: Agencia humana en la IA
 description:
   Principios y mecanismos para mantener a los humanos al mando del trabajo del
   conocimiento asistido por IA
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 La agencia humana en la [IA](./ai) es el conjunto de principios y mecanismos que

@@ -1,6 +1,9 @@
 ---
 title: Anlam Kaybı
 description: Bir iddianın, terimleri anlam değiştirdiği için geçerliliğini yitirmesi
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 Anlam kaybı, bir [iddia](./claim) çürütüldüğü için değil, kullandığı terimlerin

@@ -3,6 +3,9 @@ title: Séparation triple
 description:
   Règle architecturale séparant le texte brut, les affirmations normalisées et
   les relations explicites
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 La séparation triple est la règle architecturale d’un

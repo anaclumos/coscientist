@@ -3,6 +3,9 @@ title: Deterioro institucional del pensamiento
 description:
   Modo de fallo organizacional en el que se degrada la capacidad colectiva de
   verificación
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 El deterioro institucional del pensamiento es un modo de fallo en el que la

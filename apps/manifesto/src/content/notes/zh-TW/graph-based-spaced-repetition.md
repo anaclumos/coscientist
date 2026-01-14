@@ -1,6 +1,9 @@
 ---
 title: 基於圖的間隔重複
 description: 使用主張年齡或反駁年齡來觸發重新驗證
+sourceLocale: en
+sourceHash: 1c4655730a74
+translatedAt: 2026-01-14
 ---
 
 基於圖的間隔重複將[間隔重複](./spaced-repetition)原則應用於知識維護：那些近期未被驗證的[主張](./claim)，或其支持證據長時間未受到挑戰的主張，會被浮現出來以供重新檢視。

@@ -1,6 +1,9 @@
 ---
 title: الثقة
 description: مقياس متعدد الأبعاد لمدى دعم ادّعاء ما
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 الثقة في [العالِم المشارك](./coscientist) ليست درجة احتمال واحدة. إنها حالة

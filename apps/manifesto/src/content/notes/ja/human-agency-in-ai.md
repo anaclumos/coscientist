@@ -1,6 +1,9 @@
 ---
 title: AIにおける人間のエージェンシー
 description: AI支援の知的業務において、人間が主導権を保つための原則とメカニズム
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 [AI](./ai)における人間のエージェンシー（Human

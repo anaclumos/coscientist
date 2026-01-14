@@ -3,6 +3,9 @@ title: Sửa sai vs Trôi dạt
 description:
   Nguyên lý kinh tế cho rằng một hệ thống tri thức chỉ tồn tại bền vững nếu chi
   phí sửa sai luôn thấp hơn chi phí trôi dạt
+sourceLocale: en
+sourceHash: 5b62e4845eb0
+translatedAt: 2026-01-14
 ---
 
 Sửa sai vs trôi dạt là nguyên lý kinh tế cho rằng một hệ thống tri thức chỉ khỏe

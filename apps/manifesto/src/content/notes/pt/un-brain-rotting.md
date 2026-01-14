@@ -3,6 +3,9 @@ title: Desapodrecendo o Cérebro
 description:
   Processo ativo de restauração da verificação e da agência em um ambiente
   informacional pós-IA
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Desapodrecer o cérebro é o processo ativo de restaurar a capacidade de

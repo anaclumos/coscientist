@@ -3,6 +3,9 @@ title: Imperium Galaktyczne
 description:
   Cywilizacja, której upadek motywuje Encyclopedię Galactica w „Fundacji"
   Asimova
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 Imperium Galaktyczne to cywilizacja w cyklu „Fundacja"

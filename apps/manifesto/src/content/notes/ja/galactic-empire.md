@@ -2,6 +2,9 @@
 title: 銀河帝国
 description: アシモフ『ファウンデーション』において、百科事典銀河（Encyclopedia
   Galactica）を動機づける文明の崩壊
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 銀河帝国は、[アイザック・アシモフ](./isaac-asimov)の『ファウンデーション』シリーズに登場する文明であり、その避けられない崩壊が[ハリ・セルダン](./hari-seldon)の介入を動機づける。最盛期には帝国は銀河全体にまたがるが、その崩壊は、意図的な行動によって短縮されない限り、三万年に及ぶ[魂の暗夜](./dark-night-of-the-soul)をもたらす。

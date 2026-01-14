@@ -3,6 +3,9 @@ title: Dialektyczne przeplatanie
 description:
   Mieszanie typów twierdzeń podczas eksploracji, aby zapobiegać silosom i
   przebijać fałszywe poczucie kompetencji
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 Dialektyczne przeplatanie to praktyka mieszania typów [twierdzeń](./claim),

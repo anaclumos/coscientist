@@ -1,6 +1,9 @@
 ---
 title: 교차 학습
 description: 전이를 높이기 위해 연습 중에 주제나 문제 유형을 섞는 것
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 교차 학습은 같은 세션 안에서 문제 유형이나 주제를 섞어 연습하는 방식으로, 각각을

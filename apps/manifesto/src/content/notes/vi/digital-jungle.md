@@ -1,6 +1,9 @@
 ---
 title: Rừng Kỹ thuật số
 description: Một không gian tri thức cá nhân ít ma sát, tự tổ chức
+sourceLocale: en
+sourceHash: 30a3de2b3fcf
+translatedAt: 2026-01-14
 ---
 
 Rừng kỹ thuật số là một không gian tri thức cá nhân phát triển với mức biên tập

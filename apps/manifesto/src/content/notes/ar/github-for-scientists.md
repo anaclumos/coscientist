@@ -1,6 +1,9 @@
 ---
 title: GitHub للعلماء
 description: رؤية للتعامل مع التجارب ككود مُدار بالإصدارات وقابل للتدقيق
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 "GitHub للعلماء" هي رؤية تُعامَل فيها التجارب العلمية مثل الكود: مُدارة

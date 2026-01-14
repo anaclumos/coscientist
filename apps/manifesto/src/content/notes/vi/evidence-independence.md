@@ -3,6 +3,9 @@ title: Tính độc lập của bằng chứng
 description:
   Nguyên tắc rằng sự đồng thuận do thiên lệch huấn luyện chung tạo ra không phải
   là đồng thuận thực sự
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 Tính độc lập của bằng chứng là nguyên tắc cho rằng sự đồng ý bề ngoài giữa các

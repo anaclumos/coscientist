@@ -1,6 +1,9 @@
 ---
 title: Tartışmacı Eylem
 description: İddia etme, tanımlama veya çürütme gibi bir akıl yürütme hamlesi
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 Tartışmacı eylem, bir iddiayı ileri sürme, bir terimi tanımlama, kanıt sunma,

@@ -3,6 +3,9 @@ title: Dequalificazione tramite delega all’IA
 description:
   Rischio di perdere la capacità di apprendere quando l’IA svolge il lavoro
   cognitivo
+sourceLocale: en
+sourceHash: 4403bb1f64b0
+translatedAt: 2026-01-14
 ---
 
 La dequalificazione tramite delega all’IA è il rischio che esternalizzare il

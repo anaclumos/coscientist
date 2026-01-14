@@ -1,6 +1,9 @@
 ---
 title: 변증법적 교차 학습
 description: 탐색 중 주장 유형을 섞어 사일로를 방지하고 거짓된 유능함을 깨뜨리기
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 변증법적 교차 학습은 한 주제를 끝까지 철저히 복습한 다음 다른 주제로 넘어가는

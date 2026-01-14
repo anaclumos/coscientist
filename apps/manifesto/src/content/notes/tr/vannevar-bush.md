@@ -1,6 +1,9 @@
 ---
 title: Vannevar Bush
 description: Memex’i tasavvur eden mühendis ve bilim yöneticisi
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 Vannevar Bush (1890–1974), II. Dünya Savaşı sırasında ABD Bilimsel Araştırma ve

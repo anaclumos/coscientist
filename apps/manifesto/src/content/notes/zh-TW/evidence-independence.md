@@ -1,6 +1,9 @@
 ---
 title: 證據獨立性
 description: 共享訓練偏誤所造成的同意並非真正共識的原則
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 證據獨立性（Evidence

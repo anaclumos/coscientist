@@ -1,6 +1,9 @@
 ---
 title: Il grafo come difesa dal meltdown
 description: Come la struttura del grafo dialettico previene il collasso della conoscenza
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 Il grafo come difesa dal meltdown spiega come il

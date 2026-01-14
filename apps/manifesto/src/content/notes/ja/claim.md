@@ -1,6 +1,9 @@
 ---
 title: 主張
 description: 弁証法グラフ内のノードとして保存される、検証可能な命題
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 主張（claim）とは、テキストから抽出され、[弁証法グラフ](./dialectical-graph)に第一級オブジェクトとして保存される、検証可能な命題です。主張は生の文ではなく、明示的な[スコープ](./scope)、[前提](./assumption)、[方法](./method)への依存関係を伴う、正規化された（normalized）記述です。

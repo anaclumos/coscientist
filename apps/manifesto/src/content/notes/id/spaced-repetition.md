@@ -1,6 +1,9 @@
 ---
 title: Pengulangan Berjarak
 description: Teknik belajar yang didasarkan pada jeda peninjauan yang makin lama
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 Pengulangan berjarak adalah cara berbasis bukti untuk menjadwalkan peninjauan

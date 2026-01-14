@@ -1,6 +1,9 @@
 ---
 title: Quelle
 description: Ein Provenienz-Anker für Behauptungen und Belege
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 Eine Quelle ist der Ursprungspunkt für einen [Belegabschnitt](./evidence-span)

@@ -1,6 +1,9 @@
 ---
 title: ஆராய்ச்சி உத்திகள்
 description: தொடர்ச்சியான அறிவுக் கண்டுபிடிப்புக்கான கிராஃப் ஊடுருவல் உத்திகள்
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [இணை-விஞ்ஞானி](./coscientist) க்கு retrieval மட்டும் போதாது:

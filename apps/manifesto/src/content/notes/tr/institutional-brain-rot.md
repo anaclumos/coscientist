@@ -1,6 +1,9 @@
 ---
 title: Kurumsal Beyin Çürümesi
 description: Kolektif doğrulama kapasitesinin zamanla bozulduğu örgütsel başarısızlık modu
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 Kurumsal beyin çürümesi, bir organizasyonun bilgiyi doğrulama ve güncelleme

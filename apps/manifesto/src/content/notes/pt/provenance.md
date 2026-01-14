@@ -1,6 +1,9 @@
 ---
 title: Proveniência
 description: A origem e a cadeia de custódia de alegações e evidências
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 Proveniência é a origem e a cadeia de custódia de uma alegação ou de uma peça de

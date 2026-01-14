@@ -1,6 +1,9 @@
 ---
 title: Pułapka płynności
 description: Branie gładkiej prozy AI za dokładność
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 Pułapka płynności to błąd poznawczy polegający na uznawaniu gładkiej, brzmiącej

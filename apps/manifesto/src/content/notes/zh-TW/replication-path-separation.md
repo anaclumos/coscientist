@@ -1,6 +1,9 @@
 ---
 title: 複製路徑分離
 description: 詢問支援是否來自獨立路徑或只是對同一主張的重複轉述
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 複製路徑分離（Replication path

@@ -1,6 +1,9 @@
 ---
 title: سسٹم ڈرفٹ
 description: خود آلودگی یا غفلت کے ذریعے علمی نظاموں کی تنزلی
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 سسٹم ڈرفٹ، [ڈرفٹ کے مظاہر](./drift-phenomena) کی وہ قسم ہے جس میں علمی نظام خود

@@ -1,6 +1,9 @@
 ---
 title: Argumentatieve Relaties
 description: Randtypen in een dialectische graaf, geordend naar functie
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 Argumentatieve relaties zijn de randtypen in een

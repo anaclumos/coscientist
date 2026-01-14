@@ -1,6 +1,9 @@
 ---
 title: Exoesqueleto cognitivo
 description: Herramientas externas que extienden y amplifican la cognición humana
+sourceLocale: en
+sourceHash: 946b5ecb455e
+translatedAt: 2026-01-14
 ---
 
 Un exoesqueleto cognitivo es un sistema de herramientas externas que extienden y

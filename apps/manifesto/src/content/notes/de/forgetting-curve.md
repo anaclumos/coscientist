@@ -1,6 +1,9 @@
 ---
 title: Vergessenskurve
 description: Der vorhersehbare Rückgang des Erinnerns ohne Wiederholung
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 Die Vergessenskurve beschreibt den vorhersehbaren Rückgang der

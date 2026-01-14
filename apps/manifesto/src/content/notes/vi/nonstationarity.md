@@ -1,6 +1,9 @@
 ---
 title: Tính không dừng
 description: Khi quá trình tạo ra dữ liệu thay đổi theo thời gian
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 Tính không dừng nghĩa là quá trình nền tảng tạo ra dữ liệu thay đổi theo thời

@@ -1,6 +1,9 @@
 ---
 title: 验证
 description: 将主张与证据和反证进行核对的过程
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 验证（Verification）是检查某个主张是否经得起证据、反证以及替代性解释的过程。它不是被动接受：它需要付出努力，而这种努力正是区分知识与信念的关键。

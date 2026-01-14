@@ -1,6 +1,9 @@
 ---
 title: 辯證圖的邊（Edges）
 description: 連接辯證知識圖中節點的關係類型
+sourceLocale: en
+sourceHash: e060cb9fd333
+translatedAt: 2026-01-14
 ---
 
 在[辯證圖（Dialectical Graph）](./dialectical-graph)中，邊所編碼的是關係類型，而不是相似度分數。其價值在於，你可以問「這如何影響那個？」而不只是問「這些是否在談同一個主題？」

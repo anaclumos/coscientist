@@ -1,6 +1,9 @@
 ---
 title: 연합형 지식 네트워크
 description: 로컬 주권을 보존하면서 검증된 지식을 교환하는 상호연결된 Coscientist 인스턴스
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 연합형 지식 네트워크는 개인, 조직, 공공 규모에서 상호연결된

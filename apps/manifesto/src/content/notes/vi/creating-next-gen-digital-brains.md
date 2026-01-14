@@ -3,6 +3,9 @@ title: Tạo ra bộ não số thế hệ tiếp theo
 description:
   Bài luận về các hệ thống tri thức cá nhân không ma sát, được dẫn dắt bởi thuật
   toán
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 "Creating Next-gen Digital Brains" là một bài luận của

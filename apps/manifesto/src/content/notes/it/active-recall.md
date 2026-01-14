@@ -1,6 +1,9 @@
 ---
 title: Richiamo attivo
 description: Studiare recuperando informazioni dalla memoria
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 Il richiamo attivo consiste nello studiare cercando di produrre la risposta

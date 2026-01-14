@@ -1,6 +1,9 @@
 ---
 title: ไซโคฮิสทอรี
 description: วิทยาศาสตร์สถิติสมมติในชุดเรื่อง Foundation ของอาซิมอฟ
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 ไซโคฮิสทอรีเป็นสาขาวิชาสมมติในชุดเรื่อง Foundation ของ

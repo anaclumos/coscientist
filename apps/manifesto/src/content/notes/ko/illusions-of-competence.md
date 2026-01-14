@@ -1,6 +1,9 @@
 ---
 title: 유능함의 환상
 description: 수동적 익숙함이 만들어내는 거짓된 숙달감
+sourceLocale: en
+sourceHash: 75804f84b0ff
+translatedAt: 2026-01-14
 ---
 
 유능함의 환상은 익숙함을 숙달로 착각할 때 발생한다. 다시 읽기, 형광펜으로

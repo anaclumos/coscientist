@@ -1,6 +1,9 @@
 ---
 title: 成贤 赵
 description: Coscientist 的建造者及其奠基性文章的作者
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 成贤 赵是 [共研者](./coscientist)

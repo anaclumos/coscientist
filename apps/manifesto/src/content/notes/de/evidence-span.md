@@ -3,6 +3,9 @@ title: Evidenzausschnitt
 description:
   Ein exakt zitierter Ausschnitt aus einer Quelle, der eine Behauptung stützt
   oder in Frage stellt
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Ein Evidenzausschnitt ist der exakt zitierte Textbereich aus einer Quelle, der

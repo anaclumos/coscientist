@@ -1,6 +1,9 @@
 ---
 title: Extracranial
 description: Sunghyun Cho's persoonlijke digitale brein en publicatiesysteem
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranial is het persoonlijke digitale brein van

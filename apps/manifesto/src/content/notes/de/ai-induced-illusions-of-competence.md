@@ -1,6 +1,9 @@
 ---
 title: KI-induzierte Kompetenzillusionen
 description: Wie KI-Geläufigkeit bei Nutzern falsche Meisterschaft erzeugt
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 KI-induzierte Kompetenzillusionen entstehen, wenn Nutzer flüssige KI-Ausgaben

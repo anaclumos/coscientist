@@ -1,6 +1,9 @@
 ---
 title: Wielojęzyczny Memex
 description: Świadomy języka osobisty system wiedzy z obsługą automatycznego tłumaczenia
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 Wielojęzyczny Memex to osobisty system wiedzy, który natywnie wspiera treści w

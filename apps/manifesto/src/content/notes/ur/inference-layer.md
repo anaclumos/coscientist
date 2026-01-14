@@ -1,6 +1,9 @@
 ---
 title: استدلالی تہہ
 description: جدلیاتی گراف میں زندہ، ارتقا پذیر دعووں کا نیٹ ورک
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 استدلالی تہہ ) [جدلیاتی گراف](./dialectical-graph) میں [دعوؤں](./claim)،

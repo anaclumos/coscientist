@@ -3,6 +3,9 @@ title: RAG
 description:
   Retrieval-Augmented Generation, sebuah teknik untuk membumikan keluaran AI
   pada dokumen yang diambil kembali
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG adalah teknik yang meningkatkan akurasi keluaran AI dengan mengambil dokumen

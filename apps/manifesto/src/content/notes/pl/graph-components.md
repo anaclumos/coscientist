@@ -1,6 +1,9 @@
 ---
 title: Komponenty grafu
 description: Typy węzłów i krawędzi składające się na graf dialektyczny
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 Komponenty grafu to elementy składowe

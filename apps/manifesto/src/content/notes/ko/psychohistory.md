@@ -1,6 +1,9 @@
 ---
 title: 심리역사학
 description: 아시모프의 ‘파운데이션’에 등장하는 가상의 통계 과학
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 심리역사학은 [아이작 아시모프](./isaac-asimov)의 _파운데이션_ 시리즈에 등장하는

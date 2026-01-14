@@ -1,6 +1,9 @@
 ---
 title: Suy thoái nhận thức thể chế
 description: Chế độ thất bại tổ chức, trong đó năng lực kiểm chứng tập thể bị suy giảm
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 Suy thoái nhận thức thể chế là một chế độ thất bại trong đó năng lực tập thể của

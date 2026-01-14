@@ -1,6 +1,9 @@
 ---
 title: ゼロトラスト・インジェスト
 description: 主張を受け入れる前に明示的な来歴を要求するプロトコル
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 ゼロトラスト・インジェストは、流入してくる情報をデフォルトで未検証として扱うプロトコルである。すべての[主張](./claim)は明示的な[来歴](./provenance)を伴い、知識システム内で権威を得る前に[検証](./verification)を通過しなければならない。

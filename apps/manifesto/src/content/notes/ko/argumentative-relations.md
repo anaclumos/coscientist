@@ -1,6 +1,9 @@
 ---
 title: 논증 관계
 description: 기능에 따라 조직된 변증법적 그래프의 엣지 유형
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 논증 관계는 [변증법적 그래프](./dialectical-graph)에서 인식론적 객체들이 서로

@@ -2,6 +2,9 @@
 title: Deriva del sistema
 description: Degradación de los sistemas de conocimiento por aut contaminación o
   negligencia
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 La deriva del sistema es la categoría de

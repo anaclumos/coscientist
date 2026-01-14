@@ -3,6 +3,9 @@ title: Préservation de l’agentivité cognitive
 description:
   Un cadrage de la sécurité de l’IA qui maintient les humains aux commandes du
   jugement
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 La préservation de l’agentivité cognitive est le principe selon lequel l’IA

@@ -1,6 +1,9 @@
 ---
 title: Ricerca prima dei controesempi
 description: Strategia che dà priorità ai controesempi rispetto alle prove a supporto
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 La ricerca prima dei controesempi è una

@@ -3,6 +3,9 @@ title: Réseau de connaissance fédéré
 description:
   Instances de Coscientist interconnectées échangeant des connaissances validées
   tout en préservant la souveraineté locale
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 Un réseau de connaissance fédéré est un système d’instances

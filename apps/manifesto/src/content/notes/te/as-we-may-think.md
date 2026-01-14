@@ -1,6 +1,9 @@
 ---
 title: మనం ఎలా ఆలోచిస్తామో
 description: మెమెక్స్‌ను వివరించే వానీవర్ బుష్ 1945 వ్యాసం
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 "As We May Think" అనేది [వానీవర్ బుష్](./vannevar-bush) 1945లో రాసిన వ్యాసం;

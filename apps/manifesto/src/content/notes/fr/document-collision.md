@@ -3,6 +3,9 @@ title: Collision de documents
 description:
   Protocole visant à forcer des sources disparates à se confronter aux
   [prétentions](./claim) des autres
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 La collision de documents est le protocole consistant à forcer des sources

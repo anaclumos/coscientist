@@ -1,6 +1,9 @@
 ---
 title: উৎস
 description: দাবি ও প্রমাণের জন্য একটি উৎস-উৎপত্তি নোঙর
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 একটি উৎস হলো কোনো [প্রমাণের অংশ](./evidence-span) বা [দাবি](./claim)-এর

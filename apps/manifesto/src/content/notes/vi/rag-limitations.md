@@ -3,6 +3,9 @@ title: Những hạn chế của RAG
 description:
   Vì sao mô hình tạo sinh tăng cường truy xuất tiêu chuẩn không thể tạo ra khám
   phá thực sự
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) cải thiện tính đúng sự thật bằng cách truy xuất các tài liệu liên

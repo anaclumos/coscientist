@@ -3,6 +3,9 @@ title: Potrójna separacja
 description:
   Reguła architektoniczna rozdzielająca surowy tekst, znormalizowane twierdzenia
   i jawne relacje
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 Potrójna separacja to reguła architektoniczna w

@@ -2,6 +2,9 @@
 title: Ciemna noc duszy
 description: Środek literacki opisujący głęboki kryzys wewnętrzny prowadzący do
   rekonstrukcji tożsamości
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 „Ciemna noc duszy" oznacza głęboki kryzys wewnętrzny, w którym załamują się

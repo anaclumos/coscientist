@@ -3,6 +3,9 @@ title: Verifica
 description:
   Il processo di controllare le affermazioni confrontandole con evidenze e
   controevidenze
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 La verifica è il processo di controllare se un’affermazione regge di fronte a

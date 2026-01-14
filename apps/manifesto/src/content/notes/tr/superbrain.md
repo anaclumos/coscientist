@@ -3,6 +3,9 @@ title: Süperbeyin
 description:
   İnsan zekâsını biyolojik sınırların ötesine taşıyan, dışsallaştırılmış bir
   bilişsel dış iskelet vizyonu
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 Süperbeyin, [Sunghyun Cho](./sunghyun-cho)'nun, insan zekâsını biyolojik

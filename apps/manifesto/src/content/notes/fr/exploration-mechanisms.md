@@ -1,6 +1,9 @@
 ---
 title: Mécanismes d’exploration
 description: Stratégies de découverte continue des connaissances dans un graphe dialectique
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 Les mécanismes d’exploration sont les stratégies que

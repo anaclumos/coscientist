@@ -1,6 +1,9 @@
 ---
 title: แวนเนวาร์ บุช
 description: วิศวกรและผู้บริหารงานวิทยาศาสตร์ผู้จินตนาการถึง Memex
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 แวนเนวาร์ บุช (1890–1974) เป็นวิศวกร นักประดิษฐ์

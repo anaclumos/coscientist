@@ -1,6 +1,9 @@
 ---
 title: Recordação Ativa
 description: Estudar recuperando informações da memória
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 A recordação ativa é estudar tentando produzir a resposta a partir da memória,

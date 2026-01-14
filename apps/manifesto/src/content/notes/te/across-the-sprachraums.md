@@ -1,6 +1,9 @@
 ---
 title: స్ప్రాఖ్‌రౌమ్‌లను దాటి
 description: జ్ఞాన వ్యవస్థల కోసం భాషా సరిహద్దులను అధిగమించే దృష్టి
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums" అనేది భాషా సరిహద్దులను అధిగమించే జ్ఞాన వ్యవస్థల కోసం

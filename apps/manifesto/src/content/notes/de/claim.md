@@ -3,6 +3,9 @@ title: Behauptung
 description:
   Eine überprüfbare Aussage, die als Knoten in einem dialektischen Graphen
   gespeichert ist
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 Eine Behauptung ist eine überprüfbare Aussage, die aus Text extrahiert und als

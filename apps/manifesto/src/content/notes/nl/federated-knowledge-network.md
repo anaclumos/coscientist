@@ -3,6 +3,9 @@ title: Gefedereerd kennisnetwerk
 description:
   Onderling verbonden Coscientist-instanties die gevalideerde kennis uitwisselen
   met behoud van lokale soevereiniteit
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 Een gefedereerd kennisnetwerk is een systeem van onderling verbonden

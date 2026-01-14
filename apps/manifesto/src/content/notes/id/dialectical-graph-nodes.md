@@ -1,6 +1,9 @@
 ---
 title: Node Graf Dialektis
 description: Jenis-jenis node dalam graf pengetahuan dialektis
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 Dalam sebuah [Graf Dialektis](./dialectical-graph), node merepresentasikan objek

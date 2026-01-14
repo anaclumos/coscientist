@@ -3,6 +3,9 @@ title: Projekt PIRI
 description:
   Anulowana inicjatywa na rzecz nieograniczonych tłumaczeń dokumentacji
   programistycznej
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Projekt PIRI był inicjatywą [Sunghyuna Cho](./sunghyun-cho), której celem było

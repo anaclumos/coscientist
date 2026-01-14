@@ -1,6 +1,9 @@
 ---
 title: سازوکارهای سنتز
 description: الگوهایی برای قابل‌مقایسه‌کردن منابع ناسازگار
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 سازوکارهای سنتز، الگوها و پروتکل‌هایی هستند که [پژوهشگر مشترک](./coscientist)

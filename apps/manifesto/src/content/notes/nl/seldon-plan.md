@@ -1,6 +1,9 @@
 ---
 title: Het Seldonplan
 description: Hari Seldons langetermijnstrategie om een donkere periode te verkorten
+sourceLocale: en
+sourceHash: 879a58531fb4
+translatedAt: 2026-01-14
 ---
 
 Het Seldonplan is [Hari Seldon](./hari-seldon)'s langetermijnstrategie om een

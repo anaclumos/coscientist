@@ -1,6 +1,9 @@
 ---
 title: ఫౌండేషన్ ఫిక్షన్
 description: Coscientist దృష్టిని ఆకృతిచేసే అసిమోవ్-ప్రేరిత భావనలు
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 ఫౌండేషన్ ఫిక్షన్ అనేది [ఐజాక్ అసిమోవ్](./isaac-asimov) యొక్క ఫౌండేషన్

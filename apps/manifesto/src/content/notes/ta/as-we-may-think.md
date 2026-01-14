@@ -1,6 +1,9 @@
 ---
 title: நாம் எண்ணக்கூடும் விதம்
 description: மெமெக்ஸ் குறித்து வன்னீவர் புஷ் எழுதிய 1945 கட்டுரை
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 "As We May Think" என்பது [வன்னீவர் புஷ்](./vannevar-bush) 1945-ல் எழுதிய

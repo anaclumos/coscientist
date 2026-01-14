@@ -3,6 +3,9 @@ title: Preservazione dell’agenzia cognitiva
 description:
   Inquadramento della sicurezza dell’IA che mantiene gli esseri umani al
   controllo del giudizio
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 La preservazione dell’agenzia cognitiva è il principio secondo cui l’IA dovrebbe

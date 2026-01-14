@@ -1,6 +1,9 @@
 ---
 title: Esoscheletro cognitivo
 description: Strumenti esterni che estendono e amplificano la cognizione umana
+sourceLocale: en
+sourceHash: 946b5ecb455e
+translatedAt: 2026-01-14
 ---
 
 Un esoscheletro cognitivo è un sistema di strumenti esterni che estendono e

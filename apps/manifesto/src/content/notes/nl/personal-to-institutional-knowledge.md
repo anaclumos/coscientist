@@ -1,6 +1,9 @@
 ---
 title: Van persoonlijke naar institutionele kennis
 description: Persoonlijke kennispraktijken opschalen naar organisaties
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 Van persoonlijke naar institutionele kennis is de overgang van een

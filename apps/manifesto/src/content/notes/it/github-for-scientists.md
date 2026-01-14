@@ -3,6 +3,9 @@ title: GitHub per Scienziati
 description:
   Visione di trattare gli esperimenti come codice versionato e verificabile
   tramite audit
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 "GitHub per Scienziati" è una visione in cui gli esperimenti scientifici vengono

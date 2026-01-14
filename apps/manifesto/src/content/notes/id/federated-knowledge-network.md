@@ -3,6 +3,9 @@ title: Jaringan Pengetahuan Terfederasi
 description:
   Instans Coscientist yang saling terhubung bertukar pengetahuan tervalidasi
   sambil mempertahankan kedaulatan lokal
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 Jaringan pengetahuan terfederasi adalah sistem [Kosaintis](./coscientist) yang

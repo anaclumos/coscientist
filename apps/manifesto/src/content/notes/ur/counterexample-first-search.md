@@ -1,6 +1,9 @@
 ---
 title: جوابی مثال-اول تلاش
 description: ایسی حکمتِ عملی جو تائیدی شواہد کے بجائے جوابی مثالوں کو ترجیح دیتی ہے
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 جوابی مثال-اول تلاش ایک [تلاشی حکمتِ عملی](./exploration-strategies) ہے جو

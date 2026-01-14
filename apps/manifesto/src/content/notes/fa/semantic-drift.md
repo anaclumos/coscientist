@@ -1,6 +1,9 @@
 ---
 title: رانش معنایی
 description: تغییرات در معنا که باعث می‌شود دانش منسوخ یا گمراه‌کننده شود
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 رانش معنایی دسته‌ای از [پدیده‌های رانش](./drift-phenomena) است که در آن معنای

@@ -1,6 +1,9 @@
 ---
 title: 지식 종합
 description: 변증법적 지식 시스템에서 종합이 평균과 어떻게 다른가
+sourceLocale: en
+sourceHash: 8035aade2986
+translatedAt: 2026-01-14
 ---
 
 지식 종합은 검색 이후, 서로 양립하기 어려운 출처들을 비교 가능하게 만들어야 할

@@ -1,6 +1,9 @@
 ---
 title: Mecanismos de Exploração
 description: Estratégias para descoberta contínua de conhecimento em um grafo dialético
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 Mecanismos de exploração são as estratégias que o [Cocientista](./coscientist)

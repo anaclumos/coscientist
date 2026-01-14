@@ -1,6 +1,9 @@
 ---
 title: 비호환성 분류체계
 description: 출처 간 불일치의 범주
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 비호환성 분류체계는 출처들이 왜 서로 불일치하는지를 분류한 체계다. 범주에는 정의

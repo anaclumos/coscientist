@@ -3,6 +3,9 @@ title: Institutionelle Gehirnfäule
 description:
   Organisatorischer Fehlermodus, bei dem die kollektive Verifikationsfähigkeit
   abnimmt
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 Institutionelle Gehirnfäule ist ein Fehlermodus, bei dem die kollektive

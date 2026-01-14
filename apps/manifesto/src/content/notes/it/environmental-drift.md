@@ -3,6 +3,9 @@ title: Deriva ambientale
 description:
   Cambiamenti nel mondo che rendono invalida una conoscenza precedentemente
   valida
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 La deriva ambientale è la categoria di [fenomeni di deriva](./drift-phenomena)

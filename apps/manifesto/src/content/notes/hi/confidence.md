@@ -1,6 +1,9 @@
 ---
 title: विश्वास-स्तर
 description: किसी दावे के समर्थन का बहु-आयामी माप
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 [सह-वैज्ञानिक](./coscientist) में Confidence (विश्वास-स्तर) कोई एकल probability

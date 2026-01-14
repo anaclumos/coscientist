@@ -1,6 +1,9 @@
 ---
 title: رانش محیطی
 description: تغییرات در جهان که دانشی را که پیش‌تر معتبر بوده بی‌اعتبار می‌کند
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 رانش محیطی دسته‌ای از [پدیده‌های رانش](./drift-phenomena) است که در آن جهان

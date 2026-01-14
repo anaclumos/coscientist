@@ -1,6 +1,9 @@
 ---
 title: مشروع PIRI
 description: مبادرة أُلغيت من أجل ترجمات غير محدودة لوثائق البرمجة
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 كان مشروع PIRI مبادرةَ [سونغ هيون تشو](./sunghyun-cho) لتوفير ترجمات غير محدودة

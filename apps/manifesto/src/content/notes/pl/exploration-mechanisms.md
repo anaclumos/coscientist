@@ -1,6 +1,9 @@
 ---
 title: Mechanizmy eksploracji
 description: Strategie ciągłego odkrywania wiedzy w grafie dialektycznym
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 Mechanizmy eksploracji to strategie, których [Współnaukowiec](./coscientist)

@@ -1,6 +1,9 @@
 ---
 title: طبقات نظام المعرفة
 description: الطبقات المعمارية لـ Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 طبقات نظام المعرفة هي المكوّنات المعمارية المميّزة التي يتكوّن منها

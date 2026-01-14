@@ -1,6 +1,9 @@
 ---
 title: Ingeniero de Ciencias Naturales
 description: Un rol que aplica prácticas operativas al estilo del software a la ciencia
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 Un ingeniero de ciencias naturales es un profesional que combina la

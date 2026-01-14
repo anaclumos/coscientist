@@ -1,6 +1,9 @@
 ---
 title: Ricerca a confutazione prioritaria
 description: Un protocollo di validazione che cerca controprove prima dell’accettazione
+sourceLocale: en
+sourceHash: 038f5f56fc2f
+translatedAt: 2026-01-14
 ---
 
 La ricerca a confutazione prioritaria è un protocollo di validazione che cerca

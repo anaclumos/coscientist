@@ -1,6 +1,9 @@
 ---
 title: Fidelitas Terjemahan
 description: Menjaga makna dan akurasi melintasi batas bahasa
+sourceLocale: en
+sourceHash: 5b698486c4d0
+translatedAt: 2026-01-14
 ---
 
 Fidelitas terjemahan adalah tingkat sejauh mana konten yang diterjemahkan

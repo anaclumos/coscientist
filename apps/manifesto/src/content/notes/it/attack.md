@@ -1,6 +1,9 @@
 ---
 title: Attacco
 description: Una contestazione diretta della veridicità di un'asserzione
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 Un attacco è una contestazione diretta della verità di un'[asserzione](./claim).

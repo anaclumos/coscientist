@@ -1,6 +1,9 @@
 ---
 title: 不一致の分類体系
 description: 情報源間の不一致のカテゴリ
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 不一致の分類体系（incompatibility

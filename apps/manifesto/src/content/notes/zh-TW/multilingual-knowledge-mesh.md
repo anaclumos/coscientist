@@ -1,6 +1,9 @@
 ---
 title: 多語言知識網格
 description: 一個跨越語言並在全球分散式運作的知識網路
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 多語言知識網格（multilingual knowledge

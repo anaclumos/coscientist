@@ -1,6 +1,9 @@
 ---
 title: Ingénieur en sciences naturelles
 description: Un rôle qui applique des opérations de type logiciel à la science
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 Un ingénieur en sciences naturelles est un praticien qui combine la recherche

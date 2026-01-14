@@ -1,6 +1,9 @@
 ---
 title: پروژه PIRI
 description: یک ابتکار لغوشده برای ترجمه‌های نامحدودِ مستندات برنامه‌نویسی
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 پروژه PIRI ابتکارِ [سونگ‌هیون چو](./sunghyun-cho) بود برای فراهم‌کردن ترجمه‌های

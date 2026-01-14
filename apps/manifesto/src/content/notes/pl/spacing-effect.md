@@ -1,6 +1,9 @@
 ---
 title: Efekt odstępów
 description: Pamięć poprawia się, gdy sesje nauki są rozłożone w czasie
+sourceLocale: en
+sourceHash: 4ac5ac9e96d1
+translatedAt: 2026-01-14
 ---
 
 Efekt odstępów to dobrze powtarzalne ustalenie, że uczenie się jest

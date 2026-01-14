@@ -1,6 +1,9 @@
 ---
 title: Doğrulamada Arzu Edilen Zorluk
 description: Gerçek anlayışı sürdürmek için doğrulamayı emek gerektirir hâle getirmek
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 Doğrulamada arzu edilen zorluk, [doğrulamanın](./verification) gerçek bilişi

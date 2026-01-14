@@ -1,6 +1,9 @@
 ---
 title: Inferentielaag
 description: Het levende, evoluerende netwerk van beweringen in een dialectische graaf
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 De inferentielaag is het levende, evoluerende netwerk van [beweringen](./claim),

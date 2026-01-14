@@ -1,6 +1,9 @@
 ---
 title: Modos de Falha do Conhecimento
 description: Taxonomia do que pode dar errado em sistemas de conhecimento
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Modos de falha do conhecimento são as maneiras pelas quais sistemas de

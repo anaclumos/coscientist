@@ -1,6 +1,9 @@
 ---
 title: 개인 지식의 진화
 description: 개인 지식 관리 도구와 아이디어의 역사적 전개
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 개인 지식의 진화는 20세기 중반의 비전에서 현대적 시스템에 이르기까지, 개인

@@ -1,6 +1,9 @@
 ---
 title: Spreidingseffect
 description: Het geheugen verbetert wanneer studiesessies over de tijd worden gespreid
+sourceLocale: en
+sourceHash: 4ac5ac9e96d1
+translatedAt: 2026-01-14
 ---
 
 Het spreidingseffect is een goed gerepliceerde bevinding dat leren sterker is

@@ -3,6 +3,9 @@ title: Dialectisch afwisselen
 description:
   Claimtypen tijdens verkenning door elkaar gebruiken om silo’s te voorkomen en
   valse competentie te doorprikken
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 Dialectisch afwisselen is de praktijk om tijdens verkenning verschillende typen

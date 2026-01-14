@@ -1,6 +1,9 @@
 ---
 title: Model Çöküşü
 description: Kendi ürettiği veriler üzerinde eğitilen modellerin bozulması
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 Model çöküşü, modeller giderek artan miktarda yapay zekâ tarafından üretilmiş

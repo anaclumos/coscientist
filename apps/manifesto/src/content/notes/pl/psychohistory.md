@@ -1,6 +1,9 @@
 ---
 title: Psychohistoria
 description: Fikcyjna nauka statystyczna w cyklu „Fundacja" Asimova
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 Psychohistoria to fikcyjna dyscyplina w cyklu „Fundacja" autorstwa

@@ -1,6 +1,9 @@
 ---
 title: Kontencja
 description: Ustrukturyzowany konflikt między twierdzeniami, który wymaga rozstrzygnięcia
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 Kontencja to ustrukturyzowany konflikt między twierdzeniami, definicjami lub

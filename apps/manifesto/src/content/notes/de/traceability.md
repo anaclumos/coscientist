@@ -3,6 +3,9 @@ title: Nachvollziehbarkeit
 description:
   Die Fähigkeit, eine Behauptung bis zu ihren Quellen und Begründungen
   zurückzuverfolgen
+sourceLocale: en
+sourceHash: 8ce5fa515f95
+translatedAt: 2026-01-14
 ---
 
 Nachvollziehbarkeit ist die Fähigkeit, eine Behauptung rückwärts durch ihre

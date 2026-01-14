@@ -1,6 +1,9 @@
 ---
 title: Çoklu-YZ Uzlaşı Protokolü
 description: 1+4 (insan + dört YZ) yazma ve doğrulama sistemi
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 Çoklu-YZ Uzlaşı Protokolü, [Operatörün](./operator) birden fazla YZ sistemini

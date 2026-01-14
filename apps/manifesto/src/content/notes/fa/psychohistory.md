@@ -1,6 +1,9 @@
 ---
 title: روان‌تاریخ
 description: یک علم آماری خیالی در مجموعه «بنیاد» آسیموف
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 روان‌تاریخ یک رشتهٔ خیالی در مجموعه «بنیاد» [آیزاک آسیموف](./isaac-asimov) است

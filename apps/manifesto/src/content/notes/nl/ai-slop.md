@@ -1,6 +1,9 @@
 ---
 title: AI-slop
 description: Laagwaardige door AI gegenereerde content die het internet overspoelt
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 AI-slop is content met weinig inspanning en groot volume, geproduceerd met

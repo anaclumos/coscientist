@@ -1,6 +1,9 @@
 ---
 title: 責任鏈
 description: 可追溯的鏈條：誰主張了什麼，以及基於哪些依據
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 責任鏈（responsibility

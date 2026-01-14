@@ -1,6 +1,9 @@
 ---
 title: Minimaler Schnitt
 description: Die kleinste Menge an Kanten, die einen Graphen trennt
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 Ein minimaler Schnitt ist die kleinste Menge an Kanten, deren Entfernung einen

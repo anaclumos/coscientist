@@ -1,6 +1,9 @@
 ---
 title: 图组件
 description: 构成辩证图的节点与边类型
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 图组件是 [辩证图](./dialectical-graph)

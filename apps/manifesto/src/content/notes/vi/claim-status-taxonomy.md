@@ -1,6 +1,9 @@
 ---
 title: Phân loại Trạng thái Mệnh đề
 description: Các trạng thái mà một mệnh đề có thể ở trong một đồ thị biện chứng
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 Phân loại trạng thái mệnh đề xác định các trạng thái mà một [mệnh đề](./claim)

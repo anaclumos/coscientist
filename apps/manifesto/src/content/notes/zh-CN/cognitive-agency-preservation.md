@@ -1,6 +1,9 @@
 ---
 title: 认知能动性保护
 description: 一种 AI 安全的框架，使人类保持对判断的控制
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 认知能动性保护（cognitive agency

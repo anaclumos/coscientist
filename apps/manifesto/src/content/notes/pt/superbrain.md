@@ -2,6 +2,9 @@
 title: Supercérebro
 description: A visão de um exoesqueleto cognitivo externalizado que amplifica a
   inteligência humana
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 Supercérebro é o termo de [Sunghyun Cho](./sunghyun-cho) para a visão de um

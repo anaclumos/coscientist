@@ -3,6 +3,9 @@ title: Diyalektik Aralıklı Harmanlama
 description:
   Keşif sırasında silo oluşumunu önlemek ve sahte yeterliliği delip geçmek için
   iddia türlerini karıştırma
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 Diyalektik aralıklı harmanlama, bir konuyu diğerine geçmeden önce baştan sona

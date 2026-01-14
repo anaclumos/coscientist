@@ -1,6 +1,9 @@
 ---
 title: 探索メカニズム
 description: 弁証法的グラフにおける継続的な知識発見のための戦略
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 探索メカニズムとは、[コサイエンティスト](./coscientist) が

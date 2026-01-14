@@ -1,6 +1,9 @@
 ---
 title: La fricción como enemiga
 description: Principio de diseño: la fricción mata los flujos de trabajo de conocimiento personal
+sourceLocale: en
+sourceHash: 78d664aa5836
+translatedAt: 2026-01-14
 ---
 
 La fricción como enemiga es el principio de diseño según el cual el esfuerzo

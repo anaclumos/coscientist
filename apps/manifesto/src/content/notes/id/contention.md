@@ -1,6 +1,9 @@
 ---
 title: Pertentangan
 description: Konflik terstruktur antara klaim yang memerlukan penyelesaian
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 Pertentangan adalah konflik terstruktur antara klaim, definisi, atau metode. Ini

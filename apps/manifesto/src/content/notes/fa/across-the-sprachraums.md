@@ -1,6 +1,9 @@
 ---
 title: در سراسر اسپراخروم‌ها
 description: چشم‌اندازِ فراروی از مرزهای زبانی برای سامانه‌های دانشی
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 «Across the Sprachraums» چشم‌اندازِ [سونگ‌هیون چو](./sunghyun-cho) برای

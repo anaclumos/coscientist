@@ -1,6 +1,9 @@
 ---
 title: 제로 트러스트 수집
 description: 주장을 받아들이기 전에 명시적 출처를 요구하는 프로토콜
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 제로 트러스트 수집은 유입되는 정보를 기본적으로 미검증 상태로 취급하는

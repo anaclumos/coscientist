@@ -1,6 +1,9 @@
 ---
 title: กับดักความลื่นไหล
 description: เข้าใจผิดว่าร้อยแก้วของ AI ที่ลื่นไหลคือความถูกต้อง
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 กับดักความลื่นไหล คืออคติทางความคิด

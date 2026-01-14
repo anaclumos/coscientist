@@ -1,6 +1,9 @@
 ---
 title: 言語に依存しないインデキシング
 description: 特定の言語を超越する概念的インデックス
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 言語に依存しないインデキシング（language-agnostic

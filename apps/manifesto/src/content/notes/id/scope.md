@@ -1,6 +1,9 @@
 ---
 title: Ruang Lingkup
 description: Kondisi keberlakuan untuk sebuah klaim
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 Ruang lingkup mendefinisikan di mana dan kapan sebuah [klaim](./claim)

@@ -1,6 +1,9 @@
 ---
 title: 去腦腐（Un-Brain-Rotting）
 description: 在後 AI 資訊環境中，主動恢復驗證能力與認知能動性的過程
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 去腦腐（Un-brain-rotting）是一個主動的過程：在接觸到劣化的資訊環境後，恢復驗證能力與認知能動性（cognitive

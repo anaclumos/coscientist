@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: ขอบเขตหรือโดเมนทางภาษาที่หล่อหลอมความคิดและความรู้
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum (เยอรมัน: "พื้นที่ภาษา" หรือ "โลก/ภาคภาษา")

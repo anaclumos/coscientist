@@ -3,6 +3,9 @@ title: Independensi Bukti
 description:
   Prinsip bahwa kesepakatan yang berasal dari bias pelatihan bersama bukanlah
   konsensus yang nyata
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 Independensi bukti adalah prinsip bahwa kesepakatan yang tampak di antara model

@@ -1,6 +1,9 @@
 ---
 title: 学习科学原则
 description: 基于证据的技术，用于实现持久学习与记忆
+sourceLocale: en
+sourceHash: 9b01e1de519a
+translatedAt: 2026-01-14
 ---
 
 学习科学原则是基于证据的技术，用于获取能够持久保持、可迁移，并在压力下仍可访问的知识。这些原则说明了

@@ -1,6 +1,9 @@
 ---
 title: 知識系統分層
 description: Coscientist 的架構分層
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 知識系統分層是構成 [共科學家](./coscientist)

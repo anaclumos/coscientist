@@ -1,6 +1,9 @@
 ---
 title: 출처
 description: 주장과 증거를 위한 출처(프로비넌스) 앵커
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 출처는 [증거 범위](./evidence-span) 또는 [주장](./claim)의 기원점이다. 즉 정보가

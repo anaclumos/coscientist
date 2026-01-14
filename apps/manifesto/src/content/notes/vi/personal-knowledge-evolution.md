@@ -1,6 +1,9 @@
 ---
 title: Tiến hóa tri thức cá nhân
 description: Tiến trình lịch sử của các công cụ và ý tưởng quản lý tri thức cá nhân
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 Tiến hóa tri thức cá nhân lần theo sự phát triển của các công cụ và ý tưởng để

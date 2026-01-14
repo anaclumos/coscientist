@@ -1,6 +1,9 @@
 ---
 title: Meta-uczenie się
 description: Uczenie się, jak działa Twoje własne uczenie się
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 Meta-uczenie się to uczenie się o własnym uczeniu się: zauważanie, co zostaje w

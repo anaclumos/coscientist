@@ -1,6 +1,9 @@
 ---
 title: "Token ≠ 知識"
 description: 一場關於認知外骨骼的個人追尋
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 我，[Sunghyun Cho](./sunghyun-cho)，從小就對百科全書懷有敬畏，以及對「單一權威知識庫」這個概念深信不疑。童年時，我埋首於

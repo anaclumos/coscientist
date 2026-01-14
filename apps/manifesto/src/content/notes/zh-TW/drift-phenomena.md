@@ -1,6 +1,9 @@
 ---
 title: 漂移現象
 description: 知識系統隨時間驅動的變化
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 漂移現象是指知識系統隨時間改變的各種方式，往往不易察覺，因而導致看起來像是矛盾的錯誤，但其實是時間不一致（temporal

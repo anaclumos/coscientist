@@ -1,6 +1,9 @@
 ---
 title: Fantascienza di Foundation
 description: Concetti ispirati ad Asimov che informano la visione di Coscientist
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 La fantascienza di Foundation si riferisce a concetti della serie _Foundation_

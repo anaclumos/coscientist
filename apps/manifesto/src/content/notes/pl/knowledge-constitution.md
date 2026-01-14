@@ -3,6 +3,9 @@ title: Konstytucja wiedzy
 description:
   Epistemiczna warstwa protokołu jako dokument ustrojowy określający, jak
   twierdzenia zyskują autorytet
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 Konstytucja wiedzy to zestaw zasad, które regulują, jak [twierdzenia](./claim)

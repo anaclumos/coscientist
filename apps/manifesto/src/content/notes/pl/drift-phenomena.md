@@ -1,6 +1,9 @@
 ---
 title: Zjawiska dryfu
 description: Zmiany w systemach wiedzy napędzane upływem czasu
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 Zjawiska dryfu to sposoby, w jakie systemy wiedzy zmieniają się w czasie, często

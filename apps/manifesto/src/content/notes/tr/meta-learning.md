@@ -1,6 +1,9 @@
 ---
 title: Meta-öğrenme
 description: Kendi öğrenmenizin nasıl çalıştığını öğrenmek
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 Meta-öğrenme, kendi öğrenmenizi öğrenmektir: neyin akılda kaldığını, neyin işe

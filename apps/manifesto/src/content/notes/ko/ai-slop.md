@@ -1,6 +1,9 @@
 ---
 title: AI 슬롭
 description: 인터넷을 범람하는 저품질 AI 생성 콘텐츠
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 AI 슬롭(AI slop, 또는 줄여서 slop)은 생성 모델로 만들어진, 적은 노력으로 대량

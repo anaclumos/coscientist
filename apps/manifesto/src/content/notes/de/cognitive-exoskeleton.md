@@ -1,6 +1,9 @@
 ---
 title: Kognitives Exoskelett
 description: Externe Werkzeuge, die menschliche Kognition erweitern und verstärken
+sourceLocale: en
+sourceHash: 946b5ecb455e
+translatedAt: 2026-01-14
 ---
 
 Ein kognitives Exoskelett ist ein System externer Werkzeuge, das menschliche

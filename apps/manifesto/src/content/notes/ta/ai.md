@@ -1,6 +1,9 @@
 ---
 title: AI
 description: அறிவு அமைப்புகளுக்கான கருவியாகவும் சவாலாகவும் செயற்கை நுண்ணறிவு
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 [கோசியென்டிஸ்ட்](./coscientist) சூழலில் AI என்பது மனித நுண்ணறிவு தேவைப்படும் என

@@ -1,6 +1,9 @@
 ---
 title: Verantwoordelijkheidslijn
 description: De herleidbare keten van wie wat heeft beweerd en op welke gronden
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 De verantwoordelijkheidslijn is de herleidbare keten van wie wat heeft beweerd

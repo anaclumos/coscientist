@@ -1,6 +1,9 @@
 ---
 title: Çevresel Sürüklenme
 description: Daha önce geçerli olan bilgiyi geçersiz kılan dünyadaki değişimler
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 Çevresel sürüklenme, dış dünyanın değiştiği ve bunun daha önce geçerli olan

@@ -1,6 +1,9 @@
 ---
 title: 方法
 description: 用於產生證據或得出結論的程序
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 方法（method）是用來蒐集證據或推導結論的程序：例如實驗設計、量測（measurement）流程、統計分析，或邏輯推演。主張會繼承其方法的優點與弱點。

@@ -1,6 +1,9 @@
 ---
 title: Tarcie jako wróg
 description: Zasada projektowa mówiąca, że tarcie zabija osobiste przepływy pracy z wiedzą
+sourceLocale: en
+sourceHash: 78d664aa5836
+translatedAt: 2026-01-14
 ---
 
 „Tarcie jako wróg" to zasada projektowa mówiąca, że zbędny wysiłek przy

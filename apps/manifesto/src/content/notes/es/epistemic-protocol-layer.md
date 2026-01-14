@@ -3,6 +3,9 @@ title: Capa de Protocolo Epistémico
 description:
   Reglas y flujos de trabajo que endurecen los sistemas de conocimiento contra
   el colapso
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 Una capa de protocolo epistémico es un conjunto de reglas, verificaciones y

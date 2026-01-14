@@ -1,6 +1,9 @@
 ---
 title: Diyalektik Grafik Kenarları
 description: Diyalektik bir bilgi grafiğinde düğümleri bağlayan ilişki türleri
+sourceLocale: en
+sourceHash: e060cb9fd333
+translatedAt: 2026-01-14
 ---
 
 Bir [Diyalektik Grafikte](./dialectical-graph), kenarlar benzerlik skorları

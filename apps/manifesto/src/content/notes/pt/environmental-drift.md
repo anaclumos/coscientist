@@ -1,6 +1,9 @@
 ---
 title: Deriva Ambiental
 description: Mudanças no mundo que invalidam conhecimento anteriormente válido
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 Deriva ambiental é a categoria de [fenômenos de deriva](./drift-phenomena) em

@@ -1,6 +1,9 @@
 ---
 title: 環境ドリフト
 description: 以前は有効だった知識を無効化する世界の変化
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 環境ドリフトは、外部世界が変化することで、以前は有効だった知識が古くなったり適用できなくなったりする[ドリフト現象](./drift-phenomena)のカテゴリです。

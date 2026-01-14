@@ -1,6 +1,9 @@
 ---
 title: 의미 상실
 description: 어떤 주장에 사용된 용어의 의미가 변해 그 주장이 구식이 되는 경우
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 의미 상실은 어떤 [주장](./claim)이 반박되어서가 아니라,

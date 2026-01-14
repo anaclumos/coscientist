@@ -1,6 +1,9 @@
 ---
 title: Eksoskeleton Kognitif
 description: Alat eksternal yang memperluas dan memperkuat kognisi manusia
+sourceLocale: en
+sourceHash: 946b5ecb455e
+translatedAt: 2026-01-14
 ---
 
 Eksoskeleton kognitif adalah sistem alat eksternal yang memperluas dan

@@ -1,6 +1,9 @@
 ---
 title: 项目 PIRI
 description: 一个已取消的倡议，旨在为编程文档提供无限翻译
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 项目 PIRI（Programmatic Interlingual Resource

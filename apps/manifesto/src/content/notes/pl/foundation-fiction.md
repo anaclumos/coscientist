@@ -1,6 +1,9 @@
 ---
 title: Fantastyka „Fundacji"
 description: Koncepcje inspirowane Asimovem, które kształtują wizję Coscientist
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 Fantastyka „Fundacji" odnosi się do koncepcji z cyklu _Fundacja_

@@ -1,6 +1,9 @@
 ---
 title: Modalità di fallimento della conoscenza
 description: Tassonomia di ciò che può andare storto nei sistemi di conoscenza
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Le modalità di fallimento della conoscenza sono i modi in cui i sistemi di

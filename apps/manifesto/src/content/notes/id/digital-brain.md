@@ -1,6 +1,9 @@
 ---
 title: Otak Digital
 description: Sistem pengetahuan pribadi yang mencerminkan dan memperluas pikiran
+sourceLocale: en
+sourceHash: 6503fc9c630c
+translatedAt: 2026-01-14
 ---
 
 Otak digital adalah sistem pengetahuan pribadi yang dirancang untuk menangkap,

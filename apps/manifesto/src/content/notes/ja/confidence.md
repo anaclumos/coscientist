@@ -1,6 +1,9 @@
 ---
 title: 確信度
 description: 主張に対する支持を多次元で測る指標
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 [コサイエンティスト](./coscientist)

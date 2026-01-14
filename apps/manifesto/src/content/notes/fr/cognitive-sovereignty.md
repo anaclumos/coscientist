@@ -3,6 +3,9 @@ title: Souveraineté cognitive
 description:
   Contrôle humain du jugement et de la vérification dans le travail de la
   connaissance
+sourceLocale: en
+sourceHash: 1831665ecaf7
+translatedAt: 2026-01-14
 ---
 
 La souveraineté cognitive est l’engagement à maintenir le jugement humain et la

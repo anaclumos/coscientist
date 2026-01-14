@@ -1,6 +1,9 @@
 ---
 title: Cơ chế khám phá
 description: Chiến lược khám phá tri thức liên tục trong một đồ thị biện chứng
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 Các cơ chế khám phá là những chiến lược mà [Nhà đồng khoa học](./coscientist) sử

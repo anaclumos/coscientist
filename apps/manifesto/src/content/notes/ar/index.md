@@ -1,6 +1,9 @@
 ---
 title: "رموز ≠ معرفة"
 description: رحلة شخصية نحو هيكل خارجي إدراكي
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 أنا، [سونغهيون تشو](./sunghyun-cho)، نشأتُ على توقيرٍ للموسوعات وفكرةِ وجود

@@ -1,6 +1,9 @@
 ---
 title: Dérive de définition
 description: Lorsque le sens d’un terme évolue au fil du temps ou selon les contextes
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 La dérive de définition est le glissement progressif du sens d’un terme au fil

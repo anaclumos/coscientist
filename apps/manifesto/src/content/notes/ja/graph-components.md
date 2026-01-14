@@ -1,6 +1,9 @@
 ---
 title: グラフ構成要素
 description: 弁証法グラフを構成するノード型とエッジ型
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 グラフ構成要素は、[弁証法グラフ](./dialectical-graph)の基本的な構成単位です。認識論的対象（epistemic

@@ -1,6 +1,9 @@
 ---
 title: 圖譜作為崩解防禦
 description: 辯證圖譜結構如何防止知識崩塌
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 「圖譜作為崩解防禦」說明了為何 [辯證圖譜](./dialectical-graph) 能夠具體地防止

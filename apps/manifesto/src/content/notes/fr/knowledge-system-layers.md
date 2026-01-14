@@ -1,6 +1,9 @@
 ---
 title: Couches du système de connaissance
 description: Les couches architecturales de Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 Les couches d’un système de connaissance sont les composants architecturaux

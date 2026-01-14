@@ -3,6 +3,9 @@ title: La contención como ancla memorable
 description:
   Los desacuerdos requieren esfuerzo cognitivo y crean huellas de memoria más
   fuertes
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 "La contención como ancla memorable" es la observación de que la

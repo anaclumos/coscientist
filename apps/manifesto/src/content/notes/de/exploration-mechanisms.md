@@ -3,6 +3,9 @@ title: Explorationsmechanismen
 description:
   Strategien zur kontinuierlichen Wissensentdeckung in einem dialektischen
   Graphen
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 Explorationsmechanismen sind die Strategien, die [Kozientist](./coscientist)

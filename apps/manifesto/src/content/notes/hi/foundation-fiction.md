@@ -1,6 +1,9 @@
 ---
 title: फाउंडेशन फ़िक्शन
 description: असिमोव-प्रेरित अवधारणाएँ जो Coscientist की दृष्टि को आकार देती हैं
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 फाउंडेशन फ़िक्शन से आशय [आइज़ैक असिमोव](./isaac-asimov) की _Foundation_ शृंखला

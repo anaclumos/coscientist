@@ -1,6 +1,9 @@
 ---
 title: Alcance
 description: Las condiciones de aplicabilidad de una afirmación
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 El alcance define dónde y cuándo se pretende que se aplique una

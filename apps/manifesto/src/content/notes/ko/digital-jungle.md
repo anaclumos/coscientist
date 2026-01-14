@@ -1,6 +1,9 @@
 ---
 title: 디지털 정글
 description: 최소한의 마찰로 스스로 조직되는 개인 지식 공간
+sourceLocale: en
+sourceHash: 30a3de2b3fcf
+translatedAt: 2026-01-14
 ---
 
 디지털 정글은 수동 큐레이션을 최소화하면서 성장하는 개인 지식 공간이다.

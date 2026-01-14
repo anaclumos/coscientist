@@ -1,6 +1,9 @@
 ---
 title: Contraexemplo
 description: Um caso que refuta ou restringe uma afirmação
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Um contraexemplo é um caso que viola a previsão de uma [afirmação](./claim),

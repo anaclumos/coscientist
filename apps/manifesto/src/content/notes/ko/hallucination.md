@@ -1,6 +1,9 @@
 ---
 title: 환각
 description: 그럴듯하지만 사실과 다르거나 조작된 AI 출력
+sourceLocale: en
+sourceHash: 35a042b51f6a
+translatedAt: 2026-01-14
 ---
 
 환각은 확신에 차고 일관되게 읽히지만 사실 오류, 조작된 정보, 또는 꾸며낸 출처를

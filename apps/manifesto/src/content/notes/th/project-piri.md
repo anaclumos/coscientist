@@ -1,6 +1,9 @@
 ---
 title: โครงการ PIRI
 description: โครงการริเริ่มที่ถูกยกเลิกสำหรับการแปลเอกสารโปรแกรมมิงแบบไม่จำกัด
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Project PIRI เป็นโครงการริเริ่มของ [ซองฮยอน โช](./sunghyun-cho)

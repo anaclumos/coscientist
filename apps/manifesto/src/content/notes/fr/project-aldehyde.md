@@ -1,6 +1,9 @@
 ---
 title: Projet Aldehyde
 description: Une première tentative de construire un cerveau numérique personnel
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 Le projet Aldehyde était la première tentative de [Sunghyun Cho](./sunghyun-cho)

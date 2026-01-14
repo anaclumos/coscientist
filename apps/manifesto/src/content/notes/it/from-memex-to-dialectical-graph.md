@@ -1,6 +1,9 @@
 ---
 title: Dal Memex al Grafo Dialettico
 description: Evoluzione dai percorsi associativi alla struttura argomentativa
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Dal Memex al Grafo Dialettico ripercorre l’evoluzione dei sistemi personali di

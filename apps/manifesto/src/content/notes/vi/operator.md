@@ -1,6 +1,9 @@
 ---
 title: Người Vận Hành
 description: Chủ thể con người nắm chủ quyền đối với tri thức trong Coscientist
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 Người Vận Hành là chủ thể con người nắm chủ quyền đối với tri thức trong

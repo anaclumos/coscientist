@@ -1,6 +1,9 @@
 ---
 title: Dérive du système
 description: Dégradation des systèmes de connaissance par auto-contamination ou négligence
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 La dérive du système est la catégorie de

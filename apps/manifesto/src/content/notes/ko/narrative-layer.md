@@ -1,6 +1,9 @@
 ---
 title: 서사 레이어
 description: 사람이 읽기 적합한 변증법적 그래프의 타임스탬프(시간표시)된 투영
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 서사 레이어는 [변증법적 그래프](./dialectical-graph)를 사람이 읽을 수 있도록

@@ -1,6 +1,9 @@
 ---
 title: Coscientist
 description: 後 AI 時代用於知識生產的智慧夥伴系統
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist 是一個受 [Isaac Asimov](./isaac-asimov) 筆下虛構的

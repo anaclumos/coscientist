@@ -1,6 +1,9 @@
 ---
 title: Relazioni argomentative
 description: Tipi di archi in un grafo dialettico organizzati per funzione
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 Le relazioni argomentative sono i tipi di arco in un

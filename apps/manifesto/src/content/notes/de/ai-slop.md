@@ -1,6 +1,9 @@
 ---
 title: KI-Schrott
 description: Minderwertige KI-generierte Inhalte, die das Internet überfluten
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 KI-Schrott sind mit geringem Aufwand und in hoher Menge produzierte Inhalte, die

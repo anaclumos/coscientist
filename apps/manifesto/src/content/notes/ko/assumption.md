@@ -1,6 +1,9 @@
 ---
 title: 가정
 description: 주장에 내재된 암묵적 전제
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 가정은 [주장](./claim)이 의존하지만 명시적으로 진술하지는 않는 암묵적 전제다.

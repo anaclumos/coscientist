@@ -3,6 +3,9 @@ title: AI
 description:
   Trí tuệ nhân tạo vừa là công cụ vừa là thách thức đối với các hệ thống tri
   thức
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 AI trong bối cảnh [Nhà đồng khoa học](./coscientist) chỉ các hệ thống thực hiện

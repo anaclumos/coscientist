@@ -1,6 +1,9 @@
 ---
 title: ความเชื่อมั่น
 description: มาตรวัดการสนับสนุนข้ออ้างแบบหลายมิติ
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 ความเชื่อมั่นใน [นักวิทยาศาสตร์ร่วม](./coscientist)

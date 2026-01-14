@@ -1,6 +1,9 @@
 ---
 title: جست‌وجوی «نخست-مثالِ نقض»
 description: راهبردی که مثال‌های نقض را بر شواهدِ تأییدکننده اولویت می‌دهد
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 جست‌وجوی «نخست-مثالِ نقض» یک [راهبردِ اکتشاف](./exploration-strategies) است که

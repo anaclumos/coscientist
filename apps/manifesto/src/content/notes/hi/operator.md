@@ -1,6 +1,9 @@
 ---
 title: ऑपरेटर
 description: Coscientist में ज्ञान पर मानव संप्रभु
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 ऑपरेटर [सह-वैज्ञानिक](./coscientist) में ज्ञान पर मानव संप्रभु होता है। यह नाम

@@ -3,6 +3,9 @@ title: Constitución del conocimiento
 description:
   La capa de protocolo epistémico como documento rector sobre cómo las
   afirmaciones adquieren autoridad
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 Una constitución del conocimiento es el conjunto de reglas que gobiernan cómo

@@ -1,6 +1,9 @@
 ---
 title: سائیکو ہسٹری
 description: عاصموف کی فاؤنڈیشن میں ایک افسانوی شماریاتی سائنس
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 سائیکو ہسٹری [آئزک عاصموف](./isaac-asimov) کی _فاؤنڈیشن_ سیریز میں ایک افسانوی

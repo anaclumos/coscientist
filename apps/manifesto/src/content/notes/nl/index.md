@@ -1,6 +1,9 @@
 ---
 title: "Tokens ≠ Kennis"
 description: Een persoonlijke zoektocht naar een cognitief exoskelet
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Ik, [Sunghyun Cho](./sunghyun-cho), ben opgegroeid met eerbied voor

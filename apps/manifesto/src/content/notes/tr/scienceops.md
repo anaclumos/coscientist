@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: Bilimi hızlandırmak için yazılım operasyonu ilkelerini uygulamak
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps, [Sunghyun Cho](./sunghyun-cho)'nun yazılım operasyonu düşüncesini

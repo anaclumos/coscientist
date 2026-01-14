@@ -1,6 +1,9 @@
 ---
 title: ధృవీకరణ వ్యవస్థ
 description: ఆధారాలు మరియు ప్రతిఆధారాల తో దావాలను తనిఖీ చేసే విధానాలు
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 ధృవీకరణ వ్యవస్థ అనేది [కోసైంటిస్ట్](./coscientist) [దావాలు](./claim)ని ఆధారాలు,

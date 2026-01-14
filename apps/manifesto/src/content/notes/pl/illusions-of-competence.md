@@ -1,6 +1,9 @@
 ---
 title: Iluzje kompetencji
 description: Fałszywe poczucie opanowania wynikające z biernej znajomości
+sourceLocale: en
+sourceHash: 75804f84b0ff
+translatedAt: 2026-01-14
 ---
 
 Iluzje kompetencji pojawiają się, gdy znajomość materiału zostaje pomylona z

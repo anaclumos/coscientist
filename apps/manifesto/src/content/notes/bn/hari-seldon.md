@@ -1,6 +1,9 @@
 ---
 title: হরি সেলডন
 description: আসিমভের ফাউন্ডেশন-এ সাইকোহিস্ট্রি সৃষ্টি করা কাল্পনিক গণিতবিদ
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 হরি সেলডন হলেন [আইজ্যাক আসিমভ](./isaac-asimov)-এর _Foundation_ সিরিজের সেই

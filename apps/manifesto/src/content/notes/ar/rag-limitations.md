@@ -1,6 +1,9 @@
 ---
 title: قيود RAG
 description: لماذا لا يمكن للتوليد المعزَّز بالاسترجاع القياسي أن يُنتج اكتشافًا حقيقيًا
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 يُحسّن [RAG](./rag) (التوليد المعزَّز بالاسترجاع، Retrieval-Augmented

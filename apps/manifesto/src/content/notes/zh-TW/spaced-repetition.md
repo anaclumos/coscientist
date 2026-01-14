@@ -1,6 +1,9 @@
 ---
 title: 間隔重複
 description: 一種基於逐步拉長複習間隔的學習技巧
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 間隔重複是一種有實證支持的複習排程方法，讓你在「正要忘記之前」練習提取（回憶）。它運用了[間隔效應](./spacing-effect)以及[遺忘曲線](./forgetting-curve)的形狀：當你記得時，間隔就會拉長；當你記不得時，間隔就會縮短。

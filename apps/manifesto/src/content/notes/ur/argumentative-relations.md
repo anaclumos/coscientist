@@ -1,6 +1,9 @@
 ---
 title: استدلالی تعلقات
 description: فعلیّت کے لحاظ سے منظم جدلیاتی گراف میں کناروں کی اقسام
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 استدلالی تعلقات ایک [جدلیاتی گراف](./dialectical-graph) میں کناروں کی وہ اقسام

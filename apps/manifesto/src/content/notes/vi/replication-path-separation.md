@@ -3,6 +3,9 @@ title: Tách biệt đường dẫn sao chép
 description:
   Hỏi xem sự ủng hộ đến từ các đường dẫn độc lập hay từ việc lặp lại cùng một
   khẳng định
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 Tách biệt đường dẫn sao chép là thực hành đặt câu hỏi liệu sự đồng thuận có vẻ

@@ -3,6 +3,9 @@ title: Colisión de documentos
 description:
   Protocolo para forzar que fuentes dispares se enfrenten a las afirmaciones de
   las demás
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 La colisión de documentos es el protocolo de obligar a que fuentes dispares se

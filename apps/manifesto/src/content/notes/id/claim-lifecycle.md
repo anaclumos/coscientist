@@ -3,6 +3,9 @@ title: Siklus Hidup Klaim
 description:
   Bagaimana klaim berkembang dari hipotesis sementara menjadi pengetahuan yang
   kokoh atau menjadi usang
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 Siklus hidup klaim menjelaskan bagaimana sebuah [klaim](./claim) berkembang

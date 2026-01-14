@@ -3,6 +3,9 @@ title: La verificación como práctica de recuperación
 description:
   El bucle de verificación del Operator como una forma de recuerdo activo que
   refuerza la retención del conocimiento
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 La verificación como práctica de recuperación es la idea de que el trabajo de

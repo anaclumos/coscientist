@@ -3,6 +3,9 @@ title: Modellkollaps
 description:
   Verschlechterung von Modellen, die auf ihren eigenen generierten Daten
   trainiert werden
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 Modellkollaps ist eine Verschlechterung, die auftreten kann, wenn Modelle auf

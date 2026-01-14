@@ -1,6 +1,9 @@
 ---
 title: Weryfikacja
 description: Proces sprawdzania twierdzeń w świetle dowodów i kontrdowodów
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 Weryfikacja to proces sprawdzania, czy twierdzenie wytrzymuje konfrontację z

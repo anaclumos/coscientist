@@ -1,6 +1,9 @@
 ---
 title: Omgevingsdrift
 description: Veranderingen in de wereld die eerder geldige kennis ongeldig maken
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 Omgevingsdrift is de categorie van [driftfenomenen](./drift-phenomena) waarbij

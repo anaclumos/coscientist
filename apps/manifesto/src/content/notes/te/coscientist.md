@@ -1,6 +1,9 @@
 ---
 title: కోసైంటిస్ట్
 description: AI అనంతర యుగంలో జ్ఞాన ఉత్పత్తికి ఒక మేధో సహచర వ్యవస్థ
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 కోసైంటిస్ట్ అనేది [ఐజాక్ ఆసిమోవ్](./isaac-asimov) యొక్క కల్పిత

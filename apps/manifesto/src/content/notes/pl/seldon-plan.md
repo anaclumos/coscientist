@@ -1,6 +1,9 @@
 ---
 title: Plan Seldona
 description: Długofalowa strategia Hariego Seldona mająca skrócić ciemne wieki po upadku
+sourceLocale: en
+sourceHash: 879a58531fb4
+translatedAt: 2026-01-14
 ---
 
 Plan Seldona to długofalowa strategia [Hariego Seldona](./hari-seldon) mająca

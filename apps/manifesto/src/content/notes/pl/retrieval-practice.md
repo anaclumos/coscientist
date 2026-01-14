@@ -1,6 +1,9 @@
 ---
 title: Ćwiczenie wydobywania
 description: Wzmacnianie pamięci poprzez aktywne przypominanie sobie informacji
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 Ćwiczenie wydobywania polega na wzmacnianiu pamięci poprzez aktywne

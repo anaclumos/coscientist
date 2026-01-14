@@ -3,6 +3,9 @@ title: Encyclopedie-meltdown
 description:
   Kennisinstortingsfenomeen wanneer AI initiatief neemt zonder menselijke
   tussenkomst
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 Encyclopedie-meltdown is een falingsmodus van kennisinstorting die begint

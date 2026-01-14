@@ -3,6 +3,9 @@ title: Warstwa narracyjna
 description:
   Opatrzone znacznikami czasu projekcje grafu dialektycznego, nadające się do
   lektury przez człowieka
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 Warstwa narracyjna to czytelna dla człowieka projekcja

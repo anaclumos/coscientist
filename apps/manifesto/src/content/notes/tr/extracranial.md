@@ -1,6 +1,9 @@
 ---
 title: Ekstrakraniyal
 description: Sunghyun Cho'nun kişisel dijital beyni ve yayınlama sistemi
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranial, [Sunghyun Cho](./sunghyun-cho)'nun kişisel dijital beynidir:

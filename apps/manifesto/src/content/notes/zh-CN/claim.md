@@ -1,6 +1,9 @@
 ---
 title: 主张
 description: 以节点形式存储在辩证图中的可验证命题
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 主张是从文本中抽取的可验证命题，并作为一等对象存储在[辩证图](./dialectical-graph)中。主张不是原始句子；它们是经过规范化的陈述，并明确标注其[范围](./scope)、[假设](./assumption)和[方法](./method)依赖关系。

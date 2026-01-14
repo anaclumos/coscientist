@@ -1,6 +1,9 @@
 ---
 title: Memex முதல் Dialectical Graph வரை
 description: தொடர்புச் சுவடுகளிலிருந்து வாத அமைப்பு வரை நிகழ்ந்த பரிணாமம்
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Memex முதல் Dialectical Graph வரை என்பது தனிப்பட்ட அறிவு அமைப்புகளின்

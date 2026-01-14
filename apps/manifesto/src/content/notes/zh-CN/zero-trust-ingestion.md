@@ -1,6 +1,9 @@
 ---
 title: 零信任摄取
 description: 在接受断言之前要求明确溯源的协议
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 零信任摄取（zero-trust

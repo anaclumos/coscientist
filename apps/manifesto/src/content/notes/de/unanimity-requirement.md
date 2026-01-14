@@ -1,6 +1,9 @@
 ---
 title: Einstimmigkeitserfordernis
 description: Regel, dass Behauptungen nur akzeptiert werden, wenn alle Gutachter zustimmen
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 Das Einstimmigkeitserfordernis ist die Regel im

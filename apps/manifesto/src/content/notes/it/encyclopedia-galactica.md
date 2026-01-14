@@ -1,6 +1,9 @@
 ---
 title: Enciclopedia Galactica
 description: Un concetto per preservare la conoscenza attraverso i secoli bui
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 L’Enciclopedia Galactica è un dispositivo immaginario nella serie della

@@ -1,6 +1,9 @@
 ---
 title: Yapay Zekâ
 description: Bilgi sistemleri için hem araç hem de meydan okuma olarak Yapay Zekâ
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 [Eşbilimci](./coscientist) bağlamında AI , geleneksel olarak insan zekâsı

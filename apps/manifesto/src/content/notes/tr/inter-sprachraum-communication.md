@@ -1,6 +1,9 @@
 ---
 title: Inter-Sprachraum İletişimi
 description: Dil alanları arasında diyalog ve bilgi alışverişi
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 Inter-Sprachraum iletişimi, anlamı koruyan ve gerçek bir diyaloğu mümkün kılan

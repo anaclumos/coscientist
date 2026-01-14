@@ -1,6 +1,9 @@
 ---
 title: Busca Primeiro a Refutação
 description: Um protocolo de validação que busca contraevidências antes da aceitação
+sourceLocale: en
+sourceHash: 038f5f56fc2f
+translatedAt: 2026-01-14
 ---
 
 A busca primeiro a refutação é um protocolo de validação que procura

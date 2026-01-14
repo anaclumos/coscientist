@@ -1,6 +1,9 @@
 ---
 title: 検証システム
 description: 主張を証拠および反証、ならびに代替説明と照合して確認するための仕組み
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 検証システムとは、[コサイエンティスト](./coscientist) が [主張](./claim)

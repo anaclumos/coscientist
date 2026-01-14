@@ -1,6 +1,9 @@
 ---
 title: Sunghyun Cho
 description: Erbauer von Coscientist und Autor seiner grundlegenden Essays
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 Sunghyun Cho ist der Erbauer von [Kozientist](./coscientist) und der Autor von

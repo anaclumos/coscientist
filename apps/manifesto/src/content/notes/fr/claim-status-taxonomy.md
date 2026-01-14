@@ -1,6 +1,9 @@
 ---
 title: Taxonomie des statuts d’une affirmation
 description: Les états possibles d’une affirmation au sein d’un graphe dialectique
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 La taxonomie des statuts d’une [affirmation](./claim) définit les états qu’une

@@ -1,6 +1,9 @@
 ---
 title: المُشغِّل
 description: السيّد البشري على المعرفة في العالِم المشارك
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 المُشغِّل هو السيّد البشري على المعرفة في [العالِم المشارك](./coscientist). يوحي

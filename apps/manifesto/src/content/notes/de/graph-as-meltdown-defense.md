@@ -1,6 +1,9 @@
 ---
 title: Graph als Schutz vor Meltdown
 description: Wie die dialektische Graphstruktur Wissenskollaps verhindert
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 „Graph als Schutz vor Meltdown" erklärt, wie der

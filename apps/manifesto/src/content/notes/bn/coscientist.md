@@ -1,6 +1,9 @@
 ---
 title: কোসায়েন্টিস্ট
 description: পোস্ট-এআই যুগে জ্ঞান উৎপাদনের জন্য একটি বৌদ্ধিক সহচর সিস্টেম
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 কোসায়েন্টিস্ট হলো একটি ওপেন-সোর্স সেবা, যা [Isaac Asimov](./isaac-asimov)-এর

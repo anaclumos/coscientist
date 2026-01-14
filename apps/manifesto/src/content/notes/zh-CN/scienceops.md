@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: 应用软件运维原则以加速科学研究
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps 是 [曹成贤](./sunghyun-cho)

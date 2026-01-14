@@ -1,6 +1,9 @@
 ---
 title: Friksi sebagai Musuh
 description: Prinsip desain bahwa friksi membunuh alur kerja pengetahuan pribadi
+sourceLocale: en
+sourceHash: 78d664aa5836
+translatedAt: 2026-01-14
 ---
 
 Friksi sebagai musuh adalah prinsip desain bahwa upaya yang tidak perlu dalam

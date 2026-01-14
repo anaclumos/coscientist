@@ -1,6 +1,9 @@
 ---
 title: Taksonomia niezgodności
 description: Kategorie rozbieżności między źródłami
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 Taksonomia niezgodności to klasyfikacja powodów, dla których źródła się nie

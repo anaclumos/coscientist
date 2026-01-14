@@ -1,6 +1,9 @@
 ---
 title: 공격
 description: 주장 진실성에 대한 직접적인 도전
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 공격은 [주장](./claim)의 진실성에 대한 직접적인 도전이다. 근거를 겨냥하는

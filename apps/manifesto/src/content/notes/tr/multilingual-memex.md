@@ -1,6 +1,9 @@
 ---
 title: Çokdilli Memex
 description: Otomatik çeviri desteğine sahip, dile duyarlı bir kişisel bilgi sistemi
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 Çokdilli Memex, birden fazla dilde içeriği yerel olarak destekleyen; otomatik

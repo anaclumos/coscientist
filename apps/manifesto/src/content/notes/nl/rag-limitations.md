@@ -3,6 +3,9 @@ title: Beperkingen van RAG
 description:
   Waarom standaard retrieval-augmented generation geen echte ontdekking kan
   opleveren
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) verbetert de feitelijkheid door relevante documenten op te halen,

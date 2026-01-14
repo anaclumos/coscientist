@@ -1,6 +1,9 @@
 ---
 title: ماحولیاتی ڈرفٹ
 description: دنیا میں ایسی تبدیلیاں جو پہلے سے درست علم کو غیر مؤثر کر دیں
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 ماحولیاتی ڈرفٹ، [ڈرفٹ کے مظاہر](./drift-phenomena) کی وہ قسم ہے جس میں بیرونی

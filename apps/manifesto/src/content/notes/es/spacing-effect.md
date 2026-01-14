@@ -3,6 +3,9 @@ title: Efecto del espaciamiento
 description:
   La memoria mejora cuando las sesiones de estudio se distribuyen a lo largo del
   tiempo
+sourceLocale: en
+sourceHash: 4ac5ac9e96d1
+translatedAt: 2026-01-14
 ---
 
 El efecto del espaciamiento es el hallazgo, ampliamente replicado, de que el

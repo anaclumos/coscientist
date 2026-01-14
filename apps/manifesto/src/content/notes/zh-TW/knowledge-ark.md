@@ -1,6 +1,9 @@
 ---
 title: 知識方舟
 description: 一個旨在於崩潰中保存知識的儲存庫
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 知識方舟（knowledge

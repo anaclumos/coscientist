@@ -1,6 +1,9 @@
 ---
 title: Principios de la ciencia del aprendizaje
 description: Técnicas basadas en evidencia para un aprendizaje y una memoria duraderos
+sourceLocale: en
+sourceHash: 9b01e1de519a
+translatedAt: 2026-01-14
 ---
 
 Los principios de la ciencia del aprendizaje son técnicas basadas en evidencia

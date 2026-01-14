@@ -3,6 +3,9 @@ title: Xác minh như một hình thức luyện tập truy hồi
 description:
   Vòng lặp xác minh của Operator như một dạng nhớ lại chủ động giúp củng cố khả
   năng ghi nhớ kiến thức
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 Xác minh như luyện tập truy hồi là nhận định rằng công việc xác minh của

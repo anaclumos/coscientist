@@ -1,6 +1,9 @@
 ---
 title: 曹成賢
 description: Coscientist 的打造者與其奠基文章的作者
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 曹成賢（Sunghyun Cho）是 [共科學家](./coscientist)

@@ -1,6 +1,9 @@
 ---
 title: ฮารี เซลดอน
 description: นักคณิตศาสตร์ตัวละครสมมติผู้สร้างไซโคฮิสทอรีในชุด Foundation ของอาซิมอฟ
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 ฮารี เซลดอนเป็นนักคณิตศาสตร์ตัวละครสมมติในชุด Foundation ของ

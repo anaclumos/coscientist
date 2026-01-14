@@ -1,6 +1,9 @@
 ---
 title: 다국어 메멕스
 description: 자동 번역 지원을 갖춘 언어 인지형 개인 지식 시스템
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 다국어 메멕스는 여러 언어의 콘텐츠를 네이티브로 지원하는 개인 지식 시스템으로,

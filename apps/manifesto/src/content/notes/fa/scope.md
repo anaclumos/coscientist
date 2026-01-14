@@ -1,6 +1,9 @@
 ---
 title: دامنه
 description: شرایط کاربردپذیری یک ادعا
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 دامنه مشخص می‌کند که یک [ادعا](./claim) قرار است کجا و چه زمانی اعمال شود:

@@ -1,6 +1,9 @@
 ---
 title: Fonte
 description: Un ancoraggio di provenienza per affermazioni e prove
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 Una fonte è il punto di origine di un [segmento di evidenza](./evidence-span) o

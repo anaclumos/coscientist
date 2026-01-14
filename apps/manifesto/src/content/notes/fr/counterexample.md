@@ -1,6 +1,9 @@
 ---
 title: Contre-exemple
 description: Un cas qui invalide ou restreint une affirmation
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Un contre-exemple est un cas qui viole la prédiction d’une

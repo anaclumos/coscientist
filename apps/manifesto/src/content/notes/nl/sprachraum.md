@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: Een taalsfeer of -domein dat denken en kennis vormgeeft
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum is het domein dat door een bepaalde taal wordt gedefinieerd, en omvat

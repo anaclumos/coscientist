@@ -1,6 +1,9 @@
 ---
 title: Memex
 description: La máquina personal de conocimiento propuesta por Vannevar Bush
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 El Memex es el archivo personal electromecánico propuesto por

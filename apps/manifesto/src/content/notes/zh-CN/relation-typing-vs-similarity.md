@@ -1,6 +1,9 @@
 ---
 title: 关系类型标注 vs 相似度
 description: 为什么类型化边能解决基于相似度检索无法解决的问题
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 "关系类型标注"与"相似度"对比的是两种连接知识的方式：基于相似度的检索（如

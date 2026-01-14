@@ -1,6 +1,9 @@
 ---
 title: 作為提取練習的驗證
 description: Operator 的驗證迴圈作為一種主動回憶，能強化知識保留
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 將驗證視為提取練習（retrieval practice）的洞見在於：[操作員](./operator)

@@ -1,6 +1,9 @@
 ---
 title: Línea de responsabilidad
 description: La cadena rastreable de quién afirmó qué y en qué fundamentos
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 La línea de responsabilidad es la cadena rastreable de quién afirmó qué y en qué

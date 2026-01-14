@@ -3,6 +3,9 @@ title: Perte de sens
 description:
   Lorsqu’une affirmation devient obsolète parce que les termes qu’elle emploie
   ont changé de sens
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 La perte de sens survient lorsqu’une [affirmation](./claim) devient obsolète non

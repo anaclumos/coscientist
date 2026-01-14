@@ -1,6 +1,9 @@
 ---
 title: Segundo Cérebro
 description: Uma abordagem de gestão de conhecimento pessoal para externalizar ideias
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 O "segundo cérebro" é uma abordagem de gestão de conhecimento pessoal focada em

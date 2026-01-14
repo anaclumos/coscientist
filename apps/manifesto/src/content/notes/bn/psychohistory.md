@@ -1,6 +1,9 @@
 ---
 title: সাইকোহিস্টরি
 description: আসিমভের ফাউন্ডেশন-এ একটি কাল্পনিক পরিসংখ্যানভিত্তিক বিজ্ঞান
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 সাইকোহিস্টরি হলো [আইজ্যাক আসিমভ](./isaac-asimov)-এর _Foundation_ ধারাবাহিকে

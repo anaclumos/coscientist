@@ -1,6 +1,9 @@
 ---
 title: 綜合機制
 description: 讓不相容來源具可比性的模式
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 綜合機制（Synthesis mechanisms）是 [共科學家](./coscientist)

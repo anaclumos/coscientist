@@ -1,6 +1,9 @@
 ---
 title: کوسائنٹسٹ
 description: پوسٹ-AI دور میں علم کی پیداوار کے لیے ایک فکری رفاقتی نظام
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 کوسائنٹسٹ ایک اوپن سورس سروس ہے جو [Isaac Asimov](./isaac-asimov) کے خیالی

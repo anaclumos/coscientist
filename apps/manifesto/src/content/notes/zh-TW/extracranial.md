@@ -1,6 +1,9 @@
 ---
 title: 顱外（Extracranial）
 description: 趙成賢（Sunghyun Cho）的個人數位大腦與出版系統
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 顱外（Extracranial）是 [趙成賢（Sunghyun Cho）](./sunghyun-cho)

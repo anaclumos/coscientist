@@ -1,6 +1,9 @@
 ---
 title: Jardin numérique
 description: Une collection publique et évolutive de notes interconnectées
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 Un jardin numérique est une collection publique et évolutive de notes

@@ -1,6 +1,9 @@
 ---
 title: "Токены ≠ знание"
 description: Личный квест за когнитивным экзоскелетом
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Я, [Сонхён Чо](./sunghyun-cho), вырос с благоговением перед энциклопедиями и

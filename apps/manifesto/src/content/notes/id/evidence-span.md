@@ -3,6 +3,9 @@ title: Rentang Bukti
 description:
   Rentang kutipan persis dari sebuah sumber yang mendukung atau menantang sebuah
   klaim
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Rentang bukti adalah teks kutipan persis dari sebuah sumber yang mendukung atau

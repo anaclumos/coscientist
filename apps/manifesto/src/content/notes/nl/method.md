@@ -3,6 +3,9 @@ title: Methode
 description:
   De procedure die wordt gebruikt om bewijs te genereren of conclusies te
   trekken
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 Een methode is de procedure waarmee bewijs wordt verzameld of een conclusie

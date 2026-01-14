@@ -3,6 +3,9 @@ title: Vérification
 description:
   Le processus consistant à confronter des affirmations à des preuves et à des
   contre-preuves
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 La vérification est le processus consistant à examiner si une affirmation

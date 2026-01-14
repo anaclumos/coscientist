@@ -3,6 +3,9 @@ title: Separazione dei percorsi di replica
 description:
   Chiedersi se il supporto proviene da percorsi indipendenti o da ripetute
   riformulazioni
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 La separazione dei percorsi di replica è la pratica di chiedersi se l’apparente

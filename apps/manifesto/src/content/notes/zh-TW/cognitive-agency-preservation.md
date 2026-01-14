@@ -1,6 +1,9 @@
 ---
 title: 認知能動性保全
 description: 一種 AI 安全框架，讓人類仍掌握判斷的主導權
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 認知能動性保全（cognitive agency

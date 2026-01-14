@@ -1,6 +1,9 @@
 ---
 title: Sumber
 description: Jangkar asal-usul untuk klaim dan bukti
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 Sumber adalah titik asal untuk sebuah [rentang bukti](./evidence-span) atau

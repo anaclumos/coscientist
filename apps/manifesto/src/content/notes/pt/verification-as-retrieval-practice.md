@@ -3,6 +3,9 @@ title: Verificação como Prática de Recuperação
 description:
   O ciclo de verificação do Operator como uma forma de recordação ativa que
   fortalece a retenção do conhecimento
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 Verificação como prática de recuperação é a percepção de que o trabalho de

@@ -3,6 +3,9 @@ title: RAG-Einschränkungen
 description:
   Warum Standard Retrieval-Augmented Generation keine echte Entdeckung
   hervorbringen kann
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) verbessert die Faktentreue, indem es relevante Dokumente abruft,

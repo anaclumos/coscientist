@@ -1,6 +1,9 @@
 ---
 title: 認知外骨骼
 description: 延伸並放大人類認知的外部工具
+sourceLocale: en
+sourceHash: 946b5ecb455e
+translatedAt: 2026-01-14
 ---
 
 認知外骨骼（cognitive

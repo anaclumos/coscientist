@@ -1,6 +1,9 @@
 ---
 title: Suwerenność poznawcza
 description: Ludzka kontrola nad osądem i weryfikacją w pracy z wiedzą
+sourceLocale: en
+sourceHash: 1831665ecaf7
+translatedAt: 2026-01-14
 ---
 
 Suwerenność poznawcza to zobowiązanie do utrzymania ludzkiego osądu i

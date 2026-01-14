@@ -1,6 +1,9 @@
 ---
 title: Deskilling melalui Delegasi AI
 description: Risiko kehilangan kapasitas belajar ketika AI mengerjakan kerja kognitif
+sourceLocale: en
+sourceHash: 4403bb1f64b0
+translatedAt: 2026-01-14
 ---
 
 Deskilling melalui delegasi AI adalah risiko bahwa memindahkan kerja kognitif ke

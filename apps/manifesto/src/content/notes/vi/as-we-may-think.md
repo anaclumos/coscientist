@@ -1,6 +1,9 @@
 ---
 title: Như Chúng Ta Có Thể Suy Nghĩ
 description: Bài luận năm 1945 của Vannevar Bush phác thảo Memex
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 "Như Chúng Ta Có Thể Suy Nghĩ" là bài luận năm 1945 của

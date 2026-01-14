@@ -1,6 +1,9 @@
 ---
 title: 우리가 생각할 수 있는 대로
 description: 메멕스를 개괄한 버니바 부시의 1945년 에세이
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 「우리가 생각할 수 있는 대로」는 [버니바 부시](./vannevar-bush)가 1945년에 쓴

@@ -1,6 +1,9 @@
 ---
 title: Chorume de IA
 description: Conteúdo de baixa qualidade gerado por IA inundando a internet
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 Chorume de IA é conteúdo de alto volume e baixo esforço produzido com modelos

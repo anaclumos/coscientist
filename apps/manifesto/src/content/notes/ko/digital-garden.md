@@ -1,6 +1,9 @@
 ---
 title: 디지털 가든
 description: 서로 연결된 노트들의 공개적이고 진화하는 컬렉션
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 디지털 가든은 시간이 지나며 자라나는, 서로 연결된 노트들의 공개적이고 진화하는

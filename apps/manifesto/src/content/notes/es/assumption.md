@@ -1,6 +1,9 @@
 ---
 title: Suposición
 description: Una premisa implícita que subyace a una afirmación
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Una suposición es una premisa implícita de la que depende una

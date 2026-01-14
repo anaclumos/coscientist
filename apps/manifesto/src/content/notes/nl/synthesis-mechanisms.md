@@ -1,6 +1,9 @@
 ---
 title: Synthesemechanismen
 description: Patronen om incompatibele bronnen vergelijkbaar te maken
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 Synthesemechanismen zijn de patronen en protocollen die

@@ -1,6 +1,9 @@
 ---
 title: Cut Minimum
 description: Himpunan sisi terkecil yang memutus keterhubungan sebuah graf
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 Cut minimum adalah himpunan sisi terkecil yang jika dihapus akan memutus

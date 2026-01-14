@@ -1,6 +1,9 @@
 ---
 title: Componentes do Grafo
 description: Os tipos de nós e arestas que compõem um grafo dialético
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 Os componentes do grafo são os blocos de construção de um

@@ -1,6 +1,9 @@
 ---
 title: Psikosejarah
 description: Sebuah ilmu statistik fiksi dalam seri Foundation karya Asimov
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 Psikosejarah adalah disiplin fiksi dalam seri Foundation karya

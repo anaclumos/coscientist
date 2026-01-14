@@ -1,6 +1,9 @@
 ---
 title: Ekstrakranialny
 description: Osobisty cyfrowy mózg i system publikowania Sunghyuna Cho
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranial to osobisty cyfrowy mózg [Sunghyuna Cho](./sunghyun-cho): statyczny

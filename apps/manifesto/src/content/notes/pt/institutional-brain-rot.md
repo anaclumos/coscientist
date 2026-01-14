@@ -3,6 +3,9 @@ title: Apodrecimento Cerebral Institucional
 description:
   Modo de falha organizacional em que a capacidade coletiva de verificação se
   degrada
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 O apodrecimento cerebral institucional é um modo de falha em que a capacidade

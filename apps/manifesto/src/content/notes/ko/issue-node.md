@@ -1,6 +1,9 @@
 ---
 title: 이슈 노드
 description: 변증법적 그래프에서 서로 충돌하는 주장 클러스터를 묶은 번들
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 이슈 노드는 서로 충돌하는 [주장](./claim)들을 하나의 일관된 탐구 대상으로 묶는

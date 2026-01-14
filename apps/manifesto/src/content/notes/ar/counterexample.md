@@ -1,6 +1,9 @@
 ---
 title: مثال مضاد
 description: حالة تُفشل ادعاءً أو تُضيّق نطاقه
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 المثال المضاد هو حالة تنتهك التنبؤ الذي يقدّمه [ادعاء](./claim)، مما يفرض إمّا

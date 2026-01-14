@@ -2,6 +2,9 @@
 title: Methode
 description: Das Verfahren, das verwendet wird, um Evidenz zu erzeugen oder
   Schlussfolgerungen abzuleiten
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 Eine Methode ist das Verfahren, mit dem Evidenz gesammelt oder eine

@@ -1,6 +1,9 @@
 ---
 title: 主張生命週期
 description: 主張如何從暫時性假設演化為穩健知識或走向過時
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 主張生命週期描述一個[主張](./claim)如何在[辯證圖](./dialectical-graph)中演化，從初始登錄一路到最終成為穩健知識、被駁斥的錯誤，或過時的歷史遺留物。

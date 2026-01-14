@@ -1,6 +1,9 @@
 ---
 title: Kolizja dokumentów
 description: Protokół wymuszania, by rozbieżne źródła konfrontowały swoje twierdzenia
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 Kolizja dokumentów to protokół wymuszania, by rozbieżne źródła wchodziły w

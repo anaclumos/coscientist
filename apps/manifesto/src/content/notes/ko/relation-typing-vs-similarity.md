@@ -3,6 +3,9 @@ title: 관계 타입 지정 vs 유사도
 description:
   타입이 지정된 엣지가 유사도 기반 검색으로는 해결할 수 없는 문제를 해결하는
   이유
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 관계 타입 지정 vs 유사도는 지식을 연결하는 두 가지 접근을 대비한다. 유사도 기반

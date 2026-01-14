@@ -1,6 +1,9 @@
 ---
 title: Synthesemechanismen
 description: Muster, um inkompatible Quellen vergleichbar zu machen
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 Synthesemechanismen sind die Muster und Protokolle, die

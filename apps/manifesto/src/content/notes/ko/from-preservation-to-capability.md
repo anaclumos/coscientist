@@ -1,6 +1,9 @@
 ---
 title: 보존에서 역량으로
 description: 지식을 저장하는 것에서 이해를 생성하는 것으로의 전환
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 보존에서 역량으로의 전환이란, 정보를 저장하는 지식 시스템에서 발견, 검증,

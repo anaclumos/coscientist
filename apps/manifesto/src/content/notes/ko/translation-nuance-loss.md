@@ -1,6 +1,9 @@
 ---
 title: 번역 뉘앙스 손실
 description: 아이디어가 언어의 경계를 넘어갈 때 사라지는 의미적 미묘함
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 번역 뉘앙스 손실은 한 언어에서 다른 언어로 아이디어를 번역하는 과정에서 의미적

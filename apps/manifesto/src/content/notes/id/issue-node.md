@@ -1,6 +1,9 @@
 ---
 title: Node Isu
 description: Sekumpulan klaster klaim yang bertabrakan dalam graf dialektis
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 Node isu adalah objek graf yang menggabungkan [klaim](./claim) yang saling

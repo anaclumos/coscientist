@@ -3,6 +3,9 @@ title: Accoppiamento metodo-conclusione
 description:
   Schema di analisi che raggruppa le affermazioni per metodo anziché per
   conclusione
+sourceLocale: en
+sourceHash: 8987bb9190cf
+translatedAt: 2026-01-14
 ---
 
 L’accoppiamento metodo-conclusione è uno schema di analisi che raggruppa le

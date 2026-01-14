@@ -1,6 +1,9 @@
 ---
 title: Tanım Kayması
 description: Bir terimin anlamının zaman içinde veya bağlamlar arasında değişmesi
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 Tanım kayması, bir terimin anlamının zaman, ekoller veya alanlar boyunca

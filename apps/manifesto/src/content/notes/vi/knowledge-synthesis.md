@@ -3,6 +3,9 @@ title: Tổng hợp tri thức
 description:
   Tổng hợp khác với việc lấy trung bình như thế nào trong các hệ thống tri thức
   biện chứng
+sourceLocale: en
+sourceHash: 8035aade2986
+translatedAt: 2026-01-14
 ---
 
 Tổng hợp tri thức là điều xảy ra sau khi truy hồi, khi bạn phải làm cho các

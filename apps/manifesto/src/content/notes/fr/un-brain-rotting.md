@@ -3,6 +3,9 @@ title: Dé-ramollissement du cerveau
 description:
   Processus actif de restauration de la vérification et de l’agentivité dans un
   environnement informationnel post-IA
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Le dé-ramollissement du cerveau est le processus actif de restauration de la

@@ -1,6 +1,9 @@
 ---
 title: 流暢性の罠
 description: 滑らかなAI文章を正確さと取り違えること
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 流暢性の罠とは、滑らかで自信に満ちて聞こえる文章を正確だとみなしてしまう認知バイアスである。[LLMs](./llm)

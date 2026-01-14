@@ -1,6 +1,9 @@
 ---
 title: 语言无关索引
 description: 一个超越具体语言的概念性索引
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 语言无关索引（Language-agnostic

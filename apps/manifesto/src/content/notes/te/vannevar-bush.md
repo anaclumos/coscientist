@@ -1,6 +1,9 @@
 ---
 title: వానీవర్ బుష్
 description: మెమెక్స్‌ను ఊహించిన ఇంజనీర్ మరియు శాస్త్ర పరిపాలకుడు
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 వానీవర్ బుష్ (1890–1974) రెండో ప్రపంచ యుద్ధ సమయంలో అమెరికా _Office of Scientific

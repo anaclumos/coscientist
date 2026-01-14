@@ -1,6 +1,9 @@
 ---
 title: ইনফারেন্স স্তর
 description: ডায়ালেক্টিক্যাল গ্রাফে জীবন্ত, বিবর্তনশীল দাবি-নেটওয়ার্ক
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 ইনফারেন্স স্তর হলো একটি [ডায়ালেক্টিক্যাল গ্রাফ](./dialectical-graph)-এ

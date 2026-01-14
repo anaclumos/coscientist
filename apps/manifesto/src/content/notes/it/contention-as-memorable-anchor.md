@@ -1,6 +1,9 @@
 ---
 title: La contesa come ancoraggio memorabile
 description: I disaccordi richiedono sforzo cognitivo e creano tracce mnestiche più forti
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 "La contesa come ancoraggio memorabile" è l’osservazione che la

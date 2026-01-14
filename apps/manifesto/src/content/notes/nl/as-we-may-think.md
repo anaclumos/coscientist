@@ -1,6 +1,9 @@
 ---
 title: Zoals wij misschien denken
 description: Vannevar Bush' essay uit 1945 waarin hij de Memex uiteenzet
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 "Zoals wij misschien denken" is het essay uit 1945 van

@@ -1,6 +1,9 @@
 ---
 title: Praca kontemplacyjna
 description: Praca poznawcza wykonywana przez AI w procesie wytwarzania wiedzy
+sourceLocale: en
+sourceHash: 1f16d680679e
+translatedAt: 2026-01-14
 ---
 
 Praca kontemplacyjna to poznawcza praca wytwarzania wiedzy: proponowanie

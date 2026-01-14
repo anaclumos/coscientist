@@ -1,6 +1,9 @@
 ---
 title: Nœuds de graphe dialectique
 description: Les types de nœuds dans un graphe de connaissances dialectique
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 Dans un [Graphe dialectique](./dialectical-graph), les nœuds représentent des

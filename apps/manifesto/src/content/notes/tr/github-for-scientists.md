@@ -1,6 +1,9 @@
 ---
 title: Bilim İnsanları için GitHub
 description: Deneyleri sürümlenmiş, denetlenebilir kod olarak ele alma vizyonu
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 "Bilim İnsanları için GitHub", bilimsel deneylerin kod gibi ele alındığı bir

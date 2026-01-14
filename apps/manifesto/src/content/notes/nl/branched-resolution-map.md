@@ -3,6 +3,9 @@ title: Vertakte oplossingskaart
 description:
   Structuur die meerdere geldige conclusies laat zien op basis van verschillende
   definities of methoden
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 Een vertakte oplossingskaart is een structuur die meerdere geldige conclusies

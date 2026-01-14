@@ -1,6 +1,9 @@
 ---
 title: منبع
 description: لنگر منشأ برای ادعاها و شواهد
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 یک منبع نقطهٔ آغاز برای یک [بازهٔ شواهد](./evidence-span) یا [ادعا](./claim)

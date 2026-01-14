@@ -2,6 +2,9 @@
 title: Systemdrift
 description: Degradierung von Wissenssystemen durch Selbstkontamination oder
   Vernachlässigung
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 Systemdrift ist die Kategorie von [Driftphänomenen](./drift-phenomena), bei der

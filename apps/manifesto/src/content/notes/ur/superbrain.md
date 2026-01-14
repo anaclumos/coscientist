@@ -1,6 +1,9 @@
 ---
 title: سپر برین
 description: ایک خارجی ادراکی ایکسو اسکیلیٹن کا وژن جو انسانی ذہانت کو بڑھاتا ہے
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 سپر برین [Sunghyun Cho](./sunghyun-cho) کی اصطلاح ہے: ایک ایسے

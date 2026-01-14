@@ -1,6 +1,9 @@
 ---
 title: Provenance
 description: L’origine et la chaîne de conservation des affirmations et des preuves
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 La provenance est l’origine et la chaîne de conservation d’une affirmation ou

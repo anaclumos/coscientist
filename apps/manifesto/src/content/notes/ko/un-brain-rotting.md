@@ -1,6 +1,9 @@
 ---
 title: 언-브레인-로팅
 description: 포스트-AI 정보 환경에서 검증과 주체성을 회복하는 능동적 과정
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 언-브레인-로팅은 질이 저하된 정보 환경에 노출된 이후, 검증 능력과 인지적

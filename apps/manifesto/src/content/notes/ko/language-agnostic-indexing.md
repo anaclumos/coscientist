@@ -1,6 +1,9 @@
 ---
 title: 언어-불문 인덱싱
 description: 특정 언어를 초월하는 개념적 인덱스
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 언어-불문 인덱싱은 지식을 표현하는 단어가 아니라 **개념**을 기준으로 지식을

@@ -1,6 +1,9 @@
 ---
 title: ఆపరేటర్
 description: Coscientist‌లో జ్ఞానంపై మనుష్య సార్వభౌముడు
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 ఆపరేటర్ అనేది [కోసైంటిస్ట్](./coscientist)లో జ్ఞానంపై మనుష్య సార్వభౌముడు. ఈ పేరు

@@ -1,6 +1,9 @@
 ---
 title: Alegação
 description: Uma proposição verificável armazenada como um nó em um grafo dialético
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 Uma alegação é uma proposição verificável extraída de texto e armazenada como um

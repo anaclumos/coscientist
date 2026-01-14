@@ -1,6 +1,9 @@
 ---
 title: ドキュメント・コリジョン
 description: 異なる情報源同士の主張を相互に突き合わせるためのプロトコル
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 ドキュメント・コリジョン（Document

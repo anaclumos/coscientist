@@ -3,6 +3,9 @@ title: La nuit noire de l’âme
 description:
   Un procédé littéraire pour une crise intérieure profonde menant à une
   reconstruction de l’identité
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 « La nuit noire de l’âme » désigne une crise intérieure profonde au cours de

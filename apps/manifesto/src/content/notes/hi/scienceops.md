@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: विज्ञान को तेज़ करने के लिए सॉफ़्टवेयर ऑपरेशंस सिद्धांतों का अनुप्रयोग
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps, वैज्ञानिक अनुसंधान में सॉफ़्टवेयर ऑपरेशंस की सोच लागू करने के लिए

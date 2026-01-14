@@ -1,6 +1,9 @@
 ---
 title: Procedencia
 description: El origen y la cadena de custodia de las afirmaciones y las pruebas
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 La procedencia es el origen y la cadena de custodia de una afirmación o pieza de

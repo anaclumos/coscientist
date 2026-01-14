@@ -3,6 +3,9 @@ title: Intercalare
 description:
   Mescolare argomenti o tipi di problemi durante l’esercizio per migliorare il
   trasferimento
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 L’intercalare consiste nell’esercitarsi mescolando tipi di problemi o argomenti

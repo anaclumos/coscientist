@@ -3,6 +3,9 @@ title: RAG
 description:
   Retrieval-Augmented Generation، ایک تکنیک جو حاصل کردہ دستاویزات کی بنیاد پر
   AI کے نتائج کو مضبوط بناتی ہے
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG ایک تکنیک ہے جو کسی کارپس سے متعلقہ دستاویزات حاصل کر کے اور انہیں جنریشن کے

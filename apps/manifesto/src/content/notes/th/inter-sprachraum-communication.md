@@ -1,6 +1,9 @@
 ---
 title: การสื่อสารข้าม Sprachraum
 description: บทสนทนาและการแลกเปลี่ยนความรู้ข้ามขอบเขตภาษา
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 การสื่อสารข้าม Sprachraum

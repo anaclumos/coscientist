@@ -1,6 +1,9 @@
 ---
 title: 环境漂移
 description: 世界中的变化使先前有效的知识失效
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 环境漂移（Environmental

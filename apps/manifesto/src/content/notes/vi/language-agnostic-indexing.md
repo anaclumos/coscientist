@@ -1,6 +1,9 @@
 ---
 title: Lập chỉ mục không phụ thuộc ngôn ngữ
 description: Một chỉ mục mang tính khái niệm, vượt lên trên các ngôn ngữ cụ thể
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 Lập chỉ mục không phụ thuộc ngôn ngữ là thực hành tổ chức tri thức theo _khái

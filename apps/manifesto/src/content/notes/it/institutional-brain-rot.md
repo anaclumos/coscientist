@@ -3,6 +3,9 @@ title: Marciume cerebrale istituzionale
 description:
   Modalità di fallimento organizzativa in cui la capacità collettiva di verifica
   degrada
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 Il marciume cerebrale istituzionale è una modalità di fallimento in cui la

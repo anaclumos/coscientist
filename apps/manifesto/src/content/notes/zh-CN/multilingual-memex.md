@@ -1,6 +1,9 @@
 ---
 title: 多语言 Memex
 description: 具备自动翻译支持、可感知语言的个人知识系统
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 多语言 Memex 是一种个人知识系统，原生支持多种语言内容，并具备自动语言检测、翻译以及跨语言链接能力。它将

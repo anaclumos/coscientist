@@ -1,6 +1,9 @@
 ---
 title: Lưới Tri thức Đa ngôn ngữ
 description: Một mạng lưới tri thức trải rộng qua nhiều ngôn ngữ và phân phối trên toàn cầu
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 Lưới tri thức đa ngôn ngữ là một mạng lưới tri thức trong đó nội dung ở bất kỳ

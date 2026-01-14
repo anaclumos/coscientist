@@ -3,6 +3,9 @@ title: Effondrement encyclopédique
 description:
   Phénomène d’effondrement des connaissances lorsque l’IA prend l’initiative
   sans intervention humaine
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 L’effondrement encyclopédique est un mode de défaillance par effondrement des

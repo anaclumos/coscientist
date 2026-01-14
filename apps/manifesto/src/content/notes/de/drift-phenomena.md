@@ -1,6 +1,9 @@
 ---
 title: Driftphänomene
 description: Zeitgetriebene Veränderungen in Wissenssystemen
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 Driftphänomene sind die Arten und Weisen, wie sich Wissenssysteme im Laufe der

@@ -1,6 +1,9 @@
 ---
 title: 복제 경로 분리
 description: 지지가 독립적인 경로에서 오는지, 아니면 같은 주장의 반복 진술인지 묻기
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 복제 경로 분리는 출처들 사이의 겉보기 합의가 독립적인 증거를 반영하는지, 아니면

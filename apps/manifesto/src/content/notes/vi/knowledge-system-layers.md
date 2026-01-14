@@ -1,6 +1,9 @@
 ---
 title: Các lớp của hệ thống tri thức
 description: Các lớp kiến trúc của Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 Các lớp của hệ thống tri thức là những thành phần kiến trúc riêng biệt cấu thành

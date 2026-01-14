@@ -1,6 +1,9 @@
 ---
 title: Діалектичні вузли графа
 description: Типи вузлів у діалектичному графі знань
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 У [Діалектичному графі](./dialectical-graph) вузли репрезентують епістемічні

@@ -1,6 +1,9 @@
 ---
 title: Couche narrative
 description: Projections horodatées du graphe dialectique adaptées à la lecture humaine
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 La couche narrative est la projection lisible par l’humain d’un

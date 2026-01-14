@@ -1,6 +1,9 @@
 ---
 title: Componentes del grafo
 description: Los tipos de nodos y aristas que conforman un grafo dialéctico
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 Los componentes del grafo son los bloques de construcción de un

@@ -1,6 +1,9 @@
 ---
 title: 最小矛盾集
 description: 產生衝突的最小前提與關係集合
+sourceLocale: en
+sourceHash: 31a0e5277e2e
+translatedAt: 2026-01-14
 ---
 
 最小矛盾集（minimum contradiction

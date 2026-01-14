@@ -1,6 +1,9 @@
 ---
 title: 기억에 남는 닻으로서의 논쟁
 description: 의견 충돌은 인지적 노력을 요구하며 더 강한 기억 흔적을 만든다
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 "기억에 남는 닻으로서의 논쟁"은 [논쟁](./contention)—[주장](./claim) 사이의

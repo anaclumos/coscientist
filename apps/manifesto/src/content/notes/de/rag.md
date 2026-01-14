@@ -3,6 +3,9 @@ title: RAG
 description:
   Retrieval-Augmented Generation, eine Technik zur Fundierung von KI-Ausgaben in
   abgerufenen Dokumenten
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG ist eine Technik, die die Genauigkeit von KI-Ausgaben verbessert, indem sie

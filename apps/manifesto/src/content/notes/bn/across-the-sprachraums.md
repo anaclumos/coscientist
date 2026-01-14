@@ -1,6 +1,9 @@
 ---
 title: ভাষা-পরিসরের সীমানা পেরিয়ে
 description: জ্ঞান-ব্যবস্থার জন্য ভাষার সীমানা অতিক্রম করার এক দৃষ্টিভঙ্গি
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums" হলো ভাষার সীমানা অতিক্রম করে এমন জ্ঞান-ব্যবস্থার জন্য

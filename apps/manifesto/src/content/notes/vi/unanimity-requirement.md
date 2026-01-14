@@ -3,6 +3,9 @@ title: Yêu cầu nhất trí
 description:
   Quy tắc cho rằng các khẳng định chỉ được chấp nhận khi tất cả người đánh giá
   đồng ý
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 Yêu cầu nhất trí là quy tắc trong

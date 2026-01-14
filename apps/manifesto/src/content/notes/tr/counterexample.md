@@ -1,6 +1,9 @@
 ---
 title: Karşı örnek
 description: Bir iddiayı bozan veya kapsamını daraltan bir vaka
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Karşı örnek, bir [iddia](./claim) tarafından öngörülen sonucu ihlal eden; bu

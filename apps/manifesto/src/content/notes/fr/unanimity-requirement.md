@@ -3,6 +3,9 @@ title: Exigence d’unanimité
 description:
   Règle selon laquelle les affirmations ne sont acceptées que lorsque tous les
   examinateurs sont d’accord
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 L’exigence d’unanimité est la règle du

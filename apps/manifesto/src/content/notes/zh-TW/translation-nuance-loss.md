@@ -1,6 +1,9 @@
 ---
 title: 翻譯中的細微差異流失
 description: 當觀念跨越語言邊界時消失的語義微妙之處
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 翻譯中的細微差異流失（translation nuance

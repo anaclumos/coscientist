@@ -1,6 +1,9 @@
 ---
 title: 全会一致要件
 description: すべてのレビュアーが同意した場合にのみ主張が受理されるというルール
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 全会一致要件とは、[Multi-AI Consensus Protocol](./multi-ai-consensus-protocol)

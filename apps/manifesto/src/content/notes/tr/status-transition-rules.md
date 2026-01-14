@@ -1,6 +1,9 @@
 ---
 title: Durum Geçiş Kuralları
 description: Diyalektik bir grafikte iddia durumları arasında hareketi ne tetikler
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 Durum geçiş kuralları, bir [iddianın](./claim)

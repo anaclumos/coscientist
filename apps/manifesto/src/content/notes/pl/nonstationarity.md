@@ -1,6 +1,9 @@
 ---
 title: Niestacjonarność
 description: Gdy proces generujący dane zmienia się w czasie
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 Niestacjonarność oznacza, że proces bazowy, który wytwarza dane, zmienia się w

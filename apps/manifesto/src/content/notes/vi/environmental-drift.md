@@ -3,6 +3,9 @@ title: Trôi dạt môi trường
 description:
   Những thay đổi trong thế giới khiến tri thức từng đúng trở nên không còn đúng
   hoặc không còn áp dụng được
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 Trôi dạt môi trường là một nhóm của

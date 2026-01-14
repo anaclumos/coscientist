@@ -3,6 +3,9 @@ title: Interleaving Dialektis
 description:
   Mencampur jenis klaim selama eksplorasi untuk mencegah silo dan menembus
   kompetensi semu
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 Interleaving dialektis adalah praktik mencampur jenis [klaim](./claim), domain,

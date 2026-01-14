@@ -1,6 +1,9 @@
 ---
 title: روانی کا فریب
 description: ہموار AI نثر کو درستگی سمجھ لینا
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 روانی کا فریب وہ ادراکی تعصب ہے جس میں ہموار، پُراعتماد لہجے والی نثر کو درست

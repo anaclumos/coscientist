@@ -1,6 +1,9 @@
 ---
 title: Cơ chế Tổng hợp
 description: Các mẫu hình để làm cho những nguồn không tương thích có thể so sánh được
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 Cơ chế tổng hợp là các mẫu hình và giao thức mà

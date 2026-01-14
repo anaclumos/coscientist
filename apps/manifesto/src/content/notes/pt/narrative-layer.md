@@ -3,6 +3,9 @@ title: Camada Narrativa
 description:
   Projeções do grafo dialético com marcação temporal, adequadas para leitura
   humana
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 A camada narrativa é a projeção legível por humanos de um

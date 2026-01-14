@@ -1,6 +1,9 @@
 ---
 title: "トークン ≠ 知識"
 description: 認知エクソスケルトンを求める個人的探求
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 私こと、[Sunghyun Cho](./sunghyun-cho)

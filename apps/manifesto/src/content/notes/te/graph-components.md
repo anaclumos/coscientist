@@ -1,6 +1,9 @@
 ---
 title: గ్రాఫ్ భాగాలు
 description: ఒక డైలెక్టికల్ గ్రాఫ్‌ను రూపొందించే నోడ్ మరియు ఎడ్జ్ రకాలు
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 గ్రాఫ్ భాగాలు అనేవి [డైలెక్టికల్ గ్రాఫ్](./dialectical-graph) యొక్క మౌలిక

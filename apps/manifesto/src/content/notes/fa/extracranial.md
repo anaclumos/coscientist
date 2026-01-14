@@ -1,6 +1,9 @@
 ---
 title: برون‌جمجمه‌ای
 description: مغز دیجیتال شخصی و سامانهٔ نشر سونگ‌هیون چو
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 برون‌جمجمه‌ای «مغز دیجیتال شخصی» [سونگ‌هیون چو](./sunghyun-cho) است: یک سامانهٔ

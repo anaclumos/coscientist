@@ -3,6 +3,9 @@ title: Odmóżdżanie
 description:
   Aktywny proces przywracania zdolności weryfikacji i sprawczości w post-AI-owym
   środowisku informacyjnym
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Odmóżdżanie to aktywny proces przywracania zdolności weryfikacji oraz

@@ -3,6 +3,9 @@ title: Creando cerebros digitales de próxima generación
 description:
   Ensayo sobre sistemas de conocimiento personal sin fricción, impulsados por
   algoritmos
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 "Creando cerebros digitales de próxima generación" es un ensayo de

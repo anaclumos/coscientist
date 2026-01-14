@@ -3,6 +3,9 @@ title: Tabrakan Dokumen
 description:
   Protokol untuk memaksa sumber-sumber yang berbeda agar saling berhadapan
   dengan [klaim](./claim) masing-masing
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 Tabrakan dokumen adalah protokol untuk memaksa sumber-sumber yang berbeda agar

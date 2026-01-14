@@ -1,6 +1,9 @@
 ---
 title: Hari Seldon
 description: Mathématicien fictif qui a créé la psychohistoire dans Fondation d’Asimov
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 Hari Seldon est le mathématicien fictif de la série Fondation

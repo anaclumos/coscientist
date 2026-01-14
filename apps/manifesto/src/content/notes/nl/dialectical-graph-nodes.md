@@ -1,6 +1,9 @@
 ---
 title: Dialectische Graafknooppunten
 description: De knooppunttypen in een dialectische kennisgraaf
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 In een [Dialectische Graaf](./dialectical-graph) vertegenwoordigen knooppunten

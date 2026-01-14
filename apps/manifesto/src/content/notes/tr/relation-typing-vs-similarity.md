@@ -3,6 +3,9 @@ title: İlişki Tipleri vs Benzerlik
 description:
   Tipli kenarların, benzerlik tabanlı getirmenin çözemediği sorunları neden
   çözdüğü
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 İlişki tipleri vs benzerlik, bilgiyi birbirine bağlamanın iki yaklaşımını

@@ -1,6 +1,9 @@
 ---
 title: Minimales Widerspruchsset
 description: Die kleinste Menge an Prämissen und Relationen, die einen Konflikt erzeugen
+sourceLocale: en
+sourceHash: 31a0e5277e2e
+translatedAt: 2026-01-14
 ---
 
 Das minimale Widerspruchsset ist die kleinste Sammlung von Prämissen,

@@ -3,6 +3,9 @@ title: Kontensi sebagai Jangkar yang Mudah Diingat
 description:
   Ketidaksepakatan memerlukan upaya kognitif dan menciptakan jejak memori yang
   lebih kuat
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 "Kontensi sebagai jangkar yang mudah diingat" adalah pengamatan bahwa

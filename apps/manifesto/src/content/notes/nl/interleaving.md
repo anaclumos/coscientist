@@ -3,6 +3,9 @@ title: Interleaving
 description:
   Onderwerpen of opgavetypes tijdens het oefenen door elkaar gebruiken om
   transfer te verbeteren
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 Interleaving is oefenen door opgavetypes of onderwerpen binnen dezelfde sessie

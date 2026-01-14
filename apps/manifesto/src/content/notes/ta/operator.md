@@ -1,6 +1,9 @@
 ---
 title: ஆபரேட்டர்
 description: Coscientist இல் அறிவின் மீது மனித இறைமையைக் கொண்டவர்
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 [காஸ்சயண்டிஸ்ட்](./coscientist) இல் அறிவின் மீது மனித இறைமையைக் கொண்டவர்

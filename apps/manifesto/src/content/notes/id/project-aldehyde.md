@@ -1,6 +1,9 @@
 ---
 title: Proyek Aldehyde
 description: Upaya awal untuk membangun otak digital pribadi
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 Proyek Aldehyde adalah upaya awal [Sunghyun Cho](./sunghyun-cho) untuk membangun

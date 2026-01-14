@@ -1,6 +1,9 @@
 ---
 title: 证据独立性
 description: 来自共享训练偏差的"一致"并非真实共识的原则
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 证据独立性（Evidence

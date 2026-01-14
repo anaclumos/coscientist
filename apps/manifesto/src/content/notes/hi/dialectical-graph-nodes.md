@@ -1,6 +1,9 @@
 ---
 title: द्वंद्वात्मक ग्राफ नोड्स
 description: द्वंद्वात्मक ज्ञान ग्राफ में नोड के प्रकार
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 एक [द्वंद्वात्मक ग्राफ](./dialectical-graph) में, नोड्स कच्चे पाठ के बजाय

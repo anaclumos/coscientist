@@ -3,6 +3,9 @@ title: Deriva semántica
 description:
   Cambios de significado que hacen que el conocimiento quede obsoleto o sea
   engañoso
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 La deriva semántica es la categoría de [fenómenos de deriva](./drift-phenomena)

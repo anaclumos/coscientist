@@ -1,6 +1,9 @@
 ---
 title: اپراتور
 description: حاکم انسانی بر دانش در پژوهشگر مشترک
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 اپراتور، حاکم انسانی بر دانش در [پژوهشگر مشترک](./coscientist) است. این نام

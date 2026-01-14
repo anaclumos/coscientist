@@ -1,6 +1,9 @@
 ---
 title: Wyszukiwanie typu „najpierw obalenie"
 description: Protokół walidacji, który szuka przeciwdowodów przed akceptacją
+sourceLocale: en
+sourceHash: 038f5f56fc2f
+translatedAt: 2026-01-14
 ---
 
 Wyszukiwanie typu „najpierw obalenie" to protokół walidacji, który poszukuje

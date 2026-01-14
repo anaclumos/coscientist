@@ -1,6 +1,9 @@
 ---
 title: அடித்தளம் புனைகதை
 description: Coscientist-இன் பார்வையை வடிவமைக்கும், அசிமோவ்-ஈர்க்கப்பட்ட கருத்துகள்
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 அடித்தளம் புனைகதை என்பது [Isaac Asimov](./isaac-asimov) அவர்களின் _Foundation_

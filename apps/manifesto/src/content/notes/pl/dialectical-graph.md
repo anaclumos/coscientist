@@ -3,6 +3,9 @@ title: Graf dialektyczny
 description:
   Model grafu wiedzy, który przechowuje twierdzenia i relacje, zamiast treści
   dokumentów
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 Graf dialektyczny to graf wiedzy, który przechowuje strukturę argumentacyjną

@@ -1,6 +1,9 @@
 ---
 title: 来源
 description: 为主张与证据提供溯源锚点
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 来源（source）是某个[证据跨度](./evidence-span)或[主张](./claim)的信息起点：信息所来自的文档、数据集、实验或个人。来源为[溯源（provenance）](./provenance)提供锚点，并使[责任链](./responsibility-line)可追踪。

@@ -1,6 +1,9 @@
 ---
 title: Assunzione
 description: Una premessa implicita alla base di un'affermazione
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Un'assunzione è una premessa implicita da cui dipende un'[affermazione](./claim)

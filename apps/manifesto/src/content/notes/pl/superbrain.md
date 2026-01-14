@@ -3,6 +3,9 @@ title: Supermózg
 description:
   Wizja uzewnętrznionego egzoszkieletu poznawczego, który wzmacnia ludzką
   inteligencję
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 Supermózg to termin [Sunghyun Cho](./sunghyun-cho) na określenie wizji

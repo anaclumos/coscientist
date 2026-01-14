@@ -1,6 +1,9 @@
 ---
 title: Definitieverschuiving
 description: Wanneer de betekenis van een term verschuift door de tijd of tussen contexten
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 Definitieverschuiving is de geleidelijke verandering in de betekenis van een

@@ -1,6 +1,9 @@
 ---
 title: سائنس اوپس
 description: سائنس کو تیز کرنے کے لیے سافٹ ویئر آپریشنز کے اصولوں کا اطلاق
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 سائنس اوپس [سنگ ہیون چو](./sunghyun-cho) کا یہ تصور ہے کہ سافٹ ویئر آپریشنز کی

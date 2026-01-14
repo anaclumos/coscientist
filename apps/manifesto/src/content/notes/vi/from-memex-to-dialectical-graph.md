@@ -1,6 +1,9 @@
 ---
 title: Từ Memex đến Đồ thị Biện chứng
 description: Tiến hóa từ các dấu vết liên tưởng đến cấu trúc lập luận
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Từ Memex đến Đồ thị Biện chứng lần theo sự tiến hóa của các hệ thống tri thức cá

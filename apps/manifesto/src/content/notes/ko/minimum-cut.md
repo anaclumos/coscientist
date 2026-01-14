@@ -1,6 +1,9 @@
 ---
 title: 최소 컷
 description: 그래프를 분리하는 가장 작은 간선 집합
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 최소 컷은 어떤 그래프에서 간선들의 제거로 그래프가 분리되도록 만드는, 가장 작은

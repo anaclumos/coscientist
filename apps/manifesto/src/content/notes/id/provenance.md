@@ -1,6 +1,9 @@
 ---
 title: Provenans
 description: Asal-usul dan rantai penguasaan untuk klaim dan bukti
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 Provenans adalah asal-usul dan rantai penguasaan dari sebuah klaim atau bukti:

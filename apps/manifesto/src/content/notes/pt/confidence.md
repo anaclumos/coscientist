@@ -1,6 +1,9 @@
 ---
 title: Confiança
 description: Uma medida multidimensional de suporte a uma afirmação
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 A confiança no [Cocientista](./coscientist) não é uma única pontuação de

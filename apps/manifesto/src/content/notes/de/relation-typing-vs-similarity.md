@@ -1,6 +1,9 @@
 ---
 title: Relationstypisierung vs. Ähnlichkeit
 description: Warum typisierte Kanten lösen, was ähnlichkeitbasiertes Retrieval nicht kann
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 Relationstypisierung vs. Ähnlichkeit stellt zwei Ansätze gegenüber, Wissen zu

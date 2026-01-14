@@ -1,6 +1,9 @@
 ---
 title: 争议作为难忘的锚点
 description: 分歧需要认知努力，并会形成更强的记忆痕迹
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 "争议作为难忘的锚点（Contention as a memorable

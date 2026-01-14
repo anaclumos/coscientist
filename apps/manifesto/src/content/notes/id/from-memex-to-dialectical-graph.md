@@ -1,6 +1,9 @@
 ---
 title: Dari Memex ke Graf Dialektis
 description: Evolusi dari jejak asosiatif ke struktur argumentatif
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Dari Memex ke Graf Dialektis menelusuri evolusi sistem pengetahuan pribadi: dari

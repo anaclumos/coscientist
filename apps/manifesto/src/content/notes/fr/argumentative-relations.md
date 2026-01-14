@@ -1,6 +1,9 @@
 ---
 title: Relations argumentatives
 description: Types d’arêtes dans un graphe dialectique organisées par fonction
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 Les relations argumentatives sont les types d’arêtes dans un

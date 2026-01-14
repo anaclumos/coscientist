@@ -1,6 +1,9 @@
 ---
 title: Źródło
 description: Kotwica pochodzenia dla twierdzeń i dowodów
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 Źródło to punkt pochodzenia dla [fragmentu dowodu](./evidence-span) lub

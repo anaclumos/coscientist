@@ -1,6 +1,9 @@
 ---
 title: Meta-pembelajaran
 description: Mempelajari bagaimana proses belajarmu sendiri bekerja
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 Meta-pembelajaran adalah belajar tentang cara belajarmu sendiri: memperhatikan

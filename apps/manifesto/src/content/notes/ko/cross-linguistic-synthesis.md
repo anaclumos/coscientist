@@ -1,6 +1,9 @@
 ---
 title: 교차언어 종합
 description: 여러 언어의 지식을 결합해 통합된 이해로 만드는 것
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 교차언어 종합은 서로 다른 언어로 된 출처의 지식을 하나의 일관된 이해로 결합하는

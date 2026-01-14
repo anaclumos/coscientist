@@ -1,6 +1,9 @@
 ---
 title: الصعوبة المرغوبة في التحقق
 description: جعل التحقق مجهودًا للحفاظ على فهم حقيقي
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 الصعوبة المرغوبة في التحقق هي مبدأ مفاده أن [التحقق](./verification) ينبغي أن

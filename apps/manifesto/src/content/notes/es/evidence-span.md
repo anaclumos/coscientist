@@ -1,6 +1,9 @@
 ---
 title: Fragmento de evidencia
 description: Un rango exacto citado de una fuente que respalda o cuestiona una afirmación
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Un fragmento de evidencia es el texto citado exacto de una fuente que respalda o

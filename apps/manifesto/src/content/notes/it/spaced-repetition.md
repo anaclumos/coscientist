@@ -1,6 +1,9 @@
 ---
 title: Ripetizione dilazionata
 description: Una tecnica di apprendimento basata su intervalli di ripasso crescenti
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 La ripetizione dilazionata è un modo basato su evidenze per programmare i

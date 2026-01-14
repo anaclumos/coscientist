@@ -1,6 +1,9 @@
 ---
 title: 言語圏横断コミュニケーション
 description: 言語圏をまたいだ対話と知識交換
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 言語圏横断コミュニケーション（Inter-Sprachraum

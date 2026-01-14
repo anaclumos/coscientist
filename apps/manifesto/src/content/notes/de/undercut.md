@@ -3,6 +3,9 @@ title: Unterminierung
 description:
   Ein Angriff auf die Methode, Annahme oder Definition, die einer Behauptung
   zugrunde liegt
+sourceLocale: en
+sourceHash: d67bef7771ea
+translatedAt: 2026-01-14
 ---
 
 Eine Unterminierung ist eine Anfechtung, die nicht die [Behauptung](./claim)

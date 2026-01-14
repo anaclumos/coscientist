@@ -3,6 +3,9 @@ title: Behoud van cognitieve handelingsbekwaamheid
 description:
   Een AI-veiligheidskader dat mensen de controle over oordeelsvorming laat
   behouden
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 Behoud van cognitieve handelingsbekwaamheid is het principe dat AI het menselijk

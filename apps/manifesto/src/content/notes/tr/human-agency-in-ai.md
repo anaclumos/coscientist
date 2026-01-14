@@ -3,6 +3,9 @@ title: Yapay Zekâda İnsan Ajansı
 description:
   Yapay zekâ destekli bilgi işlerinde insanların kontrolü elinde tutmasını
   sağlayan ilkeler ve mekanizmalar
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 [AI](./ai) bağlamında insan ajansı, yapay zekâ önemli ölçüde

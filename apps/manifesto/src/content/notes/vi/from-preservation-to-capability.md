@@ -1,6 +1,9 @@
 ---
 title: Từ Bảo tồn đến Năng lực
 description: Sự chuyển dịch từ việc lưu trữ tri thức sang việc tạo ra sự hiểu biết
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 Từ bảo tồn đến năng lực là sự chuyển dịch từ các hệ thống tri thức chỉ lưu trữ

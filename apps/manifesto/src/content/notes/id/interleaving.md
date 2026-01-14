@@ -1,6 +1,9 @@
 ---
 title: Interleaving
 description: Mencampur topik atau jenis soal saat latihan untuk meningkatkan transfer
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 Interleaving adalah berlatih dengan mencampur jenis soal atau topik dalam sesi

@@ -3,6 +3,9 @@ title: Üçlü Ayrım
 description:
   Ham metni, normalize edilmiş iddiaları ve açık ilişkileri birbirinden ayıran
   mimari kural
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 Üçlü ayrım, bir [Diyalektik Graf](./dialectical-graph) içinde üç katmanı

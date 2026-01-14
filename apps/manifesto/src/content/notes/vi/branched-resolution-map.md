@@ -3,6 +3,9 @@ title: Bản đồ phân giải phân nhánh
 description:
   Cấu trúc cho thấy nhiều kết luận hợp lệ dựa trên các định nghĩa hoặc phương
   pháp khác nhau
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 Bản đồ phân giải phân nhánh là một cấu trúc trình bày nhiều kết luận hợp lệ như

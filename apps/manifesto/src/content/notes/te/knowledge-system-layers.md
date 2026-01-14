@@ -1,6 +1,9 @@
 ---
 title: జ్ఞాన వ్యవస్థ పొరలు
 description: Coscientist యొక్క శిల్పకళా పొరలు
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 జ్ఞాన వ్యవస్థ పొరలు అనేవి [కోసైంటిస్ట్](./coscientist) ను నిర్మించే ప్రత్యేక

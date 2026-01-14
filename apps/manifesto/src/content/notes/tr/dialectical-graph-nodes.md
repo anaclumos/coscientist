@@ -1,6 +1,9 @@
 ---
 title: Diyalektik Grafik Düğümleri
 description: Diyalektik bir bilgi grafiğindeki düğüm türleri
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 Bir [Diyalektik Grafik](./dialectical-graph) içinde düğümler, ham metin yerine

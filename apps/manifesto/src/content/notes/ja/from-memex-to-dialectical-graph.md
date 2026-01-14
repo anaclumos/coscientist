@@ -1,6 +1,9 @@
 ---
 title: Memexから弁証法グラフへ
 description: 連想トレイルから論証構造への進化
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 「Memexから弁証法グラフへ」は、個人知識システムの進化をたどる。記録を保存し、連想トレイルによってそれらを結びつけた

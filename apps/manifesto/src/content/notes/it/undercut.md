@@ -3,6 +3,9 @@ title: Sminamento
 description:
   Un attacco al metodo, all’assunzione o alla definizione su cui si fonda
   un’affermazione
+sourceLocale: en
+sourceHash: d67bef7771ea
+translatedAt: 2026-01-14
 ---
 
 Uno sminamento è una contestazione che non prende di mira

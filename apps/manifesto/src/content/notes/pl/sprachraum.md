@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: Sfera lub domena językowa, która kształtuje myślenie i wiedzę
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum (niem.: „przestrzeń językowa" lub „sfera językowa") to domena

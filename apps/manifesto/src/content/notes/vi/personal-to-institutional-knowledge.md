@@ -1,6 +1,9 @@
 ---
 title: Từ tri thức cá nhân đến tri thức thể chế
 description: Mở rộng các thực hành tri thức cá nhân cho tổ chức
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 Từ tri thức cá nhân đến tri thức thể chế là quá trình chuyển đổi từ một

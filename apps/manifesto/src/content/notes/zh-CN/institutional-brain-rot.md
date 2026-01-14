@@ -1,6 +1,9 @@
 ---
 title: 机构性脑腐
 description: 一种组织失效模式：集体的验证能力随时间退化
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 机构性脑腐是一种失效模式：组织用于验证并更新知识的集体能力会随着时间推移而退化。它不同于[百科全书崩坏](./encyclopedia-meltdown)，后者是由 AI 污染驱动的系统级崩溃；脑腐是一种人类—组织层面的现象。

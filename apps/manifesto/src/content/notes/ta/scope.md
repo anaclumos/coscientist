@@ -1,6 +1,9 @@
 ---
 title: வரம்பு
 description: ஒரு கோரிக்கைக்கு பொருந்தும் நிபந்தனைகள்
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 வரம்பு என்பது ஒரு [கோரிக்கை](./claim) எங்கு மற்றும் எப்போது பொருந்த வேண்டும்

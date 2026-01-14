@@ -1,6 +1,9 @@
 ---
 title: سائنس دانوں کے لیے GitHub
 description: تجربات کو ورژن شدہ، قابلِ آڈٹ کوڈ کے طور پر برتنے کا وژن
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 "سائنس دانوں کے لیے GitHub" ایک ایسا وژن ہے جس میں سائنسی تجربات کو کوڈ کی طرح

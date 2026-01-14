@@ -3,6 +3,9 @@ title: Rozgałęziona mapa rozstrzygnięć
 description:
   Struktura pokazująca wiele poprawnych wniosków na podstawie różnych definicji
   lub metod
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 Rozgałęziona mapa rozstrzygnięć to struktura, która przedstawia wiele poprawnych

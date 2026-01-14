@@ -1,6 +1,9 @@
 ---
 title: 유창성 함정
 description: 매끄러운 AI 문장을 정확성으로 착각하기
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 유창성 함정은 매끄럽고 자신감 있게 들리는 문장을 정확한 것으로 취급하는 인지

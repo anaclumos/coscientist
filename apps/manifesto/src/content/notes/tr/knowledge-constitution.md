@@ -3,6 +3,9 @@ title: Bilgi Anayasası
 description:
   İddiaların nasıl otorite kazandığını belirleyen bir yönetim belgesi olarak
   epistemik protokol katmanı
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 Bir bilgi anayasası, [iddiaların](./claim) bir bilgi sistemine nasıl girdiğini,

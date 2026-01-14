@@ -1,6 +1,9 @@
 ---
 title: 漂移现象
 description: 知识系统中由时间驱动的变化
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 漂移现象指的是知识系统随时间发生变化的方式，这种变化往往是不可见的，会导致看起来像矛盾的错误，但实际上源于时间上的不匹配。

@@ -1,6 +1,9 @@
 ---
 title: 一致同意要求
 description: 僅在所有審查者一致同意時才接受主張的規則
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 一致同意要求是[多 AI 共識協定](./multi-ai-consensus-protocol)中的一項規則，規定只有在所有參與的 AI 系統都同意時，才會接受[主張](./claim)。模型之間的分歧被視為需要更仔細檢視的訊號，而不是應被平均化消除的雜訊。

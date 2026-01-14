@@ -1,6 +1,9 @@
 ---
 title: Dryf środowiskowy
 description: Zmiany w świecie, które unieważniają wcześniej prawdziwą wiedzę
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 Dryf środowiskowy to kategoria [zjawisk dryfu](./drift-phenomena), w której

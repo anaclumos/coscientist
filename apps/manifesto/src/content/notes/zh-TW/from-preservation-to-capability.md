@@ -1,6 +1,9 @@
 ---
 title: 從保存到能力
 description: 從儲存知識轉向產出理解的轉變
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 從保存到能力，指的是從「儲存資訊」的知識系統，轉向能主動支援探索、驗證與更新的系統。[Encyclopedia Galactica（銀河百科全書）](./encyclopedia-galactica)（虛構作品）是一種保存裝置；[共科學家](./coscientist)

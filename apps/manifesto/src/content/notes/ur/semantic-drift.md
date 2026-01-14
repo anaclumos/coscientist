@@ -1,6 +1,9 @@
 ---
 title: معنوی انحراف
 description: معنی میں وہ تبدیلیاں جو علم کو متروک یا گمراہ کن بنا دیتی ہیں
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 معنوی انحراف، [انحرافی مظاہر](./drift-phenomena) کی وہ قسم ہے جس میں اصطلاحات کے

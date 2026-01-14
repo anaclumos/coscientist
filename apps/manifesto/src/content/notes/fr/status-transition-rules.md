@@ -3,6 +3,9 @@ title: Règles de transition de statut
 description:
   Ce qui déclenche le passage entre les états d’une revendication dans un graphe
   dialectique
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 Les règles de transition de statut définissent ce qui fait passer une

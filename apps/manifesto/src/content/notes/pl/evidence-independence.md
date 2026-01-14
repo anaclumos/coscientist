@@ -3,6 +3,9 @@ title: Niezależność dowodów
 description:
   Zasada, że zgodność wynikająca ze wspólnego uprzedzenia treningowego nie jest
   prawdziwym konsensusem
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 Niezależność dowodów to zasada, że pozorna zgodność między modelami AI nie

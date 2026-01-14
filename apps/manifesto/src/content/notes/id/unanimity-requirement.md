@@ -1,6 +1,9 @@
 ---
 title: Persyaratan Bulat
 description: Aturan bahwa klaim diterima hanya ketika semua peninjau setuju
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 Persyaratan bulat adalah aturan dalam

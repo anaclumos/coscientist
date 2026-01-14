@@ -3,6 +3,9 @@ title: Coscientist
 description:
   Um sistema de companhia intelectual para produção de conhecimento na era
   pós-IA
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist é um serviço open-source inspirado na fictícia

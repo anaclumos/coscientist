@@ -1,6 +1,9 @@
 ---
 title: 세컨드 브레인
 description: 아이디어를 외부화하기 위한 개인 지식 관리 접근법
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 "세컨드 브레인"은 생각 밖에서 노트를 수집하고, 정리하고, 다시 찾아보는 데 초점을

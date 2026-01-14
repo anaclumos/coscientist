@@ -1,6 +1,9 @@
 ---
 title: Pewność
 description: Wielowymiarowa miara poparcia dla twierdzenia
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 Pewność w [Współnaukowiec](./coscientist) nie jest pojedynczym wynikiem

@@ -1,6 +1,9 @@
 ---
 title: 科学者のためのGitHub
 description: 実験をバージョン管理され、監査可能なコードとして扱うというビジョン
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 「科学者のためのGitHub」とは、科学実験をコードのように扱うビジョンです。つまり、バージョン管理され、再現可能で、監査（audit）できるものとして扱います。ソフトウェア工学が、その場しのぎのスクリプトから継続的インテグレーション（continuous

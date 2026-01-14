@@ -1,6 +1,9 @@
 ---
 title: アイザック・アシモフ
 description: 『ファウンデーション』シリーズがCoscientistのビジョンに影響を与えたSF作家
+sourceLocale: en
+sourceHash: 83360f2cee16
+translatedAt: 2026-01-14
 ---
 
 アイザック・アシモフ（1920–1992）は、多作なSF作家であり、生化学の教授でもあった。彼の『ファウンデーション』シリーズは、[コサイエンティスト](./coscientist)にとってのフィクション上の拠り所となっている。同シリーズは、[銀河百科事典](./encyclopedia-galactica)、[心理歴史学](./psychohistory)、[セルダン・プラン](./seldon-plan)、そして登場人物の[ハリ・セルダン](./hari-seldon)を導入した。

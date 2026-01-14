@@ -1,6 +1,9 @@
 ---
 title: Cyfrowa dżungla
 description: Przestrzeń osobistej wiedzy o niskim progu tarcia, która samoorganizuje się
+sourceLocale: en
+sourceHash: 30a3de2b3fcf
+translatedAt: 2026-01-14
 ---
 
 Cyfrowa dżungla to osobista przestrzeń wiedzy, która rozrasta się przy

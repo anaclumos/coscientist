@@ -1,6 +1,9 @@
 ---
 title: Ảo giác năng lực do AI gây ra
 description: Cách sự trôi chảy với AI tạo ra sự thành thạo giả ở người dùng
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 Ảo giác năng lực do AI gây ra xuất hiện khi người dùng nhầm đầu ra trôi chảy của

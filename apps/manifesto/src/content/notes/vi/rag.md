@@ -3,6 +3,9 @@ title: RAG
 description:
   Retrieval-Augmented Generation, một kỹ thuật giúp "neo" đầu ra AI vào các tài
   liệu được truy xuất
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG là một kỹ thuật cải thiện độ chính xác của đầu ra AI bằng cách truy xuất các

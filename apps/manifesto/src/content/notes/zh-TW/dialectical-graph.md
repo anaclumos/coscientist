@@ -1,6 +1,9 @@
 ---
 title: 辯證圖譜
 description: 一種知識圖譜模型：儲存主張與關係，而非文件內容
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 辯證圖譜（dialectical

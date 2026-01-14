@@ -1,6 +1,9 @@
 ---
 title: 辩证图
 description: 一种存储主张与关系而非文档内容的知识图模型
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 辩证图（Dialectical

@@ -1,6 +1,9 @@
 ---
 title: Vannevar Bush
 description: Ingenieur und Wissenschaftsadministrator, der den Memex entwarf
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 Vannevar Bush (1890–1974) war ein amerikanischer Ingenieur, Erfinder und

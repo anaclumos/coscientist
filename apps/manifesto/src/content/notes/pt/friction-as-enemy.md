@@ -3,6 +3,9 @@ title: Fricção como Inimiga
 description:
   Princípio de design de que a fricção mata fluxos de trabalho de conhecimento
   pessoal
+sourceLocale: en
+sourceHash: 78d664aa5836
+translatedAt: 2026-01-14
 ---
 
 Fricção como inimiga é o princípio de design de que o esforço desnecessário ao

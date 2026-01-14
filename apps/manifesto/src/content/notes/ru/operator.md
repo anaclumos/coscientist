@@ -1,6 +1,9 @@
 ---
 title: Оператор
 description: Человеческий суверен над знанием в Coscientist
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 Оператор — это человеческий суверен над знанием в

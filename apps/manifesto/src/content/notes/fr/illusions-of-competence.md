@@ -1,6 +1,9 @@
 ---
 title: Illusions de compétence
 description: Un faux sentiment de maîtrise créé par une familiarité passive
+sourceLocale: en
+sourceHash: 75804f84b0ff
+translatedAt: 2026-01-14
 ---
 
 Les illusions de compétence surviennent lorsque la familiarité est confondue

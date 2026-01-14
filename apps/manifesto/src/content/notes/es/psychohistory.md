@@ -1,6 +1,9 @@
 ---
 title: Psicohistoria
 description: Una ciencia estadística ficticia en la saga Fundación de Asimov
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 La psicohistoria es una disciplina ficticia en la saga Fundación de

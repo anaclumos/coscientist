@@ -1,6 +1,9 @@
 ---
 title: Indexação Agnóstica de Língua
 description: Um índice conceitual que transcende línguas específicas
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 A indexação agnóstica de língua é a prática de organizar o conhecimento por

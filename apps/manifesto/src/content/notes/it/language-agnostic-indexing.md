@@ -1,6 +1,9 @@
 ---
 title: Indicizzazione indipendente dalla lingua
 description: Un indice concettuale che trascende lingue specifiche
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 L’indicizzazione indipendente dalla lingua è la pratica di organizzare la

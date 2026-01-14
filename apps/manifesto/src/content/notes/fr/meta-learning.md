@@ -1,6 +1,9 @@
 ---
 title: Métapprentissage
 description: Apprendre comment fonctionne votre propre apprentissage
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 Le métapprentissage, c’est apprendre sur votre propre apprentissage : remarquer

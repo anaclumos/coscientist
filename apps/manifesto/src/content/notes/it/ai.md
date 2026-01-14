@@ -3,6 +3,9 @@ title: IA
 description:
   L’Intelligenza Artificiale come strumento e al tempo stesso sfida per i
   sistemi di conoscenza
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 L’IA nel contesto di [Coscienziato](./coscientist) si riferisce a sistemi che

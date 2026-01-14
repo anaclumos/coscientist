@@ -1,6 +1,9 @@
 ---
 title: "ٹوکنز ≠ علم"
 description: ایک ادراکی ایکزو اسکیلیٹن کی ذاتی جستجو
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 میں، [Sunghyun Cho](./sunghyun-cho)، انسائیکلوپیڈیاز اور علم کے ایک واحد

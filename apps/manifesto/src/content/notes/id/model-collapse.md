@@ -1,6 +1,9 @@
 ---
 title: Kolaps Model
 description: Degradasi model yang dilatih pada data hasil generasinya sendiri
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 Kolaps model adalah degradasi yang dapat terjadi ketika model dilatih pada

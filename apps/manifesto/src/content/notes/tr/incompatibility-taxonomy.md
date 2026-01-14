@@ -1,6 +1,9 @@
 ---
 title: Uyumsuzluk Taksonomisi
 description: Kaynaklar arasındaki anlaşmazlık kategorileri
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 Uyumsuzluk taksonomisi, kaynakların neden anlaşamadığını sınıflandırır.

@@ -1,6 +1,9 @@
 ---
 title: Tworzenie cyfrowych mózgów nowej generacji
 description: Esej o bezoporowych, algorytmicznie sterowanych osobistych systemach wiedzy
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 „Creating Next-gen Digital Brains" to esej autorstwa

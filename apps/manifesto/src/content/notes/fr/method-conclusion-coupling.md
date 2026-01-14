@@ -3,6 +3,9 @@ title: Couplage méthode-conclusion
 description:
   Patron d’analyse regroupant les affirmations par méthode plutôt que par
   conclusion
+sourceLocale: en
+sourceHash: 8987bb9190cf
+translatedAt: 2026-01-14
 ---
 
 Le couplage méthode-conclusion est un patron d’analyse qui regroupe les

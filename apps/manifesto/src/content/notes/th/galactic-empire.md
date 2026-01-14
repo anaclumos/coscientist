@@ -3,6 +3,9 @@ title: จักรวรรดิกาแล็กซี
 description:
   อารยธรรมที่การล่มสลายของมันเป็นแรงผลักดันให้เกิดสารานุกรมกาแล็กติกาในงานชุด
   Foundation ของอาซิมอฟ
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 จักรวรรดิกาแล็กซีคืออารยธรรมในชุด Foundation ของ [ไอแซก อาซิมอฟ](./isaac-asimov)

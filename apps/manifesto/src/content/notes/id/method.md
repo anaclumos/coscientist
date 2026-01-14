@@ -1,6 +1,9 @@
 ---
 title: Metode
 description: Prosedur yang digunakan untuk menghasilkan bukti atau kesimpulan
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 Metode adalah prosedur dengan mana bukti dikumpulkan atau suatu kesimpulan

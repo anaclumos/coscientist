@@ -1,6 +1,9 @@
 ---
 title: 反例優先探索
 description: 支持証拠よりも反例を優先する戦略
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 反例優先探索は、人気を品質の証拠ではなくリスク信号として扱う[探索戦略](./exploration-strategies)である。[主張](./claim)がより広く繰り返されるほど、[反例](./counterexample)や境界条件を見つける価値が高まる。というのも、人気のある主張に含まれる誤りは、[百科事典崩壊](./encyclopedia-meltdown)においてより大きな影響範囲（blast

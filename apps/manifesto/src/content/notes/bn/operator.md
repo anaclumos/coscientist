@@ -1,6 +1,9 @@
 ---
 title: অপারেটর
 description: সহ-বিজ্ঞানী-এ জ্ঞানের উপর মানব সার্বভৌম
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 [সহ-বিজ্ঞানী](./coscientist)-এ অপারেটর হল জ্ঞানের উপর মানব সার্বভৌম। নামটি

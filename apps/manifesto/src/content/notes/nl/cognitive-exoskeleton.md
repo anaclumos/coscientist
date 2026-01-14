@@ -1,6 +1,9 @@
 ---
 title: Cognitief exoskelet
 description: Externe hulpmiddelen die menselijke cognitie uitbreiden en versterken
+sourceLocale: en
+sourceHash: 946b5ecb455e
+translatedAt: 2026-01-14
 ---
 
 Een cognitief exoskelet is een systeem van externe hulpmiddelen dat menselijke

@@ -1,6 +1,9 @@
 ---
 title: Digitale tuin
 description: Een openbare, evoluerende verzameling onderling gelinkte notities
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 Een digitale tuin is een openbare, evoluerende verzameling onderling gelinkte

@@ -1,6 +1,9 @@
 ---
 title: स्रोत
 description: दावों और साक्ष्यों के लिए एक उद्गम एंकर
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 स्रोत वह मूल बिंदु है जहाँ से किसी [साक्ष्य स्पैन](./evidence-span) या

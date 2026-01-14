@@ -1,6 +1,9 @@
 ---
 title: 创建下一代数字大脑
 description: 关于无摩擦、算法驱动的个人知识系统的文章
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 《Creating Next-gen Digital Brains》是 [曹成贤](./sunghyun-cho)

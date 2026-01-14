@@ -1,6 +1,9 @@
 ---
 title: 推理层
 description: 辩证图中的活的、不断演化的主张网络
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 推理层是[辩证图](./dialectical-graph)中由[主张](./claim)、[攻击](./attack)、[削弱](./undercut)以及支持关系构成的、活的且不断演化的网络。它表示当前的知识状态：什么被相信、什么存在争议、以及什么已经被驳倒。

@@ -1,6 +1,9 @@
 ---
 title: 去脑腐（Un-Brain-Rotting）
 description: 在后 AI 信息环境中，主动恢复验证能力与认知能动性的过程
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 去脑腐是指在接触了劣化的信息环境之后，主动恢复验证能力与认知能动性的过程。它是"漂移"的反面：用户不再被动吸收[AI 口水（AI slop）](./ai-slop)，也不把语言的流畅性当作真相，而是有意识地重建审视、溯源与反驳的习惯。

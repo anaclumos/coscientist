@@ -1,6 +1,9 @@
 ---
 title: 沉思勞動
 description: AI 在知識生產中所執行的認知工作
+sourceLocale: en
+sourceHash: 1f16d680679e
+translatedAt: 2026-01-14
 ---
 
 沉思勞動是知識生產的認知工作：提出假設、蒐集證據、尋找反例、組織論證，以及精煉結論。在

@@ -1,6 +1,9 @@
 ---
 title: 状态转换规则
 description: 在辩证图中，是什么触发了主张状态之间的流转
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 状态转换规则定义了是什么将一个[主张](./claim)从一个状态推进到另一个状态（位于[主张状态分类法](./claim-status-taxonomy)中）。转换取决于质疑的类型，而不是数量：一个决定性的[反例](./counterexample)比许多缺乏说服力的反对意见更重要。

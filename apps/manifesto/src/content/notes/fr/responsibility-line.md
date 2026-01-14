@@ -1,6 +1,9 @@
 ---
 title: Chaîne de responsabilité
 description: La chaîne traçable indiquant qui a affirmé quoi et sur quels fondements
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 La chaîne de responsabilité est la chaîne traçable indiquant qui a affirmé quoi

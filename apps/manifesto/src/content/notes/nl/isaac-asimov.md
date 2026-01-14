@@ -3,6 +3,9 @@ title: Isaac Asimov
 description:
   Sciencefictionauteur wiens Foundation-reeks de visie van Coscientist
   inspireerde
+sourceLocale: en
+sourceHash: 83360f2cee16
+translatedAt: 2026-01-14
 ---
 
 Isaac Asimov (1920–1992) was een productieve sciencefictionauteur en hoogleraar

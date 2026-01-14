@@ -1,6 +1,9 @@
 ---
 title: Protocollo di Consenso Multi-AI
 description: Il sistema 1+4 di scrittura e verifica
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 Il Protocollo di Consenso Multi-AI è un flusso di lavoro collaborativo in cui

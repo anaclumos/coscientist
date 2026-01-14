@@ -1,6 +1,9 @@
 ---
 title: Psikotarih
 description: Asimov’un Vakıf’ında yer alan kurgusal bir istatistik bilimi
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 Psikotarih, [Isaac Asimov](./isaac-asimov)’un Vakıf serisinde, uygarlıkların

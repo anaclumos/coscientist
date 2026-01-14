@@ -1,6 +1,9 @@
 ---
 title: Isaac Asimov
 description: Autor de ficção científica cuja série Fundação inspirou a visão do Coscientist
+sourceLocale: en
+sourceHash: 83360f2cee16
+translatedAt: 2026-01-14
 ---
 
 Isaac Asimov (1920–1992) foi um prolífico autor de ficção científica e professor

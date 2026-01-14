@@ -1,6 +1,9 @@
 ---
 title: 頭蓋外（Extracranial）
 description: ソンヒョン・チョ（Sunghyun Cho）の個人的なデジタル脳と出版システム
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranialは、[Sunghyun Cho](./sunghyun-cho)の個人的なデジタル脳（digital

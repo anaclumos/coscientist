@@ -1,6 +1,9 @@
 ---
 title: 多重 AI 共識協定
 description: 1+4（人類 + 四個 AI）的寫作與驗證系統
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 多重 AI 共識協定（Multi-AI Consensus Protocol）是一種協作式工作流程，由

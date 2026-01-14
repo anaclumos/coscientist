@@ -1,6 +1,9 @@
 ---
 title: Hypothèse
 description: Une prémisse implicite sous-jacente à une affirmation
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Une hypothèse est une prémisse implicite dont dépend une [affirmation](./claim),

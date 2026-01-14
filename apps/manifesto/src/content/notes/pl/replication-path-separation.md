@@ -3,6 +3,9 @@ title: Separacja ścieżek replikacji
 description:
   Pytanie o to, czy wsparcie pochodzi z niezależnych ścieżek, czy z powtarzanych
   parafraz
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 Separacja ścieżek replikacji to praktyka pytania, czy pozorna zgodność między

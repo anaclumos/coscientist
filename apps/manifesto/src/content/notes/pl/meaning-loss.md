@@ -3,6 +3,9 @@ title: Utrata znaczenia
 description:
   Gdy twierdzenie staje się nieaktualne, ponieważ użyte w nim terminy zmieniły
   znaczenie
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 Utrata znaczenia występuje wtedy, gdy [twierdzenie](./claim) staje się

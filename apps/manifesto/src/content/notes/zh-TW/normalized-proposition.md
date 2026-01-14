@@ -1,6 +1,9 @@
 ---
 title: 正規化命題
 description: 從自然語言文本中擷取的標準化主張
+sourceLocale: en
+sourceHash: 368d1ed37641
+translatedAt: 2026-01-14
 ---
 
 正規化命題是一種從自然語言中擷取出來、並以標準化形式重寫的[主張](./claim)，其形式明確標示[範圍](./scope)、[假設](./assumption)與相依關係。正規化會消除歧義，讓主張能夠被一致地比較、連結與質疑。

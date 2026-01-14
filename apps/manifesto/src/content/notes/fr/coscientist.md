@@ -3,6 +3,9 @@ title: Coscientist
 description:
   Un système de compagnon intellectuel pour la production de connaissances à
   l’ère post-IA
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist est un service open source inspiré de

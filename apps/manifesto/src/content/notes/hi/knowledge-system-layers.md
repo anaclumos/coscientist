@@ -1,6 +1,9 @@
 ---
 title: ज्ञान प्रणाली की परतें
 description: Coscientist की वास्तुकला की परतें
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 ज्ञान प्रणाली की परतें वे अलग-अलग वास्तुकला घटक हैं जो

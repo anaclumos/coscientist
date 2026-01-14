@@ -1,6 +1,9 @@
 ---
 title: Corte Mínimo
 description: O menor conjunto de arestas que desconecta um grafo
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 Um corte mínimo é o menor conjunto de arestas cuja remoção desconecta um grafo.

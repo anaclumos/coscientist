@@ -3,6 +3,9 @@ title: Système de vérification
 description:
   Les mécanismes permettant de confronter les affirmations aux preuves et aux
   contre-preuves
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 Le système de vérification est l’ensemble des mécanismes que

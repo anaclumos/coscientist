@@ -1,6 +1,9 @@
 ---
 title: Jardim Digital
 description: Uma coleção pública e em evolução de notas interligadas
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 Um jardim digital é uma coleção pública e em evolução de notas interligadas que

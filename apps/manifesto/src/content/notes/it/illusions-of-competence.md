@@ -1,6 +1,9 @@
 ---
 title: Illusioni di competenza
 description: Un falso senso di padronanza creato dalla familiarità passiva
+sourceLocale: en
+sourceHash: 75804f84b0ff
+translatedAt: 2026-01-14
 ---
 
 Le illusioni di competenza si verificano quando la familiarità viene scambiata

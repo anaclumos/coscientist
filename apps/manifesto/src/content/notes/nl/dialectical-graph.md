@@ -3,6 +3,9 @@ title: Dialectische Graaf
 description:
   Een kennisgraafmodel dat beweringen en relaties opslaat in plaats van
   documentinhoud
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 Een dialectische graaf is een kennisgraaf die argumentatieve structuur opslaat ,

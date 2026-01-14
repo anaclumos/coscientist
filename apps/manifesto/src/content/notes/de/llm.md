@@ -2,6 +2,9 @@
 title: LLM
 description: Large Language Model, die KI-Architektur, die Coscientists
   Kontemplationsarbeit zugrunde liegt
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM bezeichnet neuronale Netzwerkmodelle, die auf riesigen Textkorpora trainiert

@@ -1,6 +1,9 @@
 ---
 title: メルトダウン防衛としてのグラフ
 description: 弁証法グラフ構造が知識の崩壊を防ぐ仕組み
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 「メルトダウン防衛としてのグラフ」は、[弁証法グラフ](./dialectical-graph)がどのようにして[百科事典メルトダウン](./encyclopedia-meltdown)を具体的に防ぐのかを説明する。グラフの構造――型付き関係、明示的な[プロヴァナンス（provenance）](./provenance)、および分離されたレイヤー――は、崩壊を駆動する各フィードバックループそれぞれに対処する。

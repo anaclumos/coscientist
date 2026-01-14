@@ -1,6 +1,9 @@
 ---
 title: Epistemik Protokol Katmanı
 description: Bilgi sistemlerini çöküşe karşı güçlendiren kurallar ve iş akışları
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 Epistemik protokol katmanı, bir bilgi sistemini hata kaskatlarına karşı

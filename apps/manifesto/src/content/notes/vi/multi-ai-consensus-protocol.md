@@ -1,6 +1,9 @@
 ---
 title: Giao thức Đồng thuận Đa-AI
 description: Hệ thống viết và xác minh 1+4 (con người + bốn AI)
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 Giao thức Đồng thuận Đa-AI là một quy trình làm việc cộng tác, trong đó

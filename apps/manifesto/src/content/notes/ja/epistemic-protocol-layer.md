@@ -1,6 +1,9 @@
 ---
 title: 認識プロトコル層
 description: 知識システムを崩壊から守るためのルールとワークフロー
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 認識プロトコル層（epistemic protocol layer）とは、誤りの連鎖（error

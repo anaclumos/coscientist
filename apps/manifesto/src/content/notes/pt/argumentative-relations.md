@@ -1,6 +1,9 @@
 ---
 title: Relações Argumentativas
 description: Tipos de arestas em um grafo dialético organizados por função
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 Relações argumentativas são os tipos de arestas em um

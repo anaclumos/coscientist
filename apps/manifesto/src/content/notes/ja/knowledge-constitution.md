@@ -1,6 +1,9 @@
 ---
 title: 知識憲法
 description: 主張がどのように権威を得るかを規定する統治文書としてのエピステミック・プロトコル層
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 知識憲法（knowledge

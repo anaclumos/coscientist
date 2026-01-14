@@ -1,6 +1,9 @@
 ---
 title: Bron
 description: Een herkomstanker voor beweringen en bewijs
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 Een bron is het oorsprongspunt voor een [bewijsfragment](./evidence-span) of

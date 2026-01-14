@@ -1,6 +1,9 @@
 ---
 title: Fragment dowodowy
 description: Dokładny, cytowany fragment ze źródła, który wspiera lub podważa twierdzenie
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Fragment dowodowy to dokładnie zacytowany tekst ze źródła, który wspiera lub

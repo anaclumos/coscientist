@@ -1,6 +1,9 @@
 ---
 title: Проект Aldehyde
 description: Ранняя попытка создать персональный цифровой мозг
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 Проект Aldehyde был ранней попыткой [Сонхёна Чо](./sunghyun-cho) создать

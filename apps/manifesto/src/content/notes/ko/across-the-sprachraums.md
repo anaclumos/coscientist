@@ -1,6 +1,9 @@
 ---
 title: 언어권을 가로질러
 description: 지식 시스템이 언어의 경계를 초월한다는 비전
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "언어권을 가로질러"는 언어의 경계를 초월하는 지식 시스템에 대한

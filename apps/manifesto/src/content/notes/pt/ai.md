@@ -2,6 +2,9 @@
 title: IA
 description: Inteligência Artificial como ferramenta e desafio para sistemas de
   conhecimento
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 IA (Inteligência Artificial) no contexto de [Cocientista](./coscientist)

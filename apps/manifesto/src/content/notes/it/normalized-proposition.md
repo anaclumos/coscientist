@@ -1,6 +1,9 @@
 ---
 title: Proposizione normalizzata
 description: Un'affermazione standardizzata estratta da testo in linguaggio naturale
+sourceLocale: en
+sourceHash: 368d1ed37641
+translatedAt: 2026-01-14
 ---
 
 Una proposizione normalizzata è un'[affermazione](./claim) estratta dal

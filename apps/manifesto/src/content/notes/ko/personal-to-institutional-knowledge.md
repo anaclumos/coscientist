@@ -1,6 +1,9 @@
 ---
 title: 개인 지식에서 기관 지식으로
 description: 개인 지식 실천을 조직으로 확장하기
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 개인 지식에서 기관 지식으로의 전환은, 한 사람을 위해 작동하는

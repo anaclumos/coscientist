@@ -1,6 +1,9 @@
 ---
 title: Memex
 description: 瓦内瓦尔·布什提出的个人知识机器
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 Memex 是 [瓦内瓦尔·布什](./vannevar-bush)

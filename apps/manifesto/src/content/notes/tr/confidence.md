@@ -1,6 +1,9 @@
 ---
 title: Güven Düzeyi
 description: Bir iddiaya verilen desteğin çok boyutlu bir ölçüsü
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 [Eşbilimci](./coscientist) içindeki güven düzeyi, tek bir olasılık puanı

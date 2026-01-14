@@ -1,6 +1,9 @@
 ---
 title: Sunghyun Cho
 description: Pembuat Coscientist dan penulis esai-esai dasar yang menjadi fondasinya
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 Sunghyun Cho adalah pembuat [Kosaintis](./coscientist) dan penulis esai yang

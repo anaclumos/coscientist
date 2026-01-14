@@ -3,6 +3,9 @@ title: Mesh di conoscenza multilingue
 description:
   Una rete di conoscenza che attraversa le lingue e si distribuisce a livello
   globale
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 Una mesh di conoscenza multilingue è una rete di conoscenza in cui contenuti in

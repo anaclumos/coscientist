@@ -1,6 +1,9 @@
 ---
 title: 驗證中的理想難度
 description: 讓驗證需要付出努力，以維持真正的理解
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 驗證中的理想難度（desirable difficulty）是一項原則： [驗證](./verification)

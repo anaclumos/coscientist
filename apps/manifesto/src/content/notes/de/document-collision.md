@@ -3,6 +3,9 @@ title: Dokumentenkollision
 description:
   Protokoll, um unterschiedliche Quellen dazu zu zwingen, sich mit den
   Behauptungen der jeweils anderen auseinanderzusetzen
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 Dokumentenkollision ist das Protokoll, das unterschiedliche Quellen dazu zwingt,

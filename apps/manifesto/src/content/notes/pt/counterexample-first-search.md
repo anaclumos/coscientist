@@ -1,6 +1,9 @@
 ---
 title: Busca Primeiro por Contraexemplos
 description: Estratégia que prioriza contraexemplos em vez de evidências de apoio
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 A busca primeiro por contraexemplos é uma

@@ -3,6 +3,9 @@ title: Halucynacja
 description:
   Wyniki AI, które brzmią wiarygodnie, ale są faktograficznie niepoprawne lub
   zmyślone
+sourceLocale: en
+sourceHash: 35a042b51f6a
+translatedAt: 2026-01-14
 ---
 
 Halucynacja to wynik AI, który brzmi pewnie i spójnie, ale zawiera błędy

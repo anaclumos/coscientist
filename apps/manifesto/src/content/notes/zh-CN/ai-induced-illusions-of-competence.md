@@ -1,6 +1,9 @@
 ---
 title: AI 诱发的能力错觉
 description: AI 流利性如何让用户产生虚假的掌握感
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 AI 诱发的能力错觉发生在用户把 AI 流畅的输出误认为是自己的理解之时。[流利性陷阱](./fluency-trap)不仅仅是信任了错误信息；更在于：你没有做出产生真实能力所必需的认知工作，却仍然感觉自己很有能力。

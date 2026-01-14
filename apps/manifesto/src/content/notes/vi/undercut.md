@@ -3,6 +3,9 @@ title: Phản bác nền tảng
 description:
   Một kiểu công kích vào phương pháp, giả định, hoặc định nghĩa nằm dưới một lập
   luận
+sourceLocale: en
+sourceHash: d67bef7771ea
+translatedAt: 2026-01-14
 ---
 
 Một _phản bác nền tảng_ là một thách thức nhắm không phải vào chính

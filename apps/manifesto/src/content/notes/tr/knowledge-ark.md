@@ -1,6 +1,9 @@
 ---
 title: Bilgi Gemisi
 description: Çöküş boyunca bilgiyi korumak için tasarlanmış bir depo
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 Bir bilgi gemisi, uygarlıkların gerileme dönemleri boyunca bilgiyi korumak ve

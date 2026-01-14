@@ -3,6 +3,9 @@ title: Levenscyclus van claims
 description:
   Hoe claims zich ontwikkelen van voorzichtige hypothese tot robuuste kennis of
   veroudering
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 De levenscyclus van een claim beschrijft hoe een [claim](./claim) zich

@@ -285,6 +285,59 @@ bun run build        # Production build
 bun run start        # Start production server
 ```
 
+## Content Management
+
+### Adding Notes
+
+Create `src/content/notes/en/your-slug.md`:
+
+```md
+---
+title: Your Title
+description: One-line description
+---
+
+Content here. Link with [Display Text](./other-slug).
+```
+
+**Link format**: `[Text](./slug)` — not wikilinks (`[[slug]]`).
+
+### Scripts
+
+| Command | Purpose |
+| ------- | ------- |
+| `bun run scripts/translate.ts markdown` | Translate new/changed notes |
+| `bun run scripts/translate.ts backfill` | Add hashes without re-translating |
+| `bun run scripts/generate-embeddings.ts` | Regenerate embeddings |
+| `bun run scripts/suggest-mentions.ts` | Find link suggestions |
+| `bun run scripts/inject-mentions.ts --apply` | Apply high-confidence links |
+
+### Workflow
+
+```bash
+# 1. Create English note
+# 2. Translate
+bun run scripts/translate.ts markdown
+# 3. Update embeddings & suggestions
+bun run scripts/generate-embeddings.ts
+bun run scripts/suggest-mentions.ts
+```
+
+### Translation Provenance
+
+Translated files include:
+
+- `sourceLocale: en`
+- `sourceHash: abc123...` (12-char hash of English content)
+- `translatedAt: 2026-01-15`
+
+Editing English auto-detects staleness on next translate run.
+
+### Locales (24)
+
+zh-CN, zh-TW, hi, es, fr, ar, bn, pt, ru, id, ja, fa, de, vi, ta, te, tr, ko, ur,
+it, th, pl, uk, nl
+
 ## Accessibility
 
 | Feature        | Implementation                                    |

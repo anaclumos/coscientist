@@ -1,6 +1,9 @@
 ---
 title: 붕괴 방어로서의 그래프
 description: 변증법적 그래프 구조가 지식 붕괴를 어떻게 막는가
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 "붕괴 방어로서의 그래프"는 [변증법적 그래프](./dialectical-graph)가 어떻게

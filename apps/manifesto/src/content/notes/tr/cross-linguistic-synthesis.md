@@ -1,6 +1,9 @@
 ---
 title: Diller Arası Sentez
 description: Birden çok dilden gelen bilgiyi birleşik bir anlayışta birleştirmek
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 Diller arası sentez, farklı dillerdeki kaynaklardan gelen bilgiyi tek ve tutarlı

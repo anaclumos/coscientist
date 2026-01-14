@@ -1,6 +1,9 @@
 ---
 title: Van behoud naar bekwaamheid
 description: De verschuiving van het opslaan van kennis naar het voortbrengen van begrip
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 Van behoud naar bekwaamheid is de verschuiving van kennissystemen die informatie

@@ -1,6 +1,9 @@
 ---
 title: Verificatie
 description: Het proces van het toetsen van beweringen aan bewijs en tegenbewijs
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 Verificatie is het proces van het nagaan of een bewering standhoudt tegenover

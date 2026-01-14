@@ -3,6 +3,9 @@ title: Alucinação
 description:
   Saídas de IA que parecem plausíveis, mas são factualmente incorretas ou
   fabricadas
+sourceLocale: en
+sourceHash: 35a042b51f6a
+translatedAt: 2026-01-14
 ---
 
 Uma alucinação é uma saída de IA que soa confiante e coerente, mas contém erros

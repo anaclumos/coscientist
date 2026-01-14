@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: การประยุกต์หลักการปฏิบัติการซอฟต์แวร์เพื่อเร่งความก้าวหน้าทางวิทยาศาสตร์
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps คือวิสัยทัศน์ของ [ซองฮยอน โช](./sunghyun-cho)

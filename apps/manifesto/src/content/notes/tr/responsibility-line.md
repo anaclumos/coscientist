@@ -1,6 +1,9 @@
 ---
 title: Sorumluluk Hattı
 description: Kimin neyi ve hangi gerekçelerle ileri sürdüğünün izlenebilir zinciri
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 Sorumluluk hattı, kimin neyi ve hangi gerekçelerle ileri sürdüğünün izlenebilir

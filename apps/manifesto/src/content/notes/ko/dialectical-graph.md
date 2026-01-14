@@ -1,6 +1,9 @@
 ---
 title: 변증법적 그래프
 description: 문서 내용이 아니라 주장과 관계를 저장하는 지식 그래프 모델
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 변증법적 그래프는 문서를 구분되지 않은 텍스트로 취급하는 대신, 논증 구조(주장,

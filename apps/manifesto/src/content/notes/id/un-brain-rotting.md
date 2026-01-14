@@ -3,6 +3,9 @@ title: Un-Brain-Rotting
 description:
   Proses aktif untuk memulihkan verifikasi dan agensi dalam lingkungan informasi
   pasca-AI
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Un-brain-rotting adalah proses aktif untuk memulihkan kapasitas verifikasi dan

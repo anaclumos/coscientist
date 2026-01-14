@@ -1,6 +1,9 @@
 ---
 title: LLM
 description: 대규모 언어 모델, Coscientist의 숙고 노동을 뒷받침하는 AI 아키텍처
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 대규모 언어 모델은 방대한 텍스트 말뭉치를 학습해 자연어를 예측하고 생성하도록

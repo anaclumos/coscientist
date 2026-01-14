@@ -1,6 +1,9 @@
 ---
 title: ข้ออ้าง
 description: ข้อเสนอที่ตรวจสอบได้ซึ่งถูกจัดเก็บเป็นโหนดในกราฟเชิงวิภาษวิธี
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 ข้ออ้าง

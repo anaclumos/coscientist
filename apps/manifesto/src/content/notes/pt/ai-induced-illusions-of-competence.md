@@ -1,6 +1,9 @@
 ---
 title: Ilusões de Competência Induzidas por IA
 description: Como a fluência em IA cria uma falsa maestria nos usuários
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 Ilusões de competência induzidas por IA ocorrem quando os usuários confundem uma

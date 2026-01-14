@@ -1,6 +1,9 @@
 ---
 title: Relasi Argumentatif
 description: Jenis-jenis edge dalam Graf Dialektis yang diorganisasi berdasarkan fungsi
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 Relasi argumentatif adalah jenis-jenis edge dalam

@@ -1,6 +1,9 @@
 ---
 title: 雙語認知
 description: 同時在多種語言中思考與運作的能力
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 雙語認知（bilingual

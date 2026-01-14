@@ -1,6 +1,9 @@
 ---
 title: Meta-apprendimento
 description: Imparare come funziona il tuo stesso apprendimento
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 Il meta-apprendimento è apprendere sul proprio apprendimento: notare cosa resta,

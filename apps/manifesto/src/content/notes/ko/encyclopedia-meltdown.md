@@ -1,6 +1,9 @@
 ---
 title: 백과사전 멜트다운
 description: 인간의 개입 없이 AI가 주도권을 쥘 때 발생하는 지식 붕괴 현상
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 백과사전 멜트다운은 [오퍼레이터](./operator)의 의식적인 개입 없이 작성의

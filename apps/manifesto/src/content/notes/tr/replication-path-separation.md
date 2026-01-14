@@ -3,6 +3,9 @@ title: Replikasyon Yol Ayrıştırması
 description:
   Desteğin bağımsız yollardan mı yoksa tekrarlanan yeniden ifadelerden mi
   geldiğini sormak
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 Replikasyon yol ayrıştırması, kaynaklar arasındaki görünen mutabakatın bağımsız

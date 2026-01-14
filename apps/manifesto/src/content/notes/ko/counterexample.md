@@ -1,6 +1,9 @@
 ---
 title: 반례
 description: 주장을 깨거나 범위를 좁히는 사례
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 반례는 [주장](./claim)의 예측을 위반하는 사례로, [범위](./scope)를 유지한 채로는

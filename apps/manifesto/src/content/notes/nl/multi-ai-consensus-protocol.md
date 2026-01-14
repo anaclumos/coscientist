@@ -1,6 +1,9 @@
 ---
 title: Multi-AI-consensusprotocol
 description: Het 1+4 schrijf- en verificatiesysteem
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 Het Multi-AI Consensus Protocol is een samenwerkingsworkflow waarbij de

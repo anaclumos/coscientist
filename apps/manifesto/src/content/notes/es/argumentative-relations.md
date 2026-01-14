@@ -1,6 +1,9 @@
 ---
 title: Relaciones argumentativas
 description: Tipos de aristas en un grafo dialéctico organizados por función
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 Las relaciones argumentativas son los tipos de aristas en un

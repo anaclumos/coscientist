@@ -1,6 +1,9 @@
 ---
 title: 银河帝国
 description: 阿西莫夫《基地》中其覆灭促使《银河百科全书》诞生的文明
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 银河帝国是[艾萨克·阿西莫夫](./isaac-asimov)的《基地》系列中的文明；其不可避免的崩溃促使[哈里·谢顿](./hari-seldon)进行干预。在鼎盛时期，帝国横跨整个银河；它的覆灭将带来持续三万年的[灵魂的黑夜](./dark-night-of-the-soul)，除非通过有意的行动将其缩短。

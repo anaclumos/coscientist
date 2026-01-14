@@ -1,6 +1,9 @@
 ---
 title: গ্রাফ উপাদানসমূহ
 description: একটি দ্বান্দ্বিক গ্রাফ গঠনকারী নোড ও এজের ধরনসমূহ
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 গ্রাফ উপাদানসমূহ হলো একটি [দ্বান্দ্বিক গ্রাফ](./dialectical-graph)-এর

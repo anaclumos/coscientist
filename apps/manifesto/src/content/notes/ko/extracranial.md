@@ -1,6 +1,9 @@
 ---
 title: 외골격두뇌
 description: 조성현의 개인 디지털 브레인 및 출판 시스템
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 외골격두뇌는 [조성현](./sunghyun-cho)의 개인 디지털 브레인이다. 자동 링크(백링크

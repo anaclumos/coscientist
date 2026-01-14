@@ -1,6 +1,9 @@
 ---
 title: اسپراخراؤمز کے پار
 description: علم کے نظاموں کے لیے زبان کی سرحدوں سے ماورا ہونے کا وژن
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums" [Sunghyun Cho](./sunghyun-cho) کا علم کے نظاموں کے لیے

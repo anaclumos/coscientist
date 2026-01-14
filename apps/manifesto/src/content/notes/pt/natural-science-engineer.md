@@ -1,6 +1,9 @@
 ---
 title: Engenheiro de Ciências Naturais
 description: Um cargo que aplica operações no estilo de software à ciência
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 Um engenheiro de ciências naturais é um profissional que combina pesquisa

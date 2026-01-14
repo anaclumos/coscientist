@@ -1,6 +1,9 @@
 ---
 title: 知識の方舟
 description: 崩壊を通じて知識を保存するために設計されたリポジトリ
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 知識の方舟（knowledge

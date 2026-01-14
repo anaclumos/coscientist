@@ -1,6 +1,9 @@
 ---
 title: 추론 레이어
 description: 변증법적 그래프에서 살아 움직이며 진화하는 주장 네트워크
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 추론 레이어는 [변증법적 그래프](./dialectical-graph)에서 [주장](./claim),

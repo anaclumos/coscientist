@@ -1,6 +1,9 @@
 ---
 title: گراف کے اجزاء
 description: نوڈ اور ایج کی وہ اقسام جو مل کر ایک جدلیاتی گراف بناتی ہیں
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 گراف کے اجزاء ایک [جدلیاتی گراف](./dialectical-graph) کے بنیادی تعمیراتی حصے

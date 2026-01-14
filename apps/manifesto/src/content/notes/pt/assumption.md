@@ -1,6 +1,9 @@
 ---
 title: Pressuposto
 description: Uma premissa implícita subjacente a uma afirmação
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Um pressuposto é uma premissa implícita da qual uma [afirmação](./claim)

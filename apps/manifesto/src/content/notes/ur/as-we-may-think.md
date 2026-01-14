@@ -1,6 +1,9 @@
 ---
 title: جیسا ہم سوچ سکتے ہیں
 description: وینیور بُش کا 1945 کا مضمون جس میں میمیکس کی وضاحت کی گئی
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 "As We May Think" [وینیور بُش](./vannevar-bush) کا 1945 کا مضمون ہے جس میں

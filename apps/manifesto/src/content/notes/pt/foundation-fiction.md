@@ -1,6 +1,9 @@
 ---
 title: Ficção de Foundation
 description: Conceitos inspirados em Asimov que informam a visão da Coscientist
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 Ficção de Foundation refere-se a conceitos da série Foundation de

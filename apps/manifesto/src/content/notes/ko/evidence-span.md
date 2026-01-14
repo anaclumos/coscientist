@@ -1,6 +1,9 @@
 ---
 title: 증거 구간
 description: 주장을 지지하거나 반박하는 출처의 정확한 인용 범위
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 증거 구간은 [주장](./claim)을 지지하거나 반박하는 출처의 **정확한 인용

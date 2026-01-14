@@ -1,6 +1,9 @@
 ---
 title: Çeviri Nüans Kaybı
 description: Fikirler dil sınırlarını aştığında kaybolan anlamsal incelikler
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 Çeviri nüans kaybı, fikirler bir dilden diğerine çevrildiğinde anlamsal

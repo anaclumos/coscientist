@@ -1,6 +1,9 @@
 ---
 title: エビデンス・スパン
 description: 主張を支持または反証する、出典からの正確な引用範囲
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 エビデンス・スパン（evidence

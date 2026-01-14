@@ -1,6 +1,9 @@
 ---
 title: No estacionariedad
 description: Cuando el proceso generador de datos cambia con el tiempo
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 La no estacionariedad significa que el proceso subyacente que produce los datos

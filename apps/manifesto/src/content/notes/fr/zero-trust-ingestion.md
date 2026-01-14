@@ -1,6 +1,9 @@
 ---
 title: Ingestion à confiance zéro
 description: Protocole exigeant une provenance explicite avant d’accepter des affirmations
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 L’ingestion à confiance zéro est un protocole qui considère par défaut que toute

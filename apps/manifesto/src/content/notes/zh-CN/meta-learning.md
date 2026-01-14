@@ -1,6 +1,9 @@
 ---
 title: 元学习
 description: 学习你自己的学习是如何运作的
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 元学习（Meta-learning）就是学习关于你自身学习的方式：观察哪些内容能记住、哪些会失败，以及哪些条件会改变结果。它把"学习"从一种习惯变成一个包含假设、实验与调整的反馈回路。

@@ -1,6 +1,9 @@
 ---
 title: 基地小说
 description: 受阿西莫夫启发、塑造 Coscientist 愿景的概念
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 基地小说（Foundation fiction）指来自

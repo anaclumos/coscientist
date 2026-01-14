@@ -3,6 +3,9 @@ title: La friction comme ennemie
 description:
   Principe de conception selon lequel la friction tue les flux de travail de
   connaissance personnelle
+sourceLocale: en
+sourceHash: 78d664aa5836
+translatedAt: 2026-01-14
 ---
 
 La friction comme ennemie est le principe de conception selon lequel l’effort

@@ -1,6 +1,9 @@
 ---
 title: Od zachowywania do zdolności
 description: Przejście od przechowywania wiedzy do wytwarzania zrozumienia
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 Przejście od zachowywania do zdolności oznacza zmianę od systemów wiedzy, które

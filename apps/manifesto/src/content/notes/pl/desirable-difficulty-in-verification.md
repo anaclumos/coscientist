@@ -3,6 +3,9 @@ title: Pożądana trudność w weryfikacji
 description:
   Uczynienie weryfikacji wymagającą wysiłku, aby podtrzymać autentyczne
   zrozumienie
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 Pożądana trudność w weryfikacji to zasada, że [weryfikacja](./verification)

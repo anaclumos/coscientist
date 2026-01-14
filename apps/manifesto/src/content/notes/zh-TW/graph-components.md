@@ -1,6 +1,9 @@
 ---
 title: 圖形元件
 description: 構成辯證圖的節點與邊類型
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 圖形元件是[辯證圖](./dialectical-graph)的基本構件：用來表示認知（epistemic）對象的節點類型，以及用來表示它們之間關係的邊類型。

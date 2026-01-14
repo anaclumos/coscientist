@@ -1,6 +1,9 @@
 ---
 title: Inter-Sprachraum-Kommunikation
 description: Dialog und Wissensaustausch über Sprachräume hinweg
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 Inter-Sprachraum-Kommunikation ist der Austausch von Ideen über Sprachgrenzen

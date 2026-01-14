@@ -1,6 +1,9 @@
 ---
 title: İki Dilli Biliş
 description: Aynı anda birden fazla dilde düşünme ve işlev görme kapasitesi
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 İki dilli biliş, bağlamın gerektirdiği şekilde geçiş yaparak birden fazla dilde

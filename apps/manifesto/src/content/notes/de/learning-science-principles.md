@@ -1,6 +1,9 @@
 ---
 title: Prinzipien der Lernwissenschaft
 description: Evidenzbasierte Techniken für nachhaltiges Lernen und Gedächtnis
+sourceLocale: en
+sourceHash: 9b01e1de519a
+translatedAt: 2026-01-14
 ---
 
 Prinzipien der Lernwissenschaft sind evidenzbasierte Techniken zum Erwerb von

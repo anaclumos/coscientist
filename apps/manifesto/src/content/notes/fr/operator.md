@@ -1,6 +1,9 @@
 ---
 title: Opérateur
 description: Le souverain humain sur le savoir dans Coscientist
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 L’Opérateur est le souverain humain sur le savoir dans

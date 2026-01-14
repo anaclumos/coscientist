@@ -1,6 +1,9 @@
 ---
 title: "टोकन ≠ ज्ञान"
 description: एक संज्ञानात्मक एक्सोस्केलेटन की व्यक्तिगत खोज
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 मैं, [सुंगह्यून चो](./sunghyun-cho), विश्वकोशों के प्रति श्रद्धा और ज्ञान के

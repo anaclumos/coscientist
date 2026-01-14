@@ -1,6 +1,9 @@
 ---
 title: 議題節點
 description: 辯證圖中一束彼此碰撞的主張叢集
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 議題節點是一種圖物件，用來將彼此衝突的[主張](./claim)打包成一個連貫的探究對象。它為問題命名，記錄哪些主張彼此衝突，並追蹤在何種條件下衝突可能得到化解。

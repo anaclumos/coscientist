@@ -1,6 +1,9 @@
 ---
 title: ایکسٹراکرینیئل
 description: سنگ ہیون چو کا ذاتی ڈیجیٹل دماغ اور اشاعتی نظام
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 ایکسٹراکرینیئل [سنگ ہیون چو](./sunghyun-cho) کا ذاتی ڈیجیٹل دماغ ہے: ایک

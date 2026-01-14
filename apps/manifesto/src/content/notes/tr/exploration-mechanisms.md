@@ -1,6 +1,9 @@
 ---
 title: Keşif Mekanizmaları
 description: Diyalektik bir grafikte sürekli bilgi keşfi için stratejiler
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 Keşif mekanizmaları, [Eşbilimci](./coscientist)’in

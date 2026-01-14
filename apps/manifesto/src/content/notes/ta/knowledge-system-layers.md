@@ -1,6 +1,9 @@
 ---
 title: அறிவு அமைப்பு அடுக்குகள்
 description: Coscientist-இன் கட்டமைப்பு அடுக்குகள்
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 அறிவு அமைப்பு அடுக்குகள் என்பது [இணை-விஞ்ஞானி](./coscientist)-ஐ உருவாக்கும்

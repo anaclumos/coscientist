@@ -1,6 +1,9 @@
 ---
 title: Założenie
 description: Niewyrażona przesłanka leżąca u podstaw twierdzenia
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Założenie to niewyrażona wprost przesłanka, od której zależy

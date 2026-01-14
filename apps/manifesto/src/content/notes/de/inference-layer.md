@@ -3,6 +3,9 @@ title: Inferenzebene
 description:
   Das lebendige, sich entwickelnde Anspruchsnetzwerk in einem dialektischen
   Graphen
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 Die Inferenzebene ist das lebendige, sich entwickelnde Netzwerk aus

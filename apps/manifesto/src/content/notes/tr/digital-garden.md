@@ -1,6 +1,9 @@
 ---
 title: Dijital Bahçe
 description: Birbirine bağlı notlardan oluşan, herkese açık ve gelişen bir koleksiyon
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 Dijital bahçe, zaman içinde büyüyen, birbirine bağlı notlardan oluşan, herkese

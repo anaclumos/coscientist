@@ -1,6 +1,9 @@
 ---
 title: Bạn đồng hành trí tuệ
 description: AI như một đối tác chiêm nghiệm hơn là một cỗ máy trả lời
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 Một bạn đồng hành trí tuệ là một hệ thống AI được thiết kế để suy nghĩ cùng con

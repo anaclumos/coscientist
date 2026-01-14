@@ -1,6 +1,9 @@
 ---
 title: Arka Wiedzy
 description: Repozytorium zaprojektowane, aby zachować wiedzę na czas upadku cywilizacji
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 Arka wiedzy to repozytorium zaprojektowane w celu zachowania i przekazywania

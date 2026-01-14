@@ -1,6 +1,9 @@
 ---
 title: Modes de défaillance des connaissances
 description: Taxonomie de ce qui peut mal tourner dans les systèmes de connaissances
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Les modes de défaillance des connaissances sont les manières dont les systèmes

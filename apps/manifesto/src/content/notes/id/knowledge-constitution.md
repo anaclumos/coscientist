@@ -3,6 +3,9 @@ title: Konstitusi Pengetahuan
 description:
   Lapisan protokol epistemik sebagai dokumen tata kelola tentang bagaimana klaim
   memperoleh otoritas
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 Konstitusi pengetahuan adalah seperangkat aturan yang mengatur bagaimana

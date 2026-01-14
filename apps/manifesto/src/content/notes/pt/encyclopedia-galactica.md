@@ -1,6 +1,9 @@
 ---
 title: Enciclopédia Galactica
 description: Um conceito para preservar o conhecimento através de eras sombrias
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 A Enciclopédia Galactica é um dispositivo fictício na série _Foundation_ de

@@ -1,6 +1,9 @@
 ---
 title: Next-Gen digitale Gehirne erschaffen
 description: Essay über reibungslose, algorithmusgesteuerte persönliche Wissenssysteme
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 „Next-Gen digitale Gehirne erschaffen" ist ein Essay von

@@ -1,6 +1,9 @@
 ---
 title: 反例优先搜索
 description: 一种将反例置于支持性证据之前的策略
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 反例优先搜索是一种[探索策略](./exploration-strategies)，它把"流行度"视为风险信号，而不是质量证据。一个[主张](./claim)被重复得越广泛，就越值得去寻找[反例](./counterexample)和边界条件，因为在[百科全书熔毁](./encyclopedia-meltdown)中，流行主张里的错误会拥有更大的"爆炸半径"。

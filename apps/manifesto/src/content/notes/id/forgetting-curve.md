@@ -1,6 +1,9 @@
 ---
 title: Kurva Lupa
 description: Penurunan ingatan yang dapat diprediksi tanpa peninjauan ulang
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 Kurva lupa menggambarkan penurunan kemampuan mengingat kembali yang dapat

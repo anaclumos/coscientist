@@ -3,6 +3,9 @@ title: Notte oscura dell’anima
 description:
   Un espediente letterario per una profonda crisi interiore che conduce alla
   ricostruzione dell’identità
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 "La Notte oscura dell’anima" indica una profonda crisi interiore in cui

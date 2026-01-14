@@ -3,6 +3,9 @@ title: Intercalado
 description:
   Mezclar temas o tipos de problemas durante la práctica para mejorar la
   transferencia
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 El intercalado consiste en practicar mezclando tipos de problemas o temas dentro

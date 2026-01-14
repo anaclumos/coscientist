@@ -1,6 +1,9 @@
 ---
 title: Taxonomia de Incompatibilidades
 description: Categorias de divergência entre fontes
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 A taxonomia de incompatibilidades é uma classificação dos motivos pelos quais as

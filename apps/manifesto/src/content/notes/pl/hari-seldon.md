@@ -1,6 +1,9 @@
 ---
 title: Hari Seldon
 description: Fikcyjny matematyk, który stworzył psychohistorię w cyklu „Fundacja" Asimova
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 Hari Seldon to fikcyjny matematyk z cyklu „Fundacja"

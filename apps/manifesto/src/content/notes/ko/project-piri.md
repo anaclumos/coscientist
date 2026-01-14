@@ -1,6 +1,9 @@
 ---
 title: 프로젝트 PIRI
 description: 프로그래밍 문서의 무제한 번역을 위한 취소된 이니셔티브
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 프로젝트 PIRI는 주요 프로그래밍 및 개발자 문서를 무제한으로 번역해 제공하려는

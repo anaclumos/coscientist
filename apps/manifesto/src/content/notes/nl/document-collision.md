@@ -3,6 +3,9 @@ title: Documentbotsing
 description:
   Protocol om uiteenlopende bronnen te dwingen met el_toggle_elkaars beweringen
   in gesprek te gaan
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 Documentbotsing is het protocol waarbij uiteenlopende bronnen worden gedwongen

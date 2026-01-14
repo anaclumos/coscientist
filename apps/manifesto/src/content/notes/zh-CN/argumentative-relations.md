@@ -1,6 +1,9 @@
 ---
 title: 论证关系
 description: 按功能组织的辩证图中的边类型
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 论证关系是 [辩证图](./dialectical-graph) 中的边类型，用于编码认识对象（epistemic

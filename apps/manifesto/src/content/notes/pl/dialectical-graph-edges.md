@@ -1,6 +1,9 @@
 ---
 title: Krawędzie grafu dialektycznego
 description: Typy relacji łączące węzły w dialektycznym grafie wiedzy
+sourceLocale: en
+sourceHash: e060cb9fd333
+translatedAt: 2026-01-14
 ---
 
 W [Grafie dialektycznym](./dialectical-graph) krawędzie kodują typy relacji, a

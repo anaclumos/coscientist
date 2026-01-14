@@ -1,6 +1,9 @@
 ---
 title: Ingenieur in de natuurwetenschappen
 description: Een rol die software-achtige operaties toepast op wetenschap
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 Een ingenieur in de natuurwetenschappen is een professional die wetenschappelijk

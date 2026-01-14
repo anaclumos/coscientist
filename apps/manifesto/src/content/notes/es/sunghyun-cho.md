@@ -1,6 +1,9 @@
 ---
 title: Sunghyun Cho
 description: Creador de Coscientist y autor de sus ensayos fundacionales
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 Sunghyun Cho es el creador de [Cocientífico](./coscientist) y el autor de

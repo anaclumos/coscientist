@@ -2,6 +2,9 @@
 title: Mehrsprachiger Memex
 description: Ein sprachbewusstes persönliches Wissenssystem mit automatischer
   Übersetzungsunterstützung
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 Ein mehrsprachiger Memex ist ein persönliches Wissenssystem, das Inhalte in

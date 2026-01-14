@@ -1,6 +1,9 @@
 ---
 title: Efek Jarak
 description: Ingatan meningkat ketika sesi belajar dijarangkan dari waktu ke waktu
+sourceLocale: en
+sourceHash: 4ac5ac9e96d1
+translatedAt: 2026-01-14
 ---
 
 Efek jarak adalah temuan yang telah banyak direplikasi bahwa pembelajaran

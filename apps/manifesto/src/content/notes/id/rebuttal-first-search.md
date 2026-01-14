@@ -1,6 +1,9 @@
 ---
 title: Pencarian-Utamakan-Sanggahan
 description: Protokol validasi yang mencari bukti tandingan sebelum menerima
+sourceLocale: en
+sourceHash: 038f5f56fc2f
+translatedAt: 2026-01-14
 ---
 
 Pencarian-utamakan-sanggahan adalah protokol validasi yang mencari bukti

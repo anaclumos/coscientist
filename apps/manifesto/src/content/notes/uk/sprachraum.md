@@ -1,6 +1,9 @@
 ---
 title: Шпрахраум
 description: Мовна сфера або домен, що формує мислення й знання
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Шпрахраум (нім. _Sprachraum_: «мовний простір» або «мовна сфера») — це домен,

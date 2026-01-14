@@ -1,6 +1,9 @@
 ---
 title: 環境漂移
 description: 世界中的變化使先前有效的知識失效
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 環境漂移是[漂移現象](./drift-phenomena)的一種類別：外部世界發生變化，導致先前有效的知識變得過時或不再適用。

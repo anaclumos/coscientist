@@ -1,6 +1,9 @@
 ---
 title: 多 AI 共识协议
 description: 1+4（人类 + 四个 AI）的写作与验证系统
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 多 AI 共识协议（Multi-AI Consensus

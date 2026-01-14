@@ -1,6 +1,9 @@
 ---
 title: اجزای گراف
 description: انواع گره و یالی که یک گراف دیالکتیکی را تشکیل می‌دهند
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 اجزای گراف، بلوک‌های سازندهٔ یک [گراف دیالکتیکی](./dialectical-graph) هستند:

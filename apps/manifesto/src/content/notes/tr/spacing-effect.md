@@ -1,6 +1,9 @@
 ---
 title: Aralıklı Öğrenme Etkisi
 description: Çalışma oturumları zamana yayıldığında hafıza güçlenir
+sourceLocale: en
+sourceHash: 4ac5ac9e96d1
+translatedAt: 2026-01-14
 ---
 
 Aralıklı öğrenme etkisi, öğrenmenin çalışma oturumları bir araya yığılmak yerine

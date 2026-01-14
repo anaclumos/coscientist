@@ -1,6 +1,9 @@
 ---
 title: 跨越語域（Sprachräume）
 description: 超越語言邊界的知識系統願景
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 「Across the Sprachraums」是 [Sunghyun Cho](./sunghyun-cho)

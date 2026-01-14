@@ -1,6 +1,9 @@
 ---
 title: Nodi del Grafo Dialettico
 description: I tipi di nodo in un grafo della conoscenza dialettico
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 In un [Grafo Dialettico](./dialectical-graph), i nodi rappresentano oggetti

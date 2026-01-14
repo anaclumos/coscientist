@@ -1,6 +1,9 @@
 ---
 title: Taglio minimo
 description: Il più piccolo insieme di archi che disconnette un grafo
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 Un taglio minimo è il più piccolo insieme di archi la cui rimozione disconnette

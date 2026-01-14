@@ -3,6 +3,9 @@ title: Cycle de vie d’une affirmation
 description:
   Comment les affirmations évoluent d’une hypothèse provisoire vers un savoir
   robuste ou l’obsolescence
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 Le cycle de vie d’une [affirmation](./claim) décrit la manière dont une

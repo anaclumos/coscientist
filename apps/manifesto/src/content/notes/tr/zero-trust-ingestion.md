@@ -1,6 +1,9 @@
 ---
 title: Sıfır Güvenli Alım
 description: İddiaları kabul etmeden önce açık köken gerektiren protokol
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 Sıfır güvenli alım, gelen bilgiyi varsayılan olarak doğrulanmamış kabul eden bir

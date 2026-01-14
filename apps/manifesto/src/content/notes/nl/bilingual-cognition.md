@@ -1,6 +1,9 @@
 ---
 title: Tweetalige cognitie
 description: Het vermogen om tegelijkertijd in meerdere talen te denken en te functioneren
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 Tweetalige cognitie is het vermogen om in meer dan één taal te denken en te

@@ -1,6 +1,9 @@
 ---
 title: الانزياح الدلالي
 description: تغيّرات في المعنى تجعل المعرفة قديمة أو مضلِّلة
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 الانزياح الدلالي هو فئة من [ظواهر الانزياح](./drift-phenomena) حيث يتغيّر معنى

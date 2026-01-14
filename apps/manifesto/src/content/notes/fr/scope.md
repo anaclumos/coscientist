@@ -1,6 +1,9 @@
 ---
 title: Portée
 description: Les conditions d’applicabilité d’une affirmation
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 La portée définit où et quand une [affirmation](./claim) est censée s’appliquer

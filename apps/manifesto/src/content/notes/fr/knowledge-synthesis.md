@@ -3,6 +3,9 @@ title: Synthèse des connaissances
 description:
   Comment la synthèse diffère de la moyenne dans les systèmes de connaissance
   dialectiques
+sourceLocale: en
+sourceHash: 8035aade2986
+translatedAt: 2026-01-14
 ---
 
 La synthèse des connaissances est ce qui se produit après la récupération,

@@ -1,6 +1,9 @@
 ---
 title: Bilgi Başarısızlık Modları
 description: Bilgi sistemlerinde nelerin yanlış gidebileceğine dair taksonomi
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Bilgi başarısızlık modları, bilgi sistemlerinin bozulma, çökme veya yanıltma

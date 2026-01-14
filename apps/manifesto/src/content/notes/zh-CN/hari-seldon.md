@@ -1,6 +1,9 @@
 ---
 title: 哈里·谢顿
 description: 阿西莫夫《基地》系列中创造"心理史学"的虚构数学家
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 哈里·谢顿是[艾萨克·阿西莫夫](./isaac-asimov)《基地》系列中的虚构数学家。他发展了[心理史学](./psychohistory)，并设计了[谢顿计划](./seldon-plan)。他认识到[银河帝国](./galactic-empire)必然会崩溃，于是在端点星建立了基地，表面上是为了编纂[银河百科全书](./encyclopedia-galactica)，但暗中则是为了为人类的复兴播下种子。

@@ -1,6 +1,9 @@
 ---
 title: Kesulitan yang Diinginkan dalam Verifikasi
 description: Membuat verifikasi membutuhkan usaha untuk mempertahankan pemahaman yang nyata
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 Kesulitan yang diinginkan dalam verifikasi adalah prinsip bahwa

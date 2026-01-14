@@ -1,6 +1,9 @@
 ---
 title: Halusinasi
 description: Output AI yang terlihat masuk akal tetapi secara faktual salah atau direkayasa
+sourceLocale: en
+sourceHash: 35a042b51f6a
+translatedAt: 2026-01-14
 ---
 
 Halusinasi adalah output AI yang terbaca percaya diri dan koheren tetapi

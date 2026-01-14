@@ -3,6 +3,9 @@ title: Costituzione della conoscenza
 description:
   Il livello di protocollo epistemico come documento di governance su come le
   affermazioni acquisiscono autorità
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 Una costituzione della conoscenza è l’insieme di regole che governano come le

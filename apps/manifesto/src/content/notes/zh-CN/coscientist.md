@@ -1,6 +1,9 @@
 ---
 title: Coscientist
 description: 后 AI 时代用于知识生产的智识伴侣系统
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist 是一个开源服务，灵感来自 [艾萨克·阿西莫夫](./isaac-asimov) 虚构的

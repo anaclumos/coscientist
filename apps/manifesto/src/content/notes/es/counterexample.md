@@ -1,6 +1,9 @@
 ---
 title: Contraejemplo
 description: Un caso que refuta o acota una afirmación
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Un contraejemplo es un caso que viola la predicción de una

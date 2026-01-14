@@ -3,6 +3,9 @@ title: LLM
 description:
   Duży model językowy, architektura AI leżąca u podstaw pracy kontemplacji
   Coscientist
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM odnosi się do modeli sieci neuronowych trenowanych na ogromnych korpusach

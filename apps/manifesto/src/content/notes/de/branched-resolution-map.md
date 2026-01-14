@@ -3,6 +3,9 @@ title: Verzweigte Auflösungskarte
 description:
   Struktur, die mehrere gültige Schlussfolgerungen auf Basis unterschiedlicher
   Definitionen oder Methoden zeigt
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 Eine verzweigte Auflösungskarte ist eine Struktur, die mehrere gültige

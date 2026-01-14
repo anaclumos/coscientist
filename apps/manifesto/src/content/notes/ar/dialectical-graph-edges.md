@@ -1,6 +1,9 @@
 ---
 title: حواف الرسم البياني الجدلي
 description: أنواع العلاقات التي تربط العُقَد في رسم بياني معرفي جدلي
+sourceLocale: en
+sourceHash: e060cb9fd333
+translatedAt: 2026-01-14
 ---
 
 في [الرسم البياني الجدلي](./dialectical-graph)، تُشفِّر الحواف أنواع العلاقات

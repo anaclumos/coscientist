@@ -1,6 +1,9 @@
 ---
 title: Konfliktknoten
 description: Ein Bündel kollidierender Anspruchscluster in einem dialektischen Graphen
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 Ein Konfliktknoten ist ein Graphobjekt, das kollidierende [Ansprüche](./claim)

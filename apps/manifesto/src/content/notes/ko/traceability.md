@@ -1,6 +1,9 @@
 ---
 title: 추적 가능성
 description: 주장을 그 출처와 근거까지 거슬러 따라갈 수 있는 능력
+sourceLocale: en
+sourceHash: 8ce5fa515f95
+translatedAt: 2026-01-14
 ---
 
 추적 가능성은 하나의 주장을 그것을 지지하는 구조를 따라 거꾸로 걸어갈 수 있는

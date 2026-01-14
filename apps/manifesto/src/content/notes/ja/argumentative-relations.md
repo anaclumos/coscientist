@@ -1,6 +1,9 @@
 ---
 title: 論証関係
 description: 機能によって整理された弁証法グラフのエッジ種別
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 論証関係（argumentative

@@ -1,6 +1,9 @@
 ---
 title: Progetto Aldehyde
 description: Un primo tentativo di costruire un cervello digitale personale
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 Il Progetto Aldehyde è stato il primo tentativo di

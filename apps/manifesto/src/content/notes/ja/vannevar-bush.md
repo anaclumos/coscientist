@@ -1,6 +1,9 @@
 ---
 title: ヴァネヴァー・ブッシュ
 description: メメックスを構想したエンジニア兼科学技術行政官
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 ヴァネヴァー・ブッシュ（1890–1974）は、第二次世界大戦中に米国の科学研究開発局（Office

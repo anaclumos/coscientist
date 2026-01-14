@@ -1,6 +1,9 @@
 ---
 title: Repetición espaciada
 description: Una técnica de aprendizaje basada en intervalos de repaso crecientes
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 La repetición espaciada es una forma basada en evidencia de programar repasos

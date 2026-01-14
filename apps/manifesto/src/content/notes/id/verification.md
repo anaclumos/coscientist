@@ -1,6 +1,9 @@
 ---
 title: Verifikasi
 description: Proses memeriksa klaim terhadap bukti dan bukti tandingan
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 Verifikasi adalah proses memeriksa apakah sebuah klaim bertahan ketika

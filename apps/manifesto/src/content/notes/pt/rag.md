@@ -3,6 +3,9 @@ title: RAG
 description:
   Geração Aumentada por Recuperação, uma técnica para fundamentar as saídas de
   IA em documentos recuperados
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG é uma técnica que melhora a precisão das saídas de IA ao recuperar

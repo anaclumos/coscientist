@@ -1,6 +1,9 @@
 ---
 title: Geltungsbereich
 description: Die Bedingungen der Anwendbarkeit für eine Behauptung
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 Der Geltungsbereich definiert, wo und wann eine [Behauptung](./claim) gelten

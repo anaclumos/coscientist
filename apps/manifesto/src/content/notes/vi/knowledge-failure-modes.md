@@ -1,6 +1,9 @@
 ---
 title: Các Chế Độ Thất Bại của Tri Thức
 description: Phân loại những điều có thể xảy ra sai lệch trong các hệ thống tri thức
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Các chế độ thất bại của tri thức là những cách mà các hệ thống tri thức suy

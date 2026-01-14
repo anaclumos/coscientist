@@ -1,6 +1,9 @@
 ---
 title: మెమెక్స్
 description: వానివర్ బుష్ ప్రతిపాదించిన వ్యక్తిగత జ్ఞాన యంత్రం
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 మెమెక్స్ అనేది [వానివర్ బుష్](./vannevar-bush) ప్రతిపాదించిన ఎలక్ట్రోమెకానికల్

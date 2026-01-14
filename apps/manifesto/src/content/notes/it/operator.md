@@ -1,6 +1,9 @@
 ---
 title: Operatore
 description: Il sovrano umano sulla conoscenza in Coscientist
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 L’Operatore è il sovrano umano sulla conoscenza in

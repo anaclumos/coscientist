@@ -1,6 +1,9 @@
 ---
 title: Verificación
 description: El proceso de contrastar afirmaciones con evidencia y contraevidencia
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 La verificación es el proceso de comprobar si una afirmación se sostiene frente

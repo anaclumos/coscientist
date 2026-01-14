@@ -1,6 +1,9 @@
 ---
 title: Dari Pelestarian ke Kapabilitas
 description: Pergeseran dari menyimpan pengetahuan ke menghasilkan pemahaman
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 Dari pelestarian ke kapabilitas adalah pergeseran dari sistem pengetahuan yang

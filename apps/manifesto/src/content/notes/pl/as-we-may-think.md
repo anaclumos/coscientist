@@ -1,6 +1,9 @@
 ---
 title: Jak możemy myśleć
 description: Esej Vannevara Busha z 1945 roku przedstawiający Memex
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 „Jak możemy myśleć” to esej [Vannevara Busha](./vannevar-bush) z 1945 roku,

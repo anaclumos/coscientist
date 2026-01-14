@@ -3,6 +3,9 @@ title: Empire galactique
 description:
   La civilisation dont la chute motive l’Encyclopedia Galactica dans Fondation
   d’Asimov
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 L’Empire galactique est la civilisation de la série Fondation

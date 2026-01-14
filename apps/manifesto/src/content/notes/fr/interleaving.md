@@ -3,6 +3,9 @@ title: Entrelacement
 description:
   Mélanger des sujets ou des types de problèmes pendant l’entraînement pour
   améliorer le transfert
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 L’entrelacement consiste à s’entraîner en mélangeant des types de problèmes ou

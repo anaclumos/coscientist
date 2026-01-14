@@ -1,6 +1,9 @@
 ---
 title: Normalize Edilmiş Önerme
 description: Doğal dil metninden çıkarılmış, standartlaştırılmış bir iddia
+sourceLocale: en
+sourceHash: 368d1ed37641
+translatedAt: 2026-01-14
 ---
 
 Normalize edilmiş bir önerme, doğal dilden çıkarılmış ve açık bir

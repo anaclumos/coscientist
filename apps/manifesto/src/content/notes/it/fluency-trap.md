@@ -1,6 +1,9 @@
 ---
 title: Trappola della fluidità
 description: Scambiare una prosa AI scorrevole per accuratezza
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 La trappola della fluidità è il bias cognitivo che porta a considerare accurata

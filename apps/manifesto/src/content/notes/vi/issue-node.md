@@ -1,6 +1,9 @@
 ---
 title: Nút Vấn đề
 description: Một bó các cụm mệnh đề va chạm trong một đồ thị biện chứng
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 Nút vấn đề là một đối tượng đồ thị gom các [mệnh đề](./claim) đang va chạm (xung

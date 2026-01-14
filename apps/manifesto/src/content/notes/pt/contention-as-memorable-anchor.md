@@ -1,6 +1,9 @@
 ---
 title: Contenção como âncora memorável
 description: Desacordos exigem esforço cognitivo e criam traços de memória mais fortes
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 "Contenção como âncora memorável" é a observação de que a

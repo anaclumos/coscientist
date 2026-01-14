@@ -1,6 +1,9 @@
 ---
 title: 信心
 description: 對某項主張之支持的多維度衡量
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 在 [共科學家](./coscientist)

@@ -1,6 +1,9 @@
 ---
 title: Öğrenme Bilimi İlkeleri
 description: Kalıcı öğrenme ve bellek için kanıta dayalı teknikler
+sourceLocale: en
+sourceHash: 9b01e1de519a
+translatedAt: 2026-01-14
 ---
 
 Öğrenme bilimi ilkeleri, kalıcı olan, aktarılabilen ve baskı altında

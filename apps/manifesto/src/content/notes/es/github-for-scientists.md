@@ -1,6 +1,9 @@
 ---
 title: GitHub para Científicos
 description: Visión de tratar los experimentos como código versionado y auditable
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 "GitHub para Científicos" es una visión en la que los experimentos científicos

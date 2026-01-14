@@ -1,6 +1,9 @@
 ---
 title: AI
 description: జ్ఞాన వ్యవస్థల కోసం సాధనంగా కూడా సవాలుగా కూడా ఉండే కృత్రిమ మేధస్సు
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 [కోసైంటిస్ట్](./coscientist) సందర్భంలో AI అనేది సాంప్రదాయంగా మనిషి మేధస్సు

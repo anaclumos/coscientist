@@ -1,6 +1,9 @@
 ---
 title: Bilişsel Egemenlik
 description: Bilgi işinde yargı ve doğrulama üzerinde insan kontrolü
+sourceLocale: en
+sourceHash: 1831665ecaf7
+translatedAt: 2026-01-14
 ---
 
 Bilişsel egemenlik, bilgi üretiminde insan yargısını ve doğrulamasını denetimde

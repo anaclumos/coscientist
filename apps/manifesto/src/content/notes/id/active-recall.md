@@ -1,6 +1,9 @@
 ---
 title: Active Recall
 description: Belajar dengan mengambil kembali informasi dari memori
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 Active recall adalah belajar dengan mencoba menghasilkan jawabannya dari ingatan

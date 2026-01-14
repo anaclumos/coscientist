@@ -3,6 +3,9 @@ title: Isaac Asimov
 description:
   Tác giả khoa học viễn tưởng mà bộ Foundation đã truyền cảm hứng cho tầm nhìn
   của Coscientist
+sourceLocale: en
+sourceHash: 83360f2cee16
+translatedAt: 2026-01-14
 ---
 
 Isaac Asimov (1920–1992) là một tác giả khoa học viễn tưởng sung sức và giáo sư

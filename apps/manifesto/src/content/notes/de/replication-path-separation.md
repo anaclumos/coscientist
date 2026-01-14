@@ -3,6 +3,9 @@ title: Trennung von Replikationspfaden
 description:
   Die Frage, ob Unterstützung aus unabhängigen Pfaden oder aus wiederholten
   Neuformulierungen stammt
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 Trennung von Replikationspfaden ist die Praxis, zu fragen, ob scheinbare

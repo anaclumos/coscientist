@@ -1,6 +1,9 @@
 ---
 title: 주장 생명주기
 description: 주장이 잠정 가설에서 견고한 지식 또는 폐기로 진화하는 방식
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 주장 생명주기는 [주장](./claim)이 [변증법적 그래프](./dialectical-graph)를 통해

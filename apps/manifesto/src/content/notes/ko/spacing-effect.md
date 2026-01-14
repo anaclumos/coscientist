@@ -1,6 +1,9 @@
 ---
 title: 간격 효과
 description: 학습 세션을 시간에 걸쳐 분산하면 기억력이 향상된다
+sourceLocale: en
+sourceHash: 4ac5ac9e96d1
+translatedAt: 2026-01-14
 ---
 
 간격 효과는 학습 세션을 한꺼번에 몰아서 하는 것보다 시간 간격을 두고 나눠서 할

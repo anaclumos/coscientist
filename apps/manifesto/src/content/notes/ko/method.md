@@ -1,6 +1,9 @@
 ---
 title: 방법
 description: 증거나 결론을 생성하는 데 사용되는 절차
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 방법이란 증거를 수집하거나 결론을 도출하는 절차를 말한다. 즉 실험 설계, 측정

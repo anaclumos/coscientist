@@ -1,6 +1,9 @@
 ---
 title: Bouillie IA
 description: Contenu de faible qualité généré par l’IA qui inonde internet
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 La bouillie IA désigne un contenu produit à la chaîne et avec peu d’effort à

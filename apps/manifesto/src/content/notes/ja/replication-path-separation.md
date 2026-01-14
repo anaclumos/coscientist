@@ -1,6 +1,9 @@
 ---
 title: 複製経路の分離
 description: 支持が独立した経路から来ているのか、それとも同じ主張の繰り返しの言い換えに過ぎないのかを問うこと
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 複製経路の分離（Replication path

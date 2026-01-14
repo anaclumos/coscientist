@@ -2,6 +2,9 @@
 title: Sistema de Verificação
 description: Os mecanismos para verificar afirmações em relação a evidência e
   contraevidência
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 O sistema de verificação é o conjunto de mecanismos que o

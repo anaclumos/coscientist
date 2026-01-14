@@ -1,6 +1,9 @@
 ---
 title: 双语认知
 description: 同时在多种语言中思考与行动的能力
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 双语认知（Bilingual

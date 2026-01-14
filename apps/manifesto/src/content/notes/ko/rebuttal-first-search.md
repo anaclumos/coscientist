@@ -1,6 +1,9 @@
 ---
 title: 반박-우선 탐색
 description: 수용하기 전에 반증 증거를 먼저 찾는 검증 프로토콜
+sourceLocale: en
+sourceHash: 038f5f56fc2f
+translatedAt: 2026-01-14
 ---
 
 반박-우선 탐색은 어떤 주장을 받아들이기 전에 반증 증거를 찾는 검증 프로토콜이다.

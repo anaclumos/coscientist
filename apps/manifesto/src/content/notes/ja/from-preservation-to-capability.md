@@ -1,6 +1,9 @@
 ---
 title: 保存から能力へ
 description: 知識を保存することから理解を生み出すことへの転換
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 「保存から能力へ」とは、情報を蓄える知識システムから、発見・検証・更新を能動的に支援するシステムへの移行を指します。架空の[銀河百科事典](./encyclopedia-galactica)は保存のための装置でしたが、[コサイエンティスト](./coscientist)は能力のための装置であることを目指します。

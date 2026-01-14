@@ -1,6 +1,9 @@
 ---
 title: ميمكس
 description: آلة المعرفة الشخصية المقترحة من فانيفار بوش
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 ميمكس هو الأرشيف الشخصي الكهروميكانيكي المقترح من [فانيفار بوش](./vannevar-bush)

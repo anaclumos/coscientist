@@ -3,6 +3,9 @@ title: Luyện xen kẽ
 description:
   Trộn lẫn các chủ đề hoặc dạng bài trong lúc luyện tập để cải thiện khả năng
   chuyển giao
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 Luyện xen kẽ là cách luyện tập bằng việc trộn lẫn các dạng bài hoặc chủ đề trong

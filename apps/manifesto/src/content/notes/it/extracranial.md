@@ -1,6 +1,9 @@
 ---
 title: Extracranial
 description: Il cervello digitale personale e il sistema di pubblicazione di Sunghyun Cho
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranial è il cervello digitale personale di [Sunghyun Cho](./sunghyun-cho):

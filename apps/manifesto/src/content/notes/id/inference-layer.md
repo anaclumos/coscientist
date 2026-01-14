@@ -1,6 +1,9 @@
 ---
 title: Lapisan Inferensi
 description: Jaringan klaim yang hidup dan terus berkembang dalam graf dialektis
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 Lapisan inferensi adalah jaringan yang hidup dan terus berkembang dari

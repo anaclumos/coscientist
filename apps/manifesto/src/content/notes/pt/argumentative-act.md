@@ -1,6 +1,9 @@
 ---
 title: Ato Argumentativo
 description: Um movimento no raciocínio, como afirmar, definir ou refutar
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 Um ato argumentativo é um movimento distinto no raciocínio, como afirmar uma

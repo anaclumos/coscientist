@@ -1,6 +1,9 @@
 ---
 title: परिधि
 description: किसी दावा के लागू होने की शर्तें
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 परिधि यह परिभाषित करती है कि कोई [दावा](./claim) कहाँ और कब लागू होने के लिए

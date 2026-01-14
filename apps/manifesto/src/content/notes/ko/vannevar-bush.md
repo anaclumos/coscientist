@@ -1,6 +1,9 @@
 ---
 title: 버니바 부시
 description: 메멕스를 구상한 엔지니어이자 과학 행정가
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 버니바 부시(, 1890–1974)는 미국의 엔지니어, 발명가, 과학 행정가로, 제2차

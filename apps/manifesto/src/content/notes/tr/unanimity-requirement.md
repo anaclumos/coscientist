@@ -3,6 +3,9 @@ title: Oybirliği Gerekliliği
 description:
   İddiaların yalnızca tüm gözden geçirenler hemfikir olduğunda kabul edildiğini
   belirten kural
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 Oybirliği gerekliliği,

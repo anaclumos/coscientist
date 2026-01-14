@@ -1,6 +1,9 @@
 ---
 title: AI szlam
 description: Niskiej jakości treści generowane przez AI zalewające internet
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 AI szlam to treści tworzone niskim nakładem pracy i w dużej skali przy użyciu

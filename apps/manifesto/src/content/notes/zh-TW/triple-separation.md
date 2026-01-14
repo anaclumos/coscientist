@@ -1,6 +1,9 @@
 ---
 title: 三重分離
 description: 將原始文本、正規化主張與明確關係分開的架構規則
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 三重分離是在 [辯證圖譜](./dialectical-graph)

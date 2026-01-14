@@ -1,6 +1,9 @@
 ---
 title: "టోకెన్లు ≠ జ్ఞానం"
 description: ఒక జ్ఞానాత్మక బాహ్యకంకాళం కోసం వ్యక్తిగత అన్వేషణ
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 నేను, [సుంగ్‌హ్యున్ చో](./sunghyun-cho), విజ్ఞానసర్వస్వాల పట్ల, అలాగే జ్ఞానానికి

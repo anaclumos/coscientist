@@ -1,6 +1,9 @@
 ---
 title: Meta-Lernen
 description: Lernen, wie dein eigenes Lernen funktioniert
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 Meta-Lernen bedeutet, über dein eigenes Lernen zu lernen: zu bemerken, was

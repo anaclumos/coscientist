@@ -1,6 +1,9 @@
 ---
 title: Powtórki rozłożone w czasie
 description: Technika uczenia się oparta na wydłużających się odstępach między powtórkami
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 Powtórki rozłożone w czasie to oparta na dowodach metoda planowania powtórek

@@ -3,6 +3,9 @@ title: Evidentiespan
 description:
   Een exact geciteerd tekstbereik uit een bron dat een bewering ondersteunt of
   betwist
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Een evidentiespan is de exact geciteerde tekst uit een bron die een

@@ -1,6 +1,9 @@
 ---
 title: Do Memex ao Grafo Dialético
 description: Evolução de trilhas associativas para uma estrutura argumentativa
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Do Memex ao Grafo Dialético traça a evolução dos sistemas pessoais de

@@ -1,6 +1,9 @@
 ---
 title: Pengindeksan Lintas Bahasa
 description: Indeks konseptual yang melampaui bahasa tertentu
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 Pengindeksan lintas bahasa adalah praktik mengorganisasi pengetahuan berdasarkan

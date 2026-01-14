@@ -1,6 +1,9 @@
 ---
 title: Graph-Komponenten
 description: Die Knoten- und Kantentypen, aus denen ein dialektischer Graph besteht
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 Graph-Komponenten sind die Bausteine eines

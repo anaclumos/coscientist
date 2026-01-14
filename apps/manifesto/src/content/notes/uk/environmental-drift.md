@@ -1,6 +1,9 @@
 ---
 title: Дрейф середовища
 description: Зміни у світі, які роблять раніше валідні знання недійсними
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 Дрейф середовища — це категорія [явищ дрейфу](./drift-phenomena), коли

@@ -1,6 +1,9 @@
 ---
 title: AI 中的人类能动性
 description: 用于让人类在 AI 辅助的知识工作中保持控制权的原则与机制
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 [AI](./ai) 中的人类能动性，是一组原则与机制的集合，用于确保人类

@@ -1,6 +1,9 @@
 ---
 title: Proposisi Ternormalisasi
 description: Klaim terstandar yang diekstrak dari teks bahasa alami
+sourceLocale: en
+sourceHash: 368d1ed37641
+translatedAt: 2026-01-14
 ---
 
 Proposisi ternormalisasi adalah sebuah [klaim](./claim) yang telah diekstrak

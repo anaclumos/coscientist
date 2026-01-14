@@ -1,6 +1,9 @@
 ---
 title: علمی نظام کی تہیں
 description: کوسائنٹسٹ کی معماری تہیں
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 علمی نظام کی تہیں وہ الگ معماری اجزاء ہیں جو [کوسائنٹسٹ](./coscientist) کو تشکیل

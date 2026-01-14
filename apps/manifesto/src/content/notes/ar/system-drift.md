@@ -1,6 +1,9 @@
 ---
 title: انجراف النظام
 description: تدهور أنظمة المعرفة عبر التلوث الذاتي أو الإهمال
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 انجراف النظام هو فئة من [ظواهر الانجراف](./drift-phenomena) حيث يتدهور نظام

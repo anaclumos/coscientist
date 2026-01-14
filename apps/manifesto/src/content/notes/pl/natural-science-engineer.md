@@ -1,6 +1,9 @@
 ---
 title: Inżynier nauk przyrodniczych
 description: Rola, która stosuje podejście operacyjne znane z oprogramowania do nauki
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 Inżynier nauk przyrodniczych to specjalista, który łączy badania naukowe z

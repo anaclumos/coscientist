@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: به‌کارگیری اصول عملیات نرم‌افزار برای شتاب‌دادن به علم
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps چشم‌انداز [سونگ‌هیون چو](./sunghyun-cho) برای به‌کارگیری طرز فکر

@@ -3,6 +3,9 @@ title: RAG
 description:
   Génération augmentée par récupération , une technique pour ancrer les sorties
   d’IA dans des documents récupérés
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 Le RAG est une technique qui améliore la précision des sorties d’IA en

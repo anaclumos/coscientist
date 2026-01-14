@@ -3,6 +3,9 @@ title: Kanıt Aralığı
 description:
   Bir iddiayı destekleyen veya ona meydan okuyan bir kaynaktan birebir
   alıntılanmış kesin bir aralık
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Bir kanıt aralığı, bir kaynaktan bir [iddia](./claim)ı destekleyen veya ona

@@ -1,6 +1,9 @@
 ---
 title: Komponen Graf
 description: Jenis node dan edge yang membentuk sebuah graf dialektik
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 Komponen graf adalah blok penyusun dari sebuah

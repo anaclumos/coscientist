@@ -1,6 +1,9 @@
 ---
 title: Các nút trong Đồ thị Biện chứng
 description: Các loại nút trong một đồ thị tri thức biện chứng
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 Trong một [Đồ thị Biện chứng](./dialectical-graph), các nút đại diện cho các đối

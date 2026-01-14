@@ -1,6 +1,9 @@
 ---
 title: Preservación de la agencia cognitiva
 description: Enfoque de seguridad de IA que mantiene a los humanos en control del juicio
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 La preservación de la agencia cognitiva es el principio de que la IA debe

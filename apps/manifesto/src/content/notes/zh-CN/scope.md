@@ -1,6 +1,9 @@
 ---
 title: 范围
 description: 主张的适用条件
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 范围（Scope）定义了一项[主张](./claim)意图在何处以及何时适用：该主张被断言成立所针对的人群、时间段、语境或条件。没有明确范围的主张是含糊的；范围过于宽泛的主张则容易受到[反例](./counterexample)的攻击。

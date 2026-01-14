@@ -1,6 +1,9 @@
 ---
 title: Meccanismi di sintesi
 description: Pattern per rendere comparabili fonti incompatibili
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 I meccanismi di sintesi sono i pattern e i protocolli che

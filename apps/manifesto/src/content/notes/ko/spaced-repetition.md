@@ -1,6 +1,9 @@
 ---
 title: 간격 반복
 description: 복습 간격을 점점 늘리는 데 기반한 학습 기법
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 간격 반복은 잊기 직전에 회상을 연습하도록 복습 일정을 짜는, 근거 기반 방법이다.

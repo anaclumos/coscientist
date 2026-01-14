@@ -1,6 +1,9 @@
 ---
 title: 三重分離
 description: 生テキスト・正規化された主張・明示的な関係を分離するアーキテクチャ規則
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 三重分離は、[弁証法グラフ](./dialectical-graph)におけるアーキテクチャ規則であり、3つの層を明確に分けて保ちます。原文は引用可能な[証拠スパン](./evidence-span)として保持され、[主張](./claim)は[正規化された命題](./normalized-proposition)へ分解され、関係は明示的な論証上の束縛として保存されます（[弁証法グラフのエッジ](./dialectical-graph-edges)を参照）。

@@ -3,6 +3,9 @@ title: Red de Conocimiento Federada
 description:
   Instancias de Coscientist interconectadas que intercambian conocimiento
   validado mientras preservan la soberanía local
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 Una red de conocimiento federada es un sistema de instancias de

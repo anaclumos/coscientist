@@ -3,6 +3,9 @@ title: Drift Lingkungan
 description:
   Perubahan di dunia yang membuat pengetahuan yang sebelumnya valid menjadi
   tidak lagi berlaku
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 Drift lingkungan adalah kategori dari [fenomena drift](./drift-phenomena) ketika

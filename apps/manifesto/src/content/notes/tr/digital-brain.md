@@ -1,6 +1,9 @@
 ---
 title: Dijital Beyin
 description: Zihni yansıtan ve genişleten kişisel bir bilgi sistemi
+sourceLocale: en
+sourceHash: 6503fc9c630c
+translatedAt: 2026-01-14
 ---
 
 Dijital beyin, fikirleri zaman içinde yakalamak, birbirine bağlamak ve

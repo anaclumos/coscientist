@@ -1,6 +1,9 @@
 ---
 title: Nodos del Grafo Dialéctico
 description: Los tipos de nodos en un grafo de conocimiento dialéctico
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 En un [Grafo Dialéctico](./dialectical-graph), los nodos representan objetos

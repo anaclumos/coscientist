@@ -1,6 +1,9 @@
 ---
 title: Niet-stationariteit
 description: Wanneer het datagenererende proces in de loop van de tijd verandert
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 Niet-stationariteit betekent dat het onderliggende proces dat data voortbrengt

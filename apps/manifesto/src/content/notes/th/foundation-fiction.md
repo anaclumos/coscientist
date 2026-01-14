@@ -1,6 +1,9 @@
 ---
 title: นิยาย Foundation
 description: แนวคิดที่ได้แรงบันดาลใจจาก Asimov ซึ่งหล่อหลอมวิสัยทัศน์ของ Coscientist
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 นิยาย Foundation หมายถึงแนวคิดจากชุดนิยาย Foundation ของ

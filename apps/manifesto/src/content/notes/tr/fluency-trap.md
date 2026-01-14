@@ -1,6 +1,9 @@
 ---
 title: Akıcılık Tuzağı
 description: Akıcı yapay zekâ nesrini doğrulukla karıştırmak
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 Akıcılık tuzağı, akıcı ve kendinden emin tınlayan nesri doğru kabul etme

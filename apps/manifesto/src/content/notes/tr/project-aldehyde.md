@@ -1,6 +1,9 @@
 ---
 title: Proje Aldehyde
 description: Kişisel bir dijital beyin inşa etmeye yönelik erken bir girişim
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 Proje Aldehyde, [Sunghyun Cho](./sunghyun-cho)'nun kişisel bir

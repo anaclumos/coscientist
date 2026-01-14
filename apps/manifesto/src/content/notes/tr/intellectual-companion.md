@@ -1,6 +1,9 @@
 ---
 title: Entelektüel Yoldaş
 description: Yanıt motoru olmaktan ziyade tefekkür ortağı olarak yapay zekâ
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 Entelektüel yoldaş, yalnızca soruları yanıtlamak yerine insanla birlikte

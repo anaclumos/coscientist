@@ -1,6 +1,9 @@
 ---
 title: 知识系统层级
 description: Coscientist 的架构层级
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 知识系统层级是构成 [共研者](./coscientist)

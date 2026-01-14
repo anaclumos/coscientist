@@ -1,6 +1,9 @@
 ---
 title: 次世代デジタル・ブレインの創り方
 description: 摩擦のない、アルゴリズム駆動のパーソナルナレッジシステムに関するエッセイ
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 「次世代デジタル・ブレインの創り方」は、個人のナレッジシステムは摩擦を最小化し、絶え間ない手動の分類体系（taxonomy）ではなくアルゴリズムによる連想に依拠すべきだと主張する、[Sunghyun Cho](./sunghyun-cho)

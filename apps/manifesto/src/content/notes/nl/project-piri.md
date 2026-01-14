@@ -2,6 +2,9 @@
 title: Project PIRI
 description: Een geannuleerd initiatief voor onbeperkte vertalingen van
   programmeerdocumentatie
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Project PIRI was het initiatief van [Sunghyun Cho](./sunghyun-cho) om onbeperkte

@@ -1,6 +1,9 @@
 ---
 title: Encyclopedia Galactica
 description: Ein Konzept zur Bewahrung von Wissen über dunkle Zeitalter hinweg
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 Die Encyclopedia Galactica ist ein fiktives Instrument in

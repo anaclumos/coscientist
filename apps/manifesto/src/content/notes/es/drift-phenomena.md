@@ -1,6 +1,9 @@
 ---
 title: Fenómenos de deriva
 description: Cambios en los sistemas de conocimiento impulsados por el tiempo
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 Los fenómenos de deriva son las formas en que los sistemas de conocimiento

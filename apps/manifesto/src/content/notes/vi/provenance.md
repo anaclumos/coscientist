@@ -1,6 +1,9 @@
 ---
 title: Nguồn gốc
 description: Nguồn gốc và chuỗi lưu ký cho các khẳng định và bằng chứng
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 Nguồn gốc là xuất xứ và chuỗi lưu ký của một khẳng định hoặc một mẩu bằng chứng:

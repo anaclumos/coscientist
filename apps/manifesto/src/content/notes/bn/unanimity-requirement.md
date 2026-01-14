@@ -1,6 +1,9 @@
 ---
 title: সর্বসম্মতির শর্ত
 description: এমন একটি নিয়ম, যেখানে সব রিভিউয়ার একমত হলেই দাবিগুলো গ্রহণ করা হয়
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 সর্বসম্মতির শর্ত হলো

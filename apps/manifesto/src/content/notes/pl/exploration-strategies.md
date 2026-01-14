@@ -1,6 +1,9 @@
 ---
 title: Strategie eksploracji
 description: Strategie przemierzania grafu dla ciągłego odkrywania wiedzy
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [Współnaukowiec](./coscientist) potrzebuje czegoś więcej niż wyszukiwania:

@@ -3,6 +3,9 @@ title: 교정 vs 드리프트
 description:
   지식 시스템이 생존하려면 교정 비용이 드리프트 비용보다 낮게 유지되어야 한다는
   경제 원리
+sourceLocale: en
+sourceHash: 5b62e4845eb0
+translatedAt: 2026-01-14
 ---
 
 교정 vs 드리프트는 지식 시스템이 건강하게 유지되기 위해서는 오류를 교정하는

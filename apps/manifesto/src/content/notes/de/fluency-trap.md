@@ -1,6 +1,9 @@
 ---
 title: Flüssigkeitsfalle
 description: Glatte KI-Prosa mit Genauigkeit verwechseln
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 Die Flüssigkeitsfalle ist die kognitive Verzerrung, glatt klingende,

@@ -1,6 +1,9 @@
 ---
 title: "Token ≠ 知识"
 description: 一场关于认知外骨骼的个人探索
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 我，[曹成贤](./sunghyun-cho)，从小就对百科全书怀有敬畏之心，也迷恋"单一权威知识仓库"的想法。孩童时期，我反复研读

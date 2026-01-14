@@ -1,6 +1,9 @@
 ---
 title: 의미 표류
 description: 의미 변화로 인해 지식이 시대에 뒤떨어지거나 오해를 낳게 되는 현상
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 의미 표류는 [표류 현상](./drift-phenomena)의 한 범주로, 용어의 의미가 시간의

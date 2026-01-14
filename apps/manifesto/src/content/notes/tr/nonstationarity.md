@@ -1,6 +1,9 @@
 ---
 title: Durağan Olmama
 description: Veri üreten sürecin zaman içinde değişmesi
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 Durağan olmama, veriyi üreten altta yatan sürecin zaman içinde değişmesi

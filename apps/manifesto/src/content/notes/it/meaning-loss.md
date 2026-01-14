@@ -3,6 +3,9 @@ title: Perdita di significato
 description:
   Quando un'affermazione diventa obsoleta perché i suoi termini hanno cambiato
   significato
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 La perdita di significato si verifica quando un'[affermazione](./claim) diventa

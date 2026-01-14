@@ -1,6 +1,9 @@
 ---
 title: Graf Bileşenleri
 description: Diyalektik bir grafı oluşturan düğüm ve kenar türleri
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 Graf bileşenleri, bir [Diyalektik Grafın](./dialectical-graph) yapı taşlarıdır:

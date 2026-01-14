@@ -3,6 +3,9 @@ title: LLM
 description:
   Coscientist’in tefekkür emeğinin temelindeki yapay zekâ mimarisi olan Büyük
   Dil Modeli
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM , doğal dili tahmin etmek ve üretmek için devasa metin derlemleri üzerinde

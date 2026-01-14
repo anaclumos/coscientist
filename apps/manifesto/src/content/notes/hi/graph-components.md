@@ -1,6 +1,9 @@
 ---
 title: ग्राफ़ घटक
 description: द्वंद्वात्मक ग्राफ़ को बनाने वाले नोड और एज प्रकार
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 ग्राफ़ घटक एक [द्वंद्वात्मक ग्राफ़](./dialectical-graph) के निर्माण खंड हैं: वे

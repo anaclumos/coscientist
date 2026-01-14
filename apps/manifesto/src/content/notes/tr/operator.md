@@ -1,6 +1,9 @@
 ---
 title: Operatör
 description: Coscientist’te bilgi üzerindeki insan egemen
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 Operatör, [Eşbilimci](./coscientist) içinde bilgi üzerindeki insan egemenidir.

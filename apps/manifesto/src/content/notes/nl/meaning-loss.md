@@ -3,6 +3,9 @@ title: Betekenisverlies
 description:
   Wanneer een bewering achterhaald raakt omdat de gebruikte termen van betekenis
   zijn veranderd
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 Betekenisverlies treedt op wanneer een [bewering](./claim) achterhaald raakt,

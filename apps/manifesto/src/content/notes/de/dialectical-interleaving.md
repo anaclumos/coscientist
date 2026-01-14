@@ -3,6 +3,9 @@ title: Dialektisches Interleaving
 description:
   Das Mischen von Anspruchstypen während der Exploration, um Silos zu vermeiden
   und falsche Kompetenz zu durchlöchern
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 Dialektisches Interleaving ist die Praxis, während der Exploration

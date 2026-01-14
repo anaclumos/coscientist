@@ -1,6 +1,9 @@
 ---
 title: 지식 시스템 계층
 description: Coscientist의 아키텍처 계층
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 지식 시스템 계층은 [Coscientist](./coscientist)를 구성하는 서로 구분된 아키텍처

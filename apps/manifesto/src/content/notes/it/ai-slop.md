@@ -1,6 +1,9 @@
 ---
 title: Slop dell’IA
 description: Contenuti di bassa qualità generati dall’IA che inondano internet
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 Lo _slop_ dell’IA è contenuto prodotto con poco sforzo e in grandi volumi

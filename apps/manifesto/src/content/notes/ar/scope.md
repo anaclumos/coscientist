@@ -1,6 +1,9 @@
 ---
 title: النطاق
 description: شروط قابلية تطبيق الادعاء
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 يُعرّف النطاق أين ومتى يُفترض أن ينطبق [الادعاء](./claim): أي على أي فئات

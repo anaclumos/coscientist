@@ -3,6 +3,9 @@ title: Rencana Seldon
 description:
   Strategi jangka panjang Hari Seldon untuk mempersingkat masa kegelapan setelah
   keruntuhan
+sourceLocale: en
+sourceHash: 879a58531fb4
+translatedAt: 2026-01-14
 ---
 
 Rencana Seldon adalah strategi jangka panjang milik [Hari Seldon](./hari-seldon)

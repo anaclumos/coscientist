@@ -1,6 +1,9 @@
 ---
 title: Dryf definicji
 description: Gdy znaczenie terminu zmienia się w czasie lub zależnie od kontekstu
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 Dryf definicji to stopniowa zmiana znaczenia terminu w czasie, między szkołami

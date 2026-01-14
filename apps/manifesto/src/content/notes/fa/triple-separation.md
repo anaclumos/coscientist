@@ -1,6 +1,9 @@
 ---
 title: تفکیک سه‌گانه
 description: قاعدهٔ معماری برای جداسازی متن خام، ادعاهای نرمال‌شده و روابط صریح
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 تفکیک سه‌گانه قاعدهٔ معماری در یک [گراف دیالکتیکی](./dialectical-graph) است که

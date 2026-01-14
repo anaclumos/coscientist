@@ -3,6 +3,9 @@ title: Belge Çarpışması
 description:
   Birbiriyle alakasız kaynakları, birbirlerinin iddialarıyla yüzleşmeye
   zorlamanın protokolü
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 Belge çarpışması, farklı kaynakları yalnızca onları paralel biçimde özetlemek

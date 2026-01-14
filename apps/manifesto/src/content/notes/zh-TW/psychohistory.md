@@ -1,6 +1,9 @@
 ---
 title: 心理史學
 description: 阿西莫夫《基地》中的一門虛構統計科學
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 心理史學是一門虛構學科，在 [艾薩克·阿西莫夫](./isaac-asimov)

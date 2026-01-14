@@ -3,6 +3,9 @@ title: Proje PIRI
 description:
   Programlama dokümantasyonunun sınırsız çevirileri için iptal edilmiş bir
   girişim
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Proje PIRI , büyük programlama ve geliştirici dokümantasyonlarının sınırsız

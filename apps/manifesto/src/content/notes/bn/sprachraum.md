@@ -1,6 +1,9 @@
 ---
 title: ভাষাক্ষেত্র
 description: চিন্তা ও জ্ঞানকে গঠন করে এমন একটি ভাষাক্ষেত্র বা পরিসর
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum (জার্মান: "language space" বা "language sphere") হলো একটি নির্দিষ্ট

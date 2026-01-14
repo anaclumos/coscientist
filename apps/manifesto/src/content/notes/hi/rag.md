@@ -3,6 +3,9 @@ title: RAG
 description:
   Retrieval-Augmented Generation, पुनर्प्राप्त दस्तावेज़ों में AI आउटपुट को
   ग्राउंड करने की एक तकनीक
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG एक तकनीक है जो किसी कॉर्पस से प्रासंगिक दस्तावेज़ों को पुनर्प्राप्त करके और

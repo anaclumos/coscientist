@@ -1,6 +1,9 @@
 ---
 title: الانجراف البيئي
 description: تغيّرات في العالم تُبطل معرفة كانت صالحة سابقًا
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 الانجراف البيئي هو فئة من [ظواهر الانجراف](./drift-phenomena) حيث يتغير العالم

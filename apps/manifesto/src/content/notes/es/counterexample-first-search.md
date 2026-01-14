@@ -1,6 +1,9 @@
 ---
 title: Búsqueda primero de contraejemplos
 description: Estrategia que prioriza los contraejemplos sobre la evidencia de apoyo
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 La búsqueda primero de contraejemplos es una

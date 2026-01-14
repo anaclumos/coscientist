@@ -3,6 +3,9 @@ title: Beyin Çürümesini Geri Çevirme
 description:
   Yapay zekâ sonrası bir bilgi ortamında doğrulama kapasitesini ve bilişsel
   ajansı yeniden tesis etmenin aktif süreci
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Beyin çürümesini geri çevirme, bozulmuş bilgi ortamlarına maruz kaldıktan sonra

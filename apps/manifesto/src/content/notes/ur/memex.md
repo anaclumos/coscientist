@@ -1,6 +1,9 @@
 ---
 title: میمیکس
 description: وینیور بُش کی تجویز کردہ ذاتی علم کی مشین
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 میمیکس [وینیور بُش](./vannevar-bush) کا تجویز کردہ برقی-میکانی ذاتی محفوظہ تھا،

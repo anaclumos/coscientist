@@ -1,6 +1,9 @@
 ---
 title: シュプラッハラウムを越えて
 description: 知識システムにおける言語の境界を超えるというビジョン
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 「Across the Sprachraums」は、言語の境界を超える知識システムに関する

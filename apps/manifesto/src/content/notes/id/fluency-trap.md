@@ -1,6 +1,9 @@
 ---
 title: Jebakan Kefasihan
 description: Mengira prosa AI yang mulus sebagai akurat
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 Jebakan kefasihan adalah bias kognitif ketika prosa yang terdengar mulus dan

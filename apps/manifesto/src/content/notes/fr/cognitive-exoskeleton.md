@@ -1,6 +1,9 @@
 ---
 title: Exosquelette cognitif
 description: Des outils externes qui étendent et amplifient la cognition humaine
+sourceLocale: en
+sourceHash: 946b5ecb455e
+translatedAt: 2026-01-14
 ---
 
 Un exosquelette cognitif est un système d’outils externes qui étendent et

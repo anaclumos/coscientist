@@ -1,6 +1,9 @@
 ---
 title: 합성 메커니즘
 description: 호환되지 않는 출처를 비교 가능하게 만드는 패턴
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 합성 메커니즘은 [Coscientist](./coscientist)가 서로 호환되지 않는 출처들을 비교

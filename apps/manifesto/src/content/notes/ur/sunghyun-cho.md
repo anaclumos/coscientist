@@ -1,6 +1,9 @@
 ---
 title: سنگہیون چو
 description: Coscientist کے معمار اور اس کے بنیادی مضامین کے مصنف
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 سنگہیون چو [کوسائنٹسٹ](./coscientist) کے معمار اور اُن مضامین کے مصنف ہیں جنہوں

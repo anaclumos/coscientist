@@ -1,6 +1,9 @@
 ---
 title: 멀티-AI 합의 프로토콜
 description: 1+4(인간 + 4개의 AI) 글쓰기 및 검증 시스템
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 다중-AI 합의 프로토콜은 [오퍼레이터](./operator)가 여러 AI 시스템을 조율하여

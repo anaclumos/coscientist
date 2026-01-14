@@ -3,6 +3,9 @@ title: Iluzje kompetencji wywołane przez AI
 description:
   Jak biegłość w korzystaniu z AI tworzy fałszywe poczucie mistrzostwa u
   użytkowników
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 Iluzje kompetencji wywołane przez AI pojawiają się wtedy, gdy użytkownicy mylą

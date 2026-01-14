@@ -1,6 +1,9 @@
 ---
 title: Aralıklı Tekrar
 description: Gözden geçirme aralıklarını giderek artırmaya dayanan bir öğrenme tekniği
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 Aralıklı tekrar, unutmak üzere olduğunuz anda hatırlamayı (geri çağırmayı)

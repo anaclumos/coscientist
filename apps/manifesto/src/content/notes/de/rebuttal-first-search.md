@@ -1,6 +1,9 @@
 ---
 title: Widerlegung-zuerst-Suche
 description: Ein Validierungsprotokoll, das vor der Akzeptanz nach Gegenbelegen sucht
+sourceLocale: en
+sourceHash: 038f5f56fc2f
+translatedAt: 2026-01-14
 ---
 
 Die Widerlegung-zuerst-Suche ist ein Validierungsprotokoll, das nach

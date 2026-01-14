@@ -3,6 +3,9 @@ title: Supercerveau
 description:
   La vision d’un exosquelette cognitif externalisé qui amplifie l’intelligence
   humaine
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 Supercerveau est le terme de [Sunghyun Cho](./sunghyun-cho) pour désigner la

@@ -1,6 +1,9 @@
 ---
 title: GitHub cho các nhà khoa học
 description: Tầm nhìn coi các thí nghiệm như mã có phiên bản và có thể kiểm toán
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 "GitHub cho các nhà khoa học" là một tầm nhìn trong đó các thí nghiệm khoa học

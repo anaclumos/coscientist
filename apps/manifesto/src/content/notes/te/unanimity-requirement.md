@@ -1,6 +1,9 @@
 ---
 title: ఏకగ్రీవత అవసరం
 description: అన్ని సమీక్షకులు అంగీకరించినప్పుడు మాత్రమే దావాలు ఆమోదించబడతాయని చెప్పే నియమం
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 [మల్టీ-AI కన్సెన్సస్ ప్రోటోకాల్](./multi-ai-consensus-protocol) లోని ఏకగ్రీవత

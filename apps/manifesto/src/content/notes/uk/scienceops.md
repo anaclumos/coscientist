@@ -3,6 +3,9 @@ title: ScienceOps
 description:
   Застосування принципів операційної підтримки програмного забезпечення для
   прискорення науки
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps — це бачення [Sunghyun Cho](./sunghyun-cho) щодо застосування

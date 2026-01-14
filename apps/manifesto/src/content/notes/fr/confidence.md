@@ -1,6 +1,9 @@
 ---
 title: Confiance
 description: Une mesure multidimensionnelle du soutien apporté à une affirmation
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 La confiance dans [Coscientifique](./coscientist) n’est pas un score de

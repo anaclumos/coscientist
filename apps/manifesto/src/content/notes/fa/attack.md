@@ -1,6 +1,9 @@
 ---
 title: حمله
 description: به‌چالش‌کشیدن مستقیمِ صدقِ یک ادعا
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 حمله، به‌چالش‌کشیدن مستقیمِ حقیقتِ یک [ادعا](./claim) است. برخلاف یک

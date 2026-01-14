@@ -3,6 +3,9 @@ title: Narrative Ebene
 description:
   Zeitgestempelte Projektionen des dialektischen Graphen, die sich für die
   menschliche Lektüre eignen
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 Die narrative Ebene ist die für Menschen lesbare Projektion eines

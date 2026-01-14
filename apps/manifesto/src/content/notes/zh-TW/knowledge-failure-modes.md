@@ -1,6 +1,9 @@
 ---
 title: 知識失效模式
 description: 知識系統可能出錯的分類法
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 知識失效模式是指知識系統如何劣化、崩潰或誤導的方式。理解這些模式是設計防禦措施的先決條件。

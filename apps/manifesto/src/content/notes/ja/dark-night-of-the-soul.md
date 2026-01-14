@@ -1,6 +1,9 @@
 ---
 title: 魂の暗夜
 description: アイデンティティの再構築へと至る、深い内的危機を表す文学的装置
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 「魂の暗夜（The Dark Night of the

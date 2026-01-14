@@ -1,6 +1,9 @@
 ---
 title: Principes van de leerwetenschap
 description: Evidence-based technieken voor duurzaam leren en geheugen
+sourceLocale: en
+sourceHash: 9b01e1de519a
+translatedAt: 2026-01-14
 ---
 
 Principes uit de leerwetenschap zijn evidence-based technieken voor het

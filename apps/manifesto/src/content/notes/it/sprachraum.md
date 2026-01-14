@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: Una sfera o dominio linguistico che modella il pensiero e la conoscenza
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum è il dominio definito da una particolare lingua, che comprende non

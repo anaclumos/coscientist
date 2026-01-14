@@ -1,6 +1,9 @@
 ---
 title: Akılda Kalıcı Çapa Olarak Çekişme
 description: Anlaşmazlıklar bilişsel çaba gerektirir ve daha güçlü bellek izleri oluşturur
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 "Akılda kalıcı bir çapa olarak çekişme " şunu ifade eder:

@@ -1,6 +1,9 @@
 ---
 title: Synteza wiedzy
 description: Czym synteza różni się od uśredniania w dialektycznych systemach wiedzy
+sourceLocale: en
+sourceHash: 8035aade2986
+translatedAt: 2026-01-14
 ---
 
 Synteza wiedzy to to, co dzieje się po wyszukaniu , gdy trzeba uczynić

@@ -1,6 +1,9 @@
 ---
 title: GitHub für Wissenschaftler
 description: Vision, Experimente als versionierten, auditierbaren Code zu behandeln
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 „GitHub für Wissenschaftler" ist eine Vision, in der wissenschaftliche

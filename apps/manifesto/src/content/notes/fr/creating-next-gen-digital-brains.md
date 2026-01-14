@@ -3,6 +3,9 @@ title: Créer des cerveaux numériques de nouvelle génération
 description:
   Essai sur des systèmes de connaissance personnels sans friction, pilotés par
   des algorithmes
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 « Créer des cerveaux numériques de nouvelle génération » est un essai de

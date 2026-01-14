@@ -1,6 +1,9 @@
 ---
 title: 間隔反復
 description: 復習間隔を徐々に伸ばしていくことに基づく学習テクニック
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 間隔反復は、忘れてしまう直前に想起練習（recall）を行えるよう、復習のタイミングを科学的根拠に基づいて設計する方法です。これは[間隔効果](./spacing-effect)と[忘却曲線](./forgetting-curve)の形を活用します。覚えていれば間隔は広がり、覚えていなければ間隔は縮まります。

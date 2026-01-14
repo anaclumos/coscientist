@@ -1,6 +1,9 @@
 ---
 title: PIRI 專案
 description: 一項已取消、旨在對程式設計文件提供無限翻譯的倡議
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 PIRI 專案（Programmatic Interlingual Resource Integration）是

@@ -1,6 +1,9 @@
 ---
 title: Contention
 description: Un conflit structuré entre des affirmations qui nécessite une résolution
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 Une contention est un conflit structuré entre des affirmations, des définitions

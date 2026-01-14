@@ -3,6 +3,9 @@ title: Ondergraving
 description:
   Een aanval op de methode, aanname of definitie die ten grondslag ligt aan een
   bewering
+sourceLocale: en
+sourceHash: d67bef7771ea
+translatedAt: 2026-01-14
 ---
 
 Een ondergraving is een uitdaging die niet de [bewering](./claim) zelf aanvalt,

@@ -1,6 +1,9 @@
 ---
 title: ファウンデーション・フィクション
 description: Coscientistのビジョンを形作る、アシモフに着想を得た概念
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 ファウンデーション・フィクションとは、[アイザック・アシモフ](./isaac-asimov)の『ファウンデーション』シリーズに登場する概念のうち、[コサイエンティスト](./coscientist)のビジョンに示唆を与えるものを指します。架空の[銀河百科事典](./encyclopedia-galactica)は、知識の保存と能力（capability）について考える際の重要な参照点です。

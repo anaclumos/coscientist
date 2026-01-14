@@ -1,6 +1,9 @@
 ---
 title: Práctica de recuperación
 description: Fortalecer la memoria recordando activamente información
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 La práctica de recuperación consiste en fortalecer la memoria recordando

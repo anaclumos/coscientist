@@ -3,6 +3,9 @@ title: Verlust von Übersetzungsnuancen
 description:
   Die semantischen Feinheiten, die verschwinden, wenn Ideen Sprachgrenzen
   überschreiten
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 Der Verlust von Übersetzungsnuancen bezeichnet das Abstreifen semantischer

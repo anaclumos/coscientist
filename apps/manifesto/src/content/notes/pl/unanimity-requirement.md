@@ -3,6 +3,9 @@ title: Wymóg jednomyślności
 description:
   Zasada, według której twierdzenia są akceptowane tylko wtedy, gdy wszyscy
   recenzenci się zgadzają
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 Wymóg jednomyślności to zasada w

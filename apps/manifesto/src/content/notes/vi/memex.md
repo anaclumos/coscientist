@@ -1,6 +1,9 @@
 ---
 title: Memex
 description: Cỗ máy tri thức cá nhân do Vannevar Bush đề xuất
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 Memex là kho lưu trữ cá nhân cơ điện do [Vannevar Bush](./vannevar-bush) đề

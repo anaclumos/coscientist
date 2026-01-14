@@ -1,6 +1,9 @@
 ---
 title: "Token ≠ conoscenza"
 description: Una ricerca personale di un esoscheletro cognitivo
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Io, [Sunghyun Cho](./sunghyun-cho), sono cresciuto con una venerazione per le

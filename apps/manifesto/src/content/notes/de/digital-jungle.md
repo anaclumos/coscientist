@@ -1,6 +1,9 @@
 ---
 title: Digitaler Dschungel
 description: Ein reibungsarmer persönlicher Wissensraum, der sich selbst organisiert
+sourceLocale: en
+sourceHash: 30a3de2b3fcf
+translatedAt: 2026-01-14
 ---
 
 Ein digitaler Dschungel ist ein persönlicher Wissensraum, der mit minimaler

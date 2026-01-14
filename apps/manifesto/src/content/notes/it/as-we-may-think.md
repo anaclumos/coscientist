@@ -1,6 +1,9 @@
 ---
 title: Come potremmo pensare
 description: Il saggio del 1945 di Vannevar Bush che delinea il Memex
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 "Come potremmo pensare" è il saggio del 1945 di [Vannevar Bush](./vannevar-bush)

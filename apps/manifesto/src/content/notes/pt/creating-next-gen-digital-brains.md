@@ -3,6 +3,9 @@ title: Criando cérebros digitais de nova geração
 description:
   Ensaio sobre sistemas pessoais de conhecimento sem fricção, guiados por
   algoritmos
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 "Creating Next-gen Digital Brains" é um ensaio de [Sunghyun Cho](./sunghyun-cho)

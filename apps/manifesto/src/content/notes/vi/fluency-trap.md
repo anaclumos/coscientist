@@ -1,6 +1,9 @@
 ---
 title: Bẫy trôi chảy
 description: Nhầm văn xuôi AI trơn tru là chính xác
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 Bẫy trôi chảy là một thiên kiến nhận thức: coi văn xuôi trơn tru, nghe đầy tự

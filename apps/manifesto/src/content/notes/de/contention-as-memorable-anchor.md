@@ -3,6 +3,9 @@ title: Kontroverse als einprägsamer Anker
 description:
   Meinungsverschiedenheiten erfordern kognitiven Aufwand und erzeugen stärkere
   Gedächtnisspuren
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 „Kontroverse als einprägsamer Anker" ist die Beobachtung, dass

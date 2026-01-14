@@ -1,6 +1,9 @@
 ---
 title: エンサイクロペディア・メルトダウン
 description: 人間の介入なしにAIが主導権を握るときに起きる知識崩壊現象
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 エンサイクロペディア・メルトダウン（Encyclopedia

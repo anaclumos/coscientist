@@ -1,6 +1,9 @@
 ---
 title: Epistemische protocollaag
 description: Regels en workflows die kennissystemen verharden tegen instorting
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 Een epistemische protocollaag is een verzameling regels, checks en workflows die

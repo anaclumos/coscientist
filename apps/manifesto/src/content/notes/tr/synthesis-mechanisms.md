@@ -1,6 +1,9 @@
 ---
 title: Sentez Mekanizmaları
 description: Uyuşmaz kaynakları karşılaştırılabilir kılma kalıpları
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 Sentez mekanizmaları, [Eşbilimci](./coscientist)’in uyuşmaz kaynakları

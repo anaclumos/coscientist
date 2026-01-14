@@ -3,6 +3,9 @@ title: Agensi Manusia dalam AI
 description:
   Prinsip dan mekanisme untuk menjaga manusia tetap memegang kendali atas
   pekerjaan pengetahuan yang dibantu AI
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 Agensi manusia dalam [AI](./ai) adalah kumpulan prinsip dan mekanisme yang

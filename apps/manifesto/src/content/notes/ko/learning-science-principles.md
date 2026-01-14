@@ -1,6 +1,9 @@
 ---
 title: 학습 과학 원리
 description: 지속적인 학습과 기억을 위한 증거 기반 기법
+sourceLocale: en
+sourceHash: 9b01e1de519a
+translatedAt: 2026-01-14
 ---
 
 학습 과학 원리는 지식이 오래 지속되고, 전이되며, 압박 상황에서도 접근 가능하도록

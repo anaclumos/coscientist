@@ -1,6 +1,9 @@
 ---
 title: Piège de la fluidité
 description: Confondre une prose IA fluide avec l’exactitude
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 Le piège de la fluidité est le biais cognitif qui consiste à considérer une

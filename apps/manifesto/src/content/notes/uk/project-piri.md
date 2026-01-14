@@ -1,6 +1,9 @@
 ---
 title: Проєкт PIRI
 description: Скасована ініціатива необмежених перекладів документації з програмування
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Проєкт PIRI був ініціативою [Sunghyun Cho](./sunghyun-cho), покликаною

@@ -1,6 +1,9 @@
 ---
 title: اعتماد
 description: کسی دعوے کی تائید کا ایک کثیر جہتی پیمانہ
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 [کوسائنٹسٹ](./coscientist) میں اعتماد کوئی واحد احتمالی اسکور نہیں ہے۔ یہ ایک

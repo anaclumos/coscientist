@@ -3,6 +3,9 @@ title: Yapay Zekânın Tetiklediği Yeterlilik Yanılsamaları
 description:
   Yapay zekâ akıcılığının kullanıcıларда nasıl sahte bir ustalık duygusu
   yarattığı
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 Yapay zekânın tetiklediği yeterlilik yanılsamaları, kullanıcıların akıcı yapay

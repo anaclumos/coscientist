@@ -3,6 +3,9 @@ title: Mappa di risoluzione ramificata
 description:
   Struttura che mostra più conclusioni valide basate su definizioni o metodi
   diversi
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 Una mappa di risoluzione ramificata è una struttura che presenta più conclusioni

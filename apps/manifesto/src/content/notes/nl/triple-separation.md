@@ -3,6 +3,9 @@ title: Drievoudige scheiding
 description:
   Architectuurregel die ruwe tekst, genormaliseerde claims en expliciete
   relaties van elkaar scheidt
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 Drievoudige scheiding is de architectuurregel in een

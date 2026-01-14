@@ -1,6 +1,9 @@
 ---
 title: Genormaliseerde propositie
 description: Een gestandaardiseerde bewering die uit natuurlijke-taaltekst is gehaald
+sourceLocale: en
+sourceHash: 368d1ed37641
+translatedAt: 2026-01-14
 ---
 
 Een genormaliseerde propositie is een [bewering](./claim) die uit natuurlijke

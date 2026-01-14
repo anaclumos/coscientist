@@ -3,6 +3,9 @@ title: Mapa de resolución ramificada
 description:
   Estructura que muestra múltiples conclusiones válidas basadas en diferentes
   definiciones o métodos
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 Un mapa de resolución ramificada es una estructura que presenta múltiples

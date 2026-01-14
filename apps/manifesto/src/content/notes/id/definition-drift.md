@@ -1,6 +1,9 @@
 ---
 title: Perubahan Definisi
 description: Ketika makna sebuah istilah bergeser seiring waktu atau konteks
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 Perubahan definisi adalah pergeseran bertahap dalam makna sebuah istilah seiring

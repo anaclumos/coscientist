@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: சிந்தனையையும் அறிவையும் வடிவமைக்கும் ஒரு மொழிச் சுற்றம் அல்லது களப் பரப்பு
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum (ஜெர்மன்: "language space" அல்லது "language sphere") என்பது ஒரு

@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: एक भाषा-क्षेत्र या डोमेन जो सोच और ज्ञान को आकार देता है
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum (जर्मन: "language space" या "language sphere") वह क्षेत्र है जिसे कोई

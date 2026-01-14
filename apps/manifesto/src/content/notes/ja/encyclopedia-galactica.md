@@ -1,6 +1,9 @@
 ---
 title: 百科事典ガラクティカ
 description: 暗黒時代を越えて知識を保存するというコンセプト
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 百科事典ガラクティカ（Encyclopedia

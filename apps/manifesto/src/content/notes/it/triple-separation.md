@@ -3,6 +3,9 @@ title: Separazione tripla
 description:
   Regola architetturale che separa testo grezzo, affermazioni normalizzate e
   relazioni esplicite
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 La separazione tripla è la regola architetturale in un

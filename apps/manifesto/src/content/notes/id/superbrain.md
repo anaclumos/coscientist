@@ -3,6 +3,9 @@ title: Superbrain
 description:
   Visi tentang eksoskeleton kognitif yang dieksternalisasi yang memperkuat
   kecerdasan manusia
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 Superbrain adalah istilah [Sunghyun Cho](./sunghyun-cho) untuk visi tentang

@@ -1,6 +1,9 @@
 ---
 title: Cắt nhỏ nhất
 description: Tập cạnh nhỏ nhất làm ngắt kết nối một đồ thị
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 Cắt nhỏ nhất là tập cạnh nhỏ nhất mà khi loại bỏ sẽ làm ngắt kết nối một đồ thị.

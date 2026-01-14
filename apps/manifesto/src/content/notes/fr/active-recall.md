@@ -1,6 +1,9 @@
 ---
 title: Rappel actif
 description: Étudier en récupérant des informations depuis la mémoire
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 Le rappel actif consiste à étudier en essayant de produire la réponse de mémoire

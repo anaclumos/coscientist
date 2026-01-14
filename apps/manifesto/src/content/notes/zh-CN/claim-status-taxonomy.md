@@ -1,6 +1,9 @@
 ---
 title: 主张状态分类体系
 description: 在辩证图中，一个主张可能处于的状态
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 主张状态分类体系定义了一个[主张](./claim)在[辩证图](./dialectical-graph)中可能占据的状态。

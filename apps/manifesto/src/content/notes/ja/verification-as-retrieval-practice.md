@@ -1,6 +1,9 @@
 ---
 title: 取り出し練習としての検証
 description: 知識保持を強化する能動的想起としての、オペレーターの検証ループ
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 取り出し練習としての検証とは、[オペレーター](./operator) の検証作業そのものが

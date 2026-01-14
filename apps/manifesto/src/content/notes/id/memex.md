@@ -1,6 +1,9 @@
 ---
 title: Memex
 description: Mesin pengetahuan pribadi yang diusulkan Vannevar Bush
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 Memex adalah arsip pribadi elektromekanis yang diusulkan oleh

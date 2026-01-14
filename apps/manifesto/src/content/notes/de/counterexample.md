@@ -1,6 +1,9 @@
 ---
 title: Gegenbeispiel
 description: Ein Fall, der eine Behauptung widerlegt oder einschränkt
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Ein Gegenbeispiel ist ein Fall, der die Vorhersage einer [Behauptung](./claim)

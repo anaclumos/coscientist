@@ -1,6 +1,9 @@
 ---
 title: Ilusões de Competência
 description: Uma falsa sensação de domínio criada pela familiaridade passiva
+sourceLocale: en
+sourceHash: 75804f84b0ff
+translatedAt: 2026-01-14
 ---
 
 As ilusões de competência ocorrem quando a familiaridade é confundida com

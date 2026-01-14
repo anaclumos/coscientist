@@ -1,6 +1,9 @@
 ---
 title: Provenans
 description: İddialar ve kanıtlar için köken ve zilyetlik zinciri
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 Provenans, bir iddianın veya bir kanıt parçasının kökeni ve zilyetlik

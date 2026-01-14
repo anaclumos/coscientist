@@ -1,6 +1,9 @@
 ---
 title: 시스템 드리프트
 description: 자기 오염 또는 방치로 인한 지식 시스템의 열화
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 시스템 드리프트는 [드리프트 현상](./drift-phenomena) 가운데, 의미나 환경의

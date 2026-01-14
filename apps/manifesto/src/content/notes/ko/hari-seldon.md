@@ -1,6 +1,9 @@
 ---
 title: 해리 셀던
 description: 아시모프의 파운데이션에서 심리역사를 창시한 가상의 수학자
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 해리 셀던은 [아이작 아시모프](./isaac-asimov)의 _파운데이션_ 시리즈에 등장하는

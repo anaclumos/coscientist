@@ -3,6 +3,9 @@ title: Quyền chủ động của con người trong AI
 description:
   Các nguyên tắc và cơ chế giúp con người giữ quyền kiểm soát công việc tri thức
   được AI hỗ trợ
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 Quyền chủ động của con người trong [AI](./ai) là tập hợp các nguyên tắc và cơ

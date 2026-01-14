@@ -1,6 +1,9 @@
 ---
 title: Rác AI
 description: Nội dung do AI tạo ra chất lượng thấp đang tràn ngập internet
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 Rác AI (AI slop, hoặc đơn giản là _slop_) là loại nội dung tạo ra với công sức

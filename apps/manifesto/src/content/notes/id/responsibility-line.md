@@ -1,6 +1,9 @@
 ---
 title: Garis Tanggung Jawab
 description: Rantai yang dapat dilacak tentang siapa menyatakan apa dan atas dasar apa
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 Garis tanggung jawab adalah rantai yang dapat dilacak tentang siapa menyatakan

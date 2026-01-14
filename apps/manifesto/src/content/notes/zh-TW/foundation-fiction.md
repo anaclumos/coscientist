@@ -1,6 +1,9 @@
 ---
 title: 基地小說
 description: 受阿西莫夫啟發、形塑 Coscientist 願景的概念
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 「基地小說」指的是出自 [艾薩克·阿西莫夫](./isaac-asimov)《基地》系列、並形塑

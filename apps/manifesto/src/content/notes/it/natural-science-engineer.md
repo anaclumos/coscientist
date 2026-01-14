@@ -1,6 +1,9 @@
 ---
 title: Ingegnere delle scienze naturali
 description: Un ruolo che applica operazioni in stile software alla scienza
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 Un ingegnere delle scienze naturali è un professionista che combina la ricerca

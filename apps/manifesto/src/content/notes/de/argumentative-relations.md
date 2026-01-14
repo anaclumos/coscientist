@@ -1,6 +1,9 @@
 ---
 title: Argumentative Relationen
 description: Kantentypen in einem dialektischen Graphen, geordnet nach Funktion
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 Argumentative Relationen sind die Kantentypen in einem

@@ -1,6 +1,9 @@
 ---
 title: 다국어 지식 메쉬
 description: 여러 언어를 가로질러 전 세계로 분산되는 지식 네트워크
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 다국어 지식 메쉬는 어떤 언어로 된 콘텐츠든 단어 매칭이 아니라 공유된 개념을 통해

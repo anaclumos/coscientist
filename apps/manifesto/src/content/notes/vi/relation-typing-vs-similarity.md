@@ -3,6 +3,9 @@ title: Gán kiểu quan hệ so với độ tương đồng
 description:
   Vì sao các cạnh được gán kiểu giải quyết được những gì truy hồi dựa trên độ
   tương đồng không thể
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 Gán kiểu quan hệ so với độ tương đồng là sự đối chiếu giữa hai cách kết nối tri

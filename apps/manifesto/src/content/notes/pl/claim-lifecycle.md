@@ -3,6 +3,9 @@ title: Cykl życia twierdzenia
 description:
   Jak twierdzenia ewoluują od wstępnej hipotezy do solidnej wiedzy albo popadają
   w nieaktualność
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 Cykl życia twierdzenia opisuje, jak [twierdzenie](./claim) ewoluuje w ramach

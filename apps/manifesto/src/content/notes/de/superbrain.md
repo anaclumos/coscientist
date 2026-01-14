@@ -3,6 +3,9 @@ title: Supergehirn
 description:
   Die Vision eines externalisierten kognitiven Exoskeletts, das menschliche
   Intelligenz verstärkt
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 Superbrain ist [Sunghyun Cho](./sunghyun-cho)s Begriff für die Vision eines

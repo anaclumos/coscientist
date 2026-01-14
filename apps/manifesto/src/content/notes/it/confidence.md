@@ -1,6 +1,9 @@
 ---
 title: Fiducia
 description: Una misura multidimensionale del supporto a una tesi
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 La fiducia in [Coscienziato](./coscientist) non è un singolo punteggio di

@@ -1,6 +1,9 @@
 ---
 title: علميات العلوم
 description: تطبيق مبادئ تشغيل البرمجيات لتسريع العلم
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 علميات العلوم هي رؤية [سونغهيون تشو](./sunghyun-cho) لتطبيق طريقة التفكير في

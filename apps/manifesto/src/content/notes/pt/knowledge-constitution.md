@@ -3,6 +3,9 @@ title: Constituição do Conhecimento
 description:
   A camada de protocolo epistêmico como um documento de governança sobre como
   afirmações ganham autoridade
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 Uma constituição do conhecimento é o conjunto de regras que governam como

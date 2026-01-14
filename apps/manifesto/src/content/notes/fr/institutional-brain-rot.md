@@ -3,6 +3,9 @@ title: Pourrissement cérébral institutionnel
 description:
   Mode de défaillance organisationnel où la capacité collective de vérification
   se dégrade
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 Le pourrissement cérébral institutionnel est un mode de défaillance dans lequel

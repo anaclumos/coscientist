@@ -3,6 +3,9 @@ title: Maillage de connaissances multilingue
 description:
   Un réseau de connaissances qui traverse les langues et se distribue à
   l’échelle mondiale
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 Un maillage de connaissances multilingue est un réseau de connaissances dans

@@ -1,6 +1,9 @@
 ---
 title: Ngoài sọ
 description: Bộ não số cá nhân và hệ thống xuất bản của Sunghyun Cho
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranial là bộ não số cá nhân của [Sunghyun Cho](./sunghyun-cho): một hệ

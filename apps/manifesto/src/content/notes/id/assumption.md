@@ -1,6 +1,9 @@
 ---
 title: Asumsi
 description: Premis implisit yang mendasari sebuah klaim
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Asumsi adalah premis implisit yang menjadi sandaran sebuah [klaim](./claim),

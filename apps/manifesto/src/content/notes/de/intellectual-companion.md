@@ -1,6 +1,9 @@
 ---
 title: Intellektueller Begleiter
 description: KI als Kontemplationspartner statt als Antwortmaschine
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 Ein intellektueller Begleiter ist ein KI-System, das darauf ausgelegt ist,

@@ -1,6 +1,9 @@
 ---
 title: మూలం
 description: వాదనలు మరియు సాక్ష్యాలకు ప్రావెనెన్స్ యాంకర్
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 మూలం అనేది [సాక్ష్య విస్తృతి](./evidence-span) లేదా [వాదన](./claim) కోసం ప్రారంభ

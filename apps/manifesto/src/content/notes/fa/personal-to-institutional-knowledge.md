@@ -1,6 +1,9 @@
 ---
 title: دانش از شخصی به نهادی
 description: مقیاس‌دادنِ شیوه‌های دانشِ شخصی به سازمان‌ها
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 گذار از دانشِ شخصی به دانشِ نهادی یعنی حرکت از یک [مغز دیجیتال](./digital-brain)

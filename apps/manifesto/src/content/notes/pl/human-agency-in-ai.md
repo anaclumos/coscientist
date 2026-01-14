@@ -3,6 +3,9 @@ title: Sprawczość człowieka w AI
 description:
   Zasady i mechanizmy utrzymujące ludzi w kontroli nad pracą umysłową wspieraną
   przez AI
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 Sprawczość człowieka w [AI](./ai) to zbiór zasad i mechanizmów, które utrzymują

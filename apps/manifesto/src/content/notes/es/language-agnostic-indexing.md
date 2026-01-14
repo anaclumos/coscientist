@@ -1,6 +1,9 @@
 ---
 title: Indexación independiente del idioma
 description: Un índice conceptual que trasciende idiomas específicos
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 La indexación independiente del idioma es la práctica de organizar el

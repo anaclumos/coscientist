@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: Software-operationsprincipes toepassen om wetenschap te versnellen
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps is [Sunghyun Cho](./sunghyun-cho)'s visie om

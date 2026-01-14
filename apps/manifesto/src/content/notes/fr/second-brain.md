@@ -3,6 +3,9 @@ title: Deuxième cerveau
 description:
   Une approche de gestion des connaissances personnelles visant à externaliser
   les idées
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 Le « deuxième cerveau » est une approche de gestion des connaissances

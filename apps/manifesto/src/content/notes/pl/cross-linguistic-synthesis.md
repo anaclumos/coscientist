@@ -1,6 +1,9 @@
 ---
 title: Synteza międzyjęzykowa
 description: Łączenie wiedzy z wielu języków w spójną całość
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 Synteza międzyjęzykowa to proces łączenia wiedzy ze źródeł w różnych językach w

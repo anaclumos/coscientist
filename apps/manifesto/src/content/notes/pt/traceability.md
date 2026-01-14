@@ -1,6 +1,9 @@
 ---
 title: Rastreabilidade
 description: A capacidade de seguir uma afirmação até suas fontes e fundamentos
+sourceLocale: en
+sourceHash: 8ce5fa515f95
+translatedAt: 2026-01-14
 ---
 
 Rastreabilidade é a capacidade de percorrer uma afirmação de trás para frente

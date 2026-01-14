@@ -2,6 +2,9 @@
 title: LLM
 description: Large Language Model, l'architettura di IA alla base del lavoro di
   contemplazione di Coscientist
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM si riferisce a modelli di reti neurali addestrati su enormi corpora di testo

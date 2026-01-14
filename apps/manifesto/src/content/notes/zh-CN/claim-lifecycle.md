@@ -1,6 +1,9 @@
 ---
 title: 主张生命周期
 description: 主张如何从暂定假设演化为稳健知识或走向过时
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 主张生命周期描述一个[主张](./claim)如何在[辩证图](./dialectical-graph)中演化，从最初录入到最终成为稳健知识、被驳斥的错误，或过时的历史遗留物。

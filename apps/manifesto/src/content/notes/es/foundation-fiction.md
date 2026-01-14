@@ -1,6 +1,9 @@
 ---
 title: Ficción de la Fundación
 description: Conceptos inspirados en Asimov que orientan la visión de Coscientist
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 La ficción de la Fundación se refiere a conceptos de la serie _Foundation_ de

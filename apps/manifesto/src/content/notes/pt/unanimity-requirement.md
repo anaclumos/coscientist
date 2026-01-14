@@ -3,6 +3,9 @@ title: Requisito de Unanimidade
 description:
   Regra que estabelece que afirmações são aceitas apenas quando todos os
   revisores concordam
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 O requisito de unanimidade é a regra no

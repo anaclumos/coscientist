@@ -1,6 +1,9 @@
 ---
 title: Reikwijdte
 description: De voorwaarden waaronder een claim van toepassing is
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 Reikwijdte definieert waar en wanneer een [claim](./claim) bedoeld is om van

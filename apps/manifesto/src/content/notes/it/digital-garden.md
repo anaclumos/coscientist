@@ -1,6 +1,9 @@
 ---
 title: Giardino digitale
 description: Una raccolta pubblica e in evoluzione di note interconnesse
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 Un giardino digitale è una raccolta pubblica e in evoluzione di note

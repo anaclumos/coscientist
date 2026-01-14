@@ -3,6 +3,9 @@ title: Dự án PIRI
 description:
   Một sáng kiến bị hủy bỏ nhằm cung cấp bản dịch không giới hạn cho tài liệu lập
   trình
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Dự án PIRI là sáng kiến của [Sunghyun Cho](./sunghyun-cho) nhằm cung cấp bản

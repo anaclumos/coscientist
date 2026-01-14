@@ -1,6 +1,9 @@
 ---
 title: Vom Memex zum Dialektischen Graphen
 description: Entwicklung von assoziativen Pfaden zu argumentativer Struktur
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Vom Memex zum Dialektischen Graphen zeichnet die Entwicklung persönlicher

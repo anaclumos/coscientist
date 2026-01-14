@@ -1,6 +1,9 @@
 ---
 title: 謝頓計畫
 description: 哈里·謝頓用以縮短黑暗時代的長期策略
+sourceLocale: en
+sourceHash: 879a58531fb4
+translatedAt: 2026-01-14
 ---
 
 謝頓計畫是 [哈里·謝頓](./hari-seldon)

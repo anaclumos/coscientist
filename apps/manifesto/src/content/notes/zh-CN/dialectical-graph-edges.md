@@ -1,6 +1,9 @@
 ---
 title: 辩证图的边类型
 description: 在辩证知识图谱中连接节点的关系类型
+sourceLocale: en
+sourceHash: e060cb9fd333
+translatedAt: 2026-01-14
 ---
 
 在 [辩证图](./dialectical-graph)

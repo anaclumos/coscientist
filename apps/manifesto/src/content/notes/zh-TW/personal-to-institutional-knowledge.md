@@ -1,6 +1,9 @@
 ---
 title: 從個人知識到機構知識
 description: 將個人知識實踐擴展到組織
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 從個人到機構的知識，是指一個原本服務單一個人的[數位大腦](./digital-brain)，轉變為服務團隊、實驗室或組織的系統。對個人筆記有效的方法不會自動隨規模擴張：治理（governance）、共享詞彙，以及信任邊界會成為一級（first-order）關切。

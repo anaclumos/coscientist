@@ -1,6 +1,9 @@
 ---
 title: Komunikasi Antar-Sprachraum
 description: Dialog dan pertukaran pengetahuan lintas ranah bahasa
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 Komunikasi Antar-Sprachraum adalah pertukaran gagasan melintasi batas-batas

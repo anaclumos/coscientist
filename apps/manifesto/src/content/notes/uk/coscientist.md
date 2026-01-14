@@ -1,6 +1,9 @@
 ---
 title: Coscientist
 description: Система інтелектуального компаньйона для продукування знань у пост-AI епоху
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist — це сервіс з відкритим кодом, натхненний вигаданою

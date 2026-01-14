@@ -1,6 +1,9 @@
 ---
 title: Linea di responsabilità
 description: La catena tracciabile di chi ha affermato cosa e su quali basi
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 La linea di responsabilità è la catena tracciabile di chi ha affermato cosa e su

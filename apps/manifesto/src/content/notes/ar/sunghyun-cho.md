@@ -1,6 +1,9 @@
 ---
 title: سونغهيون تشو
 description: مطوّر Coscientist ومؤلف مقالاته التأسيسية
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 سونغهيون تشو هو مطوّر [العالِم المشارك](./coscientist) ومؤلف مقالات شكّلت وجهته.

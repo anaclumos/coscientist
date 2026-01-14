@@ -1,6 +1,9 @@
 ---
 title: Fidelidad de traducción
 description: Preservar el significado y la precisión a través de las fronteras lingüísticas
+sourceLocale: en
+sourceHash: 5b698486c4d0
+translatedAt: 2026-01-14
 ---
 
 La fidelidad de traducción es el grado en que el contenido traducido preserva el

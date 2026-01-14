@@ -3,6 +3,9 @@ title: Intercalado dialéctico
 description:
   Mezclar tipos de afirmaciones durante la exploración para evitar silos y
   perforar la falsa competencia
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 El intercalado dialéctico es la práctica de mezclar tipos de

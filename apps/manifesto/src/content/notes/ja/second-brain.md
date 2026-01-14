@@ -1,6 +1,9 @@
 ---
 title: セカンドブレイン
 description: アイデアを外部化するためのパーソナル・ナレッジ・マネジメントのアプローチ
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 「セカンドブレイン」は、頭の外でメモを収集し、整理し、取り出せるようにすることに焦点を当てた、パーソナル・ナレッジ・マネジメント（personal

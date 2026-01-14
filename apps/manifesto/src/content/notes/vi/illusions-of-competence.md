@@ -1,6 +1,9 @@
 ---
 title: Ảo tưởng về năng lực
 description: Cảm giác làm chủ sai lầm được tạo ra bởi sự quen thuộc thụ động
+sourceLocale: en
+sourceHash: 75804f84b0ff
+translatedAt: 2026-01-14
 ---
 
 Ảo tưởng về năng lực xảy ra khi sự quen thuộc bị nhầm lẫn với sự làm chủ. Đọc

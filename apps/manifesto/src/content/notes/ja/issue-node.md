@@ -1,6 +1,9 @@
 ---
 title: イシューノード
 description: 弁証法グラフにおける、衝突する主張クラスタの束
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 イシューノード（issue

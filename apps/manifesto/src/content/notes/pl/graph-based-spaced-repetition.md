@@ -3,6 +3,9 @@ title: Powtórki rozłożone w czasie oparte na grafach
 description:
   Wykorzystywanie wieku twierdzenia lub wieku kontrargumentu do uruchamiania
   ponownej weryfikacji
+sourceLocale: en
+sourceHash: 1c4655730a74
+translatedAt: 2026-01-14
 ---
 
 Powtórki rozłożone w czasie oparte na grafach stosują zasady

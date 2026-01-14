@@ -1,6 +1,9 @@
 ---
 title: Phân loại bất tương thích
 description: Các dạng bất đồng giữa các nguồn
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 Phân loại bất tương thích là một hệ thống phân loại lý do vì sao các nguồn bất

@@ -3,6 +3,9 @@ title: Memex multilingue
 description:
   Un sistema di conoscenza personale consapevole della lingua con supporto alla
   traduzione automatica
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 Un Memex multilingue è un sistema di conoscenza personale che supporta

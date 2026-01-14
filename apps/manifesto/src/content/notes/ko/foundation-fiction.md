@@ -1,6 +1,9 @@
 ---
 title: 파운데이션 픽션
 description: Coscientist의 비전에 영향을 준 아시모프 영감의 개념들
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 파운데이션 픽션은 [아이작 아시모프](./isaac-asimov)의 _파운데이션_ 시리즈에서

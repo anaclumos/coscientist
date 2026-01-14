@@ -3,6 +3,9 @@ title: La controverse comme ancrage mémorable
 description:
   Les désaccords demandent un effort cognitif et créent des traces mnésiques
   plus fortes
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 « La controverse comme ancrage mémorable » est l’observation selon laquelle la

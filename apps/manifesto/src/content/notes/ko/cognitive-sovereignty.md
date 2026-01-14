@@ -1,6 +1,9 @@
 ---
 title: 인지적 주권
 description: 지식 노동에서 판단과 검증에 대한 인간의 통제
+sourceLocale: en
+sourceHash: 1831665ecaf7
+translatedAt: 2026-01-14
 ---
 
 인지적 주권은 지식 생산에서 인간의 판단과 검증이 통제권을 유지하도록 하겠다는

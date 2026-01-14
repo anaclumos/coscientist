@@ -3,6 +3,9 @@ title: Tassonomia dello stato delle affermazioni
 description:
   Gli stati in cui un’affermazione può trovarsi all’interno di un grafo
   dialettico
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 La tassonomia dello stato delle [affermazioni](./claim) definisce gli stati che

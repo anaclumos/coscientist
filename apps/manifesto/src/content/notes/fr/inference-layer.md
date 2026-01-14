@@ -1,6 +1,9 @@
 ---
 title: Couche d’inférence
 description: Le réseau vivant et évolutif de revendications dans un graphe dialectique
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 La couche d’inférence est le réseau vivant et évolutif de

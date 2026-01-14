@@ -3,6 +3,9 @@ title: IA
 description:
   L’intelligence artificielle à la fois comme outil et comme défi pour les
   systèmes de connaissance
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 L’IA dans le contexte de [Coscientifique](./coscientist) désigne des systèmes

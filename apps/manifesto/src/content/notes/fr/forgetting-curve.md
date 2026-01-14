@@ -1,6 +1,9 @@
 ---
 title: Courbe de l’oubli
 description: La diminution prévisible de la mémoire sans révision
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 La courbe de l’oubli décrit la baisse prévisible du rappel lorsque l’information

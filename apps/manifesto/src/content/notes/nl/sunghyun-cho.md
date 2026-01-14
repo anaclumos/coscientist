@@ -1,6 +1,9 @@
 ---
 title: Sunghyun Cho
 description: Bouwer van Coscientist en auteur van de fundamentele essays
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 Sunghyun Cho is de bouwer van [Cowetenschapper](./coscientist) en de auteur van

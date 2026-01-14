@@ -1,6 +1,9 @@
 ---
 title: Ewolucja wiedzy osobistej
 description: Historyczny rozwój narzędzi i idei zarządzania wiedzą osobistą
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 Ewolucja wiedzy osobistej śledzi rozwój narzędzi i idei służących do zarządzania

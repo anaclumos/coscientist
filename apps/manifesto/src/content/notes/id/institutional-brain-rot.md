@@ -3,6 +3,9 @@ title: Pelapukan Otak Institusional
 description:
   Mode kegagalan organisasi di mana kapasitas verifikasi kolektif mengalami
   degradasi
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 Pelapukan otak institusional adalah mode kegagalan di mana kapasitas kolektif

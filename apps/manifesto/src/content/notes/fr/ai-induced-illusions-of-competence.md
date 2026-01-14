@@ -3,6 +3,9 @@ title: Illusions de compétence induites par l’IA
 description:
   Comment la maîtrise apparente de l’IA crée une fausse expertise chez les
   utilisateurs
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 Les illusions de compétence induites par l’IA surviennent lorsque les

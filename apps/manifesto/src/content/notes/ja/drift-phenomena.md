@@ -1,6 +1,9 @@
 ---
 title: ドリフト現象
 description: 知識システムにおける時間駆動の変化
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 ドリフト現象とは、知識システムが時間の経過とともに（多くの場合は見えない形で）変化し、その結果として、一見すると矛盾のように見えるが実際には時間的な不一致（temporal

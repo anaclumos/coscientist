@@ -1,6 +1,9 @@
 ---
 title: "توکن‌ها ≠ دانش"
 description: جست‌وجویی شخصی برای یک اسکلت بیرونیِ شناختی
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 من، [سونگ‌هیون چو](./sunghyun-cho)، با احترام عمیقی نسبت به دانشنامه‌ها و ایده‌ی

@@ -1,6 +1,9 @@
 ---
 title: 以反例為先的搜尋
 description: 將反例置於支持性證據之前的優先策略
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 以反例為先的搜尋是一種[探索策略](./exploration-strategies)，它將「受歡迎程度」視為風險訊號，而不是品質的證據。一個[主張](./claim)被重複傳播得越廣，就越值得去尋找[反例](./counterexample)與邊界條件，因為熱門主張中的錯誤在[百科全書熔毀](./encyclopedia-meltdown)中會造成更大的爆炸半徑。

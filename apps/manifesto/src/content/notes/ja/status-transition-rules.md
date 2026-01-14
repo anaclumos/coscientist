@@ -1,6 +1,9 @@
 ---
 title: ステータス遷移ルール
 description: 弁証法グラフにおいて、主張の状態間の移動を引き起こすもの
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 ステータス遷移ルールは、[主張](./claim)が[主張ステータス分類体系](./claim-status-taxonomy)の中で、ある状態から別の状態へ移るきっかけを定義します。遷移は数ではなく挑戦の種類に依存します。説得力のない異議が多数あることよりも、単一の決定的な[反例](./counterexample)のほうが重要です。

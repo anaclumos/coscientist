@@ -1,6 +1,9 @@
 ---
 title: Camadas do Sistema de Conhecimento
 description: As camadas arquiteturais do Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 As camadas do sistema de conhecimento são os componentes arquiteturais distintos

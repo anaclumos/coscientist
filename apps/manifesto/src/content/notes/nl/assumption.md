@@ -1,6 +1,9 @@
 ---
 title: Aanname
 description: Een impliciete premisse die aan een bewering ten grondslag ligt
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Een aanname is een impliciete premisse waarvan een [bewering](./claim) afhangt,

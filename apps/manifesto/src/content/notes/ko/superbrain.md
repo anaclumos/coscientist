@@ -1,6 +1,9 @@
 ---
 title: 슈퍼브레인
 description: 인간 지능을 생물학적 한계를 넘어 증폭시키는 외재화된 인지 외골격에 대한 비전
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 슈퍼브레인은 [조성현](./sunghyun-cho)가 인간 지능을 생물학적 한계를 넘어

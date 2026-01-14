@@ -1,6 +1,9 @@
 ---
 title: 艾萨克·阿西莫夫
 description: 科幻作家，其《基地》系列启发了 Coscientist 的愿景
+sourceLocale: en
+sourceHash: 83360f2cee16
+translatedAt: 2026-01-14
 ---
 
 艾萨克·阿西莫夫（1920–1992）是一位多产的科幻作家与生物化学教授。他的《基地》系列为

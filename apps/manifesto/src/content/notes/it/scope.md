@@ -1,6 +1,9 @@
 ---
 title: Ambito
 description: Le condizioni di applicabilità di un'asserzione
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 L'ambito definisce dove e quando un'[asserzione](./claim) è intesa ad

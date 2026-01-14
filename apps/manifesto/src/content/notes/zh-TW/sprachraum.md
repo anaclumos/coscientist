@@ -1,6 +1,9 @@
 ---
 title: 語言空間
 description: 形塑思維與知識的語言領域或範疇
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum（德語：「語言空間」或「語言領域」）指由某一特定語言所界定的範疇，不僅涵蓋使用者，也涵蓋該語言所承載的概念框架、文化脈絡與知識傳統。

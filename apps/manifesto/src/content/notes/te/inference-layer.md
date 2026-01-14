@@ -1,6 +1,9 @@
 ---
 title: నిర్ధారణ పొర
 description: డయలెక్టికల్ గ్రాఫ్‌లో జీవంతో, పరిణామంతో సాగుతూ మారే క్లెయిమ్ నెట్‌వర్క్
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 నిర్ధారణ పొర అనేది [డయలెక్టికల్ గ్రాఫ్](./dialectical-graph)‌లో

@@ -1,6 +1,9 @@
 ---
 title: Umwelt-Drift
 description: Veränderungen in der Welt, die zuvor gültiges Wissen ungültig machen
+sourceLocale: en
+sourceHash: f1d0cb3718a2
+translatedAt: 2026-01-14
 ---
 
 Umwelt-Drift ist die Kategorie von [Drift-Phänomenen](./drift-phenomena), bei

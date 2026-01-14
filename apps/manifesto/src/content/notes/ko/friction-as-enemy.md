@@ -1,6 +1,9 @@
 ---
 title: 마찰은 적이다
 description: 마찰이 개인 지식 워크플로를 죽인다는 설계 원칙
+sourceLocale: en
+sourceHash: 78d664aa5836
+translatedAt: 2026-01-14
 ---
 
 "마찰은 적이다"는 지식을 포착하고, 정리하고, 검색하는 과정에서 불필요한 노력이

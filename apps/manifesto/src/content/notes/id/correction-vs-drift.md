@@ -3,6 +3,9 @@ title: Koreksi vs Drift
 description:
   Prinsip ekonomi bahwa sebuah sistem pengetahuan hanya bertahan jika biaya
   koreksi tetap di bawah biaya drift
+sourceLocale: en
+sourceHash: 5b62e4845eb0
+translatedAt: 2026-01-14
 ---
 
 Koreksi vs drift adalah prinsip ekonomi bahwa sebuah sistem pengetahuan tetap

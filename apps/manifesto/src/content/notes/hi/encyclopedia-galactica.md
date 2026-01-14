@@ -1,6 +1,9 @@
 ---
 title: एनसाइक्लोपीडिया गैलेक्टिका
 description: अंधकार युगों के पार ज्ञान को सुरक्षित रखने की एक अवधारणा
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 एनसाइक्लोपीडिया गैलेक्टिका [आइज़ैक असिमोव](./isaac-asimov) की _Foundation_

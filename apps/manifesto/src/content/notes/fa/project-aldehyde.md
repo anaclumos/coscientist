@@ -1,6 +1,9 @@
 ---
 title: پروژه آلدئید
 description: تلاشی اولیه برای ساختن یک مغز دیجیتال شخصی
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 پروژه آلدئید تلاش اولیه [سونگ‌هیون چو](./sunghyun-cho) برای ساختن یک

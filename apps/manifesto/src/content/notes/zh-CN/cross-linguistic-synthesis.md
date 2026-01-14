@@ -1,6 +1,9 @@
 ---
 title: 跨语言综合
 description: 将多种语言的知识整合为统一理解
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 跨语言综合是将不同语言来源的知识合并成单一、连贯理解的过程。它不只是翻译：它让来自不同[语言区（Sprachraums）](./sprachraum)的思想相遇、分歧，并相互更新。

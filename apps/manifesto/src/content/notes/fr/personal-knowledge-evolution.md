@@ -3,6 +3,9 @@ title: Évolution des connaissances personnelles
 description:
   Progression historique des outils et des idées de gestion des connaissances
   personnelles
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 L’évolution des connaissances personnelles retrace le développement des outils

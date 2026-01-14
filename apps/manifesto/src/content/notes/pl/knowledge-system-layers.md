@@ -1,6 +1,9 @@
 ---
 title: Warstwy systemu wiedzy
 description: Architektoniczne warstwy Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 Warstwy systemu wiedzy to odrębne komponenty architektoniczne, które składają

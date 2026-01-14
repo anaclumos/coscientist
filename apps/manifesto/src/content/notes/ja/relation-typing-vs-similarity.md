@@ -1,6 +1,9 @@
 ---
 title: 関係タイプ付け vs 類似度
 description: タイプ付きエッジが、類似度ベースの検索では解決できないことを解決する理由
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 関係タイプ付けと類似度は、知識をつなぐための2つのアプローチを対比するものです。類似度ベースの検索（[RAG](./rag)

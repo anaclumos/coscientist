@@ -1,6 +1,9 @@
 ---
 title: Phénomènes de dérive
 description: Changements des systèmes de connaissance au fil du temps
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 Les phénomènes de dérive sont les manières dont les systèmes de connaissance

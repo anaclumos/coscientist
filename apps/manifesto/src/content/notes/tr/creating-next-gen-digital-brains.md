@@ -1,6 +1,9 @@
 ---
 title: Yeni Nesil Dijital Beyinler Oluşturmak
 description: Sürtünmesiz, algoritma odaklı kişisel bilgi sistemleri üzerine bir deneme
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 "Yeni Nesil Dijital Beyinler Oluşturmak", kişisel bilgi sistemlerinin sürtünmeyi

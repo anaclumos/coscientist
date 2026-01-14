@@ -1,6 +1,9 @@
 ---
 title: オペレーター
 description: Coscientistにおける知識に対する人間の主権者
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 オペレーター（Operator）とは、[コサイエンティスト](./coscientist)における知識に対する人間の主権者です。この名称が喚起するのは、[銀河百科事典](./encyclopedia-galactica)の守護者兼アーキテクトのような存在──アウトプットだけでなく、構造、来歴（provenance）、訂正に責任を持つ人物です。

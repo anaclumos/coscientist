@@ -1,6 +1,9 @@
 ---
 title: Capa de Inferencia
 description: La red viva y evolutiva de afirmaciones en un grafo dialéctico
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 La capa de inferencia es la red viva y evolutiva de [afirmaciones](./claim),

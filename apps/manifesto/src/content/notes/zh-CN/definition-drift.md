@@ -1,6 +1,9 @@
 ---
 title: 定义漂移
 description: 当一个术语的含义随时间或语境发生变化
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 定义漂移（definition

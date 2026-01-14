@@ -1,6 +1,9 @@
 ---
 title: Next-gen digitale breinen creëren
 description: Essay over wrijvingsloze, algoritmegedreven persoonlijke kennissystemen
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 "Next-gen digitale breinen creëren" is een essay van

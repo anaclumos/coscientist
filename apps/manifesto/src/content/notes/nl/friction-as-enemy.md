@@ -1,6 +1,9 @@
 ---
 title: Frictie als vijand
 description: Ontwerpprincipe dat frictie persoonlijke kennisworkflows om zeep helpt
+sourceLocale: en
+sourceHash: 78d664aa5836
+translatedAt: 2026-01-14
 ---
 
 Frictie als vijand is het ontwerpprincipe dat onnodige moeite bij het

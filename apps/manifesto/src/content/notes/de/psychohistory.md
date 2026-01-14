@@ -1,6 +1,9 @@
 ---
 title: Psychohistorie
 description: Eine fiktive statistische Wissenschaft in Asimovs Foundation
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 Psychohistorie ist eine fiktive Disziplin in der Foundation-Reihe von

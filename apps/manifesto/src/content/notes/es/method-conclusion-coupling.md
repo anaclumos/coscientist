@@ -3,6 +3,9 @@ title: Acoplamiento método-conclusión
 description:
   Patrón de análisis que agrupa afirmaciones por método en lugar de por
   conclusión
+sourceLocale: en
+sourceHash: 8987bb9190cf
+translatedAt: 2026-01-14
 ---
 
 El acoplamiento método-conclusión es un patrón de análisis que agrupa las

@@ -1,6 +1,9 @@
 ---
 title: Ilusi Kompetensi
 description: Rasa penguasaan palsu yang terbentuk dari keakraban pasif
+sourceLocale: en
+sourceHash: 75804f84b0ff
+translatedAt: 2026-01-14
 ---
 
 Ilusi kompetensi terjadi ketika keakraban disalahartikan sebagai penguasaan.

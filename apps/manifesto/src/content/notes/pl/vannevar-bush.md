@@ -1,6 +1,9 @@
 ---
 title: Vannevar Bush
 description: Inżynier i administrator nauki, który wyobraził sobie Memex
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 Vannevar Bush (1890–1974) był amerykańskim inżynierem, wynalazcą i

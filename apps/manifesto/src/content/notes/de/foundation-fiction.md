@@ -1,6 +1,9 @@
 ---
 title: Foundation-Fiktion
 description: Von Asimov inspirierte Konzepte, die Coscientists Vision prägen
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 Foundation-Fiktion bezeichnet Konzepte aus [Isaac Asimov](./isaac-asimov)s

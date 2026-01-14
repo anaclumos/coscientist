@@ -1,6 +1,9 @@
 ---
 title: Encyklopedia Galactica
 description: Koncepcja zachowania wiedzy na czas ciemnych wieków
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 Encyklopedia Galactica to fikcyjne urządzenie w cyklu Fundacja

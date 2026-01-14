@@ -1,6 +1,9 @@
 ---
 title: Sebagaimana Kita Mungkin Berpikir
 description: Esai Vannevar Bush tahun 1945 yang menguraikan Memex
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 "Sebagaimana Kita Mungkin Berpikir" adalah esai tahun 1945 karya

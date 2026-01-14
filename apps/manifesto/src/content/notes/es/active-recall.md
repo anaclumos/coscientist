@@ -1,6 +1,9 @@
 ---
 title: Recuerdo activo
 description: Estudiar recuperando información de la memoria
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 El recuerdo activo consiste en estudiar intentando producir la respuesta desde

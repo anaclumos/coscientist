@@ -1,6 +1,9 @@
 ---
 title: Kognisi Dwibahasa
 description: Kapasitas untuk berpikir dan beroperasi dalam beberapa bahasa secara bersamaan
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 Kognisi dwibahasa adalah kemampuan untuk berpikir dan bekerja dalam lebih dari

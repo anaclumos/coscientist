@@ -1,6 +1,9 @@
 ---
 title: Graaf als verdediging tegen meltdown
 description: Hoe de dialectische graafstructuur kennisinstorting voorkomt
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 Graaf als verdediging tegen meltdown legt uit hoe de

@@ -1,6 +1,9 @@
 ---
 title: Tassonomia delle incompatibilità
 description: Categorie di disaccordo tra fonti
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 La tassonomia delle incompatibilità è una classificazione dei motivi per cui le

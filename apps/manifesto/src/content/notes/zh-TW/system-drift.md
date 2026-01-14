@@ -1,6 +1,9 @@
 ---
 title: 系統漂移
 description: 知識系統因自我污染或疏於維護而逐步劣化
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 系統漂移是[漂移現象](./drift-phenomena)的一種類別：知識系統本身會隨時間劣化，且不依賴語義或環境的變化。

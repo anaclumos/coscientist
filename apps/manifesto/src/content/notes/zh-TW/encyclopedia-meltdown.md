@@ -1,6 +1,9 @@
 ---
 title: 百科熔毀
 description: 當 AI 在無人類介入下主動接管時出現的知識崩塌現象
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 百科熔毀（Encyclopedia

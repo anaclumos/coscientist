@@ -1,6 +1,9 @@
 ---
 title: 模型崩塌
 description: 在自身生成的数据上训练的模型出现的退化
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 模型崩塌（Model

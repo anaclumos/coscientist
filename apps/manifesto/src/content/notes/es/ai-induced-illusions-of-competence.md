@@ -1,6 +1,9 @@
 ---
 title: Ilusiones de competencia inducidas por IA
 description: Cómo la fluidez con la IA crea una falsa maestría en los usuarios
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 Las ilusiones de competencia inducidas por IA ocurren cuando los usuarios

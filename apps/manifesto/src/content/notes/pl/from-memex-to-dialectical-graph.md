@@ -1,6 +1,9 @@
 ---
 title: Od Memexu do Grafu Dialektycznego
 description: Ewolucja od ścieżek asocjacyjnych do struktury argumentacyjnej
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Od Memexu do Grafu Dialektycznego śledzi ewolucję osobistych systemów wiedzy: od

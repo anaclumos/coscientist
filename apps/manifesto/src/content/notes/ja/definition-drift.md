@@ -1,6 +1,9 @@
 ---
 title: 定義ドリフト
 description: 用語の意味が時間や文脈によって変化すること
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 定義ドリフト（definition

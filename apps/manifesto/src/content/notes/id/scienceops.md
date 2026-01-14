@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: Menerapkan prinsip operasi perangkat lunak untuk mempercepat sains
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps adalah visi [Sunghyun Cho](./sunghyun-cho) untuk menerapkan cara

@@ -1,6 +1,9 @@
 ---
 title: Psychohistoire
 description: Une science statistique fictive dans Fondation d’Asimov
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 La psychohistoire est une discipline fictive dans la série _Fondation_

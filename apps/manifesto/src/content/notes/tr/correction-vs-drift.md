@@ -3,6 +3,9 @@ title: Düzeltme vs Kayma
 description:
   Bir bilgi sisteminin ancak düzeltme maliyeti kayma maliyetinin altında
   kaldığında hayatta kalabileceğini söyleyen ekonomik ilke
+sourceLocale: en
+sourceHash: 5b62e4845eb0
+translatedAt: 2026-01-14
 ---
 
 Düzeltme vs kayma, bir bilgi sisteminin ancak hataları düzeltmenin maliyeti,

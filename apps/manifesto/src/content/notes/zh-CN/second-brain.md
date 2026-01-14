@@ -1,6 +1,9 @@
 ---
 title: 第二大脑
 description: 一种将想法外化的个人知识管理方法
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 "第二大脑"是一种个人知识管理方法，侧重于在头脑之外捕捉、组织并检索笔记。在实践中，它通常强调工作流程与策展：收件箱、分类、标签，以及定期回顾。

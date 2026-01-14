@@ -1,6 +1,9 @@
 ---
 title: فرض
 description: پیش‌فرضِ ضمنیِ پشتیبانِ یک ادعا
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 فرض یک پیش‌فرضِ ضمنی است که یک [ادعا](./claim) به آن وابسته است اما آن را

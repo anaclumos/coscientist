@@ -1,6 +1,9 @@
 ---
 title: Çıkarım Katmanı
 description: Diyalektik bir grafikte yaşayan, evrilen iddia ağı
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 Çıkarım katmanı, bir [Diyalektik Graf](./dialectical-graph) içindeki

@@ -1,6 +1,9 @@
 ---
 title: Mecanismos de síntesis
 description: Patrones para hacer comparables fuentes incompatibles
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 Los mecanismos de síntesis son los patrones y protocolos que

@@ -1,6 +1,9 @@
 ---
 title: Ataque
 description: Um desafio direto à veracidade de uma alegação
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 Um ataque é um desafio direto à veracidade de uma [alegação](./claim). Ao

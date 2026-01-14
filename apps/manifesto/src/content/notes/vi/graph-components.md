@@ -1,6 +1,9 @@
 ---
 title: Các thành phần của đồ thị
 description: Các loại nút và cạnh tạo nên một đồ thị biện chứng
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 Các thành phần đồ thị là những khối xây dựng của một

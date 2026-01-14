@@ -1,6 +1,9 @@
 ---
 title: Karşı-Örnek Öncelikli Arama
 description: Destekleyici kanıtlar yerine karşı örneklere öncelik veren strateji
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 Karşı-örnek öncelikli arama, popülerliği kalite kanıtı olarak değil, bir risk

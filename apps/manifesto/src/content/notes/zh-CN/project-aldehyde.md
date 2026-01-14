@@ -1,6 +1,9 @@
 ---
 title: 醛项目（Project Aldehyde）
 description: 构建个人数字大脑的一次早期尝试
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 醛项目（Project Aldehyde）是 [曹成贤](./sunghyun-cho)

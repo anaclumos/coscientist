@@ -1,6 +1,9 @@
 ---
 title: 综合机制
 description: 用于让不兼容来源具备可比性的模式
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 综合机制是 [共研者](./coscientist)

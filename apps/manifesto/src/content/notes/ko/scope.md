@@ -1,6 +1,9 @@
 ---
 title: 범위
 description: 주장에 대한 적용 가능 조건
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 범위는 [주장](./claim)이 어디에서, 언제 적용되도록 의도되는지를 정의한다. 즉,

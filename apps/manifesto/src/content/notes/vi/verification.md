@@ -1,6 +1,9 @@
 ---
 title: Xác minh
 description: Quá trình kiểm tra các tuyên bố đối chiếu với bằng chứng và phản bằng chứng
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 Xác minh là quá trình kiểm tra xem một tuyên bố có đứng vững trước bằng chứng,

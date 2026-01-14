@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: Ranah atau ruang bahasa yang membentuk cara berpikir dan pengetahuan
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum adalah ranah yang ditentukan oleh suatu bahasa tertentu, mencakup

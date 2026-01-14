@@ -1,6 +1,9 @@
 ---
 title: Comunicazione Inter-Sprachraum
 description: Dialogo e scambio di conoscenze tra domini linguistici
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 La comunicazione Inter-Sprachraum è lo scambio di idee oltre i confini

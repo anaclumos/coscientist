@@ -1,6 +1,9 @@
 ---
 title: 모델 붕괴
 description: 스스로 생성한 데이터로 학습된 모델의 성능 저하
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 모델 붕괴는 모델이 점점 더 많은 AI 생성 데이터로 학습될 때 발생할 수 있는 성능

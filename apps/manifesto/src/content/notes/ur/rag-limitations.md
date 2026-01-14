@@ -1,6 +1,9 @@
 ---
 title: RAG کی حدود
 description: معیاری Retrieval-Augmented Generation حقیقی دریافت کیوں پیدا نہیں کر سکتا
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) متعلقہ دستاویزات بازیافت کر کے حقائقیت بہتر بناتا ہے، مگر معیاری

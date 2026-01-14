@@ -1,6 +1,9 @@
 ---
 title: 操作员
 description: Coscientist 中对知识拥有主权的人类
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 "操作员"是在 [共研者](./coscientist)

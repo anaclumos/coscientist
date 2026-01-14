@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: Áp dụng các nguyên tắc vận hành phần mềm để tăng tốc khoa học
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps là tầm nhìn của [Sunghyun Cho](./sunghyun-cho) về việc áp dụng tư duy

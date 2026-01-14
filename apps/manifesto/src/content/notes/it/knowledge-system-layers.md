@@ -1,6 +1,9 @@
 ---
 title: Livelli del sistema di conoscenza
 description: I livelli architetturali di Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 I livelli del sistema di conoscenza sono i componenti architetturali distinti

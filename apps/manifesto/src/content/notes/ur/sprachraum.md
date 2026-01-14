@@ -1,6 +1,9 @@
 ---
 title: اسپراخ‌راؤم
 description: زبان کا ایک دائرہ یا حوزه جو فکر اور علم کو شکل دیتا ہے
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 اسپراخ‌راؤم (جرمن: "language space" یا "language sphere") اس دائرے کو کہتے ہیں

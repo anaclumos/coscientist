@@ -1,6 +1,9 @@
 ---
 title: ハリ・セルダン
 description: アシモフの『ファウンデーション』において心理歴史学を創始した架空の数学者
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 ハリ・セルダンは、[アイザック・アシモフ](./isaac-asimov)の『ファウンデーション』シリーズに登場する架空の数学者で、[心理歴史学](./psychohistory)を発展させ、[セルダン・プラン](./seldon-plan)を設計した人物である。[銀河帝国](./galactic-empire)が不可避的に崩壊すると見抜いた彼は、表向きには[銀河百科事典](./encyclopedia-galactica)を編纂するためとしてターミナスにファウンデーションを設立したが、実際には人類の復興の種を密かに蒔くためだった。

@@ -3,6 +3,9 @@ title: Zero-Trust-Ingestion
 description:
   Protokoll, das eine explizite Provenienz verlangt, bevor Behauptungen
   akzeptiert werden
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 Zero-Trust-Ingestion ist ein Protokoll, das eingehende Informationen

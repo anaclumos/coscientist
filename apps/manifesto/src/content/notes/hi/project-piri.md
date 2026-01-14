@@ -1,6 +1,9 @@
 ---
 title: प्रोजेक्ट PIRI
 description: प्रोग्रामिंग दस्तावेज़ों के असीमित अनुवादों के लिए एक रद्द की गई पहल
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 प्रोजेक्ट PIRI [सुंगह्यून चो](./sunghyun-cho) की वह पहल थी जिसका उद्देश्य प्रमुख

@@ -3,6 +3,9 @@ title: Ent-Hirnverrottung
 description:
   Aktiver Prozess zur Wiederherstellung von Verifikationsfähigkeit und
   Handlungsfähigkeit in einer post-KI-Informationsumgebung
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Ent-Hirnverrottung ist der aktive Prozess, die Fähigkeit zur Verifikation und

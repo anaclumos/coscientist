@@ -1,6 +1,9 @@
 ---
 title: 知识宪章
 description: 作为治理性文件的认识论协议层，用于规定主张如何获得权威
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 知识宪章是一套规则，用来治理[主张](./claim)如何进入知识系统、如何被质疑，以及在获得权威之前需要满足何种[可追溯性](./traceability)。它的功能类似政治宪法：规定权力、边界与程序，而非规定内容本身。

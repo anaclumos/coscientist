@@ -1,6 +1,9 @@
 ---
 title: Luyện tập truy hồi
 description: Củng cố trí nhớ bằng cách chủ động gợi nhớ thông tin
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 Luyện tập truy hồi là cách củng cố trí nhớ bằng việc chủ động gợi nhớ thông tin,

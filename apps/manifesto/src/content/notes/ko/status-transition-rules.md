@@ -1,6 +1,9 @@
 ---
 title: 상태 전이 규칙
 description: 변증법적 그래프에서 주장 상태 사이의 이동을 촉발하는 요인
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 상태 전이 규칙은 [주장](./claim)이

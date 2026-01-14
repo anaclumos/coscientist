@@ -1,6 +1,9 @@
 ---
 title: 변증법적 그래프 엣지
 description: 변증법적 지식 그래프에서 노드를 연결하는 관계 유형
+sourceLocale: en
+sourceHash: e060cb9fd333
+translatedAt: 2026-01-14
 ---
 
 [변증법적 그래프](./dialectical-graph)에서 엣지는 유사도 점수보다는 관계 유형을

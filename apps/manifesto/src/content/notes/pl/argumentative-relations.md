@@ -1,6 +1,9 @@
 ---
 title: Relacje argumentacyjne
 description: Typy krawędzi w grafie dialektycznym uporządkowane według funkcji
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 Relacje argumentacyjne to typy krawędzi w

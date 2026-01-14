@@ -1,6 +1,9 @@
 ---
 title: Verteilte Wiederholung
 description: Eine Lerntechnik, die auf zunehmend größeren Wiederholungsabständen basiert
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 Verteilte Wiederholung ist eine evidenzbasierte Methode, Wiederholungen so zu

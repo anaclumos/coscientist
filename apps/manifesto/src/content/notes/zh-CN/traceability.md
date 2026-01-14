@@ -1,6 +1,9 @@
 ---
 title: 可追溯性
 description: 能够将一个主张追溯到其来源与依据的能力
+sourceLocale: en
+sourceHash: 8ce5fa515f95
+translatedAt: 2026-01-14
 ---
 
 可追溯性是指能够沿着某个主张的支撑结构反向追踪的能力：从结论到前提，从前提到证据，从证据到来源，再从来源到产生它们的方法与语境。它是可执行的[溯源](./provenance)。

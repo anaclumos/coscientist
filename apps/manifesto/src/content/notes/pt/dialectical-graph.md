@@ -3,6 +3,9 @@ title: Grafo Dialético
 description:
   Um modelo de grafo de conhecimento que armazena afirmações e relações, em vez
   do conteúdo de documentos
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 Um grafo dialético é um grafo de conhecimento que armazena a estrutura

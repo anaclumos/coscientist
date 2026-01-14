@@ -1,6 +1,9 @@
 ---
 title: 聯邦化知識網路
 description: 互聯的 Coscientist 實例在保留本地主權的同時交換已驗證的知識
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 聯邦化知識網路是一個由個人、組織與公共尺度上的互聯 [共科學家](./coscientist)

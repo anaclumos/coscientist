@@ -1,6 +1,9 @@
 ---
 title: 意味の喪失
 description: 用語の意味が変化したために、主張が時代遅れになること
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 意味の喪失（meaning

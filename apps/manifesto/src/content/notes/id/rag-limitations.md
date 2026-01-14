@@ -3,6 +3,9 @@ title: Keterbatasan RAG
 description:
   Mengapa retrieval-augmented generation standar tidak dapat menghasilkan
   penemuan yang autentik
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) meningkatkan ketepatan faktual dengan mengambil dokumen yang

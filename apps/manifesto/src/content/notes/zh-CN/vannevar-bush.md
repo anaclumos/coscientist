@@ -1,6 +1,9 @@
 ---
 title: 瓦内瓦尔·布什
 description: 设想了 Memex 的工程师与科学行政管理者
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 瓦内瓦尔·布什（Vannevar

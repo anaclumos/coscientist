@@ -1,6 +1,9 @@
 ---
 title: Çeviri Sadakati
 description: Dil sınırları boyunca anlamı ve doğruluğu korumak
+sourceLocale: en
+sourceHash: 5b698486c4d0
+translatedAt: 2026-01-14
 ---
 
 Çeviri sadakati, çevrilmiş içeriğin özgünün anlamını, nüansını ve doğruluğunu ne

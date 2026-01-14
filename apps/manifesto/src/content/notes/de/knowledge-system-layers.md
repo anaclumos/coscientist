@@ -1,6 +1,9 @@
 ---
 title: Schichten des Wissenssystems
 description: Die architektonischen Schichten von Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 Die Schichten des Wissenssystems sind die klar abgegrenzten

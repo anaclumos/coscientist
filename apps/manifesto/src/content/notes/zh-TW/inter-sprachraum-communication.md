@@ -1,6 +1,9 @@
 ---
 title: 跨語域溝通
 description: 跨越語言領域的對話與知識交換
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 跨語域（Inter-Sprachraum）溝通，是指以能保留意義、並促成真實對話的方式，跨越語言邊界交換想法。它不僅僅是翻譯；而是在不同的

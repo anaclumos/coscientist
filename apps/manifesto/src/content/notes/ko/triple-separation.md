@@ -1,6 +1,9 @@
 ---
 title: 삼중 분리
 description: 원문 텍스트, 정규화된 주장, 명시적 관계를 분리하는 아키텍처 규칙
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 삼중 분리는 [변증법적 그래프](./dialectical-graph)에서 세 가지 계층을 서로

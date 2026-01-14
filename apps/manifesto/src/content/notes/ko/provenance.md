@@ -1,6 +1,9 @@
 ---
 title: 출처 이력
 description: 주장과 증거의 기원 및 보관·전달(관리) 연쇄
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 출처 이력은 어떤 주장이나 증거 조각의 기원과 보관·전달(관리) 연쇄를 뜻한다. 즉

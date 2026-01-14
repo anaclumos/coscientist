@@ -1,6 +1,9 @@
 ---
 title: Hư cấu Foundation
 description: Các khái niệm lấy cảm hứng từ Asimov định hình tầm nhìn của Coscientist
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 "Hư cấu Foundation" đề cập đến các khái niệm từ loạt truyện Foundation của

@@ -1,6 +1,9 @@
 ---
 title: スコープ
 description: 主張の適用可能性に関する条件
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 スコープ（scope）は、[主張](./claim)がどこで・いつ適用されることを意図しているかを定義します。つまり、その主張が成り立つとされる母集団、期間、文脈、または条件のことです。明示的なスコープのない主張は曖昧であり、スコープが過度に広い主張は[反例](./counterexample)に弱くなります。

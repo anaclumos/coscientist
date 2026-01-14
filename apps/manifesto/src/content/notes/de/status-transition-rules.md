@@ -3,6 +3,9 @@ title: Regeln für Statusübergänge
 description:
   Was die Bewegung zwischen Behauptungszuständen in einem dialektischen Graphen
   auslöst
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 Regeln für Statusübergänge definieren, was eine [Behauptung](./claim) von einem

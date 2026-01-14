@@ -1,6 +1,9 @@
 ---
 title: 联邦式知识网络
 description: 相互连接的 Coscientist 实例在保留本地主权的同时交换经验证的知识
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 联邦式知识网络是一种由个人、组织与公共尺度上的互联 [共研者](./coscientist)

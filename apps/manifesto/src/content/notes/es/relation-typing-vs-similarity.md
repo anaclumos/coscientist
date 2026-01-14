@@ -3,6 +3,9 @@ title: Tipado de relaciones vs similitud
 description:
   Por qué las aristas tipadas resuelven lo que la recuperación basada en
   similitud no puede
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 Tipado de relaciones vs similitud contrapone dos enfoques para conectar

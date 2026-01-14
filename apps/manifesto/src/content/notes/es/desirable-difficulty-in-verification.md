@@ -3,6 +3,9 @@ title: Dificultad deseable en la verificación
 description:
   Hacer que la verificación requiera esfuerzo para mantener una comprensión
   genuina
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 La dificultad deseable en la verificación es el principio de que la

@@ -3,6 +3,9 @@ title: Agenzia umana nell’IA
 description:
   Principi e meccanismi per mantenere gli esseri umani al controllo del lavoro
   della conoscenza assistito dall’IA
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 L’agenzia umana nell’[IA](./ai) è l’insieme di principi e meccanismi che

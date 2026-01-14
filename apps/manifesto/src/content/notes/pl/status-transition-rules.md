@@ -1,6 +1,9 @@
 ---
 title: Reguły przejść statusu
 description: Co wyzwala przechodzenie między stanami roszczeń w grafie dialektycznym
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 Reguły przejść statusu określają, co przenosi [roszczenie](./claim) z jednego

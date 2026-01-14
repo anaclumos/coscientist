@@ -1,6 +1,9 @@
 ---
 title: Komunikacja międzyprzestrzenna
 description: Dialog i wymiana wiedzy między domenami językowymi
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 Komunikacja międzyprzestrzenna to wymiana idei ponad granicami języków w sposób,

@@ -1,6 +1,9 @@
 ---
 title: Hatırlayarak Pekiştirme
 description: Bilgiyi aktif olarak hatırlayarak belleği güçlendirme
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 Hatırlayarak pekiştirme, bilgiyi pasifçe gözden geçirmek yerine aktif olarak

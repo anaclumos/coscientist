@@ -1,6 +1,9 @@
 ---
 title: Meertalig kennisnetwerk
 description: Een kennisnetwerk dat talen overspant en wereldwijd wordt verspreid
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 Een meertalig kennisnetwerk is een kennisnetwerk waarin content in eender welke

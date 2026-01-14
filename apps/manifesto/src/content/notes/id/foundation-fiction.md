@@ -1,6 +1,9 @@
 ---
 title: Fiksi Foundation
 description: Konsep-konsep terinspirasi Asimov yang membentuk visi Coscientist
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 Fiksi Foundation merujuk pada konsep-konsep dari seri Foundation karya

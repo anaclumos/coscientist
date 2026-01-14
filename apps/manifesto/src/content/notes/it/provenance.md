@@ -1,6 +1,9 @@
 ---
 title: Provenienza
 description: L’origine e la catena di custodia di affermazioni ed evidenze
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 La provenienza è l’origine e la catena di custodia di un’affermazione o di un

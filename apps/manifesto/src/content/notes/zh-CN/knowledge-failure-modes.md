@@ -1,6 +1,9 @@
 ---
 title: 知识失效模式
 description: 知识系统可能出错的分类体系
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 知识失效模式（knowledge failure

@@ -1,6 +1,9 @@
 ---
 title: Ilusi Kompetensi yang Dipicu AI
 description: Bagaimana kefasihan AI menciptakan penguasaan palsu pada pengguna
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 Ilusi kompetensi yang dipicu AI terjadi ketika pengguna mengira keluaran AI yang

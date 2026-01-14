@@ -1,6 +1,9 @@
 ---
 title: Ekstrakranial
 description: Otak digital pribadi dan sistem penerbitan Sunghyun Cho
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Ekstrakranial adalah otak digital pribadi [Sunghyun Cho](./sunghyun-cho): sebuah

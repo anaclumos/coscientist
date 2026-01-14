@@ -1,6 +1,9 @@
 ---
 title: Modos de fallo del conocimiento
 description: Taxonomía de lo que puede salir mal en los sistemas de conocimiento
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Los modos de fallo del conocimiento son las maneras en que los sistemas de

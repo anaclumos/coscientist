@@ -1,6 +1,9 @@
 ---
 title: Controversie
 description: Een gestructureerd conflict tussen beweringen dat om oplossing vraagt
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 Een controversie is een gestructureerd conflict tussen beweringen, definities of

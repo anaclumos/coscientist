@@ -1,6 +1,9 @@
 ---
 title: Сквозь Sprachräume
 description: Видение преодоления языковых границ для систем знаний
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 «Across the Sprachraums» — это видение [Сонхён Чо](./sunghyun-cho) о системах

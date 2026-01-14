@@ -3,6 +3,9 @@ title: Réfutation indirecte
 description:
   Une attaque contre la méthode, l’hypothèse ou la définition qui sous-tend une
   affirmation
+sourceLocale: en
+sourceHash: d67bef7771ea
+translatedAt: 2026-01-14
 ---
 
 Une réfutation indirecte est une contestation qui ne vise pas

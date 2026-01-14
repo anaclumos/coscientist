@@ -1,6 +1,9 @@
 ---
 title: Mécanismes de synthèse
 description: Modèles pour rendre comparables des sources incompatibles
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 Les mécanismes de synthèse sont les modèles et protocoles que

@@ -1,6 +1,9 @@
 ---
 title: AI 誘發的能力錯覺
 description: AI 流暢性如何讓使用者產生虛假的精通感
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 AI 誘發的能力錯覺（illusions of

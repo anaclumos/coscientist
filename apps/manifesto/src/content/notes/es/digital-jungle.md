@@ -1,6 +1,9 @@
 ---
 title: Jungla digital
 description: Un espacio personal de conocimiento de baja fricción que se autoorganiza
+sourceLocale: en
+sourceHash: 30a3de2b3fcf
+translatedAt: 2026-01-14
 ---
 
 Una jungla digital es un espacio personal de conocimiento que crece con una

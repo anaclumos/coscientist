@@ -3,6 +3,9 @@ title: Mecanismos de exploración
 description:
   Estrategias para el descubrimiento continuo de conocimiento en un grafo
   dialéctico
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 Los mecanismos de exploración son las estrategias que

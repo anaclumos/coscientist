@@ -1,6 +1,9 @@
 ---
 title: Sisi Graf Dialektik
 description: Jenis relasi yang menghubungkan node dalam graf pengetahuan dialektik
+sourceLocale: en
+sourceHash: e060cb9fd333
+translatedAt: 2026-01-14
 ---
 
 Dalam sebuah [Graf Dialektik](./dialectical-graph), sisi mengodekan jenis relasi

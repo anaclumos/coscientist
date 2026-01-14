@@ -1,6 +1,9 @@
 ---
 title: Poznanie dwujęzyczne
 description: Zdolność myślenia i działania jednocześnie w wielu językach
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 Poznanie dwujęzyczne to umiejętność myślenia i pracy w więcej niż jednym języku,

@@ -1,6 +1,9 @@
 ---
 title: 探索機制
 description: 在辯證圖中進行持續知識發現的策略
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 探索機制是 [共科學家](./coscientist) 用來在 [辯證圖](./dialectical-graph)

@@ -1,6 +1,9 @@
 ---
 title: Vertaalgetrouwheid
 description: Betekenis en nauwkeurigheid behouden over taalgrenzen heen
+sourceLocale: en
+sourceHash: 5b698486c4d0
+translatedAt: 2026-01-14
 ---
 
 Vertaalgetrouwheid is de mate waarin vertaalde inhoud de betekenis, nuance en

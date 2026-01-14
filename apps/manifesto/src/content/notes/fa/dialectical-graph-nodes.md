@@ -1,6 +1,9 @@
 ---
 title: گره‌های گراف دیالکتیکی
 description: انواع گره‌ها در یک گراف دانش دیالکتیکی
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 در یک [گراف دیالکتیکی](./dialectical-graph)، گره‌ها به‌جای متن خام، نمایندهٔ

@@ -1,6 +1,9 @@
 ---
 title: Phương pháp
 description: Quy trình được dùng để tạo ra bằng chứng hoặc kết luận
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 Phương pháp là quy trình theo đó bằng chứng được thu thập hoặc một kết luận được

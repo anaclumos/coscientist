@@ -1,6 +1,9 @@
 ---
 title: Afirmación
 description: Una proposición verificable almacenada como un nodo en un grafo dialéctico
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 Una afirmación es una proposición verificable extraída de un texto y almacenada

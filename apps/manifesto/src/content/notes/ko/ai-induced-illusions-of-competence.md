@@ -1,6 +1,9 @@
 ---
 title: AI가 유발하는 역량 착각
 description: AI 유창성이 사용자에게 거짓된 숙련감을 만드는 방식
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 AI가 유발하는 역량 착각은 사용자가 유창한 AI 출력물을 자신의 이해로 오해할 때

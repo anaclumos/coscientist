@@ -1,6 +1,9 @@
 ---
 title: Protocole de consensus multi-IA
 description: Le système d’écriture et de vérification 1+4
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 Le Protocole de consensus multi-IA est un flux de travail collaboratif dans

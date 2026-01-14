@@ -3,6 +3,9 @@ title: Taxonomie des Anspruchsstatus
 description:
   Die Zustände, in denen sich ein Anspruch innerhalb eines dialektischen Graphen
   befinden kann
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 Die Taxonomie des Anspruchsstatus definiert die Zustände, die ein

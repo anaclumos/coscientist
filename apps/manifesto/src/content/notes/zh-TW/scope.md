@@ -1,6 +1,9 @@
 ---
 title: 範圍
 description: 主張的適用條件
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 範圍（Scope）界定一個[主張](./claim)預期在何處與何時適用：亦即該主張被宣稱成立所涵蓋的人群、時間區段、情境或條件。缺乏明確範圍的主張會顯得含糊；範圍過於寬泛的主張則容易遭受[反例](./counterexample)挑戰。

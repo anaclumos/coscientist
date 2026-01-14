@@ -1,6 +1,9 @@
 ---
 title: コサイエンティスト
 description: ポストAI時代における知識生産のための知的コンパニオン・システム
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientistは、[アイザック・アシモフ](./isaac-asimov)の架空の[銀河百科事典](./encyclopedia-galactica)に着想を得たオープンソースのサービスである。単なる情報の[知識の方舟](./knowledge-ark)を超え、人間の[オペレーター](./operator)と並走して[熟考労働](./contemplation-labor)を担う[知的コンパニオン](./intellectual-companion)であることを意図している。ポストAI時代において、その目標は[脳腐りの解毒](./un-brain-rotting)――検証と主体性（エージェンシー）の回復――を支援することにある。

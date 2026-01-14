@@ -1,6 +1,9 @@
 ---
 title: 切り崩し
 description: 主張の根底にある方法・前提・定義への攻撃
+sourceLocale: en
+sourceHash: d67bef7771ea
+translatedAt: 2026-01-14
 ---
 
 切り崩し（undercut）とは、[主張](./claim)そのものではなく、その主張を支えている根拠——[方法](./method)、[前提](./assumption)、あるいは主張を意味のあるものにする定義——を狙う異議のことです。切り崩しが成功すると、直接の[反例](./counterexample)が見つからなくても、その主張は支持を失います。

@@ -1,6 +1,9 @@
 ---
 title: RAG Sınırlamaları
 description: Standart geri getirim destekli üretimin neden gerçek keşif üretemediği
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) , ilgili belgeleri geri getirerek olgusallığı artırır; ancak

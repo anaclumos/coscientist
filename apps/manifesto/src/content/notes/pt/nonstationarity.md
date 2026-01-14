@@ -1,6 +1,9 @@
 ---
 title: Não estacionariedade
 description: Quando o processo gerador de dados muda ao longo do tempo
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 Não estacionariedade significa que o processo subjacente que produz os dados

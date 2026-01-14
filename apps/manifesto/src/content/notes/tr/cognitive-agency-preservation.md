@@ -3,6 +3,9 @@ title: Bilişsel Failliğin Korunması
 description:
   İnsanların yargı üzerinde kontrolünü elinde tutan yapay zekâ güvenliği
   çerçevesi
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 Bilişsel failliğin korunması, yapay zekânın insan yargısını ikame etmek yerine

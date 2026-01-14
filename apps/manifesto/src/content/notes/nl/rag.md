@@ -3,6 +3,9 @@ title: RAG
 description:
   Retrieval-Augmented Generation, een techniek om AI-uitvoer te verankeren in
   opgehaalde documenten
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG is een techniek die de nauwkeurigheid van AI-uitvoer verbetert door

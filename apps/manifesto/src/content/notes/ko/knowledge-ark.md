@@ -1,6 +1,9 @@
 ---
 title: 지식 방주
 description: 문명 붕괴를 거쳐 지식을 보존하기 위해 설계된 저장소
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 지식 방주란 문명 쇠퇴의 시기를 거치면서도 지식을 보존하고 전달하도록 설계된

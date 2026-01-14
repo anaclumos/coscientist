@@ -1,6 +1,9 @@
 ---
 title: Malla de conocimiento multilingüe
 description: Una red de conocimiento que abarca idiomas y se distribuye globalmente
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 Una malla de conocimiento multilingüe es una red de conocimiento en la que el

@@ -1,6 +1,9 @@
 ---
 title: เมื่อเราจะคิด
 description: บทความปี 1945 ของ Vannevar Bush ที่วางเค้าโครงแนวคิด Memex
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 "As We May Think" คือบทความปี 1945 ของ [แวนเนวาร์ บุช](./vannevar-bush)

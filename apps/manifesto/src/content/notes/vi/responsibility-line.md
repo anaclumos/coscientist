@@ -1,6 +1,9 @@
 ---
 title: Dòng trách nhiệm
 description: Chuỗi có thể truy vết về việc ai đã khẳng định điều gì và dựa trên cơ sở nào
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 Dòng trách nhiệm là chuỗi có thể truy vết về việc ai đã khẳng định điều gì và

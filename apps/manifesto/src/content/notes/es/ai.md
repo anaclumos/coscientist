@@ -3,6 +3,9 @@ title: IA
 description:
   La inteligencia artificial como herramienta y como desafío para los sistemas
   de conocimiento
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 La IA en el contexto de [Cocientífico](./coscientist) se refiere a sistemas que

@@ -1,6 +1,9 @@
 ---
 title: Projekt Aldehyde
 description: Ein früher Versuch, ein persönliches digitales Gehirn zu bauen
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 Projekt Aldehyde war [Sunghyun Cho](./sunghyun-cho)s früher Versuch, ein

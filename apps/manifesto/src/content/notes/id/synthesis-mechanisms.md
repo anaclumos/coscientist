@@ -1,6 +1,9 @@
 ---
 title: Mekanisme Sintesis
 description: Pola untuk membuat sumber yang tidak kompatibel menjadi dapat diperbandingkan
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 Mekanisme sintesis adalah pola dan protokol yang digunakan

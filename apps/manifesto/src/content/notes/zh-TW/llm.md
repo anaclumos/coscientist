@@ -1,6 +1,9 @@
 ---
 title: LLM
 description: 大型語言模型，支撐 Coscientist 進行沉思勞動的 AI 架構
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM（Large Language

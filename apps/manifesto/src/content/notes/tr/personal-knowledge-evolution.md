@@ -1,6 +1,9 @@
 ---
 title: Kişisel Bilgi Evrimi
 description: Kişisel bilgi yönetimi araçları ve fikirlerinin tarihsel gelişimi
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 Kişisel bilgi evrimi, 20. yüzyıl ortasındaki vizyonlardan günümüz sistemlerine

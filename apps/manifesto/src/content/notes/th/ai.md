@@ -1,6 +1,9 @@
 ---
 title: AI
 description: ปัญญาประดิษฐ์ทั้งในฐานะเครื่องมือและความท้าทายต่อระบบความรู้
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 AI ในบริบทของ [นักวิทยาศาสตร์ร่วม](./coscientist)

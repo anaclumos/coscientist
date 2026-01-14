@@ -1,6 +1,9 @@
 ---
 title: Memex
 description: Vannevar Bush' voorgestelde persoonlijke kennismachine
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 De Memex is [Vannevar Bush](./vannevar-bush)' voorgestelde elektromechanische

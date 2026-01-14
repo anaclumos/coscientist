@@ -1,6 +1,9 @@
 ---
 title: Op grafen gebaseerde gespreide herhaling
 description: Claimleeftijd of weerlegging-leeftijd gebruiken om herverificatie te activeren
+sourceLocale: en
+sourceHash: 1c4655730a74
+translatedAt: 2026-01-14
 ---
 
 Op grafen gebaseerde gespreide herhaling past principes van

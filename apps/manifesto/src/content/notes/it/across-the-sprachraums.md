@@ -1,6 +1,9 @@
 ---
 title: Attraverso gli Sprachräume
 description: La visione di trascendere i confini linguistici per i sistemi di conoscenza
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums" è la visione di [Sunghyun Cho](./sunghyun-cho) per

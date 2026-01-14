@@ -1,6 +1,9 @@
 ---
 title: 百科全书式熔毁
 description: 当 AI 在缺乏人类干预的情况下主动接管时出现的知识崩塌现象
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 "百科全书式熔毁"（Encyclopedia

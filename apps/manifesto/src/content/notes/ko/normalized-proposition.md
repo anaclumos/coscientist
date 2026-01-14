@@ -1,6 +1,9 @@
 ---
 title: 정규화된 명제
 description: 자연어 텍스트에서 추출된 표준화된 주장
+sourceLocale: en
+sourceHash: 368d1ed37641
+translatedAt: 2026-01-14
 ---
 
 정규화된 명제는 자연어에서 추출되어, 명시적인 [범위](./scope),

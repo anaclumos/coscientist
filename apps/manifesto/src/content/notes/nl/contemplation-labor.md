@@ -1,6 +1,9 @@
 ---
 title: Contemplatiearbeid
 description: Het cognitieve werk dat AI verricht bij kennisproductie
+sourceLocale: en
+sourceHash: 1f16d680679e
+translatedAt: 2026-01-14
 ---
 
 Contemplatiearbeid is het cognitieve werk van kennisproductie: hypothesen

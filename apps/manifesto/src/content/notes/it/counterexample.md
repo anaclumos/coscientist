@@ -1,6 +1,9 @@
 ---
 title: Controesempio
 description: Un caso che smentisce o restringe un'affermazione
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Un controesempio è un caso che viola la previsione di

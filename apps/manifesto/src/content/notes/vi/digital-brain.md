@@ -1,6 +1,9 @@
 ---
 title: Bộ não số
 description: Một hệ thống tri thức cá nhân phản chiếu và mở rộng tâm trí
+sourceLocale: en
+sourceHash: 6503fc9c630c
+translatedAt: 2026-01-14
 ---
 
 Bộ não số là một hệ thống tri thức cá nhân được thiết kế để ghi lại, liên kết và

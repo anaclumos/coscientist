@@ -1,6 +1,9 @@
 ---
 title: Varsayım
 description: Bir iddianın temelinde yatan örtük bir öncül
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Bir varsayım, bir [iddianın](./claim) dayandığı ancak açıkça ifade etmediği

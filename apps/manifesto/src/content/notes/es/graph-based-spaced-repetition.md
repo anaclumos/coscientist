@@ -3,6 +3,9 @@ title: Repetición espaciada basada en grafos
 description:
   Uso de la antigüedad de una afirmación o de la antigüedad de la refutación
   para activar la reverificación
+sourceLocale: en
+sourceHash: 1c4655730a74
+translatedAt: 2026-01-14
 ---
 
 La repetición espaciada basada en grafos aplica los principios de la

@@ -1,6 +1,9 @@
 ---
 title: 그래프 구성 요소
 description: 변증법적 그래프를 구성하는 노드 및 엣지 유형
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 그래프 구성 요소는 [변증법적 그래프](./dialectical-graph)의 기본 단위다. 즉,

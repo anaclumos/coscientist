@@ -3,6 +3,9 @@ title: LLM
 description:
   Grand modèle de langage, l’architecture d’IA sous-jacente au travail de
   contemplation de Coscientist
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM désigne des modèles de réseaux de neurones entraînés sur d’énormes corpus de

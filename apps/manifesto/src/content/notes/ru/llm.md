@@ -3,6 +3,9 @@ title: LLM
 description:
   Большая языковая модель — архитектура ИИ, лежащая в основе созерцательного
   труда Coscientist
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM — это модели нейронных сетей, обученные на огромных текстовых корпусах для

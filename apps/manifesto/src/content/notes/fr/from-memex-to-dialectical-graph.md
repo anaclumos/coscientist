@@ -1,6 +1,9 @@
 ---
 title: Du Memex au Graphe dialectique
 description: Évolution des pistes associatives vers une structure argumentative
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Du Memex au Graphe dialectique retrace l’évolution des systèmes personnels de

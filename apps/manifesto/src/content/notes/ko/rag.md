@@ -1,6 +1,9 @@
 ---
 title: RAG
 description: 검색 증강 생성, 검색된 문서에 AI 출력을 근거시키는 기법
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG(검색-증강 생성)는 코퍼스에서 관련 문서를 검색해 이를 생성의 컨텍스트로

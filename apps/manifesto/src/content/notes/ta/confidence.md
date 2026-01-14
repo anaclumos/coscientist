@@ -1,6 +1,9 @@
 ---
 title: நம்பிக்கை
 description: ஒரு கூற்றிற்கான ஆதரவின் பல பரிமாண அளவுகோல்
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 [இணை-விஞ்ஞானி](./coscientist) இல் நம்பிக்கை என்பது ஒரே ஒரு நிகழ்தகவு மதிப்பெண்

@@ -1,6 +1,9 @@
 ---
 title: ข้ามพรมแดน Sprachraum
 description: วิสัยทัศน์ในการก้าวข้ามขอบเขตภาษาเพื่อระบบความรู้
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums" คือวิสัยทัศน์ของ [ซองฮยอน โช](./sunghyun-cho)

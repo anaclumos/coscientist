@@ -1,6 +1,9 @@
 ---
 title: Coscientist
 description: Een intellectueel metgezelsysteem voor kennisproductie in het post-AI-tijdperk
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist is een open-source dienst geïnspireerd door

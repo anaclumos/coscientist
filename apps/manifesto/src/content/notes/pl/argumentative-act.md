@@ -1,6 +1,9 @@
 ---
 title: Akt argumentacyjny
 description: Ruch w rozumowaniu, taki jak stwierdzenie, zdefiniowanie lub obalenie
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 Akt argumentacyjny to wyraźnie wyodrębniony ruch w rozumowaniu, taki jak

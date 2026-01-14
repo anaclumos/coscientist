@@ -3,6 +3,9 @@ title: متفقہ منظوری کی شرط
 description:
   ایسا قاعدہ جس کے مطابق دعوے صرف اس وقت قبول کیے جاتے ہیں جب تمام جائزہ لینے
   والے متفق ہوں
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 متفقہ منظوری کی شرط [Multi-AI Consensus Protocol](./multi-ai-consensus-protocol)

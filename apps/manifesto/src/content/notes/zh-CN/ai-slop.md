@@ -1,6 +1,9 @@
 ---
 title: AI 泔水
 description: 低质量 AI 生成内容淹没互联网
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 AI 泔水（或简称泔水）指用生成模型产出的低成本、高产量内容：文本、图像、视频，甚至书籍——这些内容优化的是吞吐量而非意义。该术语借用"泔水（slop）"作为贬义，形容那种生成便宜、但筛选起来代价高的输出；[Merriam-Webster](https://www.merriam-webster.com/)

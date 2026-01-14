@@ -1,6 +1,9 @@
 ---
 title: "Token ≠ Tri thức"
 description: Một hành trình cá nhân đi tìm bộ khung xương ngoài nhận thức
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Tôi, [Sunghyun Cho](./sunghyun-cho), lớn lên với sự tôn kính dành cho các bộ

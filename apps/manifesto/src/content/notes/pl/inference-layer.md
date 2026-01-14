@@ -1,6 +1,9 @@
 ---
 title: Warstwa wnioskowania
 description: Żywa, ewoluująca sieć twierdzeń w grafie dialektycznym
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 Warstwa wnioskowania to żywa, ewoluująca sieć [twierdzeń](./claim),

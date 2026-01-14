@@ -1,6 +1,9 @@
 ---
 title: Latihan Pengambilan Kembali
 description: Memperkuat ingatan dengan secara aktif mengingat kembali informasi
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 Latihan pengambilan kembali adalah memperkuat ingatan dengan secara aktif

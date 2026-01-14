@@ -3,6 +3,9 @@ title: İkinci Beyin
 description:
   Fikirleri zihnin dışına aktararak yönetmeye yönelik bir kişisel bilgi yönetimi
   yaklaşımı
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 "İkinci beyin", notları zihnin dışında yakalamaya, düzenlemeye ve geri çağırmaya

@@ -3,6 +3,9 @@ title: Menschliche Handlungsfähigkeit in KI
 description:
   Prinzipien und Mechanismen, um Menschen bei KI-gestützter Wissensarbeit in
   Kontrolle zu halten
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 Menschliche Handlungsfähigkeit in [KI](./ai) ist das Bündel aus Prinzipien und

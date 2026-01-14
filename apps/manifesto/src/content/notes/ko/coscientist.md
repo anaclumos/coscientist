@@ -1,6 +1,9 @@
 ---
 title: Coscientist
 description: 포스트-AI 시대의 지식 생산을 위한 지적 동반자 시스템
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist는 [아이작 아시모프](./isaac-asimov)의 허구적

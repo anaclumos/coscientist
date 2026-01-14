@@ -1,6 +1,9 @@
 ---
 title: 攻击
 description: 对某个主张真实性的直接挑战
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 攻击是对某个[主张](./claim)真实性的直接挑战。与针对依据的[削弱](./undercut)不同，攻击主张该主张本身是错误或具有误导性的，通常通过提供[反例](./counterexample)或相互矛盾的证据来实现。

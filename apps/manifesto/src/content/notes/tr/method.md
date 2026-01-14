@@ -1,6 +1,9 @@
 ---
 title: Yöntem
 description: Kanıt veya sonuç üretmek için kullanılan süreç
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 Yöntem, kanıtın hangi prosedürle toplandığı ya da bir sonuca hangi yolla

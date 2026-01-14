@@ -3,6 +3,9 @@ title: Graphe dialectique
 description:
   Un modèle de graphe de connaissances qui stocke des affirmations et des
   relations plutôt que le contenu des documents
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 Un graphe dialectique est un graphe de connaissances qui stocke la structure

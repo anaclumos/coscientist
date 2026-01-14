@@ -3,6 +3,9 @@ title: Evolución del conocimiento personal
 description:
   Progresión histórica de herramientas e ideas para la gestión del conocimiento
   personal
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 La evolución del conocimiento personal traza el desarrollo de herramientas e

@@ -1,6 +1,9 @@
 ---
 title: 비정상성
 description: 데이터 생성 과정이 시간에 따라 변할 때
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 비정상성이란 데이터를 만들어내는 근본 과정이 시간이 지나면서 변하는 것을 뜻한다.

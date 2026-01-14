@@ -1,6 +1,9 @@
 ---
 title: Wenselijke Moeilijkheid bij Verificatie
 description: Verificatie inspannend maken om echt begrip te behouden
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 Wenselijke moeilijkheid bij verificatie is het principe dat

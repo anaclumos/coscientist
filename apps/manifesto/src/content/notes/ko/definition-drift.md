@@ -1,6 +1,9 @@
 ---
 title: 정의 표류
 description: 용어의 의미가 시간이나 맥락에 따라 이동하는 현상
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 정의 표류는 어떤 용어의 의미가 시간, 학파, 또는 분야에 걸쳐 점진적으로 바뀌는

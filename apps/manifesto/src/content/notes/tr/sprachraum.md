@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: Düşünceyi ve bilgiyi şekillendiren bir dil alanı veya etki sahası
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum (Almanca: "dil uzamı" veya "dil küresi"), belirli bir dil tarafından

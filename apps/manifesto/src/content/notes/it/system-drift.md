@@ -1,6 +1,9 @@
 ---
 title: Deriva del sistema
 description: Degrado dei sistemi di conoscenza tramite auto-contaminazione o trascuratezza
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 La deriva del sistema è la categoria di [fenomeni di deriva](./drift-phenomena)

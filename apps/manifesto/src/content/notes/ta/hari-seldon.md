@@ -1,6 +1,9 @@
 ---
 title: ஹாரி செல்டன்
 description: அசிமோவின் ஃபவுண்டேஷன் தொடரில் மனோவரலாறு உருவாக்கிய கற்பனை கணிதவியலாளர்
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 ஹாரி செல்டன் என்பது [இசாக் அசிமோவ்](./isaac-asimov) எழுதிய _Foundation_ தொடரில்

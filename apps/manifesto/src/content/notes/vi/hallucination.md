@@ -1,6 +1,9 @@
 ---
 title: Ảo giác
 description: Các đầu ra của AI có vẻ hợp lý nhưng sai sự thật hoặc bịa đặt
+sourceLocale: en
+sourceHash: 35a042b51f6a
+translatedAt: 2026-01-14
 ---
 
 Ảo giác là một đầu ra của AI trông tự tin và mạch lạc khi đọc, nhưng lại chứa

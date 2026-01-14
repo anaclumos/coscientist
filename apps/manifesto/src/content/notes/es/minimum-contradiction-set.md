@@ -1,6 +1,9 @@
 ---
 title: Conjunto Mínimo de Contradicción
 description: El conjunto más pequeño de premisas y relaciones que produce un conflicto
+sourceLocale: en
+sourceHash: 31a0e5277e2e
+translatedAt: 2026-01-14
 ---
 
 El conjunto mínimo de contradicción es la colección más pequeña de premisas,

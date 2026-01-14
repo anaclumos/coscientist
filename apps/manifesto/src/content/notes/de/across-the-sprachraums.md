@@ -1,6 +1,9 @@
 ---
 title: Über die Sprachräume hinweg
 description: Die Vision, Sprachgrenzen für Wissenssysteme zu überwinden
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 „Across the Sprachraums" ist die Vision von [Sunghyun Cho](./sunghyun-cho) für

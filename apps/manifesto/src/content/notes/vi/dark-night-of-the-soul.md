@@ -3,6 +3,9 @@ title: Đêm Tối của Linh Hồn
 description:
   Một thủ pháp văn học cho cuộc khủng hoảng nội tâm sâu sắc dẫn đến tái kiến tạo
   bản sắc
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 "Đêm Tối của Linh Hồn" gọi tên một cuộc khủng hoảng nội tâm sâu sắc, trong đó

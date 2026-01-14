@@ -3,6 +3,9 @@ title: Ansiklopedi Erimesi
 description:
   Yapay zekânın insan müdahalesi olmadan inisiyatif aldığı durumlarda ortaya
   çıkan bilgi-çöküşü olgusu
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 Ansiklopedi Erimesi , yazma inisiyatifi ve kontrolünün,

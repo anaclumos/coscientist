@@ -3,6 +3,9 @@ title: Independencia de la evidencia
 description:
   Principio según el cual el acuerdo derivado de un sesgo de entrenamiento
   compartido no es un consenso real
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 La independencia de la evidencia es el principio de que el acuerdo aparente

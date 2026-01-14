@@ -1,6 +1,9 @@
 ---
 title: 검증
 description: 주장을 증거와 반증에 비추어 확인하는 과정
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 검증은 어떤 주장이 증거, 반증, 그리고 대안적 설명들 앞에서도 성립하는지 확인하는

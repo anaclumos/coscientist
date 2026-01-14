@@ -3,6 +3,9 @@ title: Wissensverfassung
 description:
   Die epistemische Protokollschicht als Regelwerk dafür, wie Behauptungen
   Autorität erlangen
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 Eine Wissensverfassung ist die Menge an Regeln, die festlegen, wie

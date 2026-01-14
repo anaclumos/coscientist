@@ -1,6 +1,9 @@
 ---
 title: Kaynak
 description: İddialar ve kanıtlar için bir köken çıpası
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 Bir kaynak, bir [kanıt aralığının](./evidence-span) veya [iddianın](./claim)

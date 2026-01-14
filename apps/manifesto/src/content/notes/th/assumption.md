@@ -1,6 +1,9 @@
 ---
 title: สมมติฐาน
 description: ข้อกำหนดตั้งต้นโดยนัยที่รองรับข้ออ้าง
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 สมมติฐานคือข้อกำหนดตั้งต้นโดยนัยที่ [ข้ออ้าง](./claim) พึ่งพา

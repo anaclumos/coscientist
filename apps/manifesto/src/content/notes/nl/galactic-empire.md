@@ -3,6 +3,9 @@ title: Galactisch Keizerrijk
 description:
   De beschaving waarvan de ondergang de Encyclopedia Galactica in Asimovs
   Foundation motiveert
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 Het Galactisch Keizerrijk is de beschaving in [Isaac Asimov](./isaac-asimov)'s

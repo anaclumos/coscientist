@@ -1,6 +1,9 @@
 ---
 title: اطمینان
 description: سنجه‌ای چندبُعدی از میزان پشتوانه برای یک ادعا
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 اطمینان در [پژوهشگر مشترک](./coscientist) یک امتیاز احتمالِ واحد نیست. بلکه

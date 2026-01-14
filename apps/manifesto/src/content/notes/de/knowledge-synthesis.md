@@ -1,6 +1,9 @@
 ---
 title: Wissenssynthese
 description: Wie sich Synthese von Mittelung in dialektischen Wissenssystemen unterscheidet
+sourceLocale: en
+sourceHash: 8035aade2986
+translatedAt: 2026-01-14
 ---
 
 Wissenssynthese ist das, was nach dem Retrieval passiert, wenn man inkompatible

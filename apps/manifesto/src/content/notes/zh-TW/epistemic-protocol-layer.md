@@ -1,6 +1,9 @@
 ---
 title: 認識論協定層
 description: 使知識系統對抗崩潰的規則與工作流程
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 認識論協定層是一組規則、檢查與工作流程，用來強化知識系統，使其不易出現錯誤級聯（error

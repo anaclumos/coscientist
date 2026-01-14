@@ -1,6 +1,9 @@
 ---
 title: 검색 연습으로서의 검증
 description: 지식 유지를 강화하는 능동 회상의 한 형태로서 Operator의 검증 루프
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 검색 연습으로서의 검증은 [오퍼레이터](./operator)의 검증 작업 자체가

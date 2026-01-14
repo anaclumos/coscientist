@@ -3,6 +3,9 @@ title: Meltdown dell’Enciclopedia
 description:
   Fenomeno di collasso della conoscenza quando l’IA prende l’iniziativa senza
   intervento umano
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 Il Meltdown dell’Enciclopedia è una modalità di fallimento per collasso della

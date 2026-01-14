@@ -1,6 +1,9 @@
 ---
 title: Metoda
 description: Procedura używana do generowania dowodów lub wyprowadzania wniosków
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 Metoda to procedura, za pomocą której gromadzi się dowody lub wyprowadza

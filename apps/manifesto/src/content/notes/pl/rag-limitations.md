@@ -3,6 +3,9 @@ title: Ograniczenia RAG
 description:
   Dlaczego standardowe generowanie wspomagane wyszukiwaniem nie może prowadzić
   do prawdziwego odkrycia
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) poprawia zgodność z faktami, wyszukując istotne dokumenty, ale

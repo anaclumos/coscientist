@@ -1,6 +1,9 @@
 ---
 title: 灵魂的黑夜
 description: 一种文学手法：深刻的内在危机通向身份重建
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 "灵魂的黑夜"（La noche oscura del

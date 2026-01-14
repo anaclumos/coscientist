@@ -1,6 +1,9 @@
 ---
 title: 최소 모순 집합
 description: 충돌을 만들어내는 전제와 관계의 최소 집합
+sourceLocale: en
+sourceHash: 31a0e5277e2e
+translatedAt: 2026-01-14
 ---
 
 최소 모순 집합은 함께 작용하여 충돌을 만들어내는 전제, 주장, 관계의 가장 작은

@@ -3,6 +3,9 @@ title: Institutionele hersenrot
 description:
   Organisatorische faalmodus waarbij het collectieve vermogen tot verificatie
   afneemt
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 Institutionele hersenrot is een faalmodus waarbij het collectieve vermogen van

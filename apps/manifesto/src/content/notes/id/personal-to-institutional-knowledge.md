@@ -1,6 +1,9 @@
 ---
 title: Pengetahuan Personal ke Institusional
 description: Menskalakan praktik pengetahuan personal ke organisasi
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 Pengetahuan personal ke institusional adalah transisi dari sebuah

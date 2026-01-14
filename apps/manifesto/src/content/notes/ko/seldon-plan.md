@@ -1,6 +1,9 @@
 ---
 title: 셀던 계획
 description: 암흑기의 기간을 단축하기 위한 해리 셀던의 장기 전략
+sourceLocale: en
+sourceHash: 879a58531fb4
+translatedAt: 2026-01-14
 ---
 
 셀던 계획은 붕괴 이후의 암흑기를 단축하기 위한 [해리 셀던](./hari-seldon)의 장기

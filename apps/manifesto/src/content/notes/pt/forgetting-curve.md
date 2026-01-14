@@ -1,6 +1,9 @@
 ---
 title: Curva do Esquecimento
 description: O declínio previsível da memória sem revisão
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 A curva do esquecimento descreve o declínio previsível na capacidade de recordar

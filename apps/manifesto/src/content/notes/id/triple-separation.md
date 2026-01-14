@@ -3,6 +3,9 @@ title: Pemisahan Tiga Lapis
 description:
   Aturan arsitektural yang memisahkan teks mentah, klaim yang dinormalisasi, dan
   relasi eksplisit
+sourceLocale: en
+sourceHash: d3ec3e911919
+translatedAt: 2026-01-14
 ---
 
 Pemisahan tiga lapis adalah aturan arsitektural dalam sebuah

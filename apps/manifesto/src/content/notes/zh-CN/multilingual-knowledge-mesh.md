@@ -1,6 +1,9 @@
 ---
 title: 多语言知识网格
 description: 一个跨语言并在全球分布的知识网络
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 多语言知识网格（multilingual knowledge

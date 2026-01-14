@@ -1,6 +1,9 @@
 ---
 title: 从个人到机构的知识
 description: 将个人知识实践扩展到组织
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 从个人到机构的知识，是指将服务于一个人的[数字大脑](./digital-brain)过渡为服务于一个团队、实验室或组织的系统。对个人笔记有效的方法并不会自动扩展：治理（governance）、共享词汇表，以及信任边界会成为一等问题。

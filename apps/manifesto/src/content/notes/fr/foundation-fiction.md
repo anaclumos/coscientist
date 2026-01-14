@@ -1,6 +1,9 @@
 ---
 title: Fiction fondationnelle
 description: Concepts inspirés d’Asimov qui éclairent la vision de Coscientist
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 La fiction fondationnelle désigne des concepts tirés de la série _Foundation_

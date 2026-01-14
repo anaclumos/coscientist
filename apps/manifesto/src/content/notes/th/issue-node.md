@@ -1,6 +1,9 @@
 ---
 title: โหนดประเด็น
 description: ชุดรวมของคลัสเตอร์ข้ออ้างที่ชนกันในกราฟวิภาษวิธี
+sourceLocale: en
+sourceHash: daca26b69d5d
+translatedAt: 2026-01-14
 ---
 
 โหนดประเด็น คือวัตถุในกราฟที่รวม [ข้ออ้าง](./claim)

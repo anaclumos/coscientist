@@ -1,6 +1,9 @@
 ---
 title: Atak
 description: Bezpośrednie zakwestionowanie prawdziwości twierdzenia
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 Atak to bezpośrednie zakwestionowanie prawdziwości [twierdzenia](./claim). W

@@ -1,6 +1,9 @@
 ---
 title: 來源
 description: 用於主張與證據的溯源錨點
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 來源（source）是某段[證據片段](./evidence-span)或[主張](./claim)的起點：一份文件、資料集、實驗，或提供資訊的個人。來源能錨定[溯源](./provenance)，並使[責任線](./responsibility-line)可被追溯。

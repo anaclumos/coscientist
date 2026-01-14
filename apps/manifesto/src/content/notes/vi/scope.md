@@ -1,6 +1,9 @@
 ---
 title: Phạm vi
 description: Các điều kiện áp dụng cho một khẳng định
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 Phạm vi xác định khẳng định ) được dự định áp dụng ở đâu và khi nào: các quần

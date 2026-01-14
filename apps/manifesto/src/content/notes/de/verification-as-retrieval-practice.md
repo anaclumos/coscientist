@@ -3,6 +3,9 @@ title: Verifikation als Abrufübung
 description:
   Der Verifikationskreislauf des Operators als Form des aktiven Abrufs, der die
   Wissensspeicherung stärkt
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 Verifikation als Abrufübung ist die Einsicht, dass die Verifikationsarbeit des

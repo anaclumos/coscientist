@@ -1,6 +1,9 @@
 ---
 title: Attaque
 description: Une contestation directe de la vérité d’une affirmation
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 Une attaque est une contestation directe de la vérité d’une

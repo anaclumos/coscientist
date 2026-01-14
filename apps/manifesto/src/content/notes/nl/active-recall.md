@@ -1,6 +1,9 @@
 ---
 title: Actieve herinnering
 description: Studeren door informatie uit het geheugen op te halen
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 Actieve herinnering is studeren door te proberen het antwoord uit het geheugen

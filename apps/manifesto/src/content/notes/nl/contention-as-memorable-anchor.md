@@ -3,6 +3,9 @@ title: Contention als memorabel anker
 description:
   Meningsverschillen vereisen cognitieve inspanning en creëren sterkere
   geheugensporen
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 "Contention als een memorabel anker" is de observatie dat

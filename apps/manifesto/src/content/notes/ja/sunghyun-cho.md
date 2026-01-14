@@ -1,6 +1,9 @@
 ---
 title: ソンヒョン・チョ
 description: Coscientist の開発者であり、その基礎となるエッセイの著者
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 ソンヒョン・チョは [コサイエンティスト](./coscientist)

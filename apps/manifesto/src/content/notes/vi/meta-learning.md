@@ -1,6 +1,9 @@
 ---
 title: Siêu học
 description: Học cách việc học của chính bạn vận hành như thế nào
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 Siêu học là học về chính cách bạn học: nhận ra điều gì "đọng lại", điều gì thất

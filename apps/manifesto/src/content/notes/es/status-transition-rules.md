@@ -3,6 +3,9 @@ title: Reglas de transición de estado
 description:
   Qué desencadena el movimiento entre estados de una afirmación en un grafo
   dialéctico
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 Las reglas de transición de estado definen qué hace que una

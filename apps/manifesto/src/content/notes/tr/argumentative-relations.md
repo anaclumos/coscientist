@@ -1,6 +1,9 @@
 ---
 title: Tartışmacı İlişkiler
 description: İşleve göre düzenlenmiş diyalektik bir grafikteki kenar türleri
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 Tartışmacı ilişkiler, bir [Diyalektik Graf](./dialectical-graph) içindeki,

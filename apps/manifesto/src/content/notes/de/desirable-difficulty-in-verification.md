@@ -1,6 +1,9 @@
 ---
 title: Erwünschte Schwierigkeit bei der Verifikation
 description: Verifikationsaufwand so gestalten, dass echtes Verständnis erhalten bleibt
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 Erwünschte Schwierigkeit bei der Verifikation ist das Prinzip, dass

@@ -1,6 +1,9 @@
 ---
 title: 模型崩潰
 description: 以自身生成資料訓練的模型之退化
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 模型崩潰（Model

@@ -1,6 +1,9 @@
 ---
 title: Tryby awarii wiedzy
 description: Taksonomia tego, co może pójść nie tak w systemach wiedzy
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Tryby awarii wiedzy to sposoby, w jakie systemy wiedzy ulegają degradacji,

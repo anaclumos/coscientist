@@ -1,6 +1,9 @@
 ---
 title: Kontemplationsarbeit
 description: Die kognitive Arbeit, die KI in der Wissensproduktion leistet
+sourceLocale: en
+sourceHash: 1f16d680679e
+translatedAt: 2026-01-14
 ---
 
 Kontemplationsarbeit ist die kognitive Arbeit der Wissensproduktion: Hypothesen

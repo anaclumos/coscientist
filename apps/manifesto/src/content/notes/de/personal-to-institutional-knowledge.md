@@ -1,6 +1,9 @@
 ---
 title: Von persönlichem zu institutionellem Wissen
 description: Persönliche Wissenspraktiken auf Organisationen skalieren
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 Der Übergang von persönlichem zu institutionellem Wissen ist der Schritt von

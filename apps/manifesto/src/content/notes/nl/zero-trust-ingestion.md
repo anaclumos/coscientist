@@ -2,6 +2,9 @@
 title: Zero-Trust-inname
 description: Protocol dat expliciete herkomst vereist voordat beweringen worden
   geaccepteerd
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 Zero-trust-inname is een protocol dat binnenkomende informatie standaard als

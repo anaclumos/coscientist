@@ -1,6 +1,9 @@
 ---
 title: Önce-Çürütme Araması
 description: Kabulden önce karşı kanıt arayan bir doğrulama protokolü
+sourceLocale: en
+sourceHash: 038f5f56fc2f
+translatedAt: 2026-01-14
 ---
 
 Önce-çürütme araması, bir iddiayı kabul etmeden önce karşı kanıt arayan bir

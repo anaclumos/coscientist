@@ -1,6 +1,9 @@
 ---
 title: Aldehyde 專案
 description: 早期嘗試打造個人數位大腦
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 Aldehyde 專案是 [Sunghyun Cho](./sunghyun-cho)

@@ -1,6 +1,9 @@
 ---
 title: Ensiklopedia Galactica
 description: Sebuah konsep untuk melestarikan pengetahuan melintasi zaman kegelapan
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 Ensiklopedia Galactica adalah perangkat fiksi dalam seri Foundation karya

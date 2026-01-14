@@ -3,6 +3,9 @@ title: La verifica come pratica di recupero
 description:
   Il ciclo di verifica dell’Operatore come forma di richiamo attivo che rafforza
   la ritenzione della conoscenza
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 La verifica come pratica di recupero è l’intuizione secondo cui il lavoro di

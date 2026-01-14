@@ -1,6 +1,9 @@
 ---
 title: 當我們能夠思考
 description: 范內瓦·布希（Vannevar Bush）1945 年的文章，勾勒出 Memex 的構想
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 〈當我們能夠思考〉是 [范內瓦·布希](./vannevar-bush) 於 1945 年發表的文章，提出了

@@ -1,6 +1,9 @@
 ---
 title: Non-stationnarité
 description: Lorsque le processus générateur de données change au fil du temps
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 La non-stationnarité signifie que le processus sous-jacent qui produit les

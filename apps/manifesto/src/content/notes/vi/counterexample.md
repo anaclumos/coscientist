@@ -1,6 +1,9 @@
 ---
 title: Phản ví dụ
 description: Một trường hợp phá vỡ hoặc thu hẹp một khẳng định
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Phản ví dụ là một trường hợp vi phạm dự đoán của một [khẳng định](./claim), buộc

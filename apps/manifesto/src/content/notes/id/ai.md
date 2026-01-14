@@ -1,6 +1,9 @@
 ---
 title: AI
 description: Kecerdasan Buatan sebagai alat sekaligus tantangan bagi sistem pengetahuan
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 AI dalam konteks [Kosaintis](./coscientist) merujuk pada sistem yang melakukan

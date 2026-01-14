@@ -1,6 +1,9 @@
 ---
 title: Tefekkür Emeği
 description: Yapay zekânın bilgi üretiminde gerçekleştirdiği bilişsel çalışma
+sourceLocale: en
+sourceHash: 1f16d680679e
+translatedAt: 2026-01-14
 ---
 
 Tefekkür emeği, bilgi üretiminin bilişsel çalışmasıdır: hipotezler önermek,

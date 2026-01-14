@@ -1,6 +1,9 @@
 ---
 title: 靈魂的暗夜
 description: 一種文學修辭：描述導向自我認同重建的深刻內在危機
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 「靈魂的暗夜」（La noche oscura del

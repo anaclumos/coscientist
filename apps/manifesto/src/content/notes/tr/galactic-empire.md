@@ -3,6 +3,9 @@ title: Galaktik İmparatorluk
 description:
   Asimov’un Vakıf serisinde, düşüşü Encyclopedia Galactica’ya motivasyon veren
   uygarlık
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 Galaktik İmparatorluk, [Isaac Asimov](./isaac-asimov)’un Vakıf serisinde,

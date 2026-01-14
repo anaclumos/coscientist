@@ -1,6 +1,9 @@
 ---
 title: Wyszukiwanie najpierw kontrprzykładów
 description: Strategia priorytetyzująca kontrprzykłady ponad dowody wspierające
+sourceLocale: en
+sourceHash: 2b3848f34451
+translatedAt: 2026-01-14
 ---
 
 Wyszukiwanie najpierw kontrprzykładów to

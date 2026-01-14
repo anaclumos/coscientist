@@ -1,6 +1,9 @@
 ---
 title: உளவரலாறு
 description: அசிமோவின் *Foundation* கதைத்தொடரில் வரும் கற்பனையான புள்ளியியல் அறிவியல்
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 உளவரலாறு என்பது [ஐசக் அசிமோவ்](./isaac-asimov) எழுதிய _Foundation_ தொடரில் வரும்

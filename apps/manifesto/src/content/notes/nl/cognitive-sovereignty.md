@@ -1,6 +1,9 @@
 ---
 title: Cognitieve soevereiniteit
 description: Menselijke controle over oordeel en verificatie in kenniswerk
+sourceLocale: en
+sourceHash: 1831665ecaf7
+translatedAt: 2026-01-14
 ---
 
 Cognitieve soevereiniteit is de toewijding om menselijk oordeel en verificatie

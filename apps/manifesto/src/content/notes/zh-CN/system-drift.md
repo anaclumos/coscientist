@@ -1,6 +1,9 @@
 ---
 title: 系统漂移
 description: 知识系统因自我污染或疏于维护而退化
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 系统漂移是[漂移现象](./drift-phenomena)的一类：知识系统本身会随时间退化，这种退化独立于语义或环境变化。

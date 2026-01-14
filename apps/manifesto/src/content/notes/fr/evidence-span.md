@@ -3,6 +3,9 @@ title: Extrait probant
 description:
   Une plage citée exactement d’une source qui soutient ou conteste une
   affirmation
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Un extrait probant est le texte cité exactement d’une source qui soutient ou

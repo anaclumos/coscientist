@@ -1,6 +1,9 @@
 ---
 title: Memex’ten Diyalektik Grafa
 description: Çağrışımsal patikalardan tartışmacı yapıya evrim
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Memex’ten Diyalektik Grafa, kişisel bilgi sistemlerinin evrimini izler:

@@ -1,6 +1,9 @@
 ---
 title: 知識憲章
 description: 作為治理文件的認識論協議層，用以規範主張如何獲得權威
+sourceLocale: en
+sourceHash: e7ec03e7fb9e
+translatedAt: 2026-01-14
 ---
 
 知識憲章是一套規則，用來規範 [主張](./claim)

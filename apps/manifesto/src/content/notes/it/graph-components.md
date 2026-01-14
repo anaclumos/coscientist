@@ -1,6 +1,9 @@
 ---
 title: Componenti del grafo
 description: I tipi di nodi e archi che compongono un grafo dialettico
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 I componenti del grafo sono i mattoni di un

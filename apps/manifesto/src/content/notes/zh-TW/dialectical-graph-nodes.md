@@ -1,6 +1,9 @@
 ---
 title: 辯證圖節點
 description: 辯證知識圖中的節點類型
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 在[辯證圖](./dialectical-graph)中，節點代表的是認識論對象（epistemic

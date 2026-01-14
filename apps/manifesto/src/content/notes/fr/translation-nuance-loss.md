@@ -3,6 +3,9 @@ title: Perte de nuance en traduction
 description:
   Les subtilités sémantiques qui disparaissent lorsque les idées franchissent
   les frontières linguistiques
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 La perte de nuance en traduction consiste à dépouiller les idées de leurs

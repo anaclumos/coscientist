@@ -1,6 +1,9 @@
 ---
 title: Kerja Kontemplasi
 description: Kerja kognitif yang dilakukan AI dalam produksi pengetahuan
+sourceLocale: en
+sourceHash: 1f16d680679e
+translatedAt: 2026-01-14
 ---
 
 Kerja kontemplasi adalah kerja kognitif dalam produksi pengetahuan: mengajukan

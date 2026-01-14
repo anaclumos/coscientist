@@ -1,6 +1,9 @@
 ---
 title: 知识方舟
 description: 一个旨在在文明崩溃期间保存知识的存储库
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 知识方舟（knowledge

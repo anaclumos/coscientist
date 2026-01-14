@@ -1,6 +1,9 @@
 ---
 title: Kedaulatan Kognitif
 description: Kontrol manusia atas penilaian dan verifikasi dalam kerja pengetahuan
+sourceLocale: en
+sourceHash: 1831665ecaf7
+translatedAt: 2026-01-14
 ---
 
 Kedaulatan kognitif adalah komitmen untuk menjaga penilaian dan verifikasi

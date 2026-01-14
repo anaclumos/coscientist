@@ -1,6 +1,9 @@
 ---
 title: Atto argomentativo
 description: Una mossa nel ragionamento, come affermare, definire o confutare
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 Un atto argomentativo è una mossa distinta nel ragionamento, come affermare una

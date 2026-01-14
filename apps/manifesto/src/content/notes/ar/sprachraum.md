@@ -1,6 +1,9 @@
 ---
 title: المجال اللغوي
 description: مجال أو نطاق لغوي يُشكّل التفكير والمعرفة
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 يشير مصطلح _Sprachraum_ (بالألمانية: "حيّز اللغة" أو "المجال اللغوي") إلى النطاق

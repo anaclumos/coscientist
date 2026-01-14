@@ -1,6 +1,9 @@
 ---
 title: Khu vườn số
 description: Một bộ sưu tập ghi chú liên kết công khai, luôn phát triển
+sourceLocale: en
+sourceHash: 04e1cf5526c0
+translatedAt: 2026-01-14
 ---
 
 Một khu vườn số là một bộ sưu tập ghi chú liên kết công khai, luôn phát triển

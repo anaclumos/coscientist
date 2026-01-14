@@ -3,6 +3,9 @@ title: Ciclo de vida de una afirmación
 description:
   Cómo evolucionan las afirmaciones desde una hipótesis tentativa hasta un
   conocimiento robusto o la obsolescencia
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 El ciclo de vida de una [afirmación](./claim) describe cómo una afirmación

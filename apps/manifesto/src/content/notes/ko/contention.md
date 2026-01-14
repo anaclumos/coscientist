@@ -1,6 +1,9 @@
 ---
 title: 쟁점
 description: 해결이 필요한 주장들 간의 구조화된 충돌
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 쟁점은 주장, 정의, 또는 방법들 사이의 구조화된 충돌이다. 이는 공유된 조건

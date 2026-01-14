@@ -1,6 +1,9 @@
 ---
 title: AI
 description: 지식 시스템을 위한 도구이자 도전으로서의 인공지능
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 [Coscientist](./coscientist) 맥락에서의 AI(Artificial Intelligence, 인공지능)는

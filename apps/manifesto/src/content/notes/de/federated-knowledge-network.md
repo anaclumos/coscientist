@@ -3,6 +3,9 @@ title: Föderiertes Wissensnetzwerk
 description:
   Vernetzte Coscientist-Instanzen, die validiertes Wissen austauschen und dabei
   lokale Souveränität bewahren
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 Ein föderiertes Wissensnetzwerk ist ein System miteinander verbundener

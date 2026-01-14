@@ -1,6 +1,9 @@
 ---
 title: Ingestão Zero-Trust
 description: Protocolo que exige proveniência explícita antes de aceitar alegações
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 A ingestão zero-trust é um protocolo que trata, por padrão, as informações

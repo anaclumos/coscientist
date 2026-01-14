@@ -3,6 +3,9 @@ title: Peta Resolusi Bercabang
 description:
   Struktur yang menunjukkan beberapa kesimpulan yang sama-sama valid berdasarkan
   definisi atau metode yang berbeda
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 Peta resolusi bercabang adalah sebuah struktur yang menyajikan beberapa

@@ -1,6 +1,9 @@
 ---
 title: Dryf systemowy
 description: Degradacja systemów wiedzy przez samozanieczyszczenie lub zaniedbanie
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 Dryf systemowy to kategoria [zjawisk dryfu](./drift-phenomena), w której sam

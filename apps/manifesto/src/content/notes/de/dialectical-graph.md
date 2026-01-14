@@ -3,6 +3,9 @@ title: Dialektischer Graph
 description:
   Ein Wissensgraphmodell, das Behauptungen und Beziehungen statt Dokumentinhalte
   speichert
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 Ein dialektischer Graph ist ein Wissensgraph, der argumentative Strukturen

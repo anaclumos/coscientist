@@ -1,6 +1,9 @@
 ---
 title: Encyclopedie Galactica
 description: Een concept om kennis te behouden door donkere eeuwen heen
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 De Encyclopedie Galactica is een fictief apparaat in

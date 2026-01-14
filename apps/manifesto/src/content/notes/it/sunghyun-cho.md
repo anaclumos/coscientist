@@ -1,6 +1,9 @@
 ---
 title: Sunghyun Cho
 description: Creatore di Coscientist e autore dei suoi saggi fondamentali
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 Sunghyun Cho è il creatore di [Coscienziato](./coscientist) e l’autore dei saggi

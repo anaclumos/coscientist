@@ -1,6 +1,9 @@
 ---
 title: 最小割
 description: 使圖斷開的最小邊集合
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 最小割（minimum

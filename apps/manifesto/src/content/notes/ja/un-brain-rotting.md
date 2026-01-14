@@ -1,6 +1,9 @@
 ---
 title: 脳腐敗の回復（Un-Brain-Rotting）
 description: AI後の情報環境において、検証と主体性（エージェンシー）を取り戻す能動的プロセス
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 脳腐敗の回復（Un-brain-rotting）とは、劣化した情報環境にさらされた後、検証能力と認知的主体性（cognitive

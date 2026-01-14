@@ -1,6 +1,9 @@
 ---
 title: Operador
 description: O soberano humano sobre o conhecimento no Coscientist
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 O Operador é o soberano humano sobre o conhecimento no

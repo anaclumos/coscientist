@@ -1,6 +1,9 @@
 ---
 title: Oefenen met ophalen
 description: Het versterken van geheugen door actief informatie op te halen
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 Oefenen met ophalen is het versterken van je geheugen door actief informatie op

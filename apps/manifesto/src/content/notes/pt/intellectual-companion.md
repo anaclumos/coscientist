@@ -1,6 +1,9 @@
 ---
 title: Companheiro Intelectual
 description: IA como parceira de contemplação em vez de motor de respostas
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 Um companheiro intelectual é um sistema de IA projetado para pensar junto com o

@@ -1,6 +1,9 @@
 ---
 title: LLM
 description: பெரிய மொழி மாதிரி , Coscientist-இன் பரிசீலனை உழைப்பை ஆதரிக்கும் AI கட்டமைப்பு
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM என்பது இயல்பான மொழியை முன்கணித்து உருவாக்க, அளவில்லா அளவு உரைத் தொகுதிகளில்

@@ -1,6 +1,9 @@
 ---
 title: Capas del sistema de conocimiento
 description: Las capas arquitectónicas de Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 Las capas del sistema de conocimiento son los componentes arquitectónicos

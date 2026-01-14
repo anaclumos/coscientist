@@ -1,6 +1,9 @@
 ---
 title: 削弱攻击
 description: 针对支撑某个主张之方法、假设或定义的攻击
+sourceLocale: en
+sourceHash: d67bef7771ea
+translatedAt: 2026-01-14
 ---
 
 削弱攻击（undercut）是一种质疑：它针对的不是[主张](./claim)本身，而是主张赖以成立的根据——使该主张有意义的[方法](./method)、[假设](./assumption)或定义。如果削弱攻击成功，那么即使没有找到直接的[反例](./counterexample)，该主张也会失去支撑。

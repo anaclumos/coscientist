@@ -1,6 +1,9 @@
 ---
 title: Cerebro digital
 description: Un sistema de conocimiento personal que refleja y amplía una mente
+sourceLocale: en
+sourceHash: 6503fc9c630c
+translatedAt: 2026-01-14
 ---
 
 Un cerebro digital es un sistema de conocimiento personal diseñado para

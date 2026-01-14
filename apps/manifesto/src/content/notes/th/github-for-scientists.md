@@ -1,6 +1,9 @@
 ---
 title: GitHub สำหรับนักวิทยาศาสตร์
 description: วิสัยทัศน์ของการปฏิบัติต่อการทดลองเสมือนโค้ดที่มีเวอร์ชันและตรวจสอบได้
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 "GitHub สำหรับนักวิทยาศาสตร์"

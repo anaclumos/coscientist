@@ -1,6 +1,9 @@
 ---
 title: Taallonafhankelijke indexering
 description: Een conceptuele index die specifieke talen overstijgt
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 Taallonafhankelijke indexering is de praktijk om kennis te organiseren op basis

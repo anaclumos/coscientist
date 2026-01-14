@@ -1,6 +1,9 @@
 ---
 title: Encyclopedia Galactica
 description: Karanlık çağlar boyunca bilgiyi korumaya yönelik bir konsept
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 Encyclopedia Galactica, [Isaac Asimov](./isaac-asimov)'un _Foundation_ serisinde

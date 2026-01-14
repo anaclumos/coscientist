@@ -1,6 +1,9 @@
 ---
 title: RAG의 한계
 description: 표준 검색-증강 생성이 왜 진정한 발견을 만들어내지 못하는가
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) (Retrieval-Augmented Generation, 검색-증강 생성)은 관련 문서를

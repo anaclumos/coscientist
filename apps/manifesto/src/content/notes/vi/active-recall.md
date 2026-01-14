@@ -1,6 +1,9 @@
 ---
 title: Gợi nhớ chủ động
 description: Học bằng cách truy xuất thông tin từ trí nhớ
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 Gợi nhớ chủ động là học bằng cách cố gắng tạo ra câu trả lời từ trí nhớ thay vì

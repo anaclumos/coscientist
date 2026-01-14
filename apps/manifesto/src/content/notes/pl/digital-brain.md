@@ -1,6 +1,9 @@
 ---
 title: Cyfrowy mózg
 description: Osobisty system wiedzy, który odzwierciedla i rozszerza umysł
+sourceLocale: en
+sourceHash: 6503fc9c630c
+translatedAt: 2026-01-14
 ---
 
 Cyfrowy mózg to osobisty system wiedzy zaprojektowany do przechwytywania,

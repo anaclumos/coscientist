@@ -1,6 +1,9 @@
 ---
 title: Minimale contradictieset
 description: De kleinste set van premissen en relaties die een conflict oplevert
+sourceLocale: en
+sourceHash: 31a0e5277e2e
+translatedAt: 2026-01-14
 ---
 
 De minimale contradictieset is de kleinste verzameling van premissen, beweringen

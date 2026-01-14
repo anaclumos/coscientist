@@ -1,6 +1,9 @@
 ---
 title: Krzywa zapominania
 description: Przewidywalny spadek pamięci bez powtórek
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 Krzywa zapominania opisuje przewidywalny spadek zdolności przypominania sobie

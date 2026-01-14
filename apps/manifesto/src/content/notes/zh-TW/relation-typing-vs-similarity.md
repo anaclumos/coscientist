@@ -1,6 +1,9 @@
 ---
 title: 關係類型標註 vs 相似度
 description: 為什麼「具類型的邊」能解決相似度檢索做不到的事
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 「關係類型標註」與「相似度」對比的是兩種連結知識的方法：以相似度為基礎的檢索（如

@@ -3,6 +3,9 @@ title: Strategie di esplorazione
 description:
   Strategie di attraversamento del grafo per una scoperta continua della
   conoscenza
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [Coscienziato](./coscientist) ha bisogno di più del semplice recupero: ha

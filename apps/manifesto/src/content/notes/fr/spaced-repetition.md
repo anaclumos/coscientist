@@ -3,6 +3,9 @@ title: Répétition espacée
 description:
   Une technique d’apprentissage fondée sur des intervalles de révision
   croissants
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 La répétition espacée est une méthode fondée sur des preuves pour planifier les

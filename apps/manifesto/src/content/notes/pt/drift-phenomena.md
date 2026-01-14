@@ -1,6 +1,9 @@
 ---
 title: Fenômenos de Deriva
 description: Mudanças no tempo em sistemas de conhecimento
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 Fenômenos de deriva são as formas como sistemas de conhecimento mudam ao longo

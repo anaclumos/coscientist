@@ -1,6 +1,9 @@
 ---
 title: Ingestia zero-trust
 description: Protokół wymagający jawnej proweniencji przed przyjęciem twierdzeń
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 Ingestia zero-trust to protokół, który domyślnie traktuje napływające informacje

@@ -1,6 +1,9 @@
 ---
 title: 아이작 아시모프
 description: 파운데이션 시리즈로 Coscientist의 비전에 영감을 준 SF 작가
+sourceLocale: en
+sourceHash: 83360f2cee16
+translatedAt: 2026-01-14
 ---
 
 아이작 아시모프(1920–1992)는 다작의 과학소설 작가이자 생화학 교수로, 그의

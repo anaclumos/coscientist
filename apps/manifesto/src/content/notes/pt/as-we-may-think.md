@@ -1,6 +1,9 @@
 ---
 title: Como Podemos Pensar
 description: Ensaio de 1945 de Vannevar Bush que apresenta o Memex
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 "Como Podemos Pensar" é o ensaio de 1945 de [Vannevar Bush](./vannevar-bush) que

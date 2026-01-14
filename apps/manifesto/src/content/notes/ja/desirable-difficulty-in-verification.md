@@ -1,6 +1,9 @@
 ---
 title: 検証における望ましい困難さ
 description: 真の理解を維持するために検証をあえて手間のかかるものにする
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 検証における望ましい困難さ（desirable

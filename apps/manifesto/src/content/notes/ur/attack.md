@@ -1,6 +1,9 @@
 ---
 title: حملہ
 description: کسی دعوے کی سچائی کو براہِ راست چیلنج
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 حملہ کسی [دعوے](./claim) کی سچائی پر براہِ راست چیلنج ہوتا ہے۔

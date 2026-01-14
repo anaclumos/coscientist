@@ -1,6 +1,9 @@
 ---
 title: Сонхьон Чо
 description: Розробник Coscientist і автор її засадничих есеїв
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 Сонхьон Чо — розробник [Конауковець](./coscientist) і автор есеїв, що визначили

@@ -1,6 +1,9 @@
 ---
 title: Cognition bilingue
 description: La capacité de penser et d’opérer simultanément dans plusieurs langues
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 La cognition bilingue est la capacité de penser et de travailler dans plus d’une

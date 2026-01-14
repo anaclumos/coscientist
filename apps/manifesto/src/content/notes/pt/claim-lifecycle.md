@@ -3,6 +3,9 @@ title: Ciclo de Vida de uma Alegação
 description:
   Como alegações evoluem de hipótese provisória para conhecimento robusto ou
   obsolescência
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 O ciclo de vida de uma [alegação](./claim) descreve como ela evolui ao longo do

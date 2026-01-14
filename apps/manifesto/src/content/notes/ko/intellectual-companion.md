@@ -1,6 +1,9 @@
 ---
 title: 지적 동반자
 description: 답변 엔진이 아니라 사유의 파트너로서의 AI
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 지적 동반자란 질문에 단순히 답하는 대신 인간과 함께 사고하도록 설계된 AI

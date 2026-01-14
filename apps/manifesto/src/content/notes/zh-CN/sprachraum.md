@@ -1,6 +1,9 @@
 ---
 title: Sprachraum（语言空间）
 description: 一种塑造思维与知识的语言圈层或领域
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Sprachraum（德语："语言空间"或"语言领域/语言圈层"）是由某种特定语言界定的领域，它不仅包含使用该语言的人群，也包括这门语言所承载的概念框架、文化语境与知识传统。

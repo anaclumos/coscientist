@@ -2,6 +2,9 @@
 title: ஒருமனத் தேவை
 description: அனைத்து மதிப்பாய்வாளர்களும் ஒப்புக்கொள்ளும் போது மட்டுமே கூற்றுகள்
   ஏற்றுக்கொள்ளப்படும் என்று கூறும் விதி
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 [பல-AI ஒருமித்த கருத்து நெறிமுறை](./multi-ai-consensus-protocol) இல் உள்ள

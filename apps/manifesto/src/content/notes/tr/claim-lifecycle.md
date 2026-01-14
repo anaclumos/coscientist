@@ -3,6 +3,9 @@ title: İddia Yaşam Döngüsü
 description:
   İddiaların geçici bir hipotezden sağlam bilgiye ya da geçersizliğe evrilme
   süreci
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 İddia yaşam döngüsü, bir [iddianın](./claim)

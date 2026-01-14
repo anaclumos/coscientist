@@ -1,6 +1,9 @@
 ---
 title: Keyakinan
 description: Ukuran multi-dimensi atas dukungan terhadap sebuah klaim
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 Keyakinan dalam [Kosaintis](./coscientist) bukanlah satu skor probabilitas. Ini

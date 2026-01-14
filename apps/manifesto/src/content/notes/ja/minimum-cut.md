@@ -1,6 +1,9 @@
 ---
 title: 最小カット
 description: グラフを切断する最小のエッジ集合
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 最小カットとは、取り除くとグラフが切断されるような、最小のエッジ集合のことです。[弁証法グラフ](./dialectical-graph)では、最小カット分析を用いて、主張クラスタ間に矛盾を生み出している最小限の構造を切り出すことができます。

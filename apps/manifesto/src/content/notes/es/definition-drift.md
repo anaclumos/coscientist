@@ -3,6 +3,9 @@ title: Deriva de definición
 description:
   Cuando el significado de un término cambia a lo largo del tiempo o según el
   contexto
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 La deriva de definición es el cambio gradual en el significado de un término a

@@ -2,6 +2,9 @@
 title: Menselijke regie bij AI
 description: Principes en mechanismen om mensen de controle te laten houden over
   AI-ondersteund kenniswerk
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 Menselijke regie bij [AI](./ai) is het geheel van principes en mechanismen dat

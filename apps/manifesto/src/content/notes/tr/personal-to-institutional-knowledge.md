@@ -1,6 +1,9 @@
 ---
 title: Kişisel Bilgiden Kurumsal Bilgiye
 description: Kişisel bilgi uygulamalarını organizasyonlara ölçeklendirme
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 Kişisel bilgiden kurumsal bilgiye geçiş, tek bir kişiye hizmet eden bir

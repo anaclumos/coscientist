@@ -1,6 +1,9 @@
 ---
 title: Secondo cervello
 description: Un approccio di gestione della conoscenza personale per esternalizzare le idee
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 Il "secondo cervello" è un approccio di gestione della conoscenza personale

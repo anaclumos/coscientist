@@ -2,6 +2,9 @@
 title: AI
 description: Kunstmatige intelligentie als zowel hulpmiddel als uitdaging voor
   kennissystemen
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 AI in de context van [Cowetenschapper](./coscientist) verwijst naar systemen die

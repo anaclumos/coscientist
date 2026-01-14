@@ -1,6 +1,9 @@
 ---
 title: Curva dell’oblio
 description: Il prevedibile declino della memoria senza ripasso
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 La curva dell’oblio descrive il prevedibile calo del richiamo quando le

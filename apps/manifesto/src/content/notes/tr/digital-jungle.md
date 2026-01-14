@@ -1,6 +1,9 @@
 ---
 title: Dijital Orman
 description: Kendi kendini organize eden, düşük sürtünmeli bir kişisel bilgi alanı
+sourceLocale: en
+sourceHash: 30a3de2b3fcf
+translatedAt: 2026-01-14
 ---
 
 Dijital orman, minimum manuel kürasyonla büyüyen bir kişisel bilgi alanıdır.

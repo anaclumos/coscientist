@@ -1,6 +1,9 @@
 ---
 title: Nguồn
 description: Một mỏ neo xuất xứ cho các khẳng định và bằng chứng
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 Một nguồn là điểm xuất phát cho một [đoạn bằng chứng](./evidence-span) hoặc

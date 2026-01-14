@@ -1,6 +1,9 @@
 ---
 title: 지식 실패 모드
 description: 지식 시스템에서 무엇이 잘못될 수 있는지에 대한 분류 체계
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 지식 실패 모드란 지식 시스템이 성능이 저하되거나 붕괴하거나, 사람을 오도하게

@@ -1,6 +1,9 @@
 ---
 title: Indeksowanie niezależne od języka
 description: Koncepcyjny indeks, który wykracza poza konkretne języki
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 Indeksowanie niezależne od języka to praktyka porządkowania wiedzy według pojęć,

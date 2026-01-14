@@ -1,6 +1,9 @@
 ---
 title: Síntese de Conhecimento
 description: Como a síntese difere da média em sistemas dialéticos de conhecimento
+sourceLocale: en
+sourceHash: 8035aade2986
+translatedAt: 2026-01-14
 ---
 
 A síntese de conhecimento é o que acontece após a recuperação , quando você

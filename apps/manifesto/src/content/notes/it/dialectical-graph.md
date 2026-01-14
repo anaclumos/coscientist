@@ -3,6 +3,9 @@ title: Grafo dialettico
 description:
   Un modello di grafo della conoscenza che memorizza affermazioni e relazioni
   invece del contenuto dei documenti
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 Un grafo dialettico è un grafo della conoscenza che memorizza la struttura

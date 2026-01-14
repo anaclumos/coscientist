@@ -2,6 +2,9 @@
 title: Va chạm tài liệu
 description: Giao thức buộc các nguồn khác biệt phải đối chiếu với các [khẳng
   định](./claim) của nhau
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 Va chạm tài liệu là một giao thức buộc các nguồn khác biệt phải đối chiếu với

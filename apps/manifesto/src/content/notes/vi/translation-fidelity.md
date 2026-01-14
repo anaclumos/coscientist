@@ -1,6 +1,9 @@
 ---
 title: Độ trung thực của bản dịch
 description: Bảo toàn ý nghĩa và độ chính xác khi vượt qua ranh giới ngôn ngữ
+sourceLocale: en
+sourceHash: 5b698486c4d0
+translatedAt: 2026-01-14
 ---
 
 Độ trung thực của bản dịch là mức độ mà nội dung được dịch bảo toàn ý nghĩa, sắc

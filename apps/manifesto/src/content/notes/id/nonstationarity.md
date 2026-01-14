@@ -1,6 +1,9 @@
 ---
 title: Nonstasioneritas
 description: Ketika proses pembangkitan data berubah seiring waktu
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 Nonstasioneritas berarti proses dasar yang menghasilkan data berubah seiring

@@ -3,6 +3,9 @@ title: Kopplung von Methode und Schlussfolgerung
 description:
   Analysepattern, das Behauptungen nach Methode statt nach Schlussfolgerung
   gruppiert
+sourceLocale: en
+sourceHash: 8987bb9190cf
+translatedAt: 2026-01-14
 ---
 
 Die Kopplung von Methode und Schlussfolgerung ist ein Analysepattern, das

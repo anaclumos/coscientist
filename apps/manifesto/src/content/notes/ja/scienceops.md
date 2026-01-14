@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: 科学を加速するためにソフトウェア運用の原則を適用する
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps は、科学研究にソフトウェア運用の思考を適用するという

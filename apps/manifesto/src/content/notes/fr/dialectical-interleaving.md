@@ -3,6 +3,9 @@ title: Entrelacement dialectique
 description:
   Mélanger les types d’affirmations pendant l’exploration pour éviter les silos
   et percer une fausse compétence
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 L’entrelacement dialectique est la pratique consistant à mélanger les types de

@@ -1,6 +1,9 @@
 ---
 title: Utrata niuansów w tłumaczeniu
 description: Subtelności semantyczne, które znikają, gdy idee przekraczają granice językowe
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 Utrata niuansów w tłumaczeniu to wyzbywanie się subtelności semantycznych, gdy

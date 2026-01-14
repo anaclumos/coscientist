@@ -1,6 +1,9 @@
 ---
 title: プロジェクト・アルデハイド
 description: 個人用デジタルブレインを構築する初期の試み
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 プロジェクト・アルデハイドは、[Sunghyun Cho](./sunghyun-cho)

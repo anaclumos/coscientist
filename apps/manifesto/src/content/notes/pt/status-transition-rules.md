@@ -1,6 +1,9 @@
 ---
 title: Regras de Transição de Status
 description: O que desencadeia a passagem entre estados de uma alegação num grafo dialético
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 As regras de transição de status definem o que faz uma [alegação](./claim)

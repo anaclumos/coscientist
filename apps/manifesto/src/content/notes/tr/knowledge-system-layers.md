@@ -1,6 +1,9 @@
 ---
 title: Bilgi Sistemi Katmanları
 description: Coscientist’in mimari katmanları
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 Bilgi sistemi katmanları, [Eşbilimci](./coscientist) sistemini oluşturan

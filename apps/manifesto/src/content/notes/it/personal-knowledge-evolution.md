@@ -3,6 +3,9 @@ title: Evoluzione della conoscenza personale
 description:
   Progressione storica degli strumenti e delle idee per la gestione della
   conoscenza personale
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 L’evoluzione della conoscenza personale ripercorre lo sviluppo di strumenti e

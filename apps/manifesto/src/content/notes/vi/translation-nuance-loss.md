@@ -1,6 +1,9 @@
 ---
 title: Sự mất mát sắc thái khi dịch
 description: Những tinh tế về ngữ nghĩa biến mất khi ý tưởng băng qua ranh giới ngôn ngữ
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 Sự mất mát sắc thái khi dịch là việc các tinh tế về ngữ nghĩa bị tước bỏ khi ý

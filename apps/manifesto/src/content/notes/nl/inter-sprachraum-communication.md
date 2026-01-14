@@ -1,6 +1,9 @@
 ---
 title: Inter-Sprachraumcommunicatie
 description: Dialoog en kennisuitwisseling over taaldomeinen heen
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 Inter-Sprachraumcommunicatie is het uitwisselen van ideeën over taalgrenzen heen

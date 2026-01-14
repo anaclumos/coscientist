@@ -3,6 +3,9 @@ title: Indépendance des preuves
 description:
   Principe selon lequel un accord issu d’un biais d’entraînement partagé n’est
   pas un véritable consensus
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 L’indépendance des preuves est le principe selon lequel un accord apparent entre

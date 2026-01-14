@@ -3,6 +3,9 @@ title: Galaktisches Imperium
 description:
   Die Zivilisation, deren Fall die Encyclopedia Galactica in Asimovs Foundation
   motiviert
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 Das Galaktische Imperium ist die Zivilisation in [Isaac Asimov](./isaac-asimov)s

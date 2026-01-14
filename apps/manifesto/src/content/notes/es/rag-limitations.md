@@ -3,6 +3,9 @@ title: Limitaciones de RAG
 description:
   Por qué la generación aumentada por recuperación estándar no puede producir
   descubrimiento genuino
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag) (Retrieval-Augmented Generation; generación aumentada por

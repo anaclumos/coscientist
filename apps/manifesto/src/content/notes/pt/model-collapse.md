@@ -1,6 +1,9 @@
 ---
 title: Colapso do Modelo
 description: Degradação de modelos treinados com seus próprios dados gerados
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 O colapso do modelo é uma degradação que pode ocorrer quando modelos são

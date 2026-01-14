@@ -1,6 +1,9 @@
 ---
 title: Minimum Kesit
 description: Bir grafı bağlantısız hâle getiren en küçük kenar kümesi
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 Minimum kesit, kaldırılması bir grafı bağlantısız hâle getiren en küçük kenar

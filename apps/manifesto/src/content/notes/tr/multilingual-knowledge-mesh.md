@@ -1,6 +1,9 @@
 ---
 title: Çok Dilli Bilgi Ağı
 description: Dilleri aşan ve küresel olarak dağıtılan bir bilgi ağı
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 Çok dilli bir bilgi ağı, herhangi bir dildeki içeriğin, kelime eşleştirmesi

@@ -1,6 +1,9 @@
 ---
 title: 學習科學原則
 description: 以證據為基礎的技巧，用於建立持久的學習與記憶
+sourceLocale: en
+sourceHash: 9b01e1de519a
+translatedAt: 2026-01-14
 ---
 
 學習科學原則是以證據為基礎的技巧，用於獲取能夠持續、可遷移，並在壓力下仍可隨時取用的知識。這些原則說明了

@@ -1,6 +1,9 @@
 ---
 title: 文档碰撞
 description: 迫使不同来源相互对对方的主张进行交锋的协议
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 文档碰撞（Document

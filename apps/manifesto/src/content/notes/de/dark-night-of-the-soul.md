@@ -3,6 +3,9 @@ title: Dunkle Nacht der Seele
 description:
   Ein literarisches Mittel für eine tiefgreifende innere Krise, die zur
   Rekonstruktion der Identität führt
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 „Die Dunkle Nacht der Seele" bezeichnet eine tiefgreifende innere Krise, in der

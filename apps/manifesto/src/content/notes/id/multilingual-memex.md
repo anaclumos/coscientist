@@ -3,6 +3,9 @@ title: Memex Multibahasa
 description:
   Sistem pengetahuan pribadi yang sadar bahasa dengan dukungan terjemahan
   otomatis
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 Memex multibahasa adalah sistem pengetahuan pribadi yang secara native mendukung

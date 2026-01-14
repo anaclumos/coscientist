@@ -1,6 +1,9 @@
 ---
 title: AI 垃圾內容
 description: 低品質的 AI 生成內容淹沒網際網路
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 AI

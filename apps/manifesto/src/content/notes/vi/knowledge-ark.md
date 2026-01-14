@@ -1,6 +1,9 @@
 ---
 title: Con thuyền tri thức
 description: Một kho lưu trữ được thiết kế để bảo tồn tri thức qua những giai đoạn sụp đổ
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 Một "con thuyền tri thức" là một kho lưu trữ được thiết kế để bảo tồn và truyền

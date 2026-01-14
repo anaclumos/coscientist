@@ -1,6 +1,9 @@
 ---
 title: 분기형 해결 맵
 description: 서로 다른 정의나 방법에 따라 여러 가지 타당한 결론이 나뉘어 나타나는 구조
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 분기형 해결 맵은 서로 다른 출발점(정의, 방법, 가정)에서 여러 가지 타당한 결론이

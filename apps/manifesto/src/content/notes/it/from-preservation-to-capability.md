@@ -1,6 +1,9 @@
 ---
 title: Dalla conservazione alla capacità
 description: Il passaggio dal conservare conoscenza al produrre comprensione
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 Il passaggio dalla conservazione alla capacità è lo spostamento da sistemi di

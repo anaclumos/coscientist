@@ -1,6 +1,9 @@
 ---
 title: Vannevar Bush
 description: Kỹ sư và nhà quản trị khoa học, người đã hình dung ra Memex
+sourceLocale: en
+sourceHash: f83e74ffedd5
+translatedAt: 2026-01-14
 ---
 
 Vannevar Bush (1890–1974) là một kỹ sư, nhà phát minh và nhà quản trị khoa học

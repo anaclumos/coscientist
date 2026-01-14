@@ -1,6 +1,9 @@
 ---
 title: AI 위임을 통한 역량 저하
 description: AI가 인지 작업을 수행할 때 학습 역량을 잃을 위험
+sourceLocale: en
+sourceHash: 4403bb1f64b0
+translatedAt: 2026-01-14
 ---
 
 AI 위임을 통한 역량 저하는 인지 작업을 AI에 떠넘길 때, 그 작업을 스스로 수행하는

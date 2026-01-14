@@ -1,6 +1,9 @@
 ---
 title: Pratique de rappel
 description: Renforcer la mémoire en rappelant activement des informations
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 La pratique de rappel consiste à renforcer la mémoire en rappelant activement

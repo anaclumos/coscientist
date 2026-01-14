@@ -1,6 +1,9 @@
 ---
 title: 一致同意要求
 description: 只有在所有审阅者都同意时才接受主张的规则
+sourceLocale: en
+sourceHash: e611b05f0d4c
+translatedAt: 2026-01-14
 ---
 
 一致同意要求是[多 AI 共识协议](./multi-ai-consensus-protocol)中的一条规则：只有当所有参与的 AI 系统都同意时，才会接受[主张](./claim)。模型之间的分歧被视为需要更仔细检查的信号，而不是应被平均掉的噪声。

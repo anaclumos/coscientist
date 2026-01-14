@@ -1,6 +1,9 @@
 ---
 title: 표류 현상
 description: 지식 시스템에서 시간에 따라 일어나는 변화
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 표류 현상은 지식 시스템이 시간이 흐르면서(종종 눈에 띄지 않게) 변하는 방식으로,

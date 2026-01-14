@@ -1,6 +1,9 @@
 ---
 title: Khả năng truy vết
 description: Khả năng lần theo một khẳng định ngược về các nguồn và cơ sở của nó
+sourceLocale: en
+sourceHash: 8ce5fa515f95
+translatedAt: 2026-01-14
 ---
 
 Khả năng truy vết là khả năng lần theo một khẳng định ngược qua cấu trúc nâng đỡ

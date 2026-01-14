@@ -1,6 +1,9 @@
 ---
 title: 多語言 Memex
 description: 一套具語言感知能力的個人知識系統，支援自動翻譯
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 多語言 Memex 是一套個人知識系統，原生支援多種語言內容，具備自動語言偵測、翻譯，以及跨語言連結能力。它將

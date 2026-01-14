@@ -1,6 +1,9 @@
 ---
 title: 探索机制
 description: 在辩证图中持续进行知识发现的策略
+sourceLocale: en
+sourceHash: 755f4cc80039
+translatedAt: 2026-01-14
 ---
 
 探索机制是 [共研者](./coscientist)

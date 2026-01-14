@@ -1,6 +1,9 @@
 ---
 title: Jungle numérique
 description: Un espace personnel de connaissances à faible friction qui s’auto-organise
+sourceLocale: en
+sourceHash: 30a3de2b3fcf
+translatedAt: 2026-01-14
 ---
 
 Une jungle numérique est un espace personnel de connaissances qui se développe

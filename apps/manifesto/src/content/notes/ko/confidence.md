@@ -1,6 +1,9 @@
 ---
 title: 신뢰도
 description: 주장에 대한 지지의 다차원적 척도
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 [Coscientist](./coscientist)에서의 신뢰도는 단일 확률 점수가 아니다. 이는 어떤

@@ -1,6 +1,9 @@
 ---
 title: Evolutie van persoonlijke kennis
 description: Historische ontwikkeling van tools en ideeën voor persoonlijk kennisbeheer
+sourceLocale: en
+sourceHash: 5720bdc5360d
+translatedAt: 2026-01-14
 ---
 
 De evolutie van persoonlijke kennis volgt de ontwikkeling van tools en ideeën

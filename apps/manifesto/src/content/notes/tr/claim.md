@@ -1,6 +1,9 @@
 ---
 title: İddia
 description: Diyalektik bir grafikte düğüm olarak saklanan, doğrulanabilir bir önerme
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 Bir iddia, metinden çıkarılan ve bir [Diyalektik Graf](./dialectical-graph)

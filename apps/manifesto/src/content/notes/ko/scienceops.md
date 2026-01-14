@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: 과학을 가속하기 위한 소프트웨어 운영 원칙 적용
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps는 소프트웨어 운영 사고를 과학 연구에 적용하자는

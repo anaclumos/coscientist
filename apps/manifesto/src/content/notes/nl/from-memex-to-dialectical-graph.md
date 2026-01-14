@@ -1,6 +1,9 @@
 ---
 title: Van Memex naar Dialectische Graaf
 description: Evolutie van associatieve sporen naar argumentatieve structuur
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 Van Memex naar Dialectische Graaf volgt de evolutie van persoonlijke

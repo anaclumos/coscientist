@@ -1,6 +1,9 @@
 ---
 title: Pendamping Intelektual
 description: AI sebagai mitra kontemplasi, bukan mesin jawaban
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 Pendamping intelektual adalah sistem AI yang dirancang untuk berpikir bersama

@@ -1,6 +1,9 @@
 ---
 title: 攻撃
 description: 主張の真偽に対する直接的な異議申し立て
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 攻撃とは、[主張](./claim)の真偽に対する直接的な異議申し立てです。根拠（grounds）を狙う[切り崩し（undercut）](./undercut)とは異なり、攻撃は主張そのものが誤りである、または誤解を招くと述べ、通常は[反例](./counterexample)や矛盾する証拠を提示します。

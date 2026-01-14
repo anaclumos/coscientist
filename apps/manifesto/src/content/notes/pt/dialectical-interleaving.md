@@ -3,6 +3,9 @@ title: Intercalação Dialética
 description:
   Misturar tipos de alegações durante a exploração para evitar silos e perfurar
   a falsa competência
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 A intercalação dialética é a prática de misturar tipos de [alegações](./claim),

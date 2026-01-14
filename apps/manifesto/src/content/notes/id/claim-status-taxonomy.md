@@ -1,6 +1,9 @@
 ---
 title: Taksonomi Status Klaim
 description: Keadaan yang dapat ditempati sebuah klaim di dalam sebuah graf dialektik
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 Taksonomi status klaim mendefinisikan keadaan yang dapat ditempati sebuah

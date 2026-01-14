@@ -1,6 +1,9 @@
 ---
 title: عبر فضاءات اللغة
 description: رؤية لتجاوز حدود اللغة من أجل أنظمة المعرفة
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 «عبر فضاءات اللغة» هي رؤية [سونغهيون تشو](./sunghyun-cho) لأنظمة معرفة تتجاوز

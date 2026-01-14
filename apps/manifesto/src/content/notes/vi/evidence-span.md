@@ -3,6 +3,9 @@ title: Đoạn bằng chứng
 description:
   Một đoạn trích dẫn chính xác từ nguồn, dùng để ủng hộ hoặc phản bác một khẳng
   định
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Đoạn bằng chứng là phần văn bản được trích dẫn nguyên văn và chính xác từ một

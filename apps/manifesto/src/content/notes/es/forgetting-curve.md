@@ -1,6 +1,9 @@
 ---
 title: Curva del olvido
 description: El declive predecible de la memoria sin repaso
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 La curva del olvido describe el declive predecible en el recuerdo cuando la

@@ -2,6 +2,9 @@
 title: Anlatı Katmanı
 description: İnsan tarafından okunmaya uygun, diyalektik grafiğin zaman damgalı
   projeksiyonları
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 Anlatı katmanı, bir [Diyalektik Graf](./dialectical-graph)ın insan tarafından

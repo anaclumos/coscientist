@@ -3,6 +3,9 @@ title: Synthèse interlinguistique
 description:
   Combiner des connaissances issues de plusieurs langues en une compréhension
   unifiée
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 La synthèse interlinguistique est le processus consistant à combiner des

@@ -3,6 +3,9 @@ title: Império Galáctico
 description:
   A civilização cuja queda motiva a Enciclopédia Galáctica em Fundação, de
   Asimov
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 O Império Galáctico é a civilização da série Fundação, de

@@ -1,6 +1,9 @@
 ---
 title: ScienceOps
 description: Применение принципов эксплуатации программного обеспечения для ускорения науки
+sourceLocale: en
+sourceHash: 17da4c7d2e3d
+translatedAt: 2026-01-14
 ---
 
 ScienceOps — это видение [Сонхюна Чо](./sunghyun-cho) о применении операционного

@@ -3,6 +3,9 @@ title: Limitazioni del RAG
 description:
   Perché la retrieval-augmented generation standard non può produrre una
   scoperta autentica
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 Il [RAG](./rag) migliora la fattualità recuperando documenti pertinenti, ma il

@@ -3,6 +3,9 @@ title: Isaac Asimov
 description:
   Auteur de science-fiction dont la série Fondation a inspiré la vision de
   Coscientist
+sourceLocale: en
+sourceHash: 83360f2cee16
+translatedAt: 2026-01-14
 ---
 
 Isaac Asimov (1920–1992) était un auteur de science-fiction prolifique et

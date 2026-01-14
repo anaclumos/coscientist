@@ -1,6 +1,9 @@
 ---
 title: 推理層
 description: 辯證圖中的活體、持續演化的主張網路
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 推理層是在[辯證圖](./dialectical-graph)中，由[主張](./claim)、[攻擊](./attack)、[削弱](./undercut)以及支持關係所構成的活體、持續演化的網路。它呈現當前的知識狀態：哪些被相信、哪些受到爭議、以及哪些已被駁倒。

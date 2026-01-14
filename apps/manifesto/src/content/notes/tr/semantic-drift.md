@@ -3,6 +3,9 @@ title: Anlamsal Sürüklenme
 description:
   Anlamdaki değişikliklerin bilginin geçersiz ya da yanıltıcı hale gelmesine yol
   açması
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 Anlamsal sürüklenme, terimlerin anlamının zaman içinde ya da topluluklar

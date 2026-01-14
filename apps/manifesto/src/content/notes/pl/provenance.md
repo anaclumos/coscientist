@@ -1,6 +1,9 @@
 ---
 title: Pochodzenie
 description: Źródło i łańcuch powierzenia dla twierdzeń i dowodów
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 Pochodzenie to źródło i łańcuch powierzenia twierdzenia lub fragmentu dowodu:

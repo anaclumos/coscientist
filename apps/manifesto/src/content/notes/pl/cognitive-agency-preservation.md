@@ -1,6 +1,9 @@
 ---
 title: Zachowanie sprawczości poznawczej
 description: Ramowanie bezpieczeństwa AI, które utrzymuje ludzi w kontroli nad osądem
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 Zachowanie sprawczości poznawczej to zasada, według której AI powinna wzmacniać

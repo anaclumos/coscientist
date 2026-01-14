@@ -3,6 +3,9 @@ title: Diyalektik Grafik
 description:
   Belge içeriği yerine iddiaları ve ilişkileri depolayan bir bilgi grafiği
   modeli
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 Diyalektik grafik, belgeleri ayrıştırılmamış metin olarak ele almak yerine

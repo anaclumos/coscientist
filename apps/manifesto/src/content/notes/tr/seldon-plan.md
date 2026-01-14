@@ -1,6 +1,9 @@
 ---
 title: Seldon Planı
 description: Hari Seldon'ın karanlık bir çağı kısaltmaya yönelik uzun vadeli stratejisi
+sourceLocale: en
+sourceHash: 879a58531fb4
+translatedAt: 2026-01-14
 ---
 
 Seldon Planı, [Hari Seldon](./hari-seldon)'ın, çöküş sonrasındaki bir karanlık

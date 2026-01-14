@@ -1,6 +1,9 @@
 ---
 title: 언더컷
 description: 주장을 떠받치는 방법, 가정, 또는 정의에 대한 공격
+sourceLocale: en
+sourceHash: d67bef7771ea
+translatedAt: 2026-01-14
 ---
 
 언더컷은 [주장](./claim) 자체가 아니라, 그 주장이 성립하는 근거—즉

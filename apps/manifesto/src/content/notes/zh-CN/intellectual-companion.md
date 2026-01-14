@@ -1,6 +1,9 @@
 ---
 title: 智识伙伴
 description: AI 作为沉思伙伴，而非答案引擎
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 智识伙伴是一种 AI 系统，旨在与人类并肩思考，而不仅仅是回答问题。它提出假设、寻找反证、揭示矛盾并打磨论证，但它不宣告真理。人类

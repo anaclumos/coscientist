@@ -1,6 +1,9 @@
 ---
 title: Operator
 description: Ludzki suweren nad wiedzą w Coscientist
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 Operator to ludzki suweren nad wiedzą w [Współnaukowiec](./coscientist). Nazwa

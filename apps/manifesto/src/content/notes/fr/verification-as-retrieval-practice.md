@@ -3,6 +3,9 @@ title: La vérification comme pratique de récupération
 description:
   La boucle de vérification de l’Operator comme forme de rappel actif qui
   renforce la rétention des connaissances
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 La vérification comme pratique de récupération est l’idée que le travail de

@@ -1,6 +1,9 @@
 ---
 title: 知識システムのレイヤー
 description: Coscientist のアーキテクチャを構成するレイヤー
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 知識システムのレイヤーとは、[コサイエンティスト](./coscientist)

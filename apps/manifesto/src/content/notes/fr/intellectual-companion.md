@@ -1,6 +1,9 @@
 ---
 title: Compagnon intellectuel
 description: L’IA comme partenaire de contemplation plutôt que moteur de réponses
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 Un compagnon intellectuel est un système d’IA conçu pour réfléchir aux côtés de

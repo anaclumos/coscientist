@@ -1,6 +1,9 @@
 ---
 title: Saldırı
 description: Bir iddianın doğruluğuna yönelik doğrudan bir meydan okuma
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 Bir saldırı, bir [iddianın](./claim) doğruluğuna yönelik doğrudan bir meydan

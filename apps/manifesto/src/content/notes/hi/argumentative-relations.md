@@ -1,6 +1,9 @@
 ---
 title: तर्क-वितर्क संबंध
 description: कार्य के आधार पर संगठित, द्वंद्वात्मक ग्राफ में किनारा प्रकार
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 तर्क-वितर्क संबंध, [द्वंद्वात्मक ग्राफ](./dialectical-graph) में किनारा प्रकार

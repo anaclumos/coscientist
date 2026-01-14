@@ -3,6 +3,9 @@ title: Klaim
 description:
   Proposisi yang dapat diverifikasi dan disimpan sebagai node dalam graf
   dialektik
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 Klaim adalah proposisi yang dapat diverifikasi yang diekstrak dari teks dan

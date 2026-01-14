@@ -3,6 +3,9 @@ title: Verifikasi sebagai Latihan Pengambilan Kembali
 description:
   Loop verifikasi Operator sebagai bentuk active recall yang memperkuat retensi
   pengetahuan
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 Verifikasi sebagai latihan pengambilan kembali adalah wawasan bahwa pekerjaan

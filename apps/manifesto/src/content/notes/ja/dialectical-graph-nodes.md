@@ -1,6 +1,9 @@
 ---
 title: 弁証法的グラフのノード
 description: 弁証法的知識グラフにおけるノード種別
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 [弁証法的グラフ](./dialectical-graph)では、ノードは生のテキストではなく、認識論的な対象（epistemic

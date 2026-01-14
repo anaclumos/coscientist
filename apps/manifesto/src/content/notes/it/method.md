@@ -1,6 +1,9 @@
 ---
 title: Metodo
 description: La procedura usata per generare prove o conclusioni
+sourceLocale: en
+sourceHash: 7e9dd118b193
+translatedAt: 2026-01-14
 ---
 
 Un metodo è la procedura mediante la quale si raccolgono le prove o si ricava

@@ -1,6 +1,9 @@
 ---
 title: 制度性腦腐
 description: 集體驗證能力隨時間退化的組織失效模式
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 制度性腦腐是一種失效模式：組織集體用來驗證與更新知識的能力，會隨時間逐步退化。它不同於[百科全書崩潰](./encyclopedia-meltdown)——後者是由 AI 汙染所驅動的系統層級崩壞；腦腐則是人類—組織層面的現象。

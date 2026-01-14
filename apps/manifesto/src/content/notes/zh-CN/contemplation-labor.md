@@ -1,6 +1,9 @@
 ---
 title: 思考劳动
 description: AI 在知识生产中执行的认知工作
+sourceLocale: en
+sourceHash: 1f16d680679e
+translatedAt: 2026-01-14
 ---
 
 思考劳动是知识生产的认知工作：提出假设、收集证据、寻找反例、组织论证，以及打磨结论。在

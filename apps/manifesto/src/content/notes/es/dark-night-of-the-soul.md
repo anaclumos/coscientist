@@ -3,6 +3,9 @@ title: Noche oscura del alma
 description:
   Un recurso literario para una profunda crisis interior que conduce a la
   reconstrucción de la identidad
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 "La Dark Night of the Soul" nombra una profunda crisis interior en la que

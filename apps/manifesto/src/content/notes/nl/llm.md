@@ -3,6 +3,9 @@ title: LLM
 description:
   Large Language Model, de AI-architectuur die het contemplatiewerk van
   Coscientist ondersteunt
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM verwijst naar neurale netwerkmodellen die zijn getraind op enorme

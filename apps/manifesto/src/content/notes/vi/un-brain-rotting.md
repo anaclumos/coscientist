@@ -3,6 +3,9 @@ title: Chống thối não
 description:
   Quá trình chủ động khôi phục năng lực kiểm chứng và quyền chủ động nhận thức
   trong môi trường thông tin hậu AI
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Chống thối não là quá trình chủ động khôi phục năng lực kiểm chứng và quyền chủ

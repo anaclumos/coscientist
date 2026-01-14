@@ -1,6 +1,9 @@
 ---
 title: Meertalige Memex
 description: Een taalbewust persoonlijk kennissysteem met automatische vertaalondersteuning
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 Een meertalige Memex is een persoonlijk kennissysteem dat van nature inhoud in

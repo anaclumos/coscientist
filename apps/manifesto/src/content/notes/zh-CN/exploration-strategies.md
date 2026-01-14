@@ -1,6 +1,9 @@
 ---
 title: 探索策略
 description: 用于持续知识发现的图遍历策略
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [共研者](./coscientist)

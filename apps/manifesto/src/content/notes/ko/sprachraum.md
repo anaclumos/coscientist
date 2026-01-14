@@ -1,6 +1,9 @@
 ---
 title: 언어권
 description: 사고와 지식을 형성하는 언어권 또는 영역
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 언어권(Sprachraum, 독일어: "언어 공간")은 특정 언어에 의해 정의되는 영역으로,

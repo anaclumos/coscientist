@@ -1,6 +1,9 @@
 ---
 title: Coscientist
 description: System intelektualnego towarzysza do wytwarzania wiedzy w epoce post-AI
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist to usługa open-source inspirowana fikcyjną

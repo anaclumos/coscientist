@@ -1,8 +1,74 @@
+import crypto from "node:crypto"
 import fs from "node:fs/promises"
 import path from "node:path"
 import OpenAI from "openai"
 
 const openai = new OpenAI()
+
+const BODY_EXTRACTION_REGEX = /^---\n[\s\S]*?\n---\n([\s\S]*)$/
+const FRONTMATTER_EXTRACTION_REGEX = /^---\n([\s\S]*?)\n---/
+const SOURCE_HASH_REGEX = /sourceHash:\s*([a-f0-9]+)/
+
+function computeSourceHash(content: string): string {
+  const match = content.match(BODY_EXTRACTION_REGEX)
+  const body = match ? match[1] : content
+  return crypto
+    .createHash("sha256")
+    .update(body.trim())
+    .digest("hex")
+    .slice(0, 12)
+}
+
+function injectProvenance(
+  translatedContent: string,
+  sourceHash: string,
+  sourceLocale = "en"
+): string {
+  const today = new Date().toISOString().split("T")[0]
+
+  const frontmatterMatch = translatedContent.match(FRONTMATTER_EXTRACTION_REGEX)
+  if (!frontmatterMatch) {
+    return translatedContent
+  }
+
+  const frontmatter = frontmatterMatch[1]
+  const body = translatedContent.slice(frontmatterMatch[0].length)
+
+  const cleanedFrontmatter = frontmatter
+    .split("\n")
+    .filter(
+      (line) =>
+        !(
+          line.startsWith("sourceLocale:") ||
+          line.startsWith("sourceHash:") ||
+          line.startsWith("translatedAt:")
+        )
+    )
+    .join("\n")
+
+  const newFrontmatter = `${cleanedFrontmatter.trimEnd()}
+sourceLocale: ${sourceLocale}
+sourceHash: ${sourceHash}
+translatedAt: ${today}`
+
+  return `---\n${newFrontmatter}\n---${body}`
+}
+
+function isTranslationStale(
+  translatedContent: string,
+  currentSourceHash: string
+): boolean {
+  const match = translatedContent.match(SOURCE_HASH_REGEX)
+  if (!match) {
+    return true
+  }
+  return match[1] !== currentSourceHash
+}
+
+function getExistingTranslationBody(translatedContent: string): string | null {
+  const match = translatedContent.match(BODY_EXTRACTION_REGEX)
+  return match ? match[1].trim() : null
+}
 
 const CONCURRENCY_LIMIT = 32
 const MAX_RETRIES = 5
@@ -222,7 +288,52 @@ RULES:
   return response.output_text.trim()
 }
 
-// Get the directory where this script is located
+async function translateWithTonePreservation(
+  sourceContent: string,
+  existingTranslation: string | null,
+  targetLocale: string
+): Promise<string> {
+  const langName = LOCALE_NAMES[targetLocale] || targetLocale
+
+  if (!existingTranslation) {
+    return translateWithGPT52(sourceContent, targetLocale, "markdown")
+  }
+
+  const systemPrompt = `You are a professional translator. Update this ${langName} translation to match the new English source.
+
+CRITICAL RULES:
+1. PRESERVE the existing translation's tone, style, and terminology choices
+2. Only modify what is necessary to reflect changes in the English source
+3. Keep the same level of formality and voice
+4. Preserve ALL markdown formatting (headers, links, bold, italic, lists, blockquotes, code blocks)
+5. Preserve YAML frontmatter structure (--- delimiters)
+6. Translate frontmatter title and description values
+7. For internal links [text](./slug), translate [text] but keep (./slug) unchanged
+8. Preserve wikilinks [[slug]] unchanged
+9. Return ONLY the translated markdown, no explanations`
+
+  const userPrompt = `<EXISTING_${langName.toUpperCase().replace(/\s+/g, "_")}_TRANSLATION>
+${existingTranslation}
+</EXISTING_${langName.toUpperCase().replace(/\s+/g, "_")}_TRANSLATION>
+
+<CURRENT_ENGLISH_SOURCE>
+${sourceContent}
+</CURRENT_ENGLISH_SOURCE>
+
+Produce the updated ${langName} translation that preserves the tone of the existing translation while incorporating any changes from the English source:`
+
+  const response = await openai.responses.create({
+    model: "gpt-5.2",
+    reasoning: { effort: "high" },
+    input: [
+      { role: "developer", content: systemPrompt },
+      { role: "user", content: userPrompt },
+    ],
+  })
+
+  return response.output_text.trim()
+}
+
 const SCRIPT_DIR = import.meta.dirname
 const PROJECT_ROOT = path.resolve(SCRIPT_DIR, "..")
 
@@ -281,7 +392,7 @@ async function translateMarkdown(locales: string[]) {
   const files = await fs.readdir(enDir)
   const mdFiles = files.filter((f) => f.endsWith(".md"))
 
-  console.log(`\nTranslating ${mdFiles.length} markdown notes...\n`)
+  console.log(`\nProcessing ${mdFiles.length} markdown notes...\n`)
 
   const targetLocales = locales.filter((locale) => locale !== "en")
   await Promise.all(
@@ -291,48 +402,139 @@ async function translateMarkdown(locales: string[]) {
   )
 
   const tasks: TranslationTask<void>[] = []
+  let upToDateCount = 0
 
   for (const locale of targetLocales) {
     for (const file of mdFiles) {
+      const sourcePath = path.join(enDir, file)
       const targetPath = path.join(notesDir, locale, file)
+
+      const sourceContent = await fs.readFile(sourcePath, "utf-8")
+      const sourceHash = computeSourceHash(sourceContent)
+
       const fileExists = await fs
         .access(targetPath)
         .then(() => true)
         .catch(() => false)
 
       if (fileExists) {
-        console.log(`⊘ ${locale}/${file} (exists)`)
+        const existingContent = await fs.readFile(targetPath, "utf-8")
+
+        if (!isTranslationStale(existingContent, sourceHash)) {
+          upToDateCount++
+          continue
+        }
+
+        const existingBody = getExistingTranslationBody(existingContent)
+
+        tasks.push({
+          id: `md:${locale}/${file}`,
+          execute: async () => {
+            console.log(
+              `↻ Re-translating ${file} to ${LOCALE_NAMES[locale]} (stale)...`
+            )
+
+            const translated = await translateWithTonePreservation(
+              sourceContent,
+              existingBody,
+              locale
+            )
+            const withProvenance = injectProvenance(translated, sourceHash)
+            await fs.writeFile(targetPath, withProvenance)
+            console.log(`✓ ${locale}/${file} (updated)`)
+          },
+        })
       } else {
         tasks.push({
           id: `md:${locale}/${file}`,
           execute: async () => {
-            const content = await fs.readFile(path.join(enDir, file), "utf-8")
-            console.log(`Translating ${file} to ${LOCALE_NAMES[locale]}...`)
+            console.log(`+ Translating ${file} to ${LOCALE_NAMES[locale]}...`)
 
             const translated = await translateWithGPT52(
-              content,
+              sourceContent,
               locale,
               "markdown"
             )
-            await fs.writeFile(targetPath, translated)
-            console.log(`✓ ${locale}/${file}`)
+            const withProvenance = injectProvenance(translated, sourceHash)
+            await fs.writeFile(targetPath, withProvenance)
+            console.log(`✓ ${locale}/${file} (new)`)
           },
         })
       }
     }
   }
 
-  console.log(`\nQueued ${tasks.length} translations (32 concurrent)...\n`)
+  if (upToDateCount > 0) {
+    console.log(`✓ ${upToDateCount} translations up to date\n`)
+  }
+
+  if (tasks.length === 0) {
+    console.log("✓ All translations up to date!")
+    return
+  }
+
+  console.log(`Queued ${tasks.length} translations (32 concurrent)...\n`)
   const results = await executeWithConcurrency(tasks)
 
   for (const [taskId, result] of results) {
     if (result instanceof Error) {
       const [locale, file] = taskId.replace("md:", "").split("/")
       const targetPath = path.join(notesDir, locale, file)
-      const content = await fs.readFile(path.join(enDir, file), "utf-8")
-      await fs.writeFile(targetPath, content)
+      const sourceContent = await fs.readFile(path.join(enDir, file), "utf-8")
+      const sourceHash = computeSourceHash(sourceContent)
+      const withProvenance = injectProvenance(sourceContent, sourceHash)
+      await fs.writeFile(targetPath, withProvenance)
     }
   }
+}
+
+async function backfillProvenance(locales: string[]) {
+  const notesDir = path.join(PROJECT_ROOT, "src/content/notes")
+  const enDir = path.join(notesDir, "en")
+
+  const files = await fs.readdir(enDir)
+  const mdFiles = files.filter((f) => f.endsWith(".md"))
+
+  console.log(`\nBackfilling provenance for ${mdFiles.length} notes...\n`)
+
+  const targetLocales = locales.filter((locale) => locale !== "en")
+  let updated = 0
+  let skipped = 0
+
+  for (const file of mdFiles) {
+    const sourcePath = path.join(enDir, file)
+    const sourceContent = await fs.readFile(sourcePath, "utf-8")
+    const sourceHash = computeSourceHash(sourceContent)
+
+    for (const locale of targetLocales) {
+      const targetPath = path.join(notesDir, locale, file)
+
+      const fileExists = await fs
+        .access(targetPath)
+        .then(() => true)
+        .catch(() => false)
+
+      if (!fileExists) {
+        continue
+      }
+
+      const existingContent = await fs.readFile(targetPath, "utf-8")
+
+      if (existingContent.includes("sourceHash:")) {
+        skipped++
+        continue
+      }
+
+      const withProvenance = injectProvenance(existingContent, sourceHash)
+      await fs.writeFile(targetPath, withProvenance)
+      updated++
+      console.log(`✓ ${locale}/${file}`)
+    }
+  }
+
+  console.log(
+    `\n✓ Backfill complete: ${updated} updated, ${skipped} already had provenance`
+  )
 }
 
 async function main() {
@@ -351,6 +553,8 @@ async function main() {
     await translateUI(targetLocales)
   } else if (mode === "markdown" || mode === "md") {
     await translateMarkdown(targetLocales)
+  } else if (mode === "backfill") {
+    await backfillProvenance(targetLocales)
   } else if (mode === "all") {
     await translateUI(targetLocales)
     await translateMarkdown(targetLocales)
@@ -358,13 +562,14 @@ async function main() {
     console.log(`
 Usage:
   bun run scripts/translate.ts ui [locales]       # Translate UI strings
-  bun run scripts/translate.ts markdown [locales] # Translate markdown notes  
+  bun run scripts/translate.ts markdown [locales] # Translate/update markdown notes
+  bun run scripts/translate.ts backfill [locales] # Add provenance metadata (no re-translation)
   bun run scripts/translate.ts all [locales]      # Translate everything
 
 Examples:
-  bun run scripts/translate.ts ui ko,ja,zh-CN     # Translate UI to specific languages
-  bun run scripts/translate.ts markdown all       # Translate all markdown to all languages
-  bun run scripts/translate.ts all                # Translate everything to all languages
+  bun run scripts/translate.ts markdown           # Translate new/stale markdown to all languages
+  bun run scripts/translate.ts backfill           # Add sourceHash to existing translations
+  bun run scripts/translate.ts markdown ko,ja     # Translate to specific languages
 `)
   }
 }

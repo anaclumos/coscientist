@@ -1,6 +1,9 @@
 ---
 title: Bazofia de IA
 description: Contenido de baja calidad generado por IA que inunda internet
+sourceLocale: en
+sourceHash: adb15333f237
+translatedAt: 2026-01-14
 ---
 
 La bazofia de IA es contenido de bajo esfuerzo y gran volumen producido con

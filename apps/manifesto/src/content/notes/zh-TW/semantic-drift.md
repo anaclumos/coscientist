@@ -1,6 +1,9 @@
 ---
 title: 語義漂移
 description: 意義的變化會使知識變得過時或具誤導性
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 語義漂移（Semantic

@@ -1,6 +1,9 @@
 ---
 title: "토큰 ≠ 지식"
 description: 인지 외골격을 향한 개인적 탐구
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 나 [조성현](./sunghyun-cho)은 백과사전과 단일한 권위적 지식 저장소라는 개념을

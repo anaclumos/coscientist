@@ -3,6 +3,9 @@ title: Livello di Protocollo Epistemico
 description:
   Regole e flussi di lavoro che irrobustiscono i sistemi di conoscenza contro il
   collasso
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 Un livello di protocollo epistemico è un insieme di regole, controlli e flussi

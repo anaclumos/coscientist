@@ -3,6 +3,9 @@ title: Normalisierte Proposition
 description:
   Eine standardisierte Behauptung, die aus natürlichem Sprachtext extrahiert
   wurde
+sourceLocale: en
+sourceHash: 368d1ed37641
+translatedAt: 2026-01-14
 ---
 
 Eine normalisierte Proposition ist eine [Behauptung](./claim), die aus

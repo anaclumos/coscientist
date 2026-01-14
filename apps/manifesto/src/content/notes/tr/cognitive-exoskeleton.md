@@ -1,6 +1,9 @@
 ---
 title: Bilişsel Dış İskelet
 description: İnsan bilişini genişleten ve güçlendiren harici araçlar
+sourceLocale: en
+sourceHash: 946b5ecb455e
+translatedAt: 2026-01-14
 ---
 
 Bilişsel dış iskelet, insan bilişini genişleten ve güçlendiren harici araçlardan

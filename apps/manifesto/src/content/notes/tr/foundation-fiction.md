@@ -1,6 +1,9 @@
 ---
 title: Vakıf Kurgusu
 description: Coscientist'in vizyonunu şekillendiren, Asimov esinli kavramlar
+sourceLocale: en
+sourceHash: 1d3dc9236981
+translatedAt: 2026-01-14
 ---
 
 Vakıf kurgusu, [Isaac Asimov](./isaac-asimov)'un Vakıf serisinden,

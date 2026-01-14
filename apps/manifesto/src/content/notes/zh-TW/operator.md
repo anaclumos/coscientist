@@ -1,6 +1,9 @@
 ---
 title: 操作者
 description: Coscientist 中對知識擁有主權的人類
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 操作者（Operator）是 [共科學家](./coscientist)

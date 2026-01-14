@@ -1,6 +1,9 @@
 ---
 title: 차세대 디지털 두뇌 만들기
 description: 마찰 없는 알고리즘 기반 개인 지식 시스템에 대한 에세이
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 "차세대 디지털 두뇌 만들기"는 [조성현](./sunghyun-cho)의 에세이로, 개인 지식

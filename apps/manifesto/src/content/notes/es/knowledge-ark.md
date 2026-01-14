@@ -1,6 +1,9 @@
 ---
 title: Arca del conocimiento
 description: Un repositorio diseñado para preservar el conocimiento a través del colapso
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 Un arca del conocimiento es un repositorio diseñado para preservar y transmitir

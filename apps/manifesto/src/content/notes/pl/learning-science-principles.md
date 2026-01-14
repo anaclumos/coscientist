@@ -1,6 +1,9 @@
 ---
 title: Zasady nauki o uczeniu się
 description: Techniki oparte na dowodach na trwałą naukę i pamięć
+sourceLocale: en
+sourceHash: 9b01e1de519a
+translatedAt: 2026-01-14
 ---
 
 Zasady nauki o uczeniu się to techniki oparte na dowodach służące przyswajaniu

@@ -3,6 +3,9 @@ title: Kontention
 description:
   Ein strukturierter Konflikt zwischen Behauptungen, der eine Auflösung
   erfordert
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 Kontention ist ein strukturierter Konflikt zwischen Behauptungen, Definitionen

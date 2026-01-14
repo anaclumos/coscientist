@@ -1,6 +1,9 @@
 ---
 title: 超级大脑
 description: 一种外置化的认知外骨骼愿景，用以放大人类智能
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 "超级大脑"（Superbrain）是 [曹成贤](./sunghyun-cho) 提出的术语，用来描述一种

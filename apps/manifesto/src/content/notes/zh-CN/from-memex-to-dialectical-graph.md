@@ -1,6 +1,9 @@
 ---
 title: 从 Memex 到辩证图
 description: 从联想轨迹到论证结构的演化
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 《从 Memex 到辩证图》追溯了个人知识系统的演化：从 [范内瓦·布什](./vannevar-bush)

@@ -1,6 +1,9 @@
 ---
 title: ソース
 description: 主張と証拠のための来歴アンカー
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 ソースとは、[証拠スパン](./evidence-span)または[主張](./claim)の起点となるものです。つまり、情報がどこから来たのかを示す、文書・データセット・実験・人物などを指します。ソースは[来歴](./provenance)を固定し、[責任の線](./responsibility-line)を追跡可能にします。

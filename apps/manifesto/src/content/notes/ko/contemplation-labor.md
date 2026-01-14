@@ -1,6 +1,9 @@
 ---
 title: 숙고 노동
 description: 지식 생산에서 AI가 수행하는 인지적 작업
+sourceLocale: en
+sourceHash: 1f16d680679e
+translatedAt: 2026-01-14
 ---
 
 숙고 노동은 지식 생산을 위한 인지적 작업이다. 즉 가설을 제안하고, 증거를

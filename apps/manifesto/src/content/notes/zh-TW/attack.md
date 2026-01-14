@@ -1,6 +1,9 @@
 ---
 title: 攻擊
 description: 對某項主張真實性的直接挑戰
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 **攻擊**是對某項[主張](./claim)之真實性的直接挑戰。不同於針對論據基礎的[削弱（undercut）](./undercut)，攻擊主張該主張本身是錯誤或具誤導性的，通常透過提供[反例](./counterexample)或相互矛盾的證據來完成。

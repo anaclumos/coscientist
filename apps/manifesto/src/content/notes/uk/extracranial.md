@@ -1,6 +1,9 @@
 ---
 title: Екстракраніальний
 description: Персональний цифровий мозок і система публікації Санхьона Чо
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranial — це персональний цифровий мозок [Санхьона Чо](./sunghyun-cho):

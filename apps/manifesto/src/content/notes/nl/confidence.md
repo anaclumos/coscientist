@@ -1,6 +1,9 @@
 ---
 title: Vertrouwen
 description: Een multidimensionale maat voor ondersteuning van een bewering
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 Vertrouwen in [Cowetenschapper](./coscientist) is geen enkele

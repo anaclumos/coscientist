@@ -1,6 +1,9 @@
 ---
 title: Mệnh đề Chuẩn hóa
 description: Một khẳng định đã được chuẩn hóa, trích xuất từ văn bản ngôn ngữ tự nhiên
+sourceLocale: en
+sourceHash: 368d1ed37641
+translatedAt: 2026-01-14
 ---
 
 Một mệnh đề chuẩn hóa là một [khẳng định](./claim) đã được trích xuất từ ngôn

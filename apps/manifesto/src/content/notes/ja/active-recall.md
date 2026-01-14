@@ -1,6 +1,9 @@
 ---
 title: 能動的想起
 description: 記憶から情報を取り出して学習すること
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 能動的想起（Active

@@ -1,6 +1,9 @@
 ---
 title: 叙事层
 description: 适合人类阅读的、带时间戳的辩证图投影
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 叙事层是 [辩证图](./dialectical-graph) 的人类可读投影：由底层的

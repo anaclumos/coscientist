@@ -3,6 +3,9 @@ title: Rete di Conoscenza Federata
 description:
   Istanze di Coscientist interconnesse che scambiano conoscenza validata
   preservando la sovranità locale
+sourceLocale: en
+sourceHash: 404cac087261
+translatedAt: 2026-01-14
 ---
 
 Una rete di conoscenza federata è un sistema di istanze

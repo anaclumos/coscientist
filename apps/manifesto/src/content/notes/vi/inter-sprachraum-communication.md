@@ -1,6 +1,9 @@
 ---
 title: Giao tiếp liên-Sprachraum
 description: Đối thoại và trao đổi tri thức xuyên qua các miền ngôn ngữ
+sourceLocale: en
+sourceHash: 1f445591399b
+translatedAt: 2026-01-14
 ---
 
 Giao tiếp liên-Sprachraum là việc trao đổi ý tưởng vượt qua ranh giới ngôn ngữ

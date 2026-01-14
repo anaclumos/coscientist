@@ -1,6 +1,9 @@
 ---
 title: Coscientist
 description: Một hệ thống bạn đồng hành trí tuệ để sản xuất tri thức trong kỷ nguyên hậu AI
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist là một dịch vụ mã nguồn mở lấy cảm hứng từ

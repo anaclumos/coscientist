@@ -1,6 +1,9 @@
 ---
 title: 메멕스에서 변증법적 그래프로
 description: 연상적 트레일에서 논증 구조로의 진화
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 「메멕스에서 변증법적 그래프로」는 개인 지식 시스템의 진화를 추적한다. 기록을

@@ -1,6 +1,9 @@
 ---
 title: Síntesis translingüística
 description: Combinación de conocimiento de múltiples lenguas en una comprensión unificada
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 La síntesis translingüística es el proceso de combinar conocimiento de fuentes

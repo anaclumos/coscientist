@@ -1,6 +1,9 @@
 ---
 title: นอกกะโหลก
 description: สมองดิจิทัลส่วนตัวและระบบการเผยแพร่ของ Sunghyun Cho
+sourceLocale: en
+sourceHash: 5f238d7ebbf3
+translatedAt: 2026-01-14
 ---
 
 Extracranial คือสมองดิจิทัลส่วนตัวของ [ซองฮยอน โช](./sunghyun-cho):

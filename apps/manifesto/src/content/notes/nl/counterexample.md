@@ -1,6 +1,9 @@
 ---
 title: Tegenvoorbeeld
 description: Een geval dat een bewering doorbreekt of inperkt
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Een tegenvoorbeeld is een geval dat de voorspelling van een [bewering](./claim)

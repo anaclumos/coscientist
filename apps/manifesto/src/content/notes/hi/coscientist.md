@@ -1,6 +1,9 @@
 ---
 title: कोसाइंटिस्ट
 description: पोस्ट-AI युग में ज्ञान-उत्पादन के लिए एक बौद्धिक साथी प्रणाली
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 कोसाइंटिस्ट एक ओपन-सोर्स सेवा है, जो [आइज़ैक असिमोव](./isaac-asimov) की काल्पनिक

@@ -3,6 +3,9 @@ title: RAG
 description:
   Erişimle Zenginleştirilmiş Üretim, AI çıktılarının geri getirilen belgelere
   dayandırılması için bir teknik
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG , bir derlemden ilgili belgeleri geri getirip bunları üretim için bağlam

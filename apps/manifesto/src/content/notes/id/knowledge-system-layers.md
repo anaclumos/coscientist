@@ -1,6 +1,9 @@
 ---
 title: Lapisan Sistem Pengetahuan
 description: Lapisan arsitektural dari Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 Lapisan sistem pengetahuan adalah komponen arsitektural yang berbeda yang

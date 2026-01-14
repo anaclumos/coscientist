@@ -1,6 +1,9 @@
 ---
 title: अन्वेषण रणनीतियाँ
 description: सतत ज्ञान-खोज के लिए ग्राफ ट्रैवर्सल रणनीतियाँ
+sourceLocale: en
+sourceHash: e9c34bc73e32
+translatedAt: 2026-01-14
 ---
 
 [सह-वैज्ञानिक](./coscientist) को केवल retrieval (पुनर्प्राप्ति) से अधिक चाहिए:

@@ -1,6 +1,9 @@
 ---
 title: 假设
 description: 支撑某个主张的隐含前提
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 假设是某个[主张](./claim)所依赖但未明确陈述的隐含前提。假设往往在被质疑之前是不可见的：它们构成了使主张变得有意义的背景条件。

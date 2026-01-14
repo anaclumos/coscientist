@@ -1,6 +1,9 @@
 ---
 title: Chủ quyền nhận thức
 description: Con người kiểm soát việc phán đoán và xác minh trong công việc tri thức
+sourceLocale: en
+sourceHash: 1831665ecaf7
+translatedAt: 2026-01-14
 ---
 
 Chủ quyền nhận thức là cam kết duy trì phán đoán và xác minh của con người trong

@@ -1,6 +1,9 @@
 ---
 title: 從 Memex 到辯證圖
 description: 從聯想軌跡到論證結構的演進
+sourceLocale: en
+sourceHash: d8359d43c0da
+translatedAt: 2026-01-14
 ---
 
 《從 Memex 到辯證圖》追溯個人知識系統的演進：從 [Vannevar Bush](./vannevar-bush)

@@ -1,6 +1,9 @@
 ---
 title: Taxonomie des incompatibilités
 description: Catégories de désaccord entre sources
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 La taxonomie des incompatibilités est une classification des raisons pour

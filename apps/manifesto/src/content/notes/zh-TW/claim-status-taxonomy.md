@@ -1,6 +1,9 @@
 ---
 title: 主張狀態分類法
 description: 主張在辯證圖中可能處於的各種狀態
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 主張狀態分類法定義了一個[主張](./claim)在[辯證圖](./dialectical-graph)中可能佔據的狀態。

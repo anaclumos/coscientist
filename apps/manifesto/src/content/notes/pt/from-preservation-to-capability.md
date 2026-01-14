@@ -1,6 +1,9 @@
 ---
 title: Da Preservação à Capacidade
 description: A mudança de armazenar conhecimento para produzir compreensão
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 Da preservação à capacidade é a mudança de sistemas de conhecimento que

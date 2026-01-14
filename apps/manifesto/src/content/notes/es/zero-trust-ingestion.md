@@ -1,6 +1,9 @@
 ---
 title: Ingesta de Confianza Cero
 description: Protocolo que exige procedencia explícita antes de aceptar afirmaciones
+sourceLocale: en
+sourceHash: a41cfa0d030b
+translatedAt: 2026-01-14
 ---
 
 La ingesta de confianza cero es un protocolo que trata la información entrante

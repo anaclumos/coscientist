@@ -1,6 +1,9 @@
 ---
 title: Lao động chiêm nghiệm
 description: Công việc nhận thức mà AI thực hiện trong quá trình tạo ra tri thức
+sourceLocale: en
+sourceHash: 1f16d680679e
+translatedAt: 2026-01-14
 ---
 
 Lao động chiêm nghiệm là công việc nhận thức của việc sản xuất tri thức: đề xuất

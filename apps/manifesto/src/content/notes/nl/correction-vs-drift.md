@@ -2,6 +2,9 @@
 title: Correctie vs drift
 description: Economisch principe dat een kennissysteem alleen overleeft als de
   correctiekosten onder de driftkosten blijven
+sourceLocale: en
+sourceHash: 5b62e4845eb0
+translatedAt: 2026-01-14
 ---
 
 Correctie vs drift is het economische principe dat een kennissysteem alleen

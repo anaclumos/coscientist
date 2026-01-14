@@ -3,6 +3,9 @@ title: Definitionsdrift
 description:
   Wenn sich die Bedeutung eines Begriffs über die Zeit oder in unterschiedlichen
   Kontexten verschiebt
+sourceLocale: en
+sourceHash: 660a481dc105
+translatedAt: 2026-01-14
 ---
 
 Definitionsdrift ist die allmähliche Verschiebung der Bedeutung eines Begriffs

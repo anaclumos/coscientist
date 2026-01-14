@@ -1,6 +1,9 @@
 ---
 title: مشروع ألدهيد
 description: محاولة مبكرة لبناء دماغ رقمي شخصي
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 كان مشروع ألدهيد محاولة مبكرة قام بها [سونغهيون تشو](./sunghyun-cho) لبناء

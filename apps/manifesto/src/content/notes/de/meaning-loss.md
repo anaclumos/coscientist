@@ -3,6 +3,9 @@ title: Bedeutungsverlust
 description:
   Wenn eine Behauptung obsolet wird, weil sich die Bedeutung ihrer Begriffe
   verschoben hat
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 Bedeutungsverlust tritt auf, wenn eine [Behauptung](./claim) obsolet wird –

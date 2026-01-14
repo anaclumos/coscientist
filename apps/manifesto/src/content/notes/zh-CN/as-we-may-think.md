@@ -1,6 +1,9 @@
 ---
 title: 正如我们所思
 description: 瓦尼瓦尔·布什（Vannevar Bush）1945 年的文章，勾勒了 Memex 的构想
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 《正如我们所思》是 [瓦尼瓦尔·布什](./vannevar-bush)

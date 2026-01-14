@@ -1,6 +1,9 @@
 ---
 title: 弁証法グラフ
 description: 文書内容ではなく主張と関係を格納する知識グラフモデル
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 弁証法グラフ（dialectical

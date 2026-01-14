@@ -1,6 +1,9 @@
 ---
 title: अनुमिति परत
 description: द्वंद्वात्मक ग्राफ में जीवित, विकसित होता दावा नेटवर्क
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 अनुमिति परत [दावों](./claim), [आक्रमणों](./attack), [अंडरकट्स](./undercut), और

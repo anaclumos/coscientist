@@ -3,6 +3,9 @@ title: Mô hình ngôn ngữ lớn
 description:
   Mô hình ngôn ngữ lớn, kiến trúc AI nền tảng đứng sau lao động chiêm nghiệm của
   Coscientist
+sourceLocale: en
+sourceHash: a03c9bb62d5e
+translatedAt: 2026-01-14
 ---
 
 LLM là các mô hình mạng nơ-ron được huấn luyện trên những kho văn bản khổng lồ

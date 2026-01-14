@@ -3,6 +3,9 @@ title: Pérdida de significado
 description:
   Cuando una afirmación queda obsoleta porque sus términos han cambiado de
   significado
+sourceLocale: en
+sourceHash: dc41447e7ab1
+translatedAt: 2026-01-14
 ---
 
 La pérdida de significado ocurre cuando una [afirmación](./claim) queda obsoleta

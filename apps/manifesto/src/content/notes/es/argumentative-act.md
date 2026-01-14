@@ -1,6 +1,9 @@
 ---
 title: Acto argumentativo
 description: Un movimiento en el razonamiento, como afirmar, definir o refutar
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 Un acto argumentativo es un movimiento distinto dentro del razonamiento, como

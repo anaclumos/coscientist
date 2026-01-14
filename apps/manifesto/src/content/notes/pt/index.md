@@ -1,6 +1,9 @@
 ---
 title: "Tokens ≠ Conhecimento"
 description: Uma Busca Pessoal por um Exoesqueleto Cognitivo
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Eu, [Sunghyun Cho](./sunghyun-cho), cresci com reverência por enciclopédias e

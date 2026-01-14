@@ -1,6 +1,9 @@
 ---
 title: Epistemische Protokollschicht
 description: Regeln und Workflows, die Wissenssysteme gegen Kollaps absichern
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 Eine epistemische Protokollschicht ist ein Satz von Regeln, Prüfungen und

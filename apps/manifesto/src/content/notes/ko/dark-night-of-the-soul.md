@@ -1,6 +1,9 @@
 ---
 title: 영혼의 어두운 밤
 description: 정체성 재구성으로 이어지는 심오한 내적 위기를 위한 문학적 장치
+sourceLocale: en
+sourceHash: 2acc87799cfa
+translatedAt: 2026-01-14
 ---
 
 "영혼의 어두운 밤"은 정체성, 신앙, 그리고 자기 모델이 붕괴하는 심오한 내적

@@ -1,6 +1,9 @@
 ---
 title: 作為可記憶錨點的爭論
 description: 分歧需要認知努力，並會形成更強的記憶痕跡
+sourceLocale: en
+sourceHash: 2936fd64def6
+translatedAt: 2026-01-14
 ---
 
 「作為可記憶錨點的爭論」指的是這樣一個觀察：

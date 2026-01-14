@@ -1,6 +1,9 @@
 ---
 title: 流暢性陷阱
 description: 將流暢的 AI 文筆誤認為正確
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 流暢性陷阱是一種認知偏誤：把順暢、聽起來很自信的文字當作準確的內容。由於

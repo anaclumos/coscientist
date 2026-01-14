@@ -1,6 +1,9 @@
 ---
 title: 假設
 description: 支撐一項主張的隱含前提
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 假設是一種隱含前提：某個[主張](./claim)所依賴但未明確陳述的前提。假設往往在被質疑之前是不可見的；它們構成使主張具有意義的背景條件。

@@ -1,6 +1,9 @@
 ---
 title: 인지적 외골격
 description: 인간의 인지를 확장하고 증폭하는 외부 도구들
+sourceLocale: en
+sourceHash: 946b5ecb455e
+translatedAt: 2026-01-14
 ---
 
 인지적 외골격은 인간의 인지를 확장하고 증폭하는 외부 도구들의 시스템이다.

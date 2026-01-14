@@ -1,6 +1,9 @@
 ---
 title: Aktywne przypominanie
 description: Nauka poprzez wydobywanie informacji z pamięci
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 Aktywne przypominanie to nauka polegająca na próbie odtworzenia odpowiedzi z

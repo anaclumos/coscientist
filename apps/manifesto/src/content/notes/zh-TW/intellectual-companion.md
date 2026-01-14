@@ -1,6 +1,9 @@
 ---
 title: 智性夥伴
 description: AI 作為沉思夥伴，而非答案引擎
+sourceLocale: en
+sourceHash: 36a4076eba2f
+translatedAt: 2026-01-14
 ---
 
 智性夥伴（intellectual

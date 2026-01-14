@@ -1,6 +1,9 @@
 ---
 title: Lagen van het kennissysteem
 description: De architecturale lagen van Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 De lagen van het kennissysteem zijn de afzonderlijke architecturale componenten

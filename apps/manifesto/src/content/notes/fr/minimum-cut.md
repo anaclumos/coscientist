@@ -1,6 +1,9 @@
 ---
 title: Coupe minimale
 description: Le plus petit ensemble d’arêtes qui déconnecte un graphe
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 Une coupe minimale est le plus petit ensemble d’arêtes dont la suppression

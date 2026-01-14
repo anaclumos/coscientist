@@ -1,6 +1,9 @@
 ---
 title: Độ tin cậy
 description: Một thước đo đa chiều về mức độ ủng hộ cho một khẳng định
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 Độ tin cậy trong [Nhà đồng khoa học](./coscientist) không phải là một điểm xác

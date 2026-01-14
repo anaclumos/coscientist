@@ -1,6 +1,9 @@
 ---
 title: 銀河帝國
 description: 阿西莫夫《基地》系列中，其崩潰促使《銀河百科全書》出現的那個文明
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 銀河帝國是[艾薩克·阿西莫夫](./isaac-asimov)《基地》系列中的文明；其不可避免的崩潰，促使[哈里·謝頓](./hari-seldon)採取介入行動。在鼎盛時期，帝國橫跨整個銀河；而它的覆亡將帶來長達三萬年的[靈魂的黑夜](./dark-night-of-the-soul)，除非透過有意識的行動加以縮短。

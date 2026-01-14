@@ -1,6 +1,9 @@
 ---
 title: Composants du graphe
 description: Les types de nœuds et d’arêtes qui composent un graphe dialectique
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 Les composants du graphe sont les éléments constitutifs d’un

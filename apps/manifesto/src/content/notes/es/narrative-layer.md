@@ -3,6 +3,9 @@ title: Capa narrativa
 description:
   Proyecciones con marca de tiempo del grafo dialéctico adecuadas para lectura
   humana
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 La capa narrativa es la proyección legible por humanos de un

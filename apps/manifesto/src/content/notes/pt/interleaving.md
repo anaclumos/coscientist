@@ -3,6 +3,9 @@ title: Intercalação
 description:
   Misturar tópicos ou tipos de problemas durante a prática para melhorar a
   transferência
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 Intercalação é praticar misturando tipos de problemas ou tópicos na mesma

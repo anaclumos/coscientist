@@ -1,6 +1,9 @@
 ---
 title: Metaaprendizaje
 description: Aprender cómo funciona tu propio aprendizaje
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 El metaaprendizaje consiste en aprender sobre tu propio aprendizaje: notar qué

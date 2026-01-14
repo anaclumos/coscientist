@@ -1,6 +1,9 @@
 ---
 title: Слои системы знаний
 description: Архитектурные слои Coscientist
+sourceLocale: en
+sourceHash: 954c640b7988
+translatedAt: 2026-01-14
 ---
 
 Слои системы знаний — это отдельные архитектурные компоненты, из которых состоит

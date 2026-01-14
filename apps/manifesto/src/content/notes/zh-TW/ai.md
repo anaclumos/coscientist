@@ -1,6 +1,9 @@
 ---
 title: AI
 description: 人工智慧作為知識系統的工具與挑戰
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 在 [共科學家](./coscientist) 的語境中，AI（Artificial

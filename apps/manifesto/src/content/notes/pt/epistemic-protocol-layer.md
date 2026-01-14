@@ -3,6 +3,9 @@ title: Camada de Protocolo Epistêmico
 description:
   Regras e fluxos de trabalho que reforçam sistemas de conhecimento contra o
   colapso
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 Uma camada de protocolo epistêmico é um conjunto de regras, verificações e

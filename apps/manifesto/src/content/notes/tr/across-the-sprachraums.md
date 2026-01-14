@@ -1,6 +1,9 @@
 ---
 title: Sprachraumların Ötesinde
 description: Bilgi sistemleri için dil sınırlarını aşma vizyonu
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums", [Sunghyun Cho](./sunghyun-cho)'nun dil sınırlarını

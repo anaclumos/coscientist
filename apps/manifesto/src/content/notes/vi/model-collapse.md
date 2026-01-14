@@ -3,6 +3,9 @@ title: Suy thoái mô hình
 description:
   Sự xuống cấp của các mô hình được huấn luyện trên dữ liệu do chính chúng tạo
   ra
+sourceLocale: en
+sourceHash: 99c346ca8cef
+translatedAt: 2026-01-14
 ---
 
 Suy thoái mô hình là hiện tượng xuống cấp có thể xảy ra khi các mô hình được

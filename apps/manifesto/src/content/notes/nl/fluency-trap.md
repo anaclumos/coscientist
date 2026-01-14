@@ -1,6 +1,9 @@
 ---
 title: Vloeiendheidsval
 description: Vloeiende AI-proza verwarren met nauwkeurigheid
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 De vloeiendheidsval is de cognitieve bias waarbij men soepel, zelfverzekerd

@@ -1,6 +1,9 @@
 ---
 title: Kontrprzykład
 description: Przypadek, który obala lub zawęża twierdzenie
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Kontrprzykład to przypadek, który narusza przewidywanie danego

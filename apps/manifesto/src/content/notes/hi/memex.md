@@ -1,6 +1,9 @@
 ---
 title: मेमेक्स
 description: वैनिवर बुश द्वारा प्रस्तावित व्यक्तिगत ज्ञान मशीन
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 मेमेक्स, [वैनिवर बुश](./vannevar-bush) द्वारा प्रस्तावित एक विद्युत-यांत्रिक

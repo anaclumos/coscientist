@@ -1,6 +1,9 @@
 ---
 title: Onverenigbaarheidstaxonomie
 description: Categorieën van onenigheid tussen bronnen
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 De onverenigbaarheidstaxonomie is een classificatie van waarom bronnen van

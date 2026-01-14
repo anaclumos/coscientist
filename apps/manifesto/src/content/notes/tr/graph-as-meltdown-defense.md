@@ -1,6 +1,9 @@
 ---
 title: Erimeye Karşı Savunma Olarak Grafik
 description: Diyalektik grafik yapısının bilgi çöküşünü nasıl engellediği
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 Erimeye karşı savunma olarak grafik, [Diyalektik Grafik](./dialectical-graph)

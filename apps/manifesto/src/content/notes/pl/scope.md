@@ -1,6 +1,9 @@
 ---
 title: Zakres
 description: Warunki stosowalności tezy
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 Zakres określa, gdzie i kiedy dana [teza](./claim) ma zastosowanie: jakie

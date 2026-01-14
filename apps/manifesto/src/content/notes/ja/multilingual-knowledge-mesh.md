@@ -1,6 +1,9 @@
 ---
 title: 多言語ナレッジ・メッシュ
 description: 言語をまたいで広がり、グローバルに分散する知識ネットワーク
+sourceLocale: en
+sourceHash: d0cefb393fe3
+translatedAt: 2026-01-14
 ---
 
 多言語ナレッジ・メッシュとは、単語の一致ではなく共有された概念を介して、どの言語のコンテンツでも他のどの言語のコンテンツとも接続できる知識ネットワークである。これは、[Sunghyun Cho](./sunghyun-cho)

@@ -1,6 +1,9 @@
 ---
 title: Dialektische Graphknoten
 description: Die Knotentypen in einem dialektischen Wissensgraphen
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 In einem [Dialektischen Graphen](./dialectical-graph) repräsentieren Knoten

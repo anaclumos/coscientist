@@ -3,6 +3,9 @@ title: Dryf semantyczny
 description:
   Zmiany znaczenia, które sprawiają, że wiedza staje się przestarzała lub
   wprowadzająca w błąd
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 Dryf semantyczny to kategoria [zjawisk dryfu](./drift-phenomena), w której

@@ -1,6 +1,9 @@
 ---
 title: Insinyur Sains Alam
 description: Peran yang menerapkan operasi ala perangkat lunak pada sains
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 Insinyur sains alam adalah seorang praktisi yang menggabungkan riset ilmiah

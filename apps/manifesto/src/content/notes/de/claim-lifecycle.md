@@ -3,6 +3,9 @@ title: Lebenszyklus einer Behauptung
 description:
   Wie sich Behauptungen von einer vorläufigen Hypothese zu robustem Wissen oder
   zur Obsoleszenz entwickeln
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 Der Lebenszyklus einer Behauptung beschreibt, wie sich eine

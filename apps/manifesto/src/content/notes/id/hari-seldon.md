@@ -3,6 +3,9 @@ title: Hari Seldon
 description:
   Matematikawan fiksi yang menciptakan psiko-sejarah dalam seri Foundation karya
   Asimov
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 Hari Seldon adalah matematikawan fiksi dalam seri Foundation karya

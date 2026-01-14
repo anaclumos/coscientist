@@ -3,6 +3,9 @@ title: RAG
 description:
   取得した文書にAIの出力を根拠づけるための手法であるRetrieval-Augmented
   Generation
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG（Retrieval-Augmented

@@ -1,6 +1,9 @@
 ---
 title: Косайентист
 description: Система интеллектуального компаньона для производства знания в пост-ИИ эпоху
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist — это open-source сервис, вдохновлённый вымышленной

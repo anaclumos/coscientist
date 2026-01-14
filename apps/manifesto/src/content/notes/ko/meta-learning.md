@@ -1,6 +1,9 @@
 ---
 title: 메타 학습
 description: 자신의 학습이 어떻게 작동하는지 배우기
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 메타 학습은 자신의 학습에 대해 배우는 것이다. 무엇이 잘 남는지, 무엇이

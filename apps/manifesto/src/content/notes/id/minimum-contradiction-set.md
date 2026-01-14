@@ -1,6 +1,9 @@
 ---
 title: Himpunan Kontradiksi Minimum
 description: Himpunan premis dan relasi terkecil yang menghasilkan konflik
+sourceLocale: en
+sourceHash: 31a0e5277e2e
+translatedAt: 2026-01-14
 ---
 
 Himpunan kontradiksi minimum adalah kumpulan premis, klaim, dan relasi paling

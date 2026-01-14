@@ -3,6 +3,9 @@ title: Le graphe comme défense contre la désintégration
 description:
   Comment la structure dialectique en graphe empêche l’effondrement des
   connaissances
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 Le graphe comme défense contre la désintégration explique comment le

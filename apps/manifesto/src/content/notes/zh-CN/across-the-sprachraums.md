@@ -1,6 +1,9 @@
 ---
 title: 跨越 Sprachraums
 description: 超越语言边界的知识系统愿景
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums"是 [曹成贤](./sunghyun-cho)

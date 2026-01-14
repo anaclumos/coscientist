@@ -1,6 +1,9 @@
 ---
 title: 證據片段
 description: 來自來源的精確引文範圍，用於支持或挑戰一項主張
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 證據片段（evidence

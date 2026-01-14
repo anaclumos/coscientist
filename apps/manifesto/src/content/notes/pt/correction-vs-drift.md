@@ -3,6 +3,9 @@ title: Correção vs Deriva
 description:
   Princípio econômico de que um sistema de conhecimento só sobrevive se o custo
   de correção ficar abaixo do custo da deriva
+sourceLocale: en
+sourceHash: 5b62e4845eb0
+translatedAt: 2026-01-14
 ---
 
 Correção vs deriva é o princípio econômico de que um sistema de conhecimento

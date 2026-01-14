@@ -1,6 +1,9 @@
 ---
 title: 인출 연습
 description: 정보를 능동적으로 떠올려 기억을 강화하기
+sourceLocale: en
+sourceHash: b14828ec5eea
+translatedAt: 2026-01-14
 ---
 
 인출 연습은 정보를 수동적으로 다시 보는 대신, 능동적으로 떠올리는 과정을 통해

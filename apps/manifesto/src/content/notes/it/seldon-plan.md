@@ -1,6 +1,9 @@
 ---
 title: Piano Seldon
 description: La strategia a lungo raggio di Hari Seldon per accorciare un’età oscura
+sourceLocale: en
+sourceHash: 879a58531fb4
+translatedAt: 2026-01-14
 ---
 
 Il Piano Seldon è la strategia a lungo raggio di [Hari Seldon](./hari-seldon)

@@ -1,6 +1,9 @@
 ---
 title: 文件碰撞
 description: 迫使彼此分歧的來源相互回應對方主張的協議
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 文件碰撞（Document

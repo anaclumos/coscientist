@@ -3,6 +3,9 @@ title: Sự sụp đổ bách khoa
 description:
   Hiện tượng sụp đổ tri thức khi AI tự nắm quyền chủ động mà không có can thiệp
   của con người
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 Sự sụp đổ bách khoa là một kiểu thất bại "sụp đổ tri thức" bắt đầu khi quyền chủ

@@ -1,6 +1,9 @@
 ---
 title: İddia Durumu Taksonomisi
 description: Diyalektik bir graf içinde bir iddianın bulunabileceği durumlar
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 İddia durumu taksonomisi, bir [iddianın](./claim) bir

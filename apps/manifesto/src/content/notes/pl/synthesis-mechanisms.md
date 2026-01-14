@@ -1,6 +1,9 @@
 ---
 title: Mechanizmy syntezy
 description: Wzorce ułatwiające porównywanie niekompatybilnych źródeł
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 Mechanizmy syntezy to wzorce i protokoły, których

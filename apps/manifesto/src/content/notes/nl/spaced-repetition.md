@@ -1,6 +1,9 @@
 ---
 title: Gespreide herhaling
 description: Een leertechniek gebaseerd op toenemende intervallen van herhaling
+sourceLocale: en
+sourceHash: 44adc3f5f159
+translatedAt: 2026-01-14
 ---
 
 Gespreide herhaling is een evidence-based manier om herhaling te plannen, zodat

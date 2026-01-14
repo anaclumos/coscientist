@@ -1,6 +1,9 @@
 ---
 title: Xuyên qua các Sprachraum
 description: Tầm nhìn vượt qua ranh giới ngôn ngữ cho các hệ thống tri thức
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums" là tầm nhìn của [Sunghyun Cho](./sunghyun-cho) dành cho

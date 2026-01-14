@@ -1,6 +1,9 @@
 ---
 title: Over de Sprachraums heen
 description: De visie om taalgrenzen te overstijgen voor kennissystemen
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums" is de visie van [Sunghyun Cho](./sunghyun-cho) op

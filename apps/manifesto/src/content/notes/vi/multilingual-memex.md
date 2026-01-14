@@ -1,6 +1,9 @@
 ---
 title: Memex đa ngôn ngữ
 description: Một hệ thống tri thức cá nhân có nhận biết ngôn ngữ với hỗ trợ dịch tự động
+sourceLocale: en
+sourceHash: 4cbc551868c1
+translatedAt: 2026-01-14
 ---
 
 Memex đa ngôn ngữ là một hệ thống tri thức cá nhân hỗ trợ nội dung bằng nhiều

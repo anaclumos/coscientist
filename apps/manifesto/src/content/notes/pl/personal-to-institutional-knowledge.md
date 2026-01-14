@@ -1,6 +1,9 @@
 ---
 title: Wiedza osobista a instytucjonalna
 description: Skalowanie praktyk wiedzy osobistej na organizacje
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 Przejście od wiedzy osobistej do instytucjonalnej to transformacja od

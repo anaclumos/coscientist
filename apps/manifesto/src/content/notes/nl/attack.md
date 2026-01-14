@@ -1,6 +1,9 @@
 ---
 title: Aanval
 description: Een directe betwisting van de waarheid van een bewering
+sourceLocale: en
+sourceHash: 775f1f75f883
+translatedAt: 2026-01-14
 ---
 
 Een aanval is een directe betwisting van de waarheid van een

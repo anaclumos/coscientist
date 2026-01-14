@@ -1,6 +1,9 @@
 ---
 title: 능동적 회상
 description: 기억에서 정보를 꺼내며 공부하기
+sourceLocale: en
+sourceHash: 393de0cda323
+translatedAt: 2026-01-14
 ---
 
 능동적 회상은 다시 읽거나 형광펜으로 표시하는 대신, 기억에서 답을 직접

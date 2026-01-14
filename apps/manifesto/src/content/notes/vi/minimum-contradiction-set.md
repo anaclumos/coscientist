@@ -1,6 +1,9 @@
 ---
 title: Tập Mâu thuẫn Tối thiểu
 description: Tập nhỏ nhất các tiền đề và quan hệ tạo ra một xung đột
+sourceLocale: en
+sourceHash: 31a0e5277e2e
+translatedAt: 2026-01-14
 ---
 
 Tập mâu thuẫn tối thiểu là tập hợp nhỏ nhất của các tiền đề, khẳng định và quan

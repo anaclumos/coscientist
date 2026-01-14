@@ -3,6 +3,9 @@ title: Impero Galattico
 description:
   La civiltà la cui caduta motiva l'Encyclopedia Galactica nella serie
   Foundation di Asimov
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 L'Impero Galattico è la civiltà nella serie Foundation di

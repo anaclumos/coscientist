@@ -1,6 +1,9 @@
 ---
 title: Protokol Konsensus Multi-AI
 description: Sistem penulisan dan verifikasi 1+4
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 Protokol Konsensus Multi-AI adalah alur kerja kolaborasi di mana

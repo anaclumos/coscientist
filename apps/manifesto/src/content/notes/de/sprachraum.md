@@ -1,6 +1,9 @@
 ---
 title: Sprachraum
 description: Eine Sprachsphäre oder ein Sprachraum, der Denken und Wissen prägt
+sourceLocale: en
+sourceHash: 933925aca04c
+translatedAt: 2026-01-14
 ---
 
 Ein Sprachraum (Deutsch: „language space" oder „language sphere") ist der durch

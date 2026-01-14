@@ -1,6 +1,9 @@
 ---
 title: పరిధి
 description: ఒక వాదన వర్తించే పరిస్థితులు
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 పరిధి అనేది ఒక [వాదన](./claim) ఎక్కడ, ఎప్పుడు వర్తించాలనేది నిర్వచిస్తుంది: ఏ

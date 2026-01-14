@@ -3,6 +3,9 @@ title: Menciptakan Otak Digital Generasi Berikutnya
 description:
   Esai tentang sistem pengetahuan pribadi tanpa hambatan, yang digerakkan oleh
   algoritme
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 "Menciptakan Otak Digital Generasi Berikutnya" adalah esai oleh

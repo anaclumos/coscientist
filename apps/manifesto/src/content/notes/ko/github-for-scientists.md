@@ -1,6 +1,9 @@
 ---
 title: 과학자를 위한 GitHub
 description: 실험을 버전 관리되고 감사 가능한 코드로 취급한다는 비전
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 "과학자를 위한 GitHub"는 과학 실험을 코드처럼 다루는 비전이다. 즉, 버전

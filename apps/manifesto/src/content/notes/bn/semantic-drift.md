@@ -1,6 +1,9 @@
 ---
 title: অর্থগত স্খলন
 description: অর্থের পরিবর্তন যা জ্ঞানকে অচল বা বিভ্রান্তিকর করে তোলে
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 অর্থগত স্খলন হলো [ড্রিফট ঘটনা](./drift-phenomena)-র একটি শ্রেণি, যেখানে সময়ের

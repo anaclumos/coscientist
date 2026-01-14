@@ -3,6 +3,9 @@ title: Collisione documentale
 description:
   Protocollo per costringere fonti disparate a confrontarsi con le rispettive
   [affermazioni](./claim)
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 La collisione documentale è il protocollo che costringe fonti disparate a

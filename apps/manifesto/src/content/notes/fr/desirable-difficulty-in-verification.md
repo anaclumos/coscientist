@@ -3,6 +3,9 @@ title: Difficulté désirable dans la vérification
 description:
   Rendre la vérification suffisamment exigeante pour maintenir une compréhension
   authentique
+sourceLocale: en
+sourceHash: c50da319d2f0
+translatedAt: 2026-01-14
 ---
 
 La difficulté désirable dans la vérification est le principe selon lequel la

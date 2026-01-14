@@ -1,6 +1,9 @@
 ---
 title: ขอบเขต
 description: เงื่อนไขของการนำข้ออ้างไปใช้
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 ขอบเขต กำหนดว่า [ข้ออ้าง](./claim) ตั้งใจให้ใช้ได้ "ที่ไหนและเมื่อไร":

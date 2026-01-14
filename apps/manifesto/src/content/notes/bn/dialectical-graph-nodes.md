@@ -1,6 +1,9 @@
 ---
 title: দ্বান্দ্বিক গ্রাফ নোডসমূহ
 description: দ্বান্দ্বিক জ্ঞান-গ্রাফে নোডের ধরনসমূহ
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 একটি [দ্বান্দ্বিক গ্রাফ](./dialectical-graph)-এ নোডগুলো কাঁচা টেক্সটের বদলে

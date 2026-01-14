@@ -1,6 +1,9 @@
 ---
 title: 검증 시스템
 description: 주장을 증거와 반증, 그리고 대안적 설명에 비추어 확인하는 메커니즘
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 검증 시스템은 [Coscientist](./coscientist)가 [주장](./claim)을 증거, 반증,

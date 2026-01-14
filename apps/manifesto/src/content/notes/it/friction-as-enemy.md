@@ -1,6 +1,9 @@
 ---
 title: L’attrito come nemico
 description: Principio di progettazione: l’attrito uccide i flussi di lavoro della conoscenza personale
+sourceLocale: en
+sourceHash: 78d664aa5836
+translatedAt: 2026-01-14
 ---
 
 L’attrito come nemico è il principio di progettazione secondo cui lo sforzo

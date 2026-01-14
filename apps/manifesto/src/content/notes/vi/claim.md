@@ -1,6 +1,9 @@
 ---
 title: Khẳng định
 description: Một mệnh đề có thể kiểm chứng được lưu trữ như một nút trong đồ thị biện chứng
+sourceLocale: en
+sourceHash: 11bb739db24b
+translatedAt: 2026-01-14
 ---
 
 Một khẳng định là một mệnh đề có thể kiểm chứng được trích xuất từ văn bản và

@@ -1,6 +1,9 @@
 ---
 title: المصدر
 description: مرساة للأصل تُسند الادعاءات والأدلة
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 المصدر هو نقطة المنشأ لـ[مقطع دليل](./evidence-span) أو [ادعاء](./claim): وثيقة،

@@ -1,6 +1,9 @@
 ---
 title: Protokół Konsensusu Multi-AI
 description: System pisania i weryfikacji 1+4 (człowiek + cztery AI)
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 Protokół Konsensusu Multi-AI to przepływ pracy współpracy, w którym

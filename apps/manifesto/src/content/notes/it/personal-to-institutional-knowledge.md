@@ -1,6 +1,9 @@
 ---
 title: Dalla conoscenza personale a quella istituzionale
 description: Portare le pratiche di conoscenza personale alla scala delle organizzazioni
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 Il passaggio dalla conoscenza personale a quella istituzionale consiste nella

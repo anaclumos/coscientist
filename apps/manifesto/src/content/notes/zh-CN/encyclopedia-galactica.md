@@ -1,6 +1,9 @@
 ---
 title: 银河百科全书
 description: 一种用于在黑暗时代中保存知识的构想
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 《银河百科全书》是[艾萨克·阿西莫夫](./isaac-asimov)"基地"系列中的一个虚构装置：一座庞大的知识库，旨在文明崩溃之前保存人类知识。它是[知识方舟](./knowledge-ark)这一母题以制度形态呈现的版本。

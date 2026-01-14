@@ -1,6 +1,9 @@
 ---
 title: Sistem Verifikasi
 description: Mekanisme untuk memeriksa klaim terhadap bukti dan bukti tandingan
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 Sistem verifikasi adalah sekumpulan mekanisme yang digunakan

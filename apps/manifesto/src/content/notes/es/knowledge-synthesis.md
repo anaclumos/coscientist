@@ -3,6 +3,9 @@ title: Síntesis de conocimiento
 description:
   En qué se diferencia la síntesis del promediado en sistemas dialécticos de
   conocimiento
+sourceLocale: en
+sourceHash: 8035aade2986
+translatedAt: 2026-01-14
 ---
 
 La síntesis de conocimiento es lo que ocurre después de la recuperación , cuando

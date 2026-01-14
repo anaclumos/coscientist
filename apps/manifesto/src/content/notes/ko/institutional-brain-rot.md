@@ -1,6 +1,9 @@
 ---
 title: 제도적 브레인롯
 description: 집단적 검증 역량이 저하되는 조직적 실패 모드
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 제도적 브레인롯은 시간이 지남에 따라 조직의 집단적 지식 검증 및 업데이트 역량이

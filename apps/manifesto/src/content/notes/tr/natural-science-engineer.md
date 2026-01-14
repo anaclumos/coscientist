@@ -1,6 +1,9 @@
 ---
 title: Doğa Bilimleri Mühendisi
 description: Bilime yazılım tarzı operasyonlar uygulayan bir rol
+sourceLocale: en
+sourceHash: 00c38ba205da
+translatedAt: 2026-01-14
 ---
 
 Doğa bilimleri mühendisi, deneyleri daha yeniden üretilebilir ve ölçeklenebilir

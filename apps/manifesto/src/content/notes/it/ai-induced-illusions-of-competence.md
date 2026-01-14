@@ -1,6 +1,9 @@
 ---
 title: Illusioni di competenza indotte dall’IA
 description: Come la fluidità dell’IA crea una falsa padronanza negli utenti
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 Le illusioni di competenza indotte dall’IA si verificano quando gli utenti

@@ -1,6 +1,9 @@
 ---
 title: Livello di inferenza
 description: La rete di asserzioni vivente ed evolutiva in un grafo dialettico
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 Il livello di inferenza è la rete vivente ed evolutiva di [asserzioni](./claim),

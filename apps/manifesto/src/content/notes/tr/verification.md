@@ -1,6 +1,9 @@
 ---
 title: Doğrulama
 description: İddiaları kanıt ve karşı kanıtla karşılaştırarak kontrol etme süreci
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 Doğrulama, bir iddianın kanıta, karşı kanıta ve alternatif açıklamalara karşı

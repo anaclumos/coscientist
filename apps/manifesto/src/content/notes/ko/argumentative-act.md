@@ -1,6 +1,9 @@
 ---
 title: 논증 행위
 description: 주장, 정의, 반박 등과 같은 추론상의 한 가지 움직임
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 논증 행위는 주장 제기, 용어 정의, 증거 제시, 반박, 또는 가정 약화와 같은,

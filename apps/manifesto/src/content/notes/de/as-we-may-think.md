@@ -1,6 +1,9 @@
 ---
 title: Wie wir vielleicht denken werden
 description: Vannevar Bushs Essay von 1945, der den Memex skizziert
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 „Wie wir vielleicht denken werden“ ist der Essay von

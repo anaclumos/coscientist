@@ -1,6 +1,9 @@
 ---
 title: マルチAI合意プロトコル
 description: 1+4（人間＋4つのAI）による執筆・検証システム
+sourceLocale: en
+sourceHash: b49299d152fa
+translatedAt: 2026-01-14
 ---
 
 マルチAI合意プロトコル（Multi-AI Consensus

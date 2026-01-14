@@ -1,6 +1,9 @@
 ---
 title: آپریٹر
 description: کوسائنٹسٹ میں علم پر انسانی خودمختار
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 آپریٹر [کوسائنٹسٹ](./coscientist) میں علم پر انسانی خودمختار ہوتا ہے۔ یہ نام

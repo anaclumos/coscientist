@@ -1,6 +1,9 @@
 ---
 title: 跨語言綜合
 description: 將多種語言的知識整合為一致的理解
+sourceLocale: en
+sourceHash: c46a67a275b6
+translatedAt: 2026-01-14
 ---
 
 跨語言綜合（cross-linguistic

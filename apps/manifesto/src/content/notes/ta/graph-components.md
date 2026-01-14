@@ -1,6 +1,9 @@
 ---
 title: வரைபட கூறுகள்
 description: ஒரு வாதவியல் வரைபடத்தை உருவாக்கும் நோடு மற்றும் எட்ஜ் வகைகள்
+sourceLocale: en
+sourceHash: eb17714b277c
+translatedAt: 2026-01-14
 ---
 
 வரைபட கூறுகள் என்பது ஒரு [வாதவியல் வரைபடத்தின்](./dialectical-graph) கட்டுமானக்

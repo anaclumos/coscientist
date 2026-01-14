@@ -1,6 +1,9 @@
 ---
 title: Đồ thị như cơ chế phòng thủ trước meltdown
 description: Cách cấu trúc đồ thị biện chứng ngăn chặn sự sụp đổ tri thức
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 "Đồ thị như cơ chế phòng thủ trước meltdown" giải thích cách

@@ -1,6 +1,9 @@
 ---
 title: Cognición bilingüe
 description: La capacidad de pensar y operar en varios idiomas simultáneamente
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 La cognición bilingüe es la capacidad de pensar y trabajar en más de un idioma,

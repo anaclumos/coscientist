@@ -3,6 +3,9 @@ title: Intervallo di evidenza
 description:
   Un intervallo citato esatto da una fonte che supporta o mette in discussione
   un'affermazione
+sourceLocale: en
+sourceHash: a8833ec8512f
+translatedAt: 2026-01-14
 ---
 
 Un intervallo di evidenza è il testo citato esatto tratto da una fonte che

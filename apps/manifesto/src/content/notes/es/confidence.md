@@ -1,6 +1,9 @@
 ---
 title: Confianza
 description: Una medida multidimensional del respaldo a una afirmación
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 La confianza en [Cocientífico](./coscientist) no es una única puntuación de

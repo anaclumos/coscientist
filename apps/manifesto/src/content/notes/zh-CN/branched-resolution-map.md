@@ -1,6 +1,9 @@
 ---
 title: 分支式解答图谱
 description: 一种结构：基于不同定义或方法，展示多个同样成立的结论
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 分支式解答图谱（branched resolution

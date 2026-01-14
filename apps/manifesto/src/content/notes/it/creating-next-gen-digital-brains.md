@@ -1,6 +1,9 @@
 ---
 title: Creare cervelli digitali di nuova generazione
 description: Saggio su sistemi di conoscenza personali senza attrito, guidati da algoritmi
+sourceLocale: en
+sourceHash: e06df2c6a2a7
+translatedAt: 2026-01-14
 ---
 
 "Creare cervelli digitali di nuova generazione" è un saggio di

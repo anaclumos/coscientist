@@ -3,6 +3,9 @@ title: Projeto PIRI
 description:
   Uma iniciativa cancelada para traduções ilimitadas de documentação de
   programação
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 O Projeto PIRI foi uma iniciativa de [Sunghyun Cho](./sunghyun-cho) para

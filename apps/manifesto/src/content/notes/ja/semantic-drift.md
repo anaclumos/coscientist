@@ -1,6 +1,9 @@
 ---
 title: 意味のドリフト
 description: 意味の変化によって知識が陳腐化したり誤解を招いたりすること
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 意味のドリフト（semantic

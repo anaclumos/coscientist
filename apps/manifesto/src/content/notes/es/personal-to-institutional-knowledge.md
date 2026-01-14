@@ -1,6 +1,9 @@
 ---
 title: Conocimiento personal a institucional
 description: Escalar las prácticas de conocimiento personal a las organizaciones
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 El paso del conocimiento personal al institucional es la transición de un

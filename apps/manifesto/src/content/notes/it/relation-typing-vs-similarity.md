@@ -3,6 +3,9 @@ title: Tipizzazione delle relazioni vs similarità
 description:
   Perché gli archi tipizzati risolvono ciò che il recupero basato sulla
   similarità non può
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 La tipizzazione delle relazioni vs la similarità mette a confronto due approcci

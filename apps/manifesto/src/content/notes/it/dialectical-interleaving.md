@@ -3,6 +3,9 @@ title: Intercalazione dialettica
 description:
   Mescolare tipi di asserzioni durante l’esplorazione per prevenire i silos e
   smascherare una falsa competenza
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 L’intercalazione dialettica è la pratica di mescolare tipi di

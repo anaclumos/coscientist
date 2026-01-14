@@ -1,6 +1,9 @@
 ---
 title: 인식론적 프로토콜 레이어
 description: 지식 시스템이 붕괴하는 것을 막기 위해 강화하는 규칙과 워크플로
+sourceLocale: en
+sourceHash: 36c93eb305a5
+translatedAt: 2026-01-14
 ---
 
 인식론적 프로토콜 레이어는 오류 연쇄에 맞서 지식 시스템을 강화하는 규칙, 점검,

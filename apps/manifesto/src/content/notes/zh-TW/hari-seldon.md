@@ -1,6 +1,9 @@
 ---
 title: 哈里·謝頓
 description: 阿西莫夫《基地》中的虛構數學家，創立心理史學
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 哈里·謝頓（Hari

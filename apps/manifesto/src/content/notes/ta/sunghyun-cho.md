@@ -1,6 +1,9 @@
 ---
 title: சுங்க்யுன் சோ
 description: Coscientist-இன் உருவாக்குநர் மற்றும் அதன் அடிப்படை கட்டுரைகளின் ஆசிரியர்
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 சுங்க்யுன் சோ [இணை-விஞ்ஞானி](./coscientist)-இன் உருவாக்குநரும், அதன் திசையை

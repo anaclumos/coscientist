@@ -3,6 +3,9 @@ title: Siêu não
 description:
   Tầm nhìn về một bộ khung xương ngoài nhận thức được ngoại hóa nhằm khuếch đại
   trí tuệ con người
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 Siêu não là thuật ngữ của [Sunghyun Cho](./sunghyun-cho) dùng để chỉ tầm nhìn về

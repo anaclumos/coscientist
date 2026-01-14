@@ -1,6 +1,9 @@
 ---
 title: Unutma Eğrisi
 description: Tekrar yapılmadığında hafızanın öngörülebilir biçimde zayıflaması
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 Unutma eğrisi, bilgi yeniden gözden geçirilmediğinde hatırlamanın öngörülebilir

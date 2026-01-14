@@ -3,6 +3,9 @@ title: Separación de rutas de replicación
 description:
   Preguntar si el apoyo proviene de rutas independientes o de reiteraciones
   repetidas
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 La separación de rutas de replicación es la práctica de preguntar si el aparente

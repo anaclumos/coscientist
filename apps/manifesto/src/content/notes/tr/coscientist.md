@@ -1,6 +1,9 @@
 ---
 title: Coscientist
 description: Yapay zekâ sonrası çağda bilgi üretimi için entelektüel bir yoldaş sistemi
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 Coscientist, [Isaac Asimov](./isaac-asimov)'un kurgusal

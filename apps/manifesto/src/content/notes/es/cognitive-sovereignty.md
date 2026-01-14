@@ -2,6 +2,9 @@
 title: Soberanía cognitiva
 description: Control humano sobre el juicio y la verificación en el trabajo del
   conocimiento
+sourceLocale: en
+sourceHash: 1831665ecaf7
+translatedAt: 2026-01-14
 ---
 
 La soberanía cognitiva es el compromiso de mantener el juicio y la verificación

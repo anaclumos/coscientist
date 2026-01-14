@@ -1,6 +1,9 @@
 ---
 title: धारणा
 description: किसी दावे के पीछे निहित, अव्यक्त पूर्वधारणा
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 धारणा एक निहित पूर्वधारणा है जिस पर कोई [दावा](./claim) निर्भर करता है, लेकिन

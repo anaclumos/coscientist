@@ -1,6 +1,9 @@
 ---
 title: Sunghyun Cho
 description: Twórca Coscientist i autor jego fundamentalnych esejów
+sourceLocale: en
+sourceHash: c6f1a7de532b
+translatedAt: 2026-01-14
 ---
 
 Sunghyun Cho jest twórcą [Współnaukowiec](./coscientist) oraz autorem esejów,

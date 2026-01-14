@@ -1,6 +1,9 @@
 ---
 title: 인지적 행위자성 보존
 description: 인간이 판단을 통제하도록 유지하는 AI 안전 프레이밍
+sourceLocale: en
+sourceHash: d81ab2645b5d
+translatedAt: 2026-01-14
 ---
 
 인지적 행위자성 보존은 AI가 인간의 판단을 대체하는 것이 아니라 강화해야 한다는

@@ -3,6 +3,9 @@ title: Đế chế Thiên Hà
 description:
   Nền văn minh mà sự sụp đổ của nó thúc đẩy Encyclopedia Galactica trong
   Foundation của Asimov
+sourceLocale: en
+sourceHash: 44322dc4bfa8
+translatedAt: 2026-01-14
 ---
 
 Đế chế Thiên Hà là nền văn minh trong loạt _Foundation_ của

@@ -1,6 +1,9 @@
 ---
 title: Door AI veroorzaakte illusies van competentie
 description: Hoe vaardigheid met AI bij gebruikers schijnmeesterschap creëert
+sourceLocale: en
+sourceHash: cdaedade874b
+translatedAt: 2026-01-14
 ---
 
 Door AI veroorzaakte illusies van competentie ontstaan wanneer gebruikers

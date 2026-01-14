@@ -3,6 +3,9 @@ title: Tindakan Argumentatif
 description:
   Sebuah langkah dalam penalaran seperti menyatakan, mendefinisikan, atau
   menyanggah
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 Tindakan argumentatif adalah langkah yang jelas dan terpisah dalam penalaran,

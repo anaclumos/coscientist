@@ -1,6 +1,9 @@
 ---
 title: Minimalne cięcie
 description: Najmniejszy zbiór krawędzi, który rozspójnia graf
+sourceLocale: en
+sourceHash: 3274a096dfea
+translatedAt: 2026-01-14
 ---
 
 Minimalne cięcie to najmniejszy zbiór krawędzi, którego usunięcie rozspójnia

@@ -3,6 +3,9 @@ title: Despodrir el cerebro
 description:
   Proceso activo de restaurar la capacidad de verificación y la agencia en un
   entorno informativo posterior a la IA
+sourceLocale: en
+sourceHash: 8c68bff7e3ef
+translatedAt: 2026-01-14
 ---
 
 Despodrir el cerebro es el proceso activo de restaurar la capacidad de

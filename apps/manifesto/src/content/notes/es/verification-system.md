@@ -1,6 +1,9 @@
 ---
 title: Sistema de verificación
 description: Los mecanismos para contrastar afirmaciones con evidencia y contraevidencia
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 El sistema de verificación es el conjunto de mecanismos que

@@ -1,6 +1,9 @@
 ---
 title: 문서 충돌
 description: 서로 다른 출처들이 서로의 주장에 강제로 맞물려 검토하게 만드는 프로토콜
+sourceLocale: en
+sourceHash: 65bf53f5d6fb
+translatedAt: 2026-01-14
 ---
 
 문서 충돌은 서로 다른 출처들을 단지 병렬로 요약하는 데 그치지 않고, 서로의

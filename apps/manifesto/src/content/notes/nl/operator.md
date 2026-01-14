@@ -1,6 +1,9 @@
 ---
 title: Operator
 description: De menselijke soeverein over kennis in Coscientist
+sourceLocale: en
+sourceHash: 72db4459729d
+translatedAt: 2026-01-14
 ---
 
 De Operator is de menselijke soeverein over kennis in

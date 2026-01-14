@@ -1,6 +1,9 @@
 ---
 title: AI
 description: 知識システムにとってのツールであり課題でもある人工知能
+sourceLocale: en
+sourceHash: a76f115890f7
+translatedAt: 2026-01-14
 ---
 
 [コサイエンティスト](./coscientist) の文脈におけるAI（Artificial

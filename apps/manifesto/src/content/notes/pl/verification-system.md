@@ -2,6 +2,9 @@
 title: System weryfikacji
 description: Mechanizmy sprawdzania twierdzeń względem dowodów, kontrdowodów i
   alternatywnych wyjaśnień
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 System weryfikacji to zestaw mechanizmów, których

@@ -1,6 +1,9 @@
 ---
 title: Ilusiones de competencia
 description: Una falsa sensación de dominio creada por la familiaridad pasiva
+sourceLocale: en
+sourceHash: 75804f84b0ff
+translatedAt: 2026-01-14
 ---
 
 Las ilusiones de competencia ocurren cuando la familiaridad se confunde con el

@@ -1,6 +1,9 @@
 ---
 title: AIలో మానవ ఏజెన్సీ
 description: AI-సహాయక జ్ఞానపనిలో మానవులు నియంత్రణలో ఉండేలా చేసే సూత్రాలు మరియు యంత్రాంగాలు
+sourceLocale: en
+sourceHash: 18286ece9376
+translatedAt: 2026-01-14
 ---
 
 [AI](./ai)లో మానవ ఏజెన్సీ అంటే—AI గణనీయమైన [ఆలోచన శ్రమ](./contemplation-labor)ను

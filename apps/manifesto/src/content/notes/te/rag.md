@@ -3,6 +3,9 @@ title: RAG
 description:
   Retrieval-Augmented Generation, తిరిగి పొందిన పత్రాల ఆధారంగా AI అవుట్‌పుట్‌లకు
   పునాదిని కల్పించే ఒక సాంకేతికత
+sourceLocale: en
+sourceHash: a4f12721cec3
+translatedAt: 2026-01-14
 ---
 
 RAG అనేది కార్పస్ నుంచి సంబంధించిన పత్రాలను తిరిగి పొందించి, వాటిని జనరేషన్‌కు

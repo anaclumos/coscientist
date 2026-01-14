@@ -1,6 +1,9 @@
 ---
 title: Herkomst
 description: De oorsprong en keten van bewaring voor beweringen en bewijs
+sourceLocale: en
+sourceHash: 37d043d7c7d1
+translatedAt: 2026-01-14
 ---
 
 Herkomst is de oorsprong en de bewaarketen van een bewering of stuk bewijs: wie

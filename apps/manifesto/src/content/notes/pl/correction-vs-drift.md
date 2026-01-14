@@ -3,6 +3,9 @@ title: Korekta vs dryf
 description:
   Zasada ekonomiczna mówiąca, że system wiedzy przetrwa tylko wtedy, gdy koszt
   korekty pozostaje niższy niż koszt dryfu
+sourceLocale: en
+sourceHash: 5b62e4845eb0
+translatedAt: 2026-01-14
 ---
 
 Korekta vs dryf to zasada ekonomiczna, zgodnie z którą system wiedzy pozostaje

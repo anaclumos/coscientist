@@ -3,6 +3,9 @@ title: Supercervello
 description:
   La visione di un esoscheletro cognitivo esternalizzato che amplifica
   l’intelligenza umana
+sourceLocale: en
+sourceHash: 36e9605bf963
+translatedAt: 2026-01-14
 ---
 
 Supercervello è il termine di [Sunghyun Cho](./sunghyun-cho) per la visione di

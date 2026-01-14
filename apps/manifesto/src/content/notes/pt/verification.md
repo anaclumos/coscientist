@@ -1,6 +1,9 @@
 ---
 title: Verificação
 description: O processo de conferir alegações contra evidências e contraevidências
+sourceLocale: en
+sourceHash: 3af6307d4f28
+translatedAt: 2026-01-14
 ---
 
 Verificação é o processo de checar se uma alegação se sustenta diante de

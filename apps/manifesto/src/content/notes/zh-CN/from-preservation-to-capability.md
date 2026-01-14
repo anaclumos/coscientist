@@ -1,6 +1,9 @@
 ---
 title: 从保存到能力
 description: 从存储知识到产生理解的转变
+sourceLocale: en
+sourceHash: a9cf0c44df0b
+translatedAt: 2026-01-14
 ---
 
 从保存到能力，指的是从"存储信息"的知识系统转向"主动支持发现、验证与更新"的系统。虚构的[《银河百科全书》](./encyclopedia-galactica)是一个保存装置；[共研者](./coscientist)旨在成为一个能力装置。

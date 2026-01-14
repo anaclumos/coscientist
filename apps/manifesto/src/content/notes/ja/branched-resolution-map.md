@@ -1,6 +1,9 @@
 ---
 title: 分岐型解決マップ
 description: 定義や手法の違いに基づいて複数の妥当な結論を示す構造
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 分岐型解決マップ（branched resolution

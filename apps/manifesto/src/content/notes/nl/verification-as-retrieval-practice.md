@@ -3,6 +3,9 @@ title: Verificatie als retrieval practice
 description:
   De verificatielus van de Operator als een vorm van actieve herinnering die
   kennisbehoud versterkt
+sourceLocale: en
+sourceHash: 0bd698c0483b
+translatedAt: 2026-01-14
 ---
 
 Verificatie als retrieval practice is het inzicht dat het verificatiewerk van de

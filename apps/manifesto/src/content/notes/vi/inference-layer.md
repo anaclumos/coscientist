@@ -1,6 +1,9 @@
 ---
 title: Lớp suy luận
 description: Mạng lưới khẳng định sống động, tiến hóa trong một đồ thị biện chứng
+sourceLocale: en
+sourceHash: 876e02bd42cb
+translatedAt: 2026-01-14
 ---
 
 Lớp suy luận là mạng lưới sống động, tiến hóa của các [khẳng định](./claim),

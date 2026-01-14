@@ -1,6 +1,9 @@
 ---
 title: ماخذ
 description: دعوؤں اور شواہد کے لیے نسبتِ ماخذ کا لنگر
+sourceLocale: en
+sourceHash: 73116d209a24
+translatedAt: 2026-01-14
 ---
 
 ماخذ وہ نقطۂ آغاز ہے جہاں سے [ثبوت کا حصہ](./evidence-span) یا [دعویٰ](./claim)

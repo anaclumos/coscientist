@@ -3,6 +3,9 @@ title: Xen kẽ biện chứng
 description:
   Trộn các loại mệnh đề trong quá trình khám phá để tránh tạo silo và chọc thủng
   năng lực giả
+sourceLocale: en
+sourceHash: cc8b40beafd1
+translatedAt: 2026-01-14
 ---
 
 Xen kẽ biện chứng là thực hành trộn các loại [mệnh đề](./claim), lĩnh vực và

@@ -3,6 +3,9 @@ title: Instytucjonalna zgnilizna mózgu
 description:
   Tryb awarii organizacyjnej, w którym degraduje się zbiorowa zdolność
   weryfikacji
+sourceLocale: en
+sourceHash: 8dbf0ad7796b
+translatedAt: 2026-01-14
 ---
 
 Instytucjonalna zgnilizna mózgu to tryb awarii, w którym zbiorowa zdolność

@@ -1,6 +1,9 @@
 ---
 title: Annahme
 description: Eine implizite Prämisse, die einer Behauptung zugrunde liegt
+sourceLocale: en
+sourceHash: 7ff67cddc322
+translatedAt: 2026-01-14
 ---
 
 Eine Annahme ist eine implizite Prämisse, von der eine [Behauptung](./claim)

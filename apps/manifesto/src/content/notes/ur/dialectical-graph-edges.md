@@ -1,6 +1,9 @@
 ---
 title: جدلیاتی گراف کے کنارے
 description: جدلیاتی علم کے گراف میں نوڈز کو جوڑنے والی تعلق کی اقسام
+sourceLocale: en
+sourceHash: e060cb9fd333
+translatedAt: 2026-01-14
 ---
 
 ایک [جدلیاتی گراف](./dialectical-graph) میں کنارے مماثلت کے اسکورز کے بجائے تعلق

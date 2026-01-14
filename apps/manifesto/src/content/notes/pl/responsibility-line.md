@@ -1,6 +1,9 @@
 ---
 title: Linia odpowiedzialności
 description: Możliwy do prześledzenia łańcuch tego, kto co stwierdził i na jakiej podstawie
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 Linia odpowiedzialności to możliwy do prześledzenia łańcuch tego, kto co

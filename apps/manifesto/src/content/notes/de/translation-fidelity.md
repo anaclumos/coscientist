@@ -1,6 +1,9 @@
 ---
 title: Übersetzungstreue
 description: Bewahrung von Bedeutung und Genauigkeit über Sprachgrenzen hinweg
+sourceLocale: en
+sourceHash: 5b698486c4d0
+translatedAt: 2026-01-14
 ---
 
 Übersetzungstreue ist der Grad, in dem übersetzte Inhalte die Bedeutung, Nuancen

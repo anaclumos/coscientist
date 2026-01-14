@@ -1,6 +1,9 @@
 ---
 title: 책임선
 description: 누가 무엇을 어떤 근거로 주장했는지 추적 가능한 연결고리
+sourceLocale: en
+sourceHash: 7e1a126ea043
+translatedAt: 2026-01-14
 ---
 
 책임선은 누가 무엇을 어떤 근거로 주장했는지 추적 가능한 연결고리다. 어떤 문장을

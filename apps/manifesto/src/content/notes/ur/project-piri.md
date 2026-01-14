@@ -1,6 +1,9 @@
 ---
 title: پروجیکٹ PIRI
 description: پروگرامنگ دستاویزات کے لامحدود تراجم کے لیے ایک منسوخ شدہ اقدام
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 پروجیکٹ PIRI [Sunghyun Cho](./sunghyun-cho) کا ایسا اقدام تھا جس کا مقصد اہم

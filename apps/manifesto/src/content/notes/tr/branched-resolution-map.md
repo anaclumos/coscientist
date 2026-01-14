@@ -3,6 +3,9 @@ title: Dallı Çözüm Haritası
 description:
   Farklı tanımlar veya yöntemlere bağlı olarak birden çok geçerli sonucu
   gösteren yapı
+sourceLocale: en
+sourceHash: c387f6c101ba
+translatedAt: 2026-01-14
 ---
 
 Dallı çözüm haritası, farklı başlangıç noktalarından—tanımlar, yöntemler veya

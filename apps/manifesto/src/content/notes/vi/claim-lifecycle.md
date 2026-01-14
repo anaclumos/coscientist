@@ -3,6 +3,9 @@ title: Vòng đời của khẳng định
 description:
   Cách các khẳng định phát triển từ giả thuyết tạm thời thành tri thức vững chắc
   hoặc trở nên lỗi thời
+sourceLocale: en
+sourceHash: 19c50f22470b
+translatedAt: 2026-01-14
 ---
 
 Vòng đời của khẳng định mô tả cách một [khẳng định](./claim) tiến triển trong

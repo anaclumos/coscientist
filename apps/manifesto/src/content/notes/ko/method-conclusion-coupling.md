@@ -1,6 +1,9 @@
 ---
 title: 방법-결론 결합
 description: 결론이 아니라 방법에 따라 주장들을 군집화하는 분석 패턴
+sourceLocale: en
+sourceHash: 8987bb9190cf
+translatedAt: 2026-01-14
 ---
 
 방법-결론 결합은 도달한 결론에 따라 [주장](./claim)들을 묶는 대신, 그 주장들을

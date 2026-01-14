@@ -1,6 +1,9 @@
 ---
 title: Semantische drift
 description: Betekenisveranderingen waardoor kennis verouderd of misleidend wordt
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 Semantische drift is de categorie van [driftfenomenen](./drift-phenomena)

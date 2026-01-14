@@ -1,6 +1,9 @@
 ---
 title: "Token ≠ Pengetahuan"
 description: Sebuah Pencarian Pribadi akan Eksoskeleton Kognitif
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Saya, [Sunghyun Cho](./sunghyun-cho), tumbuh dengan rasa hormat terhadap

@@ -2,6 +2,9 @@
 title: Séparation des chemins de réplication
 description: Se demander si le soutien provient de chemins indépendants ou de
   reformulations répétées
+sourceLocale: en
+sourceHash: b898029feac1
+translatedAt: 2026-01-14
 ---
 
 La séparation des chemins de réplication est la pratique consistant à se

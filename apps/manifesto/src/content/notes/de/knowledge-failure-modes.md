@@ -1,6 +1,9 @@
 ---
 title: Wissens-Fehlermodi
 description: Taxonomie dessen, was in Wissenssystemen schiefgehen kann
+sourceLocale: en
+sourceHash: c36513003e66
+translatedAt: 2026-01-14
 ---
 
 Wissens-Fehlermodi sind die Arten und Weisen, wie Wissenssysteme sich

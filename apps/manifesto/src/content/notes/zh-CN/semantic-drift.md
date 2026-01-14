@@ -1,6 +1,9 @@
 ---
 title: 语义漂移
 description: 意义变化导致知识过时或产生误导
+sourceLocale: en
+sourceHash: a92475076aa3
+translatedAt: 2026-01-14
 ---
 
 语义漂移是[漂移现象](./drift-phenomena)的一类，其中术语的含义会随时间推移或在不同社群之间发生变化，从而使主张变得过时、具有误导性，或呈现出虚假的矛盾。

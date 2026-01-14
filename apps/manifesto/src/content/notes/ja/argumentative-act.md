@@ -1,6 +1,9 @@
 ---
 title: 論証行為
 description: 主張、定義、反駁などの推論上の一手
+sourceLocale: en
+sourceHash: 6271253de235
+translatedAt: 2026-01-14
 ---
 
 論証行為（argumentative

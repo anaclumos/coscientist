@@ -1,6 +1,9 @@
 ---
 title: Psico-história
 description: Uma ciência estatística fictícia na série Fundação de Asimov
+sourceLocale: en
+sourceHash: ddd31577b00d
+translatedAt: 2026-01-14
 ---
 
 A psico-história é uma disciplina fictícia na série _Fundação_ de

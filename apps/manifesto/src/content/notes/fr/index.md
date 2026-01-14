@@ -1,6 +1,9 @@
 ---
 title: "Jetons ≠ connaissance"
 description: Une quête personnelle d’un exosquelette cognitif
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Moi, [Sunghyun Cho](./sunghyun-cho), j’ai grandi avec une révérence pour les

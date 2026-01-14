@@ -3,6 +3,9 @@ title: Lớp tường thuật
 description:
   Các phép chiếu có gắn mốc thời gian của đồ thị biện chứng, phù hợp để con
   người đọc
+sourceLocale: en
+sourceHash: b8d561687a3a
+translatedAt: 2026-01-14
 ---
 
 Lớp tường thuật là phép chiếu có thể đọc được bởi con người của một

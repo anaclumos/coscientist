@@ -1,6 +1,9 @@
 ---
 title: 변증법적 그래프 노드
 description: 변증법적 지식 그래프에서의 노드 유형
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 [변증법적 그래프](./dialectical-graph)에서 노드는 원시 텍스트가 아니라 인식론적

@@ -1,6 +1,9 @@
 ---
 title: Non stazionarietà
 description: Quando il processo di generazione dei dati cambia nel tempo
+sourceLocale: en
+sourceHash: 0418c18dea6a
+translatedAt: 2026-01-14
 ---
 
 La non stazionarietà significa che il processo sottostante che produce i dati

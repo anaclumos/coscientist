@@ -1,6 +1,9 @@
 ---
 title: Comme nous pourrions penser
 description: L’essai de 1945 de Vannevar Bush présentant le Memex
+sourceLocale: en
+sourceHash: 3495766b6636
+translatedAt: 2026-01-14
 ---
 
 « As We May Think » est l’essai de 1945 de [Vannevar Bush](./vannevar-bush)

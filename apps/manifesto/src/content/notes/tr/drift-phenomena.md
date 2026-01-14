@@ -1,6 +1,9 @@
 ---
 title: Sürüklenme Olguları
 description: Bilgi sistemlerinde zamana bağlı değişimler
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 Sürüklenme olguları, bilgi sistemlerinin zaman içinde—çoğu zaman görünmez

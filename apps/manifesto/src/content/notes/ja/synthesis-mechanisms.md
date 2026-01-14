@@ -1,6 +1,9 @@
 ---
 title: 統合メカニズム
 description: 互換性のない情報源を比較可能にするためのパターン
+sourceLocale: en
+sourceHash: 3947eb0ccc18
+translatedAt: 2026-01-14
 ---
 
 統合メカニズム（Synthesis

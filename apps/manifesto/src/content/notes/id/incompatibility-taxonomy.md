@@ -1,6 +1,9 @@
 ---
 title: Taksonomi Ketidakcocokan
 description: Kategori ketidaksepakatan antar sumber
+sourceLocale: en
+sourceHash: 1e07d5b65784
+translatedAt: 2026-01-14
 ---
 
 Taksonomi ketidakcocokan adalah klasifikasi tentang mengapa sumber-sumber tidak

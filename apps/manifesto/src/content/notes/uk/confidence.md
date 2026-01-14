@@ -1,6 +1,9 @@
 ---
 title: Впевненість
 description: Багатовимірна міра підтримки твердження
+sourceLocale: en
+sourceHash: 268bb7846c7a
+translatedAt: 2026-01-14
 ---
 
 Впевненість у [Конауковець](./coscientist) — це не один-єдиний показник

@@ -1,6 +1,9 @@
 ---
 title: Contenção
 description: Um conflito estruturado entre afirmações que requer resolução
+sourceLocale: en
+sourceHash: 0762bf9f11c7
+translatedAt: 2026-01-14
 ---
 
 Contenção é um conflito estruturado entre afirmações, definições ou métodos. É

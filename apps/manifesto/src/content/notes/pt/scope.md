@@ -1,6 +1,9 @@
 ---
 title: Escopo
 description: As condições de aplicabilidade de uma afirmação
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 Escopo define onde e quando se pretende que uma [afirmação](./claim) se aplique:

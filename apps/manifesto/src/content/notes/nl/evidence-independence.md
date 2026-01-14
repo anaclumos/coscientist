@@ -3,6 +3,9 @@ title: Bewijsonafhankelijkheid
 description:
   Principe dat overeenstemming door gedeelde trainingsbias geen echte consensus
   is
+sourceLocale: en
+sourceHash: 56c73ee944eb
+translatedAt: 2026-01-14
 ---
 
 Bewijsonafhankelijkheid is het principe dat schijnbare overeenstemming tussen

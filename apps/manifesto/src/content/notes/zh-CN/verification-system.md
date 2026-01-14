@@ -1,6 +1,9 @@
 ---
 title: 验证系统
 description: 将主张与证据和反证进行核对的机制
+sourceLocale: en
+sourceHash: 67e81c4c10c1
+translatedAt: 2026-01-14
 ---
 
 验证系统是一组机制，[共研者](./coscientist)

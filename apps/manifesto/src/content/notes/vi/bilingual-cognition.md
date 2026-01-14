@@ -1,6 +1,9 @@
 ---
 title: Nhận thức song ngữ
 description: Khả năng suy nghĩ và vận hành đồng thời trong nhiều ngôn ngữ
+sourceLocale: en
+sourceHash: 7a72ce83bd7e
+translatedAt: 2026-01-14
 ---
 
 Nhận thức song ngữ là khả năng suy nghĩ và làm việc bằng nhiều hơn một ngôn ngữ,

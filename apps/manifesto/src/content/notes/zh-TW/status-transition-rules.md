@@ -1,6 +1,9 @@
 ---
 title: 狀態轉換規則
 description: 在辯證圖中，是什麼觸發主張在各種狀態之間移動
+sourceLocale: en
+sourceHash: bae87c3f8772
+translatedAt: 2026-01-14
 ---
 
 狀態轉換規則定義了是什麼將一個[主張](./claim)從一種狀態推進到[主張狀態分類法](./claim-status-taxonomy)中的另一種狀態。轉換取決於挑戰的類型，而非數量：一個 निर्ण定性的[反例](./counterexample)比許多缺乏說服力的反對意見更重要。

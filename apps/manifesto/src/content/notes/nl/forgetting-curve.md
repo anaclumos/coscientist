@@ -1,6 +1,9 @@
 ---
 title: Vergetelheidscurve
 description: De voorspelbare afname van het geheugen zonder herhaling
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 De vergetelheidscurve beschrijft de voorspelbare afname van het vermogen om

@@ -1,6 +1,9 @@
 ---
 title: Meta-leren
 description: Leren hoe je eigen leren werkt
+sourceLocale: en
+sourceHash: 3023196c32ff
+translatedAt: 2026-01-14
 ---
 
 Meta-leren is leren over je eigen leren: opmerken wat blijft hangen, wat faalt

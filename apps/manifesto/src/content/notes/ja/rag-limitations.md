@@ -1,6 +1,9 @@
 ---
 title: RAG の限界
 description: 標準的な検索拡張生成が真の発見を生み出せない理由
+sourceLocale: en
+sourceHash: 6ccba3a6818d
+translatedAt: 2026-01-14
 ---
 
 [RAG](./rag)（Retrieval-Augmented

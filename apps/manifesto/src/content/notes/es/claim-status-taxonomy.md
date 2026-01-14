@@ -3,6 +3,9 @@ title: Taxonomía del estado de la afirmación
 description:
   Los estados en los que puede encontrarse una afirmación dentro de un grafo
   dialéctico
+sourceLocale: en
+sourceHash: e713e484c72f
+translatedAt: 2026-01-14
 ---
 
 La taxonomía del estado de la [afirmación](./claim) define los estados que una

@@ -3,6 +3,9 @@ title: Graf Dialektika
 description:
   Model graf pengetahuan yang menyimpan klaim dan relasi alih-alih konten
   dokumen
+sourceLocale: en
+sourceHash: cd2021478e98
+translatedAt: 2026-01-14
 ---
 
 Graf dialektika adalah graf pengetahuan yang menyimpan struktur argumentatif

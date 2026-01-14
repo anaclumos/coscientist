@@ -1,6 +1,9 @@
 ---
 title: 科學家的 GitHub
 description: 將實驗視為具版本、可稽核程式碼的願景
+sourceLocale: en
+sourceHash: 71fe0b887b2c
+translatedAt: 2026-01-14
 ---
 
 「科學家的 GitHub」是一種願景：把科學實驗像程式碼一樣對待——具版本控管、可重複執行、可稽核。正如軟體工程從臨時腳本走向持續整合與版本控制，科學也可以從一次性的實驗室筆記，走向具可重現管線與來源追蹤（provenance

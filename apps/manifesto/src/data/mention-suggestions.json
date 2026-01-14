@@ -1,0 +1,239 @@
+{
+  "generatedAt": "2026-01-14T15:05:40.268Z",
+  "threshold": 0.75,
+  "totalSuggestions": 29,
+  "suggestions": [
+    {
+      "sourceSlug": "dialectical-graph-edges",
+      "sourceTitle": "Dialectical Graph Edges",
+      "targetSlug": "argumentative-relations",
+      "targetTitle": "Argumentative Relations",
+      "similarity": 0.8457928478656632,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "dialectical-graph-edges",
+      "sourceTitle": "Dialectical Graph Edges",
+      "targetSlug": "dialectical-graph-nodes",
+      "targetTitle": "Dialectical Graph Nodes",
+      "similarity": 0.7764139712654928,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "dialectical-graph-edges",
+      "sourceTitle": "Dialectical Graph Edges",
+      "targetSlug": "graph-components",
+      "targetTitle": "Graph Components",
+      "similarity": 0.7678168689023201,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "knowledge-synthesis",
+      "sourceTitle": "Knowledge Synthesis",
+      "targetSlug": "synthesis-mechanisms",
+      "targetTitle": "Synthesis Mechanisms",
+      "similarity": 0.7645152277493297,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "graph-components",
+      "sourceTitle": "Graph Components",
+      "targetSlug": "dialectical-graph-nodes",
+      "targetTitle": "Dialectical Graph Nodes",
+      "similarity": 0.8255546848173988,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "graph-components",
+      "sourceTitle": "Graph Components",
+      "targetSlug": "argumentative-relations",
+      "targetTitle": "Argumentative Relations",
+      "similarity": 0.76833836391306,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "graph-components",
+      "sourceTitle": "Graph Components",
+      "targetSlug": "dialectical-graph-edges",
+      "targetTitle": "Dialectical Graph Edges",
+      "similarity": 0.7678168689023201,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "claim",
+      "sourceTitle": "Claim",
+      "targetSlug": "dialectical-graph-nodes",
+      "targetTitle": "Dialectical Graph Nodes",
+      "similarity": 0.7663620031490972,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "encyclopedia-galactica",
+      "sourceTitle": "Encyclopedia Galactica",
+      "targetSlug": "foundation-fiction",
+      "targetTitle": "Foundation Fiction",
+      "similarity": 0.7940934756697886,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "encyclopedia-galactica",
+      "sourceTitle": "Encyclopedia Galactica",
+      "targetSlug": "from-preservation-to-capability",
+      "targetTitle": "From Preservation to Capability",
+      "similarity": 0.7605677201065095,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "psychohistory",
+      "sourceTitle": "Psychohistory",
+      "targetSlug": "hari-seldon",
+      "targetTitle": "Hari Seldon",
+      "similarity": 0.7516463658230726,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "translation-nuance-loss",
+      "sourceTitle": "Translation Nuance Loss",
+      "targetSlug": "translation-fidelity",
+      "targetTitle": "Translation Fidelity",
+      "similarity": 0.7527838172932713,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "claim-status-taxonomy",
+      "sourceTitle": "Claim Status Taxonomy",
+      "targetSlug": "status-transition-rules",
+      "targetTitle": "Status Transition Rules",
+      "similarity": 0.7625237285160233,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "claim-status-taxonomy",
+      "sourceTitle": "Claim Status Taxonomy",
+      "targetSlug": "claim-lifecycle",
+      "targetTitle": "Claim Lifecycle",
+      "similarity": 0.7518822554290424,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "exploration-strategies",
+      "sourceTitle": "Exploration Strategies",
+      "targetSlug": "exploration-mechanisms",
+      "targetTitle": "Exploration Mechanisms",
+      "similarity": 0.9022180131502567,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "fluency-trap",
+      "sourceTitle": "Fluency Trap",
+      "targetSlug": "ai-induced-illusions-of-competence",
+      "targetTitle": "AI-Induced Illusions of Competence",
+      "similarity": 0.8029141216025074,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "argumentative-relations",
+      "sourceTitle": "Argumentative Relations",
+      "targetSlug": "graph-components",
+      "targetTitle": "Graph Components",
+      "similarity": 0.76833836391306,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "digital-brain",
+      "sourceTitle": "Digital Brain",
+      "targetSlug": "second-brain",
+      "targetTitle": "Second Brain",
+      "similarity": 0.76881750024683,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "verification",
+      "sourceTitle": "Verification",
+      "targetSlug": "verification-system",
+      "targetTitle": "Verification System",
+      "similarity": 0.8733194807485642,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "definition-drift",
+      "sourceTitle": "Definition Drift",
+      "targetSlug": "semantic-drift",
+      "targetTitle": "Semantic Drift",
+      "similarity": 0.8092174512662546,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "definition-drift",
+      "sourceTitle": "Definition Drift",
+      "targetSlug": "drift-phenomena",
+      "targetTitle": "Drift Phenomena",
+      "similarity": 0.7648253081494496,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "multilingual-knowledge-mesh",
+      "sourceTitle": "Multilingual Knowledge Mesh",
+      "targetSlug": "multilingual-memex",
+      "targetTitle": "Multilingual Memex",
+      "similarity": 0.7897392063371967,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "multilingual-memex",
+      "sourceTitle": "Multilingual Memex",
+      "targetSlug": "multilingual-knowledge-mesh",
+      "targetTitle": "Multilingual Knowledge Mesh",
+      "similarity": 0.7897392063371967,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "dialectical-graph-nodes",
+      "sourceTitle": "Dialectical Graph Nodes",
+      "targetSlug": "graph-components",
+      "targetTitle": "Graph Components",
+      "similarity": 0.8255546848173988,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "dialectical-graph-nodes",
+      "sourceTitle": "Dialectical Graph Nodes",
+      "targetSlug": "dialectical-graph-edges",
+      "targetTitle": "Dialectical Graph Edges",
+      "similarity": 0.7764139712654928,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "coscientist",
+      "sourceTitle": "Coscientist",
+      "targetSlug": "index",
+      "targetTitle": "Tokens ≠ Knowledge",
+      "similarity": 0.8113763832921045,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "dialectical-graph",
+      "sourceTitle": "Dialectical Graph",
+      "targetSlug": "graph-as-meltdown-defense",
+      "targetTitle": "Graph as Meltdown Defense",
+      "similarity": 0.811111988180662,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "dialectical-graph",
+      "sourceTitle": "Dialectical Graph",
+      "targetSlug": "graph-components",
+      "targetTitle": "Graph Components",
+      "similarity": 0.7701892912560149,
+      "alreadyLinked": false
+    },
+    {
+      "sourceSlug": "dialectical-graph",
+      "sourceTitle": "Dialectical Graph",
+      "targetSlug": "from-memex-to-dialectical-graph",
+      "targetTitle": "From Memex to Dialectical Graph",
+      "similarity": 0.7685268717840744,
+      "alreadyLinked": false
+    }
+  ]
+}

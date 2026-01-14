@@ -1,6 +1,9 @@
 ---
 title: প্রকল্প PIRI
 description: প্রোগ্রামিং ডকুমেন্টেশনের সীমাহীন অনুবাদের জন্য একটি বাতিল হওয়া উদ্যোগ
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 প্রকল্প PIRI ছিল [সুংহিউন চো](./sunghyun-cho)-এর একটি উদ্যোগ, যার লক্ষ্য ছিল

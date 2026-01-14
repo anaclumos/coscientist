@@ -1,6 +1,9 @@
 ---
 title: 图谱作为崩溃防御
 description: 辩证图谱结构如何防止知识塌缩
+sourceLocale: en
+sourceHash: 8bf10f956aa0
+translatedAt: 2026-01-14
 ---
 
 "图谱作为崩溃防御"解释了[辩证图谱](./dialectical-graph)如何专门防止[百科全书式崩溃](./encyclopedia-meltdown)。该图谱的结构——带类型的关系、显式的[溯源](./provenance)以及分离的层级——逐一应对驱动塌缩的各个反馈回路。

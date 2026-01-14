@@ -1,6 +1,9 @@
 ---
 title: 메멕스
 description: 버니바 부시가 제안한 개인 지식 기계
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 메멕스는 [버니바 부시](./vannevar-bush)가 제안한, 기록을 저장하고 연상적으로

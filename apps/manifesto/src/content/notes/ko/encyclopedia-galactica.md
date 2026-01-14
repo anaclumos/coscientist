@@ -1,6 +1,9 @@
 ---
 title: 은하대백과
 description: 암흑기를 가로질러 지식을 보존하기 위한 구상
+sourceLocale: en
+sourceHash: 94e03a945895
+translatedAt: 2026-01-14
 ---
 
 은하대백과은 [아이작 아시모프](./isaac-asimov)의 _파운데이션_ 시리즈에 등장하는

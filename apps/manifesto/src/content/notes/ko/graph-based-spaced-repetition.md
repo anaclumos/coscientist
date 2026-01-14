@@ -1,6 +1,9 @@
 ---
 title: 그래프 기반 간격 반복
 description: 주장 나이 또는 반박 나이를 사용해 재검증을 트리거하기
+sourceLocale: en
+sourceHash: 1c4655730a74
+translatedAt: 2026-01-14
 ---
 
 그래프 기반 간격 반복은 지식 유지에 [간격 반복](./spaced-repetition) 원리를

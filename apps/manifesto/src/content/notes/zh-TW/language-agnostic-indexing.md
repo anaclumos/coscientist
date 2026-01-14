@@ -1,6 +1,9 @@
 ---
 title: 語言無關索引
 description: 一種超越特定語言的概念性索引
+sourceLocale: en
+sourceHash: 929e0cf81522
+translatedAt: 2026-01-14
 ---
 
 語言無關索引是指以「概念」而非表達概念的「詞語」來組織知識的做法。這種索引能跨越不同的

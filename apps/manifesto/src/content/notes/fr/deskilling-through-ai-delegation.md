@@ -3,6 +3,9 @@ title: Déqualification par délégation à l’IA
 description:
   Risque de perte de capacité d’apprentissage lorsque l’IA fait le travail
   cognitif
+sourceLocale: en
+sourceHash: 4403bb1f64b0
+translatedAt: 2026-01-14
 ---
 
 La déqualification par délégation à l’IA correspond au risque que le fait de

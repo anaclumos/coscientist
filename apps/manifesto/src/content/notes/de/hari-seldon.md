@@ -2,6 +2,9 @@
 title: Hari Seldon
 description: Fiktiver Mathematiker, der in Asimovs Foundation die Psychohistorik
   entwickelte
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 Hari Seldon ist der fiktive Mathematiker in der Foundation-Reihe von

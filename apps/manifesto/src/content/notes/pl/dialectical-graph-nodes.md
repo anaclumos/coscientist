@@ -1,6 +1,9 @@
 ---
 title: Węzły grafu dialektycznego
 description: Typy węzłów w dialektycznym grafie wiedzy
+sourceLocale: en
+sourceHash: b451261d8474
+translatedAt: 2026-01-14
 ---
 
 W [Grafie dialektycznym](./dialectical-graph) węzły reprezentują obiekty

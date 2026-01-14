@@ -1,6 +1,9 @@
 ---
 title: Minimum Çelişki Kümesi
 description: Bir çatışma üreten en küçük öncül ve ilişki kümesi
+sourceLocale: en
+sourceHash: 31a0e5277e2e
+translatedAt: 2026-01-14
 ---
 
 Minimum çelişki kümesi, birlikte bir çatışma üreten en küçük öncül, iddia ve

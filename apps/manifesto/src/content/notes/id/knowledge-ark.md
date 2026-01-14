@@ -3,6 +3,9 @@ title: Bahtera Pengetahuan
 description:
   Sebuah repositori yang dirancang untuk melestarikan pengetahuan melewati masa
   keruntuhan
+sourceLocale: en
+sourceHash: ea7f63231c0e
+translatedAt: 2026-01-14
 ---
 
 Bahtera pengetahuan adalah sebuah repositori yang dirancang untuk melestarikan

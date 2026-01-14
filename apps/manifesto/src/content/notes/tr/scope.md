@@ -1,6 +1,9 @@
 ---
 title: Kapsam
 description: Bir iddianın uygulanabilirlik koşulları
+sourceLocale: en
+sourceHash: ae026ed7fceb
+translatedAt: 2026-01-14
 ---
 
 Kapsam, bir [iddianın](./claim) nerede ve ne zaman uygulanmasının amaçlandığını

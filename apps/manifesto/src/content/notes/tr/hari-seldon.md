@@ -1,6 +1,9 @@
 ---
 title: Hari Seldon
 description: Asimov’un Vakıf serisinde psikotarihi yaratan kurgusal matematikçi
+sourceLocale: en
+sourceHash: ec3a6969b644
+translatedAt: 2026-01-14
 ---
 
 Hari Seldon, [Isaac Asimov](./isaac-asimov)’un _Vakıf_ serisinde

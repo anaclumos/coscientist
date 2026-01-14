@@ -3,6 +3,9 @@ title: Interleaving
 description:
   Themen oder Aufgabentypen während des Übens mischen, um den Transfer zu
   verbessern
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 Interleaving bedeutet, beim Üben verschiedene Aufgabentypen oder Themen

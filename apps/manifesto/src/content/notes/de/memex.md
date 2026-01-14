@@ -1,6 +1,9 @@
 ---
 title: Memex
 description: Vannevar Bushs vorgeschlagene persönliche Wissensmaschine
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 Der Memex ist das von [Vannevar Bush](./vannevar-bush) vorgeschlagene

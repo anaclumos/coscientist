@@ -1,6 +1,9 @@
 ---
 title: Trampa de la fluidez
 description: Confundir una prosa de IA fluida con exactitud
+sourceLocale: en
+sourceHash: d8010bfe6bcb
+translatedAt: 2026-01-14
 ---
 
 La trampa de la fluidez es el sesgo cognitivo de tratar una prosa fluida, que

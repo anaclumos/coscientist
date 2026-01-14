@@ -1,6 +1,9 @@
 ---
 title: کاسیِنتیست
 description: یک سامانهٔ همراهِ فکری برای تولید دانش در عصر پسا-هوش مصنوعی
+sourceLocale: en
+sourceHash: 9ef4ae7abd93
+translatedAt: 2026-01-14
 ---
 
 کاسیِنتیست یک سرویس متن‌باز است که از

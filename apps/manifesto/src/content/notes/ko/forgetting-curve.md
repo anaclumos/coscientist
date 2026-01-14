@@ -1,6 +1,9 @@
 ---
 title: 망각 곡선
 description: 복습이 없을 때 기억이 예측 가능하게 감소하는 현상
+sourceLocale: en
+sourceHash: 7079d5035d2a
+translatedAt: 2026-01-14
 ---
 
 망각 곡선은 정보를 다시 접하지 않을 때 회상이 예측 가능하게 감소하는 양상을

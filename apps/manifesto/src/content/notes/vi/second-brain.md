@@ -1,6 +1,9 @@
 ---
 title: Bộ não thứ hai
 description: Một phương pháp quản lý tri thức cá nhân để "ngoại hóa" ý tưởng
+sourceLocale: en
+sourceHash: 9951e5a1fcbd
+translatedAt: 2026-01-14
 ---
 
 "Bộ não thứ hai" là một phương pháp quản lý tri thức cá nhân tập trung vào việc

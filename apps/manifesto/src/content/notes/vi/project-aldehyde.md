@@ -1,6 +1,9 @@
 ---
 title: Dự án Aldehyde
 description: Một nỗ lực ban đầu nhằm xây dựng một bộ não số cá nhân
+sourceLocale: en
+sourceHash: 0ef203b31143
+translatedAt: 2026-01-14
 ---
 
 Dự án Aldehyde là nỗ lực ban đầu của [Sunghyun Cho](./sunghyun-cho) nhằm xây

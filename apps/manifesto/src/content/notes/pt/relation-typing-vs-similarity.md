@@ -3,6 +3,9 @@ title: Tipagem de Relações vs Similaridade
 description:
   Por que arestas tipadas resolvem o que a recuperação baseada em similaridade
   não consegue
+sourceLocale: en
+sourceHash: ae787ed89f61
+translatedAt: 2026-01-14
 ---
 
 Tipagem de relações vs similaridade contrapõe duas abordagens para conectar

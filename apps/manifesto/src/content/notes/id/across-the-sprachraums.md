@@ -1,6 +1,9 @@
 ---
 title: Melintasi Sprachraums
 description: Visi untuk melampaui batas bahasa dalam sistem pengetahuan
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 "Across the Sprachraums" adalah visi [Sunghyun Cho](./sunghyun-cho) untuk sistem

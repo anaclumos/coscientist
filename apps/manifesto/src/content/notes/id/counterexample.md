@@ -1,6 +1,9 @@
 ---
 title: Kontra Contoh
 description: Kasus yang mematahkan atau mempersempit sebuah klaim
+sourceLocale: en
+sourceHash: 6a23b6dcab90
+translatedAt: 2026-01-14
 ---
 
 Kontra contoh adalah kasus yang melanggar prediksi dari sebuah [klaim](./claim),

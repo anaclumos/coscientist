@@ -3,6 +3,9 @@ title: Colapso da Enciclopédia
 description:
   Fenômeno de colapso do conhecimento quando a IA toma a iniciativa sem
   intervenção humana
+sourceLocale: en
+sourceHash: 9dd770ce12d3
+translatedAt: 2026-01-14
 ---
 
 Colapso da Enciclopédia é um modo de falha de colapso do conhecimento que começa

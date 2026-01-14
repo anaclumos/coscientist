@@ -3,6 +3,9 @@ title: Proyek PIRI
 description:
   Sebuah inisiatif yang dibatalkan untuk terjemahan tanpa batas atas dokumentasi
   pemrograman
+sourceLocale: en
+sourceHash: 2fc5d0482cdf
+translatedAt: 2026-01-14
 ---
 
 Proyek PIRI adalah inisiatif [Sunghyun Cho](./sunghyun-cho) untuk menyediakan

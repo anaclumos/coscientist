@@ -1,6 +1,9 @@
 ---
 title: Memex
 description: 范內瓦·布希提出的個人知識機器
+sourceLocale: en
+sourceHash: b65e392d851d
+translatedAt: 2026-01-14
 ---
 
 Memex 是 [范內瓦·布希](./vannevar-bush)

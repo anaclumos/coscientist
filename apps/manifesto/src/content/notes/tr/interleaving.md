@@ -3,6 +3,9 @@ title: İç İçe Geçirme
 description:
   Aktarımı geliştirmek için pratik sırasında konuları veya problem türlerini
   karıştırma
+sourceLocale: en
+sourceHash: 6a339507f89d
+translatedAt: 2026-01-14
 ---
 
 İç içe geçirme , aynı oturum içinde problem türlerini ya da konuları

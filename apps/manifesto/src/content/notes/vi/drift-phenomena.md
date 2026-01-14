@@ -1,6 +1,9 @@
 ---
 title: Hiện tượng trôi dạt
 description: Những thay đổi theo thời gian trong các hệ thống tri thức
+sourceLocale: en
+sourceHash: daea382efa66
+translatedAt: 2026-01-14
 ---
 
 Hiện tượng trôi dạt là những cách mà các hệ thống tri thức thay đổi theo thời

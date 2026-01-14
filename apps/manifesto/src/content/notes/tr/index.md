@@ -1,6 +1,9 @@
 ---
 title: "Token'lar ≠ Bilgi"
 description: Bilişsel Bir Dış İskelet İçin Kişisel Bir Arayış
+sourceLocale: en
+sourceHash: adfef3bcf465
+translatedAt: 2026-01-14
 ---
 
 Ben, [Sunghyun Cho](./sunghyun-cho), ansiklopedilere ve bilginin tek, otoriter

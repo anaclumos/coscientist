@@ -3,6 +3,9 @@ title: De la connaissance personnelle à la connaissance institutionnelle
 description:
   Faire passer les pratiques de connaissance personnelles à l’échelle des
   organisations
+sourceLocale: en
+sourceHash: 51b8e6ff117d
+translatedAt: 2026-01-14
 ---
 
 Le passage de la connaissance personnelle à la connaissance institutionnelle

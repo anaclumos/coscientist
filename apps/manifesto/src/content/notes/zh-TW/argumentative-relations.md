@@ -1,6 +1,9 @@
 ---
 title: 論證關係
 description: 依功能組織的辯證圖中的邊類型
+sourceLocale: en
+sourceHash: 45592ddcb1d1
+translatedAt: 2026-01-14
 ---
 
 論證關係是 [辯證圖](./dialectical-graph)

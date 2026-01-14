@@ -1,6 +1,9 @@
 ---
 title: 翻译中的细微差异流失
 description: 当观念跨越语言边界时消失的语义微妙之处
+sourceLocale: en
+sourceHash: aef048dd4f50
+translatedAt: 2026-01-14
 ---
 
 翻译中的细微差异流失（translation nuance

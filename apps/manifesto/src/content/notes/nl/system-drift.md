@@ -1,6 +1,9 @@
 ---
 title: Systeemdrift
 description: Aantasting van kennissystemen door zelfbesmetting of verwaarlozing
+sourceLocale: en
+sourceHash: 3596c6112d9f
+translatedAt: 2026-01-14
 ---
 
 Systeemdrift is de categorie van [driftfenomenen](./drift-phenomena) waarbij het

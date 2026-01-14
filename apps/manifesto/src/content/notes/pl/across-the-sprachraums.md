@@ -1,6 +1,9 @@
 ---
 title: Ponad Sprachraumami
 description: Wizja przekraczania granic językowych dla systemów wiedzy
+sourceLocale: en
+sourceHash: 3c87f8a3ed48
+translatedAt: 2026-01-14
 ---
 
 „Across the Sprachraums" to wizja [Sunghyuna Cho](./sunghyun-cho) dotycząca
