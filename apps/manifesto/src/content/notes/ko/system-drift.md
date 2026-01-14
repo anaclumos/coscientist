@@ -31,4 +31,4 @@ description: 자기 오염 또는 방치로 인한 지식 시스템의 열화
 - [드리프트 현상](./drift-phenomena) — 상위 범주
 - [의미 드리프트](./semantic-drift) — 의미가 변하는 경우
 - [환경 드리프트](./environmental-drift) — 세계가 변하는 경우
-- [제도적 뇌 부패](./institutional-brain-rot) — 조직적 유사 사례
+- [제도적 브레인롯](./institutional-brain-rot) — 조직적 유사 사례
