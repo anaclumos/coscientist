@@ -13,6 +13,8 @@ const links = [
 ]
 
 export function Footer() {
+  const currentYear = new Date().getFullYear()
+
   return (
     <footer className="pt-16">
       <div className="bg-neutral-950/2.5 py-16 text-neutral-950 dark:bg-white/5 dark:text-white">
@@ -44,7 +46,7 @@ export function Footer() {
           </nav>
           <div className="flex items-center justify-between gap-10 text-sm/7">
             <div className="text-neutral-600 dark:text-neutral-500">
-              © 2026 Coscientist
+              © {currentYear} Coscientist
             </div>
           </div>
         </Container>
