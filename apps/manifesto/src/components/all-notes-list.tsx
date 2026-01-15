@@ -46,11 +46,6 @@ export function AllNotesList({
     return () => registerPaneRef(index, null)
   }, [index, registerPaneRef])
 
-  const sortedNotes = useMemo(
-    () => [...notes].sort((a, b) => a.title.localeCompare(b.title)),
-    [notes]
-  )
-
   const stackIndexBySlug = useMemo(() => {
     const map = new Map<string, number>()
     for (let i = 0; i < currentStack.length; i += 1) {
@@ -152,7 +147,7 @@ export function AllNotesList({
           </div>
           <div className="px-8 py-6">
             <ul className="space-y-1">
-              {sortedNotes.map((note) => {
+              {notes.map((note) => {
                 const stackPosition = stackIndexBySlug.get(note.slug)
                 const isInStack = stackPosition !== undefined
                 return (

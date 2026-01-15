@@ -97,24 +97,29 @@ async function directoryExists(dirPath: string): Promise<boolean> {
   }
 }
 
-export async function getAllNoteSlugs(locale = "en"): Promise<string[]> {
+const getNotesDirectoryForLocale = cache(async (locale = "en") => {
   const notesDir = getNotesDirectory(locale)
   const legacyDir = getLegacyNotesDirectory()
+  return (await directoryExists(notesDir)) ? notesDir : legacyDir
+})
 
-  const dirToUse = (await directoryExists(notesDir)) ? notesDir : legacyDir
+export const getAllNoteSlugs = cache(
+  async (locale = "en"): Promise<string[]> => {
+    const dirToUse = await getNotesDirectoryForLocale(locale)
 
-  try {
-    const fileNames = await fs.readdir(dirToUse)
-    return fileNames
-      .filter((name) => name.endsWith(".md"))
-      .map((name) => name.replace(MD_EXTENSION_REGEX, ""))
-  } catch (error) {
-    if (isMissingFile(error)) {
-      return []
+    try {
+      const fileNames = await fs.readdir(dirToUse)
+      return fileNames
+        .filter((name) => name.endsWith(".md"))
+        .map((name) => name.replace(MD_EXTENSION_REGEX, ""))
+    } catch (error) {
+      if (isMissingFile(error)) {
+        return []
+      }
+      throw error
     }
-    throw error
   }
-}
+)
 
 function generateExcerpt(content: string, maxLength = 300): string {
   const withoutTitle = content.replace(TITLE_LINE_REGEX, "")
@@ -132,57 +137,53 @@ function generateExcerpt(content: string, maxLength = 300): string {
   return `${lastSpace > 0 ? truncated.slice(0, lastSpace) : truncated}...`
 }
 
-export async function getNoteBySlug(
-  slug: string,
-  locale = "en"
-): Promise<Note | null> {
-  const notesDir = getNotesDirectory(locale)
-  const legacyDir = getLegacyNotesDirectory()
+export const getNoteBySlug = cache(
+  async (slug: string, locale = "en"): Promise<Note | null> => {
+    const dirToUse = await getNotesDirectoryForLocale(locale)
+    const fullPath = path.join(dirToUse, `${slug}.md`)
 
-  const dirToUse = (await directoryExists(notesDir)) ? notesDir : legacyDir
-  const fullPath = path.join(dirToUse, `${slug}.md`)
-
-  let fileContents: string
-  try {
-    fileContents = await fs.readFile(fullPath, "utf8")
-  } catch (error) {
-    if (isMissingFile(error)) {
-      return null
+    let fileContents: string
+    try {
+      fileContents = await fs.readFile(fullPath, "utf8")
+    } catch (error) {
+      if (isMissingFile(error)) {
+        return null
+      }
+      throw error
     }
-    throw error
+    const { data, content } = matter(fileContents)
+
+    const processedContent = await remark()
+      .use(gfm)
+      .use(html, { sanitize: false })
+      .process(content)
+
+    const contentHtml = processedContent.toString()
+    const outboundLinks = extractOutboundLinks(content)
+    const excerpt = generateExcerpt(content)
+
+    return {
+      slug,
+      title: data.title || slug,
+      description: data.description,
+      createdAt: data.createdAt,
+      updatedAt: data.updatedAt,
+      content,
+      contentHtml,
+      excerpt,
+      outboundLinks,
+      inboundLinks: [],
+    }
   }
-  const { data, content } = matter(fileContents)
+)
 
-  const processedContent = await remark()
-    .use(gfm)
-    .use(html, { sanitize: false })
-    .process(content)
-
-  const contentHtml = processedContent.toString()
-  const outboundLinks = extractOutboundLinks(content)
-  const excerpt = generateExcerpt(content)
-
-  return {
-    slug,
-    title: data.title || slug,
-    description: data.description,
-    createdAt: data.createdAt,
-    updatedAt: data.updatedAt,
-    content,
-    contentHtml,
-    excerpt,
-    outboundLinks,
-    inboundLinks: [],
-  }
-}
-
-export async function getAllNotes(locale = "en"): Promise<Note[]> {
+export const getAllNotes = cache(async (locale = "en"): Promise<Note[]> => {
   const slugs = await getAllNoteSlugs(locale)
   const notes = await Promise.all(
     slugs.map((slug) => getNoteBySlug(slug, locale))
   )
   return notes.filter((note): note is Note => note !== null)
-}
+})
 
 export const buildNoteGraph = cache(
   async (

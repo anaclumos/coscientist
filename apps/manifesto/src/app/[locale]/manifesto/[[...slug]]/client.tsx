@@ -1,7 +1,7 @@
 "use client"
 
 import { AnimatePresence, LayoutGroup } from "motion/react"
-import { Suspense, useCallback, useMemo, useRef, useState } from "react"
+import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react"
 import { AllNotesList } from "@/components/all-notes-list"
 import { useKeyboardNavigation } from "@/components/keyboard-navigation"
 import { NotePane } from "@/components/note-pane"
@@ -24,18 +24,14 @@ function NotesContent({
 }: NotesPageClientProps) {
   const { stack, focusIndex, pushNote, popNote, focusPane, setStack } =
     useNoteStack(rootSlug)
-  const [keyboardFocusIndex, setKeyboardFocusIndex] = useState(() =>
-    Math.max(0, initialPanesData.length - 1)
-  )
-  const [prevLength, setPrevLength] = useState(initialPanesData.length)
+  const [keyboardFocusIndex, setKeyboardFocusIndex] = useState(() => focusIndex)
   const scrollToPaneRef = useRef<((index: number) => void) | null>(null)
 
-  if (prevLength !== initialPanesData.length) {
-    setPrevLength(initialPanesData.length)
-    if (initialPanesData.length > 0) {
-      setKeyboardFocusIndex(initialPanesData.length - 1)
-    }
-  }
+  useEffect(() => {
+    const maxIndex = Math.max(0, initialPanesData.length - 1)
+    const nextIndex = Math.min(Math.max(0, focusIndex), maxIndex)
+    setKeyboardFocusIndex((prev) => (prev === nextIndex ? prev : nextIndex))
+  }, [focusIndex, initialPanesData.length])
 
   const handleScrollToPane = useCallback((index: number) => {
     scrollToPaneRef.current?.(index)

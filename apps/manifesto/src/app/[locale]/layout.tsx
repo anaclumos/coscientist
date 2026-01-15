@@ -19,7 +19,7 @@ import "@fontsource/iosevka/600.css"
 import "../globals.css"
 import { LanguageSwitcher } from "@/components/language-switcher"
 import { Logo } from "@/components/logo"
-import { MagneticCursor } from "@/components/magnetic-cursor"
+import { MagneticCursorLazy } from "@/components/magnetic-cursor-lazy"
 import { ThemeProvider } from "@/components/theme-provider"
 import { ThemeToggle } from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
@@ -110,9 +110,11 @@ export default async function LocaleLayout({ children, params }: Props) {
   }
 
   setRequestLocale(locale)
-  const messages = await getMessages()
   const direction = getDirection(locale as Locale)
-  const t = await getTranslations("header")
+  const [messages, t] = await Promise.all([
+    getMessages(),
+    getTranslations("header"),
+  ])
 
   return (
     <html className="h-full" dir={direction} lang={locale}>
@@ -121,7 +123,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider defaultTheme="system" storageKey="manifesto-theme">
-            <MagneticCursor />
+            <MagneticCursorLazy />
             <header className="sticky top-0 z-50 flex h-16 flex-shrink-0 items-center justify-between border-border border-b bg-card px-6">
               <Link
                 className="flex items-center gap-3 transition-opacity hover:opacity-80"

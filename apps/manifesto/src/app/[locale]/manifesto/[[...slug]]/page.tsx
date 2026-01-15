@@ -72,9 +72,12 @@ export default async function Page({ params, searchParams }: PageProps) {
     notFound()
   }
 
-  setRequestLocale(resolvedParams.locale)
+  const locale = resolvedParams.locale
+  setRequestLocale(locale)
 
   const rootSlug = resolvedParams.slug?.[0] ?? "index"
+
+  const noteGraphPromise = buildNoteGraph(locale)
 
   const urlSearchParams = new URLSearchParams()
   for (const [key, value] of Object.entries(resolvedSearchParams)) {
@@ -93,7 +96,7 @@ export default async function Page({ params, searchParams }: PageProps) {
     notes,
     backlinks,
   }: { notes: Map<string, Note>; backlinks: Map<string, BacklinkInfo[]> } =
-    await buildNoteGraph(resolvedParams.locale)
+    await noteGraphPromise
   const rootNote = notes.get(rootSlug)
   if (!rootNote) {
     notFound()
@@ -121,6 +124,7 @@ export default async function Page({ params, searchParams }: PageProps) {
       description: note.description,
     })
   )
+  noteSummaries.sort((a, b) => a.title.localeCompare(b.title, locale))
 
   return (
     <NotesPageClient
@@ -132,7 +136,7 @@ export default async function Page({ params, searchParams }: PageProps) {
 }
 
 export async function generateStaticParams() {
-  const slugs = await getAllNoteSlugs()
+  const slugs = await getAllNoteSlugs(routing.defaultLocale)
 
   const params: Array<{ locale: string; slug: string[] | undefined }> = []
   for (const locale of routing.locales) {
