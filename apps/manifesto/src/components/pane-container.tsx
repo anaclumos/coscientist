@@ -41,7 +41,6 @@ interface PaneContainerProps {
   scrollToPaneRef?: React.MutableRefObject<((index: number) => void) | null>
   mobileData?: {
     panes: NotePaneData[]
-    backlinksMap: Map<string, NotePaneData["backlinks"]>
     onLinkClick: (slug: string, fromIndex: number) => void
     onClose: (index: number) => void
   }
@@ -240,7 +239,6 @@ export function PaneContainer({
   if (isMobile && mobileData) {
     return (
       <MobilePaneCarousel
-        backlinksMap={mobileData.backlinksMap}
         focusIndex={focusIndex}
         onClose={mobileData.onClose}
         onLinkClick={mobileData.onLinkClick}

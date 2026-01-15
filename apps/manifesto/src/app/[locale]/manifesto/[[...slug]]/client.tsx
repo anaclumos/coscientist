@@ -95,13 +95,8 @@ function NotesContent({
   )
 
   const mobileData = useMemo(() => {
-    const backlinksMap = new Map<string, NotePaneData["backlinks"]>()
-    for (const pane of initialPanesData) {
-      backlinksMap.set(pane.slug, pane.backlinks)
-    }
     return {
       panes: initialPanesData,
-      backlinksMap,
       onLinkClick: handleLinkClick,
       onClose: handleClosePane,
     }
