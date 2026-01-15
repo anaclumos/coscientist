@@ -17,7 +17,7 @@ export function Footer() {
 
   return (
     <footer className="pt-16">
-      <div className="bg-neutral-950/[2.5] py-16 text-neutral-950 dark:bg-white/5 dark:text-white">
+      <div className="bg-neutral-950/[0.025] py-16 text-neutral-950 dark:bg-white/5 dark:text-white">
         <Container className="flex flex-col gap-16">
           <nav>
             <ul className="flex flex-wrap gap-x-8 gap-y-2">
