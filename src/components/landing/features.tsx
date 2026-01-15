@@ -1,6 +1,7 @@
 "use client"
 
-import { motion } from "motion/react"
+import { motion, useInView } from "motion/react"
+import { useRef } from "react"
 
 import { springSubtle } from "@/lib/animations"
 import { Container, Eyebrow, Subheading } from "./primitives"
@@ -12,12 +13,16 @@ interface FeatureProps {
 }
 
 function Feature({ title, description, index }: FeatureProps) {
+  const ref = useRef(null)
+  const isInView = useInView(ref, { once: true, amount: 0.3 })
+
   return (
     <motion.div
-      animate={{ opacity: 1, y: 0 }}
+      animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
       className="flex flex-col gap-2 overflow-hidden border border-black/[0.06] bg-white p-6 shadow-black/[0.04] shadow-lg [border-radius:32px] dark:border-white/[0.06] dark:bg-black dark:shadow-black/[0.08]"
       initial={{ opacity: 0, y: 20 }}
-      transition={{ ...springSubtle, delay: 0.1 + index * 0.1 }}
+      ref={ref}
+      transition={{ ...springSubtle, delay: 0.2 + index * 0.1 }}
     >
       <h3 className="font-semibold text-foreground">{title}</h3>
       <p className="text-muted-foreground text-sm/7">{description}</p>
@@ -44,18 +49,28 @@ const features = [
 ]
 
 export function Features() {
+  const sectionRef = useRef(null)
+  const isInView = useInView(sectionRef, { once: true, amount: 0.2 })
+
   return (
-    <section className="py-16">
+    <section className="py-16" ref={sectionRef}>
       <Container className="flex flex-col gap-10 sm:gap-16">
-        <motion.div
-          animate={{ opacity: 1, y: 0 }}
-          className="flex max-w-2xl flex-col gap-2"
-          initial={{ opacity: 0, y: 20 }}
-          transition={springSubtle}
-        >
-          <Eyebrow>Core Architecture</Eyebrow>
-          <Subheading>Built different from the ground up</Subheading>
-        </motion.div>
+        <div className="flex max-w-2xl flex-col gap-2">
+          <motion.div
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 20 }}
+            transition={{ ...springSubtle, delay: 0 }}
+          >
+            <Eyebrow>Core Architecture</Eyebrow>
+          </motion.div>
+          <motion.div
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 20 }}
+            transition={{ ...springSubtle, delay: 0.1 }}
+          >
+            <Subheading>Built different from the ground up</Subheading>
+          </motion.div>
+        </div>
 
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {features.map((feature, index) => (
