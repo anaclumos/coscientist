@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "కోసైంటిస్ట్ మానిఫెస్టో",
-    "description": "టోకెన్లు ≠ జ్ఞానం"
+    "title": "Coscientist: టోకెన్లు ≠ జ్ఞానం",
+    "description": "పరిశోధన కోసం అభిజ్ఞా మౌలిక సదుపాయాలు."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} నోట్లు దీనికి లింక్ అవుతాయి"
   },
   "theme": {
-    "toggle": "థీమ్‌ను మార్చండి"
+    "toggle": "థీమ్‌ను మార్చండి",
+    "light": "లైట్",
+    "dark": "డార్క్",
+    "system": "సిస్టమ్"
   },
   "navigation": {
     "previous": "మునుపటి",

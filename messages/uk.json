@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Маніфест Coscientist",
-    "description": "Токени ≠ знання"
+    "title": "Coscientist: Токени ≠ знання",
+    "description": "Когнітивна інфраструктура для досліджень."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} нотаток посилаються на це"
   },
   "theme": {
-    "toggle": "Перемкнути тему"
+    "toggle": "Перемкнути тему",
+    "light": "Світла",
+    "dark": "Темна",
+    "system": "Системна"
   },
   "navigation": {
     "previous": "Попередня",

@@ -1,6 +1,7 @@
 "use client"
 
 import { motion, useInView } from "motion/react"
+import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 import { useRef } from "react"
 
 import { springSubtle } from "@/lib/animations"
@@ -37,7 +38,7 @@ function PipelineStep({
       </div>
       {!isLast && (
         <div className="hidden items-center px-2 text-muted-foreground sm:flex">
-          <span className="text-lg">→</span>
+          <IconChevronRightOutline18 className="size-4" />
         </div>
       )}
     </motion.div>

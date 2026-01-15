@@ -2,6 +2,7 @@
 
 import { motion, useInView } from "motion/react"
 import Link from "next/link"
+import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 import { useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { springSubtle } from "@/lib/animations"
@@ -35,7 +36,8 @@ export function CTA() {
           transition={{ ...springSubtle, delay: 0.1 }}
         >
           <Button render={<Link href="/manifesto" />} size="lg">
-            Read the Manifesto →
+            Read the Manifesto{" "}
+            <IconChevronRightOutline18 className="ml-1 size-4" />
           </Button>
           <a
             className="no-underline"
@@ -44,7 +46,7 @@ export function CTA() {
             target="_blank"
           >
             <Button size="lg" variant="outline">
-              GitHub →
+              GitHub <IconChevronRightOutline18 className="ml-1 size-4" />
             </Button>
           </a>
         </motion.div>
