@@ -1,13 +1,7 @@
-import { env } from "@coscientist/web/env"
 import posthog from "posthog-js"
+import { env } from "./env"
 
 posthog.init(env.NEXT_PUBLIC_POSTHOG_KEY, {
-  api_host: "/ingest",
-  ui_host: "https://us.posthog.com",
+  api_host: env.NEXT_PUBLIC_POSTHOG_HOST,
   defaults: "2025-11-30",
-  loaded: (posthog) => {
-    if (process.env.NODE_ENV === "development") {
-      posthog.debug()
-    }
-  },
 })
