@@ -16,10 +16,11 @@ export function Hero() {
       <Container>
         <div className="relative mx-auto w-full max-w-[1400px] overflow-hidden border border-black/10 border-t-0 bg-white [border-bottom-left-radius:32px] [border-bottom-right-radius:32px] dark:border-white/10 dark:bg-black max-md:[border-bottom-left-radius:24px] max-md:[border-bottom-right-radius:24px]">
           {/* Background Image */}
-          <div className="absolute inset-0 top-[-20px]">
+          <div className="pointer-events-none absolute inset-0 top-[-20px] select-none">
             <Image
               alt=""
               className="hidden h-full w-full object-cover blur-[4px] dark:block"
+              draggable={false}
               height={743 * 2}
               priority
               src="/images/hero/hero-background@dark.png"
@@ -28,6 +29,7 @@ export function Hero() {
             <Image
               alt=""
               className="block h-full w-full object-cover blur-[2px] dark:hidden"
+              draggable={false}
               height={743 * 2}
               priority
               src="/images/hero/hero-background@light.png"
@@ -39,6 +41,7 @@ export function Hero() {
           <div className="relative z-10 flex flex-col items-center gap-[29px] px-8 pt-[48px] pb-12 text-center sm:px-16 lg:px-24">
             <motion.div
               animate={{ y: [0, -12, 0] }}
+              className="pointer-events-none select-none"
               transition={{
                 duration: 3,
                 repeat: Number.POSITIVE_INFINITY,
@@ -48,6 +51,7 @@ export function Hero() {
               <Image
                 alt=""
                 className="h-[198px] w-[272px] object-contain"
+                draggable={false}
                 height={248 * 3}
                 quality={100}
                 src="/images/hero/hero-book.png"
