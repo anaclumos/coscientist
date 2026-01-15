@@ -29,7 +29,10 @@
     "plural": "이 노트로 연결된 링크 {count}개"
   },
   "theme": {
-    "toggle": "테마 전환"
+    "toggle": "테마 전환",
+    "light": "라이트",
+    "dark": "다크",
+    "system": "시스템"
   },
   "navigation": {
     "previous": "이전",

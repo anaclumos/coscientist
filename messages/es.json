@@ -29,7 +29,10 @@
     "plural": "{count} notas enlazan a esto"
   },
   "theme": {
-    "toggle": "Cambiar tema"
+    "toggle": "Cambiar tema",
+    "light": "Claro",
+    "dark": "Oscuro",
+    "system": "Sistema"
   },
   "navigation": {
     "previous": "Anterior",

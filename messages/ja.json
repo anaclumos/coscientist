@@ -29,7 +29,10 @@
     "plural": "{count}件のノートがこれにリンクしています"
   },
   "theme": {
-    "toggle": "テーマを切り替え"
+    "toggle": "テーマを切り替え",
+    "light": "ライト",
+    "dark": "ダーク",
+    "system": "システム"
   },
   "navigation": {
     "previous": "前へ",

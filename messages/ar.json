@@ -29,7 +29,10 @@
     "plural": "{count} ملاحظات تشير إلى هذا"
   },
   "theme": {
-    "toggle": "تبديل المظهر"
+    "toggle": "تبديل المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام"
   },
   "navigation": {
     "previous": "السابق",

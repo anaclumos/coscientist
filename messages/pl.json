@@ -29,7 +29,10 @@
     "plural": "{count} notatki prowadzą do tego"
   },
   "theme": {
-    "toggle": "Przełącz motyw"
+    "toggle": "Przełącz motyw",
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "system": "Systemowy"
   },
   "navigation": {
     "previous": "Poprzednia",

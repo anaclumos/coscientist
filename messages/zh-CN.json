@@ -29,7 +29,10 @@
     "plural": "有 {count} 条笔记链接到此处"
   },
   "theme": {
-    "toggle": "切换主题"
+    "toggle": "切换主题",
+    "light": "浅色",
+    "dark": "深色",
+    "system": "跟随系统"
   },
   "navigation": {
     "previous": "上一页",

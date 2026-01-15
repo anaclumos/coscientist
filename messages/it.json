@@ -29,7 +29,10 @@
     "plural": "{count} note rimandano a questa"
   },
   "theme": {
-    "toggle": "Cambia tema"
+    "toggle": "Cambia tema",
+    "light": "Chiaro",
+    "dark": "Scuro",
+    "system": "Sistema"
   },
   "navigation": {
     "previous": "Precedente",

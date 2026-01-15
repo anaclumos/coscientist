@@ -29,7 +29,10 @@
     "plural": "{count} not buna bağlantı veriyor"
   },
   "theme": {
-    "toggle": "Temayı değiştir"
+    "toggle": "Temayı değiştir",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem"
   },
   "navigation": {
     "previous": "Önceki",

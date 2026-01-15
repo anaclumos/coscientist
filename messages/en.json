@@ -29,7 +29,10 @@
     "plural": "{count} notes link to this"
   },
   "theme": {
-    "toggle": "Toggle theme"
+    "toggle": "Toggle theme",
+    "light": "Light",
+    "dark": "Dark",
+    "system": "System"
   },
   "navigation": {
     "previous": "Previous",

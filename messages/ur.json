@@ -29,7 +29,10 @@
     "plural": "{count} نوٹس اس سے لنک ہیں"
   },
   "theme": {
-    "toggle": "تھیم تبدیل کریں"
+    "toggle": "تھیم تبدیل کریں",
+    "light": "ہلکا",
+    "dark": "گہرا",
+    "system": "سسٹم"
   },
   "navigation": {
     "previous": "پچھلا",

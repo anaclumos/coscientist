@@ -29,7 +29,10 @@
     "plural": "{count} नोट्स इससे लिंक करते हैं"
   },
   "theme": {
-    "toggle": "थीम बदलें"
+    "toggle": "थीम बदलें",
+    "light": "लाइट",
+    "dark": "डार्क",
+    "system": "सिस्टम"
   },
   "navigation": {
     "previous": "पिछला",

@@ -29,7 +29,10 @@
     "plural": "{count} notities linken hiernaar"
   },
   "theme": {
-    "toggle": "Thema wisselen"
+    "toggle": "Thema wisselen",
+    "light": "Licht",
+    "dark": "Donker",
+    "system": "Systeem"
   },
   "navigation": {
     "previous": "Vorige",

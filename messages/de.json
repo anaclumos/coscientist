@@ -29,7 +29,10 @@
     "plural": "{count} Notizen verweisen darauf"
   },
   "theme": {
-    "toggle": "Theme umschalten"
+    "toggle": "Theme umschalten",
+    "light": "Hell",
+    "dark": "Dunkel",
+    "system": "System"
   },
   "navigation": {
     "previous": "Zurück",
