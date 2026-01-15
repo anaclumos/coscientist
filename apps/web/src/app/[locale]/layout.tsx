@@ -25,7 +25,11 @@ import { ThemeToggle } from "@coscientist/web/components/theme-toggle"
 import { Button } from "@coscientist/web/components/ui/button"
 import { Group, GroupSeparator } from "@coscientist/web/components/ui/group"
 import { Link } from "@coscientist/web/i18n/navigation"
-import { getDirection, type Locale, routing } from "@coscientist/web/i18n/routing"
+import {
+  getDirection,
+  type Locale,
+  routing,
+} from "@coscientist/web/i18n/routing"
 
 const facultyGlyphic = Faculty_Glyphic({
   variable: "--font-faculty-glyphic",

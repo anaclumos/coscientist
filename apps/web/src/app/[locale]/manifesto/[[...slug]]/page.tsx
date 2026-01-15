@@ -1,11 +1,20 @@
+import { routing } from "@coscientist/web/i18n/routing"
+import {
+  buildNoteGraph,
+  getAllNoteSlugs,
+  getNoteBySlug,
+} from "@coscientist/web/lib/notes"
+import { parseStackFromParams } from "@coscientist/web/lib/stack"
+import type {
+  BacklinkInfo,
+  Note,
+  NotePaneData,
+  NoteSummary,
+} from "@coscientist/web/lib/types"
 import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { hasLocale } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
-import { routing } from "@coscientist/web/i18n/routing"
-import { buildNoteGraph, getAllNoteSlugs, getNoteBySlug } from "@coscientist/web/lib/notes"
-import { parseStackFromParams } from "@coscientist/web/lib/stack"
-import type { BacklinkInfo, Note, NotePaneData, NoteSummary } from "@coscientist/web/lib/types"
 import { NotesPageClient } from "./client"
 
 interface PageProps {

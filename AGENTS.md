@@ -112,7 +112,7 @@ mcp_motion_generate-css-spring(duration=0.2, bounce=0.05)
 mcp_motion_visualise-spring(duration=0.2, bounce=0.05)
 ```
 
-### Spring Configurations (src/lib/animations.ts)
+### Spring Configurations (apps/web/src/lib/animations.ts)
 
 | Name           | Duration | Bounce | Use Case                         |
 | -------------- | -------- | ------ | -------------------------------- |
@@ -170,7 +170,7 @@ apps/web/src/
 
 #### Stack State Management
 
-- Root note from URL path: `/notes/coscientist`
+- Root note from URL path: `/manifesto/coscientist`
 - Additional panes from query: `?stack=dialectical-graph,active-recall`
 - Focus parameter: `?stack=a,b&focus=1` (optional, defaults to last)
 
@@ -289,7 +289,7 @@ bun run start        # Start production server
 
 ### Adding Notes
 
-Create `src/content/notes/en/your-slug.md`:
+Create `apps/web/src/content/notes/en/your-slug.md`:
 
 ```md
 ---
