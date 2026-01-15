@@ -213,10 +213,10 @@ const LOCALE_NAMES: Record<string, string> = {
 
 const ENGLISH_UI = {
   metadata: {
-    title: "Coscientist Manifesto",
-    description: "Tokens ≠ Knowledge",
+    title: "Coscientist: Tokens ≠ Knowledge",
+    description: "The cognitive infrastructure for research.",
   },
-  header: { title: "Coscientist Manifesto" },
+  header: { title: "Coscientist: Tokens ≠ Knowledge" },
   allNotes: { title: "All Notes", noteCount: "{count} notes" },
   notePane: {
     expand: "Expand pane",
