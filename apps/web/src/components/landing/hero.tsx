@@ -11,7 +11,7 @@ export function Hero() {
   return (
     <section className="pb-16">
       <Container>
-        <div className="relative mx-auto w-full max-w-[1400px] overflow-hidden rounded-b-3xl border border-white/10 border-t-0 bg-black">
+        <div className="relative mx-auto w-full max-w-[1400px] overflow-hidden border border-white/10 border-t-0 bg-black [border-bottom-left-radius:32px] [border-bottom-right-radius:32px] max-md:[border-bottom-left-radius:24px] max-md:[border-bottom-right-radius:24px]">
           {/* Background Image */}
           <div className="absolute inset-0 top-[-20px]">
             <Image
