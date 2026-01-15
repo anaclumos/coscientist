@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "پژوهش با\nسرعت اندیشه",
+      "subtitle": "آزمایش‌های نسخه‌بندی‌شده. دانش قابل بازتولید.",
+      "description": "زیرساخت شناختی برای پژوهش.",
+      "enterManifesto": "ورود به مانیفست →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "معماری هسته‌ای",
+      "heading": "از پایه متفاوت ساخته شده",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "گراف دیالکتیکی",
+        "description": "ادعاها و روابط، نه اسناد و لینک‌ها. هر گزاره به شواهد بازمی‌گردد."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "اول رد کردن",
+        "description": "اول به دنبال آنچه می‌شکند بگرد، نه آنچه تأیید می‌کند. دانشی که از چالش جان سالم به در می‌برد."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "چندزبانه",
+        "description": "مقالات کره‌ای. فرضیه‌های آلمانی. مجموعه‌داده‌های ژاپنی. یک گراف پژوهشی یکپارچه."
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "نحوهٔ کار",
+      "heading": "معماری مناظرهٔ چند عامله",
+      "description": "هوش مصنوعی چند عامله به صورت داخلی مناظره می‌کند. شما استدلال‌های پیروز را می‌بینید.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "پیشنهاد",
+        "critique": "نقد",
+        "rank": "رتبه‌بندی",
+        "refine": "پالایش"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "ساخته شده برای پژوهشگرانی که نتیجه می‌دهند",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "دانشمندانی که خطوط لولهٔ آزمایشی را اجرا می‌کنند",
+        "engineers": "مهندسانی که بر پایهٔ مقالات پیشرو می‌سازند",
+        "analysts": "تحلیل‌گرانی که ادبیات بین‌رشته‌ای را ترکیب می‌کنند",
+        "teams": "تیم‌هایی که به ردیابی دانش قابل بازتولید نیاز دارند"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "دانشنامهٔ کهکشانی داستان بود.\nما زیرساخت را می‌سازیم.",
+      "readManifesto": "خواندن مانیفست →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "مانیفست",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "ఆలోచన వేగంతో\nపరిశోధన",
+      "subtitle": "సంస్కరణ చేయబడిన ప్రయోగాలు. పునరుత్పత్తి చేయగల జ్ఞానం.",
+      "description": "పరిశోధన కోసం అభిజ్ఞా మౌలిక సదుపాయం.",
+      "enterManifesto": "మానిఫెస్టోలోకి ప్రవేశించండి →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "కోర్ ఆర్కిటెక్చర్",
+      "heading": "మొదటి నుండి భిన్నంగా నిర్మించబడింది",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "డయలెక్టికల్ గ్రాఫ్",
+        "description": "పత్రాలు మరియు లింక్‌లు కాదు, వాదనలు మరియు సంబంధాలు. ప్రతి ప్రకటన సాక్ష్యానికి తిరిగి వెళ్తుంది."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "ఖండన-మొదట",
+        "description": "మద్దతు ఇచ్చే దాని కంటే ముందు విచ్ఛిన్నం చేసే దాన్ని వెతకండి. సవాలులను తట్టుకునే జ్ఞానం."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "బహుభాషా",
+        "description": "కొరియన్ పేపర్లు. జర్మన్ పరికల్పనలు. జపనీస్ డేటాసెట్‌లు. ఒకే ఏకీకృత పరిశోధన గ్రాఫ్."
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "ఇది ఎలా పనిచేస్తుంది",
+      "heading": "బహుళ-ఏజెంట్ చర్చా ఆర్కిటెక్చర్",
+      "description": "బహుళ-ఏజెంట్ AI అంతర్గతంగా చర్చిస్తుంది. మీరు మిగిలిన వాదనలను చూస్తారు.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "ప్రతిపాదించు",
+        "critique": "విమర్శించు",
+        "rank": "ర్యాంక్ చేయి",
+        "refine": "మెరుగుపరచు"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "షిప్ చేసే పరిశోధకుల కోసం నిర్మించబడింది",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "ప్రయోగ పైప్‌లైన్‌లను నడిపే శాస్త్రవేత్తలు",
+        "engineers": "అత్యాధునిక పేపర్ల ఆధారంగా నిర్మించే ఇంజనీర్లు",
+        "analysts": "క్రాస్-డొమైన్ సాహిత్యాన్ని సంశ్లేషణ చేసే విశ్లేషకులు",
+        "teams": "పునరుత్పత్తి చేయగల జ్ఞాన మార్గాలు అవసరమైన బృందాలు"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "ఎన్‌సైక్లోపీడియా గెలాక్టికా కల్పన మాత్రమే.\nమేము మౌలిక సదుపాయాన్ని నిర్మిస్తున్నాము.",
+      "readManifesto": "మానిఫెస్టోను చదవండి →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "మానిఫెస్టో",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

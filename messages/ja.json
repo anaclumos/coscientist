@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "思考の速度で\n研究を",
+      "subtitle": "バージョン管理された実験。再現可能な知識。",
+      "description": "研究のための認知インフラ。",
+      "enterManifesto": "マニフェストを読む →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "コアアーキテクチャ",
+      "heading": "ゼロから根本的に異なる設計",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "弁証法的グラフ",
+        "description": "ドキュメントとリンクではなく、主張と関係。すべての発言はエビデンスに遡れる。"
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "反論ファースト",
+        "description": "支持するものより先に、破綻するものを探す。挑戦に耐え抜いた知識。"
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "多言語対応",
+        "description": "韓国語の論文。ドイツ語の仮説。日本語のデータセット。統一された研究グラフ。"
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "仕組み",
+      "heading": "マルチエージェント議論アーキテクチャ",
+      "description": "マルチエージェントAIが内部で議論。あなたには生き残った論点だけが見える。",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "提案",
+        "critique": "批評",
+        "rank": "順位付け",
+        "refine": "洗練"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "成果を出す研究者のために",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "実験パイプラインを運用する科学者",
+        "engineers": "最先端の論文を基に構築するエンジニア",
+        "analysts": "分野横断的な文献を統合するアナリスト",
+        "teams": "再現可能な知識の軌跡を必要とするチーム"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "銀河百科事典はフィクションだった。\n私たちはそのインフラを構築している。",
+      "readManifesto": "マニフェストを読む →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "マニフェスト",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

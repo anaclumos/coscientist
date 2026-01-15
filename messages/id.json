@@ -58,51 +58,51 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "Riset dengan\nKecepatan Pikiran",
+      "subtitle": "Eksperimen berversi. Pengetahuan yang dapat direproduksi.",
+      "description": "Infrastruktur kognitif untuk riset.",
+      "enterManifesto": "Masuk Manifesto →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "Arsitektur Inti",
+      "heading": "Dibangun berbeda dari awal",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "Graf Dialektis",
+        "description": "Klaim dan relasi, bukan dokumen dan tautan. Setiap pernyataan dapat dilacak kembali ke bukti."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "Bantahan-Pertama",
+        "description": "Cari yang membantah sebelum yang mendukung. Pengetahuan yang bertahan dari tantangan."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "Multibahasa",
+        "description": "Makalah Korea. Hipotesis Jerman. Dataset Jepang. Satu graf riset yang terpadu."
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "Cara kerjanya",
+      "heading": "Arsitektur debat multi-agen",
+      "description": "AI multi-agen berdebat secara internal. Anda melihat argumen yang bertahan.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "AJUKAN",
+        "critique": "KRITIK",
+        "rank": "PERINGKAT",
+        "refine": "PERBAIKI"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "Dibangun untuk peneliti yang menghasilkan",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "Ilmuwan yang menjalankan pipeline eksperimen",
+        "engineers": "Insinyur yang membangun berdasarkan makalah terkini",
+        "analysts": "Analis yang mensintesis literatur lintas domain",
+        "teams": "Tim yang membutuhkan jejak pengetahuan yang dapat direproduksi"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "Encyclopedia Galactica adalah fiksi.\nKami membangun infrastrukturnya.",
+      "readManifesto": "Baca Manifesto →",
       "github": "GitHub →"
     },
     "footer": {

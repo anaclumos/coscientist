@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "以思维的速度\n进行研究",
+      "subtitle": "版本化的实验。可复现的知识。",
+      "description": "研究的认知基础设施。",
+      "enterManifesto": "进入宣言 →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "核心架构",
+      "heading": "从根基开始，与众不同",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "辩证图谱",
+        "description": "主张与关系，而非文档与链接。每个陈述都可追溯至证据。"
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "反驳优先",
+        "description": "先寻找反驳，再寻找支持。经得起挑战的知识。"
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "多语言",
+        "description": "韩文论文。德文假说。日文数据集。统一的研究图谱。"
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "工作原理",
+      "heading": "多智能体辩论架构",
+      "description": "多个 AI 智能体内部辩论。你看到的是胜出的论点。",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "提出",
+        "critique": "批判",
+        "rank": "排序",
+        "refine": "精炼"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "为实干型研究者打造",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "运行实验流水线的科学家",
+        "engineers": "基于前沿论文构建的工程师",
+        "analysts": "综合跨领域文献的分析师",
+        "teams": "需要可复现知识路径的团队"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "《银河百科全书》曾是虚构。\n我们正在构建这一基础设施。",
+      "readManifesto": "阅读宣言 →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "宣言",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

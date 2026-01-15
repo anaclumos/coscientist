@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "विचार की गति से\nशोध",
+      "subtitle": "संस्करणित प्रयोग। पुनरुत्पादनीय ज्ञान।",
+      "description": "शोध के लिए संज्ञानात्मक अवसंरचना।",
+      "enterManifesto": "घोषणापत्र में प्रवेश करें →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "मूल आर्किटेक्चर",
+      "heading": "शुरू से अलग तरीके से बनाया गया",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "द्वंद्वात्मक ग्राफ",
+        "description": "दावे और संबंध, दस्तावेज़ और लिंक नहीं। हर कथन साक्ष्य तक पहुँचता है।"
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "खंडन-प्रथम",
+        "description": "पहले वह खोजें जो तोड़े, फिर जो समर्थन करे। वह ज्ञान जो चुनौती से बचे।"
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "बहुभाषी",
+        "description": "कोरियाई पेपर। जर्मन परिकल्पनाएँ। जापानी डेटासेट। एक एकीकृत शोध ग्राफ।"
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "यह कैसे काम करता है",
+      "heading": "मल्टी-एजेंट बहस आर्किटेक्चर",
+      "description": "मल्टी-एजेंट AI आंतरिक रूप से बहस करता है। आप बचे हुए तर्कों को देखते हैं।",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "प्रस्ताव",
+        "critique": "आलोचना",
+        "rank": "रैंक",
+        "refine": "परिष्कृत"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "उन शोधकर्ताओं के लिए बनाया गया जो परिणाम देते हैं",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "प्रयोग पाइपलाइन चलाने वाले वैज्ञानिक",
+        "engineers": "अत्याधुनिक पेपरों पर काम करने वाले इंजीनियर",
+        "analysts": "क्रॉस-डोमेन साहित्य का संश्लेषण करने वाले विश्लेषक",
+        "teams": "जिन टीमों को पुनरुत्पादनीय ज्ञान ट्रेल्स चाहिए"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "एनसाइक्लोपीडिया गैलेक्टिका कल्पना थी।\nहम अवसंरचना बना रहे हैं।",
+      "readManifesto": "घोषणापत्र पढ़ें →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "घोषणापत्र",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

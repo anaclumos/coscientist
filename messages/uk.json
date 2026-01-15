@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "Дослідження зі\nшвидкістю думки",
+      "subtitle": "Версійовані експерименти. Відтворювані знання.",
+      "description": "Когнітивна інфраструктура для досліджень.",
+      "enterManifesto": "Увійти до Маніфесту →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "Основна архітектура",
+      "heading": "Побудовано інакше з самого початку",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "Діалектичний граф",
+        "description": "Твердження та зв'язки, а не документи та посилання. Кожне висловлювання простежується до доказів."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "Спростування насамперед",
+        "description": "Шукай те, що ламає, перш ніж те, що підтримує. Знання, що витримують виклики."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "Багатомовність",
+        "description": "Корейські статті. Німецькі гіпотези. Японські набори даних. Єдиний уніфікований дослідницький граф."
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "Як це працює",
+      "heading": "Мульти-агентна архітектура дебатів",
+      "description": "Мульти-агентний ШІ веде внутрішні дебати. Ви бачите аргументи, що вижили.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "ПРОПОНУЙ",
+        "critique": "КРИТИКУЙ",
+        "rank": "ОЦІНЮЙ",
+        "refine": "ВДОСКОНАЛЮЙ"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "Створено для дослідників, які досягають результатів",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "Науковці, що керують експериментальними конвеєрами",
+        "engineers": "Інженери, що будують на передових публікаціях",
+        "analysts": "Аналітики, що синтезують міждисциплінарну літературу",
+        "teams": "Команди, яким потрібні відтворювані траси знань"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "Енциклопедія Галактика була вигадкою.\nМи будуємо інфраструктуру.",
+      "readManifesto": "Читати Маніфест →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "Маніфест",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "Nghiên cứu với\nTốc độ Tư duy",
+      "subtitle": "Thí nghiệm có phiên bản. Tri thức tái tạo được.",
+      "description": "Hạ tầng nhận thức cho nghiên cứu.",
+      "enterManifesto": "Vào Tuyên ngôn →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "Kiến trúc Cốt lõi",
+      "heading": "Được xây dựng khác biệt từ nền tảng",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "Đồ thị Biện chứng",
+        "description": "Mệnh đề và quan hệ, không phải tài liệu và liên kết. Mọi phát biểu đều truy ngược về bằng chứng."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "Phản biện Trước",
+        "description": "Tìm điều phá vỡ trước điều ủng hộ. Tri thức tồn tại qua thử thách."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "Đa ngôn ngữ",
+        "description": "Bài báo Hàn Quốc. Giả thuyết Đức. Bộ dữ liệu Nhật Bản. Một đồ thị nghiên cứu thống nhất."
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "Cách hoạt động",
+      "heading": "Kiến trúc tranh luận đa tác nhân",
+      "description": "AI đa tác nhân tranh luận nội bộ. Bạn thấy các luận điểm còn lại.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "ĐỀ XUẤT",
+        "critique": "PHÊ BÌNH",
+        "rank": "XẾP HẠNG",
+        "refine": "TINH CHỈNH"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "Được xây dựng cho nhà nghiên cứu thực chiến",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "Nhà khoa học vận hành quy trình thí nghiệm",
+        "engineers": "Kỹ sư xây dựng trên các bài báo tiên tiến",
+        "analysts": "Nhà phân tích tổng hợp tài liệu đa lĩnh vực",
+        "teams": "Đội nhóm cần dấu vết tri thức tái tạo được"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "Encyclopedia Galactica là hư cấu.\nChúng tôi đang xây dựng hạ tầng.",
+      "readManifesto": "Đọc Tuyên ngôn →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "Tuyên ngôn",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

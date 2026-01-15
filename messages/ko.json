@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "생각의 속도로\n연구하다",
+      "subtitle": "버전 관리되는 실험. 재현 가능한 지식.",
+      "description": "연구를 위한 인지 인프라.",
+      "enterManifesto": "선언문 입장 →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "핵심 아키텍처",
+      "heading": "근본부터 다르게 설계되다",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "변증법적 그래프",
+        "description": "문서와 링크가 아닌 주장과 관계. 모든 진술은 증거로 추적됩니다."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "반박 우선",
+        "description": "지지하는 것보다 깨뜨리는 것을 먼저 찾습니다. 도전을 견뎌낸 지식."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "다국어 지원",
+        "description": "한국어 논문. 독일어 가설. 일본어 데이터셋. 하나의 통합된 연구 그래프."
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "작동 방식",
+      "heading": "멀티 에이전트 토론 아키텍처",
+      "description": "여러 AI 에이전트가 내부에서 토론합니다. 살아남은 논증만 보게 됩니다.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "제안",
+        "critique": "비평",
+        "rank": "순위",
+        "refine": "정제"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "실행하는 연구자를 위해 만들다",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "실험 파이프라인을 운영하는 과학자",
+        "engineers": "최신 논문을 기반으로 구축하는 엔지니어",
+        "analysts": "교차 영역 문헌을 종합하는 분석가",
+        "teams": "재현 가능한 지식 추적이 필요한 팀"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "은하 백과사전은 허구였습니다.\n우리는 그 인프라를 구축하고 있습니다.",
+      "readManifesto": "선언문 읽기 →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "선언문",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

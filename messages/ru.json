@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "Исследования со\nскоростью мысли",
+      "subtitle": "Версионированные эксперименты. Воспроизводимые знания.",
+      "description": "Когнитивная инфраструктура для исследований.",
+      "enterManifesto": "Войти в манифест →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "Архитектура ядра",
+      "heading": "Построено иначе с самого начала",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "Диалектический граф",
+        "description": "Утверждения и связи, а не документы и ссылки. Каждое высказывание ведёт к доказательствам."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "Опровержение в первую очередь",
+        "description": "Сначала ищи, что опровергает, а не что подтверждает. Знание, выдержавшее проверку."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "Многоязычность",
+        "description": "Корейские статьи. Немецкие гипотезы. Японские данные. Единый исследовательский граф."
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "Как это работает",
+      "heading": "Архитектура мультиагентных дебатов",
+      "description": "Мультиагентный ИИ ведёт внутренние дебаты. Вы видите победившие аргументы.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "ПРЕДЛОЖИТЬ",
+        "critique": "КРИТИКОВАТЬ",
+        "rank": "РАНЖИРОВАТЬ",
+        "refine": "УТОЧНИТЬ"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "Создано для исследователей, которые выдают результат",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "Учёные, запускающие экспериментальные конвейеры",
+        "engineers": "Инженеры, работающие с передовыми статьями",
+        "analysts": "Аналитики, синтезирующие междисциплинарную литературу",
+        "teams": "Команды, которым нужны воспроизводимые следы знаний"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "Энциклопедия Галактика была вымыслом.\nМы строим инфраструктуру.",
+      "readManifesto": "Читать манифест →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "Манифест",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

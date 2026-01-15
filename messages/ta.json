@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "சிந்தனையின் வேகத்தில்\nஆராய்ச்சி",
+      "subtitle": "பதிப்பிடப்பட்ட சோதனைகள். மீளுருவாக்கத்தக்க அறிவு.",
+      "description": "ஆராய்ச்சிக்கான அறிவாற்றல் உள்கட்டமைப்பு.",
+      "enterManifesto": "அறிக்கையுள் நுழைக →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "மைய கட்டமைப்பு",
+      "heading": "அடிப்படையிலிருந்தே வேறுபட்ட முறையில் கட்டப்பட்டது",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "இயங்கியல் வரைபடம்",
+        "description": "ஆவணங்களும் இணைப்புகளும் அல்ல, கூற்றுகளும் உறவுகளும். ஒவ்வொரு கூற்றும் ஆதாரத்திற்குத் திரும்பிச் செல்கிறது."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "மறுப்பு-முதலில்",
+        "description": "ஆதரிப்பதற்கு முன் உடைப்பதைத் தேடு. சவாலைத் தாண்டி நிலைத்திருக்கும் அறிவு."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "பன்மொழி",
+        "description": "கொரிய ஆய்வுக்கட்டுரைகள். ஜெர்மன் கருதுகோள்கள். ஜப்பானிய தரவுத்தொகுப்புகள். ஒரே ஒருங்கிணைந்த ஆராய்ச்சி வரைபடம்."
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "இது எப்படி செயல்படுகிறது",
+      "heading": "பல-முகவர் விவாத கட்டமைப்பு",
+      "description": "பல-முகவர் AI உள்ளே விவாதிக்கிறது. நீங்கள் உயிர்த்திருக்கும் வாதங்களைப் பார்க்கிறீர்கள்.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "முன்மொழி",
+        "critique": "விமர்சனம்",
+        "rank": "தரவரிசை",
+        "refine": "செம்மைப்படுத்து"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "வெளியிடும் ஆராய்ச்சியாளர்களுக்காக கட்டப்பட்டது",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "சோதனை அமைப்புகளை இயக்கும் விஞ்ஞானிகள்",
+        "engineers": "நவீன ஆய்வுக்கட்டுரைகளின் அடிப்படையில் கட்டும் பொறியாளர்கள்",
+        "analysts": "துறை-குறுக்கு இலக்கியத்தை ஒருங்கிணைக்கும் பகுப்பாய்வாளர்கள்",
+        "teams": "மீளுருவாக்கத்தக்க அறிவுப் பாதைகள் தேவைப்படும் குழுக்கள்"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "என்சைக்ளோபீடியா கலாக்டிகா கற்பனையாக இருந்தது.\nநாங்கள் உள்கட்டமைப்பைக் கட்டுகிறோம்.",
+      "readManifesto": "அறிக்கையைப் படிக்க →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "அறிக்கை",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }

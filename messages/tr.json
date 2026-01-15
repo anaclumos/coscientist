@@ -58,51 +58,51 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "Düşünce Hızında\nAraştırma",
+      "subtitle": "Sürümlü deneyler. Yeniden üretilebilir bilgi.",
+      "description": "Araştırma için bilişsel altyapı.",
+      "enterManifesto": "Manifesto'ya Gir →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "Temel Mimari",
+      "heading": "Temelden farklı inşa edildi",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "Diyalektik Graf",
+        "description": "Belgeler ve bağlantılar değil, iddialar ve ilişkiler. Her ifade kanıta kadar izlenebilir."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "Önce Çürütme",
+        "description": "Destekleyenden önce kıranı ara. Zorluğa dayanan bilgi."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "Çok Dilli",
+        "description": "Korece makaleler. Almanca hipotezler. Japonca veri setleri. Tek birleşik araştırma grafı."
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "Nasıl Çalışır",
+      "heading": "Çok ajanlı tartışma mimarisi",
+      "description": "Çok ajanlı yapay zeka dahili olarak tartışır. Siz ayakta kalan argümanları görürsünüz.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "ÖNER",
+        "critique": "ELEŞTİR",
+        "rank": "SIRALA",
+        "refine": "İYİLEŞTİR"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "Üreten araştırmacılar için inşa edildi",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "Deney hatları yürüten bilim insanları",
+        "engineers": "Son teknoloji makaleler üzerine inşa eden mühendisler",
+        "analysts": "Çapraz alan literatürünü sentezleyen analistler",
+        "teams": "Yeniden üretilebilir bilgi izlerine ihtiyaç duyan ekipler"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "Galaktik Ansiklopedi kurguydu.\nBiz altyapıyı inşa ediyoruz.",
+      "readManifesto": "Manifesto'yu Oku →",
       "github": "GitHub →"
     },
     "footer": {

@@ -58,55 +58,55 @@
   },
   "landing": {
     "hero": {
-      "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto →",
+      "title": "วิจัยด้วยความเร็ว\nแห่งความคิด",
+      "subtitle": "การทดลองที่มีเวอร์ชัน ความรู้ที่ทำซ้ำได้",
+      "description": "โครงสร้างพื้นฐานทางปัญญาสำหรับการวิจัย",
+      "enterManifesto": "เข้าสู่แถลงการณ์ →",
       "github": "GitHub →"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "eyebrow": "สถาปัตยกรรมหลัก",
+      "heading": "สร้างต่างตั้งแต่รากฐาน",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "กราฟวิภาษ",
+        "description": "ข้อกล่าวอ้างและความสัมพันธ์ ไม่ใช่เอกสารและลิงก์ ทุกข้อความสืบย้อนกลับไปหาหลักฐาน"
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "หักล้างก่อน",
+        "description": "ค้นหาสิ่งที่ทำลายก่อนสิ่งที่สนับสนุน ความรู้ที่รอดจากการท้าทาย"
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "หลายภาษา",
+        "description": "เอกสารเกาหลี สมมติฐานเยอรมัน ชุดข้อมูลญี่ปุ่น กราฟวิจัยเดียวที่รวมเป็นหนึ่ง"
       }
     },
     "pipeline": {
-      "eyebrow": "How it works",
-      "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "eyebrow": "วิธีการทำงาน",
+      "heading": "สถาปัตยกรรมการถกเถียงหลายตัวแทน",
+      "description": "AI หลายตัวแทนถกเถียงภายใน คุณเห็นข้อโต้แย้งที่รอด",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "เสนอ",
+        "critique": "วิจารณ์",
+        "rank": "จัดอันดับ",
+        "refine": "ปรับปรุง"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "สร้างสำหรับนักวิจัยที่ลงมือทำ",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "scientists": "นักวิทยาศาสตร์ที่รันไปป์ไลน์การทดลอง",
+        "engineers": "วิศวกรที่สร้างต่อยอดจากเอกสารล่าสุด",
+        "analysts": "นักวิเคราะห์ที่สังเคราะห์วรรณกรรมข้ามสาขา",
+        "teams": "ทีมที่ต้องการเส้นทางความรู้ที่ทำซ้ำได้"
       }
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto →",
+      "heading": "Encyclopedia Galactica เป็นเพียงนิยาย\nเรากำลังสร้างโครงสร้างพื้นฐาน",
+      "readManifesto": "อ่านแถลงการณ์ →",
       "github": "GitHub →"
     },
     "footer": {
-      "manifesto": "Manifesto",
+      "manifesto": "แถลงการณ์",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"
     }
