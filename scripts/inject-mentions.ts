@@ -255,7 +255,7 @@ async function processResults(
 }
 
 async function injectMentions(mode: "apply" | "dry-run" = "dry-run") {
-  const notesDir = path.join(PROJECT_ROOT, "src/content/notes/en")
+  const notesDir = path.join(PROJECT_ROOT, "src/content/manifesto/en")
 
   const bySource = await loadSuggestions()
 

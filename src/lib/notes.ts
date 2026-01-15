@@ -12,11 +12,11 @@ const MD_EXTENSION_REGEX = /\.md$/
 const TITLE_LINE_REGEX = /^#\s+.+\n+/
 
 function getNotesDirectory(locale = "en") {
-  return path.join(process.cwd(), `src/content/notes/${locale}`)
+  return path.join(process.cwd(), `src/content/manifesto/${locale}`)
 }
 
 function getLegacyNotesDirectory() {
-  return path.join(process.cwd(), "src/content/notes")
+  return path.join(process.cwd(), "src/content/manifesto")
 }
 
 function isMissingFile(error: unknown): boolean {

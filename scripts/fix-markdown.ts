@@ -7,7 +7,7 @@ const openai = new OpenAI()
 
 const SCRIPT_DIR = import.meta.dirname
 const PROJECT_ROOT = path.resolve(SCRIPT_DIR, "..")
-const NOTES_DIR = path.join(PROJECT_ROOT, "src/content/notes")
+const NOTES_DIR = path.join(PROJECT_ROOT, "src/content/manifesto")
 
 const CONCURRENCY_LIMIT = 16
 const MAX_RETRIES = 3

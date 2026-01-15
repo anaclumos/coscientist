@@ -77,7 +77,7 @@ function extractExistingLinks(content: string): string[] {
 async function generateEmbeddings() {
   const SCRIPT_DIR = import.meta.dirname
   const PROJECT_ROOT = path.resolve(SCRIPT_DIR, "..")
-  const notesDir = path.join(PROJECT_ROOT, "src/content/notes/en")
+  const notesDir = path.join(PROJECT_ROOT, "src/content/manifesto/en")
   const outputPath = path.join(PROJECT_ROOT, "src/data/embeddings.json")
 
   const files = (await fs.readdir(notesDir)).filter((f) => f.endsWith(".md"))

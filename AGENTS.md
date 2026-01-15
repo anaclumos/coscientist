@@ -147,7 +147,7 @@ export const paneContentVariants = {
 ### Directory Structure
 
 ```
-apps/web/src/
+src/
 ├── app/
 │   ├── globals.css          # Tokens, prose layer
 │   ├── [locale]/layout.tsx  # Root layout, fonts
@@ -170,7 +170,7 @@ apps/web/src/
 
 #### Stack State Management
 
-- Root note from URL path: `/notes/coscientist`
+- Root note from URL path: `/manifesto/coscientist`
 - Additional panes from query: `?stack=dialectical-graph,active-recall`
 - Focus parameter: `?stack=a,b&focus=1` (optional, defaults to last)
 
@@ -289,7 +289,7 @@ bun run start        # Start production server
 
 ### Adding Notes
 
-Create `src/content/notes/en/your-slug.md`:
+Create `src/content/manifesto/en/your-slug.md`:
 
 ```md
 ---

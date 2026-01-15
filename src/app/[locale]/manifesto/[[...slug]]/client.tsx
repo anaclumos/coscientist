@@ -1,7 +1,14 @@
 "use client"
 
 import { AnimatePresence, LayoutGroup } from "motion/react"
-import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react"
+import {
+  Suspense,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react"
 import { AllNotesList } from "@/components/all-notes-list"
 import { useKeyboardNavigation } from "@/components/keyboard-navigation"
 import { NotePane } from "@/components/note-pane"

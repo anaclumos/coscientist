@@ -386,7 +386,7 @@ async function translateUI(locales: string[]) {
 }
 
 async function translateMarkdown(locales: string[]) {
-  const notesDir = path.join(PROJECT_ROOT, "src/content/notes")
+  const notesDir = path.join(PROJECT_ROOT, "src/content/manifesto")
   const enDir = path.join(notesDir, "en")
 
   const files = await fs.readdir(enDir)
@@ -489,7 +489,7 @@ async function translateMarkdown(locales: string[]) {
 }
 
 async function backfillProvenance(locales: string[]) {
-  const notesDir = path.join(PROJECT_ROOT, "src/content/notes")
+  const notesDir = path.join(PROJECT_ROOT, "src/content/manifesto")
   const enDir = path.join(notesDir, "en")
 
   const files = await fs.readdir(enDir)

@@ -187,7 +187,7 @@ export function NotePane({
             <footer className="border-border/40 border-t px-8 py-4">
               <a
                 className="text-muted-foreground text-sm transition-colors hover:text-foreground"
-                href={`https://github.com/coscientist/coscientist/edit/main/apps/web/src/content/notes/${locale}/${slug}.md`}
+                href={`https://github.com/coscientist/coscientist/edit/main/src/content/manifesto/${locale}/${slug}.md`}
                 rel="noopener noreferrer"
                 target="_blank"
               >

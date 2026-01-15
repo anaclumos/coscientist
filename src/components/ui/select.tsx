@@ -7,7 +7,6 @@ import {
   IconChevronExpandYOutline18,
   IconChevronUpOutline18,
 } from "nucleo-ui-outline-18"
-
 import { cn } from "@/lib/utils"
 
 const Select = SelectPrimitive.Root

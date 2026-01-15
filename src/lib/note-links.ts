@@ -1,6 +1,6 @@
 const PROTOCOL_REGEX = /^[a-z][a-z0-9+.-]*:/i
 const LEADING_SLASH_REGEX = /^(\.\/|\/)+/
-const NOTES_PREFIX_REGEX = /^notes\//
+const MANIFESTO_PREFIX_REGEX = /^manifesto\//
 const MD_EXTENSION_REGEX = /\.md$/
 const TRAILING_SLASH_REGEX = /\/$/
 
@@ -16,7 +16,7 @@ export function normalizeNoteSlug(href: string): string {
 
   const withoutHash = trimmed.split("#")[0]?.split("?")[0] ?? ""
   const withoutLeading = withoutHash.replace(LEADING_SLASH_REGEX, "")
-  const withoutPrefix = withoutLeading.replace(NOTES_PREFIX_REGEX, "")
+  const withoutPrefix = withoutLeading.replace(MANIFESTO_PREFIX_REGEX, "")
   const withoutExtension = withoutPrefix.replace(MD_EXTENSION_REGEX, "")
   return withoutExtension.replace(TRAILING_SLASH_REGEX, "")
 }
@@ -24,7 +24,7 @@ export function normalizeNoteSlug(href: string): string {
 export function buildNoteHref(slug: string): string {
   const normalized = normalizeNoteSlug(slug)
   if (normalized === "index") {
-    return "/"
+    return "/manifesto"
   }
-  return `/${normalized}`
+  return `/manifesto/${normalized}`
 }
