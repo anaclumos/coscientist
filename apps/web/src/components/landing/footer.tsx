@@ -6,10 +6,10 @@ const links = [
   { label: "Manifesto", href: "/manifesto" },
   {
     label: "GitHub",
-    href: "https://github.com/junhoyeo/coscientist",
+    href: "https://github.com/coscientist/coscientist",
     external: true,
   },
-  { label: "X", href: "https://x.com/junhoyeo", external: true },
+  { label: "X", href: "https://x.com/anaclumos", external: true },
 ]
 
 export function Footer() {

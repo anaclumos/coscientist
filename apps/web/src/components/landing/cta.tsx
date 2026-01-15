@@ -35,7 +35,7 @@ export function CTA() {
           </Button>
           <a
             className="no-underline"
-            href="https://github.com/junhoyeo/coscientist"
+            href="https://github.com/coscientist/coscientist"
             rel="noopener noreferrer"
             target="_blank"
           >
