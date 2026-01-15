@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Manifesto Coscientist",
-    "description": "Token ≠ Pengetahuan"
+    "title": "Coscientist: Token ≠ Pengetahuan",
+    "description": "Infrastruktur kognitif untuk penelitian."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} catatan menautkan ke ini"
   },
   "theme": {
-    "toggle": "Ganti tema"
+    "toggle": "Ganti tema",
+    "light": "Terang",
+    "dark": "Gelap",
+    "system": "Sistem"
   },
   "navigation": {
     "previous": "Sebelumnya",

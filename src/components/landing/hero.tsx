@@ -3,6 +3,7 @@
 import { motion } from "motion/react"
 import Image from "next/image"
 import Link from "next/link"
+import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 import { Button } from "@/components/ui/button"
 import { springSubtle } from "@/lib/animations"
 import { Container } from "./primitives"
@@ -81,7 +82,8 @@ export function Hero() {
               transition={{ ...springSubtle, delay: 0.1 }}
             >
               <Button render={<Link href="/manifesto" />} size="lg">
-                Enter Manifesto →
+                Enter Manifesto{" "}
+                <IconChevronRightOutline18 className="ml-1 size-4" />
               </Button>
               <Button
                 render={
@@ -90,7 +92,7 @@ export function Hero() {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    GitHub →
+                    GitHub <IconChevronRightOutline18 className="ml-1 size-4" />
                   </a>
                 }
                 size="lg"

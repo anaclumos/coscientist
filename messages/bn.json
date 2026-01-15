@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "কো-সায়েন্টিস্ট ঘোষণা",
-    "description": "টোকেন ≠ জ্ঞান"
+    "title": "Coscientist: টোকেন ≠ জ্ঞান",
+    "description": "গবেষণার জন্য জ্ঞানীয় অবকাঠামো।"
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count}টি নোট এতে লিঙ্ক করে"
   },
   "theme": {
-    "toggle": "থিম টগল করুন"
+    "toggle": "থিম টগল করুন",
+    "light": "হালকা",
+    "dark": "অন্ধকার",
+    "system": "সিস্টেম"
   },
   "navigation": {
     "previous": "আগের",

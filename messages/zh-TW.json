@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "共科學家宣言",
-    "description": "Token ≠ 知識"
+    "title": "Coscientist: Token ≠ 知識",
+    "description": "研究的認知基礎設施。"
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} 則筆記連結至此"
   },
   "theme": {
-    "toggle": "切換主題"
+    "toggle": "切換主題",
+    "light": "淺色",
+    "dark": "深色",
+    "system": "跟隨系統"
   },
   "navigation": {
     "previous": "上一頁",

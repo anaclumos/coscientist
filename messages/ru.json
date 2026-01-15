@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Манифест косайентиста",
-    "description": "Токены ≠ знание"
+    "title": "Coscientist: Токены ≠ знание",
+    "description": "Когнитивная инфраструктура для исследований."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} заметок ссылаются на это"
   },
   "theme": {
-    "toggle": "Переключить тему"
+    "toggle": "Переключить тему",
+    "light": "Светлая",
+    "dark": "Тёмная",
+    "system": "Системная"
   },
   "navigation": {
     "previous": "Назад",

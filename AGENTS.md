@@ -215,6 +215,14 @@ src/
 - NEVER use glow effects as primary affordances
 - SHOULD use existing theme tokens before new colors
 
+### Icons
+
+- NEVER use unicode characters for icons (→, ←, ✓, ×, •, etc.)
+- MUST use Nucleo Icons from `nucleo-ui-outline-18` package
+- Import pattern: `import { IconNameOutline18 } from "nucleo-ui-outline-18"`
+- Usage: `<IconArrowRightOutline18 className="size-4" />`
+- Common icons: `IconArrowRightOutline18`, `IconXmarkOutline18`, `IconCheckOutline18`
+
 ## Dark Mode Effects
 
 ```tsx
