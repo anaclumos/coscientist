@@ -1,11 +1,5 @@
 import type { Metadata } from "next"
-import {
-  Faculty_Glyphic,
-  Noto_Serif_JP,
-  Noto_Serif_KR,
-  Noto_Serif_SC,
-  Noto_Serif_TC,
-} from "next/font/google"
+import { Faculty_Glyphic } from "next/font/google"
 import { notFound } from "next/navigation"
 import { hasLocale, NextIntlClientProvider } from "next-intl"
 import {
@@ -16,6 +10,10 @@ import {
 import "@fontsource/iosevka/400.css"
 import "@fontsource/iosevka/500.css"
 import "@fontsource/iosevka/600.css"
+import "@fontsource-variable/noto-serif-jp"
+import "@fontsource-variable/noto-serif-kr"
+import "@fontsource-variable/noto-serif-sc"
+import "@fontsource-variable/noto-serif-tc"
 import "../globals.css"
 import { HeaderLogo } from "@/components/header-logo"
 import { LanguageSwitcher } from "@/components/language-switcher"
@@ -25,35 +23,12 @@ import { ThemeToggle } from "@/components/theme-toggle"
 import { Button } from "@/components/ui/button"
 import { Group, GroupSeparator } from "@/components/ui/group"
 import { getDirection, type Locale, routing } from "@/i18n/routing"
+import { cn } from "@/lib/utils"
 
 const facultyGlyphic = Faculty_Glyphic({
   variable: "--font-faculty-glyphic",
   subsets: ["latin"],
   weight: "400",
-})
-
-const notoSerifKR = Noto_Serif_KR({
-  variable: "--font-noto-serif-kr",
-  subsets: ["latin"],
-  weight: ["400", "700"],
-})
-
-const notoSerifJP = Noto_Serif_JP({
-  variable: "--font-noto-serif-jp",
-  subsets: ["latin"],
-  weight: ["500", "700"],
-})
-
-const notoSerifSC = Noto_Serif_SC({
-  variable: "--font-noto-serif-sc",
-  subsets: ["latin"],
-  weight: ["500", "700"],
-})
-
-const notoSerifTC = Noto_Serif_TC({
-  variable: "--font-noto-serif-tc",
-  subsets: ["latin"],
-  weight: ["500", "700"],
 })
 
 interface Props {
@@ -130,7 +105,10 @@ export default async function LocaleLayout({ children, params }: Props) {
         />
       </head>
       <body
-        className={`${facultyGlyphic.variable} ${notoSerifKR.variable} ${notoSerifJP.variable} ${notoSerifSC.variable} ${notoSerifTC.variable} flex h-full flex-col font-sans antialiased`}
+        className={cn(
+          facultyGlyphic.variable,
+          "flex h-full flex-col font-sans antialiased"
+        )}
       >
         <NextIntlClientProvider messages={messages}>
           <ThemeProvider defaultTheme="system" storageKey="manifesto-theme">

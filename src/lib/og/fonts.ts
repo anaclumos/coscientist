@@ -143,7 +143,7 @@ function getScriptForLocale(locale: string): Script {
   return LOCALE_SCRIPT_MAP[locale] || "latin"
 }
 
-export function getFacultyGlyphic(): Promise<ArrayBuffer> {
+function getFacultyGlyphic(): Promise<ArrayBuffer> {
   return getCachedFont(SCRIPT_FONT_MAP.latin)
 }
 

@@ -30,32 +30,6 @@ export const springQuick: Transition = {
 }
 
 /**
- * Standard easing for opacity fades.
- * Follows AGENTS.md: ease-out on entrance.
- */
-export const easeOut: Transition = {
-  duration: 0.2,
-  ease: [0.33, 1, 0.68, 1], // ease-out cubic
-}
-
-/**
- * Reduced motion transition - instant changes.
- */
-export const reducedMotion: Transition = {
-  duration: 0,
-}
-
-/**
- * Get transition based on reduced motion preference.
- */
-export function getTransition(
-  prefersReducedMotion: boolean,
-  transition: Transition = springSubtle
-): Transition {
-  return prefersReducedMotion ? reducedMotion : transition
-}
-
-/**
  * Pane enter/exit animation variants.
  * Animates opacity and translateX (compositor-only properties).
  */

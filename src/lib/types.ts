@@ -1,4 +1,4 @@
-export interface NoteMeta {
+interface NoteMeta {
   slug: string
   title: string
   description?: string
@@ -18,11 +18,6 @@ export interface BacklinkInfo {
   slug: string
   title: string
   excerpt?: string
-}
-
-export interface NoteGraph {
-  notes: Map<string, Note>
-  backlinks: Map<string, BacklinkInfo[]>
 }
 
 export interface NoteSummary {

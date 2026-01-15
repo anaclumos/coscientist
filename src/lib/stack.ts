@@ -1,4 +1,4 @@
-export interface StackState {
+interface StackState {
   stack: string[]
   focusIndex: number
 }
@@ -31,7 +31,7 @@ export function parseStackFromParams(
   }
 }
 
-export function serializeStackToParams(stack: string[]): string {
+function serializeStackToParams(stack: string[]): string {
   if (stack.length <= 1) {
     return ""
   }
@@ -78,12 +78,4 @@ export function popFromStack(currentStack: string[]): string[] {
     return currentStack
   }
   return currentStack.slice(0, -1)
-}
-
-export function isInStack(stack: string[], slug: string): boolean {
-  return stack.includes(slug)
-}
-
-export function getStackIndex(stack: string[], slug: string): number {
-  return stack.indexOf(slug)
 }

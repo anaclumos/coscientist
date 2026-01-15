@@ -1,4 +1,3 @@
-import "server-only"
 import fs from "node:fs/promises"
 import path from "node:path"
 import matter from "gray-matter"
@@ -177,7 +176,7 @@ export const getNoteBySlug = cache(
   }
 )
 
-export const getAllNotes = cache(async (locale = "en"): Promise<Note[]> => {
+const getAllNotes = cache(async (locale = "en"): Promise<Note[]> => {
   const slugs = await getAllNoteSlugs(locale)
   const notes = await Promise.all(
     slugs.map((slug) => getNoteBySlug(slug, locale))
@@ -223,10 +222,3 @@ export const buildNoteGraph = cache(
     return { notes, backlinks }
   }
 )
-
-export function getNotesBySlugs(
-  slugs: string[],
-  locale = "en"
-): Promise<(Note | null)[]> {
-  return Promise.all(slugs.map((slug) => getNoteBySlug(slug, locale)))
-}
