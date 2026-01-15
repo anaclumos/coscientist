@@ -1,8 +1,6 @@
-"use client"
-
 import { NextIntlClientProvider } from "next-intl"
-import { ThemeProvider as NextThemesProvider } from "next-themes"
 import type { ReactNode } from "react"
+import { ThemeProviderClient } from "./theme-provider-client"
 
 interface ProvidersProps {
   children: ReactNode
@@ -19,15 +17,9 @@ export function Providers({
 }: ProvidersProps) {
   return (
     <NextIntlClientProvider messages={messages}>
-      <NextThemesProvider
-        attribute="class"
-        defaultTheme="system"
-        disableTransitionOnChange
-        enableSystem
-        storageKey={storageKey}
-      >
+      <ThemeProviderClient storageKey={storageKey}>
         {children}
-      </NextThemesProvider>
+      </ThemeProviderClient>
     </NextIntlClientProvider>
   )
 }
