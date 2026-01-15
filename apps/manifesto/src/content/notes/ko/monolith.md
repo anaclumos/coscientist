@@ -1,6 +1,6 @@
 ---
 title: 모노리스
-description: 큐브릭의 2001: A Space Odyssey에서 얻은 디자인 영감
+description: "큐브릭의 2001: A Space Odyssey에서 얻은 디자인 영감"
 sourceLocale: en
 sourceHash: aef77e879a9f
 translatedAt: 2026-01-14
