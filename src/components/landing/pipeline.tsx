@@ -1,7 +1,8 @@
 "use client"
 
-import { motion } from "motion/react"
+import { motion, useInView } from "motion/react"
 import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
+import { useRef } from "react"
 
 import { springSubtle } from "@/lib/animations"
 import { Container, Eyebrow, Subheading, Text } from "./primitives"
@@ -17,12 +18,16 @@ function PipelineStep({
   index: number
   isLast: boolean
 }) {
+  const ref = useRef(null)
+  const isInView = useInView(ref, { amount: 0.3 })
+
   return (
     <motion.div
-      animate={{ opacity: 1, x: 0 }}
+      animate={isInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -20 }}
       className="flex items-center"
       initial={{ opacity: 0, x: -20 }}
-      transition={{ ...springSubtle, delay: 0.2 + index * 0.1 }}
+      ref={ref}
+      transition={{ ...springSubtle, delay: 0.3 + index * 0.1 }}
     >
       <div className="flex flex-col items-center gap-2">
         <div className="flex h-12 w-24 items-center justify-center rounded-lg border border-border bg-muted/50">
@@ -41,23 +46,40 @@ function PipelineStep({
 }
 
 export function Pipeline() {
+  const sectionRef = useRef(null)
+  const isInView = useInView(sectionRef, { amount: 0.2 })
+
   return (
-    <section className="py-16">
+    <section className="py-16" ref={sectionRef}>
       <Container className="flex flex-col gap-10 sm:gap-16">
-        <motion.div
-          animate={{ opacity: 1, y: 0 }}
-          className="flex max-w-2xl flex-col gap-6"
-          initial={{ opacity: 0, y: 20 }}
-          transition={springSubtle}
-        >
+        <div className="flex max-w-2xl flex-col gap-6">
           <div className="flex flex-col gap-2">
-            <Eyebrow>How it works</Eyebrow>
-            <Subheading>Multi-agent debate architecture</Subheading>
+            <motion.div
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 20 }}
+              transition={{ ...springSubtle, delay: 0 }}
+            >
+              <Eyebrow>How it works</Eyebrow>
+            </motion.div>
+            <motion.div
+              animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+              initial={{ opacity: 0, y: 20 }}
+              transition={{ ...springSubtle, delay: 0.1 }}
+            >
+              <Subheading>Multi-agent debate architecture</Subheading>
+            </motion.div>
           </div>
-          <Text className="text-pretty">
-            Multi-agent AI debates internally. You see the surviving arguments.
-          </Text>
-        </motion.div>
+          <motion.div
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
+            initial={{ opacity: 0, y: 20 }}
+            transition={{ ...springSubtle, delay: 0.2 }}
+          >
+            <Text className="text-pretty">
+              Multi-agent AI debates internally. You see the surviving
+              arguments.
+            </Text>
+          </motion.div>
+        </div>
 
         <div className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-0">
           {steps.map((step, index) => (
