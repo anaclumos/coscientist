@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "مانیفست Coscientist",
-    "description": "توکن‌ها ≠ دانش"
+    "title": "Coscientist: توکن‌ها ≠ دانش",
+    "description": "زیرساخت شناختی برای پژوهش."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} یادداشت به این لینک دارند"
   },
   "theme": {
-    "toggle": "تغییر پوسته"
+    "toggle": "تغییر پوسته",
+    "light": "روشن",
+    "dark": "تاریک",
+    "system": "سیستم"
   },
   "navigation": {
     "previous": "قبلی",

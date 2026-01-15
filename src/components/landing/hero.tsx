@@ -4,6 +4,7 @@ import { motion } from "motion/react"
 import Image from "next/image"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
+import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 import { Button } from "@/components/ui/button"
 import { springSubtle } from "@/lib/animations"
 import { Container } from "./primitives"
@@ -64,7 +65,7 @@ export function Hero() {
                 {t("title")
                   .split("\n")
                   .map((line, index) => (
-                    <span key={line}>
+                    <span key={index}>
                       {line}
                       {index === 0 && <br />}
                     </span>
@@ -84,7 +85,8 @@ export function Hero() {
               transition={{ ...springSubtle, delay: 0.1 }}
             >
               <Button render={<Link href="/manifesto" />} size="lg">
-                {t("enterManifesto")}
+                {t("enterManifesto")}{" "}
+                <IconChevronRightOutline18 className="ml-1 size-4" />
               </Button>
               <Button
                 render={
@@ -93,7 +95,8 @@ export function Hero() {
                     rel="noopener noreferrer"
                     target="_blank"
                   >
-                    {t("github")}
+                    {t("github")}{" "}
+                    <IconChevronRightOutline18 className="ml-1 size-4" />
                   </a>
                 }
                 size="lg"

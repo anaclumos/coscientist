@@ -3,6 +3,7 @@
 import { motion } from "motion/react"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
+import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 import { Button } from "@/components/ui/button"
 import { springSubtle } from "@/lib/animations"
 import { Container, Subheading } from "./primitives"
@@ -24,7 +25,7 @@ export function CTA() {
               {t("heading")
                 .split("\n")
                 .map((line, index, arr) => (
-                  <span key={line}>
+                  <span key={index}>
                     {line}
                     {index < arr.length - 1 && <br />}
                   </span>
@@ -39,7 +40,8 @@ export function CTA() {
           transition={{ ...springSubtle, delay: 0.1 }}
         >
           <Button render={<Link href="/manifesto" />} size="lg">
-            {t("readManifesto")}
+            {t("readManifesto")}{" "}
+            <IconChevronRightOutline18 className="ml-1 size-4" />
           </Button>
           <a
             className="no-underline"
@@ -48,7 +50,8 @@ export function CTA() {
             target="_blank"
           >
             <Button size="lg" variant="outline">
-              {t("github")}
+              {t("github")}{" "}
+              <IconChevronRightOutline18 className="ml-1 size-4" />
             </Button>
           </a>
         </motion.div>

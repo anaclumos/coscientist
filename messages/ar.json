@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "بيان كوساينتست",
-    "description": "رموز ≠ المعرفة"
+    "title": "Coscientist: رموز ≠ المعرفة",
+    "description": "البنية التحتية المعرفية للبحث."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} ملاحظات تشير إلى هذا"
   },
   "theme": {
-    "toggle": "تبديل المظهر"
+    "toggle": "تبديل المظهر",
+    "light": "فاتح",
+    "dark": "داكن",
+    "system": "النظام"
   },
   "navigation": {
     "previous": "السابق",

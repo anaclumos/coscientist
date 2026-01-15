@@ -2,6 +2,7 @@
 
 import { motion } from "motion/react"
 import { useTranslations } from "next-intl"
+import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 
 import { springSubtle } from "@/lib/animations"
 import { Container, Eyebrow, Subheading, Text } from "./primitives"
@@ -31,7 +32,7 @@ function PipelineStep({
       </div>
       {!isLast && (
         <div className="hidden items-center px-2 text-muted-foreground sm:flex">
-          <span className="text-lg">→</span>
+          <IconChevronRightOutline18 className="size-4" />
         </div>
       )}
     </motion.div>

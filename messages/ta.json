@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "கோசையன்டிஸ்ட் அறிக்கை",
-    "description": "டோகன்கள் ≠ அறிவு"
+    "title": "Coscientist: டோகன்கள் ≠ அறிவு",
+    "description": "ஆராய்ச்சிக்கான அறிவாற்றல் உள்கட்டமைப்பு."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} குறிப்புகள் இதற்கு இணைக்கின்றன"
   },
   "theme": {
-    "toggle": "தீமைக் மாற்று"
+    "toggle": "தீமைக் மாற்று",
+    "light": "வெளிர்",
+    "dark": "இருண்ட",
+    "system": "கணினி"
   },
   "navigation": {
     "previous": "முந்தையது",

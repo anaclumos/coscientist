@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Manifest Coscientist",
-    "description": "Tokeny ≠ wiedza"
+    "title": "Coscientist: Tokeny ≠ wiedza",
+    "description": "Infrastruktura poznawcza dla badań naukowych."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} notatki prowadzą do tego"
   },
   "theme": {
-    "toggle": "Przełącz motyw"
+    "toggle": "Przełącz motyw",
+    "light": "Jasny",
+    "dark": "Ciemny",
+    "system": "Systemowy"
   },
   "navigation": {
     "previous": "Poprzednia",

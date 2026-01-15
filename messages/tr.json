@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Coscientist Manifestosu",
-    "description": "Token'lar ≠ Bilgi"
+    "title": "Coscientist: Token'lar ≠ Bilgi",
+    "description": "Araştırma için bilişsel altyapı."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} not buna bağlantı veriyor"
   },
   "theme": {
-    "toggle": "Temayı değiştir"
+    "toggle": "Temayı değiştir",
+    "light": "Açık",
+    "dark": "Koyu",
+    "system": "Sistem"
   },
   "navigation": {
     "previous": "Önceki",

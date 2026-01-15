@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "แถลงการณ์ Coscientist",
-    "description": "โทเคน ≠ ความรู้"
+    "title": "Coscientist: โทเคน ≠ ความรู้",
+    "description": "โครงสร้างพื้นฐานทางปัญญาสำหรับการวิจัย"
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "มี {count} โน้ตที่ลิงก์มาที่นี่"
   },
   "theme": {
-    "toggle": "สลับธีม"
+    "toggle": "สลับธีม",
+    "light": "สว่าง",
+    "dark": "มืด",
+    "system": "ระบบ"
   },
   "navigation": {
     "previous": "ก่อนหน้า",

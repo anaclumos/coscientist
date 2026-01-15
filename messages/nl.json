@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Coscientist Manifest",
-    "description": "Tokens ≠ kennis"
+    "title": "Coscientist: Tokens ≠ kennis",
+    "description": "De cognitieve infrastructuur voor onderzoek."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} notities linken hiernaar"
   },
   "theme": {
-    "toggle": "Thema wisselen"
+    "toggle": "Thema wisselen",
+    "light": "Licht",
+    "dark": "Donker",
+    "system": "Systeem"
   },
   "navigation": {
     "previous": "Vorige",

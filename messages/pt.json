@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Manifesto do Coscientista",
-    "description": "Tokens ≠ Conhecimento"
+    "title": "Coscientist: Tokens ≠ Conhecimento",
+    "description": "A infraestrutura cognitiva para pesquisa."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} notas têm link para isto"
   },
   "theme": {
-    "toggle": "Alternar tema"
+    "toggle": "Alternar tema",
+    "light": "Claro",
+    "dark": "Escuro",
+    "system": "Sistema"
   },
   "navigation": {
     "previous": "Anterior",

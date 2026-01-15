@@ -1,8 +1,7 @@
 "use client"
 
-import { usePathname } from "@/i18n/navigation"
 import { Logo } from "@/components/logo"
-import { Link } from "@/i18n/navigation"
+import { Link, usePathname } from "@/i18n/navigation"
 
 interface HeaderLogoProps {
   brand: string

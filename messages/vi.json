@@ -1,7 +1,7 @@
 {
   "metadata": {
-    "title": "Tuyên ngôn Coscientist",
-    "description": "Token ≠ Tri thức"
+    "title": "Coscientist: Token ≠ Tri thức",
+    "description": "Cơ sở hạ tầng nhận thức cho nghiên cứu."
   },
   "header": {
     "brand": "Coscientist",
@@ -29,7 +29,10 @@
     "plural": "{count} ghi chú liên kết đến đây"
   },
   "theme": {
-    "toggle": "Chuyển đổi giao diện"
+    "toggle": "Chuyển đổi giao diện",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
   },
   "navigation": {
     "previous": "Trước",
