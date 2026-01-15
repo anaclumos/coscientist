@@ -24,7 +24,7 @@ export function normalizeNoteSlug(href: string): string {
 export function buildNoteHref(slug: string): string {
   const normalized = normalizeNoteSlug(slug)
   if (normalized === "index") {
-    return "/manifesto"
+    return ""
   }
-  return `/manifesto/${normalized}`
+  return `/${normalized}`
 }
