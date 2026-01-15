@@ -1,22 +1,25 @@
 "use client"
 
-import { motion } from "motion/react"
+import { motion, useInView } from "motion/react"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
 import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
+import { useRef } from "react"
 import { Button } from "@/components/ui/button"
 import { springSubtle } from "@/lib/animations"
 import { Container, Subheading } from "./primitives"
 
 export function CTA() {
   const t = useTranslations("landing.cta")
+  const sectionRef = useRef(null)
+  const isInView = useInView(sectionRef, { amount: 0.2 })
 
   return (
-    <section className="py-16">
+    <section className="py-16" ref={sectionRef}>
       <Container className="flex flex-col gap-10">
         <div className="flex flex-col gap-6">
           <motion.div
-            animate={{ opacity: 1, y: 0 }}
+            animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
             className="flex max-w-4xl flex-col gap-2"
             initial={{ opacity: 0, y: 20 }}
             transition={springSubtle}
@@ -34,7 +37,7 @@ export function CTA() {
           </motion.div>
         </div>
         <motion.div
-          animate={{ opacity: 1, y: 0 }}
+          animate={isInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 20 }}
           className="flex items-center gap-4"
           initial={{ opacity: 0, y: 20 }}
           transition={{ ...springSubtle, delay: 0.1 }}
