@@ -3,7 +3,7 @@ title: Encyclopedia Meltdown
 description: "Knowledge-collapse phenomenon when AI takes initiative without human intervention"
 sourceLocale: en
 sourceHash: ""
-translatedAt: 
+translatedAt:
 ---
 
 Encyclopedia Meltdown is a knowledge-collapse failure mode that begins when the

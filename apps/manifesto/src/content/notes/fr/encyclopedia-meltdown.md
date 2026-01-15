@@ -11,7 +11,7 @@ connaissances qui commence lorsque l’initiative et le contrôle de l’écritu
 basculent vers l’IA sans l’intervention consciente de l’[Opérateur](./operator).
 Le terme vient d’un essai de [Sunghyun Cho](./sunghyun-cho).
 
-L’effondrement émerge généralement de trois boucles couplées : 
+L’effondrement émerge généralement de trois boucles couplées :
 
 1. **Génération → citation** : les sorties du modèle sont réingérées dans le
    corpus puis citées plus tard comme si elles étaient des faits externes.

@@ -1,6 +1,7 @@
 ---
 title: Wissensverfassung
-description: "Die epistemische Protokollschicht als Regelwerk dafür, wie Behauptungen
+description:
+  "Die epistemische Protokollschicht als Regelwerk dafür, wie Behauptungen
   Autorität erlangen"
 sourceLocale: en
 sourceHash: e7ec03e7fb9e

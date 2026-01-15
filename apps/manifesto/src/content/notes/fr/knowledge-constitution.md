@@ -1,6 +1,7 @@
 ---
 title: Constitution de la connaissance
-description: "La couche de protocole épistémique comme document de gouvernance définissant
+description:
+  "La couche de protocole épistémique comme document de gouvernance définissant
   comment les affirmations acquièrent de l’autorité"
 sourceLocale: en
 sourceHash: e7ec03e7fb9e

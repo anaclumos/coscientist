@@ -1,6 +1,7 @@
 ---
 title: LLM
-description: "โมเดลภาษาขนาดใหญ่ สถาปัตยกรรม AI ที่เป็นรากฐานของแรงงานการใคร่ครวญของ
+description:
+  "โมเดลภาษาขนาดใหญ่ สถาปัตยกรรม AI ที่เป็นรากฐานของแรงงานการใคร่ครวญของ
   Coscientist"
 sourceLocale: en
 sourceHash: a03c9bb62d5e

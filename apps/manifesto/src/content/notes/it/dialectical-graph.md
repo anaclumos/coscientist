@@ -1,6 +1,7 @@
 ---
 title: Grafo dialettico
-description: "Un modello di grafo della conoscenza che memorizza affermazioni e relazioni
+description:
+  "Un modello di grafo della conoscenza che memorizza affermazioni e relazioni
   anziché il contenuto dei documenti"
 sourceLocale: en
 sourceHash: 7de42f075323

@@ -6,7 +6,6 @@ sourceHash: 82c6fd07bccd
 translatedAt: 2026-01-14
 ---
 
-
 Trong một [Đồ thị Biện chứng](./dialectical-graph), các cạnh mã hoá các kiểu
 quan hệ thay vì điểm số tương đồng [xem Các quan hệ lập luận](./argumentative-relations). Giá trị ở chỗ bạn có thể hỏi "điều này liên
 quan/tác động đến điều kia như thế nào?" thay vì chỉ "chúng có cùng chủ đề

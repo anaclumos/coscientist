@@ -135,7 +135,7 @@ escala personal, organizacional y pública que intercambien conocimiento validad
 preservando la soberanía local. Si quieres un itinerario de lectura, comienza
 con
 [Creando cerebros digitales de próxima generación](./creating-next-gen-digital-brains),
- luego [Colapso de la Enciclopedia](./encyclopedia-meltdown), y la
+luego [Colapso de la Enciclopedia](./encyclopedia-meltdown), y la
 [capa de protocolo epistémico](./epistemic-protocol-layer), y después
 [Grafo dialéctico](./dialectical-graph) y
 [síntesis de conocimiento](./knowledge-synthesis).

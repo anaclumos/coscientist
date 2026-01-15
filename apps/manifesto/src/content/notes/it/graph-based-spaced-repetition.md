@@ -1,6 +1,7 @@
 ---
 title: Ripetizione dilazionata basata su grafi
-description: "Usare l’età della tesi o l’età della confutazione per attivare una nuova
+description:
+  "Usare l’età della tesi o l’età della confutazione per attivare una nuova
   verifica"
 sourceLocale: en
 sourceHash: 1c4655730a74

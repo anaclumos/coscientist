@@ -1,6 +1,7 @@
 ---
 title: Dreifachtrennung
-description: "Architektonische Regel zur Trennung von Rohtext, normalisierten Aussagen und
+description:
+  "Architektonische Regel zur Trennung von Rohtext, normalisierten Aussagen und
   expliziten Relationen"
 sourceLocale: en
 sourceHash: d3ec3e911919

@@ -1,6 +1,7 @@
 ---
 title: Typage des relations vs similarité
-description: "Pourquoi les arêtes typées résolvent ce que la récupération fondée sur la
+description:
+  "Pourquoi les arêtes typées résolvent ce que la récupération fondée sur la
   similarité ne peut pas"
 sourceLocale: en
 sourceHash: ae787ed89f61

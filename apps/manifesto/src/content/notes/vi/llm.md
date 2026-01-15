@@ -1,6 +1,7 @@
 ---
 title: Mô hình ngôn ngữ lớn
-description: "Mô hình ngôn ngữ lớn, kiến trúc AI nền tảng đứng sau lao động chiêm nghiệm của
+description:
+  "Mô hình ngôn ngữ lớn, kiến trúc AI nền tảng đứng sau lao động chiêm nghiệm của
   Coscientist"
 sourceLocale: en
 sourceHash: a03c9bb62d5e

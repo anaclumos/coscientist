@@ -23,7 +23,7 @@ same paper can introduce a definition, assert a claim, cite evidence, and rebut
 a prior result; each of those should remain addressable if you want knowledge to
 update instead of merely accumulate.
 
-Claim status is multi-dimensional rather than a single confidence score. 
+Claim status is multi-dimensional rather than a single confidence score.
 Transitions are driven less by the number of rebuttals and more by the kind of
 rebuttal and whether it succeeds at the level of scope, assumption, definition,
 or method; see [Dialectical Graph Edges](./dialectical-graph-edges).
