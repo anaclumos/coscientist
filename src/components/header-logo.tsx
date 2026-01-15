@@ -19,7 +19,7 @@ export function HeaderLogo({ brand, brandWithManifesto }: HeaderLogoProps) {
     }
   }
 
-  const title = pathname === "/manifesto" ? brandWithManifesto : brand
+  const title = pathname.endsWith("/manifesto") ? brandWithManifesto : brand
 
   return (
     <Link
