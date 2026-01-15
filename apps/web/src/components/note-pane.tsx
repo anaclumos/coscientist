@@ -1,20 +1,20 @@
 "use client"
 
-import { AnimatePresence, motion } from "motion/react"
-import { useLocale, useTranslations } from "next-intl"
-import { IconXmarkOutline18 } from "nucleo-ui-outline-18"
-import { useCallback, useEffect, useRef } from "react"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
+import { ScrollArea } from "@coscientist/web/components/ui/scroll-area"
+import { useReducedMotion } from "@coscientist/web/hooks/use-reduced-motion"
 import {
   paneContentVariants,
   paneVariants,
   spineVariants,
   springQuick,
   springSubtle,
-} from "@/lib/animations"
-import type { BacklinkInfo } from "@/lib/types"
-import { cn } from "@/lib/utils"
+} from "@coscientist/web/lib/animations"
+import type { BacklinkInfo } from "@coscientist/web/lib/types"
+import { cn } from "@coscientist/web/lib/utils"
+import { AnimatePresence, motion } from "motion/react"
+import { useLocale, useTranslations } from "next-intl"
+import { IconXmarkOutline18 } from "nucleo-ui-outline-18"
+import { useCallback, useEffect, useRef } from "react"
 import { BacklinksSection } from "./backlinks-section"
 import { NoteContent } from "./note-content"
 import { usePaneCollapse } from "./pane-container"

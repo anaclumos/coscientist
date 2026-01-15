@@ -1,6 +1,8 @@
 "use client"
 
 import { Toast } from "@base-ui/react/toast"
+import { buttonVariants } from "@coscientist/web/components/ui/button"
+import { cn } from "@coscientist/web/lib/utils"
 import {
   IconAlertWarningOutline18,
   IconArrowRotateClockwiseOutline18,
@@ -8,8 +10,6 @@ import {
   IconCircleInfoOutline18,
   IconCircleXmarkOutline18,
 } from "nucleo-ui-outline-18"
-import { buttonVariants } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
 
 const toastManager = Toast.createToastManager()
 const anchoredToastManager = Toast.createToastManager()

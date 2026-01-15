@@ -1,6 +1,6 @@
+import { getFontsForLocale } from "@coscientist/web/lib/og/fonts"
 import { ImageResponse } from "next/og"
 import type { NextRequest } from "next/server"
-import { getFontsForLocale } from "@/lib/og/fonts"
 
 export const revalidate = 86_400
 

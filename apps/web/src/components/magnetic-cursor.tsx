@@ -1,7 +1,7 @@
 "use client"
 
+import { useReducedMotion } from "@coscientist/web/hooks/use-reduced-motion"
 import { Cursor, useCursorState } from "motion-plus/react"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
 
 export function MagneticCursor() {
   const prefersReducedMotion = useReducedMotion()

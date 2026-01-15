@@ -1,14 +1,13 @@
 "use client"
 
 import { Select as SelectPrimitive } from "@base-ui/react/select"
+import { cn } from "@coscientist/web/lib/utils"
 import {
   IconCheckOutline18,
   IconChevronDownOutline18,
   IconChevronExpandYOutline18,
   IconChevronUpOutline18,
 } from "nucleo-ui-outline-18"
-
-import { cn } from "@/lib/utils"
 
 const Select = SelectPrimitive.Root
 

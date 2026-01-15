@@ -1,5 +1,5 @@
+import { cn } from "@coscientist/web/lib/utils"
 import { IconArrowRotateClockwiseOutline18 } from "nucleo-ui-outline-18"
-import { cn } from "@/lib/utils"
 
 const sizeClasses = {
   sm: "size-4",

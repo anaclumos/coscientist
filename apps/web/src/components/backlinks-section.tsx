@@ -1,9 +1,9 @@
 "use client"
 
+import type { BacklinkInfo } from "@coscientist/web/lib/types"
+import { cn } from "@coscientist/web/lib/utils"
 import { useTranslations } from "next-intl"
 import { IconArrowUpLeftOutline18 } from "nucleo-ui-outline-18"
-import type { BacklinkInfo } from "@/lib/types"
-import { cn } from "@/lib/utils"
 
 interface BacklinksSectionProps {
   backlinks: BacklinkInfo[]

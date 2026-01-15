@@ -1,9 +1,9 @@
 "use client"
 
+import { Button } from "@coscientist/web/components/ui/button"
+import { cn } from "@coscientist/web/lib/utils"
 import { useTranslations } from "next-intl"
 import { IconMoonOutline18, IconSunOutline18 } from "nucleo-ui-outline-18"
-import { Button } from "@/components/ui/button"
-import { cn } from "@/lib/utils"
 import { useTheme } from "./theme-provider"
 
 export function ThemeToggle({ className }: { className?: string }) {

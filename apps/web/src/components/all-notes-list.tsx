@@ -1,20 +1,20 @@
 "use client"
 
-import { AnimatePresence, motion } from "motion/react"
-import { useTranslations } from "next-intl"
-import { useEffect, useMemo, useRef } from "react"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
+import { ScrollArea } from "@coscientist/web/components/ui/scroll-area"
+import { useReducedMotion } from "@coscientist/web/hooks/use-reduced-motion"
 import {
   paneContentVariants,
   paneVariants,
   spineVariants,
   springQuick,
   springSubtle,
-} from "@/lib/animations"
-import { buildNoteHref } from "@/lib/note-links"
-import type { NoteSummary } from "@/lib/types"
-import { cn } from "@/lib/utils"
+} from "@coscientist/web/lib/animations"
+import { buildNoteHref } from "@coscientist/web/lib/note-links"
+import type { NoteSummary } from "@coscientist/web/lib/types"
+import { cn } from "@coscientist/web/lib/utils"
+import { AnimatePresence, motion } from "motion/react"
+import { useTranslations } from "next-intl"
+import { useEffect, useMemo, useRef } from "react"
 import { usePaneCollapse } from "./pane-container"
 import { PaneSpine } from "./pane-spine"
 import { PreviewLink } from "./preview-link"

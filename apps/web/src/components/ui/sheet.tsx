@@ -1,10 +1,10 @@
 "use client"
 
 import { Dialog as SheetPrimitive } from "@base-ui/react/dialog"
+import { Button } from "@coscientist/web/components/ui/button"
+import { ScrollArea } from "@coscientist/web/components/ui/scroll-area"
+import { cn } from "@coscientist/web/lib/utils"
 import { IconXmarkOutline18 } from "nucleo-ui-outline-18"
-import { Button } from "@/components/ui/button"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { cn } from "@/lib/utils"
 
 const Sheet = SheetPrimitive.Root
 

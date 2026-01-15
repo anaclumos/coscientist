@@ -1,5 +1,8 @@
 "use client"
 
+import { useIsMobile } from "@coscientist/web/hooks/use-mobile"
+import type { NotePaneData } from "@coscientist/web/lib/types"
+import { cn } from "@coscientist/web/lib/utils"
 import dynamic from "next/dynamic"
 import {
   createContext,
@@ -10,9 +13,6 @@ import {
   useRef,
   useState,
 } from "react"
-import { useIsMobile } from "@/hooks/use-mobile"
-import type { NotePaneData } from "@/lib/types"
-import { cn } from "@/lib/utils"
 
 const MobilePaneCarousel = dynamic(
   () => import("./mobile-pane-carousel").then((mod) => mod.MobilePaneCarousel),

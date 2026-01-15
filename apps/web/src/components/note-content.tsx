@@ -1,5 +1,10 @@
 "use client"
 
+import {
+  buildNoteHref,
+  isExternalHref,
+  normalizeNoteSlug,
+} from "@coscientist/web/lib/note-links"
 import parse, {
   type DOMNode,
   domToReact,
@@ -9,11 +14,6 @@ import parse, {
 import { useTranslations } from "next-intl"
 import { IconArrowUpRightOutline18 } from "nucleo-ui-outline-18"
 import { useCallback, useMemo } from "react"
-import {
-  buildNoteHref,
-  isExternalHref,
-  normalizeNoteSlug,
-} from "@/lib/note-links"
 import { PreviewLink } from "./preview-link"
 
 interface NoteContentProps {

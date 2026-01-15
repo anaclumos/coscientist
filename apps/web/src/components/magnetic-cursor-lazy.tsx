@@ -1,8 +1,8 @@
 "use client"
 
+import { useReducedMotion } from "@coscientist/web/hooks/use-reduced-motion"
 import dynamic from "next/dynamic"
 import { useEffect, useState } from "react"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
 
 const MagneticCursor = dynamic(
   () => import("./magnetic-cursor").then((mod) => mod.MagneticCursor),

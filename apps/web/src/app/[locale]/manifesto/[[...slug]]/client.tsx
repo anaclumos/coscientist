@@ -1,15 +1,22 @@
 "use client"
 
 import { AnimatePresence, LayoutGroup } from "motion/react"
-import { Suspense, useCallback, useEffect, useMemo, useRef, useState } from "react"
-import { AllNotesList } from "@/components/all-notes-list"
-import { useKeyboardNavigation } from "@/components/keyboard-navigation"
-import { NotePane } from "@/components/note-pane"
-import { PaneContainer } from "@/components/pane-container"
-import { NotePreviewProvider } from "@/components/preview-link"
-import { Spinner } from "@/components/ui/spinner"
-import type { NotePaneData, NoteSummary } from "@/lib/types"
-import { useNoteStack } from "@/lib/use-note-stack"
+import {
+  Suspense,
+  useCallback,
+  useEffect,
+  useMemo,
+  useRef,
+  useState,
+} from "react"
+import { AllNotesList } from "@coscientist/web/components/all-notes-list"
+import { useKeyboardNavigation } from "@coscientist/web/components/keyboard-navigation"
+import { NotePane } from "@coscientist/web/components/note-pane"
+import { PaneContainer } from "@coscientist/web/components/pane-container"
+import { NotePreviewProvider } from "@coscientist/web/components/preview-link"
+import { Spinner } from "@coscientist/web/components/ui/spinner"
+import type { NotePaneData, NoteSummary } from "@coscientist/web/lib/types"
+import { useNoteStack } from "@coscientist/web/lib/use-note-stack"
 
 interface NotesPageClientProps {
   rootSlug: string

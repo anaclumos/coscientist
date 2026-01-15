@@ -1,17 +1,17 @@
 "use client"
 
-import { createContext, type ReactNode, useContext } from "react"
 import {
   PreviewCard,
   PreviewCardPopup,
   PreviewCardTrigger,
-} from "@/components/ui/preview-card"
+} from "@coscientist/web/components/ui/preview-card"
 import {
   buildNoteHref,
   isExternalHref,
   normalizeNoteSlug,
-} from "@/lib/note-links"
-import type { NoteSummary } from "@/lib/types"
+} from "@coscientist/web/lib/note-links"
+import type { NoteSummary } from "@coscientist/web/lib/types"
+import { createContext, type ReactNode, useContext } from "react"
 
 interface NotePreviewContextValue {
   summariesMap: Map<string, NoteSummary>

@@ -1,13 +1,13 @@
 "use client"
 
 import { Autocomplete as AutocompletePrimitive } from "@base-ui/react/autocomplete"
+import { Input } from "@coscientist/web/components/ui/input"
+import { ScrollArea } from "@coscientist/web/components/ui/scroll-area"
+import { cn } from "@coscientist/web/lib/utils"
 import {
   IconChevronExpandYOutline18,
   IconXmarkOutline18,
 } from "nucleo-ui-outline-18"
-import { Input } from "@/components/ui/input"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { cn } from "@/lib/utils"
 
 const Autocomplete = AutocompletePrimitive.Root
 

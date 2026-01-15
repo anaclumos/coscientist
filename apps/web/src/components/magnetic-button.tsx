@@ -1,9 +1,9 @@
 "use client"
 
+import { cn } from "@coscientist/web/lib/utils"
 import { motion } from "motion/react"
 import { useMagneticPull } from "motion-plus/react"
 import { useRef } from "react"
-import { cn } from "@/lib/utils"
 
 interface MagneticButtonProps {
   children: React.ReactNode

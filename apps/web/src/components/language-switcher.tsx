@@ -1,17 +1,17 @@
 "use client"
 
-import { useLocale, useTranslations } from "next-intl"
-import { IconLanguageOutline18 } from "nucleo-ui-outline-18"
-import { Button } from "@/components/ui/button"
+import { Button } from "@coscientist/web/components/ui/button"
 import {
   Select,
   SelectItem,
   SelectPopup,
   SelectTrigger,
-} from "@/components/ui/select"
-import { usePathname, useRouter } from "@/i18n/navigation"
-import { type Locale, routing } from "@/i18n/routing"
-import { cn } from "@/lib/utils"
+} from "@coscientist/web/components/ui/select"
+import { usePathname, useRouter } from "@coscientist/web/i18n/navigation"
+import { type Locale, routing } from "@coscientist/web/i18n/routing"
+import { cn } from "@coscientist/web/lib/utils"
+import { useLocale, useTranslations } from "next-intl"
+import { IconLanguageOutline18 } from "nucleo-ui-outline-18"
 
 const localeNames: Record<Locale, string> = {
   en: "English",

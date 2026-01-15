@@ -1,5 +1,10 @@
 "use client"
 
+import { ScrollArea } from "@coscientist/web/components/ui/scroll-area"
+import { useReducedMotion } from "@coscientist/web/hooks/use-reduced-motion"
+import { springSubtle } from "@coscientist/web/lib/animations"
+import type { NotePaneData } from "@coscientist/web/lib/types"
+import { cn } from "@coscientist/web/lib/utils"
 import {
   AnimatePresence,
   animate,
@@ -13,11 +18,6 @@ import {
 import { useTranslations } from "next-intl"
 import { IconXmarkOutline18 } from "nucleo-ui-outline-18"
 import { memo, useCallback, useEffect, useRef } from "react"
-import { ScrollArea } from "@/components/ui/scroll-area"
-import { useReducedMotion } from "@/hooks/use-reduced-motion"
-import { springSubtle } from "@/lib/animations"
-import type { NotePaneData } from "@/lib/types"
-import { cn } from "@/lib/utils"
 import { BacklinksSection } from "./backlinks-section"
 import { NoteContent } from "./note-content"
 

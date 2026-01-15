@@ -1,4 +1,4 @@
-import { cn } from "@/lib/utils"
+import { cn } from "@coscientist/web/lib/utils"
 
 interface PaneSpineProps {
   index: number
