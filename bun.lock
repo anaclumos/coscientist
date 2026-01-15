@@ -1,5 +1,6 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "coscientist",
@@ -11,8 +12,8 @@
         "ultracite": "7.0.11",
       },
     },
-    "apps/manifesto": {
-      "name": "@coscientist/manifesto",
+    "apps/web": {
+      "name": "@coscientist/web",
       "version": "0.1.0",
       "dependencies": {
         "@base-ui/react": "^1.0.0",
@@ -82,7 +83,7 @@
 
     "@clack/prompts": ["@clack/prompts@0.11.0", "", { "dependencies": { "@clack/core": "0.5.0", "picocolors": "^1.0.0", "sisteransi": "^1.0.5" } }, "sha512-pMN5FcrEw9hUkZA4f+zLlzivQSeQf5dRGJjSUbvVYDLvpKCdQx5OaknvKzgbtXOizhP+SJJJjqEbOe55uKKfAw=="],
 
-    "@coscientist/manifesto": ["@coscientist/manifesto@workspace:apps/manifesto"],
+    "@coscientist/web": ["@coscientist/web@workspace:apps/web"],
 
     "@emnapi/runtime": ["@emnapi/runtime@1.8.1", "", { "dependencies": { "tslib": "^2.4.0" } }, "sha512-mehfKSMWjjNol8659Z8KxEMrdSJDDot5SXMq00dM8BN4o+CLNXQ0xH2V7EchNHV4RmbZLmmPdEaXZc5H2FXmDg=="],
 

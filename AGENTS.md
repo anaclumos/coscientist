@@ -147,7 +147,7 @@ export const paneContentVariants = {
 ### Directory Structure
 
 ```
-apps/manifesto/src/
+apps/web/src/
 ├── app/
 │   ├── globals.css          # Tokens, prose layer
 │   ├── [locale]/layout.tsx  # Root layout, fonts
