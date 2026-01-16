@@ -29,16 +29,21 @@ evokes stacked monoliths receding into depth.
 
 ## Tech Stack
 
-| Layer         | Choice                            | Why                                             |
-| ------------- | --------------------------------- | ----------------------------------------------- |
-| Runtime       | Bun                               | Fast, modern Node alternative                   |
-| Framework     | Next.js 16 (App Router)           | SSR, RSC, file-based routing                    |
-| Language      | TypeScript                        | Type safety                                     |
-| Styling       | Tailwind CSS v4                   | Utility-first, design tokens                    |
-| UI Components | COSS/UI                           | Cal.com's component library, Base UI + Tailwind |
-| Animation     | motion/react                      | Performant springs, AnimatePresence, layout     |
-| Font          | Faculty Glyphic                   | Distinctive serif with personality              |
-| Markdown      | gray-matter + remark + remark-gfm | Frontmatter + GFM support                       |
+| Layer         | Choice                            | Why                                                              |
+| ------------- | --------------------------------- | ---------------------------------------------------------------- |
+| Runtime       | Bun                               | Fast, modern Node alternative                                    |
+| Framework     | Next.js 16 (App Router)           | SSR, RSC, file-based routing                                     |
+| Language      | TypeScript                        | Type safety                                                      |
+| Styling       | Tailwind CSS v4                   | Utility-first, design tokens                                     |
+| UI Components | COSS/UI                           | Cal.com's component library, Base UI + Tailwind                  |
+| Animation     | motion/react                      | Performant springs, AnimatePresence, layout                      |
+| Font          | Faculty Glyphic                   | Distinctive serif with personality                               |
+| Backend       | Convex                            | Reactive DB, realtime sync, file storage, auto-generated types   |
+| Realtime      | Convex + ProseMirror              | Collaborative editing with CRDT-like conflict resolution         |
+| AI Agents     | Mastra                            | TypeScript-first agent framework with workflows, tools, RAG, MCP |
+| Workflows     | Vercel Workflow (WDK)             | Durable, resumable long-running tasks with `"use workflow"`      |
+| Hosting       | Vercel                            | Edge-optimized, seamless Next.js integration                     |
+| Markdown      | gray-matter + remark + remark-gfm | Frontmatter + GFM support                                        |
 
 ## Design Tokens
 
@@ -162,8 +167,23 @@ src/
 ├── lib/
 │   ├── animations.ts        # Spring configs
 │   └── types.ts             # Note, BacklinkInfo
-└── hooks/
-    └── use-reduced-motion.ts
+├── hooks/
+│   └── use-reduced-motion.ts
+└── mastra/
+    ├── agents/              # Agent definitions with instructions, models, tools
+    ├── tools/               # Reusable tools (API calls, database queries)
+    ├── workflows/           # Multi-step workflow definitions
+    └── index.ts             # Mastra configuration and registration
+convex/
+├── schema.ts                # Database schema (defineSchema, defineTable)
+├── _generated/              # Auto-generated types (don't edit)
+│   ├── api.d.ts             # Typed function exports
+│   ├── server.d.ts          # QueryCtx, MutationCtx types
+│   └── dataModel.d.ts       # DataModel, Id<T> types
+├── http.ts                  # HTTP endpoints for webhooks
+└── functions/               # Queries, mutations, actions
+    ├── notes.ts
+    └── ...
 ```
 
 ### Key Patterns
@@ -180,6 +200,166 @@ src/
 - Each pane: `left: calc(index * var(--pane-spine-width))`
 - Z-index: `calc(var(--z-pane) + index)`
 - No JavaScript collapse logic - pure CSS behavior
+
+## Convex (Backend & Realtime)
+
+Convex provides the reactive database, file storage, and realtime sync layer.
+
+### Schema Definition
+
+```ts
+// convex/schema.ts
+import { defineSchema, defineTable } from "convex/server";
+import { v } from "convex/values";
+
+export default defineSchema({
+  notes: defineTable({
+    slug: v.string(),
+    title: v.string(),
+    content: v.string(),
+    locale: v.string(),
+  }).index("by_slug_locale", ["slug", "locale"]),
+});
+```
+
+### Queries & Mutations
+
+```ts
+// convex/functions/notes.ts
+import { query, mutation } from "../_generated/server";
+import { v } from "convex/values";
+
+export const get = query({
+  args: { slug: v.string(), locale: v.string() },
+  handler: async (ctx, args) => {
+    return await ctx.db
+      .query("notes")
+      .withIndex("by_slug_locale", (q) =>
+        q.eq("slug", args.slug).eq("locale", args.locale)
+      )
+      .unique();
+  },
+});
+```
+
+### Client Usage (React)
+
+```tsx
+import { useQuery, useMutation } from "convex/react";
+import { api } from "@/convex/_generated/api";
+
+function NotePane({ slug, locale }: { slug: string; locale: string }) {
+  const note = useQuery(api.functions.notes.get, { slug, locale });
+  // Automatically reactive - re-renders when data changes
+}
+```
+
+### ProseMirror Collaborative Editing
+
+```tsx
+import { useBlockNoteSync } from "@convex-dev/prosemirror-sync";
+import { api } from "@/convex/_generated/api";
+
+function Editor({ docId }: { docId: string }) {
+  const sync = useBlockNoteSync(api.prosemirrorSync, docId);
+  return sync.editor ? <BlockNote editor={sync.editor} /> : <Spinner />;
+}
+```
+
+## Mastra (AI Agent System)
+
+Mastra is the TypeScript-first AI framework for agents, workflows, and tools.
+
+### Agent Definition
+
+```ts
+// src/mastra/agents/researcher.ts
+import { Agent } from "@mastra/core";
+
+export const researcherAgent = new Agent({
+  name: "researcher",
+  instructions: `You are a research assistant that helps find and synthesize information.
+    Always cite sources. Be concise.`,
+  model: {
+    provider: "OPEN_AI",
+    name: "gpt-4o",
+  },
+  tools: [webSearchTool, noteQueryTool],
+});
+```
+
+### Tool Definition
+
+```ts
+// src/mastra/tools/web-search.ts
+import { createTool } from "@mastra/core";
+import { z } from "zod";
+
+export const webSearchTool = createTool({
+  id: "web-search",
+  description: "Search the web for information",
+  inputSchema: z.object({
+    query: z.string().describe("Search query"),
+  }),
+  execute: async ({ context }) => {
+    // Implementation
+  },
+});
+```
+
+### Mastra Configuration
+
+```ts
+// src/mastra/index.ts
+import { Mastra } from "@mastra/core";
+import { researcherAgent } from "./agents/researcher";
+import { webSearchTool } from "./tools/web-search";
+
+export const mastra = new Mastra({
+  agents: { researcher: researcherAgent },
+  tools: { webSearch: webSearchTool },
+});
+```
+
+## Vercel Workflow (Durable Tasks)
+
+Vercel Workflow (WDK) enables long-running, resumable tasks.
+
+### Workflow Definition
+
+```ts
+// src/app/api/workflows/translate/route.ts
+export async function translateNote(noteId: string) {
+  "use workflow";
+
+  const note = await fetchNote(noteId);
+  const translations = await translateToAllLocales(note);
+  await saveTranslations(translations);
+
+  return { success: true, count: translations.length };
+}
+```
+
+### Step Definition
+
+```ts
+async function translateToAllLocales(note: Note) {
+  "use step";
+
+  // This step is automatically retried on failure
+  // and persisted for durability
+  const locales = ["ja", "ko", "zh-CN", "es", "fr"];
+  return Promise.all(locales.map((l) => translateTo(note, l)));
+}
+```
+
+### Key Concepts
+
+| Directive        | Purpose                                           |
+| ---------------- | ------------------------------------------------- |
+| `"use workflow"` | Marks function as durable (survives crashes)      |
+| `"use step"`     | Marks unit of work (auto-retry, persistence)      |
+| `sleep()`        | Pause without holding compute, resume later       |
 
 ## UI Constraints
 
