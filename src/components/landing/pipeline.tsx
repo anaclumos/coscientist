@@ -4,17 +4,21 @@ import { motion } from "motion/react"
 import { useTranslations } from "next-intl"
 import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 
-import {
-  horizontalItemVariants,
-  itemVariants,
-  useSectionAnimation,
-} from "@/lib/landing-animations"
+import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
 import { Container, Eyebrow, Subheading, Text } from "./primitives"
 
-function PipelineStep({ step, isLast }: { step: string; isLast: boolean }) {
+function PipelineStep({
+  step,
+  isLast,
+  variants,
+}: {
+  step: string
+  isLast: boolean
+  variants: import("motion/react").Variants
+}) {
   return (
-    <motion.div className="flex items-center" variants={horizontalItemVariants}>
+    <motion.div className="flex items-center" variants={variants}>
       <div className="flex flex-col items-center gap-2">
         <div className="flex h-12 w-24 items-center justify-center rounded-lg border border-border bg-muted/50">
           <span className="font-medium font-mono text-foreground text-sm">
@@ -33,8 +37,13 @@ function PipelineStep({ step, isLast }: { step: string; isLast: boolean }) {
 
 export function Pipeline() {
   const t = useTranslations("landing.pipeline")
-  const { ref, isInView, transition, staggerContainerVariants } =
-    useSectionAnimation({ amount: 0.2 })
+  const {
+    ref,
+    isInView,
+    transition,
+    staggerContainerVariants,
+    horizontalItemVariantsWithTransition,
+  } = useSectionAnimation({ amount: 0.2 })
 
   const steps = [
     t("steps.propose"),
@@ -92,6 +101,7 @@ export function Pipeline() {
               isLast={index === steps.length - 1}
               key={step}
               step={step}
+              variants={horizontalItemVariantsWithTransition}
             />
           ))}
         </motion.div>

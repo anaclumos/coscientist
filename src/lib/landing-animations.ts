@@ -22,6 +22,30 @@ export const horizontalItemVariants: Variants = {
   visible: { opacity: 1, x: 0 },
 }
 
+export function getItemVariants(
+  prefersReducedMotion: boolean | null
+): Variants {
+  const transition: Transition = prefersReducedMotion
+    ? { duration: 0 }
+    : springSubtle
+  return {
+    hidden: { opacity: 0, y: 20 },
+    visible: { opacity: 1, y: 0, transition },
+  }
+}
+
+export function getHorizontalItemVariants(
+  prefersReducedMotion: boolean | null
+): Variants {
+  const transition: Transition = prefersReducedMotion
+    ? { duration: 0 }
+    : springSubtle
+  return {
+    hidden: { opacity: 0, x: -20 },
+    visible: { opacity: 1, x: 0, transition },
+  }
+}
+
 /**
  * Returns stagger container variants that respect reduced motion preference.
  * When reduced motion is enabled, staggerChildren is set to 0 for instant rendering.
@@ -61,6 +85,9 @@ export function useSectionAnimation(options?: { amount?: number }) {
     : springSubtle
 
   const staggerContainerVariants = getStaggerContainer(prefersReducedMotion)
+  const itemVariantsWithTransition = getItemVariants(prefersReducedMotion)
+  const horizontalItemVariantsWithTransition =
+    getHorizontalItemVariants(prefersReducedMotion)
 
   return {
     ref,
@@ -68,5 +95,7 @@ export function useSectionAnimation(options?: { amount?: number }) {
     transition,
     prefersReducedMotion,
     staggerContainerVariants,
+    itemVariantsWithTransition,
+    horizontalItemVariantsWithTransition,
   }
 }
