@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next"
 import { Faculty_Glyphic } from "next/font/google"
 import { notFound } from "next/navigation"
@@ -179,6 +180,7 @@ export default async function LocaleLayout({ children, params }: Props) {
             </Group>
           </header>
           {children}
+          <Analytics />
         </Providers>
       </body>
     </html>
