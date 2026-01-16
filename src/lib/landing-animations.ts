@@ -2,6 +2,8 @@ import type { Transition, Variants } from "motion/react"
 import { useInView, useReducedMotion } from "motion/react"
 import { useRef } from "react"
 
+import { springSubtle } from "./animations"
+
 // biome-ignore lint/performance/noBarrelFile: Intentional re-export for landing page animation utilities
 export { springQuick, springSubtle } from "./animations"
 
@@ -15,6 +17,26 @@ export const itemVariants: Variants = {
   visible: { opacity: 1, y: 0 },
 }
 
+/**
+ * Returns stagger container variants that respect reduced motion preference.
+ * When reduced motion is enabled, staggerChildren is set to 0 for instant rendering.
+ */
+export function getStaggerContainer(
+  prefersReducedMotion: boolean | null
+): Variants {
+  return {
+    hidden: {},
+    visible: {
+      transition: {
+        staggerChildren: prefersReducedMotion ? 0 : 0.1,
+      },
+    },
+  }
+}
+
+/**
+ * @deprecated Use getStaggerContainer(prefersReducedMotion) instead for reduced motion support
+ */
 export const staggerContainer: Variants = {
   hidden: {},
   visible: {
@@ -31,7 +53,15 @@ export function useSectionAnimation(options?: { amount?: number }) {
 
   const transition: Transition = prefersReducedMotion
     ? { duration: 0 }
-    : { type: "spring", duration: 0.2, bounce: 0.05 }
+    : springSubtle
 
-  return { ref, isInView, transition, prefersReducedMotion }
+  const staggerContainerVariants = getStaggerContainer(prefersReducedMotion)
+
+  return {
+    ref,
+    isInView,
+    transition,
+    prefersReducedMotion,
+    staggerContainerVariants,
+  }
 }

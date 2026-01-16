@@ -3,23 +3,21 @@
 import { motion } from "motion/react"
 import { useTranslations } from "next-intl"
 
-import {
-  itemVariants,
-  staggerContainer,
-  useSectionAnimation,
-} from "@/lib/landing-animations"
+import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
 import { Container, Eyebrow, Subheading } from "./primitives"
 
 interface FeatureProps {
   title: string
   description: string
+  transition: import("motion/react").Transition
 }
 
-function Feature({ title, description }: FeatureProps) {
+function Feature({ title, description, transition }: FeatureProps) {
   return (
     <motion.div
       className="flex flex-col gap-2 overflow-hidden border border-black/[0.06] bg-white p-6 shadow-black/[0.04] shadow-lg [border-radius:32px] dark:border-white/[0.06] dark:bg-black dark:shadow-black/[0.08]"
+      transition={transition}
       variants={itemVariants}
     >
       <h3 className="font-semibold text-foreground">{title}</h3>
@@ -30,7 +28,8 @@ function Feature({ title, description }: FeatureProps) {
 
 export function Features() {
   const t = useTranslations("landing.features")
-  const { ref, isInView, transition } = useSectionAnimation({ amount: 0.2 })
+  const { ref, isInView, transition, staggerContainerVariants } =
+    useSectionAnimation({ amount: 0.2 })
 
   const features = [
     {
@@ -81,10 +80,11 @@ export function Features() {
           animate={isInView ? "visible" : "hidden"}
           className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3"
           initial="hidden"
-          variants={staggerContainer}
+          transition={transition}
+          variants={staggerContainerVariants}
         >
           {features.map((feature) => (
-            <Feature key={feature.id} {...feature} />
+            <Feature key={feature.id} {...feature} transition={transition} />
           ))}
         </motion.div>
       </Container>

@@ -3,17 +3,23 @@
 import { motion } from "motion/react"
 import { useTranslations } from "next-intl"
 
-import {
-  itemVariants,
-  staggerContainer,
-  useSectionAnimation,
-} from "@/lib/landing-animations"
+import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
 import { Container, Subheading } from "./primitives"
 
-function AudienceItem({ text }: { text: string }) {
+function AudienceItem({
+  text,
+  transition,
+}: {
+  text: string
+  transition: import("motion/react").Transition
+}) {
   return (
-    <motion.div className="flex items-start gap-3" variants={itemVariants}>
+    <motion.div
+      className="flex items-start gap-3"
+      transition={transition}
+      variants={itemVariants}
+    >
       <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
       <span className="text-base/7 text-muted-foreground">{text}</span>
     </motion.div>
@@ -22,7 +28,8 @@ function AudienceItem({ text }: { text: string }) {
 
 export function ForWho() {
   const t = useTranslations("landing.forWho")
-  const { ref, isInView, transition } = useSectionAnimation({ amount: 0.2 })
+  const { ref, isInView, transition, staggerContainerVariants } =
+    useSectionAnimation({ amount: 0.2 })
 
   const audiences = [
     { id: "scientists", text: t("audiences.scientists") },
@@ -52,10 +59,15 @@ export function ForWho() {
           animate={isInView ? "visible" : "hidden"}
           className="grid grid-cols-1 gap-6 sm:grid-cols-2"
           initial="hidden"
-          variants={staggerContainer}
+          transition={transition}
+          variants={staggerContainerVariants}
         >
           {audiences.map((audience) => (
-            <AudienceItem key={audience.id} text={audience.text} />
+            <AudienceItem
+              key={audience.id}
+              text={audience.text}
+              transition={transition}
+            />
           ))}
         </motion.div>
       </Container>

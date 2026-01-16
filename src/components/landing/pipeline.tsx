@@ -4,17 +4,25 @@ import { motion } from "motion/react"
 import { useTranslations } from "next-intl"
 import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 
-import {
-  itemVariants,
-  staggerContainer,
-  useSectionAnimation,
-} from "@/lib/landing-animations"
+import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
 import { Container, Eyebrow, Subheading, Text } from "./primitives"
 
-function PipelineStep({ step, isLast }: { step: string; isLast: boolean }) {
+function PipelineStep({
+  step,
+  isLast,
+  transition,
+}: {
+  step: string
+  isLast: boolean
+  transition: import("motion/react").Transition
+}) {
   return (
-    <motion.div className="flex items-center" variants={itemVariants}>
+    <motion.div
+      className="flex items-center"
+      transition={transition}
+      variants={itemVariants}
+    >
       <div className="flex flex-col items-center gap-2">
         <div className="flex h-12 w-24 items-center justify-center rounded-lg border border-border bg-muted/50">
           <span className="font-medium font-mono text-foreground text-sm">
@@ -33,7 +41,8 @@ function PipelineStep({ step, isLast }: { step: string; isLast: boolean }) {
 
 export function Pipeline() {
   const t = useTranslations("landing.pipeline")
-  const { ref, isInView, transition } = useSectionAnimation({ amount: 0.2 })
+  const { ref, isInView, transition, staggerContainerVariants } =
+    useSectionAnimation({ amount: 0.2 })
 
   const steps = [
     t("steps.propose"),
@@ -83,13 +92,15 @@ export function Pipeline() {
           animate={isInView ? "visible" : "hidden"}
           className="flex flex-col items-start gap-4 sm:flex-row sm:items-center sm:gap-0"
           initial="hidden"
-          variants={staggerContainer}
+          transition={transition}
+          variants={staggerContainerVariants}
         >
           {steps.map((step, index) => (
             <PipelineStep
               isLast={index === steps.length - 1}
               key={step}
               step={step}
+              transition={transition}
             />
           ))}
         </motion.div>

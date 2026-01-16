@@ -175,4 +175,3 @@ It's not an AI that answers your questions. It's an AI that thinks alongside you
 | ChatGPT Codex      | [Control Panel](https://chatgpt.com/codex)                                    | AI Coding Agent             |
 | Cursor BugBot      | [Control Panel](https://cursor.com/dashboard)                                 | AI Bug Detection            |
 | Gemini Code Assist | [Control Panel](https://cloud.google.com/products/gemini/code-assist)         | AI Code Assistant           |
-| Vercel Agents      | [Control Panel](https://vercel.com/coscientist)                               | AI Code Review              |
