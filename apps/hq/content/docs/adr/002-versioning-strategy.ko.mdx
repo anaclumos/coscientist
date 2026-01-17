@@ -1,0 +1,137 @@
+---
+title: "ADR 2: 버전 관리 전략 (Step, Snapshot, 사용자 버전)"
+---
+
+
+
+# ADR 2: 버전 관리 전략 (Step, Snapshot, 사용자 버전)
+
+## 배경
+
+협업 편집 환경에서 콘텐츠 버전 추적은 핵심이다. 여러 사용자가 동시에 Block을 편집하므로 실시간 동기화, 히스토리, 롤백을 위해 변경 사항을 기록해야 한다. 문제는 _세밀한 변경 사항_(실시간 병합이 매끄럽도록)을 관리하면서도 사소한 편집 하나하나로 사용자를 압도하지 않고 _의미 있는 버전 히스토리_를 제공하는 것이다.
+
+<Callout type="info" title="핵심 문제">
+문서 로딩이 효율적이어야 한다 – 새 협업자가 올 때마다 처음부터 무한한 작업 로그를 재적용할 수 없다. **세분성, 성능, 명확성**의 균형을 맞추는 전략이 필요하다.
+</Callout>
+
+## 결정 사항
+
+<Callout type="info" title="3계층 버전 관리">
+**3계층 버전 관리 접근법 채택:**
+1. **Step** – 실시간 협업용 원자적 변경
+2. **Snapshot** – 효율성을 위한 주기적 전체 상태 체크포인트
+3. **사용자 버전** – 히스토리의 이름표가 붙은 마일스톤
+</Callout>
+
+### Step (작업 변경)
+
+모든 편집 작업을 _Step_으로 기록한다. ProseMirror 맥락에서 Step은 "위치 X에 텍스트 삽입", "범위 Y에서 5자 삭제" 같은 작은 변경이다. 각 Step은 편집 중인 Block/문서에 연결되고 적용된 기준 버전 정보를 담는다.
+
+Step은 Convex 테이블(`steps`)에 저장한다:
+- `documentId`
+- `stepData`
+- `version`
+- `clientId`
+- `timestamp`
+
+문서마다 단조 증가하는 **버전 번호**를 부여한다. 확인된 Step마다 증가하며 ProseMirror의 선형 버전 카운터와 동일하다. 이 버전이 "진실의 원천" 상태 인덱스다.
+
+### Snapshot (주기적 체크포인트)
+
+전체 콘텐츠 상태를 정기적으로 Snapshot으로 캡처한다. Snapshot은 특정 버전 시점의 Block/문서에 대한 전체 ProseMirror 문서 JSON이다. `snapshots` 테이블에 저장:
+- `documentId`
+- `version`
+- `contentState`
+- `timestamp`
+
+<Callout type="idea" title="Debounce Snapshot">
+**Debounce Snapshot** 메커니즘을 구현한다: 편집이 쏟아진 후 문서가 짧은 시간(예: 1초) 동안 유휴 상태이고 마지막 편집자가 현재 사용자면 클라이언트가 전체 문서 상태를 패키징해서 서버에 Snapshot으로 보낸다.
+</Callout>
+
+안정된 상태만 Snapshot해서 과도한 오버헤드를 피한다. 새 협업자는 최신 Snapshot을 로드하고 오래된 Step 체인 적용을 건너뛸 수 있다.
+
+### 사용자 버전
+
+저수준 Step 하나하나를 사용자에게 노출하지 않으려고 고수준 버전 마커를 정의한다:
+- 자동 생성 (예: 일일 버전, 편집 중단 후)
+- 수동 생성 ("버전 저장" 액션)
+
+사용자 버전은 특정 Snapshot이나 체크포인트를 친숙한 이름/번호로 가리킨다. MVP에서는 Snapshot 자체를 사용자 버전으로 취급한다 (특정 시점의 문서 상태를 나타내므로).
+
+<Callout type="info" title="상태 재구성">
+이 체계에서 **문서 상태는 최신 Snapshot에서 시작해서 후속 Step을 적용해 재구성한다**. 새 클라이언트는 최신 Snapshot과 그 이후 Step 목록만 가져오면 된다 – 처음부터 전체 히스토리가 필요 없다.
+</Callout>
+
+**히스토리 잘라내기**도 구현한다: Snapshot이 존재하면 그 이전의 오래된 Step은 공간 절약을 위해 아카이브하거나 삭제할 수 있다.
+
+## 왜 이렇게 결정했나
+
+협업 편집과 소스 컨트롤 모범 사례에서 영감을 받은 다층 접근법이다:
+
+- **동시성을 위한 세밀한 OT:** Step 로그(버전 번호 포함)는 실시간 OT(Operational Transform) 스타일 병합에 필수다. 변경마다 버전을 부여하고 순서가 맞지 않는 변경을 rebase해서 ProseMirror 알고리즘이 기대하는 선형 히스토리를 보장한다.
+
+- **성능을 위한 Snapshot:** 시간이 지나면 문서에 수천 개의 Step이 쌓인다. 처음부터 전부 재생하면 느리다. Snapshot 덕분에 새 사용자가 최근 상태에서 시작할 수 있다.
+
+- **사용자 친화적 버전 히스토리:** 키 입력(Step) 하나하나의 원시 목록은 사람에게 쓸모없다. Snapshot이 더 의미 있는 상태를 제공한다. 한 사용자의 연속 Step을 논리적 커밋으로 **일괄 처리**할 계획이다.
+
+- **ProseMirror & Convex 호환성:** ProseMirror 협업 스키마에 이미 Step과 버전 개념이 있고 Convex `prosemirror-sync` 컴포넌트가 debounce와 함께 Snapshot/Step 처리를 구현한다.
+
+- **복구 및 감사:** 이 전략으로 Snapshot에 Step을 적용해서 문서의 과거 버전을 복구할 수 있다. "히스토리 보기"나 "이전 버전으로 되돌리기" 기능이 가능해진다.
+
+## 검토한 대안들
+
+<Tabs items={['Last-Write Wins', 'Snapshot만', 'CRDT 기반', 'Git 스타일']}>
+  <Tab value="Last-Write Wins">
+    **세밀한 히스토리 없음 (Last-write wins):** Block마다 최신 콘텐츠 상태만 저장하고 편집 시 덮어쓴다.
+    
+    **기각** – 협업 편집이나 실행 취소를 지원할 수 없다. 모든 히스토리를 잃는다 – 변경 추적이 중요한 지식 시스템에는 허용 불가.
+  </Tab>
+  <Tab value="Snapshot만">
+    **Snapshot만 저장 (버전당 전체 문서):** 중요한 변경마다 문서 전체 복사본을 저장.
+    
+    단순하지만 대용량 콘텐츠에 저장 공간이 비효율적이고 동시 편집 병합이 어렵다 (콘텐츠 diff/merge를 해야 하니 사실상 OT나 CRDT를 처음부터 다시 구현하는 셈).
+  </Tab>
+  <Tab value="CRDT 기반">
+    **CRDT 기반 버전 관리 (예: Yjs):** CRDT는 기본적으로 병합을 허용하고 버전 없는 충돌 방지 히스토리를 가진다.
+    
+    MVP에서는 기각 – ProseMirror 스키마와 통합이 복잡해지고 데이터 크기가 증가한다 (CRDT tombstone 등). 중앙 서버가 있으니 ProseMirror의 OT 접근법이면 충분하다. 오프라인 편집이 필요하면 향후 옵션으로 고려.
+  </Tab>
+  <Tab value="Git 스타일">
+    **Git 스타일 커밋 트리:** 저장된 버전마다 체인의 커밋으로 취급, 동시 편집은 분기 후 병합.
+    
+    강력하지만 (문서 분기/포크 가능) 모델과 UI에 복잡도가 너무 커진다. MVP는 선형 히스토리를 선택 – ProseMirror의 선형 버전 모델과 일치.
+  </Tab>
+</Tabs>
+
+## 영향
+
+- **저장소 증가:** 편집마다 Step 레코드가 생기고 주기적 Snapshot이 문서 콘텐츠를 복제한다. 오래된 데이터를 정리해서 저장소를 관리해야 한다. **보존 정책**을 구현할 것이다 (예: 최근 X일 Step 전부 유지, 오래된 세부 정보는 제거).
+
+- **충돌 해결 UX:** 기술적으로 충돌은 OT(rebase)로 처리한다. 하지만 동시 편집은 혼란스러운 결과를 낼 수 있다. 버전 히스토리는 두 편집을 순차적으로 보여준다. 충돌을 하이라이트하거나 presence 표시기([ADR 7](/docs/adr/adr-007-presence-cursors))로 근처 편집 시 사용자에게 경고해야 할 수 있다.
+
+- **버전 번호와 클라이언트 상태:** Block/문서마다 현재 `versionNumber`가 있다. 클라이언트는 로컬 버전을 추적하고 동기화할 때마다 업데이트해야 한다. 클라이언트가 너무 뒤처지면 Step 대신 Snapshot을 보내서 재동기화한다.
+
+- **히스토리 UI:** 처음에는 전체 히스토리 UI를 노출하지 않을 수 있지만 내부적으로 데이터는 있다. 나중에 변경 타임라인이나 "여기로 되돌리기"가 가능해진다.
+
+- **감사 및 귀속:** 각 Step에 사용자 ID와 타임스탬프를 담을 수 있다. Block마다 감사 로그를 구축할 수 있다 – 누가 무엇을 기여했는지 아는 건 지식 시스템에서 중요하다.
+
+## 확장 경로
+
+<Cards>
+  <Card title="CRDT / 오프라인 지원" href="/docs/adr/adr-003-collaboration-protocol">
+    오프라인 편집이나 분산 운영이 필요하면 순수 OT에서 CRDT 기반(예: Yjs)으로 전환할 수 있다.
+  </Card>
+  <Card title="명명 버전 & 분기" href="/docs/adr/adr-003-collaboration-protocol">
+    주요 마일스톤에 "명명 버전"(git 태그처럼) 도입. 향후: 분기 버전도 가능.
+  </Card>
+  <Card title="연합 버전 관리" href="/docs/adr/adr-003-collaboration-protocol">
+    연합 환경에서는 단일 정수 대신 Lamport 타임스탬프나 벡터 클럭을 버전 관리에 사용.
+  </Card>
+  <Card title="AI 연동 (Mastra)" href="/docs/adr/adr-008-platform-boundaries-expansion">
+    버전 히스토리를 AI 에이전트가 활용해서 diff 분석, 변경 요약, 문제 편집 자동 되돌리기 등이 가능하다.
+  </Card>
+</Cards>
+
+<Callout type="warn" title="성능 최적화">
+Step 일괄 처리를 확장해서 서버 측 커밋 집계를 구현할 수 있다. 개별 Step을 바로 브로드캐스트하는 대신 서버가 여러 사용자의 Step을 모아서 하나의 논리적 커밋으로 적용 – 지연이 큰 사용자의 충돌을 줄인다.
+</Callout>

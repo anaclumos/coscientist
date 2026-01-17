@@ -1,0 +1,137 @@
+---
+title: "ADR 2: Versioning Strategy (Steps, Snapshots, and User-Facing Versions)"
+---
+
+
+
+# ADR 2: Versioning Strategy (Steps, Snapshots, and User-Facing Versions)
+
+## Context
+
+In a collaborative editing environment, tracking versions of content is critical. Users will be concurrently editing blocks, and we need to record those changes for real-time sync, history, and potential rollbacks. The challenge is to manage _fine-grained changes_ (so that realtime merging is smooth) while also providing _meaningful version history_ to users without overwhelming them with every tiny edit.
+
+<Callout type="info" title="The Problem">
+Loading a document should be efficient – we cannot reapply an infinite log of operations from the beginning for each new collaborator. We need a strategy that balances **granularity, performance, and clarity** in versioning.
+</Callout>
+
+## Decision
+
+<Callout type="info" title="Three-Tier Versioning">
+**Adopt a three-tier versioning approach:**
+1. **Steps** as atomic changes for real-time collaboration
+2. **Snapshots** as periodic full-state checkpoints for efficiency
+3. **User-Facing Versions** as labeled milestones in history
+</Callout>
+
+### Steps (Operational Changes)
+
+We record every edit operation as a _Step_. In the context of ProseMirror, a Step is a small change like "insert text at position X" or "delete 5 characters at range Y". Each step is associated with the specific Block or document being edited and carries the base version it was applied to.
+
+Steps are stored in a Convex table (e.g. `steps`) with fields:
+- `documentId`
+- `stepData`
+- `version`
+- `clientId`
+- `timestamp`
+
+We assign a monotonic **version number** to each document which increments with each confirmed step, similar to ProseMirror's linear version counter. This version is essentially the "source-of-truth" state index.
+
+### Snapshots (Periodic Checkpoints)
+
+We regularly capture the entire content state as a Snapshot. A snapshot might be the full ProseMirror document JSON for a given block/document at a certain version. Snapshots are stored in a `snapshots` table:
+- `documentId`
+- `version`
+- `contentState`
+- `timestamp`
+
+<Callout type="idea" title="Debounced Snapshots">
+We implement a **debounced snapshot** mechanism: after a flurry of edits, when a document has been idle for a short interval (say 1 second) and the last editor was the current user, the client packages up the full document state and sends it to the server as a snapshot.
+</Callout>
+
+This means we snapshot only stable states to avoid excessive overhead. New collaborators can then load the latest snapshot and skip applying a long chain of old steps.
+
+### User-Facing Versions
+
+To avoid exposing every low-level step to end users, we define higher-level version markers. These could be:
+- Automatically generated (e.g. daily versions or after a significant pause in editing)
+- Manually created ("Save Version" action)
+
+A user-facing version points to a particular snapshot or checkpoint with a friendly name or number. In MVP, we treat snapshots themselves as the user-visible versions (since they represent document states at certain times).
+
+<Callout type="info" title="State Reconstruction">
+Under this scheme, **the document's state is reconstructed by starting from the latest snapshot and applying subsequent steps**. A brand new client fetches the latest snapshot and the list of steps after that snapshot, preventing the need for the entire history since inception.
+</Callout>
+
+We will also implement **history truncation**: older steps that are no longer needed (because a snapshot exists after them) can be archived or deleted to save space.
+
+## Rationale
+
+This multi-tier approach is inspired by best practices in collaborative editing and source control:
+
+- **Fine-grained OT for concurrency:** The Step log (with version numbers) is essential for real-time OT (Operational Transform) style merging. By assigning each change a version and rebasing out-of-order changes, we ensure a linear history as ProseMirror's algorithm expects.
+
+- **Snapshots for performance:** Over time, a document might accumulate thousands of steps. Replaying all from the beginning would be slow. Snapshots let a new user start from a recent state and avoid replaying an entire history.
+
+- **User-friendly version history:** A raw list of every keystroke (step) is not useful to humans. Snapshots provide more meaningful states. We plan to **batch consecutive steps** from one user into logical commits when possible.
+
+- **Compatibility with ProseMirror and Convex:** ProseMirror's collaboration schema already includes the concept of steps and versions, and the Convex `prosemirror-sync` component implements snapshots and step handling with debounce.
+
+- **Recovery and Auditing:** With this strategy, we can retrieve any past version of a document by applying steps to a snapshot, facilitating features like "view history" or "undo to an earlier version".
+
+## Alternatives Considered
+
+<Tabs items={['Last-Write Wins', 'Full Snapshots Only', 'CRDT-Based', 'Git-like Commits']}>
+  <Tab value="Last-Write Wins">
+    **No Fine-Grained History (Last-write wins):** Simply store the latest content state for each block, overwriting on edits.
+    
+    **Rejected** because it cannot support collaborative editing or undo. It would also lose all history – unacceptable for our knowledge system where tracking changes is important.
+  </Tab>
+  <Tab value="Full Snapshots Only">
+    **Only Storing Full Snapshots (Document per Version):** Save a full copy of the document for each significant change.
+    
+    While simple, this would be very storage-inefficient for large content and makes merging concurrent edits hard (you'd have to do content diff/merge, effectively re-implementing OT or CRDT from scratch).
+  </Tab>
+  <Tab value="CRDT-Based">
+    **CRDT-based Versioning (e.g. Yjs):** CRDTs natively allow merging and have an inherent version-less conflict-free history.
+    
+    We decided against this for MVP because it complicates integration with ProseMirror's schema and increases data size (CRDT tombstones, etc.). ProseMirror's own collab approach (OT with central authority) is sufficient given a centralized server. We do note CRDT as a future option if offline editing is needed.
+  </Tab>
+  <Tab value="Git-like Commits">
+    **Git-like Tree of Commits:** Treat each saved version as a commit in a chain, possibly branching for concurrent edits and then merging.
+    
+    This is powerful (allows branching/forking documents) but adds a lot of complexity to the model and UI. We opted for a linear history for MVP, aligning with ProseMirror's linear version model.
+  </Tab>
+</Tabs>
+
+## Implications
+
+- **Storage Growth:** Every edit generates a step record, and periodic snapshots duplicate the document content. We must manage storage by pruning old data. We will implement a **retention policy** (e.g., keep all steps for the last X days, purge older fine-detail).
+
+- **Conflict Resolution UX:** At the technical level, conflicts are handled by OT (rebasing). However, simultaneous edits can produce confusing results. The version history will show both edits sequentially. We might need to highlight conflicts or ensure presence indicators ([ADR 7](/docs/adr/adr-007-presence-cursors)) warn users when editing nearby.
+
+- **Version Numbers and Client State:** Each block or document will have a current `versionNumber`. Clients must track their local version and update it on each sync. If a client falls too far behind, we'll send a snapshot instead of steps to re-sync.
+
+- **User Interface for History:** Initially, we might not expose a full history UI, but internally we have the data. Down the line, showing a timeline of changes or allowing "undo to here" will be possible.
+
+- **Audit and Attribution:** Each step can carry the user ID and timestamp. This allows us to build an audit log for each block – important for knowledge systems to know who contributed what.
+
+## Expansion Path
+
+<Cards>
+  <Card title="CRDT / Offline Support" href="/docs/adr/adr-003-collaboration-protocol">
+    Shift from pure OT to CRDT-based approach (e.g., Yjs) if offline editing or decentralized operation is needed.
+  </Card>
+  <Card title="Named Versioning & Branching" href="/docs/adr/adr-003-collaboration-protocol">
+    Introduce "named versions" (like git tags) for major milestones. Future: branching for divergent versions.
+  </Card>
+  <Card title="Federated Versioning" href="/docs/adr/adr-003-collaboration-protocol">
+    Use Lamport timestamps or vector clocks for versioning in federated settings instead of single integers.
+  </Card>
+  <Card title="AI Integration (Mastra)" href="/docs/adr/adr-008-platform-boundaries-expansion">
+    Version history can be leveraged by AI agents to analyze diffs, summarize changes, or revert problematic edits.
+  </Card>
+</Cards>
+
+<Callout type="warn" title="Performance Optimization">
+Building on step batching, we may implement server-side commit aggregation. Instead of broadcasting each individual step, the server could accumulate steps from multiple users and apply them in one logical commit – reducing conflicts for high-latency users.
+</Callout>

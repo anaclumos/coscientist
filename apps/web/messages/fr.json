@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Tokens ≠ connaissance",
-    "description": "L'infrastructure cognitive pour la recherche."
+    "description": "Élever la recherche grâce à une infrastructure cognitive"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "Aller à la note {position} : {title}"
   },
   "notePane": {
-    "expand": "Agrandir le volet",
-    "expandNote": "Agrandir {title}",
-    "closeNote": "Fermer {title}",
+    "expand": "Agrandir votre espace de travail",
+    "expandNote": "Explorer {title}",
+    "closeNote": "Terminer avec {title}",
     "closePane": "Fermer le volet {index}",
     "editOnGitHub": "Modifier sur GitHub"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} notes renvoient vers ceci"
   },
   "theme": {
-    "toggle": "Basculer le thème",
+    "toggle": "Changer l'apparence",
     "light": "Clair",
     "dark": "Sombre",
     "system": "Système"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "Barre latérale",
-    "description": "Affiche la barre latérale sur mobile.",
+    "description": "Accès rapide à vos recherches",
     "toggle": "Basculer la barre latérale"
   },
   "common": {
     "close": "Fermer",
     "remove": "Supprimer",
-    "loading": "Chargement",
+    "loading": "Chargement de vos recherches...",
     "opensInNewTab": "s'ouvre dans un nouvel onglet"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "La recherche à la\nvitesse de la pensée",
-      "subtitle": "Expériences versionnées. Connaissances reproductibles.",
+      "subtitle": "Des expériences avec une histoire. Un savoir qui dure.",
       "description": "L'infrastructure cognitive pour la recherche.",
       "enterManifesto": "Accéder au Manifeste",
       "github": "GitHub"
@@ -118,7 +118,7 @@
       "eyebrow": "Transparence Radicale",
       "heading": "Nous construisons en public",
       "description": "Chaque décision d'architecture, chaque compromis, chaque choix technique—documenté et accessible. Si les systèmes de connaissance doivent exiger la traçabilité, les outils qui les permettent doivent être construits de la même manière.",
-      "visitHQ": "Visiter le QG"
+      "visitHQ": "Explorez notre QG"
     }
   }
 }

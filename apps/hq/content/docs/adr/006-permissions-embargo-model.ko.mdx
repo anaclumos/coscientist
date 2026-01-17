@@ -1,0 +1,161 @@
+---
+title: "ADR 6: 권한 및 Embargo 모델 (시간 잠금 있는 Block 수준 ACL)"
+---
+
+
+
+# ADR 6: 권한 및 Embargo 모델 (시간 잠금 있는 Block 수준 ACL)
+
+## 배경
+
+시스템에 비공개 또는 민감한 지식이 포함될 수 있으므로 누가 콘텐츠를 보거나 편집할 수 있는지 제어하는 **권한 모델**이 필요하다. 추가로 "embargo" 개념이 도입된다 – 특정 시간까지 숨겨지거나 읽기 제한되어야 하는 콘텐츠 (연구나 미디어에서 조기 공개를 방지하기 위해 흔함).
+
+<Callout type="info" title="핵심 요구사항">
+- 조직 내 사용자 간 접근 구분
+- Block 수준 접근 제어 (콘텐츠 모델이 Block 단위이므로)
+- Block이 타임스탬프 후 자동으로 표시되는 **시간 기반 접근 제어** (embargo)
+</Callout>
+
+## 결정 사항
+
+<Callout type="info" title="핵심 접근법">
+**선택적 시간 기반 embargo 제한과 결합된 Block 수준 접근 제어 목록(ACL)을 구현한다.**
+</Callout>
+
+### ACL 구조
+
+모든 Block에 권한 필드가 있고 구조는:
+
+```typescript
+access: {
+  readers: string[],    // 읽을 수 있는 사용자 ID
+  writers: string[],    // 쓸 수 있는 사용자 ID
+  public: boolean,      // 누구나 볼 수 있음
+  embargoUntil?: Date   // 시간 잠금
+}
+```
+
+각 Block에 `owner`(보통 생성자의 사용자 ID)도 있어서 항상 전체 접근 권한을 가진다.
+
+### 접근 제어 규칙
+
+<Tabs items={['읽기 접근', '쓰기 접근', '공개 Block', '상속']}>
+  <Tab value="읽기 접근">
+    Block을 가져오거나 구독하려면 요청 사용자가:
+    - Block의 허용 목록에 있거나, OR
+    - Block이 공개로 표시되어야 함
+    
+    아니면 Convex 쿼리가 해당 Block을 반환하지 않는다. 이 체크가 모든 쿼리 함수에 내장된다.
+  </Tab>
+  <Tab value="쓰기 접근">
+    수정(텍스트 편집, 자식 추가 등)은 사용자가:
+    - 소유자이거나, OR
+    - 명시적으로 writers 목록에 있어야 함
+    
+    MVP에서는 쓰기 접근을 읽기와 같은 목록으로 취급할 수 있다.
+  </Tab>
+  <Tab value="공개 Block">
+    `public: true`로 표시된 Block은 인증되지 않은 사용자 포함 누구나 볼 수 있다 (앱이 익명 접근을 지원하면).
+    
+    향후 공개는 로그인 없이 공개 URL로 노출할 수 있음을 의미한다.
+  </Tab>
+  <Tab value="상속">
+    권한은 주로 Block당이다. 하지만 더 큰 문서의 일부인 Block은 기본적으로 부모의 권한을 상속해야 한다.
+    
+    부모에 ACL 설정 시 자손에 캐스케이드. 또는 쿼리가 부모 접근 소유를 자식 접근을 의미하는 것으로 취급하도록 보장.
+  </Tab>
+</Tabs>
+
+### Embargo (시간 기반 접근 제어)
+
+필요한 Block에 `embargoUntil` 타임스탬프를 추가한다:
+
+- `embargoUntil`이 미래 시간이면 그 시간이 지날 때까지 Block이 숨겨짐
+- Embargo가 다른 설정을 오버라이드: 공개로 표시되어도 embargo가 해제될 때까지 안 보임
+- Embargo 시간이 지나면 Block 상태가 정상으로 전환 (예: 공개 의도였으면 모두에게 접근 가능)
+- 읽기 체크에서 embargo 강제: `now < embargoUntil`이고 사용자가 특수 허용 목록에 없으면 접근 거부
+
+<Callout type="idea" title="자동화">
+Embargo는 원래 수동이었을 것을 자동화한다. 자정에 일어나서 스위치 전환하는 대신 시스템이 자동으로 한다 – 인간 오류 방지.
+</Callout>
+
+### 구현 세부사항
+
+- **Block 생성 시:** 기본 ACL 설정 (소유자가 접근, 기본 비공개)
+- **공유 mutation:** `shareBlock(blockId, userId)`로 해당 사용자를 readers에 추가
+- **게시/게시 취소:** `setPublic(blockId, true/false)`
+- **Embargo:** `setEmbargo(blockId, timestamp)`로 릴리스 예약
+- **Cron job:** 주기적으로 실행해서 embargo가 지난 Block을 찾고 공개 플래그 전환
+- **파일 연동:** Block ACL 변경 시 그에 따라 파일 권한 업데이트 호출 ([ADR 5](/docs/adr/adr-005-file-storage-access-control))
+
+## 왜 이렇게 결정했나
+
+- **세밀한 제어:** Block 수준 ACL은 모든 정보 조각을 별도로 보호할 수 있음을 의미
+
+- **MVP를 위한 단순성:** 복잡한 역할 기반 권한보다 간단한 허용 목록 접근법 선호. 각 Block이 접근 가능한 사람의 명시적 목록을 담는다 – Google Docs 스타일 공유처럼
+
+- **팀 협업 지원:** 연구자는 개인 메모(비공개 Block)와 팀 프로젝트(공유 Block)를 가질 수 있다. ACL 모델이 이걸 쉽게 지원
+
+- **시간 기반 접근 제어로서의 Embargo:** `embargoUntil`을 포함함으로써 릴리스 시간을 자동화. 게시일까지 embargo인 논문은 그렇게 표시하면 시스템이 나머지를 처리
+
+- **Convex 적합성:** Convex 보안 모델은 대부분 사용자 영역에 있다. `ctx.auth.getUserIdentity()`로 사용자를 가져와서 허용 목록에 없으면 필터링하거나 throw
+
+## 검토한 대안들
+
+<Tabs items={['문서 수준만', '역할 기반', '기능 링크', '암호화']}>
+  <Tab value="문서 수준만">
+    **문서 수준 권한만:** 최상위 문서만 ACL을 가지고 모든 자식 Block이 완전히 상속하도록 단순화.
+    
+    사용자가 일반적으로 사용하는 방법일 것이다 (전체 문서를 공유하거나 안 하거나). 유연성을 위해 Block별 ACL 가능성을 유지하기로 결정.
+  </Tab>
+  <Tab value="역할 기반">
+    **역할 기반 접근:** 역할(admin, member, viewer)을 사용하고 Block에 역할 할당.
+    
+    MVP에서는 이 복잡성을 건너뛴다. 모든 사용자가 기본적으로 동등한 협력자.
+  </Tab>
+  <Tab value="기능 링크">
+    **기능 링크 (비밀 토큰 있는 공유 가능 링크):** 토큰을 생성하고 해당 토큰에 로그인 불필요.
+    
+    유용한 기능이지만 MVP는 사용자 신원 기반 공유에 집중. "공개" 플래그가 본질적으로 특수 케이스.
+  </Tab>
+  <Tab value="암호화">
+    **암호화 기반 보안:** 특정 사용자를 위해 콘텐츠를 암호화해서 서버도 키 없이 읽지 못하게.
+    
+    협업을 복잡하게 만든다 (키 배포). MVP에서는 서버 환경을 신뢰한다.
+  </Tab>
+</Tabs>
+
+## 영향
+
+- **사용자 인터페이스:** UI에서 공유 컨트롤을 노출해야 한다 – 공유할 이메일을 입력하는 "공유" 대화상자
+
+- **상태 관리:** 각 Block의 ACL이 이제 상태의 일부. ProseMirror step 외부의 별도 mutation으로 ACL 업데이트 처리
+
+- **체크 성능:** 사용자 ID 목록의 멤버십 체크는 목록이 거대하지 않으면 사소. 보통 소수나 수십 명, 수천 명 아님
+
+- **보안:** ACL 우회가 없도록 해야 한다. 모든 쿼리와 mutation이 체크를 강제해야. Block의 존재나 콘텐츠를 드러낼 수 있는 모든 경로에 권한 필요
+
+<Callout type="warn" title="시간적 엣지 케이스">
+Cron을 시간마다만 실행하면 embargo가 최대 59분 늦게 해제될 수 있다. 접근 시에도 시간을 체크하는 게 낫다 – `now`가 embargo를 지났으면 플래그가 아직 전환 안 됐어도 접근 허용.
+</Callout>
+
+## 확장 경로
+
+<Cards>
+  <Card title="그룹 공유" href="/docs/adr/adr-007-presence-cursors">
+    많은 사람에게 공유를 단순화하기 위해 그룹/팀 개념 추가. 30명 개별 대신 "Research Team"에 공유.
+  </Card>
+  <Card title="역할 & 권한 매트릭스" href="/docs/adr/adr-007-presence-cursors">
+    역할 공식화: "viewer" vs "editor" vs "commenter". 권한 타입당 ACL 구조 확장.
+  </Card>
+  <Card title="계층적 권한" href="/docs/adr/adr-007-presence-cursors">
+    Block의 플래그: "오버라이드 안 되면 부모로부터 ACL 상속". 명시적 ACL을 찾을 때까지 위로 걸어감.
+  </Card>
+  <Card title="임시 접근 링크" href="/docs/adr/adr-005-file-storage-access-control">
+    외부 협력자와 공유하기 위한 시간 제한 링크 생성 (예: "7일간 공유").
+  </Card>
+</Cards>
+
+<Callout type="idea" title="AI 에이전트 권한">
+Block을 읽거나 쓸 수 있는 AI 에이전트를 추가하면 에이전트를 자체 ID와 적절한 ACL 항목이 있는 특수 사용자 신원으로 취급할 수 있다. 현재 모델이 허용 목록에 에이전트의 userId를 포함할 수 있다.
+</Callout>

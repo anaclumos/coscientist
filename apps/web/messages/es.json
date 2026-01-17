@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Tokens ≠ conocimiento",
-    "description": "La infraestructura cognitiva para la investigación."
+    "description": "Elevando la investigación con infraestructura cognitiva"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "Ir a nota {position}: {title}"
   },
   "notePane": {
-    "expand": "Expandir panel",
-    "expandNote": "Expandir {title}",
-    "closeNote": "Cerrar {title}",
+    "expand": "Ampliar tu espacio de trabajo",
+    "expandNote": "Explorar {title}",
+    "closeNote": "Terminar con {title}",
     "closePane": "Cerrar panel {index}",
     "editOnGitHub": "Editar en GitHub"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} notas enlazan a esto"
   },
   "theme": {
-    "toggle": "Cambiar tema",
+    "toggle": "Cambiar apariencia",
     "light": "Claro",
     "dark": "Oscuro",
     "system": "Sistema"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "Barra lateral",
-    "description": "Muestra la barra lateral en móvil.",
+    "description": "Acceso rápido a tu investigación",
     "toggle": "Alternar barra lateral"
   },
   "common": {
     "close": "Cerrar",
     "remove": "Eliminar",
-    "loading": "Cargando",
+    "loading": "Cargando tu investigación...",
     "opensInNewTab": "abre en pestaña nueva"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "Investigación a la\nVelocidad del Pensamiento",
-      "subtitle": "Experimentos versionados. Conocimiento reproducible.",
+      "subtitle": "Experimentos con historia. Conocimiento que perdura.",
       "description": "La infraestructura cognitiva para la investigación.",
       "enterManifesto": "Entrar al Manifiesto",
       "github": "GitHub"
@@ -118,7 +118,7 @@
       "eyebrow": "Transparencia Radical",
       "heading": "Construimos en público",
       "description": "Cada decisión arquitectónica, cada equilibrio, cada elección técnica—documentada y accesible. Si los sistemas de conocimiento deben exigir trazabilidad, las herramientas que los habilitan deben construirse de la misma manera.",
-      "visitHQ": "Visitar HQ"
+      "visitHQ": "Explora nuestro HQ"
     }
   }
 }

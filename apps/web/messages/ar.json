@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: رموز ≠ المعرفة",
-    "description": "البنية التحتية المعرفية للبحث."
+    "description": "نرتقي بالبحث العلمي عبر بنية تحتية معرفية"
   },
   "header": {
     "brand": "Coscientist",
@@ -12,12 +12,12 @@
   "allNotes": {
     "title": "كل الملاحظات",
     "noteCount": "{count} ملاحظات",
-    "currentlyOpen": "مفتوح حاليًا في الموضع {position}"
+    "currentlyOpen": "مفتوح حالياً في الموضع {position}"
   },
   "notePane": {
-    "expand": "توسيع اللوحة",
-    "expandNote": "توسيع {title}",
-    "closeNote": "إغلاق {title}",
+    "expand": "توسيع مساحة العمل",
+    "expandNote": "استكشف {title}",
+    "closeNote": "انتهيت من {title}",
     "closePane": "إغلاق اللوحة {index}",
     "editOnGitHub": "تعديل على GitHub"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} ملاحظات تشير إلى هذا"
   },
   "theme": {
-    "toggle": "تبديل المظهر",
+    "toggle": "تغيير المظهر",
     "light": "فاتح",
     "dark": "داكن",
     "system": "النظام"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "الشريط الجانبي",
-    "description": "يعرض الشريط الجانبي على الهاتف المحمول.",
+    "description": "وصول سريع لأبحاثك العلمية",
     "toggle": "تبديل الشريط الجانبي"
   },
   "common": {
     "close": "إغلاق",
     "remove": "إزالة",
-    "loading": "جارٍ التحميل",
+    "loading": "جارٍ تحميل أبحاثك...",
     "opensInNewTab": "يفتح في نافذة جديدة"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "البحث بسرعة\nالفكر",
-      "subtitle": "تجارب مُسيطر عليها. معرفة قابلة للتكرار.",
+      "subtitle": "تجارب لها تاريخ. معرفة تدوم.",
       "description": "البنية التحتية المعرفية للبحث.",
       "enterManifesto": "ادخل البيان",
       "github": "GitHub"
@@ -118,7 +118,7 @@
       "eyebrow": "الشفافية الجذرية",
       "heading": "نبني علناً",
       "description": "كل قرار معماري، كل مقايضة، كل خيار تقني—موثق ويمكن الوصول إليه. إذا كانت أنظمة المعرفة يجب أن تطالب بإمكانية التتبع، فيجب بناء الأدوات التي تمكنها بنفس الطريقة.",
-      "visitHQ": "زيارة المقر"
+      "visitHQ": "استكشف مقرنا"
     }
   }
 }

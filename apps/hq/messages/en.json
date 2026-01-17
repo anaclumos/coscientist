@@ -1,1 +1,6 @@
-{}
+{
+  "metadata": {
+    "title": "Coscientist HQ",
+    "description": "Internal documentation and ADRs for Coscientist"
+  }
+}

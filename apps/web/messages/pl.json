@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Tokeny ≠ wiedza",
-    "description": "Infrastruktura poznawcza dla badań naukowych."
+    "description": "Wznieś swoje badania na wyższy poziom dzięki infrastrukturze poznawczej"
   },
   "header": {
     "brand": "Coscientist",
@@ -14,13 +14,10 @@
     "noteCount": "{count} notatek",
     "currentlyOpen": "aktualnie otwarta na pozycji {position}"
   },
-  "mobileCarousel": {
-    "goToNote": "Przejdź do notatki {position}: {title}"
-  },
   "notePane": {
-    "expand": "Rozwiń panel",
-    "expandNote": "Rozwiń {title}",
-    "closeNote": "Zamknij {title}",
+    "expand": "Rozwiń swoją przestrzeń roboczą",
+    "expandNote": "Eksploruj {title}",
+    "closeNote": "Zakończ pracę z {title}",
     "closePane": "Zamknij panel {index}",
     "editOnGitHub": "Edytuj na GitHub"
   },
@@ -29,7 +26,7 @@
     "plural": "{count} notatki prowadzą do tego"
   },
   "theme": {
-    "toggle": "Przełącz motyw",
+    "toggle": "Zmień wygląd",
     "light": "Jasny",
     "dark": "Ciemny",
     "system": "Systemowy"
@@ -46,13 +43,13 @@
   },
   "sidebar": {
     "title": "Panel boczny",
-    "description": "Wyświetla mobilny panel boczny.",
+    "description": "Szybki dostęp do Twoich badań",
     "toggle": "Przełącz panel boczny"
   },
   "common": {
     "close": "Zamknij",
     "remove": "Usuń",
-    "loading": "Wczytywanie",
+    "loading": "Wczytywanie Twoich badań...",
     "opensInNewTab": "otwiera się w nowej karcie"
   },
   "languageSwitcher": {
@@ -62,7 +59,7 @@
   "landing": {
     "hero": {
       "title": "Badania z\nprędkością myśli",
-      "subtitle": "Wersjonowane eksperymenty. Odtwarzalna wiedza.",
+      "subtitle": "Eksperymenty z historią. Wiedza, która trwa.",
       "description": "Kognitywna infrastruktura dla badań.",
       "enterManifesto": "Wejdź do Manifestu",
       "github": "GitHub"
@@ -118,7 +115,7 @@
       "eyebrow": "Radykalna Przejrzystość",
       "heading": "Budujemy publicznie",
       "description": "Każda decyzja architektoniczna, każdy kompromis, każdy wybór techniczny—udokumentowany i dostępny. Jeśli systemy wiedzy powinny wymagać identyfikowalności, narzędzia, które je umożliwiają, również powinny być budowane w ten sam sposób.",
-      "visitHQ": "Odwiedź siedzibę"
+      "visitHQ": "Poznaj naszą siedzibę"
     }
   }
 }

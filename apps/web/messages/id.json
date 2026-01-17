@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Token ≠ Pengetahuan",
-    "description": "Infrastruktur kognitif untuk penelitian."
+    "description": "Tingkatkan riset Anda dengan infrastruktur kognitif"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "Ke catatan {position}: {title}"
   },
   "notePane": {
-    "expand": "Perluas panel",
-    "expandNote": "Perluas {title}",
-    "closeNote": "Tutup {title}",
+    "expand": "Perluas ruang kerja Anda",
+    "expandNote": "Jelajahi {title}",
+    "closeNote": "Selesaikan dengan {title}",
     "closePane": "Tutup panel {index}",
     "editOnGitHub": "Edit di GitHub"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} catatan menautkan ke ini"
   },
   "theme": {
-    "toggle": "Ganti tema",
+    "toggle": "Ubah tampilan",
     "light": "Terang",
     "dark": "Gelap",
     "system": "Sistem"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "Bilah Samping",
-    "description": "Menampilkan bilah samping seluler.",
+    "description": "Akses cepat ke riset Anda",
     "toggle": "Tampilkan/Sembunyikan Bilah Samping"
   },
   "common": {
     "close": "Tutup",
     "remove": "Hapus",
-    "loading": "Memuat",
+    "loading": "Memuat riset Anda...",
     "opensInNewTab": "buka di tab baru"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "Riset dengan\nKecepatan Pikiran",
-      "subtitle": "Eksperimen berversi. Pengetahuan yang dapat direproduksi.",
+      "subtitle": "Eksperimen dengan riwayat. Pengetahuan yang abadi.",
       "description": "Infrastruktur kognitif untuk riset.",
       "enterManifesto": "Masuk Manifesto",
       "github": "GitHub"
@@ -118,7 +118,7 @@
       "eyebrow": "Transparansi Radikal",
       "heading": "Kami membangun secara terbuka",
       "description": "Setiap keputusan arsitektur, setiap trade-off, setiap pilihan teknis—didokumentasikan dan dapat diakses. Jika sistem pengetahuan harus menuntut ketertelusuran, alat yang memungkinkannya harus dibangun dengan cara yang sama.",
-      "visitHQ": "Kunjungi HQ"
+      "visitHQ": "Jelajahi HQ kami"
     }
   }
 }

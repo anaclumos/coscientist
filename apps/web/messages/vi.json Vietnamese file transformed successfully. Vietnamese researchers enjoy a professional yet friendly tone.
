@@ -1,0 +1,124 @@
+{
+  "metadata": {
+    "title": "Coscientist: Token ≠ Tri thức",
+    "description": "Nâng tầm nghiên cứu với cơ sở hạ tầng nhận thức"
+  },
+  "header": {
+    "brand": "Coscientist",
+    "brandWithManifesto": "Tuyên ngôn Coscientist",
+    "github": "GitHub (mở trong tab mới)",
+    "twitter": "X (Twitter) (mở trong tab mới)"
+  },
+  "allNotes": {
+    "title": "Tất cả ghi chú",
+    "noteCount": "{count} ghi chú",
+    "currentlyOpen": "hiện đang mở ở vị trí {position}"
+  },
+  "mobileCarousel": {
+    "goToNote": "Đi tới ghi chú {position}: {title}"
+  },
+  "notePane": {
+    "expand": "Mở rộng không gian làm việc",
+    "expandNote": "Khám phá {title}",
+    "closeNote": "Hoàn tất với {title}",
+    "closePane": "Đóng khung {index}",
+    "editOnGitHub": "Chỉnh sửa trên GitHub"
+  },
+  "backlinks": {
+    "singular": "{count} ghi chú liên kết đến đây",
+    "plural": "{count} ghi chú liên kết đến đây"
+  },
+  "theme": {
+    "toggle": "Thay đổi giao diện",
+    "light": "Sáng",
+    "dark": "Tối",
+    "system": "Hệ thống"
+  },
+  "navigation": {
+    "previous": "Trước",
+    "next": "Tiếp",
+    "goToPreviousPage": "Đi đến trang trước",
+    "goToNextPage": "Đi đến trang tiếp theo",
+    "morePages": "Thêm trang",
+    "pagination": "phân trang",
+    "breadcrumb": "đường dẫn",
+    "more": "Thêm"
+  },
+  "sidebar": {
+    "title": "Thanh bên",
+    "description": "Truy cập nhanh vào nghiên cứu của bạn",
+    "toggle": "Bật/tắt thanh bên"
+  },
+  "common": {
+    "close": "Đóng",
+    "remove": "Xóa",
+    "loading": "Đang tải dữ liệu nghiên cứu...",
+    "opensInNewTab": "mở trong tab mới"
+  },
+  "languageSwitcher": {
+    "label": "Ngôn ngữ",
+    "selectLanguage": "Chọn ngôn ngữ"
+  },
+  "landing": {
+    "hero": {
+      "title": "Nghiên cứu với\nTốc độ Tư duy",
+      "subtitle": "Thí nghiệm có lịch sử. Tri thức trường tồn.",
+      "description": "Hạ tầng nhận thức cho nghiên cứu.",
+      "enterManifesto": "Vào Tuyên ngôn",
+      "github": "GitHub"
+    },
+    "features": {
+      "eyebrow": "Kiến trúc Cốt lõi",
+      "heading": "Được xây dựng khác biệt từ nền tảng",
+      "dialecticalGraph": {
+        "title": "Đồ thị Biện chứng",
+        "description": "Mệnh đề và quan hệ, không phải tài liệu và liên kết. Mọi phát biểu đều truy ngược về bằng chứng."
+      },
+      "rebuttalFirst": {
+        "title": "Phản biện Trước",
+        "description": "Tìm điều phá vỡ trước điều ủng hộ. Tri thức tồn tại qua thử thách."
+      },
+      "multilingual": {
+        "title": "Đa ngôn ngữ",
+        "description": "Bài báo Hàn Quốc. Giả thuyết Đức. Bộ dữ liệu Nhật Bản. Một đồ thị nghiên cứu thống nhất."
+      }
+    },
+    "pipeline": {
+      "eyebrow": "Cách hoạt động",
+      "heading": "Kiến trúc tranh luận đa tác nhân",
+      "description": "AI đa tác nhân tranh luận nội bộ. Bạn thấy các luận điểm còn lại.",
+      "steps": {
+        "propose": "ĐỀ XUẤT",
+        "critique": "PHÊ BÌNH",
+        "rank": "XẾP HẠNG",
+        "refine": "TINH CHỈNH"
+      }
+    },
+    "forWho": {
+      "heading": "Được xây dựng cho nhà nghiên cứu thực chiến",
+      "audiences": {
+        "scientists": "Nhà khoa học vận hành quy trình thí nghiệm",
+        "engineers": "Kỹ sư xây dựng trên các bài báo tiên tiến",
+        "analysts": "Nhà phân tích tổng hợp tài liệu đa lĩnh vực",
+        "teams": "Đội nhóm cần dấu vết tri thức tái tạo được"
+      }
+    },
+    "cta": {
+      "heading": "Encyclopedia Galactica là hư cấu.\nChúng tôi đang xây dựng hạ tầng.",
+      "readManifesto": "Đọc Tuyên ngôn",
+      "github": "GitHub"
+    },
+    "footer": {
+      "manifesto": "Tuyên ngôn",
+      "github": "GitHub",
+      "copyright": "© {year} Coscientist",
+      "hq": "Trụ sở"
+    },
+    "buildInPublic": {
+      "eyebrow": "Minh Bạch Triệt Để",
+      "heading": "Chúng tôi xây dựng công khai",
+      "description": "Mọi quyết định kiến trúc, mọi đánh đổi, mọi lựa chọn kỹ thuật—được ghi chép và có thể truy cập. Nếu các hệ thống tri thức phải yêu cầu khả năng truy xuất nguồn gốc, các công cụ hỗ trợ chúng cũng nên được xây dựng theo cùng cách đó.",
+      "visitHQ": "Khám phá trụ sở của chúng tôi"
+    }
+  }
+}

@@ -1,0 +1,162 @@
+---
+title: "ADR 4: Edge 타입과 Dialectical Graph (Block 간 타입 있는 Edge)"
+---
+
+
+
+# ADR 4: Edge 타입과 Dialectical Graph (Block 간 타입 있는 Edge)
+
+## 배경
+
+선형 문서를 넘어서 지식 시스템은 **지식 그래프** – 아이디어와 정보의 네트워크를 표현하는 것을 목표로 한다. Block([ADR 1](/docs/adr/adr-001-unified-block-model)에서)이 이 그래프의 노드다. 이 노드들을 다양한 관계로 연결하는 방법이 필요하다.
+
+<Callout type="info" title="연결의 종류">
+- **구조적:** 문서 Block이 문단 Block을 _포함_
+- **의미론적:** Block A가 Block B를 _지원_, 또는 Block C가 Block D에 의해 인용된 _참조_
+- **변증법적:** 가설과 증거, 주장과 반론
+</Callout>
+
+"Dialectical Graph"라는 용어는 논증적 또는 대화적 관계를 모델링하고자 함을 뜻한다. Block 간 **타입 있는 Edge**로 풍부한 관계를 포착하고 단순 부모-자식 계층이 아닌 그래프처럼 탐색할 수 있어야 한다.
+
+## 결정 사항
+
+<Callout type="info" title="핵심 모델">
+**Convex 데이터베이스에 관계를 특성화하는 `type` 필드가 있는 범용 Edge 모델을 구현해서 Block의 방향 그래프를 형성한다.**
+</Callout>
+
+각 Edge는 `edges` 테이블의 레코드로 스키마:
+
+- `id: Id<"edges">` – Edge의 기본 키
+- `from: Id<"blocks">` – 소스 Block (시작 노드)
+- `to: Id<"blocks">` – 대상 Block (끝 노드)
+- `type: string` – 관계 타입 (예: "contains", "references", "supports", "opposes", "answers")
+- 메타데이터: `createdBy`, `createdAt`, 선택적 주석이나 가중치
+
+### Edge 방향성
+
+Edge는 방향성이다: A에서 B로의 Edge는 "A [type] B"를 의미한다. 타입을 써서 **변증법적 관계**를 명시적으로 표현할 수 있다:
+
+| 관계 | Edge 방향 | 예시 |
+|------|-----------|------|
+| 증거가 주장을 지원 | `Y --supports--> X` | 증거 Y가 주장 X를 지원 |
+| Block이 다른 Block과 모순 | `M --refutes--> N` | Block M이 Block N을 반박 |
+| 문서가 Block을 포함 | `D --contains--> P` | 문서 D가 문단 P를 포함 |
+| 질문에 답변 | `A --answers--> Q` | 답변 A가 질문 Q에 답함 |
+| 변증법적 반론 | `thesis --counters--> antithesis` | 토론 매핑용 |
+
+### MVP용 핵심 Edge 타입
+
+<Tabs items={['구조적', '참조', '변증법적', '연관']}>
+  <Tab value="구조적">
+    **구조적 타입:** `contains` (또는 `parent-of`/`child-of` 관계)
+    
+    선형 순서는 리스트로 인코딩 안 되면 `next`도 쓸 수 있다. `contains` Edge에 순서/위치 속성을 포함할 수 있다.
+  </Tab>
+  <Tab value="참조">
+    **참조 타입:** `references`
+    
+    Block A가 Block B를 참조한다 (예: 소스 Block으로 링크되는 텍스트의 인용).
+  </Tab>
+  <Tab value="변증법적">
+    **지원/반대 타입:** `supports`, `refutes`
+    
+    주장, 증거, 논증 간의 변증법적 지원이나 모순을 포착한다.
+  </Tab>
+  <Tab value="연관">
+    **연관 타입:** `related`, `example-of`, `definition-of`
+    
+    느슨한 링크와 필요에 따른 도메인별 관계.
+  </Tab>
+</Tabs>
+
+임의의 문자열을 피하려고 코드에서 열거한다 (상수나 enum으로). 나중에 스키마 변경 없이 새 타입을 추가할 수 있을 만큼 모델은 유연하다.
+
+### API 설계
+
+Edge는 Convex mutation으로 조작한다:
+- `addEdge(from, to, type)` – 링크 생성
+- `removeEdge(id)` – 링크 삭제
+
+탐색용 쿼리:
+- `getEdgesFrom(blockId, typeFilter?)` – 나가는 Edge 가져오기
+- `getEdgesTo(blockId, typeFilter?)` – 들어오는 Edge 가져오기
+
+효율적인 조회를 위해 `from`과 `to` 필드에 Convex 인덱스를 만든다.
+
+## 왜 이렇게 결정했나
+
+타입 있는 Edge 모델은 지식 베이스의 관계에 **의미론적 풍부함**과 쿼리 가능성을 제공한다:
+
+- **콘텐츠와 관계의 분리:** Edge를 Block과 별도로 저장해서 Block은 콘텐츠에 집중한다. 하나의 Block이 많은 관계에 자유롭게 참여할 수 있다.
+
+- **타입 있는 Edge가 맥락별 로직을 허용:** 문서 렌더링 시 "contains" Edge를 따른다. 논증 그래프 시각화 시 "supports"나 "refutes" Edge를 찾는다. 지식 그래프는 일반 링크가 아닌 **풍부한 의미론적 관계**로 이득을 본다.
+
+- **진화 가능성:** 시스템이 성장하면서 새 타입 값을 쉽게 추가할 수 있다 – 기존 데이터를 깨지 않고 속성 그래프에 새 관계 타입을 추가하는 것처럼.
+
+- **쿼리와 분석:** Edge가 테이블에 있으니 Convex에서 그래프 스타일 쿼리를 수행할 수 있다. 예: 주장을 지원하는 모든 증거 찾기: `to = claimId AND type = "supports"`.
+
+- **지식 그래프 관행과 정렬:** 전용 그래프 DB 없이 노드와 Edge를 테이블에 저장하는 건 흔한 접근법이다. 각 Edge는 본질적으로 트리플(주어, 술어, 목적어)이다.
+
+- **변증법적 추론:** 타입 있는 Edge로 "증거 Block E가 주장 C를 지원하고 주장 C가 이론 T를 지원하면 E가 간접적으로 T를 지원한다" 같은 로직을 구현할 수 있다 – 이런 추론은 Edge 타입 이해에 의존한다.
+
+## 검토한 대안들
+
+<Tabs items={['타입 없는 링크', 'Block에 Edge 내장', 'Graph DB', '사용자 정의 타입']}>
+  <Tab value="타입 없는 링크">
+    **타입 없는 (또는 암시적) 링크:** Block이 타입 지정 없이 다른 Block에 대한 참조를 저장.
+    
+    **기각** – 명확성이 부족하다. 시스템이 링크가 무엇을 의미하는지 _알기_를 원한다. 타입 있는 Edge가 지식을 기계 해석 가능하게 만든다.
+  </Tab>
+  <Tab value="Block에 Edge 내장">
+    **Block에 Edge 속성 내장:** 각 Block이 관계용 필드를 포함 (예: `citations: [blockId]`, `supports: [blockId]`).
+    
+    **기각** – 새 관계 타입마다 필드가 추가되고 다대다 관계 정규화가 어렵다. 별도 Edge 엔티티가 이 문제들을 피한다.
+  </Tab>
+  <Tab value="Graph DB">
+    **Graph Database나 외부 저장소:** Neo4j 같은 전용 그래프 엔진 사용.
+    
+    MVP에는 **기각** – 과하다. Convex가 행을 잘 처리한다. 쿼리가 복잡한 다중 홉 탐색이 되면 재고려 가능.
+  </Tab>
+  <Tab value="사용자 정의 타입">
+    **사용자 정의 Edge 타입** (folksonomy 스타일) vs 고정 세트.
+    
+    MVP는 일관성을 위해 고정된 열거 세트를 사용한다. 사용자 정의 타입은 강력하지만 혼란을 야기할 수 있다. 고급 사용자용으로 재검토 가능.
+  </Tab>
+</Tabs>
+
+## 영향
+
+- **무결성 제약:** Edge 끝점 (from/to Block ID)이 실제로 존재해야 한다. Block 삭제 시 관련 모든 Edge도 삭제해야 한다. Convex는 자동 캐스케이드하지 않으니 코드에서 처리한다.
+
+- **중복과 순환 방지:** `(from, to, type)` 고유성을 강제한다. 의미론적 링크에서 순환은 가능하지만 "contains" 계층 구조는 비순환이어야 한다. 탐색에서 무한 재귀를 피하도록 주의한다.
+
+- **그래프 쿼리 복잡도:** 단일 쿼리로 직접 Edge는 쉽게 가져오지만 다중 홉 탐색은 여러 쿼리나 클라이언트 측 로직이 필요할 수 있다. MVP는 1홉이나 2홉 쿼리로 충분하다.
+
+- **권한 모델 상호작용:** Edge는 Block에서 가시성 규칙을 상속한다. Block B를 볼 수 없으면 "A supports B" Edge도 볼 수 없어야 한다. Edge 생성에는 두 Block을 볼 권한이 필요하다.
+
+- **UI 복잡도:** MVP는 단순하게: 주장 아래 지원 증거 나열, 참조에 역링크 표시. 전체 그래프 시각화는 나중에 올 수 있다.
+
+<Callout type="warn" title="일괄 작업">
+일부 사용자 액션은 한 번에 여러 Edge를 생성할 수 있다 (예: 각주 있는 마크다운 가져오기). 필요한 모든 Block과 Edge를 생성하거나 오류 시 중단하는 Convex 함수로 래핑한다.
+</Callout>
+
+## 확장 경로
+
+<Cards>
+  <Card title="추가 Edge 타입 / 온톨로지" href="/docs/adr/adr-001-unified-block-model">
+    과학적 맥락에서 "extends", "confirms", "disputes" 같은 도메인별 타입 도입. 모델이 새 타입을 쉽게 허용한다.
+  </Card>
+  <Card title="가중치 / 주석 있는 Edge" href="/docs/adr/adr-001-unified-block-model">
+    "strongly supports" vs "weakly supports"용 가중치/점수 필드 추가, 또는 A가 B를 지원하는 _이유_를 설명하는 정당화 텍스트.
+  </Card>
+  <Card title="그래프 시각화" href="/docs/adr/adr-007-presence-cursors">
+    깊이 제한 DFS/BFS로 서브그래프 데이터를 모으는 시각적 그래프 뷰 구현. 그래프 알고리즘(최단 경로, 중심성)과 통합 가능.
+  </Card>
+  <Card title="AI 주도 Edge 생성" href="/docs/adr/adr-008-platform-boundaries-expansion">
+    AI 에이전트가 자동으로 Edge를 제안하거나 생성 (예: "이 Block은 Block Z와 모순됩니다"). AI 제안 Edge는 사용자 검증용으로 표시.
+  </Card>
+</Cards>
+
+<Callout type="idea" title="연합 & 인스턴스 간 Edge">
+향후 연합 지식 네트워크에서 다른 인스턴스의 Block을 연결하는 Edge를 허용할 수 있다. 전역 ID 체계 (URI)와 `toExternal: {instance: URL, id: externalId}` 같은 필드가 필요하다.
+</Callout>

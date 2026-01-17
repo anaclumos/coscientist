@@ -16,7 +16,20 @@ import { cn } from "@/lib/utils"
 
 const MobilePaneCarousel = dynamic(
   () => import("./mobile-pane-carousel").then((mod) => mod.MobilePaneCarousel),
-  { ssr: false }
+  {
+    ssr: false,
+    loading: () => (
+      <div className="flex h-full w-full items-center justify-center bg-background">
+        <div
+          aria-label="Loading carousel"
+          className="size-8 animate-spin rounded-full border-2 border-foreground/20 border-t-foreground"
+          role="status"
+        >
+          <span className="sr-only">Loading...</span>
+        </div>
+      </div>
+    ),
+  }
 )
 
 interface PaneCollapseContextValue {
@@ -236,32 +249,38 @@ export function PaneContainer({
     }
   }, [isMobile, focusIndex, getScrollBehavior])
 
-  if (isMobile && mobileData) {
-    return (
-      <MobilePaneCarousel
-        focusIndex={focusIndex}
-        onClose={mobileData.onClose}
-        onLinkClick={mobileData.onLinkClick}
-        panes={mobileData.panes}
-      />
-    )
-  }
-
   return (
-    <PaneCollapseContext.Provider
-      value={{ collapsedIndices, registerPaneRef, scrollToPane }}
-    >
-      <div
-        className={cn(
-          "relative flex min-h-0 flex-1 overflow-x-auto overflow-y-hidden",
-          "overscroll-x-none scroll-smooth bg-background",
-          "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20",
-          "snap-x snap-mandatory md:snap-none"
+    <>
+      {/* Mobile: visible only < 768px */}
+      <div className="block md:hidden h-full w-full">
+        {mobileData && (
+          <MobilePaneCarousel
+            focusIndex={focusIndex}
+            onClose={mobileData.onClose}
+            onLinkClick={mobileData.onLinkClick}
+            panes={mobileData.panes}
+          />
         )}
-        ref={containerRef}
-      >
-        {children}
       </div>
-    </PaneCollapseContext.Provider>
+
+      {/* Desktop: visible only >= 768px */}
+      <div className="hidden md:block h-full w-full">
+        <PaneCollapseContext.Provider
+          value={{ collapsedIndices, registerPaneRef, scrollToPane }}
+        >
+          <div
+            className={cn(
+              "relative flex min-h-0 flex-1 overflow-x-auto overflow-y-hidden",
+              "overscroll-x-none scroll-smooth bg-background",
+              "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20",
+              "snap-x snap-mandatory md:snap-none"
+            )}
+            ref={containerRef}
+          >
+            {children}
+          </div>
+        </PaneCollapseContext.Provider>
+      </div>
+    </>
   )
 }

@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Tokens ≠ Knowledge",
-    "description": "The cognitive infrastructure for research."
+    "description": "Elevating research with cognitive infrastructure"
   },
   "header": {
     "brand": "Coscientist",
@@ -15,9 +15,9 @@
     "currentlyOpen": "currently open at position {position}"
   },
   "notePane": {
-    "expand": "Expand pane",
-    "expandNote": "Expand {title}",
-    "closeNote": "Close {title}",
+    "expand": "Expand your workspace",
+    "expandNote": "Explore {title}",
+    "closeNote": "Finish with {title}",
     "closePane": "Close pane {index}",
     "editOnGitHub": "Edit on GitHub"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} notes link to this"
   },
   "theme": {
-    "toggle": "Toggle theme",
+    "toggle": "Switch appearance",
     "light": "Light",
     "dark": "Dark",
     "system": "System"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "Sidebar",
-    "description": "Displays the mobile sidebar.",
+    "description": "Quick access to your research",
     "toggle": "Toggle Sidebar"
   },
   "common": {
     "close": "Close",
     "remove": "Remove",
-    "loading": "Loading",
+    "loading": "Loading your research...",
     "opensInNewTab": "opens in new tab"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Versioned experiments. Reproducible knowledge.",
+      "subtitle": "Experiments with history. Knowledge that lasts.",
       "description": "The cognitive infrastructure for research.",
       "enterManifesto": "Enter Manifesto",
       "github": "GitHub"
@@ -107,7 +107,7 @@
       "eyebrow": "Radical Transparency",
       "heading": "We build in public",
       "description": "Every architecture decision, every tradeoff, every technical choice—documented and accessible. If knowledge systems should demand traceability, the tools that enable them should be built the same way.",
-      "visitHQ": "Visit HQ"
+      "visitHQ": "Explore our HQ"
     },
     "cta": {
       "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",

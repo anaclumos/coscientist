@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Token'lar ≠ Bilgi",
-    "description": "Araştırma için bilişsel altyapı."
+    "description": "Bilişsel altyapı ile araştırmalarınızı bir üst seviyeye taşıyın"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "{position}. nota git: {title}"
   },
   "notePane": {
-    "expand": "Paneli genişlet",
-    "expandNote": "{title} başlığını genişlet",
-    "closeNote": "{title} başlığını kapat",
+    "expand": "Çalışma alanınızı genişletin",
+    "expandNote": "{title} içeriğini keşfedin",
+    "closeNote": "{title} ile çalışmayı tamamlayın",
     "closePane": "{index}. paneli kapat",
     "editOnGitHub": "GitHub'da düzenle"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} not buna bağlantı veriyor"
   },
   "theme": {
-    "toggle": "Temayı değiştir",
+    "toggle": "Görünümü değiştir",
     "light": "Açık",
     "dark": "Koyu",
     "system": "Sistem"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "Kenar Çubuğu",
-    "description": "Mobil kenar çubuğunu görüntüler.",
+    "description": "Araştırmalarınıza hızlıca erişin",
     "toggle": "Kenar Çubuğunu Aç/Kapat"
   },
   "common": {
     "close": "Kapat",
     "remove": "Kaldır",
-    "loading": "Yükleniyor",
+    "loading": "Araştırmalarınız yükleniyor...",
     "opensInNewTab": "yeni sekmede açılır"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "Düşünce Hızında\nAraştırma",
-      "subtitle": "Sürümlü deneyler. Yeniden üretilebilir bilgi.",
+      "subtitle": "Geçmişi olan deneyler. Kalıcı bilgi.",
       "description": "Araştırma için bilişsel altyapı.",
       "enterManifesto": "Manifesto'ya Gir",
       "github": "GitHub"
@@ -117,8 +117,8 @@
     "buildInPublic": {
       "eyebrow": "Radikal Şeffaflık",
       "heading": "Halka açık inşa ediyoruz",
-      "description": "Her mimari karar, her ödün, her teknik seçim—belgelenmiş ve erişilebilir. Bilgi sistemleri izlenebilirlik talep etmeliyse, onları mümkün kılan araçlar da aynı şekilde inşa edilmelidir.",
-      "visitHQ": "Merkezi Ziyaret Et"
+      "description": "Her mimari karar, her ödün, her teknik seçim—belgelenmiş ve erişilebilir. Bilgi sistemleri izlenebilirlik talep etmeliyse, onları mümkün kılan araçlar da ayn şekilde inşa edilmelidir.",
+      "visitHQ": "Merkezimizi keşfedin"
     }
   }
 }

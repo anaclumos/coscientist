@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Token ≠ 知識",
-    "description": "研究的認知基礎設施。"
+    "description": "以認知基礎設施助力卓越研究"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "前往第 {position} 則筆記：{title}"
   },
   "notePane": {
-    "expand": "展開窗格",
-    "expandNote": "展開 {title}",
-    "closeNote": "關閉 {title}",
+    "expand": "擴展您的工作空間",
+    "expandNote": "探索 {title}",
+    "closeNote": "整理好 {title}",
     "closePane": "關閉窗格 {index}",
     "editOnGitHub": "在 GitHub 上編輯"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} 則筆記連結至此"
   },
   "theme": {
-    "toggle": "切換主題",
+    "toggle": "切換外觀",
     "light": "淺色",
     "dark": "深色",
     "system": "跟隨系統"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "側邊欄",
-    "description": "顯示行動版側邊欄。",
+    "description": "快速訪問您的研究資料",
     "toggle": "切換側邊欄"
   },
   "common": {
     "close": "關閉",
     "remove": "移除",
-    "loading": "載入中",
+    "loading": "正在載入您的研究資料...",
     "opensInNewTab": "在新分頁中開啟"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "以思考的速度\n進行研究",
-      "subtitle": "版本化的實驗。可複製的知識。",
+      "subtitle": "帶歷史記錄的實驗。持久的知識。",
       "description": "研究的認知基礎設施。",
       "enterManifesto": "進入宣言",
       "github": "GitHub"
@@ -80,7 +80,7 @@
       },
       "multilingual": {
         "title": "多語言",
-        "description": "韓文論文。德文假說。日文資料集。一個統一的研究圖譜。"
+        "description": "韓文論文。德文假設。日文資料集。一個統一的研究圖譜。"
       }
     },
     "pipeline": {
@@ -117,8 +117,8 @@
     "buildInPublic": {
       "eyebrow": "徹底透明",
       "heading": "我們公開構建",
-      "description": "每一個架構決策、每一個權衡、每一個技術選擇——都有文件記錄且可訪問。如果知識系統應該要求可追溯性,那麼構建這些系統的工具也應該以同樣的方式構建。",
-      "visitHQ": "訪問總部"
+      "description": "每一個架構決策、每一個權衡、每一個技術選擇——都有文件記錄且可訪問。如果知識系統應該要求可追溯性，那麼構建這些系統的工具也應該以同樣的方式構建。",
+      "visitHQ": "探索我們的總部"
     }
   }
 }

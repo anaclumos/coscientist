@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Tokens ≠ Conhecimento",
-    "description": "A infraestrutura cognitiva para pesquisa."
+    "description": "Elevando a pesquisa com infraestrutura cognitiva"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "Ir para nota {position}: {title}"
   },
   "notePane": {
-    "expand": "Expandir painel",
-    "expandNote": "Expandir {title}",
-    "closeNote": "Fechar {title}",
+    "expand": "Expandir o seu espaço de trabalho",
+    "expandNote": "Explorar {title}",
+    "closeNote": "Concluir com {title}",
     "closePane": "Fechar painel {index}",
     "editOnGitHub": "Editar no GitHub"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} notas têm link para isto"
   },
   "theme": {
-    "toggle": "Alternar tema",
+    "toggle": "Alterar aparência",
     "light": "Claro",
     "dark": "Escuro",
     "system": "Sistema"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "Barra lateral",
-    "description": "Exibe a barra lateral no telemóvel.",
+    "description": "Acesso rápido à sua pesquisa",
     "toggle": "Alternar barra lateral"
   },
   "common": {
     "close": "Fechar",
     "remove": "Remover",
-    "loading": "A carregar",
+    "loading": "A carregar a sua pesquisa...",
     "opensInNewTab": "abre em nova aba"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "Pesquisa na\nVelocidade do Pensamento",
-      "subtitle": "Experimentos versionados. Conhecimento reproduzível.",
+      "subtitle": "Experimentos com história. Conhecimento que perdura.",
       "description": "A infraestrutura cognitiva para pesquisa.",
       "enterManifesto": "Entrar no Manifesto",
       "github": "GitHub"
@@ -118,7 +118,7 @@
       "eyebrow": "Transparência Radical",
       "heading": "Construímos em público",
       "description": "Cada decisão arquitetônica, cada trade-off, cada escolha técnica—documentada e acessível. Se os sistemas de conhecimento devem exigir rastreabilidade, as ferramentas que os habilitam devem ser construídas da mesma forma.",
-      "visitHQ": "Visitar HQ"
+      "visitHQ": "Explore o nosso HQ"
     }
   }
 }

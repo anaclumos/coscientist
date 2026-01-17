@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: 토큰 ≠ 지식",
-    "description": "연구를 위한 지식 인프라."
+    "description": "인지 인프라로 연구의 가치를 높입니다"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "{position}번 노트로 이동: {title}"
   },
   "notePane": {
-    "expand": "창 확장",
-    "expandNote": "{title} 확장",
-    "closeNote": "{title} 닫기",
+    "expand": "작업 공간 확장",
+    "expandNote": "{title} 살펴보기",
+    "closeNote": "{title} 정리하기",
     "closePane": "{index}번 창 닫기",
     "editOnGitHub": "GitHub에서 수정"
   },
@@ -29,7 +29,7 @@
     "plural": "이 노트로 연결된 링크 {count}개"
   },
   "theme": {
-    "toggle": "테마 전환",
+    "toggle": "화면 모드 전환",
     "light": "라이트",
     "dark": "다크",
     "system": "시스템"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "사이드바",
-    "description": "모바일 사이드바를 표시합니다.",
+    "description": "연구 데이터에 빠르게 접근하세요",
     "toggle": "사이드바 전환"
   },
   "common": {
     "close": "닫기",
     "remove": "삭제",
-    "loading": "로딩 중",
+    "loading": "연구 데이터를 불러오는 중...",
     "opensInNewTab": "새 탭에서 열림"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "생각의 속도로\n연구하다",
-      "subtitle": "버전 관리되는 실험. 재현 가능한 지식.",
+      "subtitle": "기록이 있는 실험. 지속되는 지식.",
       "description": "연구를 위한 인지 인프라.",
       "enterManifesto": "선언문 입장",
       "github": "GitHub"
@@ -118,7 +118,7 @@
       "eyebrow": "급진적 투명성",
       "heading": "우리는 공개적으로 구축합니다",
       "description": "모든 아키텍처 결정, 모든 트레이드오프, 모든 기술적 선택—문서화되고 접근 가능합니다. 지식 시스템이 추적 가능성을 요구해야 한다면, 이를 가능하게 하는 도구도 같은 방식으로 구축되어야 합니다.",
-      "visitHQ": "본부 방문"
+      "visitHQ": "본부 살펴보기"
     }
   }
 }

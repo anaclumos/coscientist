@@ -11,67 +11,61 @@ const create = browser<
 const browserCollections = {
   docs: create.doc("docs", {
     "index.mdx": () => import("../content/docs/index.mdx?collection=docs"),
-    "adr/adr-001-unified-block-model.ko.md": () =>
+    "adr/001-unified-block-model.ko.mdx": () =>
       import(
-        "../content/docs/adr/adr-001-unified-block-model.ko.md?collection=docs"
+        "../content/docs/adr/001-unified-block-model.ko.mdx?collection=docs"
       ),
-    "adr/adr-001-unified-block-model.md": () =>
+    "adr/001-unified-block-model.mdx": () =>
+      import("../content/docs/adr/001-unified-block-model.mdx?collection=docs"),
+    "adr/002-versioning-strategy.ko.mdx": () =>
       import(
-        "../content/docs/adr/adr-001-unified-block-model.md?collection=docs"
+        "../content/docs/adr/002-versioning-strategy.ko.mdx?collection=docs"
       ),
-    "adr/adr-002-versioning-strategy.ko.md": () =>
+    "adr/002-versioning-strategy.mdx": () =>
+      import("../content/docs/adr/002-versioning-strategy.mdx?collection=docs"),
+    "adr/003-collaboration-protocol.ko.mdx": () =>
       import(
-        "../content/docs/adr/adr-002-versioning-strategy.ko.md?collection=docs"
+        "../content/docs/adr/003-collaboration-protocol.ko.mdx?collection=docs"
       ),
-    "adr/adr-002-versioning-strategy.md": () =>
+    "adr/003-collaboration-protocol.mdx": () =>
       import(
-        "../content/docs/adr/adr-002-versioning-strategy.md?collection=docs"
+        "../content/docs/adr/003-collaboration-protocol.mdx?collection=docs"
       ),
-    "adr/adr-003-collaboration-protocol.ko.md": () =>
+    "adr/004-edge-types-dialectical-graph.ko.mdx": () =>
       import(
-        "../content/docs/adr/adr-003-collaboration-protocol.ko.md?collection=docs"
+        "../content/docs/adr/004-edge-types-dialectical-graph.ko.mdx?collection=docs"
       ),
-    "adr/adr-003-collaboration-protocol.md": () =>
+    "adr/004-edge-types-dialectical-graph.mdx": () =>
       import(
-        "../content/docs/adr/adr-003-collaboration-protocol.md?collection=docs"
+        "../content/docs/adr/004-edge-types-dialectical-graph.mdx?collection=docs"
       ),
-    "adr/adr-004-edge-types-dialectical-graph.ko.md": () =>
+    "adr/005-file-storage-access-control.ko.mdx": () =>
       import(
-        "../content/docs/adr/adr-004-edge-types-dialectical-graph.ko.md?collection=docs"
+        "../content/docs/adr/005-file-storage-access-control.ko.mdx?collection=docs"
       ),
-    "adr/adr-004-edge-types-dialectical-graph.md": () =>
+    "adr/005-file-storage-access-control.mdx": () =>
       import(
-        "../content/docs/adr/adr-004-edge-types-dialectical-graph.md?collection=docs"
+        "../content/docs/adr/005-file-storage-access-control.mdx?collection=docs"
       ),
-    "adr/adr-005-file-storage-access-control.ko.md": () =>
+    "adr/006-permissions-embargo-model.ko.mdx": () =>
       import(
-        "../content/docs/adr/adr-005-file-storage-access-control.ko.md?collection=docs"
+        "../content/docs/adr/006-permissions-embargo-model.ko.mdx?collection=docs"
       ),
-    "adr/adr-005-file-storage-access-control.md": () =>
+    "adr/006-permissions-embargo-model.mdx": () =>
       import(
-        "../content/docs/adr/adr-005-file-storage-access-control.md?collection=docs"
+        "../content/docs/adr/006-permissions-embargo-model.mdx?collection=docs"
       ),
-    "adr/adr-006-permissions-embargo-model.ko.md": () =>
+    "adr/007-presence-cursors.ko.mdx": () =>
+      import("../content/docs/adr/007-presence-cursors.ko.mdx?collection=docs"),
+    "adr/007-presence-cursors.mdx": () =>
+      import("../content/docs/adr/007-presence-cursors.mdx?collection=docs"),
+    "adr/008-platform-boundaries-expansion.ko.mdx": () =>
       import(
-        "../content/docs/adr/adr-006-permissions-embargo-model.ko.md?collection=docs"
+        "../content/docs/adr/008-platform-boundaries-expansion.ko.mdx?collection=docs"
       ),
-    "adr/adr-006-permissions-embargo-model.md": () =>
+    "adr/008-platform-boundaries-expansion.mdx": () =>
       import(
-        "../content/docs/adr/adr-006-permissions-embargo-model.md?collection=docs"
-      ),
-    "adr/adr-007-presence-cursors.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-007-presence-cursors.ko.md?collection=docs"
-      ),
-    "adr/adr-007-presence-cursors.md": () =>
-      import("../content/docs/adr/adr-007-presence-cursors.md?collection=docs"),
-    "adr/adr-008-platform-boundaries-expansion.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-008-platform-boundaries-expansion.ko.md?collection=docs"
-      ),
-    "adr/adr-008-platform-boundaries-expansion.md": () =>
-      import(
-        "../content/docs/adr/adr-008-platform-boundaries-expansion.md?collection=docs"
+        "../content/docs/adr/008-platform-boundaries-expansion.mdx?collection=docs"
       ),
   }),
 }

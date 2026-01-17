@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Token ≠ 知识",
-    "description": "研究的认知基础设施。"
+    "description": "以认知基础设施助力卓越研究"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "前往第 {position} 条笔记：{title}"
   },
   "notePane": {
-    "expand": "展开面板",
-    "expandNote": "展开 {title}",
-    "closeNote": "关闭 {title}",
+    "expand": "扩展您的工作空间",
+    "expandNote": "探索 {title}",
+    "closeNote": "整理好 {title}",
     "closePane": "关闭面板 {index}",
     "editOnGitHub": "在 GitHub 上编辑"
   },
@@ -29,7 +29,7 @@
     "plural": "有 {count} 条笔记链接到此处"
   },
   "theme": {
-    "toggle": "切换主题",
+    "toggle": "切换外观",
     "light": "浅色",
     "dark": "深色",
     "system": "跟随系统"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "侧边栏",
-    "description": "显示移动端侧边栏。",
+    "description": "快速访问您的研究资料",
     "toggle": "切换侧边栏"
   },
   "common": {
     "close": "关闭",
     "remove": "移除",
-    "loading": "加载中",
+    "loading": "正在加载您的研究资料...",
     "opensInNewTab": "在新标签页中打开"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "以思维的速度\n进行研究",
-      "subtitle": "版本化的实验。可复现的知识。",
+      "subtitle": "带历史记录的实验。持久的知识。",
       "description": "研究的认知基础设施。",
       "enterManifesto": "进入宣言",
       "github": "GitHub"
@@ -118,7 +118,7 @@
       "eyebrow": "彻底透明",
       "heading": "我们公开构建",
       "description": "每一个架构决策、每一个权衡、每一个技术选择——都有文档记录且可访问。如果知识系统应该要求可追溯性，那么构建这些系统的工具也应该以同样的方式构建。",
-      "visitHQ": "访问总部"
+      "visitHQ": "探索我们的总部"
     }
   }
 }

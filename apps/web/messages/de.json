@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Tokens ≠ Wissen",
-    "description": "Die kognitive Infrastruktur für die Forschung."
+    "description": "Forschung exzellent gestalten mit kognitiver Infrastruktur"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "Zu Notiz {position} gehen: {title}"
   },
   "notePane": {
-    "expand": "Bereich erweitern",
-    "expandNote": "{title} erweitern",
-    "closeNote": "{title} schließen",
+    "expand": "Workspace erweitern",
+    "expandNote": "{title} erkunden",
+    "closeNote": "Abschließen mit {title}",
     "closePane": "Bereich {index} schließen",
     "editOnGitHub": "Auf GitHub bearbeiten"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} Notizen verweisen darauf"
   },
   "theme": {
-    "toggle": "Theme umschalten",
+    "toggle": "Erscheinungsbild ändern",
     "light": "Hell",
     "dark": "Dunkel",
     "system": "System"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "Seitenleiste",
-    "description": "Zeigt die mobile Seitenleiste an.",
+    "description": "Schneller Zugriff auf Ihre Forschung",
     "toggle": "Seitenleiste umschalten"
   },
   "common": {
     "close": "Schließen",
     "remove": "Entfernen",
-    "loading": "Wird geladen",
+    "loading": "Ihre Forschung wird geladen...",
     "opensInNewTab": "öffnet in neuem Tab"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "Forschung mit\nGedankengeschwindigkeit",
-      "subtitle": "Versionierte Experimente. Reproduzierbares Wissen.",
+      "subtitle": "Experimente mit Historie. Wissen, das bleibt.",
       "description": "Die kognitive Infrastruktur für Forschung.",
       "enterManifesto": "Manifest lesen",
       "github": "GitHub"
@@ -118,7 +118,7 @@
       "eyebrow": "Radikale Transparenz",
       "heading": "Wir bauen öffentlich",
       "description": "Jede Architekturentscheidung, jeder Kompromiss, jede technische Wahl—dokumentiert und zugänglich. Wenn Wissenssysteme Nachvollziehbarkeit fordern sollten, sollten die Werkzeuge, die sie ermöglichen, auf dieselbe Weise gebaut werden.",
-      "visitHQ": "HQ besuchen"
+      "visitHQ": "Erkunden Sie unser HQ"
     }
   }
 }

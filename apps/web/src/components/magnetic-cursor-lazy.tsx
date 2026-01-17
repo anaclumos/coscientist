@@ -6,7 +6,10 @@ import { useReducedMotion } from "@/hooks/use-reduced-motion"
 
 const MagneticCursor = dynamic(
   () => import("./magnetic-cursor").then((mod) => mod.MagneticCursor),
-  { ssr: false }
+  {
+    ssr: false,
+    loading: () => null, // Decorative element, no placeholder needed
+  }
 )
 
 function useFinePointer() {

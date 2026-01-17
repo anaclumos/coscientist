@@ -1,7 +1,7 @@
 {
   "metadata": {
     "title": "Coscientist: Token ≠ conoscenza",
-    "description": "L'infrastruttura cognitiva per la ricerca."
+    "description": "Eleva la tua ricerca con l'infrastruttura cognitiva"
   },
   "header": {
     "brand": "Coscientist",
@@ -18,9 +18,9 @@
     "goToNote": "Vai alla nota {position}: {title}"
   },
   "notePane": {
-    "expand": "Espandi riquadro",
-    "expandNote": "Espandi {title}",
-    "closeNote": "Chiudi {title}",
+    "expand": "Espandi il tuo spazio di lavoro",
+    "expandNote": "Esplora {title}",
+    "closeNote": "Concludi con {title}",
     "closePane": "Chiudi riquadro {index}",
     "editOnGitHub": "Modifica su GitHub"
   },
@@ -29,7 +29,7 @@
     "plural": "{count} note rimandano a questa"
   },
   "theme": {
-    "toggle": "Cambia tema",
+    "toggle": "Cambia aspetto",
     "light": "Chiaro",
     "dark": "Scuro",
     "system": "Sistema"
@@ -46,13 +46,13 @@
   },
   "sidebar": {
     "title": "Barra laterale",
-    "description": "Mostra la barra laterale su mobile.",
+    "description": "Accesso rapido alla tua ricerca",
     "toggle": "Mostra/nascondi barra laterale"
   },
   "common": {
     "close": "Chiudi",
     "remove": "Rimuovi",
-    "loading": "Caricamento",
+    "loading": "Caricamento della tua ricerca...",
     "opensInNewTab": "si apre in nuova scheda"
   },
   "languageSwitcher": {
@@ -62,7 +62,7 @@
   "landing": {
     "hero": {
       "title": "Ricerca alla\nVelocità del Pensiero",
-      "subtitle": "Esperimenti versionati. Conoscenza riproducibile.",
+      "subtitle": "Esperimenti con una storia. Conoscenza che dura.",
       "description": "L'infrastruttura cognitiva per la ricerca.",
       "enterManifesto": "Entra nel Manifesto",
       "github": "GitHub"
@@ -118,7 +118,7 @@
       "eyebrow": "Trasparenza Radicale",
       "heading": "Costruiamo in pubblico",
       "description": "Ogni decisione architettonica, ogni compromesso, ogni scelta tecnica—documentata e accessibile. Se i sistemi di conoscenza devono richiedere tracciabilità, gli strumenti che li abilitano dovrebbero essere costruiti allo stesso modo.",
-      "visitHQ": "Visita HQ"
+      "visitHQ": "Esplora il nostro HQ"
     }
   }
 }
