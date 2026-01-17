@@ -91,7 +91,9 @@ async function NotesContent({
 }: {
   locale: string
   rootSlug: string
-  searchParamsPromise: Promise<{ [key: string]: string | string[] | undefined }>
+  searchParamsPromise: Promise<{
+    [key: string]: string | string[] | undefined
+  }>
 }) {
   const [resolvedSearchParams, { notes, backlinks }] = await Promise.all([
     searchParamsPromise,
