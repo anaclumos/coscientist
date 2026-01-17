@@ -249,38 +249,32 @@ export function PaneContainer({
     }
   }, [isMobile, focusIndex, getScrollBehavior])
 
-  return (
-    <>
-      {/* Mobile: visible only < 768px */}
-      <div className="block md:hidden h-full w-full">
-        {mobileData && (
-          <MobilePaneCarousel
-            focusIndex={focusIndex}
-            onClose={mobileData.onClose}
-            onLinkClick={mobileData.onLinkClick}
-            panes={mobileData.panes}
-          />
-        )}
-      </div>
+  if (isMobile && mobileData) {
+    return (
+      <MobilePaneCarousel
+        focusIndex={focusIndex}
+        onClose={mobileData.onClose}
+        onLinkClick={mobileData.onLinkClick}
+        panes={mobileData.panes}
+      />
+    )
+  }
 
-      {/* Desktop: visible only >= 768px */}
-      <div className="hidden md:block h-full w-full">
-        <PaneCollapseContext.Provider
-          value={{ collapsedIndices, registerPaneRef, scrollToPane }}
-        >
-          <div
-            className={cn(
-              "relative flex min-h-0 flex-1 overflow-x-auto overflow-y-hidden",
-              "overscroll-x-none scroll-smooth bg-background",
-              "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20",
-              "snap-x snap-mandatory md:snap-none"
-            )}
-            ref={containerRef}
-          >
-            {children}
-          </div>
-        </PaneCollapseContext.Provider>
+  return (
+    <PaneCollapseContext.Provider
+      value={{ collapsedIndices, registerPaneRef, scrollToPane }}
+    >
+      <div
+        className={cn(
+          "relative flex min-h-0 flex-1 overflow-x-auto overflow-y-hidden",
+          "overscroll-x-none scroll-smooth bg-background",
+          "scrollbar-thin scrollbar-track-transparent scrollbar-thumb-foreground/20",
+          "snap-x snap-mandatory md:snap-none"
+        )}
+        ref={containerRef}
+      >
+        {children}
       </div>
-    </>
+    </PaneCollapseContext.Provider>
   )
 }
