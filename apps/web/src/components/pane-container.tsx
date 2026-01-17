@@ -18,17 +18,6 @@ const MobilePaneCarousel = dynamic(
   () => import("./mobile-pane-carousel").then((mod) => mod.MobilePaneCarousel),
   {
     ssr: false,
-    loading: () => (
-      <div className="flex h-full w-full items-center justify-center bg-background">
-        <div
-          aria-label="Loading carousel"
-          className="size-8 animate-spin rounded-full border-2 border-foreground/20 border-t-foreground"
-          role="status"
-        >
-          <span className="sr-only">Loading...</span>
-        </div>
-      </div>
-    ),
   }
 )
 
