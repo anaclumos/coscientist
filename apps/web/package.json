@@ -11,14 +11,15 @@
     "type-check": "tsc --noEmit"
   },
   "dependencies": {
-    "@coscientist/assets": "workspace:*",
     "@base-ui/react": "^1.0.0",
+    "@coscientist/assets": "workspace:*",
     "@fontsource-variable/noto-serif-jp": "^5.2.9",
     "@fontsource-variable/noto-serif-kr": "^5.2.10",
     "@fontsource-variable/noto-serif-sc": "^5.2.10",
     "@fontsource-variable/noto-serif-tc": "^5.2.10",
     "@fontsource/iosevka": "^5.2.5",
     "@vercel/analytics": "^1.6.1",
+    "botid": "^1.5.10",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "gray-matter": "^4.0.3",
