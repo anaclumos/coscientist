@@ -1,3 +1,7 @@
+---
+title: "ADR 3: Collaboration Protocol (ProseMirror OT, Step Batching, Conflict Handling)"
+---
+
 # ADR 3: Collaboration Protocol (ProseMirror OT, Step Batching, Conflict Handling)
 
 ## Context

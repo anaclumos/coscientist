@@ -1,3 +1,7 @@
+---
+title: "ADR 5: File Storage and Access Control (Convex File Storage + Files Control)"
+---
+
 # ADR 5: File Storage and Access Control (Convex File Storage + Files Control)
 
 ## Context

@@ -1,3 +1,7 @@
+---
+title: "ADR 6: Permissions and Embargo Model (Block-level ACL with Time Locks)"
+---
+
 # ADR 6: Permissions and Embargo Model (Block-level ACL with Time Locks)
 
 ## Context

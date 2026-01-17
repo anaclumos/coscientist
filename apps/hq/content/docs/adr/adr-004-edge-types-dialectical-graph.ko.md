@@ -1,3 +1,7 @@
+---
+title: "ADR 4: Edge 타입과 Dialectical Graph (Block 위의 타입이 지정된 Edge)"
+---
+
 # ADR 4: Edge 타입과 Dialectical Graph (Block 위의 타입이 지정된 Edge)
 
 ## 컨텍스트

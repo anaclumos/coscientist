@@ -1,3 +1,7 @@
+---
+title: "ADR 8: Platform Boundaries and Expansion Plan (Convex, Vercel, Workflow, Mastra)"
+---
+
 # ADR 8: Platform Boundaries and Expansion Plan (Convex, Vercel, Workflow, Mastra)
 
 ## Context

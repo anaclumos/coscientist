@@ -8,11 +8,11 @@
   ],
   "scripts": {
     "dev": "turbo dev",
-    "dev:web": "turbo dev --filter=@repo/web",
-    "dev:hq": "turbo dev --filter=@repo/hq",
+    "dev:web": "turbo dev --filter=@coscientist/web",
+    "dev:hq": "turbo dev --filter=@coscientist/hq",
     "build": "turbo build",
-    "build:web": "turbo build --filter=@repo/web",
-    "build:hq": "turbo build --filter=@repo/hq",
+    "build:web": "turbo build --filter=@coscientist/web",
+    "build:hq": "turbo build --filter=@coscientist/hq",
     "lint": "turbo lint",
     "type-check": "turbo type-check",
     "clean": "turbo clean && rm -rf node_modules .turbo"

@@ -1,3 +1,7 @@
+---
+title: "ADR 6: 권한 및 Embargo 모델 (시간 잠금이 있는 Block 수준 ACL)"
+---
+
 # ADR 6: 권한 및 Embargo 모델 (시간 잠금이 있는 Block 수준 ACL)
 
 ## 컨텍스트

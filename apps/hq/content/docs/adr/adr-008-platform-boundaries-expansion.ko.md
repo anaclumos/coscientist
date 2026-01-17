@@ -1,3 +1,7 @@
+---
+title: "ADR 8: 플랫폼 경계 및 확장 계획 (Convex, Vercel, Workflow, Mastra)"
+---
+
 # ADR 8: 플랫폼 경계 및 확장 계획 (Convex, Vercel, Workflow, Mastra)
 
 ## 컨텍스트

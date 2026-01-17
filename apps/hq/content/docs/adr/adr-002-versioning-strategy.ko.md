@@ -1,3 +1,7 @@
+---
+title: "ADR 2: 버전 관리 전략 (Step, Snapshot, 사용자 대면 버전)"
+---
+
 # ADR 2: 버전 관리 전략 (Step, Snapshot, 사용자 대면 버전)
 
 ## 컨텍스트

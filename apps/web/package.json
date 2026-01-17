@@ -1,5 +1,5 @@
 {
-  "name": "@repo/web",
+  "name": "@coscientist/web",
   "version": "0.1.0",
   "private": true,
   "scripts": {

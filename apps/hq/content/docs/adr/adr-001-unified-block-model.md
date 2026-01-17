@@ -1,3 +1,7 @@
+---
+title: "ADR 1: Unified Block Model (Blocks as Universal Knowledge Atoms)"
+---
+
 # ADR 1: Unified Block Model (Blocks as Universal Knowledge Atoms)
 
 The platform manages user-contributed knowledge content (text, media, references, etc.) in a highly granular way. We need a content model that treats each piece of knowledge as an atomic unit for easy reuse and linking. Traditional wiki or document systems often treat a whole page or document as the smallest unit, but this system draws inspiration from block-based editors (e.g. Notion, block wikis) where even paragraphs or images are individual units. This **block-based approach** lets us build a graph of knowledge, with rich relationships between small pieces of content.

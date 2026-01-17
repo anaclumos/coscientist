@@ -1,3 +1,7 @@
+---
+title: "ADR 4: Edge Types and Dialectical Graph (Typed Edges Over Blocks)"
+---
+
 # ADR 4: Edge Types and Dialectical Graph (Typed Edges Over Blocks)
 
 ## Context

@@ -1,3 +1,7 @@
+---
+title: "ADR 7: Presence and Cursors (Realtime User Awareness)"
+---
+
 # ADR 7: Presence and Cursors (Realtime User Awareness)
 
 ## Context

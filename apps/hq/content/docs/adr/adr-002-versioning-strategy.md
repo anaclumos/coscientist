@@ -1,3 +1,7 @@
+---
+title: "ADR 2: Versioning Strategy (Steps, Snapshots, and User-Facing Versions)"
+---
+
 # ADR 2: Versioning Strategy (Steps, Snapshots, and User-Facing Versions)
 
 ## Context

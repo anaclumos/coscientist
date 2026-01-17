@@ -1,3 +1,7 @@
+---
+title: "ADR 3: 협업 프로토콜 (ProseMirror OT, Step 일괄 처리, 충돌 처리)"
+---
+
 # ADR 3: 협업 프로토콜 (ProseMirror OT, Step 일괄 처리, 충돌 처리)
 
 ## 컨텍스트
