@@ -52,7 +52,7 @@ No secret logic in Next.js - all sensitive operations live in Convex functions. 
 - Files Control
 - ProseMirror Sync
 - Other modular backend pieces that accelerate development
-  </Tab>
+</Tab>
 
 <Tab value="Workflow & Scheduling">
 **Background Tasks:**
@@ -175,7 +175,7 @@ Rejected because:
 - Requires building real-time sync and OT logic from scratch
 - Loses Convex's elegant reactivity
 - WebSockets on Vercel are non-trivial (separate server needed)
-  </Tab>
+</Tab>
 
 <Tab value="Fully Serverless">
 **Client + edge functions + Firebase + CRDT library**
@@ -185,7 +185,7 @@ Rejected because:
 - Patchwork harder to maintain
 - Tight integration difficult to achieve
 - CRDT state merging with security is challenging
-  </Tab>
+</Tab>
 
 <Tab value="AI at MVP">
 **Include AI agent from day one**
@@ -195,7 +195,7 @@ Rejected because:
 - Overcomplicates initial architecture
 - Requires vector DB and LLM service integration upfront
 - Better to design for it, implement later
-  </Tab>
+</Tab>
 
 <Tab value="Ignore Expansion">
 **Build MVP ignoring federation/multi-agent future**
@@ -205,7 +205,7 @@ Rejected because:
 - Shortcuts would hinder later expansion
 - Using globally unique IDs now eases future data merging
 - Code structured for easy factoring (AI functions as separate module)
-    </Tab>
+</Tab>
 </Tabs>
 
 **Monorepo Decision**: Frontend and backend in same repository for shared types and dev convenience. Convex functions live alongside Next app with Convex dev server watching file changes.
