@@ -1,4 +1,5 @@
 import { RootProvider } from "fumadocs-ui/provider/next"
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata } from "next"
 import "./global.css"
 
@@ -16,6 +17,7 @@ export default function RootLayout({
     <html lang="en" suppressHydrationWarning>
       <body className="flex min-h-screen flex-col">
         <RootProvider>{children}</RootProvider>
+        <Analytics />
       </body>
     </html>
   )

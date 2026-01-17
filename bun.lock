@@ -1,5 +1,6 @@
 {
   "lockfileVersion": 1,
+  "configVersion": 0,
   "workspaces": {
     "": {
       "name": "coscientist",
@@ -11,6 +12,7 @@
       "name": "@coscientist/hq",
       "version": "0.0.0",
       "dependencies": {
+        "@vercel/analytics": "^1.6.1",
         "fumadocs-core": "^16.4.7",
         "fumadocs-mdx": "^14.2.5",
         "fumadocs-ui": "^16.4.7",

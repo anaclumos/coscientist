@@ -1,78 +1,12 @@
 // @ts-nocheck
-import { browser } from "fumadocs-mdx/runtime/browser"
-import type * as Config from "../source.config"
+import { browser } from 'fumadocs-mdx/runtime/browser';
+import type * as Config from '../source.config';
 
-const create = browser<
-  typeof Config,
-  import("fumadocs-mdx/runtime/types").InternalTypeConfig & {
-    DocData: {}
+const create = browser<typeof Config, import("fumadocs-mdx/runtime/types").InternalTypeConfig & {
+  DocData: {
   }
->()
+}>();
 const browserCollections = {
-  docs: create.doc("docs", {
-    "index.mdx": () => import("../content/docs/index.mdx?collection=docs"),
-    "adr/adr-001-unified-block-model.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-001-unified-block-model.ko.md?collection=docs"
-      ),
-    "adr/adr-001-unified-block-model.md": () =>
-      import(
-        "../content/docs/adr/adr-001-unified-block-model.md?collection=docs"
-      ),
-    "adr/adr-002-versioning-strategy.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-002-versioning-strategy.ko.md?collection=docs"
-      ),
-    "adr/adr-002-versioning-strategy.md": () =>
-      import(
-        "../content/docs/adr/adr-002-versioning-strategy.md?collection=docs"
-      ),
-    "adr/adr-003-collaboration-protocol.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-003-collaboration-protocol.ko.md?collection=docs"
-      ),
-    "adr/adr-003-collaboration-protocol.md": () =>
-      import(
-        "../content/docs/adr/adr-003-collaboration-protocol.md?collection=docs"
-      ),
-    "adr/adr-004-edge-types-dialectical-graph.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-004-edge-types-dialectical-graph.ko.md?collection=docs"
-      ),
-    "adr/adr-004-edge-types-dialectical-graph.md": () =>
-      import(
-        "../content/docs/adr/adr-004-edge-types-dialectical-graph.md?collection=docs"
-      ),
-    "adr/adr-005-file-storage-access-control.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-005-file-storage-access-control.ko.md?collection=docs"
-      ),
-    "adr/adr-005-file-storage-access-control.md": () =>
-      import(
-        "../content/docs/adr/adr-005-file-storage-access-control.md?collection=docs"
-      ),
-    "adr/adr-006-permissions-embargo-model.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-006-permissions-embargo-model.ko.md?collection=docs"
-      ),
-    "adr/adr-006-permissions-embargo-model.md": () =>
-      import(
-        "../content/docs/adr/adr-006-permissions-embargo-model.md?collection=docs"
-      ),
-    "adr/adr-007-presence-cursors.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-007-presence-cursors.ko.md?collection=docs"
-      ),
-    "adr/adr-007-presence-cursors.md": () =>
-      import("../content/docs/adr/adr-007-presence-cursors.md?collection=docs"),
-    "adr/adr-008-platform-boundaries-expansion.ko.md": () =>
-      import(
-        "../content/docs/adr/adr-008-platform-boundaries-expansion.ko.md?collection=docs"
-      ),
-    "adr/adr-008-platform-boundaries-expansion.md": () =>
-      import(
-        "../content/docs/adr/adr-008-platform-boundaries-expansion.md?collection=docs"
-      ),
-  }),
-}
-export default browserCollections
+  docs: create.doc("docs", {"index.mdx": () => import("../content/docs/index.mdx?collection=docs"), "adr/adr-001-unified-block-model.ko.md": () => import("../content/docs/adr/adr-001-unified-block-model.ko.md?collection=docs"), "adr/adr-001-unified-block-model.md": () => import("../content/docs/adr/adr-001-unified-block-model.md?collection=docs"), "adr/adr-002-versioning-strategy.ko.md": () => import("../content/docs/adr/adr-002-versioning-strategy.ko.md?collection=docs"), "adr/adr-002-versioning-strategy.md": () => import("../content/docs/adr/adr-002-versioning-strategy.md?collection=docs"), "adr/adr-003-collaboration-protocol.ko.md": () => import("../content/docs/adr/adr-003-collaboration-protocol.ko.md?collection=docs"), "adr/adr-003-collaboration-protocol.md": () => import("../content/docs/adr/adr-003-collaboration-protocol.md?collection=docs"), "adr/adr-004-edge-types-dialectical-graph.ko.md": () => import("../content/docs/adr/adr-004-edge-types-dialectical-graph.ko.md?collection=docs"), "adr/adr-004-edge-types-dialectical-graph.md": () => import("../content/docs/adr/adr-004-edge-types-dialectical-graph.md?collection=docs"), "adr/adr-005-file-storage-access-control.ko.md": () => import("../content/docs/adr/adr-005-file-storage-access-control.ko.md?collection=docs"), "adr/adr-005-file-storage-access-control.md": () => import("../content/docs/adr/adr-005-file-storage-access-control.md?collection=docs"), "adr/adr-006-permissions-embargo-model.ko.md": () => import("../content/docs/adr/adr-006-permissions-embargo-model.ko.md?collection=docs"), "adr/adr-006-permissions-embargo-model.md": () => import("../content/docs/adr/adr-006-permissions-embargo-model.md?collection=docs"), "adr/adr-007-presence-cursors.ko.md": () => import("../content/docs/adr/adr-007-presence-cursors.ko.md?collection=docs"), "adr/adr-007-presence-cursors.md": () => import("../content/docs/adr/adr-007-presence-cursors.md?collection=docs"), "adr/adr-008-platform-boundaries-expansion.ko.md": () => import("../content/docs/adr/adr-008-platform-boundaries-expansion.ko.md?collection=docs"), "adr/adr-008-platform-boundaries-expansion.md": () => import("../content/docs/adr/adr-008-platform-boundaries-expansion.md?collection=docs"), }),
+};
+export default browserCollections;
