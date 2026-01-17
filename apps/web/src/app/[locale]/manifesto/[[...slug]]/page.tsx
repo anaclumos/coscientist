@@ -2,6 +2,8 @@ import type { Metadata } from "next"
 import { notFound } from "next/navigation"
 import { hasLocale } from "next-intl"
 import { getTranslations, setRequestLocale } from "next-intl/server"
+import { Suspense } from "react"
+import { Skeleton } from "@/components/ui/skeleton"
 import { routing } from "@/i18n/routing"
 import { buildNoteGraph, getAllNoteSlugs, getNoteBySlug } from "@/lib/notes"
 import { parseStackFromParams } from "@/lib/stack"
@@ -64,20 +66,42 @@ export async function generateMetadata({
   }
 }
 
-export default async function Page({ params, searchParams }: PageProps) {
-  const resolvedParams = await params
-  const resolvedSearchParams = await searchParams
+function NotesLoadingFallback() {
+  return (
+    <div className="flex flex-1 overflow-hidden">
+      <div className="flex w-full max-w-prose flex-col border-border border-r p-6">
+        <Skeleton className="mb-4 h-8 w-3/4" />
+        <Skeleton className="mb-6 h-4 w-full" />
+        <div className="space-y-3">
+          <Skeleton className="h-4 w-full" />
+          <Skeleton className="h-4 w-5/6" />
+          <Skeleton className="h-4 w-4/5" />
+          <Skeleton className="h-4 w-full" />
+          <Skeleton className="h-4 w-3/4" />
+        </div>
+      </div>
+    </div>
+  )
+}
 
-  if (!hasLocale(routing.locales, resolvedParams.locale)) {
+async function NotesContent({
+  locale,
+  rootSlug,
+  searchParamsPromise,
+}: {
+  locale: string
+  rootSlug: string
+  searchParamsPromise: Promise<{ [key: string]: string | string[] | undefined }>
+}) {
+  const [resolvedSearchParams, { notes, backlinks }] = await Promise.all([
+    searchParamsPromise,
+    buildNoteGraph(locale),
+  ])
+
+  const rootNote = notes.get(rootSlug)
+  if (!rootNote) {
     notFound()
   }
-
-  const locale = resolvedParams.locale
-  setRequestLocale(locale)
-
-  const rootSlug = resolvedParams.slug?.[0] ?? "index"
-
-  const noteGraphPromise = buildNoteGraph(locale)
 
   const urlSearchParams = new URLSearchParams()
   for (const [key, value] of Object.entries(resolvedSearchParams)) {
@@ -91,16 +115,6 @@ export default async function Page({ params, searchParams }: PageProps) {
   }
 
   const { stack } = parseStackFromParams(rootSlug, urlSearchParams)
-
-  const {
-    notes,
-    backlinks,
-  }: { notes: Map<string, Note>; backlinks: Map<string, BacklinkInfo[]> } =
-    await noteGraphPromise
-  const rootNote = notes.get(rootSlug)
-  if (!rootNote) {
-    notFound()
-  }
 
   const initialPanesData: NotePaneData[] = []
   for (const slug of stack) {
@@ -132,6 +146,28 @@ export default async function Page({ params, searchParams }: PageProps) {
       noteSummaries={noteSummaries}
       rootSlug={rootSlug}
     />
+  )
+}
+
+export default async function Page({ params, searchParams }: PageProps) {
+  const { locale, slug } = await params
+
+  if (!hasLocale(routing.locales, locale)) {
+    notFound()
+  }
+
+  setRequestLocale(locale)
+
+  const rootSlug = slug?.[0] ?? "index"
+
+  return (
+    <Suspense fallback={<NotesLoadingFallback />}>
+      <NotesContent
+        locale={locale}
+        rootSlug={rootSlug}
+        searchParamsPromise={searchParams}
+      />
+    </Suspense>
   )
 }
 
