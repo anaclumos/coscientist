@@ -1,7 +1,7 @@
 "use client"
 
 import { type MotionValue, motion } from "motion/react"
-import { memo, useCallback } from "react"
+import { memo, useCallback, useMemo } from "react"
 import { springSubtle } from "@/lib/animations"
 import type { NotePaneData } from "@/lib/types"
 import { cn } from "@/lib/utils"
@@ -39,7 +39,10 @@ export const CoverflowPane = memo(
     const { coverflowX, rotateY, coverflowScale, coverflowOpacity, zIndex } =
       usePaneTransforms(index, progress, prefersReducedMotion)
 
-    const transition = prefersReducedMotion ? { duration: 0 } : springSubtle
+    const transition = useMemo(
+      () => (prefersReducedMotion ? { duration: 0 } : springSubtle),
+      [prefersReducedMotion]
+    )
 
     const handleLinkClick = useCallback(
       (slug: string) => {

@@ -1,6 +1,7 @@
 "use client"
 
 import { useLocale, useTranslations } from "next-intl"
+import { memo } from "react"
 import { BacklinksSection } from "@/components/backlinks-section"
 import { NoteContent } from "@/components/note-content"
 import { ScrollArea } from "@/components/ui/scroll-area"
@@ -16,14 +17,9 @@ interface PaneBodyProps {
   onLinkClick: (slug: string) => void
 }
 
-export function PaneBody({
-  slug,
-  title,
-  description,
-  contentHtml,
-  backlinks,
-  onLinkClick,
-}: PaneBodyProps) {
+export const PaneBody = memo(function PaneBody(props: PaneBodyProps) {
+  const { slug, title, description, contentHtml, backlinks, onLinkClick } =
+    props
   const t = useTranslations("notePane")
   const tCommon = useTranslations("common")
   const locale = useLocale()
@@ -60,4 +56,4 @@ export function PaneBody({
       </div>
     </ScrollArea>
   )
-}
+})

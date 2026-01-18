@@ -1,6 +1,6 @@
 "use client"
 
-import { memo, useCallback, useEffect, useRef } from "react"
+import { memo, useCallback, useEffect, useMemo, useRef } from "react"
 import { useReducedMotion } from "@/hooks/use-reduced-motion"
 import { springQuick, springSubtle } from "@/lib/animations"
 import type { BacklinkInfo } from "@/lib/types"
@@ -63,8 +63,14 @@ export const NotePane = memo(function NotePane({
     onClose(index)
   }, [onClose, index])
 
-  const transition = prefersReducedMotion ? { duration: 0 } : springSubtle
-  const quickTransition = prefersReducedMotion ? { duration: 0 } : springQuick
+  const transition = useMemo(
+    () => (prefersReducedMotion ? { duration: 0 } : springSubtle),
+    [prefersReducedMotion]
+  )
+  const quickTransition = useMemo(
+    () => (prefersReducedMotion ? { duration: 0 } : springQuick),
+    [prefersReducedMotion]
+  )
 
   return (
     <PaneWrapper
