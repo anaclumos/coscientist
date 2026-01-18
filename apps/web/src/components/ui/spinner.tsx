@@ -1,3 +1,5 @@
+"use client"
+
 import { IconArrowRotateClockwiseOutline18 } from "nucleo-ui-outline-18"
 import { cn } from "@/lib/utils"
 
