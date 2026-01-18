@@ -4,7 +4,7 @@ title: "ADR 4: Edge 타입과 Dialectical Graph (Block 간 타입 있는 Edge)"
 
 ## 배경
 
-선형 문서를 넘어서 지식 시스템은 **지식 그래프** – 아이디어와 정보의 네트워크를 표현하는 것을 목표로 한다. Block([ADR 1](/docs/adr/adr-001-unified-block-model)에서)이 이 그래프의 노드다. 이 노드들을 다양한 관계로 연결하는 방법이 필요하다.
+선형 문서를 넘어서 지식 시스템은 **지식 그래프** – 아이디어와 정보의 네트워크를 표현하는 것을 목표로 한다. Block([ADR 1](/adr/001-unified-block-model)에서)이 이 그래프의 노드다. 이 노드들을 다양한 관계로 연결하는 방법이 필요하다.
 
 <Callout type="info" title="연결의 종류">
   - **구조적:** 문서 Block이 문단 Block을 _포함_ - **의미론적:** Block A가 Block
@@ -150,25 +150,25 @@ Edge는 Convex mutation으로 조작한다:
 <Cards>
   <Card
     title="추가 Edge 타입 / 온톨로지"
-    href="/docs/adr/adr-001-unified-block-model"
+    href="/adr/001-unified-block-model"
   >
     과학적 맥락에서 "extends", "confirms", "disputes" 같은 도메인별 타입 도입.
     모델이 새 타입을 쉽게 허용한다.
   </Card>
   <Card
     title="가중치 / 주석 있는 Edge"
-    href="/docs/adr/adr-001-unified-block-model"
+    href="/adr/001-unified-block-model"
   >
     "strongly supports" vs "weakly supports"용 가중치/점수 필드 추가, 또는 A가
     B를 지원하는 _이유_를 설명하는 정당화 텍스트.
   </Card>
-  <Card title="그래프 시각화" href="/docs/adr/adr-007-presence-cursors">
+  <Card title="그래프 시각화" href="/adr/007-presence-cursors">
     깊이 제한 DFS/BFS로 서브그래프 데이터를 모으는 시각적 그래프 뷰 구현. 그래프
     알고리즘(최단 경로, 중심성)과 통합 가능.
   </Card>
   <Card
     title="AI 주도 Edge 생성"
-    href="/docs/adr/adr-008-platform-boundaries-expansion"
+    href="/adr/008-platform-boundaries-expansion"
   >
     AI 에이전트가 자동으로 Edge를 제안하거나 생성 (예: "이 Block은 Block Z와
     모순됩니다"). AI 제안 Edge는 사용자 검증용으로 표시.

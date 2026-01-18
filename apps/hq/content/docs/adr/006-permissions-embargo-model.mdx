@@ -84,7 +84,7 @@ We add an `embargoUntil` timestamp on blocks that need it:
 - **Publish/unpublish:** `setPublic(blockId, true/false)`
 - **Embargo:** `setEmbargo(blockId, timestamp)` to schedule release
 - **Cron job:** Runs periodically to find blocks whose embargo has passed and flip their public flag
-- **File integration:** When block ACL changes, call file permission updates accordingly ([ADR 5](/docs/adr/adr-005-file-storage-access-control))
+- **File integration:** When block ACL changes, call file permission updates accordingly ([ADR 5](/adr/005-file-storage-access-control))
 
 ## Rationale
 
@@ -151,27 +151,27 @@ We add an `embargoUntil` timestamp on blocks that need it:
 ## Expansion Path
 
 <Cards>
-  <Card title="Group Sharing" href="/docs/adr/adr-007-presence-cursors">
+  <Card title="Group Sharing" href="/adr/007-presence-cursors">
     Add concept of groups/teams to simplify sharing to many people. Share to
     "Research Team" instead of 30 individual users.
   </Card>
   <Card
     title="Roles & Permissions Matrix"
-    href="/docs/adr/adr-007-presence-cursors"
+    href="/adr/007-presence-cursors"
   >
     Formalize roles: "viewer" vs "editor" vs "commenter". Extend ACL structure
     per permission type.
   </Card>
   <Card
     title="Hierarchical Permissions"
-    href="/docs/adr/adr-007-presence-cursors"
+    href="/adr/007-presence-cursors"
   >
     Flag on block: "inherits ACL from parent unless overridden". Walk up until
     finding explicit ACL.
   </Card>
   <Card
     title="Temporary Access Links"
-    href="/docs/adr/adr-005-file-storage-access-control"
+    href="/adr/005-file-storage-access-control"
   >
     Generate time-limited links to share with external collaborators (e.g.,
     "share for 7 days").

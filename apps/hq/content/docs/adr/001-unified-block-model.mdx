@@ -18,15 +18,15 @@ Text paragraphs, headings, images, files, and even composite documents are all s
 - `type: string` – the block type (e.g. "text", "image", "doc", etc.)
 - `content: any` – the content payload. For a text block, this might be a ProseMirror JSON node or plain text; for an image or file block, this could be a reference to file storage ID
 - Metadata fields: e.g. `createdBy`, `createdAt`, `updatedAt`, etc.
-- (Optionally) structural fields: e.g. `parentId` or an order index if we store hierarchy directly. However, hierarchical or semantic relationships are primarily managed by the separate Edges model (see [ADR 4](/docs/adr/adr-004-edge-types-dialectical-graph))
+- (Optionally) structural fields: e.g. `parentId` or an order index if we store hierarchy directly. However, hierarchical or semantic relationships are primarily managed by the separate Edges model (see [ADR 4](/adr/004-edge-types-dialectical-graph))
 
-This decision means **everything that users create or manipulate is a Block**, enabling a uniform API and data handling. A "document" or article is simply a Block of type "doc" that has child Blocks (its paragraphs, images, etc.), which are linked via edges of type "contains" (see [ADR 4](/docs/adr/adr-004-edge-types-dialectical-graph)) or via an array of child IDs in the doc block's content. In MVP, we may implement documents as linear collections of blocks stored in an ordered list, but conceptually they are still blocks containing blocks.
+This decision means **everything that users create or manipulate is a Block**, enabling a uniform API and data handling. A "document" or article is simply a Block of type "doc" that has child Blocks (its paragraphs, images, etc.), which are linked via edges of type "contains" (see [ADR 4](/adr/004-edge-types-dialectical-graph)) or via an array of child IDs in the doc block's content. In MVP, we may implement documents as linear collections of blocks stored in an ordered list, but conceptually they are still blocks containing blocks.
 
 ## Rationale
 
 This unified model ensures consistency and flexibility. By treating all content uniformly, we can implement features (versioning, permissions, linking) at the Block level and have them apply to any content type. It also simplifies the collaboration engine – whether users edit a paragraph or an entire page, it's just editing one or multiple Blocks.
 
-Furthermore, it facilitates the knowledge graph: blocks are nodes in a graph, which we can connect with typed edges to represent semantic relationships ([ADR 4](/docs/adr/adr-004-edge-types-dialectical-graph)). This is aligned with modern knowledge graph principles where **nodes represent entities and edges represent typed relationships**. Making every content piece a node (Block) allows rich semantic linking (e.g. a "Claim" block supported by an "Evidence" block via a "supports" edge).
+Furthermore, it facilitates the knowledge graph: blocks are nodes in a graph, which we can connect with typed edges to represent semantic relationships ([ADR 4](/adr/004-edge-types-dialectical-graph)). This is aligned with modern knowledge graph principles where **nodes represent entities and edges represent typed relationships**. Making every content piece a node (Block) allows rich semantic linking (e.g. a "Claim" block supported by an "Evidence" block via a "supports" edge).
 
 <Callout type="idea" title="Key Insight">
   The unified block approach draws inspiration from block-based editors and the
@@ -72,7 +72,7 @@ This simplifies the backend: one Convex table and API for all content. It also e
     model for all knowledge. This could handle nodes/edges elegantly but
     introduces additional infrastructure and complexity for the MVP. Instead, we
     implement a graph model on Convex (storing edges in a table, see [ADR
-    4](/docs/adr/adr-004-edge-types-dialectical-graph)) which is conceptually
+    4](/adr/004-edge-types-dialectical-graph)) which is conceptually
     similar to the typical SQL approach of nodes and an edges table without
     needing a separate DB.
   </Tab>
@@ -86,37 +86,37 @@ This simplifies the backend: one Convex table and API for all content. It also e
 
 - **Consistency and Transactions:** Changes that span multiple blocks (e.g. splitting a paragraph into two blocks) need to be handled carefully in Convex functions to keep data consistent. Convex allows sequential operations in a transaction (single function call), which we'll use to e.g. insert a new block and update an edge or parent reference atomically.
 
-- **Simplified Feature Implementation:** Features like per-block versioning ([ADR 2](/docs/adr/adr-002-versioning-strategy)) and per-block permissions ([ADR 6](/docs/adr/adr-006-permissions-embargo-model)) are straightforward because the "block" is the unit of change and access control. However, we must consider that a user viewing a page needs permission for all its constituent blocks – our queries or resolvers must filter out or aggregate permissions accordingly.
+- **Simplified Feature Implementation:** Features like per-block versioning ([ADR 2](/adr/002-versioning-strategy)) and per-block permissions ([ADR 6](/adr/006-permissions-embargo-model)) are straightforward because the "block" is the unit of change and access control. However, we must consider that a user viewing a page needs permission for all its constituent blocks – our queries or resolvers must filter out or aggregate permissions accordingly.
 
-- **Uniform API:** We can build generic APIs (e.g. `getBlock(id)`, `updateBlock(id, content)`) that work for any type of content. Fewer code paths mean fewer bugs. On the flip side, some types (images, files) have very different handling (via file storage in [ADR 5](/docs/adr/adr-005-file-storage-access-control)), but they still share metadata and ID structure with text blocks.
+- **Uniform API:** We can build generic APIs (e.g. `getBlock(id)`, `updateBlock(id, content)`) that work for any type of content. Fewer code paths mean fewer bugs. On the flip side, some types (images, files) have very different handling (via file storage in [ADR 5](/adr/005-file-storage-access-control)), but they still share metadata and ID structure with text blocks.
 
 ## Expansion Path
 
 <Cards>
   <Card
     title="New Block Types / Ontologies"
-    href="/docs/adr/adr-004-edge-types-dialectical-graph"
+    href="/adr/004-edge-types-dialectical-graph"
   >
     Introduce new block types (code blocks, charts, etc.) as the system extends.
     Just add a new type constant and define its content structure.
   </Card>
   <Card
     title="Federation of Blocks"
-    href="/docs/adr/adr-003-collaboration-protocol"
+    href="/adr/003-collaboration-protocol"
   >
     The block model is well-suited for federated architecture where multiple
     instances share knowledge via global identifiers.
   </Card>
   <Card
     title="Block Caching & Local-First"
-    href="/docs/adr/adr-003-collaboration-protocol"
+    href="/adr/003-collaboration-protocol"
   >
     Small blocks enable client-side caching for offline use, syncing changes to
     Convex when online.
   </Card>
   <Card
     title="Semantic Enrichment"
-    href="/docs/adr/adr-004-edge-types-dialectical-graph"
+    href="/adr/004-edge-types-dialectical-graph"
   >
     Attach semantic data (tags like "hypothesis" or "evidence") to blocks for AI
     agent processing.

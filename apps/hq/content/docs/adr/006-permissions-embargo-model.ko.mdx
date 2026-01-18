@@ -80,7 +80,7 @@ access: {
 - **게시/게시 취소:** `setPublic(blockId, true/false)`
 - **Embargo:** `setEmbargo(blockId, timestamp)`로 릴리스 예약
 - **Cron job:** 주기적으로 실행해서 embargo가 지난 Block을 찾고 공개 플래그 전환
-- **파일 연동:** Block ACL 변경 시 그에 따라 파일 권한 업데이트 호출 ([ADR 5](/docs/adr/adr-005-file-storage-access-control))
+- **파일 연동:** Block ACL 변경 시 그에 따라 파일 권한 업데이트 호출 ([ADR 5](/adr/005-file-storage-access-control))
 
 ## 왜 이렇게 결정했나
 
@@ -138,20 +138,20 @@ access: {
 ## 확장 경로
 
 <Cards>
-  <Card title="그룹 공유" href="/docs/adr/adr-007-presence-cursors">
+  <Card title="그룹 공유" href="/adr/007-presence-cursors">
     많은 사람에게 공유를 단순화하기 위해 그룹/팀 개념 추가. 30명 개별 대신
     "Research Team"에 공유.
   </Card>
-  <Card title="역할 & 권한 매트릭스" href="/docs/adr/adr-007-presence-cursors">
+  <Card title="역할 & 권한 매트릭스" href="/adr/007-presence-cursors">
     역할 공식화: "viewer" vs "editor" vs "commenter". 권한 타입당 ACL 구조 확장.
   </Card>
-  <Card title="계층적 권한" href="/docs/adr/adr-007-presence-cursors">
+  <Card title="계층적 권한" href="/adr/007-presence-cursors">
     Block의 플래그: "오버라이드 안 되면 부모로부터 ACL 상속". 명시적 ACL을 찾을
     때까지 위로 걸어감.
   </Card>
   <Card
     title="임시 접근 링크"
-    href="/docs/adr/adr-005-file-storage-access-control"
+    href="/adr/005-file-storage-access-control"
   >
     외부 협력자와 공유하기 위한 시간 제한 링크 생성 (예: "7일간 공유").
   </Card>

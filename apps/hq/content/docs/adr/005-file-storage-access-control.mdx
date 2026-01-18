@@ -58,7 +58,7 @@ Each file stored in Convex has an associated set of **access keys** (like blocks
 - **removeAccessKey:** When permissions are revoked
 - **hasAccessKey:** Verification check when user tries to download
 
-This integrates with block permissions ([ADR 6](/docs/adr/adr-006-permissions-embargo-model)).
+This integrates with block permissions ([ADR 6](/adr/006-permissions-embargo-model)).
 
 ### File Metadata
 
@@ -133,26 +133,26 @@ Using Convex's file storage and Files Control component is a pragmatic choice:
 <Cards>
   <Card
     title="Image Thumbnails & Processing"
-    href="/docs/adr/adr-008-platform-boundaries-expansion"
+    href="/adr/008-platform-boundaries-expansion"
   >
     Generate smaller thumbnails for large images. Could integrate a third-party
     or use Vercel Edge Functions for image processing.
   </Card>
   <Card
     title="Video & Audio Handling"
-    href="/docs/adr/adr-008-platform-boundaries-expansion"
+    href="/adr/008-platform-boundaries-expansion"
   >
     Offload to specialized services for encoding/streaming (like Mux or
     Cloudinary).
   </Card>
   <Card
     title="Large Data Files"
-    href="/docs/adr/adr-008-platform-boundaries-expansion"
+    href="/adr/008-platform-boundaries-expansion"
   >
     Integrate with user's own cloud or institutional storage. Allow
     "external_file" blocks that hold URLs instead of actual files.
   </Card>
-  <Card title="File Versioning" href="/docs/adr/adr-002-versioning-strategy">
+  <Card title="File Versioning" href="/adr/002-versioning-strategy">
     Allow version history on files. Updating a file block keeps the same block
     id but points to a new storageId.
   </Card>
@@ -160,7 +160,7 @@ Using Convex's file storage and Files Control component is a pragmatic choice:
 
 <Callout type="idea" title="Workflow Integration">
   If we have background processes or agents (see [ADR
-  8](/docs/adr/adr-008-platform-boundaries-expansion)) that produce files (like
+  8](/adr/008-platform-boundaries-expansion)) that produce files (like
   an AI generating a report PDF), they can use the same file storage mechanism.
   Our consistent approach means even automated content goes through the same
   pipelines.

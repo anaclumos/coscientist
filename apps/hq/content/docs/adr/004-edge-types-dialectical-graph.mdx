@@ -4,7 +4,7 @@ title: "ADR 4: Edge Types and Dialectical Graph (Typed Edges Over Blocks)"
 
 ## Context
 
-Beyond linear documents, our knowledge system aims to represent a **knowledge graph** – a network of ideas and information. Blocks (from [ADR 1](/docs/adr/adr-001-unified-block-model)) are the nodes of this graph. We need a way to connect these nodes with various relationships.
+Beyond linear documents, our knowledge system aims to represent a **knowledge graph** – a network of ideas and information. Blocks (from [ADR 1](/adr/001-unified-block-model)) are the nodes of this graph. We need a way to connect these nodes with various relationships.
 
 <Callout type="info" title="Types of Connections">
   - **Structural:** A document block _contains_ a paragraph block -
@@ -154,25 +154,25 @@ A typed edge model provides **semantic richness** and queryability to the relati
 <Cards>
   <Card
     title="Additional Edge Types / Ontologies"
-    href="/docs/adr/adr-001-unified-block-model"
+    href="/adr/001-unified-block-model"
   >
     Introduce domain-specific types like "extends", "confirms", "disputes" for
     scientific context. The model easily allows new types.
   </Card>
   <Card
     title="Weighted / Annotated Edges"
-    href="/docs/adr/adr-001-unified-block-model"
+    href="/adr/001-unified-block-model"
   >
     Add weight/score fields for "strongly supports" vs "weakly supports", or
     justification text explaining _why_ A supports B.
   </Card>
-  <Card title="Graph Visualization" href="/docs/adr/adr-007-presence-cursors">
+  <Card title="Graph Visualization" href="/adr/007-presence-cursors">
     Implement visual graph view with depth-limited DFS/BFS to gather subgraph
     data. Could integrate with graph algorithms (shortest path, centrality).
   </Card>
   <Card
     title="AI-Driven Edge Creation"
-    href="/docs/adr/adr-008-platform-boundaries-expansion"
+    href="/adr/008-platform-boundaries-expansion"
   >
     AI agents automatically suggest or create edges (e.g., "This block
     contradicts Block Z"). Mark AI-suggested edges for user verification.

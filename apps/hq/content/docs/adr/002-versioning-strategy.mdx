@@ -128,7 +128,7 @@ This multi-tier approach is inspired by best practices in collaborative editing 
 
 - **Storage Growth:** Every edit generates a step record, and periodic snapshots duplicate the document content. We must manage storage by pruning old data. We will implement a **retention policy** (e.g., keep all steps for the last X days, purge older fine-detail).
 
-- **Conflict Resolution UX:** At the technical level, conflicts are handled by OT (rebasing). However, simultaneous edits can produce confusing results. The version history will show both edits sequentially. We might need to highlight conflicts or ensure presence indicators ([ADR 7](/docs/adr/adr-007-presence-cursors)) warn users when editing nearby.
+- **Conflict Resolution UX:** At the technical level, conflicts are handled by OT (rebasing). However, simultaneous edits can produce confusing results. The version history will show both edits sequentially. We might need to highlight conflicts or ensure presence indicators ([ADR 7](/adr/007-presence-cursors)) warn users when editing nearby.
 
 - **Version Numbers and Client State:** Each block or document will have a current `versionNumber`. Clients must track their local version and update it on each sync. If a client falls too far behind, we'll send a snapshot instead of steps to re-sync.
 
@@ -141,28 +141,28 @@ This multi-tier approach is inspired by best practices in collaborative editing 
 <Cards>
   <Card
     title="CRDT / Offline Support"
-    href="/docs/adr/adr-003-collaboration-protocol"
+    href="/adr/003-collaboration-protocol"
   >
     Shift from pure OT to CRDT-based approach (e.g., Yjs) if offline editing or
     decentralized operation is needed.
   </Card>
   <Card
     title="Named Versioning & Branching"
-    href="/docs/adr/adr-003-collaboration-protocol"
+    href="/adr/003-collaboration-protocol"
   >
     Introduce "named versions" (like git tags) for major milestones. Future:
     branching for divergent versions.
   </Card>
   <Card
     title="Federated Versioning"
-    href="/docs/adr/adr-003-collaboration-protocol"
+    href="/adr/003-collaboration-protocol"
   >
     Use Lamport timestamps or vector clocks for versioning in federated settings
     instead of single integers.
   </Card>
   <Card
     title="AI Integration (Mastra)"
-    href="/docs/adr/adr-008-platform-boundaries-expansion"
+    href="/adr/008-platform-boundaries-expansion"
   >
     Version history can be leveraged by AI agents to analyze diffs, summarize
     changes, or revert problematic edits.

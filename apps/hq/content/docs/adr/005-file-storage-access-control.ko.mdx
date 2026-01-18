@@ -57,7 +57,7 @@ Convex에 저장된 각 파일에 **접근 키** 세트가 연결되어 있다 (
 - **removeAccessKey:** 권한이 취소될 때
 - **hasAccessKey:** 사용자가 다운로드 시도할 때 검증 체크
 
-Block 권한([ADR 6](/docs/adr/adr-006-permissions-embargo-model))과 통합된다.
+Block 권한([ADR 6](/adr/006-permissions-embargo-model))과 통합된다.
 
 ### 파일 메타데이터
 
@@ -128,25 +128,25 @@ Convex 파일 저장소와 Files Control 컴포넌트 사용이 실용적인 선
 <Cards>
   <Card
     title="이미지 썸네일 & 처리"
-    href="/docs/adr/adr-008-platform-boundaries-expansion"
+    href="/adr/008-platform-boundaries-expansion"
   >
     큰 이미지에 작은 썸네일 생성. 서드파티 통합이나 Vercel Edge Functions로
     이미지 처리 가능.
   </Card>
   <Card
     title="비디오 & 오디오 처리"
-    href="/docs/adr/adr-008-platform-boundaries-expansion"
+    href="/adr/008-platform-boundaries-expansion"
   >
     인코딩/스트리밍은 전문 서비스(Mux, Cloudinary 등)로 오프로드.
   </Card>
   <Card
     title="대용량 데이터 파일"
-    href="/docs/adr/adr-008-platform-boundaries-expansion"
+    href="/adr/008-platform-boundaries-expansion"
   >
     사용자 자체 클라우드나 기관 저장소와 통합. 실제 파일 대신 URL을 담는
     "external_file" Block 허용.
   </Card>
-  <Card title="파일 버전 관리" href="/docs/adr/adr-002-versioning-strategy">
+  <Card title="파일 버전 관리" href="/adr/002-versioning-strategy">
     파일에 버전 히스토리 허용. 파일 Block 업데이트 시 같은 Block ID 유지하고 새
     storageId를 가리킴.
   </Card>
@@ -154,7 +154,7 @@ Convex 파일 저장소와 Files Control 컴포넌트 사용이 실용적인 선
 
 <Callout type="idea" title="워크플로우 통합">
   파일을 생성하는 백그라운드 프로세스나 에이전트([ADR
-  8](/docs/adr/adr-008-platform-boundaries-expansion) 참조)가 있으면 (AI가
+  8](/adr/008-platform-boundaries-expansion) 참조)가 있으면 (AI가
   보고서 PDF 생성 등) 같은 파일 저장소 메커니즘을 쓸 수 있다. 일관된 접근법
   덕분에 자동화된 콘텐츠도 같은 파이프라인을 거친다.
 </Callout>
