@@ -66,7 +66,6 @@ export function CTA() {
                 />
               }
               size="lg"
-              variant="outline"
             >
               {t("github")}{" "}
               <IconChevronRightOutline18 className="ml-1 size-4" />
