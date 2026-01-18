@@ -17,16 +17,16 @@ export const SliderNotch = memo(function SliderNotch({
   ariaLabel,
 }: SliderNotchProps) {
   const isActive = Math.round(activeIndex.get()) === index
-  const height = useSpring(isActive ? 24 : 12, { duration: 0.2, bounce: 0 })
+  const scaleY = useSpring(isActive ? 1 : 0.5, { duration: 0.2, bounce: 0 })
   const opacity = useSpring(isActive ? 1 : 0.3, { duration: 0.2, bounce: 0 })
 
   useEffect(() => {
     return activeIndex.on("change", (v) => {
       const active = Math.round(v) === index
-      animate(height, active ? 24 : 12, { duration: 0.2, bounce: 0 })
+      animate(scaleY, active ? 1 : 0.5, { duration: 0.2, bounce: 0 })
       animate(opacity, active ? 1 : 0.3, { duration: 0.2, bounce: 0 })
     })
-  }, [activeIndex, index, height, opacity])
+  }, [activeIndex, index, scaleY, opacity])
 
   const handleClick = useCallback(() => {
     onTap(index)
@@ -39,7 +39,10 @@ export const SliderNotch = memo(function SliderNotch({
       onClick={handleClick}
       type="button"
     >
-      <motion.div className="w-1.5 bg-foreground" style={{ height, opacity }} />
+      <motion.div
+        className="w-1.5 h-6 bg-foreground"
+        style={{ scaleY, opacity, transformOrigin: "center" }}
+      />
     </button>
   )
 })
