@@ -41,5 +41,5 @@ export function getDirection(locale: Locale): "ltr" | "rtl" {
 export const routing = defineRouting({
   locales,
   defaultLocale: "en",
-  localePrefix: "never",
+  localePrefix: "as-needed",
 })

@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation"
-import { parseStackFromParams } from "@/lib/stack"
+import { buildFullStack, stackParser } from "@/lib/stores/note-stack-parsers"
 import type { BacklinkInfo, Note, NotePaneData, NoteSummary } from "@/lib/types"
 import { NotesPageClient } from "./client"
 
@@ -26,20 +26,10 @@ export async function ClientWrapper({
     notFound()
   }
 
-  const urlSearchParams = new URLSearchParams()
-  for (const [key, value] of Object.entries(searchParams)) {
-    if (value !== undefined) {
-      if (Array.isArray(value)) {
-        for (const v of value) {
-          urlSearchParams.append(key, v)
-        }
-      } else {
-        urlSearchParams.set(key, value)
-      }
-    }
-  }
-
-  const { stack } = parseStackFromParams(rootSlug, urlSearchParams)
+  const stackParam =
+    typeof searchParams.stack === "string" ? searchParams.stack : ""
+  const additionalSlugs = stackParser.parse(stackParam) ?? []
+  const stack = buildFullStack(rootSlug, additionalSlugs)
 
   const initialPanesData: NotePaneData[] = []
   for (const slug of stack) {

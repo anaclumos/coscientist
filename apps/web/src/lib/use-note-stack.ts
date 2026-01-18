@@ -5,7 +5,6 @@ import { useCallback, useMemo, useRef } from "react"
 import { useRouter } from "@/i18n/navigation"
 import {
   buildFullStack,
-  buildStackUrl,
   getFocusIndex,
   noteStackParsers,
   popFromStack,
@@ -14,8 +13,9 @@ import {
 
 export function useNoteStack(rootSlug: string) {
   const router = useRouter()
-  const [urlState] = useQueryStates(noteStackParsers, {
+  const [urlState, setUrlState] = useQueryStates(noteStackParsers, {
     shallow: false,
+    clearOnDefault: true,
   })
 
   const stack = useMemo(
@@ -33,18 +33,41 @@ export function useNoteStack(rootSlug: string) {
 
   const pushNote = useCallback(
     (slug: string, fromPaneIndex: number) => {
-      const newStack = pushToStack(stackRef.current, slug, fromPaneIndex)
-      const newUrl = buildStackUrl(newStack)
-      router.push(newUrl)
+      const currentStack = stackRef.current
+      const newStack = pushToStack(currentStack, slug, fromPaneIndex)
+
+      if (newStack.length === 1) {
+        const newRootSlug = newStack[0]
+        const basePath =
+          newRootSlug === "index" ? "/manifesto" : `/manifesto/${newRootSlug}`
+        router.push(basePath)
+      } else {
+        const newRootSlug = newStack[0]
+        const additionalSlugs = newStack.slice(1)
+
+        if (newRootSlug !== rootSlug) {
+          const basePath =
+            newRootSlug === "index" ? "/manifesto" : `/manifesto/${newRootSlug}`
+          router.push(`${basePath}?stack=${additionalSlugs.join(",")}`)
+        } else {
+          setUrlState({ stack: additionalSlugs, focus: null })
+        }
+      }
     },
-    [router]
+    [router, rootSlug, setUrlState]
   )
 
   const popNote = useCallback(() => {
-    const newStack = popFromStack(stackRef.current)
-    const newUrl = buildStackUrl(newStack)
-    router.push(newUrl)
-  }, [router])
+    const currentStack = stackRef.current
+    const newStack = popFromStack(currentStack)
+
+    if (newStack.length <= 1) {
+      setUrlState({ stack: [], focus: null })
+    } else {
+      const additionalSlugs = newStack.slice(1)
+      setUrlState({ stack: additionalSlugs, focus: null })
+    }
+  }, [setUrlState])
 
   const focusPane = useCallback(
     (index: number) => {
@@ -59,18 +82,44 @@ export function useNoteStack(rootSlug: string) {
       if (index === currentFocusIndex) {
         return
       }
-      const newUrl = buildStackUrl(currentStack, index)
-      router.replace(newUrl, { scroll: false })
+      const newFocus = index === currentStack.length - 1 ? null : index
+      setUrlState({ focus: newFocus }, { scroll: false, shallow: true })
     },
-    [router, urlState.focus]
+    [urlState.focus, setUrlState]
   )
 
   const setStack = useCallback(
     (newStack: string[], focusIdx?: number) => {
-      const newUrl = buildStackUrl(newStack, focusIdx)
-      router.push(newUrl)
+      if (newStack.length === 0) {
+        router.push("/manifesto")
+        return
+      }
+
+      const newRootSlug = newStack[0]
+      const additionalSlugs = newStack.slice(1)
+      const newFocus =
+        focusIdx !== undefined && focusIdx !== newStack.length - 1
+          ? focusIdx
+          : null
+
+      if (newRootSlug !== rootSlug) {
+        const basePath =
+          newRootSlug === "index" ? "/manifesto" : `/manifesto/${newRootSlug}`
+        const params: string[] = []
+        if (additionalSlugs.length > 0) {
+          params.push(`stack=${additionalSlugs.join(",")}`)
+        }
+        if (newFocus !== null) {
+          params.push(`focus=${newFocus}`)
+        }
+        router.push(
+          params.length > 0 ? `${basePath}?${params.join("&")}` : basePath
+        )
+      } else {
+        setUrlState({ stack: additionalSlugs, focus: newFocus })
+      }
     },
-    [router]
+    [router, rootSlug, setUrlState]
   )
 
   const goBack = useCallback(() => {

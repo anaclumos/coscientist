@@ -2,6 +2,7 @@
 
 import { useLocale, useTranslations } from "next-intl"
 import { IconLanguageOutline18 } from "nucleo-ui-outline-18"
+import { useQueryStates } from "nuqs"
 import { Button } from "@/components/ui/button"
 import {
   Select,
@@ -11,6 +12,11 @@ import {
 } from "@/components/ui/select"
 import { usePathname, useRouter } from "@/i18n/navigation"
 import { type Locale, routing } from "@/i18n/routing"
+import {
+  focusParser,
+  noteStackParsers,
+  stackParser,
+} from "@/lib/stores/note-stack-parsers"
 import { cn } from "@/lib/utils"
 
 const localeNames: Record<Locale, string> = {
@@ -46,10 +52,20 @@ export function LanguageSwitcher({ className }: { className?: string }) {
   const locale = useLocale()
   const router = useRouter()
   const pathname = usePathname()
+  const [urlState] = useQueryStates(noteStackParsers)
 
   const handleChange = (value: string | null) => {
     if (value && value !== locale) {
-      router.replace(pathname, { locale: value as Locale })
+      const params: string[] = []
+      const stackStr = stackParser.serialize(urlState.stack)
+      if (stackStr) params.push(`stack=${stackStr}`)
+      if (urlState.focus !== null) {
+        const focusStr = focusParser.serialize(urlState.focus)
+        if (focusStr) params.push(`focus=${focusStr}`)
+      }
+      const fullPath =
+        params.length > 0 ? `${pathname}?${params.join("&")}` : pathname
+      router.replace(fullPath, { locale: value as Locale })
     }
   }
 

@@ -1,37 +1,28 @@
 ---
 title: "2026-01-19"
-description: "HQ auto-render title from frontmatter, single source of truth for page titles"
+description: "Fix manifesto note navigation for non-English locales"
 ---
 
-## HQ Title Auto-Rendering from Frontmatter
+## Manifesto Locale Navigation Fix
 
-**Scope**: `apps/hq`
+**Scope**: `apps/web`
 
 ### Changes Made
 
 | File | Change |
 | ---- | ------ |
-| `app/[lang]/[[...slug]]/page.tsx` | Added `<h1>{page.data.title}</h1>` before MDX content to auto-render title from frontmatter |
-| `content/docs/index.mdx` | Removed duplicate `# H1` heading since title now renders from frontmatter |
+| `src/lib/use-note-stack.ts` | Switched to the next-intl router to generate locale-aware stack URLs and avoid hard reloads on non-English note clicks. |
 
 ### Technical Decisions
 
-1. **Single Source of Truth**: Previously, HQ pages required both frontmatter `title` (for metadata/sidebar) AND manual `# H1` (for page display). This created duplication and maintenance burden.
-
-2. **Auto-Render Pattern**: Modified `page.tsx` to render the frontmatter title as an `<h1>` element before the MDX content. Now authors only need to set `title` in frontmatter.
-
-3. **Deduplication**: Removed the explicit `# H1` from `index.mdx` which previously had both frontmatter title and H1, preventing duplicate titles on the page.
-
-### Before vs After
-
-| Before | After |
-| ------ | ----- |
-| Set `title` in frontmatter | Set `title` in frontmatter |
-| Manually add `# H1` in content | (automatic) |
-| Edit both when title changes | Edit frontmatter only |
+1. **Locale-aware Router**: Use `@/i18n/navigation`'s `useRouter` so stack URL updates respect locale prefixes and sync cookies, preventing full reloads.
 
 ### Verification
 
-- TypeScript: Pass
-- Build: Pass (20 pages generated)
-- LSP Diagnostics: 0 errors
+- TypeScript: Not run (not requested)
+- Build: Not run (not requested)
+- Tests: Not run (not requested)
+
+### Next Steps
+
+None.

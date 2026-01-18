@@ -1,8 +1,25 @@
 "use client"
 
-import { parseAsArrayOf, parseAsInteger, parseAsString } from "nuqs"
+import { createParser, parseAsInteger } from "nuqs"
 
-export const stackParser = parseAsArrayOf(parseAsString, ",").withDefault([])
+/**
+ * Custom array parser that uses comma separator WITHOUT URL-encoding.
+ * Standard parseAsArrayOf encodes commas as %2C, making URLs ugly.
+ * This parser keeps URLs clean: ?stack=note-a,note-b,note-c
+ */
+export const stackParser = createParser({
+  parse: (value: string) => {
+    if (!value) return []
+    return value
+      .split(",")
+      .map((s) => s.trim())
+      .filter((s) => s.length > 0)
+  },
+  serialize: (value: string[]) => {
+    if (!value || value.length === 0) return ""
+    return value.join(",")
+  },
+}).withDefault([])
 
 export const focusParser = parseAsInteger
 
@@ -26,29 +43,6 @@ export function getFocusIndex(
     return Math.max(0, stackLength - 1)
   }
   return Math.min(Math.max(0, focus), stackLength - 1)
-}
-
-export function buildStackUrl(stack: string[], focusIndex?: number): string {
-  if (stack.length === 0) {
-    return "/manifesto"
-  }
-
-  const rootSlug = stack[0]
-  const additionalSlugs = stack.slice(1)
-
-  const basePath =
-    rootSlug === "index" ? "/manifesto" : `/manifesto/${rootSlug}`
-
-  const params = new URLSearchParams()
-  if (additionalSlugs.length > 0) {
-    params.set("stack", additionalSlugs.join(","))
-  }
-  if (focusIndex !== undefined && focusIndex !== stack.length - 1) {
-    params.set("focus", String(focusIndex))
-  }
-
-  const queryString = params.toString()
-  return queryString ? `${basePath}?${queryString}` : basePath
 }
 
 export function pushToStack(
