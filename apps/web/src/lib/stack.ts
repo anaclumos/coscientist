@@ -36,7 +36,7 @@ function serializeStackToParams(stack: string[]): string {
     return ""
   }
 
-  const additionalSlugs = stack.slice(1)
+  const additionalSlugs: string[] = stack.slice(1)
   return `stack=${additionalSlugs.join(",")}`
 }
 
