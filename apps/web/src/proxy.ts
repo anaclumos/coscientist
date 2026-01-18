@@ -1,4 +1,4 @@
-import { clerkMiddleware } from "@clerk/nextjs/server"
+import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server"
 import { type NextRequest, NextResponse } from "next/server"
 import createMiddleware from "next-intl/middleware"
 import { type Locale, routing } from "./i18n/routing"
@@ -6,7 +6,9 @@ import { type Locale, routing } from "./i18n/routing"
 const LOCALE_COOKIE = "NEXT_LOCALE"
 const handleI18nRouting = createMiddleware(routing)
 
-export default clerkMiddleware(async (_auth, request: NextRequest) => {
+const isProtectedRoute = createRouteMatcher(["/*/profile(.*)"])
+
+export default clerkMiddleware(async (auth, request: NextRequest) => {
   const { searchParams } = request.nextUrl
   const localeParam = searchParams.get("locale") as Locale | null
 
@@ -21,6 +23,10 @@ export default clerkMiddleware(async (_auth, request: NextRequest) => {
       sameSite: "lax",
     })
     return response
+  }
+
+  if (isProtectedRoute(request)) {
+    await auth.protect()
   }
 
   return handleI18nRouting(request)

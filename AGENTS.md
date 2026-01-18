@@ -543,6 +543,8 @@ After completing significant work, AI agents **MUST** create a work log entry in
 
 `apps/hq/content/docs/logs/YYYYMMDD.mdx`
 
+**IMPORTANT**: Each day should have **exactly ONE log entry**. If you work on multiple tasks in a single day, consolidate all work into a single file with multiple sections.
+
 ### Format
 
 ```mdx

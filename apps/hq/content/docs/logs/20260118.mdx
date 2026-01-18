@@ -1,15 +1,13 @@
 ---
 title: "2026-01-18"
-description: "Clerk authentication integration for apps/web"
+description: "Clerk authentication integration and implementation patterns for apps/web"
 ---
 
-# Work Log: 2026-01-18
-
-## Clerk Authentication Integration
+## Clerk Authentication Integration & Implementation
 
 **Scope**: `apps/web`
 
-### Changes Made
+### Phase 1: Initial Integration
 
 | File | Change |
 |------|--------|
@@ -19,6 +17,16 @@ description: "Clerk authentication integration for apps/web"
 | `src/components/layout/app-header.tsx` | Added `SignInButton`, `SignUpButton`, `UserButton` with `SignedIn`/`SignedOut` conditional rendering |
 | `.env.local.example` | Created with placeholder Clerk API keys |
 
+### Phase 2: Comprehensive Implementation & Patterns
+
+| File | Change |
+|------|--------|
+| `src/env.ts` | Added Clerk environment variable validation with Zod schema |
+| `src/proxy.ts` | Enhanced middleware with route protection using `createRouteMatcher` and `auth.protect()` |
+| `src/app/[locale]/profile/page.tsx` | Created protected profile page demonstrating server-side auth with `auth()` and `currentUser()` |
+| `src/app/api/user/route.ts` | Created protected API route example with auth guard |
+| `src/components/user-greeting.tsx` | Created client component example using `useUser()` hook |
+
 ### Technical Decisions
 
 1. **Middleware Chaining**: Used `clerkMiddleware()` as the outer wrapper, passing the existing i18n logic as the inner handler. This preserves locale cookie behavior while adding auth.
@@ -27,11 +35,88 @@ description: "Clerk authentication integration for apps/web"
 
 3. **Modal Auth Flow**: Used `mode="modal"` for `SignInButton` and `SignUpButton` to keep users on the current page during auth.
 
+4. **Environment Variable Validation**: Extended existing Zod schema in `env.ts` to include Clerk keys with descriptive error messages pointing to the Clerk dashboard.
+
+5. **Middleware Route Protection**: Used `createRouteMatcher()` to define protected routes pattern (`/*/profile(.*)`) and `auth.protect()` to enforce authentication. This pattern allows locale-prefixed routes while maintaining protection.
+
+6. **Server-Side Auth Pattern**: 
+   - Use `auth()` for minimal auth data (userId check)
+   - Use `currentUser()` for full user object when needed
+   - Redirect unauthenticated users to home page
+
+7. **API Route Protection**: Return 401 Unauthorized for unauthenticated API requests, following REST conventions.
+
+8. **Client Component Pattern**: Use `useUser()` hook with proper loading and signed-in state checks before rendering user data.
+
+### Implementation Patterns
+
+#### Server Component Auth
+```typescript
+import { auth, currentUser } from "@clerk/nextjs/server"
+
+const { userId } = await auth()
+if (!userId) redirect("/")
+
+const user = await currentUser()
+```
+
+#### API Route Auth
+```typescript
+import { auth } from "@clerk/nextjs/server"
+
+const { userId } = await auth()
+if (!userId) {
+  return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+}
+```
+
+#### Client Component Auth
+```typescript
+"use client"
+import { useUser } from "@clerk/nextjs"
+
+const { isLoaded, isSignedIn, user } = useUser()
+```
+
+#### Middleware Route Protection
+```typescript
+import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server"
+
+const isProtectedRoute = createRouteMatcher(["/*/profile(.*)"])
+
+export default clerkMiddleware(async (auth, request) => {
+  if (isProtectedRoute(request)) {
+    await auth.protect()
+  }
+  // ... other middleware logic
+})
+```
+
+### Files Created
+
+1. **Protected Page**: `/app/[locale]/profile/page.tsx` - Demonstrates server-side auth
+2. **Protected API**: `/app/api/user/route.ts` - Demonstrates API route protection
+3. **Client Component**: `/components/user-greeting.tsx` - Demonstrates client-side hooks
+
 ### Verification
 
-- TypeScript: Pass
-- LSP Diagnostics: No errors on modified files
+- TypeScript: Pass (all files)
+- LSP Diagnostics: No errors
 - Build: Requires Clerk API keys in `.env.local` (expected behavior)
+
+### Research Findings
+
+**Key Clerk Patterns for Next.js 15 App Router**:
+- Server Components: `auth()` for auth state, `currentUser()` for user data
+- Client Components: `useUser()`, `useAuth()` hooks
+- Route Protection: `auth.protect()` in middleware or pages
+- Conditional Rendering: `<SignedIn>`, `<SignedOut>`, `<Protect>` components
+
+**Best Practices**:
+- Avoid passing full `currentUser()` object to frontend (contains `privateMetadata`)
+- Use `auth.protect()` for route-level protection
+- Use `createRouteMatcher()` for pattern-based route matching
+- Validate environment variables at build time with Zod
 
 ### Next Steps
 
