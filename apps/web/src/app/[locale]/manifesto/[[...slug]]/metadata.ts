@@ -1,9 +1,16 @@
 import type { Metadata } from "next"
-import { notFound } from "next/navigation"
+import { unstable_cache as nextCache } from "next/cache"
 import { hasLocale } from "next-intl"
-import { getTranslations } from "next-intl/server"
 import { routing } from "@/i18n/routing"
 import { getAllNoteSlugs, getNoteBySlug } from "@/lib/notes"
+
+export const dynamicParams = false
+
+const getCachedNote = nextCache(
+  async (slug: string, locale: string) => getNoteBySlug(slug, locale),
+  ["note-metadata"],
+  { revalidate: false }
+)
 
 export async function generateMetadata({
   params,
@@ -17,13 +24,14 @@ export async function generateMetadata({
   }
 
   const rootSlug = slug?.[0] ?? "index"
-  const note = await getNoteBySlug(rootSlug, locale)
+  const note = await getCachedNote(rootSlug, locale)
 
   if (!note) {
-    const t = await getTranslations({ locale, namespace: "metadata" })
+    // Avoid getTranslations() here as it depends on request data,
+    // which is incompatible with static generation in Next.js 16+
     return {
-      title: t("title"),
-      description: t("description"),
+      title: "Coscientist",
+      description: "Your intellectual companion for the post-AI era",
     }
   }
 

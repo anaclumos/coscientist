@@ -9,23 +9,23 @@ description: "Clerk authentication integration and implementation patterns for a
 
 ### Phase 1: Initial Integration
 
-| File | Change |
-|------|--------|
-| `package.json` | Added `@clerk/nextjs@^6.36.8` |
-| `src/proxy.ts` | Integrated `clerkMiddleware()` with existing `next-intl` i18n middleware |
-| `src/app/[locale]/layout.tsx` | Added `<ClerkProvider>` wrapper around app |
+| File                                   | Change                                                                                               |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------------- |
+| `package.json`                         | Added `@clerk/nextjs@^6.36.8`                                                                        |
+| `src/proxy.ts`                         | Integrated `clerkMiddleware()` with existing `next-intl` i18n middleware                             |
+| `src/app/[locale]/layout.tsx`          | Added `<ClerkProvider>` wrapper around app                                                           |
 | `src/components/layout/app-header.tsx` | Added `SignInButton`, `SignUpButton`, `UserButton` with `SignedIn`/`SignedOut` conditional rendering |
-| `.env.local.example` | Created with placeholder Clerk API keys |
+| `.env.local.example`                   | Created with placeholder Clerk API keys                                                              |
 
 ### Phase 2: Comprehensive Implementation & Patterns
 
-| File | Change |
-|------|--------|
-| `src/env.ts` | Added Clerk environment variable validation with Zod schema |
-| `src/proxy.ts` | Enhanced middleware with route protection using `createRouteMatcher` and `auth.protect()` |
+| File                                | Change                                                                                          |
+| ----------------------------------- | ----------------------------------------------------------------------------------------------- |
+| `src/env.ts`                        | Added Clerk environment variable validation with Zod schema                                     |
+| `src/proxy.ts`                      | Enhanced middleware with route protection using `createRouteMatcher` and `auth.protect()`       |
 | `src/app/[locale]/profile/page.tsx` | Created protected profile page demonstrating server-side auth with `auth()` and `currentUser()` |
-| `src/app/api/user/route.ts` | Created protected API route example with auth guard |
-| `src/components/user-greeting.tsx` | Created client component example using `useUser()` hook |
+| `src/app/api/user/route.ts`         | Created protected API route example with auth guard                                             |
+| `src/components/user-greeting.tsx`  | Created client component example using `useUser()` hook                                         |
 
 ### Technical Decisions
 
@@ -39,7 +39,7 @@ description: "Clerk authentication integration and implementation patterns for a
 
 5. **Middleware Route Protection**: Used `createRouteMatcher()` to define protected routes pattern (`/*/profile(.*)`) and `auth.protect()` to enforce authentication. This pattern allows locale-prefixed routes while maintaining protection.
 
-6. **Server-Side Auth Pattern**: 
+6. **Server-Side Auth Pattern**:
    - Use `auth()` for minimal auth data (userId check)
    - Use `currentUser()` for full user object when needed
    - Redirect unauthenticated users to home page
@@ -51,45 +51,49 @@ description: "Clerk authentication integration and implementation patterns for a
 ### Implementation Patterns
 
 #### Server Component Auth
+
 ```typescript
-import { auth, currentUser } from "@clerk/nextjs/server"
+import { auth, currentUser } from "@clerk/nextjs/server";
 
-const { userId } = await auth()
-if (!userId) redirect("/")
+const { userId } = await auth();
+if (!userId) redirect("/");
 
-const user = await currentUser()
+const user = await currentUser();
 ```
 
 #### API Route Auth
-```typescript
-import { auth } from "@clerk/nextjs/server"
 
-const { userId } = await auth()
+```typescript
+import { auth } from "@clerk/nextjs/server";
+
+const { userId } = await auth();
 if (!userId) {
-  return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+  return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
 }
 ```
 
 #### Client Component Auth
-```typescript
-"use client"
-import { useUser } from "@clerk/nextjs"
 
-const { isLoaded, isSignedIn, user } = useUser()
+```typescript
+"use client";
+import { useUser } from "@clerk/nextjs";
+
+const { isLoaded, isSignedIn, user } = useUser();
 ```
 
 #### Middleware Route Protection
-```typescript
-import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server"
 
-const isProtectedRoute = createRouteMatcher(["/*/profile(.*)"])
+```typescript
+import { clerkMiddleware, createRouteMatcher } from "@clerk/nextjs/server";
+
+const isProtectedRoute = createRouteMatcher(["/*/profile(.*)"]);
 
 export default clerkMiddleware(async (auth, request) => {
   if (isProtectedRoute(request)) {
-    await auth.protect()
+    await auth.protect();
   }
   // ... other middleware logic
-})
+});
 ```
 
 ### Files Created
@@ -107,12 +111,14 @@ export default clerkMiddleware(async (auth, request) => {
 ### Research Findings
 
 **Key Clerk Patterns for Next.js 15 App Router**:
+
 - Server Components: `auth()` for auth state, `currentUser()` for user data
 - Client Components: `useUser()`, `useAuth()` hooks
 - Route Protection: `auth.protect()` in middleware or pages
 - Conditional Rendering: `<SignedIn>`, `<SignedOut>`, `<Protect>` components
 
 **Best Practices**:
+
 - Avoid passing full `currentUser()` object to frontend (contains `privateMetadata`)
 - Use `auth.protect()` for route-level protection
 - Use `createRouteMatcher()` for pattern-based route matching
@@ -121,6 +127,7 @@ export default clerkMiddleware(async (auth, request) => {
 ### Next Steps
 
 User must add real Clerk API keys to `.env.local`:
+
 ```bash
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
 CLERK_SECRET_KEY=sk_test_...

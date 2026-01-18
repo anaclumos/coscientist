@@ -67,6 +67,8 @@ const browserCollections = {
       import(
         "../content/docs/adr/008-platform-boundaries-expansion.mdx?collection=docs"
       ),
+    "logs/20260118.mdx": () =>
+      import("../content/docs/logs/20260118.mdx?collection=docs"),
   }),
 }
 export default browserCollections

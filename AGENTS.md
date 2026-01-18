@@ -561,8 +561,8 @@ description: "Brief summary of work done"
 
 ### Changes Made
 
-| File | Change |
-|------|--------|
+| File           | Change                |
+| -------------- | --------------------- |
 | `path/to/file` | Description of change |
 
 ### Technical Decisions
