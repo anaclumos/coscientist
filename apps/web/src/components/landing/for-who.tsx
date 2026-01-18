@@ -15,10 +15,12 @@ function AudienceItem({
   variants: import("motion/react").Variants
 }) {
   return (
-    <motion.div className="flex items-start gap-3" variants={variants}>
-      <span className="mt-1.5 h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+    <motion.li className="flex items-start gap-3" variants={variants}>
+      <span className="flex h-7 items-center">
+        <span className="h-1.5 w-1.5 shrink-0 rounded-full bg-foreground/40" />
+      </span>
       <span className="text-base/7 text-muted-foreground">{text}</span>
-    </motion.div>
+    </motion.li>
   )
 }
 
@@ -56,7 +58,7 @@ export function ForWho() {
           <Subheading>{t("heading")}</Subheading>
         </motion.div>
 
-        <motion.div
+        <motion.ul
           animate={isInView ? "visible" : "hidden"}
           className="grid grid-cols-1 gap-6 sm:grid-cols-2"
           initial="hidden"
@@ -70,7 +72,7 @@ export function ForWho() {
               variants={itemVariantsWithTransition}
             />
           ))}
-        </motion.div>
+        </motion.ul>
       </Container>
     </section>
   )
