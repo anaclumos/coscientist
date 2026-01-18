@@ -1,25 +1,30 @@
 "use client"
 
 import { Waitlist } from "@clerk/nextjs"
-import { motion } from "motion/react"
+import { motion, useReducedMotion } from "motion/react"
 import Link from "next/link"
 import { useTranslations } from "next-intl"
 import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 
 import { Button } from "@/components/ui/button"
 import { Group } from "@/components/ui/group"
-import { springSubtle } from "@/lib/animations"
+import { reducedMotionTransition, springSubtle } from "@/lib/animations"
 
 export function HeroCTA() {
   const t = useTranslations("landing.hero")
+  const prefersReducedMotion = useReducedMotion()
 
   return (
     <motion.div
       animate={{ opacity: 1, y: 0 }}
       className="flex flex-col items-center gap-6"
       id="waitlist"
-      initial={{ opacity: 0, y: 20 }}
-      transition={{ ...springSubtle, delay: 0.1 }}
+      initial={prefersReducedMotion ? false : { opacity: 0, y: 20 }}
+      transition={
+        prefersReducedMotion
+          ? reducedMotionTransition
+          : { ...springSubtle, delay: 0.1 }
+      }
     >
       <Group className="flex flex-col items-center flex-row">
         <Button render={<Link href="/manifesto" />} size="lg">

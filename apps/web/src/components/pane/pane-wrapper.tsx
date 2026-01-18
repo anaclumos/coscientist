@@ -1,17 +1,17 @@
 "use client"
 
-import { motion } from "motion/react"
-import type { ReactNode } from "react"
+import { motion, type Transition } from "motion/react"
+import type { CSSProperties, ReactNode, RefObject } from "react"
+import { paneVariants } from "@/lib/animations"
 import { cn } from "@/lib/utils"
-import { paneVariants } from "./pane-animations"
 
 interface PaneWrapperProps {
   children: ReactNode
   title: string
   index: number
   prefersReducedMotion: boolean
-  transition: object
-  paneRef: React.RefObject<HTMLElement | null>
+  transition: Transition
+  paneRef: RefObject<HTMLElement | null>
 }
 
 export function PaneWrapper({
@@ -42,7 +42,7 @@ export function PaneWrapper({
         {
           "--pane-left-offset": `calc(${index} * var(--pane-spine-width))`,
           zIndex: `calc(var(--z-pane) + ${index})`,
-        } as React.CSSProperties
+        } as CSSProperties
       }
       tabIndex={-1}
       transition={transition}

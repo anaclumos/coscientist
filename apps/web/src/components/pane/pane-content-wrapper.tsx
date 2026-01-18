@@ -4,8 +4,8 @@ import { AnimatePresence, motion, type Transition } from "motion/react"
 import { useTranslations } from "next-intl"
 import { IconXmarkOutline18 } from "nucleo-ui-outline-18"
 import type { ReactNode } from "react"
+import { closeButtonVariants, paneContentVariants } from "@/lib/animations"
 import { cn } from "@/lib/utils"
-import { closeButtonVariants, paneContentVariants } from "./pane-animations"
 
 interface PaneContentWrapperProps {
   children: ReactNode

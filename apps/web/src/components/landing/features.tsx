@@ -7,7 +7,8 @@ import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
 import { FeatureCard } from "./feature-card"
 import { getFeatures } from "./features-data"
-import { Container, Eyebrow, Subheading } from "./primitives"
+import { Container } from "./primitives/layout"
+import { Eyebrow, Subheading } from "./primitives/typography"
 
 export function Features() {
   const t = useTranslations("landing.features")

@@ -2,6 +2,7 @@
 
 import { animate, type MotionValue, motion, useSpring } from "motion/react"
 import { memo, useCallback, useEffect } from "react"
+import { useReducedMotion } from "@/hooks/use-reduced-motion"
 
 interface SliderNotchProps {
   index: number
@@ -10,23 +11,30 @@ interface SliderNotchProps {
   ariaLabel: string
 }
 
+const springConfig = { duration: 0.2, bounce: 0 }
+const reducedMotionConfig = { duration: 0 }
+
 export const SliderNotch = memo(function SliderNotch({
   index,
   activeIndex,
   onTap,
   ariaLabel,
 }: SliderNotchProps) {
+  const prefersReducedMotion = useReducedMotion()
   const isActive = Math.round(activeIndex.get()) === index
-  const scaleY = useSpring(isActive ? 1 : 0.5, { duration: 0.2, bounce: 0 })
-  const opacity = useSpring(isActive ? 1 : 0.3, { duration: 0.2, bounce: 0 })
+  const transitionConfig = prefersReducedMotion
+    ? reducedMotionConfig
+    : springConfig
+  const scaleY = useSpring(isActive ? 1 : 0.5, transitionConfig)
+  const opacity = useSpring(isActive ? 1 : 0.3, transitionConfig)
 
   useEffect(() => {
     return activeIndex.on("change", (v) => {
       const active = Math.round(v) === index
-      animate(scaleY, active ? 1 : 0.5, { duration: 0.2, bounce: 0 })
-      animate(opacity, active ? 1 : 0.3, { duration: 0.2, bounce: 0 })
+      animate(scaleY, active ? 1 : 0.5, transitionConfig)
+      animate(opacity, active ? 1 : 0.3, transitionConfig)
     })
-  }, [activeIndex, index, scaleY, opacity])
+  }, [activeIndex, index, scaleY, opacity, transitionConfig])
 
   const handleClick = useCallback(() => {
     onTap(index)

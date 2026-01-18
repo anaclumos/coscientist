@@ -7,7 +7,8 @@ import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
 import { getPipelineSteps } from "./pipeline-data"
 import { PipelineStep } from "./pipeline-step"
-import { Container, Eyebrow, Subheading, Text } from "./primitives"
+import { Container } from "./primitives/layout"
+import { Eyebrow, Subheading, Text } from "./primitives/typography"
 
 export function Pipeline() {
   const t = useTranslations("landing.pipeline")

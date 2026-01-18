@@ -1,7 +1,7 @@
 "use client"
 
 import { AnimatePresence, motion, type Transition } from "motion/react"
-import { spineVariants } from "./pane-animations"
+import { spineVariants } from "@/lib/animations"
 import { PaneSpine } from "./pane-spine"
 
 interface PaneCollapsedSpineProps {

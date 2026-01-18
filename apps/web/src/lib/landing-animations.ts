@@ -2,7 +2,7 @@ import type { Transition, Variants } from "motion/react"
 import { useInView, useReducedMotion } from "motion/react"
 import { useRef } from "react"
 
-import { springSubtle } from "./animations"
+import { reducedMotionTransition, springSubtle } from "./animations"
 
 export const sectionVariants: Variants = {
   hidden: { opacity: 0, y: 20 },
@@ -23,7 +23,7 @@ export function getItemVariants(
   prefersReducedMotion: boolean | null
 ): Variants {
   const transition: Transition = prefersReducedMotion
-    ? { duration: 0 }
+    ? reducedMotionTransition
     : springSubtle
   return {
     hidden: { opacity: 0, y: 20 },
@@ -35,7 +35,7 @@ export function getHorizontalItemVariants(
   prefersReducedMotion: boolean | null
 ): Variants {
   const transition: Transition = prefersReducedMotion
-    ? { duration: 0 }
+    ? reducedMotionTransition
     : springSubtle
   return {
     hidden: { opacity: 0, x: -20 },
@@ -78,7 +78,7 @@ export function useSectionAnimation(options?: { amount?: number }) {
   const prefersReducedMotion = useReducedMotion()
 
   const transition: Transition = prefersReducedMotion
-    ? { duration: 0 }
+    ? reducedMotionTransition
     : springSubtle
 
   const staggerContainerVariants = getStaggerContainer(prefersReducedMotion)

@@ -9,7 +9,8 @@ import { Button } from "@/components/ui/button"
 import { Group } from "@/components/ui/group"
 import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
-import { Container, Subheading } from "./primitives"
+import { Container } from "./primitives/layout"
+import { Subheading } from "./primitives/typography"
 
 export function CTA() {
   const t = useTranslations("landing.cta")

@@ -5,7 +5,7 @@ import Image from "next/image"
 import { AmbientGradient } from "./ambient-gradient"
 import { HeroCTA } from "./hero-cta"
 import { HeroTitle } from "./hero-title"
-import { Container } from "./primitives"
+import { Container } from "./primitives/layout"
 
 export function Hero() {
   return (

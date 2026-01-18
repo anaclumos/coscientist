@@ -1,7 +1,7 @@
 "use client"
 
-import { AnimatePresence, motion } from "motion/react"
-import type { ReactNode } from "react"
+import { AnimatePresence, motion, type Transition } from "motion/react"
+import type { ReactNode, RefObject } from "react"
 import {
   paneContentVariants,
   paneVariants,
@@ -15,9 +15,9 @@ interface PaneWrapperProps {
   index: number
   isCollapsed: boolean
   title: string
-  paneRef: React.RefObject<HTMLElement | null>
-  transition: { duration: number } | object
-  quickTransition: { duration: number } | object
+  paneRef: RefObject<HTMLElement | null>
+  transition: Transition
+  quickTransition: Transition
   prefersReducedMotion: boolean
   onExpand?: () => void
   expandLabel: string

@@ -29,6 +29,10 @@ export const springQuick: Transition = {
   bounce: 0,
 }
 
+export const reducedMotionTransition: Transition = {
+  duration: 0,
+}
+
 /**
  * Pane enter/exit animation variants.
  * Animates opacity and translateX (compositor-only properties).
@@ -72,5 +76,20 @@ export const spineVariants: Variants = {
   },
   visible: {
     opacity: 1,
+  },
+}
+
+export const closeButtonVariants: Variants = {
+  initial: {
+    opacity: 0,
+    scale: 0.8,
+  },
+  animate: {
+    opacity: 1,
+    scale: 1,
+  },
+  exit: {
+    opacity: 0,
+    scale: 0.8,
   },
 }

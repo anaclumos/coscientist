@@ -209,3 +209,86 @@ User must enable Waitlist mode in Clerk Dashboard:
 1. Go to **User & Authentication** → **Restrictions** (or **Waitlist settings**)
 2. Enable **Waitlist** mode
 3. Configure auto-approve or manual review as needed
+
+---
+
+## Pane Animation & Registration Refactor
+
+**Scope**: `apps/web`
+
+### Changes Made
+
+| File | Change |
+| ---- | ------ |
+| `src/lib/animations.ts` | Centralized pane variants, added `closeButtonVariants`, introduced `reducedMotionTransition`. |
+| `src/components/pane/pane-wrapper.tsx` | Switched to shared variants import and tightened transition/ref typing. |
+| `src/components/pane/pane-content-wrapper.tsx` | Pulled pane content/close button variants from `lib/animations`. |
+| `src/components/pane/pane-collapsed-spine.tsx` | Reused shared spine variants from `lib/animations`. |
+| `src/components/pane/use-pane-registration.ts` | Added a shared hook to register pane refs with the collapse context. |
+| `src/components/pane/note-pane.tsx` | Adopted the shared registration hook and reduced-motion transition constant. |
+| `src/components/notes-list/all-notes-list.tsx` | Adopted the shared registration hook and reduced-motion transition constant. |
+| `src/components/notes-list/pane-wrapper.tsx` | Typed motion transitions/ref props with `Transition`/`RefObject`. |
+| `src/components/mobile/coverflow-pane.tsx` | Simplified reduced-motion transition handling. |
+| `src/lib/landing-animations.ts` | Reused the shared reduced-motion transition constant. |
+| `src/components/landing/hero-title.tsx` | Reused the shared reduced-motion transition constant. |
+| `src/components/client/pane-orchestrator.tsx` | Switched to direct AllNotesList import to avoid barrel indirection. |
+| `src/components/all-notes-list.tsx` | Removed the barrel re-export file. |
+| `src/components/pane/pane-animations.ts` | Removed duplicate animation definitions (now in `lib/animations`). |
+
+### Technical Decisions
+
+1. **Single Animation Source**: Merged pane animation variants into `lib/animations` to avoid drift and duplication.
+2. **Reduced Motion Consistency**: Introduced a shared `reducedMotionTransition` constant to keep behavior consistent and avoid inline objects.
+3. **Shared Pane Ref Registration**: Added `usePaneRegistration` to standardize pane ref lifecycle management across panes.
+4. **Stronger Motion Typing**: Switched pane wrapper transition/ref props to `Transition`/`RefObject` for better type safety.
+5. **Direct Imports**: Dropped the AllNotesList barrel to keep imports explicit and reduce bundle indirection.
+
+### Verification
+
+- TypeScript: Not run
+- Build: Not run
+- Tests: Not run
+
+### Next Steps
+
+Run TypeScript/build checks if you want validation on the refactor.
+
+---
+
+## Landing Imports & Reduced Motion Fixes
+
+**Scope**: `apps/web`
+
+### Changes Made
+
+| File | Change |
+| ---- | ------ |
+| `src/components/landing/cta.tsx` | Switched to direct primitive imports. |
+| `src/components/landing/pipeline.tsx` | Switched to direct primitive imports. |
+| `src/components/landing/features.tsx` | Switched to direct primitive imports. |
+| `src/components/landing/hero.tsx` | Switched to direct primitive imports. |
+| `src/components/landing/for-who.tsx` | Switched to direct primitive imports. |
+| `src/components/landing/build-in-public.tsx` | Switched to direct primitive imports. |
+| `src/components/landing/footer.tsx` | Switched to direct primitive imports. |
+| `src/components/landing/hero-cta.tsx` | Added reduced motion handling for hero CTA animation. |
+| `src/components/mobile/slider-notch.tsx` | Added reduced motion handling for slider notch animations. |
+| `src/components/landing/primitives.tsx` | Removed unused barrel export file. |
+| `src/components/landing/primitives/section.tsx` | Removed unused Section primitive. |
+| `src/components/notes-list/pane-wrapper.tsx` | Allowed nullable pane refs for hook compatibility. |
+| `src/components/pane/pane-wrapper.tsx` | Allowed nullable pane refs for hook compatibility. |
+
+### Technical Decisions
+
+1. **Direct Imports Over Barrels**: Removed the landing primitives barrel to keep imports explicit and minimize bundle indirection.
+2. **Reduced Motion Compliance**: Ensured hero CTA and slider notch animations respect reduced motion preferences.
+3. **Ref Type Safety**: Updated pane wrapper ref types to accept nullable refs from `useRef`.
+
+### Verification
+
+- TypeScript: Pass (via `bun run build`)
+- Build: Pass (via `bun run build`)
+- Tests: Not run
+
+### Notes
+
+Build logs show non-blocking warnings about `--localstorage-file` without a valid path during `@coscientist/web` static generation.

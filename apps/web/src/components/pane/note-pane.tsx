@@ -1,8 +1,12 @@
 "use client"
 
-import { memo, useCallback, useEffect, useMemo, useRef } from "react"
+import { memo, useCallback } from "react"
 import { useReducedMotion } from "@/hooks/use-reduced-motion"
-import { springQuick, springSubtle } from "@/lib/animations"
+import {
+  reducedMotionTransition,
+  springQuick,
+  springSubtle,
+} from "@/lib/animations"
 import type { BacklinkInfo } from "@/lib/types"
 import { PaneBackground } from "./pane-background"
 import { PaneBody } from "./pane-body"
@@ -10,6 +14,7 @@ import { usePaneCollapse } from "./pane-collapse-context"
 import { PaneCollapsedSpine } from "./pane-collapsed-spine"
 import { PaneContentWrapper } from "./pane-content-wrapper"
 import { PaneWrapper } from "./pane-wrapper"
+import { usePaneRegistration } from "./use-pane-registration"
 
 interface NotePaneProps {
   slug: string
@@ -36,15 +41,10 @@ export const NotePane = memo(function NotePane({
   onExpand,
   onClose,
 }: NotePaneProps) {
-  const { collapsedIndices, registerPaneRef } = usePaneCollapse()
+  const { collapsedIndices } = usePaneCollapse()
   const isCollapsed = collapsedIndices.has(index)
   const prefersReducedMotion = useReducedMotion()
-  const paneRef = useRef<HTMLElement>(null)
-
-  useEffect(() => {
-    registerPaneRef(index, paneRef.current)
-    return () => registerPaneRef(index, null)
-  }, [index, registerPaneRef])
+  const paneRef = usePaneRegistration(index)
 
   const handleLinkClick = useCallback(
     (linkSlug: string) => {
@@ -61,14 +61,12 @@ export const NotePane = memo(function NotePane({
     onClose(index)
   }, [onClose, index])
 
-  const transition = useMemo(
-    () => (prefersReducedMotion ? { duration: 0 } : springSubtle),
-    [prefersReducedMotion]
-  )
-  const quickTransition = useMemo(
-    () => (prefersReducedMotion ? { duration: 0 } : springQuick),
-    [prefersReducedMotion]
-  )
+  const transition = prefersReducedMotion
+    ? reducedMotionTransition
+    : springSubtle
+  const quickTransition = prefersReducedMotion
+    ? reducedMotionTransition
+    : springQuick
 
   return (
     <PaneWrapper

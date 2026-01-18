@@ -5,7 +5,8 @@ import { useTranslations } from "next-intl"
 
 import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
-import { Container, Subheading } from "./primitives"
+import { Container } from "./primitives/layout"
+import { Subheading } from "./primitives/typography"
 
 function AudienceItem({
   text,

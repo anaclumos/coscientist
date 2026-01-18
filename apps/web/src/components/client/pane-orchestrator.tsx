@@ -2,7 +2,7 @@
 
 import { AnimatePresence, LayoutGroup } from "motion/react"
 import { memo, useCallback } from "react"
-import { AllNotesList } from "@/components/all-notes-list"
+import { AllNotesList } from "@/components/notes-list/all-notes-list"
 import { NotePane } from "@/components/pane/note-pane"
 import { useSetKeyboardFocusIndex } from "@/lib/stores/pane-ui-store"
 import type { NotePaneData, NoteSummary } from "@/lib/types"

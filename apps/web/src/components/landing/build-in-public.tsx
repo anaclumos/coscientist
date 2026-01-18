@@ -7,7 +7,8 @@ import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 import { Button } from "@/components/ui/button"
 import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
-import { Container, Eyebrow, Subheading, Text } from "./primitives"
+import { Container } from "./primitives/layout"
+import { Eyebrow, Subheading, Text } from "./primitives/typography"
 
 export function BuildInPublic() {
   const t = useTranslations("landing.buildInPublic")

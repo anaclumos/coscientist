@@ -187,3 +187,86 @@ Clerk 대시보드에서 대기자 명단 모드를 활성화해야 합니다:
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
 CLERK_SECRET_KEY=sk_test_...
 ```
+
+---
+
+## Pane 애니메이션 및 레지스트레이션 리팩터링
+
+**범위**: `apps/web`
+
+### 변경 사항
+
+| 파일 | 변경 사항 |
+| ---- | --------- |
+| `src/lib/animations.ts` | Pane variants 통합, `closeButtonVariants` 추가, `reducedMotionTransition` 도입. |
+| `src/components/pane/pane-wrapper.tsx` | 공용 variants import 적용 및 transition/ref 타입 정리. |
+| `src/components/pane/pane-content-wrapper.tsx` | pane content/close button variants를 `lib/animations`에서 사용. |
+| `src/components/pane/pane-collapsed-spine.tsx` | 공용 spine variants 재사용. |
+| `src/components/pane/use-pane-registration.ts` | Pane ref 등록을 위한 공용 훅 추가. |
+| `src/components/pane/note-pane.tsx` | 공용 등록 훅 및 reduced motion transition 상수 적용. |
+| `src/components/notes-list/all-notes-list.tsx` | 공용 등록 훅 및 reduced motion transition 상수 적용. |
+| `src/components/notes-list/pane-wrapper.tsx` | `Transition`/`RefObject` 기반으로 motion 타입 보강. |
+| `src/components/mobile/coverflow-pane.tsx` | reduced motion transition 처리 단순화. |
+| `src/lib/landing-animations.ts` | reduced motion transition 상수 재사용. |
+| `src/components/landing/hero-title.tsx` | reduced motion transition 상수 재사용. |
+| `src/components/client/pane-orchestrator.tsx` | AllNotesList 직접 import로 전환해 배럴 간접 참조 제거. |
+| `src/components/all-notes-list.tsx` | 배럴 re-export 파일 제거. |
+| `src/components/pane/pane-animations.ts` | 중복 애니메이션 정의 제거 (lib로 통합). |
+
+### 기술적 결정
+
+1. **단일 애니메이션 소스**: Pane 관련 variants를 `lib/animations`로 통합해 중복과 드리프트를 방지.
+2. **Reduced Motion 일관성**: `reducedMotionTransition` 상수로 일관된 동작과 객체 생성 최소화.
+3. **Pane ref 등록 공유**: `usePaneRegistration`으로 pane ref 생명주기 관리 표준화.
+4. **Motion 타입 강화**: `Transition`/`RefObject`로 타입 안정성 강화.
+5. **직접 import**: AllNotesList 배럴을 제거해 명시적 import와 번들 간접 참조를 줄임.
+
+### 검증
+
+- TypeScript: 미실행
+- 빌드: 미실행
+- 테스트: 미실행
+
+### 다음 단계
+
+리팩터링 검증이 필요하면 TypeScript/빌드 체크를 실행하세요.
+
+---
+
+## 랜딩 Import 정리 & Reduced Motion 개선
+
+**범위**: `apps/web`
+
+### 변경 사항
+
+| 파일 | 변경 사항 |
+| ---- | --------- |
+| `src/components/landing/cta.tsx` | primitives 직접 import로 전환. |
+| `src/components/landing/pipeline.tsx` | primitives 직접 import로 전환. |
+| `src/components/landing/features.tsx` | primitives 직접 import로 전환. |
+| `src/components/landing/hero.tsx` | primitives 직접 import로 전환. |
+| `src/components/landing/for-who.tsx` | primitives 직접 import로 전환. |
+| `src/components/landing/build-in-public.tsx` | primitives 직접 import로 전환. |
+| `src/components/landing/footer.tsx` | primitives 직접 import로 전환. |
+| `src/components/landing/hero-cta.tsx` | 히어로 CTA 애니메이션에 reduced motion 적용. |
+| `src/components/mobile/slider-notch.tsx` | 슬라이더 노치 애니메이션에 reduced motion 적용. |
+| `src/components/landing/primitives.tsx` | 사용하지 않는 배럴 export 제거. |
+| `src/components/landing/primitives/section.tsx` | 사용하지 않는 Section primitive 제거. |
+| `src/components/notes-list/pane-wrapper.tsx` | 훅과 호환되도록 nullable ref 허용. |
+| `src/components/pane/pane-wrapper.tsx` | 훅과 호환되도록 nullable ref 허용. |
+
+### 기술적 결정
+
+1. **Direct Import 적용**: 랜딩 primitives 배럴을 제거하고 명시적 import로 전환.
+2. **Reduced Motion 준수**: Hero CTA와 slider notch 애니메이션이 reduced motion을 따르도록 수정.
+3. **Ref 타입 보정**: `useRef`가 반환하는 nullable ref에 맞게 타입 수정.
+
+### 검증
+
+- TypeScript: 통과 (`bun run build`)
+- 빌드: 통과 (`bun run build`)
+- 테스트: 미실행
+
+### 참고
+
+`@coscientist/web` 정적 생성 단계에서 `--localstorage-file` 경로 관련 경고가 발생했지만 빌드는 성공했습니다.

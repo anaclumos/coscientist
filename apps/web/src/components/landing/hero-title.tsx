@@ -4,7 +4,7 @@ import { motion, useReducedMotion } from "motion/react"
 import Image from "next/image"
 import { useTranslations } from "next-intl"
 
-import { springSubtle } from "@/lib/animations"
+import { reducedMotionTransition, springSubtle } from "@/lib/animations"
 
 export function HeroTitle() {
   const prefersReducedMotion = useReducedMotion()
@@ -17,7 +17,7 @@ export function HeroTitle() {
         className="pointer-events-none select-none"
         transition={
           prefersReducedMotion
-            ? { duration: 0 }
+            ? reducedMotionTransition
             : {
                 duration: 3,
                 repeat: Number.POSITIVE_INFINITY,

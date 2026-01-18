@@ -1,12 +1,17 @@
 "use client"
 
 import { useTranslations } from "next-intl"
-import { memo, useCallback, useEffect, useRef } from "react"
+import { memo, useCallback } from "react"
 import { ScrollArea } from "@/components/ui/scroll-area"
 import { useReducedMotion } from "@/hooks/use-reduced-motion"
-import { springQuick, springSubtle } from "@/lib/animations"
+import {
+  reducedMotionTransition,
+  springQuick,
+  springSubtle,
+} from "@/lib/animations"
 import type { NoteSummary } from "@/lib/types"
 import { usePaneCollapse } from "../pane/pane-collapse-context"
+import { usePaneRegistration } from "../pane/use-pane-registration"
 import { useNotesListState } from "./list-state"
 import { NoteItem } from "./note-item"
 import { PaneWrapper } from "./pane-wrapper"
@@ -26,22 +31,17 @@ export const AllNotesList = memo(function AllNotesList({
   onNoteClick,
   onExpand,
 }: AllNotesListProps) {
-  const { collapsedIndices, registerPaneRef } = usePaneCollapse()
+  const { collapsedIndices } = usePaneCollapse()
   const isCollapsed = collapsedIndices.has(index)
   const prefersReducedMotion = useReducedMotion()
   const t = useTranslations("allNotes")
   const tPane = useTranslations("notePane")
-  const paneRef = useRef<HTMLElement>(null)
+  const paneRef = usePaneRegistration(index)
 
   const { filteredNotes, stackIndexBySlug } = useNotesListState({
     notes,
     currentStack,
   })
-
-  useEffect(() => {
-    registerPaneRef(index, paneRef.current)
-    return () => registerPaneRef(index, null)
-  }, [index, registerPaneRef])
 
   const handleExpand = useCallback(() => {
     onExpand(index)
@@ -52,8 +52,12 @@ export const AllNotesList = memo(function AllNotesList({
     [t]
   )
 
-  const transition = prefersReducedMotion ? { duration: 0 } : springSubtle
-  const quickTransition = prefersReducedMotion ? { duration: 0 } : springQuick
+  const transition = prefersReducedMotion
+    ? reducedMotionTransition
+    : springSubtle
+  const quickTransition = prefersReducedMotion
+    ? reducedMotionTransition
+    : springQuick
 
   return (
     <PaneWrapper

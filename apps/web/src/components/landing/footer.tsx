@@ -5,7 +5,7 @@ import { useTranslations } from "next-intl"
 
 import { Button } from "@/components/ui/button"
 import { AmbientGradient } from "./ambient-gradient"
-import { Container } from "./primitives"
+import { Container } from "./primitives/layout"
 
 export function Footer() {
   const t = useTranslations("landing.footer")
