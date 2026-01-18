@@ -1,8 +1,8 @@
 "use client"
 
-import { useRouter } from "next/navigation"
 import { useQueryStates } from "nuqs"
 import { useCallback, useMemo, useRef } from "react"
+import { useRouter } from "@/i18n/navigation"
 import {
   buildFullStack,
   buildStackUrl,
