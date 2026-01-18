@@ -1,5 +1,5 @@
-import { getFacultyGlyphic } from "./faculty-glyphic"
-import { getNotoSerifForScript, getScriptFontName } from "./noto-serif"
+import { getPretendard } from "./pretendard"
+import { getPretendardForScript, getScriptFontName } from "./pretendard-scripts"
 
 export interface OGFont {
   name: string
@@ -64,7 +64,7 @@ async function getLocaleFallbackFont(
     return null
   }
 
-  const data = await getNotoSerifForScript(script, text)
+  const data = await getPretendardForScript(script, text)
 
   return {
     name: getScriptFontName(script),
@@ -80,9 +80,9 @@ export async function getFontsForLocale(
 ): Promise<OGFont[]> {
   const fonts: OGFont[] = []
 
-  const primaryData = await getFacultyGlyphic()
+  const primaryData = await getPretendard()
   fonts.push({
-    name: "Faculty Glyphic",
+    name: "Pretendard",
     data: primaryData,
     weight: 400,
     style: "normal",

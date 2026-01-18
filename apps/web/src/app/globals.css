@@ -4,7 +4,6 @@
 @custom-variant dark (&:is(.dark *));
 
 @theme {
-  --font-display: "Instrument Serif", serif;
 }
 
 :root {
@@ -72,11 +71,11 @@
   --color-foreground: var(--foreground);
   --color-link: var(--link);
   --color-link-visited: var(--link-visited);
-  --font-display: var(--font-display);
   --font-sans:
-    var(--font-faculty-glyphic), "Noto Serif KR Variable",
-    "Noto Serif JP Variable", "Noto Serif SC Variable", "Noto Serif TC Variable";
-  --font-mono: "Iosevka", ui-monospace, monospace;
+    ui-sans-serif, -apple-system, BlinkMacSystemFont, "SF Pro", "Segoe UI",
+    Roboto, "Pretendard Variable", Pretendard, "Pretendard JP", sans-serif;
+  --font-mono:
+    ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace;
   --animate-skeleton: skeleton 2s -1s infinite linear;
   --color-warning-foreground: var(--warning-foreground);
   --color-warning: var(--warning);

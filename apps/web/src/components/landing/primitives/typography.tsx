@@ -11,7 +11,7 @@ export function Heading({
   return (
     <h1
       className={cn(
-        "text-balance font-display text-5xl/12 tracking-tight sm:text-[5rem]/20",
+        "text-balance text-5xl/12 tracking-tight sm:text-[5rem]/20",
         "text-neutral-950",
         "dark:bg-gradient-to-br dark:from-white dark:via-white dark:to-neutral-400 dark:bg-clip-text dark:text-transparent",
         className

@@ -17,7 +17,7 @@ export async function generateOGImage({
 }) {
   const textToRender = `${title}${description}Coscientistcoscientist.app`
   const fonts = await getFontsForLocale(locale, textToRender)
-  const primaryFontName = fonts[0]?.name || "Faculty Glyphic"
+  const primaryFontName = fonts[0]?.name || "Pretendard"
 
   return new ImageResponse(
     createElement(OGTemplate, {

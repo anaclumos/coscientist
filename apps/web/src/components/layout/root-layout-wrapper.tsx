@@ -1,5 +1,4 @@
 import type { ReactNode } from "react"
-import { facultyGlyphic } from "@/app/[locale]/layout-fonts"
 import { cn } from "@/lib/utils"
 
 interface RootLayoutWrapperProps {
@@ -20,12 +19,7 @@ export function RootLayoutWrapper({
       lang={locale}
       suppressHydrationWarning
     >
-      <body
-        className={cn(
-          facultyGlyphic.variable,
-          "flex h-full flex-col font-sans antialiased"
-        )}
-      >
+      <body className={cn("flex h-full flex-col font-sans antialiased")}>
         {children}
       </body>
     </html>
