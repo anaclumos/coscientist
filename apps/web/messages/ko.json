@@ -1,36 +1,36 @@
 {
   "metadata": {
     "title": "Coscientist: 토큰 ≠ 지식",
-    "description": "인지 인프라로 연구의 가치를 높입니다"
+    "description": "더 나은 연구를 위한 인지 인프라."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Coscientist 선언문",
+    "joinWaitlist": "대기자 명단에 합류",
     "github": "GitHub (새 탭에서 열림)",
-    "twitter": "X (Twitter) (새 탭에서 열림)",
-    "joinWaitlist": "Join Waitlist"
+    "twitter": "X (Twitter) (새 탭에서 열림)"
   },
   "allNotes": {
-    "title": "전체 노트",
+    "title": "모든 노트",
     "noteCount": "노트 {count}개",
-    "currentlyOpen": "현재 {position}번 위치에 열림"
+    "currentlyOpen": "현재 {position}번째에 열려 있음"
+  },
+  "notePane": {
+    "expand": "작업 공간 확장",
+    "expandNote": "{title} 탐색",
+    "closeNote": "{title} 닫기",
+    "closePane": "패널 {index} 닫기",
+    "editOnGitHub": "GitHub에서 편집"
   },
   "mobileCarousel": {
     "goToNote": "{position}번 노트로 이동: {title}"
   },
-  "notePane": {
-    "expand": "작업 공간 확장",
-    "expandNote": "{title} 살펴보기",
-    "closeNote": "{title} 정리하기",
-    "closePane": "{index}번 창 닫기",
-    "editOnGitHub": "GitHub에서 수정"
-  },
   "backlinks": {
-    "singular": "이 노트로 연결된 링크 {count}개",
-    "plural": "이 노트로 연결된 링크 {count}개"
+    "singular": "{count}개의 노트가 여기로 연결됨",
+    "plural": "{count}개의 노트가 여기로 연결됨"
   },
   "theme": {
-    "toggle": "화면 모드 전환",
+    "toggle": "테마 변경",
     "light": "라이트",
     "dark": "다크",
     "system": "시스템"
@@ -47,13 +47,13 @@
   },
   "sidebar": {
     "title": "사이드바",
-    "description": "연구 데이터에 빠르게 접근하세요",
-    "toggle": "사이드바 전환"
+    "description": "연구로 바로 가는 빠른 접근",
+    "toggle": "사이드바 토글"
   },
   "common": {
     "close": "닫기",
     "remove": "삭제",
-    "loading": "연구 데이터를 불러오는 중...",
+    "loading": "연구를 불러오는 중...",
     "opensInNewTab": "새 탭에서 열림"
   },
   "languageSwitcher": {
@@ -63,63 +63,63 @@
   "landing": {
     "hero": {
       "title": "생각의 속도로\n연구하다",
-      "subtitle": "기록이 있는 실험. 지속되는 지식.",
+      "subtitle": "역사에 뿌리 둔 실험. 오래가는 지식.",
       "description": "연구를 위한 인지 인프라.",
-      "enterManifesto": "선언문 입장",
+      "enterManifesto": "선언문 들어가기",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "핵심 아키텍처",
-      "heading": "근본부터 다르게 설계되다",
+      "heading": "처음부터 다르게, 의도적으로",
       "dialecticalGraph": {
         "title": "변증법적 그래프",
-        "description": "문서와 링크가 아닌 주장과 관계. 모든 진술은 증거로 추적됩니다."
+        "description": "문서와 링크가 아니라 주장과 관계. 모든 진술은 증거로 거슬러 올라갑니다."
       },
       "rebuttalFirst": {
         "title": "반박 우선",
-        "description": "지지하는 것보다 깨뜨리는 것을 먼저 찾습니다. 도전을 견뎌낸 지식."
+        "description": "지지보다 붕괴를 먼저 찾는다. 도전을 견디는 지식."
       },
       "multilingual": {
-        "title": "다국어 지원",
-        "description": "한국어 논문. 독일어 가설. 일본어 데이터셋. 하나의 통합된 연구 그래프."
+        "title": "다국어",
+        "description": "한국어 논문. 독일어 가설. 일본어 데이터셋. 하나의 통합 연구 그래프."
       }
     },
     "pipeline": {
       "eyebrow": "작동 방식",
       "heading": "멀티 에이전트 토론 아키텍처",
-      "description": "여러 AI 에이전트가 내부에서 토론합니다. 살아남은 논증만 보게 됩니다.",
+      "description": "멀티 에이전트 AI가 내부에서 토론합니다. 끝까지 남는 논증만 보게 됩니다.",
       "steps": {
         "propose": "제안",
         "critique": "비평",
-        "rank": "순위",
+        "rank": "랭킹",
         "refine": "정제"
       }
     },
     "forWho": {
-      "heading": "실행하는 연구자를 위해 만들다",
+      "heading": "성과를 내는 연구자들을 위해",
       "audiences": {
         "scientists": "실험 파이프라인을 운영하는 과학자",
         "engineers": "최신 논문을 기반으로 구축하는 엔지니어",
-        "analysts": "교차 영역 문헌을 종합하는 분석가",
-        "teams": "재현 가능한 지식 추적이 필요한 팀"
+        "analysts": "교차 분야 문헌을 통합하는 분석가",
+        "teams": "재현 가능한 지식 경로가 필요한 팀"
       }
     },
+    "buildInPublic": {
+      "eyebrow": "급진적 투명성",
+      "heading": "우리는 공개적으로 구축합니다",
+      "description": "모든 아키텍처 결정, 모든 트레이드오프, 모든 기술적 선택—문서화되어 누구나 접근할 수 있습니다. 지식 시스템이 추적 가능성을 요구한다면, 이를 가능케 하는 도구도 같은 방식으로 만들어져야 합니다.",
+      "visitHQ": "우리의 HQ 살펴보기"
+    },
     "cta": {
-      "heading": "은하 백과사전은 허구였습니다.\n우리는 그 인프라를 구축하고 있습니다.",
+      "heading": "은하 백과사전은 허구였습니다.\n우리는 인프라를 구축하고 있습니다.",
       "readManifesto": "선언문 읽기",
       "github": "GitHub"
     },
     "footer": {
       "manifesto": "선언문",
+      "hq": "HQ",
       "github": "GitHub",
-      "copyright": "© {year} Coscientist",
-      "hq": "본부"
-    },
-    "buildInPublic": {
-      "eyebrow": "급진적 투명성",
-      "heading": "우리는 공개적으로 구축합니다",
-      "description": "모든 아키텍처 결정, 모든 트레이드오프, 모든 기술적 선택—문서화되고 접근 가능합니다. 지식 시스템이 추적 가능성을 요구해야 한다면, 이를 가능하게 하는 도구도 같은 방식으로 구축되어야 합니다.",
-      "visitHQ": "본부 살펴보기"
+      "copyright": "© {year} Coscientist"
     }
   }
 }

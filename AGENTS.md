@@ -35,6 +35,8 @@ After completing any work, AI agents **MUST** create a work log entry in HQ, in 
 
 `apps/hq/content/docs/logs/YYYYMMDD.mdx`
 
+Check the current day with terminal command.
+
 **IMPORTANT**: Each day should have **exactly ONE log entry per language**. If you work on multiple tasks in a single day, consolidate all work into a single file with multiple sections. Read other Work Logs for styles, and match them. If you find discrepancy in English and Korean, raise the issue to the developer. If language entry is missing, create it.
 
 ### Format

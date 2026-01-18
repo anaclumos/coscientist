@@ -1,36 +1,36 @@
 {
   "metadata": {
-    "title": "Coscientist: Token ≠ Pengetahuan",
-    "description": "Tingkatkan riset Anda dengan infrastruktur kognitif"
+    "title": "Coscientist: Token ≠ pengetahuan",
+    "description": "Infrastruktur kognitif untuk riset yang lebih baik."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Manifesto Coscientist",
-    "github": "GitHub (buka di tab baru)",
-    "twitter": "X (Twitter) (buka di tab baru)",
-    "joinWaitlist": "Join Waitlist"
+    "joinWaitlist": "Bergabung dengan daftar tunggu",
+    "github": "GitHub (dibuka di tab baru)",
+    "twitter": "X (Twitter) (dibuka di tab baru)"
   },
   "allNotes": {
-    "title": "Semua Catatan",
+    "title": "Semua catatan",
     "noteCount": "{count} catatan",
-    "currentlyOpen": "saat ini terbuka di posisi {position}"
-  },
-  "mobileCarousel": {
-    "goToNote": "Ke catatan {position}: {title}"
+    "currentlyOpen": "sedang terbuka di posisi {position}"
   },
   "notePane": {
-    "expand": "Perluas ruang kerja Anda",
+    "expand": "Perluas ruang kerja",
     "expandNote": "Jelajahi {title}",
-    "closeNote": "Selesaikan dengan {title}",
+    "closeNote": "Tutup {title}",
     "closePane": "Tutup panel {index}",
     "editOnGitHub": "Edit di GitHub"
   },
+  "mobileCarousel": {
+    "goToNote": "Pergi ke catatan {position}: {title}"
+  },
   "backlinks": {
-    "singular": "{count} catatan menautkan ke ini",
-    "plural": "{count} catatan menautkan ke ini"
+    "singular": "{count} catatan menaut ke sini",
+    "plural": "{count} catatan menaut ke sini"
   },
   "theme": {
-    "toggle": "Ubah tampilan",
+    "toggle": "Ubah tema",
     "light": "Terang",
     "dark": "Gelap",
     "system": "Sistem"
@@ -41,20 +41,20 @@
     "goToPreviousPage": "Ke halaman sebelumnya",
     "goToNextPage": "Ke halaman berikutnya",
     "morePages": "Halaman lainnya",
-    "pagination": "paginasi",
-    "breadcrumb": "breadcrumb",
+    "pagination": "Paginasi",
+    "breadcrumb": "Breadcrumb",
     "more": "Lainnya"
   },
   "sidebar": {
-    "title": "Bilah Samping",
+    "title": "Sidebar",
     "description": "Akses cepat ke riset Anda",
-    "toggle": "Tampilkan/Sembunyikan Bilah Samping"
+    "toggle": "Tampilkan/sembunyikan sidebar"
   },
   "common": {
     "close": "Tutup",
     "remove": "Hapus",
     "loading": "Memuat riset Anda...",
-    "opensInNewTab": "buka di tab baru"
+    "opensInNewTab": "dibuka di tab baru"
   },
   "languageSwitcher": {
     "label": "Bahasa",
@@ -63,46 +63,52 @@
   "landing": {
     "hero": {
       "title": "Riset dengan\nKecepatan Pikiran",
-      "subtitle": "Eksperimen dengan riwayat. Pengetahuan yang abadi.",
+      "subtitle": "Eksperimen yang berakar pada sejarah. Pengetahuan yang bertahan.",
       "description": "Infrastruktur kognitif untuk riset.",
-      "enterManifesto": "Masuk Manifesto",
+      "enterManifesto": "Masuk ke Manifesto",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "Arsitektur Inti",
-      "heading": "Dibangun berbeda dari awal",
+      "heading": "Dibangun dari nol, dengan niat",
       "dialecticalGraph": {
-        "title": "Graf Dialektis",
-        "description": "Klaim dan relasi, bukan dokumen dan tautan. Setiap pernyataan dapat dilacak kembali ke bukti."
+        "title": "Graf Dialektik",
+        "description": "Klaim dan relasi, bukan dokumen dan tautan. Setiap pernyataan menelusuri kembali ke bukti."
       },
       "rebuttalFirst": {
-        "title": "Bantahan-Pertama",
-        "description": "Cari yang membantah sebelum yang mendukung. Pengetahuan yang bertahan dari tantangan."
+        "title": "Sanggahan Dulu",
+        "description": "Cari yang runtuh sebelum yang mendukung. Pengetahuan yang lolos ujian."
       },
       "multilingual": {
         "title": "Multibahasa",
-        "description": "Makalah Korea. Hipotesis Jerman. Dataset Jepang. Satu graf riset yang terpadu."
+        "description": "Makalah Korea. Hipotesis Jerman. Dataset Jepang. Satu graf riset terpadu."
       }
     },
     "pipeline": {
-      "eyebrow": "Cara kerjanya",
-      "heading": "Arsitektur debat multi-agen",
-      "description": "AI multi-agen berdebat secara internal. Anda melihat argumen yang bertahan.",
+      "eyebrow": "Cara kerja",
+      "heading": "Arsitektur debat multi‑agen",
+      "description": "AI multi‑agen berdebat di internal. Anda melihat argumen yang bertahan.",
       "steps": {
         "propose": "AJUKAN",
         "critique": "KRITIK",
         "rank": "PERINGKAT",
-        "refine": "PERBAIKI"
+        "refine": "PERHALUS"
       }
     },
     "forWho": {
-      "heading": "Dibangun untuk peneliti yang menghasilkan",
+      "heading": "Dibuat untuk peneliti yang menghasilkan",
       "audiences": {
         "scientists": "Ilmuwan yang menjalankan pipeline eksperimen",
-        "engineers": "Insinyur yang membangun berdasarkan makalah terkini",
-        "analysts": "Analis yang mensintesis literatur lintas domain",
-        "teams": "Tim yang membutuhkan jejak pengetahuan yang dapat direproduksi"
+        "engineers": "Insinyur yang membangun di atas makalah mutakhir",
+        "analysts": "Analis yang menyintesis literatur lintas bidang",
+        "teams": "Tim yang butuh jejak pengetahuan yang dapat direproduksi"
       }
+    },
+    "buildInPublic": {
+      "eyebrow": "Transparansi Radikal",
+      "heading": "Kami membangun di ruang publik",
+      "description": "Setiap keputusan arsitektur, setiap trade‑off, setiap pilihan teknis—terdokumentasi dan dapat diakses. Jika sistem pengetahuan harus dapat ditelusuri, maka alat yang memungkinkannya juga harus dibangun dengan cara yang sama.",
+      "visitHQ": "Jelajahi HQ kami"
     },
     "cta": {
       "heading": "Encyclopedia Galactica adalah fiksi.\nKami membangun infrastrukturnya.",
@@ -111,15 +117,9 @@
     },
     "footer": {
       "manifesto": "Manifesto",
+      "hq": "HQ",
       "github": "GitHub",
-      "copyright": "© {year} Coscientist",
-      "hq": "HQ"
-    },
-    "buildInPublic": {
-      "eyebrow": "Transparansi Radikal",
-      "heading": "Kami membangun secara terbuka",
-      "description": "Setiap keputusan arsitektur, setiap trade-off, setiap pilihan teknis—didokumentasikan dan dapat diakses. Jika sistem pengetahuan harus menuntut ketertelusuran, alat yang memungkinkannya harus dibangun dengan cara yang sama.",
-      "visitHQ": "Jelajahi HQ kami"
+      "copyright": "© {year} Coscientist"
     }
   }
 }

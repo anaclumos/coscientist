@@ -1,36 +1,36 @@
 {
   "metadata": {
-    "title": "Coscientist: Token'lar ≠ Bilgi",
-    "description": "Bilişsel altyapı ile araştırmalarınızı bir üst seviyeye taşıyın"
+    "title": "Coscientist: Token ≠ bilgi",
+    "description": "Daha iyi araştırma için bilişsel altyapı."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Coscientist Manifestosu",
+    "joinWaitlist": "Bekleme listesine katıl",
     "github": "GitHub (yeni sekmede açılır)",
-    "twitter": "X (Twitter) (yeni sekmede açılır)",
-    "joinWaitlist": "Join Waitlist"
+    "twitter": "X (Twitter) (yeni sekmede açılır)"
   },
   "allNotes": {
-    "title": "Tüm Notlar",
+    "title": "Tüm notlar",
     "noteCount": "{count} not",
     "currentlyOpen": "şu anda {position}. konumda açık"
+  },
+  "notePane": {
+    "expand": "Çalışma alanını genişlet",
+    "expandNote": "{title} keşfet",
+    "closeNote": "{title} kapat",
+    "closePane": "{index}. paneli kapat",
+    "editOnGitHub": "GitHub’da düzenle"
   },
   "mobileCarousel": {
     "goToNote": "{position}. nota git: {title}"
   },
-  "notePane": {
-    "expand": "Çalışma alanınızı genişletin",
-    "expandNote": "{title} içeriğini keşfedin",
-    "closeNote": "{title} ile çalışmayı tamamlayın",
-    "closePane": "{index}. paneli kapat",
-    "editOnGitHub": "GitHub'da düzenle"
-  },
   "backlinks": {
-    "singular": "{count} not buna bağlantı veriyor",
-    "plural": "{count} not buna bağlantı veriyor"
+    "singular": "{count} not buraya bağlanıyor",
+    "plural": "{count} not buraya bağlanıyor"
   },
   "theme": {
-    "toggle": "Görünümü değiştir",
+    "toggle": "Temayı değiştir",
     "light": "Açık",
     "dark": "Koyu",
     "system": "Sistem"
@@ -41,85 +41,85 @@
     "goToPreviousPage": "Önceki sayfaya git",
     "goToNextPage": "Sonraki sayfaya git",
     "morePages": "Daha fazla sayfa",
-    "pagination": "sayfalama",
-    "breadcrumb": "gezinti yolu",
+    "pagination": "Sayfalama",
+    "breadcrumb": "Gezinti yolu",
     "more": "Daha fazla"
   },
   "sidebar": {
-    "title": "Kenar Çubuğu",
-    "description": "Araştırmalarınıza hızlıca erişin",
-    "toggle": "Kenar Çubuğunu Aç/Kapat"
+    "title": "Kenar çubuğu",
+    "description": "Araştırmana hızlı erişim",
+    "toggle": "Kenar çubuğunu aç/kapat"
   },
   "common": {
     "close": "Kapat",
     "remove": "Kaldır",
-    "loading": "Araştırmalarınız yükleniyor...",
+    "loading": "Araştırman yükleniyor...",
     "opensInNewTab": "yeni sekmede açılır"
   },
   "languageSwitcher": {
     "label": "Dil",
-    "selectLanguage": "Dil seçin"
+    "selectLanguage": "Dil seç"
   },
   "landing": {
     "hero": {
-      "title": "Düşünce Hızında\nAraştırma",
-      "subtitle": "Geçmişi olan deneyler. Kalıcı bilgi.",
+      "title": "Düşünce\nhızında araştırma",
+      "subtitle": "Tarihe dayalı deneyler. Kalıcı bilgi.",
       "description": "Araştırma için bilişsel altyapı.",
-      "enterManifesto": "Manifesto'ya Gir",
+      "enterManifesto": "Manifestoya gir",
       "github": "GitHub"
     },
     "features": {
-      "eyebrow": "Temel Mimari",
-      "heading": "Temelden farklı inşa edildi",
+      "eyebrow": "Çekirdek Mimari",
+      "heading": "Sıfırdan, bilinçli tasarım",
       "dialecticalGraph": {
-        "title": "Diyalektik Graf",
-        "description": "Belgeler ve bağlantılar değil, iddialar ve ilişkiler. Her ifade kanıta kadar izlenebilir."
+        "title": "Diyalektik Grafik",
+        "description": "Belgeler ve bağlantılar değil, iddialar ve ilişkiler. Her ifade kanıta kadar izlenir."
       },
       "rebuttalFirst": {
-        "title": "Önce Çürütme",
-        "description": "Destekleyenden önce kıranı ara. Zorluğa dayanan bilgi."
+        "title": "Önce çürütme",
+        "description": "Önce neyin kırıldığını ara, sonra neyin desteklediğini. Sınavdan geçen bilgi."
       },
       "multilingual": {
-        "title": "Çok Dilli",
-        "description": "Korece makaleler. Almanca hipotezler. Japonca veri setleri. Tek birleşik araştırma grafı."
+        "title": "Çok dilli",
+        "description": "Korece makaleler. Almanca hipotezler. Japonca veri kümeleri. Tek bir birleşik araştırma grafiği."
       }
     },
     "pipeline": {
-      "eyebrow": "Nasıl Çalışır",
+      "eyebrow": "Nasıl çalışır",
       "heading": "Çok ajanlı tartışma mimarisi",
-      "description": "Çok ajanlı yapay zeka dahili olarak tartışır. Siz ayakta kalan argümanları görürsünüz.",
+      "description": "Çok ajanlı yapay zekâ içeride tartışır. Ayakta kalan argümanları görürsünüz.",
       "steps": {
         "propose": "ÖNER",
         "critique": "ELEŞTİR",
         "rank": "SIRALA",
-        "refine": "İYİLEŞTİR"
+        "refine": "RAFİNE ET"
       }
     },
     "forWho": {
-      "heading": "Üreten araştırmacılar için inşa edildi",
+      "heading": "Sonuç üreten araştırmacılar için",
       "audiences": {
-        "scientists": "Deney hatları yürüten bilim insanları",
-        "engineers": "Son teknoloji makaleler üzerine inşa eden mühendisler",
-        "analysts": "Çapraz alan literatürünü sentezleyen analistler",
+        "scientists": "Deneysel pipeline’lar yürüten bilim insanları",
+        "engineers": "En yeni makalelerin üzerine inşa eden mühendisler",
+        "analysts": "Disiplinlerarası literatürü sentezleyen analistler",
         "teams": "Yeniden üretilebilir bilgi izlerine ihtiyaç duyan ekipler"
       }
     },
+    "buildInPublic": {
+      "eyebrow": "Radikal Şeffaflık",
+      "heading": "Açıkta inşa ediyoruz",
+      "description": "Her mimari karar, her trade‑off, her teknik seçim—belgelenmiş ve erişilebilir. Bilgi sistemleri izlenebilirlik talep ediyorsa, bunu mümkün kılan araçlar da aynı şekilde inşa edilmelidir.",
+      "visitHQ": "HQ’muzu keşfet"
+    },
     "cta": {
-      "heading": "Galaktik Ansiklopedi kurguydu.\nBiz altyapıyı inşa ediyoruz.",
-      "readManifesto": "Manifesto'yu Oku",
+      "heading": "Encyclopedia Galactica kurmacaydı.\nAltyapıyı biz kuruyoruz.",
+      "readManifesto": "Manifestoyu oku",
       "github": "GitHub"
     },
     "footer": {
       "manifesto": "Manifesto",
+      "hq": "HQ",
       "github": "GitHub",
-      "copyright": "© {year} Coscientist",
-      "hq": "Merkez"
-    },
-    "buildInPublic": {
-      "eyebrow": "Radikal Şeffaflık",
-      "heading": "Halka açık inşa ediyoruz",
-      "description": "Her mimari karar, her ödün, her teknik seçim—belgelenmiş ve erişilebilir. Bilgi sistemleri izlenebilirlik talep etmeliyse, onları mümkün kılan araçlar da ayn şekilde inşa edilmelidir.",
-      "visitHQ": "Merkezimizi keşfedin"
+      "copyright": "© {year} Coscientist"
     }
   }
 }

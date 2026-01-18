@@ -1,36 +1,36 @@
 {
   "metadata": {
-    "title": "Coscientist: Tokens ≠ connaissance",
-    "description": "Élever la recherche grâce à une infrastructure cognitive"
+    "title": "Coscientist : Tokens ≠ connaissance",
+    "description": "Une infrastructure cognitive pour mieux faire de la recherche."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Manifeste Coscientist",
-    "github": "GitHub (s'ouvre dans un nouvel onglet)",
-    "twitter": "X (Twitter) (s'ouvre dans un nouvel onglet)",
-    "joinWaitlist": "Join Waitlist"
+    "joinWaitlist": "Rejoindre la liste d'attente",
+    "github": "GitHub (s’ouvre dans un nouvel onglet)",
+    "twitter": "X (Twitter) (s’ouvre dans un nouvel onglet)"
   },
   "allNotes": {
     "title": "Toutes les notes",
     "noteCount": "{count} notes",
-    "currentlyOpen": "actuellement ouvert en position {position}"
+    "currentlyOpen": "ouverte à la position {position}"
+  },
+  "notePane": {
+    "expand": "Agrandir l’espace de travail",
+    "expandNote": "Explorer {title}",
+    "closeNote": "Fermer {title}",
+    "closePane": "Fermer le panneau {index}",
+    "editOnGitHub": "Modifier sur GitHub"
   },
   "mobileCarousel": {
     "goToNote": "Aller à la note {position} : {title}"
   },
-  "notePane": {
-    "expand": "Agrandir votre espace de travail",
-    "expandNote": "Explorer {title}",
-    "closeNote": "Terminer avec {title}",
-    "closePane": "Fermer le volet {index}",
-    "editOnGitHub": "Modifier sur GitHub"
-  },
   "backlinks": {
-    "singular": "{count} note renvoie vers ceci",
-    "plural": "{count} notes renvoient vers ceci"
+    "singular": "{count} note renvoie ici",
+    "plural": "{count} notes renvoient ici"
   },
   "theme": {
-    "toggle": "Changer l'apparence",
+    "toggle": "Changer de thème",
     "light": "Clair",
     "dark": "Sombre",
     "system": "Système"
@@ -41,43 +41,43 @@
     "goToPreviousPage": "Aller à la page précédente",
     "goToNextPage": "Aller à la page suivante",
     "morePages": "Plus de pages",
-    "pagination": "pagination",
-    "breadcrumb": "fil d’Ariane",
+    "pagination": "Pagination",
+    "breadcrumb": "Fil d’Ariane",
     "more": "Plus"
   },
   "sidebar": {
     "title": "Barre latérale",
     "description": "Accès rapide à vos recherches",
-    "toggle": "Basculer la barre latérale"
+    "toggle": "Afficher/masquer la barre latérale"
   },
   "common": {
     "close": "Fermer",
     "remove": "Supprimer",
     "loading": "Chargement de vos recherches...",
-    "opensInNewTab": "s'ouvre dans un nouvel onglet"
+    "opensInNewTab": "s’ouvre dans un nouvel onglet"
   },
   "languageSwitcher": {
     "label": "Langue",
-    "selectLanguage": "Sélectionner la langue"
+    "selectLanguage": "Choisir la langue"
   },
   "landing": {
     "hero": {
       "title": "La recherche à la\nvitesse de la pensée",
-      "subtitle": "Des expériences avec une histoire. Un savoir qui dure.",
-      "description": "L'infrastructure cognitive pour la recherche.",
-      "enterManifesto": "Accéder au Manifeste",
+      "subtitle": "Des expériences ancrées dans l’histoire. Un savoir qui dure.",
+      "description": "Une infrastructure cognitive pour la recherche.",
+      "enterManifesto": "Entrer dans le manifeste",
       "github": "GitHub"
     },
     "features": {
-      "eyebrow": "Architecture fondamentale",
-      "heading": "Conçu différemment dès le départ",
+      "eyebrow": "Architecture centrale",
+      "heading": "Conçue de zéro, par choix",
       "dialecticalGraph": {
         "title": "Graphe dialectique",
-        "description": "Des affirmations et des relations, pas des documents et des liens. Chaque énoncé remonte aux preuves."
+        "description": "Des affirmations et des relations, pas des documents et des liens. Chaque assertion remonte aux preuves."
       },
       "rebuttalFirst": {
-        "title": "Réfutation d'abord",
-        "description": "Chercher ce qui invalide avant ce qui confirme. Un savoir qui survit aux défis."
+        "title": "Réfutation d’abord",
+        "description": "Chercher ce qui casse avant ce qui soutient. Un savoir qui résiste à l’épreuve."
       },
       "multilingual": {
         "title": "Multilingue",
@@ -85,9 +85,9 @@
       }
     },
     "pipeline": {
-      "eyebrow": "Comment ça fonctionne",
-      "heading": "Architecture de débat multi-agents",
-      "description": "Les IA multi-agents débattent en interne. Vous voyez les arguments survivants.",
+      "eyebrow": "Comment ça marche",
+      "heading": "Architecture de débat multi‑agents",
+      "description": "L’IA multi‑agents débat en interne. Vous ne voyez que les arguments qui tiennent.",
       "steps": {
         "propose": "PROPOSER",
         "critique": "CRITIQUER",
@@ -96,30 +96,30 @@
       }
     },
     "forWho": {
-      "heading": "Conçu pour les chercheurs qui livrent",
+      "heading": "Pensé pour les chercheurs qui livrent",
       "audiences": {
-        "scientists": "Scientifiques exécutant des pipelines d'expérimentation",
-        "engineers": "Ingénieurs s'appuyant sur des articles de pointe",
-        "analysts": "Analystes synthétisant la littérature interdisciplinaire",
-        "teams": "Équipes ayant besoin de pistes de connaissances reproductibles"
+        "scientists": "Scientifiques qui exécutent des pipelines expérimentaux",
+        "engineers": "Ingénieurs qui s’appuient sur des articles de pointe",
+        "analysts": "Analystes qui synthétisent la littérature interdisciplinaire",
+        "teams": "Équipes qui ont besoin de traces de connaissance reproductibles"
       }
     },
+    "buildInPublic": {
+      "eyebrow": "Transparence radicale",
+      "heading": "Nous construisons en public",
+      "description": "Chaque décision d’architecture, chaque compromis, chaque choix technique — documenté et accessible. Si les systèmes de connaissance doivent être traçables, les outils qui les rendent possibles doivent être construits de la même manière.",
+      "visitHQ": "Explorer notre HQ"
+    },
     "cta": {
-      "heading": "L'Encyclopedia Galactica était une fiction.\nNous construisons l'infrastructure.",
-      "readManifesto": "Lire le Manifeste",
+      "heading": "L’Encyclopedia Galactica était une fiction.\nNous bâtissons l’infrastructure.",
+      "readManifesto": "Lire le manifeste",
       "github": "GitHub"
     },
     "footer": {
       "manifesto": "Manifeste",
+      "hq": "HQ",
       "github": "GitHub",
-      "copyright": "© {year} Coscientist",
-      "hq": "QG"
-    },
-    "buildInPublic": {
-      "eyebrow": "Transparence Radicale",
-      "heading": "Nous construisons en public",
-      "description": "Chaque décision d'architecture, chaque compromis, chaque choix technique—documenté et accessible. Si les systèmes de connaissance doivent exiger la traçabilité, les outils qui les permettent doivent être construits de la même manière.",
-      "visitHQ": "Explorez notre QG"
+      "copyright": "© {year} Coscientist"
     }
   }
 }

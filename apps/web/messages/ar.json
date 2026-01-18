@@ -1,36 +1,36 @@
 {
   "metadata": {
-    "title": "Coscientist: رموز ≠ المعرفة",
-    "description": "نرتقي بالبحث العلمي عبر بنية تحتية معرفية"
+    "title": "Coscientist: الرموز ≠ المعرفة",
+    "description": "بنية إدراكية لبحوث أفضل."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "بيان Coscientist",
-    "github": "GitHub (يفتح في نافذة جديدة)",
-    "twitter": "X (تويتر) (يفتح في نافذة جديدة)",
-    "joinWaitlist": "Join Waitlist"
+    "joinWaitlist": "انضم إلى قائمة الانتظار",
+    "github": "GitHub (يفتح في علامة تبويب جديدة)",
+    "twitter": "X (Twitter) (يفتح في علامة تبويب جديدة)"
   },
   "allNotes": {
     "title": "كل الملاحظات",
-    "noteCount": "{count} ملاحظات",
-    "currentlyOpen": "مفتوح حالياً في الموضع {position}"
+    "noteCount": "{count} ملاحظة",
+    "currentlyOpen": "مفتوح الآن في الموضع {position}"
   },
   "notePane": {
-    "expand": "توسيع مساحة العمل",
+    "expand": "وسّع مساحة العمل",
     "expandNote": "استكشف {title}",
-    "closeNote": "انتهيت من {title}",
-    "closePane": "إغلاق اللوحة {index}",
-    "editOnGitHub": "تعديل على GitHub"
+    "closeNote": "أغلق {title}",
+    "closePane": "أغلق اللوحة {index}",
+    "editOnGitHub": "حرّر على GitHub"
   },
   "mobileCarousel": {
     "goToNote": "انتقل إلى الملاحظة {position}: {title}"
   },
   "backlinks": {
-    "singular": "{count} ملاحظة تشير إلى هذا",
-    "plural": "{count} ملاحظات تشير إلى هذا"
+    "singular": "{count} ملاحظة تشير إلى هنا",
+    "plural": "{count} ملاحظات تشير إلى هنا"
   },
   "theme": {
-    "toggle": "تغيير المظهر",
+    "toggle": "غيّر المظهر",
     "light": "فاتح",
     "dark": "داكن",
     "system": "النظام"
@@ -38,8 +38,8 @@
   "navigation": {
     "previous": "السابق",
     "next": "التالي",
-    "goToPreviousPage": "الانتقال إلى الصفحة السابقة",
-    "goToNextPage": "الانتقال إلى الصفحة التالية",
+    "goToPreviousPage": "انتقل إلى الصفحة السابقة",
+    "goToNextPage": "انتقل إلى الصفحة التالية",
     "morePages": "صفحات أخرى",
     "pagination": "ترقيم الصفحات",
     "breadcrumb": "مسار التنقل",
@@ -47,14 +47,14 @@
   },
   "sidebar": {
     "title": "الشريط الجانبي",
-    "description": "وصول سريع لأبحاثك العلمية",
-    "toggle": "تبديل الشريط الجانبي"
+    "description": "وصول سريع إلى أبحاثك",
+    "toggle": "إظهار/إخفاء الشريط الجانبي"
   },
   "common": {
     "close": "إغلاق",
     "remove": "إزالة",
     "loading": "جارٍ تحميل أبحاثك...",
-    "opensInNewTab": "يفتح في نافذة جديدة"
+    "opensInNewTab": "يفتح في علامة تبويب جديدة"
   },
   "languageSwitcher": {
     "label": "اللغة",
@@ -62,64 +62,64 @@
   },
   "landing": {
     "hero": {
-      "title": "البحث بسرعة\nالفكر",
-      "subtitle": "تجارب لها تاريخ. معرفة تدوم.",
-      "description": "البنية التحتية المعرفية للبحث.",
-      "enterManifesto": "ادخل البيان",
+      "title": "بحث بسرعة\nالفكر",
+      "subtitle": "تجارب متجذّرة في التاريخ. معرفة تدوم.",
+      "description": "بنية إدراكية للبحث.",
+      "enterManifesto": "ادخل إلى البيان",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "البنية الأساسية",
-      "heading": "مبني بشكل مختلف من الأساس",
+      "heading": "مبني من الصفر، عن قصد",
       "dialecticalGraph": {
-        "title": "الرسم البياني الجدلي",
-        "description": "ادعاءات وعلاقات، وليس مستندات وروابط. كل عبارة تعود إلى دليل."
+        "title": "الرسم الجدلي",
+        "description": "ادعاءات وعلاقات، لا مستندات وروابط. كل عبارة يمكن تتبّعها إلى الدليل."
       },
       "rebuttalFirst": {
-        "title": "الدحض أولاً",
-        "description": "ابحث عما يكسر قبل ما يدعم. المعرفة التي تصمد أمام التحدي."
+        "title": "الاعتراض أولًا",
+        "description": "ابحث عمّا ينكسر قبل ما يدعم. معرفة تصمد أمام الاختبار."
       },
       "multilingual": {
         "title": "متعدد اللغات",
-        "description": "أوراق بحثية كورية. فرضيات ألمانية. مجموعات بيانات يابانية. رسم بياني بحثي موحد."
+        "description": "أوراق كورية. فرضيات ألمانية. مجموعات بيانات يابانية. رسم بحث موحّد."
       }
     },
     "pipeline": {
-      "eyebrow": "كيف يعمل",
+      "eyebrow": "كيف تعمل",
       "heading": "بنية نقاش متعددة الوكلاء",
-      "description": "الذكاء الاصطناعي متعدد الوكلاء يتناقش داخلياً. أنت ترى الحجج الناجية.",
+      "description": "ذكاء اصطناعي متعدد الوكلاء يناقش داخليًا. أنت ترى الحجج التي تصمد.",
       "steps": {
         "propose": "اقتراح",
         "critique": "نقد",
         "rank": "ترتيب",
-        "refine": "تحسين"
+        "refine": "تنقيح"
       }
     },
     "forWho": {
-      "heading": "مبني للباحثين المنجزين",
+      "heading": "مصمم للباحثين الذين ينجزون",
       "audiences": {
-        "scientists": "علماء يديرون خطوط أنابيب التجارب",
-        "engineers": "مهندسون يبنون على أحدث الأوراق البحثية",
-        "analysts": "محللون يجمعون الأدبيات عبر المجالات",
-        "teams": "فرق تحتاج مسارات معرفة قابلة للتكرار"
+        "scientists": "علماء يديرون خطوط تجارب",
+        "engineers": "مهندسون يبنون على أوراق بحثية متقدمة",
+        "analysts": "محللون يركّبون الأدبيات عبر المجالات",
+        "teams": "فرق تحتاج إلى مسارات معرفة قابلة لإعادة الإنتاج"
       }
     },
+    "buildInPublic": {
+      "eyebrow": "شفافية جذرية",
+      "heading": "نبني علنًا",
+      "description": "كل قرار معماري، وكل مفاضلة، وكل اختيار تقني—موثّق ومتاح. إذا كانت أنظمة المعرفة يجب أن تكون قابلة للتتبّع، فالأدوات التي تمكّنها يجب أن تُبنى بالطريقة نفسها.",
+      "visitHQ": "استكشف مقرّنا"
+    },
     "cta": {
-      "heading": "موسوعة المجرة كانت خيالاً.\nنحن نبني البنية التحتية.",
+      "heading": "Encyclopedia Galactica كانت خيالًا.\nنحن نبني البنية التحتية.",
       "readManifesto": "اقرأ البيان",
       "github": "GitHub"
     },
     "footer": {
       "manifesto": "البيان",
+      "hq": "HQ",
       "github": "GitHub",
-      "copyright": "© {year} Coscientist",
-      "hq": "المقر"
-    },
-    "buildInPublic": {
-      "eyebrow": "الشفافية الجذرية",
-      "heading": "نبني علناً",
-      "description": "كل قرار معماري، كل مقايضة، كل خيار تقني—موثق ويمكن الوصول إليه. إذا كانت أنظمة المعرفة يجب أن تطالب بإمكانية التتبع، فيجب بناء الأدوات التي تمكنها بنفس الطريقة.",
-      "visitHQ": "استكشف مقرنا"
+      "copyright": "© {year} Coscientist"
     }
   }
 }

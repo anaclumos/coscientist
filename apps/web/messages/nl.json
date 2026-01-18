@@ -1,36 +1,36 @@
 {
   "metadata": {
     "title": "Coscientist: Tokens ≠ kennis",
-    "description": "De cognitieve infrastructuur voor onderzoek."
+    "description": "Cognitieve infrastructuur voor betere research."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Coscientist Manifest",
-    "github": "GitHub (opent in nieuw tabblad)",
-    "twitter": "X (Twitter) (opent in nieuw tabblad)",
-    "joinWaitlist": "Join Waitlist"
+    "joinWaitlist": "Schrijf je in voor de wachtlijst",
+    "github": "GitHub (opent in een nieuw tabblad)",
+    "twitter": "X (Twitter) (opent in een nieuw tabblad)"
   },
   "allNotes": {
     "title": "Alle notities",
     "noteCount": "{count} notities",
-    "currentlyOpen": "momenteel geopend op positie {position}"
+    "currentlyOpen": "nu geopend op positie {position}"
+  },
+  "notePane": {
+    "expand": "Werkruimte uitbreiden",
+    "expandNote": "Verken {title}",
+    "closeNote": "Sluit {title}",
+    "closePane": "Sluit paneel {index}",
+    "editOnGitHub": "Bewerken op GitHub"
   },
   "mobileCarousel": {
     "goToNote": "Ga naar notitie {position}: {title}"
   },
-  "notePane": {
-    "expand": "Paneel uitklappen",
-    "expandNote": "{title} uitklappen",
-    "closeNote": "{title} sluiten",
-    "closePane": "Paneel {index} sluiten",
-    "editOnGitHub": "Bewerken op GitHub"
-  },
   "backlinks": {
-    "singular": "{count} notitie linkt hiernaar",
-    "plural": "{count} notities linken hiernaar"
+    "singular": "{count} notitie verwijst hiernaar",
+    "plural": "{count} notities verwijzen hiernaar"
   },
   "theme": {
-    "toggle": "Thema wisselen",
+    "toggle": "Thema wijzigen",
     "light": "Licht",
     "dark": "Donker",
     "system": "Systeem"
@@ -41,68 +41,74 @@
     "goToPreviousPage": "Ga naar de vorige pagina",
     "goToNextPage": "Ga naar de volgende pagina",
     "morePages": "Meer pagina’s",
-    "pagination": "paginering",
-    "breadcrumb": "broodkruimelpad",
+    "pagination": "Paginering",
+    "breadcrumb": "Kruimelpad",
     "more": "Meer"
   },
   "sidebar": {
     "title": "Zijbalk",
-    "description": "Toont de mobiele zijbalk.",
-    "toggle": "Zijbalk in-/uitklappen"
+    "description": "Snelle toegang tot je onderzoek",
+    "toggle": "Zijbalk aan/uit"
   },
   "common": {
     "close": "Sluiten",
     "remove": "Verwijderen",
-    "loading": "Laden",
-    "opensInNewTab": "opent in nieuw tabblad"
+    "loading": "Je onderzoek wordt geladen...",
+    "opensInNewTab": "opent in een nieuw tabblad"
   },
   "languageSwitcher": {
     "label": "Taal",
-    "selectLanguage": "Selecteer een taal"
+    "selectLanguage": "Taal kiezen"
   },
   "landing": {
     "hero": {
-      "title": "Onderzoek op de\nSnelheid van Gedachten",
-      "subtitle": "Versiebeheerde experimenten. Reproduceerbare kennis.",
-      "description": "De cognitieve infrastructuur voor onderzoek.",
-      "enterManifesto": "Naar het Manifest",
+      "title": "Onderzoek op de\nsnelheid van het denken",
+      "subtitle": "Experimenten, verankerd in de geschiedenis. Kennis die blijft.",
+      "description": "Cognitieve infrastructuur voor onderzoek.",
+      "enterManifesto": "Het Manifest in",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "Kernarchitectuur",
-      "heading": "Vanaf de grond anders opgebouwd",
+      "heading": "Vanaf nul gebouwd, met intentie",
       "dialecticalGraph": {
-        "title": "Dialectische Graaf",
-        "description": "Claims en relaties, geen documenten en links. Elke bewering leidt terug naar bewijs."
+        "title": "Dialectische graaf",
+        "description": "Beweringen en relaties, geen documenten en links. Elke bewering is te herleiden tot bewijs."
       },
       "rebuttalFirst": {
-        "title": "Weerlegging Eerst",
-        "description": "Zoek eerst wat breekt, dan wat ondersteunt. Kennis die uitdaging overleeft."
+        "title": "Eerst weerleggen",
+        "description": "Zoek wat breekt vóór wat ondersteunt. Kennis die de toets doorstaat."
       },
       "multilingual": {
         "title": "Meertalig",
-        "description": "Koreaanse papers. Duitse hypothesen. Japanse datasets. Eén uniforme onderzoeksgraaf."
+        "description": "Koreaanse papers. Duitse hypotheses. Japanse datasets. Eén verenigde onderzoeksgraaf."
       }
     },
     "pipeline": {
       "eyebrow": "Hoe het werkt",
-      "heading": "Multi-agent debatarchitectuur",
-      "description": "Multi-agent AI debatteert intern. Jij ziet de overlevende argumenten.",
+      "heading": "Multi‑agent debatarchitectuur",
+      "description": "Multi‑agent‑AI debatteert intern. Jij ziet de argumenten die overeind blijven.",
       "steps": {
-        "propose": "VOORSTEL",
-        "critique": "KRITIEK",
-        "rank": "RANGSCHIK",
-        "refine": "VERFIJN"
+        "propose": "VOORSTELLEN",
+        "critique": "BEKRITISEREN",
+        "rank": "RANKEN",
+        "refine": "VERFIJNEN"
       }
     },
     "forWho": {
-      "heading": "Gebouwd voor onderzoekers die leveren",
+      "heading": "Voor onderzoekers die leveren",
       "audiences": {
-        "scientists": "Wetenschappers die experimentpipelines draaien",
-        "engineers": "Ingenieurs die bouwen op baanbrekende papers",
-        "analysts": "Analisten die cross-domein literatuur synthetiseren",
-        "teams": "Teams die reproduceerbare kennissporen nodig hebben"
+        "scientists": "Wetenschappers met experimentele pipelines",
+        "engineers": "Ingenieurs die bouwen op toonaangevende papers",
+        "analysts": "Analisten die domeinoverstijgende literatuur synthetiseren",
+        "teams": "Teams die reproduceerbare kennis‑sporen nodig hebben"
       }
+    },
+    "buildInPublic": {
+      "eyebrow": "Radicale transparantie",
+      "heading": "We bouwen in het openbaar",
+      "description": "Elke architectuurbeslissing, elke trade‑off, elke technische keuze—gedocumenteerd en toegankelijk. Als kennissystemen traceerbaarheid eisen, moeten de tools die dat mogelijk maken op dezelfde manier worden gebouwd.",
+      "visitHQ": "Ontdek onze HQ"
     },
     "cta": {
       "heading": "De Encyclopedia Galactica was fictie.\nWij bouwen de infrastructuur.",
@@ -111,15 +117,9 @@
     },
     "footer": {
       "manifesto": "Manifest",
+      "hq": "HQ",
       "github": "GitHub",
-      "copyright": "© {year} Coscientist",
-      "hq": "HQ"
-    },
-    "buildInPublic": {
-      "eyebrow": "Radicale Transparantie",
-      "heading": "We bouwen in het openbaar",
-      "description": "Elke architectuurbeslissing, elke afweging, elke technische keuze—gedocumenteerd en toegankelijk. Als kennissystemen traceerbaarheid moeten eisen, moeten de tools die ze mogelijk maken op dezelfde manier worden gebouwd.",
-      "visitHQ": "Bezoek HQ"
+      "copyright": "© {year} Coscientist"
     }
   }
 }

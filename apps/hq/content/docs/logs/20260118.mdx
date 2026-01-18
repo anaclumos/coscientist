@@ -1,6 +1,6 @@
 ---
 title: "2026-01-18"
-description: "Clerk authentication & waitlist integration for apps/web"
+description: "Clerk authentication, waitlist, and localization copy refresh for apps/web"
 ---
 
 ## Clerk Authentication Integration & Implementation
@@ -249,6 +249,28 @@ User must enable Waitlist mode in Clerk Dashboard:
 - Build: Not run
 - Tests: Not run
 
+---
+
+## HQ Sidebar meta.json Fix
+
+**Scope**: `apps/hq`
+
+### Changes Made
+
+| File | Change |
+| ---- | ------ |
+| `apps/hq/lib/source.ts` | Passed the `meta` collection to `toFumadocsSource` so sidebar folders can read metadata (title/defaultOpen). |
+
+### Technical Decisions
+
+1. **Include Meta Collection**: `toFumadocsSource` must receive both docs and meta; an empty array drops sidebar metadata.
+
+### Verification
+
+- TypeScript: Not run
+- Build: Not run
+- Tests: Not run
+
 ### Next Steps
 
 Run TypeScript/build checks if you want validation on the refactor.
@@ -318,3 +340,53 @@ Build logs show non-blocking warnings about `--localstorage-file` without a vali
 - TypeScript: Pass (via `proto exec --tools-from-config -- bun run build`)
 - Build: Pass (via `proto exec --tools-from-config -- bun run build`)
 - Tests: Not run
+
+---
+
+## HQ Locale Preservation for External Links
+
+**Scope**: `apps/web`
+
+### Changes Made
+
+| File | Change |
+| ---- | ------ |
+| `src/components/landing/build-in-public.tsx` | Derived the HQ link from the active locale to preserve language context. |
+| `src/components/landing/footer.tsx` | Updated the HQ link to include the locale-aware path (`/en` or `/ko`). |
+
+### Technical Decisions
+
+1. **Locale Fallback**: Mapped non-Korean locales to `/en` since HQ currently supports only `en` and `ko`.
+
+### Verification
+
+- TypeScript: Not run
+- Build: Not run
+- Tests: Not run
+
+---
+
+## Localization Copy Refresh
+
+**Scope**: `apps/web`
+
+### Changes Made
+
+| File | Change |
+| ---- | ------ |
+| `apps/web/messages/*.json` | Rewrote UI copy across 25 locales for more natural, locally fluent phrasing and fixed English grammar. |
+
+### Technical Decisions
+
+1. **Local voice per locale**: Adjusted tone and phrasing to read like native product copy while preserving meaning.
+2. **Placeholder preservation**: Kept `{count}`, `{position}`, `{title}`, `{index}`, `{year}` intact to avoid runtime issues.
+3. **Consistent naming**: Kept brand and proper nouns (Coscientist, GitHub) consistent across locales.
+
+### Verification
+
+- JSON parse: Pass (`node` parse of all locale message files)
+- Build: Not run (copy-only change)
+
+### Next Steps
+
+Optional: have native reviewers spot-check key locales for nuance.

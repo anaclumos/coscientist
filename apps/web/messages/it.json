@@ -1,36 +1,36 @@
 {
   "metadata": {
     "title": "Coscientist: Token ≠ conoscenza",
-    "description": "Eleva la tua ricerca con l'infrastruttura cognitiva"
+    "description": "Infrastruttura cognitiva per una ricerca migliore."
   },
   "header": {
     "brand": "Coscientist",
-    "brandWithManifesto": "Manifesto del Coscientist",
-    "github": "GitHub (si apre in nuova scheda)",
-    "twitter": "X (Twitter) (si apre in nuova scheda)",
-    "joinWaitlist": "Join Waitlist"
+    "brandWithManifesto": "Manifesto Coscientist",
+    "joinWaitlist": "Unisciti alla lista d’attesa",
+    "github": "GitHub (si apre in una nuova scheda)",
+    "twitter": "X (Twitter) (si apre in una nuova scheda)"
   },
   "allNotes": {
     "title": "Tutte le note",
     "noteCount": "{count} note",
-    "currentlyOpen": "attualmente aperto in posizione {position}"
+    "currentlyOpen": "aperta ora alla posizione {position}"
+  },
+  "notePane": {
+    "expand": "Espandi l’area di lavoro",
+    "expandNote": "Esplora {title}",
+    "closeNote": "Chiudi {title}",
+    "closePane": "Chiudi il pannello {index}",
+    "editOnGitHub": "Modifica su GitHub"
   },
   "mobileCarousel": {
     "goToNote": "Vai alla nota {position}: {title}"
   },
-  "notePane": {
-    "expand": "Espandi il tuo spazio di lavoro",
-    "expandNote": "Esplora {title}",
-    "closeNote": "Concludi con {title}",
-    "closePane": "Chiudi riquadro {index}",
-    "editOnGitHub": "Modifica su GitHub"
-  },
   "backlinks": {
-    "singular": "{count} nota rimanda a questa",
-    "plural": "{count} note rimandano a questa"
+    "singular": "{count} nota rimanda qui",
+    "plural": "{count} note rimandano qui"
   },
   "theme": {
-    "toggle": "Cambia aspetto",
+    "toggle": "Cambia tema",
     "light": "Chiaro",
     "dark": "Scuro",
     "system": "Sistema"
@@ -41,8 +41,8 @@
     "goToPreviousPage": "Vai alla pagina precedente",
     "goToNextPage": "Vai alla pagina successiva",
     "morePages": "Altre pagine",
-    "pagination": "paginazione",
-    "breadcrumb": "breadcrumb",
+    "pagination": "Paginazione",
+    "breadcrumb": "Percorso",
     "more": "Altro"
   },
   "sidebar": {
@@ -54,7 +54,7 @@
     "close": "Chiudi",
     "remove": "Rimuovi",
     "loading": "Caricamento della tua ricerca...",
-    "opensInNewTab": "si apre in nuova scheda"
+    "opensInNewTab": "si apre in una nuova scheda"
   },
   "languageSwitcher": {
     "label": "Lingua",
@@ -62,64 +62,64 @@
   },
   "landing": {
     "hero": {
-      "title": "Ricerca alla\nVelocità del Pensiero",
-      "subtitle": "Esperimenti con una storia. Conoscenza che dura.",
-      "description": "L'infrastruttura cognitiva per la ricerca.",
+      "title": "Ricerca alla\nvelocità del pensiero",
+      "subtitle": "Esperimenti radicati nella storia. Conoscenza che dura.",
+      "description": "Infrastruttura cognitiva per la ricerca.",
       "enterManifesto": "Entra nel Manifesto",
       "github": "GitHub"
     },
     "features": {
-      "eyebrow": "Architettura Centrale",
-      "heading": "Costruito in modo diverso dalle fondamenta",
+      "eyebrow": "Architettura principale",
+      "heading": "Costruito da zero, con intenzione",
       "dialecticalGraph": {
-        "title": "Grafo Dialettico",
-        "description": "Affermazioni e relazioni, non documenti e link. Ogni dichiarazione risale all'evidenza."
+        "title": "Grafo dialettico",
+        "description": "Affermazioni e relazioni, non documenti e link. Ogni affermazione risale alle prove."
       },
       "rebuttalFirst": {
-        "title": "Confutazione Prima",
-        "description": "Cerca ciò che rompe prima di ciò che supporta. Conoscenza che sopravvive alle sfide."
+        "title": "Prima la confutazione",
+        "description": "Cerca ciò che si rompe prima di ciò che sostiene. Conoscenza che supera le prove."
       },
       "multilingual": {
         "title": "Multilingue",
-        "description": "Articoli coreani. Ipotesi tedesche. Dataset giapponesi. Un unico grafo di ricerca unificato."
+        "description": "Paper coreani. Ipotesi tedesche. Dataset giapponesi. Un unico grafo di ricerca."
       }
     },
     "pipeline": {
       "eyebrow": "Come funziona",
-      "heading": "Architettura di dibattito multi-agente",
-      "description": "L'IA multi-agente dibatte internamente. Tu vedi gli argomenti sopravvissuti.",
+      "heading": "Architettura di dibattito multi‑agente",
+      "description": "L’IA multi‑agente dibatte internamente. Tu vedi gli argomenti che resistono.",
       "steps": {
-        "propose": "PROPONI",
-        "critique": "CRITICA",
-        "rank": "CLASSIFICA",
-        "refine": "RAFFINA"
+        "propose": "PROPORRE",
+        "critique": "CRITICARE",
+        "rank": "CLASSIFICARE",
+        "refine": "RAFFINARE"
       }
     },
     "forWho": {
-      "heading": "Costruito per ricercatori che producono",
+      "heading": "Pensato per ricercatori che portano risultati",
       "audiences": {
-        "scientists": "Scienziati che gestiscono pipeline di esperimenti",
-        "engineers": "Ingegneri che costruiscono su articoli all'avanguardia",
+        "scientists": "Scienziati che gestiscono pipeline sperimentali",
+        "engineers": "Ingegneri che costruiscono su paper all’avanguardia",
         "analysts": "Analisti che sintetizzano letteratura interdisciplinare",
-        "teams": "Team che necessitano di tracce di conoscenza riproducibili"
+        "teams": "Team che hanno bisogno di tracce di conoscenza riproducibili"
       }
     },
+    "buildInPublic": {
+      "eyebrow": "Trasparenza radicale",
+      "heading": "Costruiamo in pubblico",
+      "description": "Ogni decisione architetturale, ogni compromesso, ogni scelta tecnica—documentata e accessibile. Se i sistemi di conoscenza devono essere tracciabili, gli strumenti che li rendono possibili devono essere costruiti allo stesso modo.",
+      "visitHQ": "Esplora il nostro HQ"
+    },
     "cta": {
-      "heading": "L'Encyclopedia Galactica era finzione.\nNoi stiamo costruendo l'infrastruttura.",
+      "heading": "L’Encyclopedia Galactica era finzione.\nStiamo costruendo l’infrastruttura.",
       "readManifesto": "Leggi il Manifesto",
       "github": "GitHub"
     },
     "footer": {
       "manifesto": "Manifesto",
+      "hq": "HQ",
       "github": "GitHub",
-      "copyright": "© {year} Coscientist",
-      "hq": "HQ"
-    },
-    "buildInPublic": {
-      "eyebrow": "Trasparenza Radicale",
-      "heading": "Costruiamo in pubblico",
-      "description": "Ogni decisione architettonica, ogni compromesso, ogni scelta tecnica—documentata e accessibile. Se i sistemi di conoscenza devono richiedere tracciabilità, gli strumenti che li abilitano dovrebbero essere costruiti allo stesso modo.",
-      "visitHQ": "Esplora il nostro HQ"
+      "copyright": "© {year} Coscientist"
     }
   }
 }

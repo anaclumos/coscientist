@@ -1,36 +1,36 @@
 {
   "metadata": {
-    "title": "Coscientist: Token ≠ 知识",
-    "description": "以认知基础设施助力卓越研究"
+    "title": "Coscientist：Tokens ≠ 知识",
+    "description": "面向研究的认知基础设施。"
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Coscientist 宣言",
-    "github": "GitHub（在新标签页中打开）",
-    "twitter": "X (Twitter)（在新标签页中打开）",
-    "joinWaitlist": "Join Waitlist"
+    "joinWaitlist": "加入等待名单",
+    "github": "GitHub（在新标签页打开）",
+    "twitter": "X（Twitter）（在新标签页打开）"
   },
   "allNotes": {
     "title": "全部笔记",
     "noteCount": "{count} 条笔记",
-    "currentlyOpen": "当前在第 {position} 位打开"
+    "currentlyOpen": "当前打开于第 {position} 位"
+  },
+  "notePane": {
+    "expand": "扩展工作区",
+    "expandNote": "探索 {title}",
+    "closeNote": "关闭 {title}",
+    "closePane": "关闭第 {index} 个面板",
+    "editOnGitHub": "在 GitHub 上编辑"
   },
   "mobileCarousel": {
     "goToNote": "前往第 {position} 条笔记：{title}"
   },
-  "notePane": {
-    "expand": "扩展您的工作空间",
-    "expandNote": "探索 {title}",
-    "closeNote": "整理好 {title}",
-    "closePane": "关闭面板 {index}",
-    "editOnGitHub": "在 GitHub 上编辑"
-  },
   "backlinks": {
-    "singular": "有 {count} 条笔记链接到此处",
-    "plural": "有 {count} 条笔记链接到此处"
+    "singular": "{count} 条笔记链接到此处",
+    "plural": "{count} 条笔记链接到此处"
   },
   "theme": {
-    "toggle": "切换外观",
+    "toggle": "切换主题",
     "light": "浅色",
     "dark": "深色",
     "system": "跟随系统"
@@ -42,19 +42,19 @@
     "goToNextPage": "转到下一页",
     "morePages": "更多页面",
     "pagination": "分页",
-    "breadcrumb": "面包屑导航",
+    "breadcrumb": "面包屑",
     "more": "更多"
   },
   "sidebar": {
     "title": "侧边栏",
-    "description": "快速访问您的研究资料",
+    "description": "快速访问你的研究",
     "toggle": "切换侧边栏"
   },
   "common": {
     "close": "关闭",
     "remove": "移除",
-    "loading": "正在加载您的研究资料...",
-    "opensInNewTab": "在新标签页中打开"
+    "loading": "正在加载你的研究…",
+    "opensInNewTab": "在新标签页打开"
   },
   "languageSwitcher": {
     "label": "语言",
@@ -62,64 +62,64 @@
   },
   "landing": {
     "hero": {
-      "title": "以思维的速度\n进行研究",
-      "subtitle": "带历史记录的实验。持久的知识。",
-      "description": "研究的认知基础设施。",
+      "title": "以思维的\n速度研究",
+      "subtitle": "植根历史的实验。经得起时间的知识。",
+      "description": "面向研究的认知基础设施。",
       "enterManifesto": "进入宣言",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "核心架构",
-      "heading": "从根基开始，与众不同",
+      "heading": "从零构建，刻意不同",
       "dialecticalGraph": {
         "title": "辩证图谱",
-        "description": "主张与关系，而非文档与链接。每个陈述都可追溯至证据。"
+        "description": "主张与关系，而非文档与链接。每一句话都能追溯到证据。"
       },
       "rebuttalFirst": {
-        "title": "反驳优先",
-        "description": "先寻找反驳，再寻找支持。经得起挑战的知识。"
+        "title": "先反驳",
+        "description": "先找会崩的，再找支撑的。经得起挑战的知识。"
       },
       "multilingual": {
         "title": "多语言",
-        "description": "韩文论文。德文假说。日文数据集。统一的研究图谱。"
+        "description": "韩文论文。德文假设。日文数据集。统一的研究图谱。"
       }
     },
     "pipeline": {
-      "eyebrow": "工作原理",
+      "eyebrow": "工作方式",
       "heading": "多智能体辩论架构",
-      "description": "多个 AI 智能体内部辩论。你看到的是胜出的论点。",
+      "description": "多智能体 AI 在内部辩论。你看到的是仍然站得住的论点。",
       "steps": {
         "propose": "提出",
-        "critique": "批判",
+        "critique": "质疑",
         "rank": "排序",
         "refine": "精炼"
       }
     },
     "forWho": {
-      "heading": "为实干型研究者打造",
+      "heading": "为能交付的研究者打造",
       "audiences": {
         "scientists": "运行实验流水线的科学家",
         "engineers": "基于前沿论文构建的工程师",
-        "analysts": "综合跨领域文献的分析师",
-        "teams": "需要可复现知识路径的团队"
+        "analysts": "整合跨领域文献的分析师",
+        "teams": "需要可复现知识轨迹的团队"
       }
     },
+    "buildInPublic": {
+      "eyebrow": "激进透明",
+      "heading": "我们公开构建",
+      "description": "每一次架构决定、每一次权衡、每一次技术选择——都被记录并可访问。如果知识系统应该可追溯，那么支撑它们的工具也应以同样方式构建。",
+      "visitHQ": "探索我们的 HQ"
+    },
     "cta": {
-      "heading": "《银河百科全书》曾是虚构。\n我们正在构建这一基础设施。",
+      "heading": "《百科全书·银河系》只是虚构。\n我们正在构建基础设施。",
       "readManifesto": "阅读宣言",
       "github": "GitHub"
     },
     "footer": {
       "manifesto": "宣言",
+      "hq": "HQ",
       "github": "GitHub",
-      "copyright": "© {year} Coscientist",
-      "hq": "总部"
-    },
-    "buildInPublic": {
-      "eyebrow": "彻底透明",
-      "heading": "我们公开构建",
-      "description": "每一个架构决策、每一个权衡、每一个技术选择——都有文档记录且可访问。如果知识系统应该要求可追溯性，那么构建这些系统的工具也应该以同样的方式构建。",
-      "visitHQ": "探索我们的总部"
+      "copyright": "© {year} Coscientist"
     }
   }
 }

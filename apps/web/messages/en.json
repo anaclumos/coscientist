@@ -1,24 +1,24 @@
 {
   "metadata": {
     "title": "Coscientist: Tokens ≠ Knowledge",
-    "description": "Elevating research with cognitive infrastructure"
+    "description": "Cognitive infrastructure for better research."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Coscientist Manifesto",
-    "joinWaitlist": "Join Waitlist",
-    "github": "GitHub (opens in new tab)",
-    "twitter": "X (Twitter) (opens in new tab)"
+    "joinWaitlist": "Join the waitlist",
+    "github": "GitHub (opens in a new tab)",
+    "twitter": "X (Twitter) (opens in a new tab)"
   },
   "allNotes": {
-    "title": "All Notes",
+    "title": "All notes",
     "noteCount": "{count} notes",
-    "currentlyOpen": "currently open at position {position}"
+    "currentlyOpen": "open now at position {position}"
   },
   "notePane": {
-    "expand": "Expand your workspace",
+    "expand": "Expand workspace",
     "expandNote": "Explore {title}",
-    "closeNote": "Finish with {title}",
+    "closeNote": "Close {title}",
     "closePane": "Close pane {index}",
     "editOnGitHub": "Edit on GitHub"
   },
@@ -26,11 +26,11 @@
     "goToNote": "Go to note {position}: {title}"
   },
   "backlinks": {
-    "singular": "{count} note links to this",
-    "plural": "{count} notes link to this"
+    "singular": "{count} note links here",
+    "plural": "{count} notes link here"
   },
   "theme": {
-    "toggle": "Switch appearance",
+    "toggle": "Change theme",
     "light": "Light",
     "dark": "Dark",
     "system": "System"
@@ -41,20 +41,20 @@
     "goToPreviousPage": "Go to previous page",
     "goToNextPage": "Go to next page",
     "morePages": "More pages",
-    "pagination": "pagination",
-    "breadcrumb": "breadcrumb",
+    "pagination": "Pagination",
+    "breadcrumb": "Breadcrumb",
     "more": "More"
   },
   "sidebar": {
     "title": "Sidebar",
     "description": "Quick access to your research",
-    "toggle": "Toggle Sidebar"
+    "toggle": "Toggle sidebar"
   },
   "common": {
     "close": "Close",
     "remove": "Remove",
     "loading": "Loading your research...",
-    "opensInNewTab": "opens in new tab"
+    "opensInNewTab": "opens in a new tab"
   },
   "languageSwitcher": {
     "label": "Language",
@@ -63,21 +63,21 @@
   "landing": {
     "hero": {
       "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Experiments with history. Knowledge that lasts.",
-      "description": "The cognitive infrastructure for research.",
-      "enterManifesto": "Enter Manifesto",
+      "subtitle": "Experiments, grounded in history. Knowledge that lasts.",
+      "description": "Cognitive infrastructure for research.",
+      "enterManifesto": "Enter the Manifesto",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "Core Architecture",
-      "heading": "Built different from the ground up",
+      "heading": "Built from the ground up—by design",
       "dialecticalGraph": {
         "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "description": "Claims and relations—not documents and links. Every statement traces back to evidence."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal-First",
-        "description": "Seek what breaks before what supports. Knowledge that survives challenge."
+        "title": "Rebuttal First",
+        "description": "Look for what breaks before what supports. Knowledge that survives challenge."
       },
       "multilingual": {
         "title": "Multilingual",
@@ -87,7 +87,7 @@
     "pipeline": {
       "eyebrow": "How it works",
       "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the surviving arguments.",
+      "description": "Multi-agent AI debates internally. You see the arguments that survive.",
       "steps": {
         "propose": "PROPOSE",
         "critique": "CRITIQUE",
@@ -98,7 +98,7 @@
     "forWho": {
       "heading": "Built for researchers who ship",
       "audiences": {
-        "scientists": "Scientists running experiment pipelines",
+        "scientists": "Scientists running experimental pipelines",
         "engineers": "Engineers building on cutting-edge papers",
         "analysts": "Analysts synthesizing cross-domain literature",
         "teams": "Teams who need reproducible knowledge trails"
@@ -107,7 +107,7 @@
     "buildInPublic": {
       "eyebrow": "Radical Transparency",
       "heading": "We build in public",
-      "description": "Every architecture decision, every tradeoff, every technical choice—documented and accessible. If knowledge systems should demand traceability, the tools that enable them should be built the same way.",
+      "description": "Every architecture decision, every trade-off, every technical choice—documented and accessible. If knowledge systems demand traceability, the tools that enable them should be built the same way.",
       "visitHQ": "Explore our HQ"
     },
     "cta": {

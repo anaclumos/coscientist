@@ -1,7 +1,7 @@
 "use client"
 
 import { motion } from "motion/react"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 
 import { Button } from "@/components/ui/button"
@@ -12,6 +12,8 @@ import { Eyebrow, Subheading, Text } from "./primitives/typography"
 
 export function BuildInPublic() {
   const t = useTranslations("landing.buildInPublic")
+  const locale = useLocale()
+  const hqHref = `https://hq.coscientist.app/${locale}`
   const { ref, isInView, transition } = useSectionAnimation({ amount: 0.2 })
 
   return (
@@ -60,11 +62,7 @@ export function BuildInPublic() {
           <Button
             render={
               // biome-ignore lint/a11y/useAnchorContent: Content provided via Button children
-              <a
-                href="https://hq.coscientist.app"
-                rel="noopener noreferrer"
-                target="_blank"
-              />
+              <a href={hqHref} rel="noopener noreferrer" target="_blank" />
             }
             size="lg"
             variant="outline"

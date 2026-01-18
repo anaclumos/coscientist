@@ -1,59 +1,59 @@
 {
   "metadata": {
-    "title": "Coscientist: Token ≠ Tri thức",
-    "description": "Cơ sở hạ tầng nhận thức cho nghiên cứu."
+    "title": "Coscientist: Token ≠ tri thức",
+    "description": "Hạ tầng nhận thức cho nghiên cứu tốt hơn."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Tuyên ngôn Coscientist",
+    "joinWaitlist": "Tham gia danh sách chờ",
     "github": "GitHub (mở trong tab mới)",
-    "twitter": "X (Twitter) (mở trong tab mới)",
-    "joinWaitlist": "Join Waitlist"
+    "twitter": "X (Twitter) (mở trong tab mới)"
   },
   "allNotes": {
     "title": "Tất cả ghi chú",
     "noteCount": "{count} ghi chú",
-    "currentlyOpen": "hiện đang mở ở vị trí {position}"
+    "currentlyOpen": "đang mở ở vị trí {position}"
+  },
+  "notePane": {
+    "expand": "Mở rộng không gian làm việc",
+    "expandNote": "Khám phá {title}",
+    "closeNote": "Đóng {title}",
+    "closePane": "Đóng ngăn {index}",
+    "editOnGitHub": "Chỉnh sửa trên GitHub"
   },
   "mobileCarousel": {
     "goToNote": "Đi tới ghi chú {position}: {title}"
   },
-  "notePane": {
-    "expand": "Mở rộng khung",
-    "expandNote": "Mở rộng {title}",
-    "closeNote": "Đóng {title}",
-    "closePane": "Đóng khung {index}",
-    "editOnGitHub": "Chỉnh sửa trên GitHub"
-  },
   "backlinks": {
-    "singular": "{count} ghi chú liên kết đến đây",
-    "plural": "{count} ghi chú liên kết đến đây"
+    "singular": "{count} ghi chú liên kết tới đây",
+    "plural": "{count} ghi chú liên kết tới đây"
   },
   "theme": {
-    "toggle": "Chuyển đổi giao diện",
+    "toggle": "Đổi giao diện",
     "light": "Sáng",
     "dark": "Tối",
     "system": "Hệ thống"
   },
   "navigation": {
     "previous": "Trước",
-    "next": "Tiếp",
-    "goToPreviousPage": "Đi đến trang trước",
-    "goToNextPage": "Đi đến trang tiếp theo",
+    "next": "Sau",
+    "goToPreviousPage": "Tới trang trước",
+    "goToNextPage": "Tới trang sau",
     "morePages": "Thêm trang",
-    "pagination": "phân trang",
-    "breadcrumb": "đường dẫn",
+    "pagination": "Phân trang",
+    "breadcrumb": "Đường dẫn",
     "more": "Thêm"
   },
   "sidebar": {
     "title": "Thanh bên",
-    "description": "Hiển thị thanh bên trên thiết bị di động.",
+    "description": "Truy cập nhanh nghiên cứu của bạn",
     "toggle": "Bật/tắt thanh bên"
   },
   "common": {
     "close": "Đóng",
     "remove": "Xóa",
-    "loading": "Đang tải",
+    "loading": "Đang tải nghiên cứu của bạn...",
     "opensInNewTab": "mở trong tab mới"
   },
   "languageSwitcher": {
@@ -62,64 +62,64 @@
   },
   "landing": {
     "hero": {
-      "title": "Nghiên cứu với\nTốc độ Tư duy",
-      "subtitle": "Thí nghiệm có phiên bản. Tri thức tái tạo được.",
+      "title": "Nghiên cứu với\nTốc độ của tư duy",
+      "subtitle": "Thí nghiệm bám rễ trong lịch sử. Tri thức bền vững.",
       "description": "Hạ tầng nhận thức cho nghiên cứu.",
       "enterManifesto": "Vào Tuyên ngôn",
       "github": "GitHub"
     },
     "features": {
-      "eyebrow": "Kiến trúc Cốt lõi",
-      "heading": "Được xây dựng khác biệt từ nền tảng",
+      "eyebrow": "Kiến trúc lõi",
+      "heading": "Xây từ gốc, có chủ đích",
       "dialecticalGraph": {
-        "title": "Đồ thị Biện chứng",
-        "description": "Mệnh đề và quan hệ, không phải tài liệu và liên kết. Mọi phát biểu đều truy ngược về bằng chứng."
+        "title": "Đồ thị biện chứng",
+        "description": "Luận điểm và quan hệ, không phải tài liệu và liên kết. Mọi phát biểu đều truy về bằng chứng."
       },
       "rebuttalFirst": {
-        "title": "Phản biện Trước",
-        "description": "Tìm điều phá vỡ trước điều ủng hộ. Tri thức tồn tại qua thử thách."
+        "title": "Phản biện trước",
+        "description": "Tìm thứ có thể gãy trước khi tìm thứ nâng đỡ. Tri thức vượt qua thử thách."
       },
       "multilingual": {
         "title": "Đa ngôn ngữ",
-        "description": "Bài báo Hàn Quốc. Giả thuyết Đức. Bộ dữ liệu Nhật Bản. Một đồ thị nghiên cứu thống nhất."
+        "description": "Bài báo Hàn. Giả thuyết Đức. Tập dữ liệu Nhật. Một đồ thị nghiên cứu thống nhất."
       }
     },
     "pipeline": {
-      "eyebrow": "Cách hoạt động",
-      "heading": "Kiến trúc tranh luận đa tác nhân",
-      "description": "AI đa tác nhân tranh luận nội bộ. Bạn thấy các luận điểm còn lại.",
+      "eyebrow": "Cách vận hành",
+      "heading": "Kiến trúc tranh luận đa tác tử",
+      "description": "AI đa tác tử tranh luận nội bộ. Bạn chỉ thấy các lập luận còn trụ vững.",
       "steps": {
         "propose": "ĐỀ XUẤT",
-        "critique": "PHÊ BÌNH",
+        "critique": "PHẢN BIỆN",
         "rank": "XẾP HẠNG",
         "refine": "TINH CHỈNH"
       }
     },
     "forWho": {
-      "heading": "Được xây dựng cho nhà nghiên cứu thực chiến",
+      "heading": "Dành cho những nhà nghiên cứu tạo ra kết quả",
       "audiences": {
-        "scientists": "Nhà khoa học vận hành quy trình thí nghiệm",
+        "scientists": "Nhà khoa học vận hành pipeline thí nghiệm",
         "engineers": "Kỹ sư xây dựng trên các bài báo tiên tiến",
-        "analysts": "Nhà phân tích tổng hợp tài liệu đa lĩnh vực",
-        "teams": "Đội nhóm cần dấu vết tri thức tái tạo được"
+        "analysts": "Nhà phân tích tổng hợp tài liệu liên ngành",
+        "teams": "Nhóm cần dấu vết tri thức có thể tái lập"
       }
     },
+    "buildInPublic": {
+      "eyebrow": "Minh bạch triệt để",
+      "heading": "Chúng tôi xây dựng công khai",
+      "description": "Mọi quyết định kiến trúc, mọi đánh đổi, mọi lựa chọn kỹ thuật—được ghi lại và có thể truy cập. Nếu hệ thống tri thức đòi hỏi khả năng truy vết, thì các công cụ tạo ra điều đó cũng cần được xây dựng theo cách tương tự.",
+      "visitHQ": "Khám phá HQ của chúng tôi"
+    },
     "cta": {
-      "heading": "Encyclopedia Galactica là hư cấu.\nChúng tôi đang xây dựng hạ tầng.",
+      "heading": "Encyclopedia Galactica chỉ là hư cấu.\nChúng tôi đang xây dựng hạ tầng.",
       "readManifesto": "Đọc Tuyên ngôn",
       "github": "GitHub"
     },
     "footer": {
       "manifesto": "Tuyên ngôn",
+      "hq": "HQ",
       "github": "GitHub",
-      "copyright": "© {year} Coscientist",
-      "hq": "Trụ sở"
-    },
-    "buildInPublic": {
-      "eyebrow": "Minh Bạch Triệt Để",
-      "heading": "Chúng tôi xây dựng công khai",
-      "description": "Mọi quyết định kiến trúc, mọi đánh đổi, mọi lựa chọn kỹ thuật—được ghi chép và có thể truy cập. Nếu các hệ thống tri thức phải yêu cầu khả năng truy xuất nguồn gốc, các công cụ hỗ trợ chúng cũng nên được xây dựng theo cùng cách đó.",
-      "visitHQ": "Truy cập trụ sở"
+      "copyright": "© {year} Coscientist"
     }
   }
 }

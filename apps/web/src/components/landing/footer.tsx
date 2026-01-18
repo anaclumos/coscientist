@@ -1,7 +1,7 @@
 "use client"
 
 import Link from "next/link"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 import { Button } from "@/components/ui/button"
 import { AmbientGradient } from "./ambient-gradient"
@@ -9,11 +9,17 @@ import { Container } from "./primitives/layout"
 
 export function Footer() {
   const t = useTranslations("landing.footer")
+  const locale = useLocale()
+  const hqLocale = locale === "ko" ? "ko" : "en"
   const currentYear = new Date().getFullYear()
 
   const links = [
     { label: t("manifesto"), href: "/manifesto" },
-    { label: t("hq"), href: "https://hq.coscientist.app", external: true },
+    {
+      label: t("hq"),
+      href: `https://hq.coscientist.app/${hqLocale}`,
+      external: true,
+    },
     {
       label: t("github"),
       href: "https://github.com/coscientist/coscientist",

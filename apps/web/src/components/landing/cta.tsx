@@ -6,7 +6,6 @@ import { useTranslations } from "next-intl"
 import { IconChevronRightOutline18 } from "nucleo-ui-outline-18"
 
 import { Button } from "@/components/ui/button"
-import { Group } from "@/components/ui/group"
 import { itemVariants, useSectionAnimation } from "@/lib/landing-animations"
 import { AmbientGradient } from "./ambient-gradient"
 import { Container } from "./primitives/layout"
@@ -51,7 +50,7 @@ export function CTA() {
           transition={{ ...transition, delay: 0.1 }}
           variants={itemVariants}
         >
-          <Group className="flex items-center">
+          <div className="flex items-center gap-3">
             <Button render={<Link href="/manifesto" />} size="lg">
               {t("readManifesto")}{" "}
               <IconChevronRightOutline18 className="ml-1 size-4" />
@@ -66,11 +65,11 @@ export function CTA() {
                 />
               }
               size="lg"
+              variant="outline"
             >
               {t("github")}{" "}
-              <IconChevronRightOutline18 className="ml-1 size-4" />
             </Button>
-          </Group>
+          </div>
         </motion.div>
       </Container>
     </section>
