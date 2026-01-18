@@ -1,10 +1,10 @@
 import { initBotId } from "botid/client/core"
 import posthog from "posthog-js"
-import { env } from "./env"
+import { clientEnv } from "./env.client"
 
 initBotId({ protect: [] })
 
-posthog.init(env.NEXT_PUBLIC_POSTHOG_KEY, {
-  api_host: env.NEXT_PUBLIC_POSTHOG_HOST,
+posthog.init(clientEnv.NEXT_PUBLIC_POSTHOG_KEY, {
+  api_host: clientEnv.NEXT_PUBLIC_POSTHOG_HOST,
   defaults: "2025-11-30",
 })
