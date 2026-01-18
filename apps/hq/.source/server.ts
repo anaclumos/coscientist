@@ -17,10 +17,10 @@ import * as __fd_glob_13 from "../content/docs/adr/007-presence-cursors.ko.mdx?c
 import * as __fd_glob_14 from "../content/docs/adr/007-presence-cursors.mdx?collection=docs"
 import * as __fd_glob_15 from "../content/docs/adr/008-platform-boundaries-expansion.ko.mdx?collection=docs"
 import * as __fd_glob_16 from "../content/docs/adr/008-platform-boundaries-expansion.mdx?collection=docs"
-import { default as __fd_glob_19 } from "../content/docs/adr/meta.json?collection=meta"
+import { default as __fd_glob_18 } from "../content/docs/adr/meta.json?collection=meta"
 import * as __fd_glob_0 from "../content/docs/index.mdx?collection=docs"
 import * as __fd_glob_17 from "../content/docs/logs/20260118.mdx?collection=docs"
-import { default as __fd_glob_18 } from "../content/docs/logs/meta.json?collection=meta"
+import { default as __fd_glob_19 } from "../content/docs/logs/meta.json?collection=meta"
 import type * as Config from "../source.config"
 
 const create = server<
@@ -52,6 +52,6 @@ export const docs = await create.doc("docs", "content/docs", {
 })
 
 export const meta = await create.meta("meta", "content/docs", {
-  "logs/meta.json": __fd_glob_18,
-  "adr/meta.json": __fd_glob_19,
+  "adr/meta.json": __fd_glob_18,
+  "logs/meta.json": __fd_glob_19,
 })

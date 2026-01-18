@@ -15,7 +15,7 @@
     "build:hq": "turbo build --filter=@coscientist/hq",
     "check": "bun x ultracite@latest check",
     "lint": "bun x ultracite@latest fix",
-    "format": "bun x prettier@latest --write . && bun x ultracite@latest fix",
+    "format": "bun x ultracite@latest fix",
     "type-check": "turbo type-check",
     "clean": "turbo clean && rm -rf node_modules .turbo"
   },
