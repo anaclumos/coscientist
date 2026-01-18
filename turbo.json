@@ -5,7 +5,12 @@
     "build": {
       "dependsOn": ["^build"],
       "outputs": [".next/**", "!.next/cache/**", "dist/**"],
-      "env": ["MOTION_PLUS_TOKEN", "NUCLEO_LICENSE_KEY", "SITE_URL"]
+      "env": [
+        "MOTION_PLUS_TOKEN",
+        "NUCLEO_LICENSE_KEY",
+        "SITE_URL",
+        "CLERK_SECRET_KEY"
+      ]
     },
     "dev": {
       "cache": false,
