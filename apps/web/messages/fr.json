@@ -1,33 +1,33 @@
 {
   "metadata": {
-    "title": "Coscientist : Tokens ≠ connaissance",
-    "description": "Une infrastructure cognitive pour mieux faire de la recherche."
+    "title": "Coscientist : Tokens ≠ Connaissance",
+    "description": "Infrastructure d’augmentation cognitive pour une meilleure recherche."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Manifeste Coscientist",
-    "joinWaitlist": "Rejoindre la liste d'attente",
-    "github": "GitHub (s’ouvre dans un nouvel onglet)",
-    "twitter": "X (Twitter) (s’ouvre dans un nouvel onglet)"
+    "joinWaitlist": "Rejoindre la liste d’attente",
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "Toutes les notes",
     "noteCount": "{count} notes",
-    "currentlyOpen": "ouverte à la position {position}"
+    "currentlyOpen": "Ouverte actuellement à la position {position}"
   },
   "notePane": {
-    "expand": "Agrandir l’espace de travail",
+    "expand": "Étendre l’espace de travail",
     "expandNote": "Explorer {title}",
     "closeNote": "Fermer {title}",
     "closePane": "Fermer le panneau {index}",
     "editOnGitHub": "Modifier sur GitHub"
   },
   "mobileCarousel": {
-    "goToNote": "Aller à la note {position} : {title}"
+    "goToNote": "Aller à la note {position} : {title}"
   },
   "backlinks": {
-    "singular": "{count} note renvoie ici",
-    "plural": "{count} notes renvoient ici"
+    "singular": "{count} notes pointent ici",
+    "plural": "{count} notes pointent ici"
   },
   "theme": {
     "toggle": "Changer de thème",
@@ -47,14 +47,14 @@
   },
   "sidebar": {
     "title": "Barre latérale",
-    "description": "Accès rapide à vos recherches",
-    "toggle": "Afficher/masquer la barre latérale"
+    "description": "Accès rapide direct à la recherche",
+    "toggle": "Basculer la barre latérale"
   },
   "common": {
     "close": "Fermer",
     "remove": "Supprimer",
-    "loading": "Chargement de vos recherches...",
-    "opensInNewTab": "s’ouvre dans un nouvel onglet"
+    "loading": "Chargement de la recherche...",
+    "opensInNewTab": "S’ouvre dans un nouvel onglet"
   },
   "languageSwitcher": {
     "label": "Langue",
@@ -62,56 +62,56 @@
   },
   "landing": {
     "hero": {
-      "title": "La recherche à la\nvitesse de la pensée",
-      "subtitle": "Des expériences ancrées dans l’histoire. Un savoir qui dure.",
-      "description": "Une infrastructure cognitive pour la recherche.",
+      "title": "Rechercher\nà la vitesse de la pensée",
+      "subtitle": "Une plateforme de recherche qui pense par elle‑même.",
+      "description": "Infrastructure d’augmentation cognitive pour une meilleure recherche.",
       "readManifesto": "Lire le manifeste",
       "github": "GitHub"
     },
     "features": {
-      "eyebrow": "Architecture centrale",
-      "heading": "Conçue de zéro, par choix",
+      "eyebrow": "Architecture fondamentale",
+      "heading": "Différent dès le départ, par design",
       "dialecticalGraph": {
         "title": "Graphe dialectique",
-        "description": "Des affirmations et des relations, pas des documents et des liens. Chaque assertion remonte aux preuves."
+        "description": "Les entités de recherche sont reliées non par de simples liens, mais par des assertions et des relations. Chaque phrase peut être retracée mathématiquement à sa preuve."
       },
       "rebuttalFirst": {
         "title": "Réfutation d’abord",
-        "description": "Chercher ce qui casse avant ce qui soutient. Un savoir qui résiste à l’épreuve."
+        "description": "Elle ne flatte pas comme les autres IA. Au contraire, elle attaque sans relâche les failles."
       },
       "multilingual": {
-        "title": "Multilingue",
-        "description": "Articles coréens. Hypothèses allemandes. Jeux de données japonais. Un graphe de recherche unifié."
+        "title": "Nativement multilingue",
+        "description": "Articles en anglais. Hypothèses en coréen. Jeux de données en japonais. Un seul graphe de recherche unifié."
       }
     },
     "pipeline": {
-      "eyebrow": "Comment ça marche",
+      "eyebrow": "Fonctionnement",
       "heading": "Architecture de débat multi‑agents",
-      "description": "L’IA multi‑agents débat en interne. Vous ne voyez que les arguments qui tiennent.",
+      "description": "L’IA multi‑agents débat en interne. Vous ne voyez que les arguments qui survivent jusqu’au bout.",
       "steps": {
-        "propose": "PROPOSER",
-        "critique": "CRITIQUER",
-        "rank": "CLASSER",
-        "refine": "AFFINER"
+        "propose": "Proposer",
+        "critique": "Critiquer",
+        "rank": "Classer",
+        "refine": "Affiner"
       }
     },
     "forWho": {
-      "heading": "Pensé pour les chercheurs qui livrent",
+      "heading": "Pour les chercheurs qui livrent des résultats",
       "audiences": {
-        "scientists": "Scientifiques qui exécutent des pipelines expérimentaux",
-        "engineers": "Ingénieurs qui s’appuient sur des articles de pointe",
-        "analysts": "Analystes qui synthétisent la littérature interdisciplinaire",
-        "teams": "Équipes qui ont besoin de traces de connaissance reproductibles"
+        "scientists": "Scientifiques qui gèrent des pipelines expérimentaux",
+        "engineers": "Ingénieurs qui s’appuient sur les articles les plus récents",
+        "analysts": "Analystes qui intègrent une littérature interdisciplinaire",
+        "teams": "Équipes qui ont besoin de parcours de connaissances reproductibles"
       }
     },
     "buildInPublic": {
       "eyebrow": "Transparence radicale",
       "heading": "Nous construisons en public",
-      "description": "Chaque décision d’architecture, chaque compromis et chaque choix technique sont documentés et accessibles. Si les systèmes de connaissance doivent être traçables, les outils qui les rendent possibles doivent être construits de la même manière.",
-      "visitHQ": "Explorer notre HQ"
+      "description": "Chaque décision d’architecture, chaque compromis et chaque choix technique est documenté et consigné. Si les systèmes de connaissance exigent la traçabilité, les outils qui la permettent doivent être construits de la même manière.",
+      "visitHQ": "Visiter notre HQ"
     },
     "cta": {
-      "heading": "L’Encyclopedia Galactica était une fiction.\nNous bâtissons l’infrastructure.",
+      "heading": "L’Encyclopédie Galactique d’Asimov était une fiction.\nNous voulons la bâtir pour de vrai.",
       "readManifesto": "Lire le manifeste",
       "github": "GitHub"
     },

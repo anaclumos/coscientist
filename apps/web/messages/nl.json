@@ -1,19 +1,19 @@
 {
   "metadata": {
-    "title": "Coscientist: Tokens ≠ kennis",
-    "description": "Cognitieve infrastructuur voor betere research."
+    "title": "Coscientist: Tokens ≠ Kennis",
+    "description": "Cognitieve augmentatie-infrastructuur voor beter onderzoek."
   },
   "header": {
     "brand": "Coscientist",
-    "brandWithManifesto": "Coscientist Manifest",
-    "joinWaitlist": "Schrijf je in voor de wachtlijst",
-    "github": "GitHub (opent in een nieuw tabblad)",
-    "twitter": "X (Twitter) (opent in een nieuw tabblad)"
+    "brandWithManifesto": "Coscientist-manifest",
+    "joinWaitlist": "Sluit je aan bij de wachtlijst",
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "Alle notities",
     "noteCount": "{count} notities",
-    "currentlyOpen": "nu geopend op positie {position}"
+    "currentlyOpen": "Momenteel geopend op positie {position}"
   },
   "notePane": {
     "expand": "Werkruimte uitbreiden",
@@ -26,8 +26,8 @@
     "goToNote": "Ga naar notitie {position}: {title}"
   },
   "backlinks": {
-    "singular": "{count} notitie verwijst hiernaar",
-    "plural": "{count} notities verwijzen hiernaar"
+    "singular": "{count} notities linken hierheen",
+    "plural": "{count} notities linken hierheen"
   },
   "theme": {
     "toggle": "Thema wijzigen",
@@ -38,23 +38,23 @@
   "navigation": {
     "previous": "Vorige",
     "next": "Volgende",
-    "goToPreviousPage": "Ga naar de vorige pagina",
-    "goToNextPage": "Ga naar de volgende pagina",
-    "morePages": "Meer pagina’s",
+    "goToPreviousPage": "Ga naar vorige pagina",
+    "goToNextPage": "Ga naar volgende pagina",
+    "morePages": "Meer pagina's",
     "pagination": "Paginering",
-    "breadcrumb": "Kruimelpad",
+    "breadcrumb": "Broodkruimelpad",
     "more": "Meer"
   },
   "sidebar": {
     "title": "Zijbalk",
-    "description": "Snelle toegang tot je onderzoek",
-    "toggle": "Zijbalk aan/uit"
+    "description": "Snelle toegang direct naar onderzoek",
+    "toggle": "Zijbalk schakelen"
   },
   "common": {
     "close": "Sluiten",
     "remove": "Verwijderen",
-    "loading": "Je onderzoek wordt geladen...",
-    "opensInNewTab": "opent in een nieuw tabblad"
+    "loading": "Onderzoek laden...",
+    "opensInNewTab": "Opent in een nieuw tabblad"
   },
   "languageSwitcher": {
     "label": "Taal",
@@ -62,57 +62,57 @@
   },
   "landing": {
     "hero": {
-      "title": "Onderzoek op de\nsnelheid van het denken",
-      "subtitle": "Experimenten, verankerd in de geschiedenis. Kennis die blijft.",
-      "description": "Cognitieve infrastructuur voor onderzoek.",
-      "readManifesto": "Lees het Manifest",
+      "title": "Onderzoek\nmet de snelheid van gedachten",
+      "subtitle": "Een onderzoeksplatform dat zelf denkt.",
+      "description": "Cognitieve augmentatie-infrastructuur voor beter onderzoek.",
+      "readManifesto": "Lees het manifest",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "Kernarchitectuur",
-      "heading": "Vanaf nul gebouwd, met intentie",
+      "heading": "Vanaf het begin anders, met opzet",
       "dialecticalGraph": {
-        "title": "Dialectische graaf",
-        "description": "Beweringen en relaties, geen documenten en links. Elke bewering is te herleiden tot bewijs."
+        "title": "Dialectische grafiek",
+        "description": "Onderzoeksentiteiten zijn niet met simpele links verbonden, maar met beweringen en relaties. Elke zin is wiskundig te herleiden tot zijn bewijs."
       },
       "rebuttalFirst": {
-        "title": "Eerst weerleggen",
-        "description": "Zoek wat breekt vóór wat ondersteunt. Kennis die de toets doorstaat."
+        "title": "Weerlegging eerst",
+        "description": "Het vleit niet zoals andere AI. In plaats daarvan valt het onophoudelijk de gaten aan."
       },
       "multilingual": {
-        "title": "Meertalig",
-        "description": "Koreaanse papers. Duitse hypotheses. Japanse datasets. Eén verenigde onderzoeksgraaf."
+        "title": "Meertalig native",
+        "description": "Engelse papers. Koreaanse hypothesen. Japanse datasets. Eén geïntegreerde onderzoeksgrafiek."
       }
     },
     "pipeline": {
       "eyebrow": "Hoe het werkt",
-      "heading": "Multi‑agent debatarchitectuur",
-      "description": "Multi‑agent‑AI debatteert intern. Jij ziet de argumenten die overeind blijven.",
+      "heading": "Multi-agent debatarchitectuur",
+      "description": "Multi-agent AI debatteert intern. Je ziet alleen de argumenten die tot het einde overleven.",
       "steps": {
-        "propose": "VOORSTELLEN",
-        "critique": "BEKRITISEREN",
-        "rank": "RANKEN",
-        "refine": "VERFIJNEN"
+        "propose": "Voorstellen",
+        "critique": "Bekritiseren",
+        "rank": "Rangschikken",
+        "refine": "Verfijnen"
       }
     },
     "forWho": {
-      "heading": "Voor onderzoekers die leveren",
+      "heading": "Voor onderzoekers die resultaten leveren",
       "audiences": {
-        "scientists": "Wetenschappers met experimentele pipelines",
-        "engineers": "Ingenieurs die bouwen op toonaangevende papers",
-        "analysts": "Analisten die domeinoverstijgende literatuur synthetiseren",
-        "teams": "Teams die reproduceerbare kennis‑sporen nodig hebben"
+        "scientists": "Wetenschappers die experimentele pipelines draaien",
+        "engineers": "Ingenieurs die bouwen op de nieuwste papers",
+        "analysts": "Analisten die interdisciplinaire literatuur integreren",
+        "teams": "Teams die reproduceerbare kennispaden nodig hebben"
       }
     },
     "buildInPublic": {
       "eyebrow": "Radicale transparantie",
       "heading": "We bouwen in het openbaar",
-      "description": "Elke architectuurbeslissing, elke trade‑off, elke technische keuze is gedocumenteerd en toegankelijk. Als kennissystemen traceerbaarheid eisen, moeten de tools die dat mogelijk maken op dezelfde manier worden gebouwd.",
-      "visitHQ": "Ontdek onze HQ"
+      "description": "Elke architectuurbeslissing, elke trade-off en elke technische keuze wordt gedocumenteerd en vastgelegd. Als kennissystemen traceerbaarheid eisen, moeten de tools die dit mogelijk maken op dezelfde manier worden gebouwd.",
+      "visitHQ": "Bezoek onze HQ"
     },
     "cta": {
-      "heading": "De Encyclopedia Galactica was fictie.\nWij bouwen de infrastructuur.",
-      "readManifesto": "Lees het Manifest",
+      "heading": "Asimovs Encyclopedia Galactica was fictie.\nWe willen het in werkelijkheid bouwen.",
+      "readManifesto": "Lees het manifest",
       "github": "GitHub"
     },
     "footer": {

@@ -1,29 +1,29 @@
 {
   "metadata": {
-    "title": "Coscientist: Token ≠ bilgi",
-    "description": "Daha iyi araştırma için bilişsel altyapı."
+    "title": "Coscientist: Tokenlar ≠ Bilgi",
+    "description": "Daha iyi araştırma için bilişsel güçlendirme altyapısı."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Coscientist Manifestosu",
     "joinWaitlist": "Bekleme listesine katıl",
-    "github": "GitHub (yeni sekmede açılır)",
-    "twitter": "X (Twitter) (yeni sekmede açılır)"
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "Tüm notlar",
     "noteCount": "{count} not",
-    "currentlyOpen": "şu anda {position}. konumda açık"
+    "currentlyOpen": "Şu anda {position}. sırada açık"
   },
   "notePane": {
     "expand": "Çalışma alanını genişlet",
     "expandNote": "{title} keşfet",
     "closeNote": "{title} kapat",
     "closePane": "{index}. paneli kapat",
-    "editOnGitHub": "GitHub’da düzenle"
+    "editOnGitHub": "GitHub'da düzenle"
   },
   "mobileCarousel": {
-    "goToNote": "{position}. nota git: {title}"
+    "goToNote": "Not {position}'e git: {title}"
   },
   "backlinks": {
     "singular": "{count} not buraya bağlanıyor",
@@ -42,19 +42,19 @@
     "goToNextPage": "Sonraki sayfaya git",
     "morePages": "Daha fazla sayfa",
     "pagination": "Sayfalama",
-    "breadcrumb": "Gezinti yolu",
+    "breadcrumb": "Gezinme yolu",
     "more": "Daha fazla"
   },
   "sidebar": {
     "title": "Kenar çubuğu",
-    "description": "Araştırmana hızlı erişim",
+    "description": "Araştırmaya hızlı ve doğrudan erişim",
     "toggle": "Kenar çubuğunu aç/kapat"
   },
   "common": {
     "close": "Kapat",
     "remove": "Kaldır",
-    "loading": "Araştırman yükleniyor...",
-    "opensInNewTab": "yeni sekmede açılır"
+    "loading": "Araştırma yükleniyor...",
+    "opensInNewTab": "Yeni sekmede açılır"
   },
   "languageSwitcher": {
     "label": "Dil",
@@ -62,56 +62,56 @@
   },
   "landing": {
     "hero": {
-      "title": "Düşünce\nhızında araştırma",
-      "subtitle": "Tarihe dayalı deneyler. Kalıcı bilgi.",
-      "description": "Araştırma için bilişsel altyapı.",
+      "title": "Düşüncenin hızında\naraştır",
+      "subtitle": "Kendi kendine düşünen bir araştırma platformu.",
+      "description": "Daha iyi araştırma için bilişsel güçlendirme altyapısı.",
       "readManifesto": "Manifestoyu oku",
       "github": "GitHub"
     },
     "features": {
-      "eyebrow": "Çekirdek Mimari",
-      "heading": "Sıfırdan, bilinçli tasarım",
+      "eyebrow": "Çekirdek mimari",
+      "heading": "Başından beri farklı, bilinçli",
       "dialecticalGraph": {
-        "title": "Diyalektik Grafik",
-        "description": "Belgeler ve bağlantılar değil, iddialar ve ilişkiler. Her ifade kanıta kadar izlenir."
+        "title": "Diyalektik grafik",
+        "description": "Araştırma varlıkları basit bağlantılarla değil, iddialar ve ilişkilerle bağlanır. Her cümle kanıtına matematiksel olarak izlenebilir."
       },
       "rebuttalFirst": {
-        "title": "Önce çürütme",
-        "description": "Önce neyin kırıldığını ara, sonra neyin desteklediğini. Sınavdan geçen bilgi."
+        "title": "Önce itiraz",
+        "description": "Diğer YZ'ler gibi iltifat etmez. Bunun yerine boşluklara durmadan saldırır."
       },
       "multilingual": {
-        "title": "Çok dilli",
-        "description": "Korece makaleler. Almanca hipotezler. Japonca veri kümeleri. Tek bir birleşik araştırma grafiği."
+        "title": "Yerel çok dilli",
+        "description": "İngilizce makaleler. Korece hipotezler. Japonca veri kümeleri. Tek bir birleşik araştırma grafiği."
       }
     },
     "pipeline": {
       "eyebrow": "Nasıl çalışır",
       "heading": "Çok ajanlı tartışma mimarisi",
-      "description": "Çok ajanlı yapay zekâ içeride tartışır. Ayakta kalan argümanları görürsünüz.",
+      "description": "Çok ajanlı YZ içeride tartışır. Sadece sonuna kadar kalan argümanları görürsünüz.",
       "steps": {
-        "propose": "ÖNER",
-        "critique": "ELEŞTİR",
-        "rank": "SIRALA",
-        "refine": "RAFİNE ET"
+        "propose": "Öner",
+        "critique": "Eleştir",
+        "rank": "Sırala",
+        "refine": "Arıt"
       }
     },
     "forWho": {
       "heading": "Sonuç üreten araştırmacılar için",
       "audiences": {
-        "scientists": "Deneysel pipeline’lar yürüten bilim insanları",
-        "engineers": "En yeni makalelerin üzerine inşa eden mühendisler",
-        "analysts": "Disiplinlerarası literatürü sentezleyen analistler",
-        "teams": "Yeniden üretilebilir bilgi izlerine ihtiyaç duyan ekipler"
+        "scientists": "Deneysel hatları yöneten bilim insanları",
+        "engineers": "En yeni makaleler üzerine inşa eden mühendisler",
+        "analysts": "Disiplinlerarası literatürü birleştiren analistler",
+        "teams": "Yeniden üretilebilir bilgi yollarına ihtiyaç duyan ekipler"
       }
     },
     "buildInPublic": {
-      "eyebrow": "Radikal Şeffaflık",
-      "heading": "Açıkta inşa ediyoruz",
-      "description": "Her mimari karar, her trade‑off, her teknik seçim belgelenmiş ve erişilebilir. Bilgi sistemleri izlenebilirlik talep ediyorsa, bunu mümkün kılan araçlar da aynı şekilde inşa edilmelidir.",
-      "visitHQ": "HQ’muzu keşfet"
+      "eyebrow": "Radikal şeffaflık",
+      "heading": "Kamuya açık inşa ediyoruz",
+      "description": "Her mimari karar, her taviz ve her teknik seçim belgelenir ve kayda geçer. Bilgi sistemleri izlenebilirlik talep ediyorsa, bunu mümkün kılan araçlar da aynı şekilde inşa edilmelidir.",
+      "visitHQ": "HQ'muzu ziyaret et"
     },
     "cta": {
-      "heading": "Encyclopedia Galactica kurmacaydı.\nAltyapıyı biz kuruyoruz.",
+      "heading": "Asimov'un Galaktik Ansiklopedisi bir kurguydu.\nOnu gerçeğe dönüştürmek istiyoruz.",
       "readManifesto": "Manifestoyu oku",
       "github": "GitHub"
     },

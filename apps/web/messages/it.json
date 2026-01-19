@@ -1,33 +1,33 @@
 {
   "metadata": {
-    "title": "Coscientist: Token ≠ conoscenza",
-    "description": "Infrastruttura cognitiva per una ricerca migliore."
+    "title": "Coscientist: Tokens ≠ Conoscenza",
+    "description": "Infrastruttura di potenziamento cognitivo per una ricerca migliore."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Manifesto Coscientist",
     "joinWaitlist": "Unisciti alla lista d’attesa",
-    "github": "GitHub (si apre in una nuova scheda)",
-    "twitter": "X (Twitter) (si apre in una nuova scheda)"
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "Tutte le note",
     "noteCount": "{count} note",
-    "currentlyOpen": "aperta ora alla posizione {position}"
+    "currentlyOpen": "Attualmente aperta alla posizione {position}"
   },
   "notePane": {
-    "expand": "Espandi l’area di lavoro",
+    "expand": "Espandi lo spazio di lavoro",
     "expandNote": "Esplora {title}",
     "closeNote": "Chiudi {title}",
-    "closePane": "Chiudi il pannello {index}",
+    "closePane": "Chiudi pannello {index}",
     "editOnGitHub": "Modifica su GitHub"
   },
   "mobileCarousel": {
     "goToNote": "Vai alla nota {position}: {title}"
   },
   "backlinks": {
-    "singular": "{count} nota rimanda qui",
-    "plural": "{count} note rimandano qui"
+    "singular": "{count} note collegano qui",
+    "plural": "{count} note collegano qui"
   },
   "theme": {
     "toggle": "Cambia tema",
@@ -40,21 +40,21 @@
     "next": "Successivo",
     "goToPreviousPage": "Vai alla pagina precedente",
     "goToNextPage": "Vai alla pagina successiva",
-    "morePages": "Altre pagine",
+    "morePages": "Più pagine",
     "pagination": "Paginazione",
-    "breadcrumb": "Percorso",
+    "breadcrumb": "Percorso di navigazione",
     "more": "Altro"
   },
   "sidebar": {
     "title": "Barra laterale",
-    "description": "Accesso rapido alla tua ricerca",
-    "toggle": "Mostra/nascondi barra laterale"
+    "description": "Accesso rapido diretto alla ricerca",
+    "toggle": "Attiva/disattiva barra laterale"
   },
   "common": {
     "close": "Chiudi",
     "remove": "Rimuovi",
-    "loading": "Caricamento della tua ricerca...",
-    "opensInNewTab": "si apre in una nuova scheda"
+    "loading": "Caricamento della ricerca...",
+    "opensInNewTab": "Si apre in una nuova scheda"
   },
   "languageSwitcher": {
     "label": "Lingua",
@@ -62,57 +62,57 @@
   },
   "landing": {
     "hero": {
-      "title": "Ricerca alla\nvelocità del pensiero",
-      "subtitle": "Esperimenti radicati nella storia. Conoscenza che dura.",
-      "description": "Infrastruttura cognitiva per la ricerca.",
-      "readManifesto": "Leggi il Manifesto",
+      "title": "Ricerca\nalla velocità del pensiero",
+      "subtitle": "Una piattaforma di ricerca che pensa da sola.",
+      "description": "Infrastruttura di potenziamento cognitivo per una ricerca migliore.",
+      "readManifesto": "Leggi il manifesto",
       "github": "GitHub"
     },
     "features": {
-      "eyebrow": "Architettura principale",
-      "heading": "Costruito da zero, con intenzione",
+      "eyebrow": "Architettura fondamentale",
+      "heading": "Diversa fin dall'inizio, per scelta",
       "dialecticalGraph": {
         "title": "Grafo dialettico",
-        "description": "Affermazioni e relazioni, non documenti e link. Ogni affermazione risale alle prove."
+        "description": "Le entità di ricerca non sono collegate da semplici link, ma da affermazioni e relazioni. Ogni frase può essere tracciata matematicamente fino alle sue prove."
       },
       "rebuttalFirst": {
-        "title": "Prima la confutazione",
-        "description": "Cerca ciò che si rompe prima di ciò che sostiene. Conoscenza che supera le prove."
+        "title": "Confutazione prima",
+        "description": "Non adula come le altre IA. Anzi, attacca senza sosta le falle."
       },
       "multilingual": {
-        "title": "Multilingue",
-        "description": "Paper coreani. Ipotesi tedesche. Dataset giapponesi. Un unico grafo di ricerca."
+        "title": "Multilingue nativa",
+        "description": "Articoli in inglese. Ipotesi in coreano. Dataset in giapponese. Un unico grafo di ricerca unificato."
       }
     },
     "pipeline": {
       "eyebrow": "Come funziona",
       "heading": "Architettura di dibattito multi‑agente",
-      "description": "L’IA multi‑agente dibatte internamente. Tu vedi gli argomenti che resistono.",
+      "description": "L'IA multi‑agente dibatte internamente. Vedi solo gli argomenti che sopravvivono fino alla fine.",
       "steps": {
-        "propose": "PROPORRE",
-        "critique": "CRITICARE",
-        "rank": "CLASSIFICARE",
-        "refine": "RAFFINARE"
+        "propose": "Proporre",
+        "critique": "Criticare",
+        "rank": "Classificare",
+        "refine": "Raffinare"
       }
     },
     "forWho": {
-      "heading": "Pensato per ricercatori che portano risultati",
+      "heading": "Per ricercatori che ottengono risultati",
       "audiences": {
         "scientists": "Scienziati che gestiscono pipeline sperimentali",
-        "engineers": "Ingegneri che costruiscono su paper all’avanguardia",
-        "analysts": "Analisti che sintetizzano letteratura interdisciplinare",
-        "teams": "Team che hanno bisogno di tracce di conoscenza riproducibili"
+        "engineers": "Ingegneri che costruiscono sui lavori più recenti",
+        "analysts": "Analisti che integrano letteratura interdisciplinare",
+        "teams": "Team che necessitano percorsi di conoscenza riproducibili"
       }
     },
     "buildInPublic": {
       "eyebrow": "Trasparenza radicale",
       "heading": "Costruiamo in pubblico",
-      "description": "Ogni decisione architetturale, ogni compromesso, ogni scelta tecnica è documentata e accessibile. Se i sistemi di conoscenza devono essere tracciabili, gli strumenti che li rendono possibili devono essere costruiti allo stesso modo.",
-      "visitHQ": "Esplora il nostro HQ"
+      "description": "Ogni decisione architetturale, ogni compromesso e ogni scelta tecnica è documentata e registrata. Se i sistemi di conoscenza richiedono tracciabilità, gli strumenti che la rendono possibile dovrebbero essere costruiti allo stesso modo.",
+      "visitHQ": "Visita il nostro HQ"
     },
     "cta": {
-      "heading": "L’Encyclopedia Galactica era finzione.\nStiamo costruendo l’infrastruttura.",
-      "readManifesto": "Leggi il Manifesto",
+      "heading": "L'Enciclopedia Galattica di Asimov era finzione.\nVogliamo costruirla nella realtà.",
+      "readManifesto": "Leggi il manifesto",
       "github": "GitHub"
     },
     "footer": {

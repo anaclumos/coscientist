@@ -1,32 +1,32 @@
 {
   "metadata": {
     "title": "Coscientist: Tokens ≠ Knowledge",
-    "description": "Cognitive infrastructure for better research."
+    "description": "Cognitive augmentation infrastructure for better research."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Coscientist Manifesto",
     "joinWaitlist": "Join the waitlist",
-    "github": "GitHub (opens in a new tab)",
-    "twitter": "X (Twitter) (opens in a new tab)"
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "All notes",
     "noteCount": "{count} notes",
-    "currentlyOpen": "open now at position {position}"
+    "currentlyOpen": "Currently open at position {position}"
   },
   "notePane": {
     "expand": "Expand workspace",
     "expandNote": "Explore {title}",
     "closeNote": "Close {title}",
-    "closePane": "Close pane {index}",
+    "closePane": "Close panel {index}",
     "editOnGitHub": "Edit on GitHub"
   },
   "mobileCarousel": {
     "goToNote": "Go to note {position}: {title}"
   },
   "backlinks": {
-    "singular": "{count} note links here",
+    "singular": "{count} notes link here",
     "plural": "{count} notes link here"
   },
   "theme": {
@@ -47,14 +47,14 @@
   },
   "sidebar": {
     "title": "Sidebar",
-    "description": "Quick access to your research",
+    "description": "Quick access straight to research",
     "toggle": "Toggle sidebar"
   },
   "common": {
     "close": "Close",
     "remove": "Remove",
-    "loading": "Loading your research...",
-    "opensInNewTab": "opens in a new tab"
+    "loading": "Loading research...",
+    "opensInNewTab": "Opens in a new tab"
   },
   "languageSwitcher": {
     "label": "Language",
@@ -63,56 +63,56 @@
   "landing": {
     "hero": {
       "title": "Research at the\nSpeed of Thought",
-      "subtitle": "Experiments, grounded in history. Knowledge that lasts.",
-      "description": "Cognitive infrastructure for research.",
-      "readManifesto": "Read the Manifesto",
+      "subtitle": "A research platform that thinks for itself.",
+      "description": "Cognitive augmentation infrastructure for better research.",
+      "readManifesto": "Read the manifesto",
       "github": "GitHub"
     },
     "features": {
-      "eyebrow": "Core Architecture",
-      "heading": "Built from the ground up by design",
+      "eyebrow": "Core architecture",
+      "heading": "Different from the start, by design",
       "dialecticalGraph": {
-        "title": "Dialectical Graph",
-        "description": "Claims and relations, not documents and links. Every statement traces back to evidence."
+        "title": "Dialectical graph",
+        "description": "Research entities are connected not by simple links, but by claims and relations. Every sentence can be mathematically traced to its evidence."
       },
       "rebuttalFirst": {
-        "title": "Rebuttal First",
-        "description": "Look for what breaks before what supports. Knowledge that survives challenge."
+        "title": "Rebuttal first",
+        "description": "It doesn't flatter like other AIs. Instead, it relentlessly attacks the gaps."
       },
       "multilingual": {
-        "title": "Multilingual",
-        "description": "Korean papers. German hypotheses. Japanese datasets. One unified research graph."
+        "title": "Native multilingual",
+        "description": "English papers. Korean hypotheses. Japanese datasets. One unified research graph."
       }
     },
     "pipeline": {
       "eyebrow": "How it works",
       "heading": "Multi-agent debate architecture",
-      "description": "Multi-agent AI debates internally. You see the arguments that survive.",
+      "description": "Multi-agent AI debates internally. You only see the arguments that survive to the end.",
       "steps": {
-        "propose": "PROPOSE",
-        "critique": "CRITIQUE",
-        "rank": "RANK",
-        "refine": "REFINE"
+        "propose": "Propose",
+        "critique": "Critique",
+        "rank": "Rank",
+        "refine": "Refine"
       }
     },
     "forWho": {
-      "heading": "Built for researchers who ship",
+      "heading": "For researchers who deliver results",
       "audiences": {
         "scientists": "Scientists running experimental pipelines",
-        "engineers": "Engineers building on cutting-edge papers",
-        "analysts": "Analysts synthesizing cross-domain literature",
-        "teams": "Teams who need reproducible knowledge trails"
+        "engineers": "Engineers building on the latest papers",
+        "analysts": "Analysts integrating cross-disciplinary literature",
+        "teams": "Teams that need reproducible knowledge paths"
       }
     },
     "buildInPublic": {
-      "eyebrow": "Radical Transparency",
+      "eyebrow": "Radical transparency",
       "heading": "We build in public",
-      "description": "Every architecture decision, every trade-off, every technical choice is documented and accessible. If knowledge systems demand traceability, the tools that enable them should be built the same way.",
-      "visitHQ": "Explore our HQ"
+      "description": "Every architectural decision, trade-off, and technical choice is documented and recorded. If knowledge systems demand traceability, the tools that enable it should be built the same way.",
+      "visitHQ": "Visit our HQ"
     },
     "cta": {
-      "heading": "The Encyclopedia Galactica was fiction.\nWe're building the infrastructure.",
-      "readManifesto": "Read the Manifesto",
+      "heading": "Asimov's Encyclopedia Galactica was fiction.\nWe aim to build it for real.",
+      "readManifesto": "Read the manifesto",
       "github": "GitHub"
     },
     "footer": {

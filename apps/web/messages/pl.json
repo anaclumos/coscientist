@@ -1,23 +1,23 @@
 {
   "metadata": {
-    "title": "Coscientist: Tokeny ≠ wiedza",
-    "description": "Infrastruktura kognitywna dla lepszych badań."
+    "title": "Coscientist: Tokeny ≠ Wiedza",
+    "description": "Infrastruktura wzmocnienia poznawczego dla lepszych badań."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Manifest Coscientist",
     "joinWaitlist": "Dołącz do listy oczekujących",
-    "github": "GitHub (otwiera się w nowej karcie)",
-    "twitter": "X (Twitter) (otwiera się w nowej karcie)"
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "Wszystkie notatki",
     "noteCount": "{count} notatek",
-    "currentlyOpen": "otwarte teraz na pozycji {position}"
+    "currentlyOpen": "Obecnie otwarta na pozycji {position}"
   },
   "notePane": {
-    "expand": "Rozszerz przestrzeń roboczą",
-    "expandNote": "Odkryj {title}",
+    "expand": "Rozwiń przestrzeń roboczą",
+    "expandNote": "Odkrywaj {title}",
     "closeNote": "Zamknij {title}",
     "closePane": "Zamknij panel {index}",
     "editOnGitHub": "Edytuj na GitHub"
@@ -26,8 +26,8 @@
     "goToNote": "Przejdź do notatki {position}: {title}"
   },
   "backlinks": {
-    "singular": "{count} notatka linkuje tutaj",
-    "plural": "{count} notatek linkuje tutaj"
+    "singular": "{count} notatek prowadzi tutaj",
+    "plural": "{count} notatek prowadzi tutaj"
   },
   "theme": {
     "toggle": "Zmień motyw",
@@ -36,25 +36,25 @@
     "system": "System"
   },
   "navigation": {
-    "previous": "Poprzednia",
-    "next": "Następna",
+    "previous": "Poprzedni",
+    "next": "Następny",
     "goToPreviousPage": "Przejdź do poprzedniej strony",
     "goToNextPage": "Przejdź do następnej strony",
     "morePages": "Więcej stron",
     "pagination": "Paginacja",
-    "breadcrumb": "Nawigacja okruszkowa",
+    "breadcrumb": "Ścieżka nawigacji",
     "more": "Więcej"
   },
   "sidebar": {
     "title": "Pasek boczny",
-    "description": "Szybki dostęp do Twoich badań",
+    "description": "Szybki dostęp bezpośrednio do badań",
     "toggle": "Przełącz pasek boczny"
   },
   "common": {
     "close": "Zamknij",
     "remove": "Usuń",
-    "loading": "Ładowanie Twoich badań...",
-    "opensInNewTab": "otwiera się w nowej karcie"
+    "loading": "Ładowanie badań...",
+    "opensInNewTab": "Otwiera się w nowej karcie"
   },
   "languageSwitcher": {
     "label": "Język",
@@ -62,57 +62,57 @@
   },
   "landing": {
     "hero": {
-      "title": "Badania z\nprędkością myśli",
-      "subtitle": "Eksperymenty zakorzenione w historii. Wiedza, która zostaje.",
-      "description": "Infrastruktura kognitywna dla badań.",
-      "readManifesto": "Przeczytaj Manifest",
+      "title": "Badania\nz prędkością myśli",
+      "subtitle": "Platforma badawcza, która myśli samodzielnie.",
+      "description": "Infrastruktura wzmocnienia poznawczego dla lepszych badań.",
+      "readManifesto": "Przeczytaj manifest",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "Architektura rdzeniowa",
-      "heading": "Zbudowane od zera, z intencją",
+      "heading": "Inne od początku, z premedytacją",
       "dialecticalGraph": {
         "title": "Graf dialektyczny",
-        "description": "Twierdzenia i relacje, nie dokumenty i linki. Każde stwierdzenie prowadzi do dowodów."
+        "description": "Byty badawcze są połączone nie prostymi linkami, lecz twierdzeniami i relacjami. Każde zdanie można matematycznie prześledzić do jego dowodów."
       },
       "rebuttalFirst": {
-        "title": "Najpierw obalenie",
-        "description": "Szukaj tego, co się łamie, zanim tego, co wspiera. Wiedza, która przechodzi próbę."
+        "title": "Najpierw kontrargumenty",
+        "description": "Nie schlebia jak inne SI. Zamiast tego bezustannie atakuje luki."
       },
       "multilingual": {
-        "title": "Wielojęzyczność",
-        "description": "Koreańskie artykuły. Niemieckie hipotezy. Japońskie zbiory danych. Jeden spójny graf badań."
+        "title": "Natywnie wielojęzyczna",
+        "description": "Angielskie prace. Koreańskie hipotezy. Japońskie zbiory danych. Jeden spójny graf badań."
       }
     },
     "pipeline": {
       "eyebrow": "Jak to działa",
-      "heading": "Architektura debaty multiagentowej",
-      "description": "Wielu agentów AI debatuje wewnętrznie. Widzisz argumenty, które przetrwały.",
+      "heading": "Architektura debaty wieloagentowej",
+      "description": "Wieloagentowa SI debatuje wewnętrznie. Widzisz tylko argumenty, które przetrwają do końca.",
       "steps": {
-        "propose": "PROPOZYCJA",
-        "critique": "KRYTYKA",
-        "rank": "RANKING",
-        "refine": "UDOSKONALENIE"
+        "propose": "Proponuj",
+        "critique": "Krytykuj",
+        "rank": "Ranguj",
+        "refine": "Dopracuj"
       }
     },
     "forWho": {
-      "heading": "Dla badaczy, którzy dowożą",
+      "heading": "Dla badaczy, którzy dowożą wyniki",
       "audiences": {
-        "scientists": "Naukowcy prowadzący pipeline’y eksperymentalne",
-        "engineers": "Inżynierowie budujący na bazie przełomowych publikacji",
-        "analysts": "Analitycy syntetyzujący literaturę międzydziedzinową",
+        "scientists": "Naukowcy prowadzący eksperymentalne pipeline’y",
+        "engineers": "Inżynierowie budujący na najnowszych pracach",
+        "analysts": "Analitycy integrujący literaturę interdyscyplinarną",
         "teams": "Zespoły potrzebujące odtwarzalnych ścieżek wiedzy"
       }
     },
     "buildInPublic": {
-      "eyebrow": "Radykalna przejrzystość",
+      "eyebrow": "Radykalna transparentność",
       "heading": "Budujemy publicznie",
-      "description": "Każda decyzja architektoniczna, każdy trade‑off i każdy wybór techniczny są udokumentowane i dostępne. Jeśli systemy wiedzy mają wymagać śledzenia źródeł, narzędzia, które to umożliwiają, powinny być budowane tak samo.",
-      "visitHQ": "Poznaj nasze HQ"
+      "description": "Każda decyzja architektoniczna, każdy kompromis i każdy wybór techniczny jest dokumentowany i rejestrowany. Jeśli systemy wiedzy wymagają śledzenia, narzędzia, które to umożliwiają, powinny być budowane w ten sam sposób.",
+      "visitHQ": "Odwiedź nasze HQ"
     },
     "cta": {
-      "heading": "Encyclopedia Galactica była fikcją.\nBudujemy infrastrukturę.",
-      "readManifesto": "Przeczytaj Manifest",
+      "heading": "Encyklopedia Galactica Asimova była fikcją.\nChcemy zbudować ją naprawdę.",
+      "readManifesto": "Przeczytaj manifest",
       "github": "GitHub"
     },
     "footer": {

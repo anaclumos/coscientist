@@ -1,25 +1,25 @@
 {
   "metadata": {
-    "title": "Coscientist: Token ≠ tri thức",
-    "description": "Hạ tầng nhận thức cho nghiên cứu tốt hơn."
+    "title": "Coscientist: Token ≠ Tri thức",
+    "description": "Hạ tầng tăng cường nhận thức cho nghiên cứu tốt hơn."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Tuyên ngôn Coscientist",
     "joinWaitlist": "Tham gia danh sách chờ",
-    "github": "GitHub (mở trong tab mới)",
-    "twitter": "X (Twitter) (mở trong tab mới)"
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "Tất cả ghi chú",
     "noteCount": "{count} ghi chú",
-    "currentlyOpen": "đang mở ở vị trí {position}"
+    "currentlyOpen": "Hiện đang mở ở vị trí {position}"
   },
   "notePane": {
     "expand": "Mở rộng không gian làm việc",
     "expandNote": "Khám phá {title}",
     "closeNote": "Đóng {title}",
-    "closePane": "Đóng ngăn {index}",
+    "closePane": "Đóng bảng {index}",
     "editOnGitHub": "Chỉnh sửa trên GitHub"
   },
   "mobileCarousel": {
@@ -30,7 +30,7 @@
     "plural": "{count} ghi chú liên kết tới đây"
   },
   "theme": {
-    "toggle": "Đổi giao diện",
+    "toggle": "Đổi chủ đề",
     "light": "Sáng",
     "dark": "Tối",
     "system": "Hệ thống"
@@ -38,23 +38,23 @@
   "navigation": {
     "previous": "Trước",
     "next": "Sau",
-    "goToPreviousPage": "Tới trang trước",
-    "goToNextPage": "Tới trang sau",
-    "morePages": "Thêm trang",
+    "goToPreviousPage": "Đi đến trang trước",
+    "goToNextPage": "Đi đến trang sau",
+    "morePages": "Nhiều trang hơn",
     "pagination": "Phân trang",
     "breadcrumb": "Đường dẫn",
     "more": "Thêm"
   },
   "sidebar": {
     "title": "Thanh bên",
-    "description": "Truy cập nhanh nghiên cứu của bạn",
+    "description": "Truy cập nhanh trực tiếp tới nghiên cứu",
     "toggle": "Bật/tắt thanh bên"
   },
   "common": {
     "close": "Đóng",
     "remove": "Xóa",
-    "loading": "Đang tải nghiên cứu của bạn...",
-    "opensInNewTab": "mở trong tab mới"
+    "loading": "Đang tải nghiên cứu...",
+    "opensInNewTab": "Mở trong tab mới"
   },
   "languageSwitcher": {
     "label": "Ngôn ngữ",
@@ -62,57 +62,57 @@
   },
   "landing": {
     "hero": {
-      "title": "Nghiên cứu với\nTốc độ của tư duy",
-      "subtitle": "Thí nghiệm bám rễ trong lịch sử. Tri thức bền vững.",
-      "description": "Hạ tầng nhận thức cho nghiên cứu.",
-      "readManifesto": "Đọc Tuyên ngôn",
+      "title": "Nghiên cứu\nvới tốc độ của suy nghĩ",
+      "subtitle": "Một nền tảng nghiên cứu tự suy nghĩ.",
+      "description": "Hạ tầng tăng cường nhận thức cho nghiên cứu tốt hơn.",
+      "readManifesto": "Đọc tuyên ngôn",
       "github": "GitHub"
     },
     "features": {
-      "eyebrow": "Kiến trúc lõi",
-      "heading": "Xây từ gốc, có chủ đích",
+      "eyebrow": "Kiến trúc cốt lõi",
+      "heading": "Khác biệt ngay từ đầu, có chủ đích",
       "dialecticalGraph": {
         "title": "Đồ thị biện chứng",
-        "description": "Luận điểm và quan hệ, không phải tài liệu và liên kết. Mọi phát biểu đều truy về bằng chứng."
+        "description": "Các thực thể nghiên cứu không được nối bằng liên kết đơn giản mà bằng các khẳng định và quan hệ. Mỗi câu có thể được truy vết bằng toán học tới bằng chứng của nó."
       },
       "rebuttalFirst": {
         "title": "Phản biện trước",
-        "description": "Tìm thứ có thể gãy trước khi tìm thứ nâng đỡ. Tri thức vượt qua thử thách."
+        "description": "Không nịnh như các AI khác. Thay vào đó, liên tục tấn công các lỗ hổng."
       },
       "multilingual": {
-        "title": "Đa ngôn ngữ",
-        "description": "Bài báo Hàn. Giả thuyết Đức. Tập dữ liệu Nhật. Một đồ thị nghiên cứu thống nhất."
+        "title": "Đa ngôn ngữ bản địa",
+        "description": "Bài báo tiếng Anh. Giả thuyết tiếng Hàn. Bộ dữ liệu tiếng Nhật. Một đồ thị nghiên cứu thống nhất."
       }
     },
     "pipeline": {
-      "eyebrow": "Cách vận hành",
-      "heading": "Kiến trúc tranh luận đa tác tử",
-      "description": "AI đa tác tử tranh luận nội bộ. Bạn chỉ thấy các lập luận còn trụ vững.",
+      "eyebrow": "Cách hoạt động",
+      "heading": "Kiến trúc tranh luận đa tác nhân",
+      "description": "AI đa tác nhân tranh luận nội bộ. Bạn chỉ thấy các lập luận sống sót đến cuối.",
       "steps": {
-        "propose": "ĐỀ XUẤT",
-        "critique": "PHẢN BIỆN",
-        "rank": "XẾP HẠNG",
-        "refine": "TINH CHỈNH"
+        "propose": "Đề xuất",
+        "critique": "Phê bình",
+        "rank": "Xếp hạng",
+        "refine": "Tinh lọc"
       }
     },
     "forWho": {
       "heading": "Dành cho những nhà nghiên cứu tạo ra kết quả",
       "audiences": {
-        "scientists": "Nhà khoa học vận hành pipeline thí nghiệm",
-        "engineers": "Kỹ sư xây dựng trên các bài báo tiên tiến",
+        "scientists": "Các nhà khoa học vận hành pipeline thí nghiệm",
+        "engineers": "Kỹ sư xây dựng dựa trên các bài báo mới nhất",
         "analysts": "Nhà phân tích tổng hợp tài liệu liên ngành",
-        "teams": "Nhóm cần dấu vết tri thức có thể tái lập"
+        "teams": "Các nhóm cần lộ trình tri thức có thể tái tạo"
       }
     },
     "buildInPublic": {
       "eyebrow": "Minh bạch triệt để",
       "heading": "Chúng tôi xây dựng công khai",
-      "description": "Mọi quyết định kiến trúc, mọi đánh đổi, mọi lựa chọn kỹ thuật được ghi lại và có thể truy cập. Nếu hệ thống tri thức đòi hỏi khả năng truy vết, thì các công cụ tạo ra điều đó cũng cần được xây dựng theo cách tương tự.",
-      "visitHQ": "Khám phá HQ của chúng tôi"
+      "description": "Mọi quyết định kiến trúc, mọi đánh đổi và mọi lựa chọn kỹ thuật đều được ghi chép và lưu lại. Nếu hệ thống tri thức đòi hỏi khả năng truy vết, các công cụ giúp điều đó thành hiện thực cũng nên được xây dựng theo cách tương tự.",
+      "visitHQ": "Ghé thăm HQ của chúng tôi"
     },
     "cta": {
-      "heading": "Encyclopedia Galactica chỉ là hư cấu.\nChúng tôi đang xây dựng hạ tầng.",
-      "readManifesto": "Đọc Tuyên ngôn",
+      "heading": "Bách khoa toàn thư Galactica của Asimov chỉ là hư cấu.\nChúng tôi muốn xây dựng nó thành hiện thực.",
+      "readManifesto": "Đọc tuyên ngôn",
       "github": "GitHub"
     },
     "footer": {

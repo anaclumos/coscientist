@@ -1,29 +1,29 @@
 {
   "metadata": {
-    "title": "Coscientist：Tokens ≠ 知识",
-    "description": "面向研究的认知基础设施。"
+    "title": "Coscientist：Token ≠ 知识",
+    "description": "更好研究的认知增强基础设施。"
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Coscientist 宣言",
-    "joinWaitlist": "加入等待名单",
-    "github": "GitHub（在新标签页打开）",
-    "twitter": "X（Twitter）（在新标签页打开）"
+    "joinWaitlist": "加入候补名单",
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "全部笔记",
     "noteCount": "{count} 条笔记",
-    "currentlyOpen": "当前打开于第 {position} 位"
+    "currentlyOpen": "当前在第 {position} 个打开"
   },
   "notePane": {
-    "expand": "扩展工作区",
+    "expand": "扩展工作空间",
     "expandNote": "探索 {title}",
     "closeNote": "关闭 {title}",
-    "closePane": "关闭第 {index} 个面板",
+    "closePane": "关闭面板 {index}",
     "editOnGitHub": "在 GitHub 上编辑"
   },
   "mobileCarousel": {
-    "goToNote": "前往第 {position} 条笔记：{title}"
+    "goToNote": "跳转到第 {position} 条笔记：{title}"
   },
   "backlinks": {
     "singular": "{count} 条笔记链接到此处",
@@ -33,7 +33,7 @@
     "toggle": "切换主题",
     "light": "浅色",
     "dark": "深色",
-    "system": "跟随系统"
+    "system": "系统"
   },
   "navigation": {
     "previous": "上一页",
@@ -47,13 +47,13 @@
   },
   "sidebar": {
     "title": "侧边栏",
-    "description": "快速访问你的研究",
+    "description": "直达研究的快速入口",
     "toggle": "切换侧边栏"
   },
   "common": {
     "close": "关闭",
     "remove": "移除",
-    "loading": "正在加载你的研究…",
+    "loading": "正在加载研究...",
     "opensInNewTab": "在新标签页打开"
   },
   "languageSwitcher": {
@@ -62,56 +62,56 @@
   },
   "landing": {
     "hero": {
-      "title": "以思维的\n速度研究",
-      "subtitle": "植根历史的实验。经得起时间的知识。",
-      "description": "面向研究的认知基础设施。",
+      "title": "以思考的速度\n研究",
+      "subtitle": "一个会自我思考的研究平台。",
+      "description": "更好研究的认知增强基础设施。",
       "readManifesto": "阅读宣言",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "核心架构",
-      "heading": "从零构建，刻意不同",
+      "heading": "从一开始就不同，刻意为之",
       "dialecticalGraph": {
         "title": "辩证图谱",
-        "description": "主张与关系，而非文档与链接。每一句话都能追溯到证据。"
+        "description": "研究实体不是通过简单链接，而是通过主张与关系相连。每个句子都可以从数学上追溯到其证据。"
       },
       "rebuttalFirst": {
         "title": "先反驳",
-        "description": "先找会崩的，再找支撑的。经得起挑战的知识。"
+        "description": "它不像其他 AI 那样奉承，反而不断攻击漏洞。"
       },
       "multilingual": {
-        "title": "多语言",
-        "description": "韩文论文。德文假设。日文数据集。统一的研究图谱。"
+        "title": "原生多语言",
+        "description": "英文论文。韩文假设。日文数据集。一个统一的研究图谱。"
       }
     },
     "pipeline": {
       "eyebrow": "工作方式",
-      "heading": "多智能体辩论架构",
-      "description": "多智能体 AI 在内部辩论。你看到的是仍然站得住的论点。",
+      "heading": "多代理辩论架构",
+      "description": "多代理 AI 在内部辩论。你只看到坚持到最后的论证。",
       "steps": {
         "propose": "提出",
-        "critique": "质疑",
+        "critique": "批评",
         "rank": "排序",
         "refine": "精炼"
       }
     },
     "forWho": {
-      "heading": "为能交付的研究者打造",
+      "heading": "为产出成果的研究者而生",
       "audiences": {
-        "scientists": "运行实验流水线的科学家",
-        "engineers": "基于前沿论文构建的工程师",
-        "analysts": "整合跨领域文献的分析师",
-        "teams": "需要可复现知识轨迹的团队"
+        "scientists": "运营实验流水线的科学家",
+        "engineers": "基于最新论文构建的工程师",
+        "analysts": "整合跨学科文献的分析师",
+        "teams": "需要可复现知识路径的团队"
       }
     },
     "buildInPublic": {
-      "eyebrow": "激进透明",
+      "eyebrow": "彻底透明",
       "heading": "我们公开构建",
-      "description": "每一次架构决定、每一次权衡、每一次技术选择，都被记录并可访问。如果知识系统应该可追溯，那么支撑它们的工具也应以同样方式构建。",
-      "visitHQ": "探索我们的 HQ"
+      "description": "每一项架构决定、每一次权衡、每一个技术选择都会被记录并文档化。若知识系统要求可追溯性，支撑它的工具也应以同样方式构建。",
+      "visitHQ": "访问我们的 HQ"
     },
     "cta": {
-      "heading": "《百科全书·银河系》只是虚构。\n我们正在构建基础设施。",
+      "heading": "阿西莫夫的《银河百科全书》是虚构的。\n我们要把它建成现实。",
       "readManifesto": "阅读宣言",
       "github": "GitHub"
     },

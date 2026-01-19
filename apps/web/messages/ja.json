@@ -1,36 +1,36 @@
 {
   "metadata": {
     "title": "Coscientist: トークン ≠ 知識",
-    "description": "研究のための認知インフラ。"
+    "description": "より良い研究のための認知拡張インフラ。"
   },
   "header": {
     "brand": "Coscientist",
-    "brandWithManifesto": "Coscientist マニフェスト",
+    "brandWithManifesto": "Coscientist 宣言",
     "joinWaitlist": "ウェイトリストに参加",
-    "github": "GitHub（新しいタブで開く）",
-    "twitter": "X（Twitter）（新しいタブで開く）"
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "すべてのノート",
-    "noteCount": "{count}件のノート",
-    "currentlyOpen": "現在{position}番目で開いています"
+    "noteCount": "ノート {count} 件",
+    "currentlyOpen": "現在 {position} 番目で開いています"
   },
   "notePane": {
     "expand": "ワークスペースを拡張",
-    "expandNote": "{title}を探索",
-    "closeNote": "{title}を閉じる",
-    "closePane": "ペイン{index}を閉じる",
+    "expandNote": "{title} を探索",
+    "closeNote": "{title} を閉じる",
+    "closePane": "パネル {index} を閉じる",
     "editOnGitHub": "GitHubで編集"
   },
   "mobileCarousel": {
-    "goToNote": "{position}番目のノートへ移動: {title}"
+    "goToNote": "{position} 番のノートへ移動: {title}"
   },
   "backlinks": {
-    "singular": "{count}件のノートがここにリンクしています",
-    "plural": "{count}件のノートがここにリンクしています"
+    "singular": "{count} 件のノートがここにリンク",
+    "plural": "{count} 件のノートがここにリンク"
   },
   "theme": {
-    "toggle": "テーマを切り替える",
+    "toggle": "テーマを変更",
     "light": "ライト",
     "dark": "ダーク",
     "system": "システム"
@@ -42,18 +42,18 @@
     "goToNextPage": "次のページへ",
     "morePages": "他のページ",
     "pagination": "ページネーション",
-    "breadcrumb": "パンくずリスト",
+    "breadcrumb": "パンくず",
     "more": "もっと"
   },
   "sidebar": {
     "title": "サイドバー",
-    "description": "研究へのクイックアクセス",
-    "toggle": "サイドバーを切り替える"
+    "description": "研究へ直接アクセス",
+    "toggle": "サイドバーを切り替え"
   },
   "common": {
     "close": "閉じる",
     "remove": "削除",
-    "loading": "研究データを読み込んでいます...",
+    "loading": "研究を読み込み中...",
     "opensInNewTab": "新しいタブで開く"
   },
   "languageSwitcher": {
@@ -62,61 +62,61 @@
   },
   "landing": {
     "hero": {
-      "title": "思考の速度で\n研究を",
-      "subtitle": "歴史に根ざした実験。長く残る知識。",
-      "description": "研究のための認知インフラ。",
-      "readManifesto": "マニフェストを読む",
+      "title": "思考の速度で\n研究する",
+      "subtitle": "自ら思考する研究プラットフォーム。",
+      "description": "より良い研究のための認知拡張インフラ。",
+      "readManifesto": "宣言を読む",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "コアアーキテクチャ",
-      "heading": "ゼロから設計。意図的に違う。",
+      "heading": "最初から違う、意図的に",
       "dialecticalGraph": {
         "title": "弁証法的グラフ",
-        "description": "ドキュメントとリンクではなく、主張と関係。すべての主張は証拠に遡れる。"
+        "description": "研究エンティティは単なるリンクではなく、主張と関係で結ばれる。すべての文は数学的に根拠へとたどれる。"
       },
       "rebuttalFirst": {
-        "title": "反論ファースト",
-        "description": "支持より先に、崩れる点を探す。挑戦に耐える知識。"
+        "title": "反論優先",
+        "description": "他のAIのように媚びない。むしろ欠点を絶えず突く。"
       },
       "multilingual": {
-        "title": "多言語",
-        "description": "韓国語の論文。ドイツ語の仮説。日本語のデータセット。統一された研究グラフ。"
+        "title": "多言語ネイティブ",
+        "description": "英語論文。韓国語の仮説。日本語データセット。ひとつの統合研究グラフ。"
       }
     },
     "pipeline": {
       "eyebrow": "仕組み",
-      "heading": "マルチエージェント議論アーキテクチャ",
-      "description": "マルチエージェントAIが内部で議論。残った論点だけが見える。",
+      "heading": "マルチエージェント討論アーキテクチャ",
+      "description": "マルチエージェントAIが内部で討論する。最後まで残る論証だけを見られる。",
       "steps": {
         "propose": "提案",
-        "critique": "批判",
-        "rank": "順位付け",
-        "refine": "洗練"
+        "critique": "批評",
+        "rank": "ランキング",
+        "refine": "精錬"
       }
     },
     "forWho": {
       "heading": "成果を出す研究者のために",
       "audiences": {
         "scientists": "実験パイプラインを運用する科学者",
-        "engineers": "最先端の論文を基に構築するエンジニア",
+        "engineers": "最新論文を基に構築するエンジニア",
         "analysts": "分野横断の文献を統合するアナリスト",
-        "teams": "再現可能な知識の軌跡が必要なチーム"
+        "teams": "再現可能な知識経路が必要なチーム"
       }
     },
     "buildInPublic": {
-      "eyebrow": "徹底的な透明性",
+      "eyebrow": "徹底した透明性",
       "heading": "私たちは公開で構築する",
-      "description": "すべてのアーキテクチャの決定、すべてのトレードオフ、すべての技術的選択は文書化され、アクセス可能。知識システムがトレーサビリティを求めるなら、それを可能にするツールも同じ姿勢で作るべきだ。",
-      "visitHQ": "本部を探索する"
+      "description": "すべてのアーキテクチャ判断、トレードオフ、技術的選択は文書化され記録される。知識システムが追跡可能性を求めるなら、それを可能にするツールも同じやり方で作るべきだ。",
+      "visitHQ": "私たちのHQを見る"
     },
     "cta": {
-      "heading": "銀河百科事典はフィクション。\n私たちはそのインフラを構築する。",
-      "readManifesto": "マニフェストを読む",
+      "heading": "アシモフの『銀河大百科事典』はフィクションだった。\n私たちはそれを現実に構築しようとしている。",
+      "readManifesto": "宣言を読む",
       "github": "GitHub"
     },
     "footer": {
-      "manifesto": "マニフェスト",
+      "manifesto": "宣言",
       "hq": "HQ",
       "github": "GitHub",
       "copyright": "© {year} Coscientist"

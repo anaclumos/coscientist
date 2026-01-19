@@ -1,22 +1,22 @@
 {
   "metadata": {
-    "title": "Coscientist: Tokens ≠ conocimiento",
-    "description": "Infraestructura cognitiva para investigar mejor."
+    "title": "Coscientist: Tokens ≠ Conocimiento",
+    "description": "Infraestructura de aumento cognitivo para una mejor investigación."
   },
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Manifiesto de Coscientist",
     "joinWaitlist": "Únete a la lista de espera",
-    "github": "GitHub (se abre en una pestaña nueva)",
-    "twitter": "X (Twitter) (se abre en una pestaña nueva)"
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "Todas las notas",
     "noteCount": "{count} notas",
-    "currentlyOpen": "abierta ahora en la posición {position}"
+    "currentlyOpen": "Actualmente abierta en la posición {position}"
   },
   "notePane": {
-    "expand": "Ampliar tu espacio de trabajo",
+    "expand": "Ampliar espacio de trabajo",
     "expandNote": "Explorar {title}",
     "closeNote": "Cerrar {title}",
     "closePane": "Cerrar panel {index}",
@@ -26,7 +26,7 @@
     "goToNote": "Ir a la nota {position}: {title}"
   },
   "backlinks": {
-    "singular": "{count} nota enlaza aquí",
+    "singular": "{count} notas enlazan aquí",
     "plural": "{count} notas enlazan aquí"
   },
   "theme": {
@@ -47,14 +47,14 @@
   },
   "sidebar": {
     "title": "Barra lateral",
-    "description": "Acceso rápido a tu investigación",
+    "description": "Acceso rápido directo a la investigación",
     "toggle": "Alternar barra lateral"
   },
   "common": {
     "close": "Cerrar",
     "remove": "Eliminar",
-    "loading": "Cargando tu investigación...",
-    "opensInNewTab": "se abre en una pestaña nueva"
+    "loading": "Cargando investigación...",
+    "opensInNewTab": "Se abre en una nueva pestaña"
   },
   "languageSwitcher": {
     "label": "Idioma",
@@ -62,57 +62,57 @@
   },
   "landing": {
     "hero": {
-      "title": "Investiga a la\nvelocidad del pensamiento",
-      "subtitle": "Experimentos anclados en la historia. Conocimiento que perdura.",
-      "description": "Infraestructura cognitiva para la investigación.",
-      "readManifesto": "Leer el Manifiesto",
+      "title": "Investigar\na la velocidad del pensamiento",
+      "subtitle": "Una plataforma de investigación que piensa por sí misma.",
+      "description": "Infraestructura de aumento cognitivo para una mejor investigación.",
+      "readManifesto": "Leer el manifiesto",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "Arquitectura central",
-      "heading": "Diseñado desde cero, con intención",
+      "heading": "Diferente desde el inicio, a propósito",
       "dialecticalGraph": {
         "title": "Grafo dialéctico",
-        "description": "Afirmaciones y relaciones, no documentos y enlaces. Cada afirmación se remonta a la evidencia."
+        "description": "Las entidades de investigación no se conectan con enlaces simples, sino con afirmaciones y relaciones. Cada oración puede rastrearse matemáticamente hasta su evidencia."
       },
       "rebuttalFirst": {
         "title": "Refutación primero",
-        "description": "Busca lo que se rompe antes de lo que respalda. Conocimiento que sobrevive al escrutinio."
+        "description": "No adula como otras IA. En cambio, ataca sin descanso los vacíos."
       },
       "multilingual": {
-        "title": "Multilingüe",
-        "description": "Artículos coreanos. Hipótesis alemanas. Conjuntos de datos japoneses. Un grafo de investigación unificado."
+        "title": "Multilingüe nativo",
+        "description": "Artículos en inglés. Hipótesis en coreano. Conjuntos de datos en japonés. Un único grafo de investigación unificado."
       }
     },
     "pipeline": {
       "eyebrow": "Cómo funciona",
       "heading": "Arquitectura de debate multiagente",
-      "description": "La IA multiagente debate internamente. Tú ves los argumentos que sobreviven.",
+      "description": "La IA multiagente debate internamente. Solo ves los argumentos que sobreviven hasta el final.",
       "steps": {
-        "propose": "PROPONER",
-        "critique": "CRITICAR",
-        "rank": "CLASIFICAR",
-        "refine": "REFINAR"
+        "propose": "Proponer",
+        "critique": "Criticar",
+        "rank": "Clasificar",
+        "refine": "Refinar"
       }
     },
     "forWho": {
-      "heading": "Hecho para investigadores que entregan",
+      "heading": "Para investigadores que entregan resultados",
       "audiences": {
-        "scientists": "Científicos que ejecutan pipelines experimentales",
-        "engineers": "Ingenieros que construyen sobre artículos de vanguardia",
-        "analysts": "Analistas que sintetizan literatura multidisciplinaria",
-        "teams": "Equipos que necesitan trazas de conocimiento reproducibles"
+        "scientists": "Científicos que operan canalizaciones experimentales",
+        "engineers": "Ingenieros que construyen sobre los artículos más recientes",
+        "analysts": "Analistas que integran literatura interdisciplinaria",
+        "teams": "Equipos que necesitan rutas de conocimiento reproducibles"
       }
     },
     "buildInPublic": {
       "eyebrow": "Transparencia radical",
       "heading": "Construimos en público",
-      "description": "Cada decisión de arquitectura, cada trade-off, cada elección técnica, documentada y accesible. Si los sistemas de conocimiento exigen trazabilidad, las herramientas que los habilitan deberían construirse igual.",
-      "visitHQ": "Explora nuestro HQ"
+      "description": "Cada decisión arquitectónica, cada trade-off y cada elección técnica se documenta y se registra. Si los sistemas de conocimiento exigen trazabilidad, las herramientas que la permiten deben construirse de la misma manera.",
+      "visitHQ": "Visita nuestro HQ"
     },
     "cta": {
-      "heading": "La Enciclopedia Galáctica era ficción.\nEstamos construyendo la infraestructura.",
-      "readManifesto": "Leer el Manifiesto",
+      "heading": "La Enciclopedia Galáctica de Asimov fue ficción.\nQueremos construirla en la realidad.",
+      "readManifesto": "Leer el manifiesto",
       "github": "GitHub"
     },
     "footer": {

@@ -1,36 +1,36 @@
 {
   "metadata": {
     "title": "Coscientist: Tokens ≠ Wissen",
-    "description": "Kognitive Infrastruktur für bessere Forschung."
+    "description": "Kognitive Augmentationsinfrastruktur für bessere Forschung."
   },
   "header": {
     "brand": "Coscientist",
-    "brandWithManifesto": "Coscientist Manifest",
-    "joinWaitlist": "Auf die Warteliste",
-    "github": "GitHub (öffnet in neuem Tab)",
-    "twitter": "X (Twitter) (öffnet in neuem Tab)"
+    "brandWithManifesto": "Coscientist-Manifest",
+    "joinWaitlist": "Zur Warteliste",
+    "github": "GitHub",
+    "twitter": "Twitter"
   },
   "allNotes": {
     "title": "Alle Notizen",
     "noteCount": "{count} Notizen",
-    "currentlyOpen": "derzeit an Position {position} geöffnet"
+    "currentlyOpen": "Derzeit auf Position {position} geöffnet"
   },
   "notePane": {
     "expand": "Arbeitsbereich erweitern",
     "expandNote": "{title} erkunden",
     "closeNote": "{title} schließen",
-    "closePane": "Paneel {index} schließen",
+    "closePane": "Panel {index} schließen",
     "editOnGitHub": "Auf GitHub bearbeiten"
   },
   "mobileCarousel": {
-    "goToNote": "Zu Notiz {position}: {title}"
+    "goToNote": "Zu Notiz {position} wechseln: {title}"
   },
   "backlinks": {
-    "singular": "{count} Notiz verlinkt hierher",
-    "plural": "{count} Notizen verlinken hierher"
+    "singular": "{count} Notizen verweisen hierher",
+    "plural": "{count} Notizen verweisen hierher"
   },
   "theme": {
-    "toggle": "Theme wechseln",
+    "toggle": "Design wechseln",
     "light": "Hell",
     "dark": "Dunkel",
     "system": "System"
@@ -41,20 +41,20 @@
     "goToPreviousPage": "Zur vorherigen Seite",
     "goToNextPage": "Zur nächsten Seite",
     "morePages": "Weitere Seiten",
-    "pagination": "Seitennavigation",
-    "breadcrumb": "Breadcrumb-Navigation",
+    "pagination": "Paginierung",
+    "breadcrumb": "Navigationspfad",
     "more": "Mehr"
   },
   "sidebar": {
     "title": "Seitenleiste",
-    "description": "Schneller Zugriff auf Ihre Forschung",
-    "toggle": "Seitenleiste ein-/ausblenden"
+    "description": "Schneller Zugriff direkt zur Forschung",
+    "toggle": "Seitenleiste umschalten"
   },
   "common": {
     "close": "Schließen",
     "remove": "Entfernen",
     "loading": "Forschung wird geladen...",
-    "opensInNewTab": "öffnet in einem neuen Tab"
+    "opensInNewTab": "Öffnet in einem neuen Tab"
   },
   "languageSwitcher": {
     "label": "Sprache",
@@ -62,56 +62,56 @@
   },
   "landing": {
     "hero": {
-      "title": "Forschung mit der\nGeschwindigkeit des Denkens",
-      "subtitle": "Experimente, verankert in der Geschichte. Wissen, das bleibt.",
-      "description": "Kognitive Infrastruktur für Forschung.",
+      "title": "Forschen\nmit der Geschwindigkeit des Denkens",
+      "subtitle": "Eine Forschungsplattform, die selbst denkt.",
+      "description": "Kognitive Augmentationsinfrastruktur für bessere Forschung.",
       "readManifesto": "Manifest lesen",
       "github": "GitHub"
     },
     "features": {
       "eyebrow": "Kernarchitektur",
-      "heading": "Von Grund auf anders – mit Absicht",
+      "heading": "Von Anfang an anders, mit Absicht",
       "dialecticalGraph": {
         "title": "Dialektischer Graph",
-        "description": "Aussagen und Beziehungen statt Dokumente und Links. Jede Aussage führt zurück zur Evidenz."
+        "description": "Forschungsentitäten sind nicht durch einfache Links, sondern durch Behauptungen und Beziehungen verbunden. Jeder Satz lässt sich mathematisch auf seine Evidenz zurückführen."
       },
       "rebuttalFirst": {
         "title": "Widerlegung zuerst",
-        "description": "Suche, was bricht, bevor du suchst, was stützt. Wissen, das Prüfungen standhält."
+        "description": "Keine Schmeichelei wie andere AIs. Stattdessen greift sie die Lücken unermüdlich an."
       },
       "multilingual": {
-        "title": "Mehrsprachig",
-        "description": "Koreanische Paper. Deutsche Hypothesen. Japanische Datensätze. Ein einheitlicher Forschungsgraph."
+        "title": "Mehrsprachig nativ",
+        "description": "Englische Papers. Koreanische Hypothesen. Japanische Datensätze. Ein einheitlicher Forschungsgraph."
       }
     },
     "pipeline": {
-      "eyebrow": "So funktioniert’s",
-      "heading": "Multi‑Agenten‑Debattenarchitektur",
-      "description": "Multi‑Agent‑KI debattiert intern. Du siehst die Argumente, die bestehen.",
+      "eyebrow": "So funktioniert es",
+      "heading": "Multi-Agenten-Debattenarchitektur",
+      "description": "Mehrere KI-Agenten debattieren intern. Du siehst nur die Argumente, die bis zum Ende überleben.",
       "steps": {
-        "propose": "VORSCHLAGEN",
-        "critique": "KRITISIEREN",
-        "rank": "RANKEN",
-        "refine": "VERFEINERN"
+        "propose": "Vorschlagen",
+        "critique": "Kritisieren",
+        "rank": "Rang",
+        "refine": "Verfeinern"
       }
     },
     "forWho": {
-      "heading": "Für Forschende, die liefern",
+      "heading": "Für Forschende, die Ergebnisse liefern",
       "audiences": {
-        "scientists": "Wissenschaftler:innen mit experimentellen Pipelines",
-        "engineers": "Ingenieur:innen, die auf Top‑Papern aufbauen",
-        "analysts": "Analyst:innen, die fachübergreifende Literatur synthetisieren",
-        "teams": "Teams, die reproduzierbare Wissensspuren brauchen"
+        "scientists": "Wissenschaftler, die experimentelle Pipelines betreiben",
+        "engineers": "Ingenieure, die auf den neuesten Papers aufbauen",
+        "analysts": "Analysten, die fachübergreifende Literatur integrieren",
+        "teams": "Teams, die reproduzierbare Wissenspfade brauchen"
       }
     },
     "buildInPublic": {
       "eyebrow": "Radikale Transparenz",
       "heading": "Wir bauen öffentlich",
-      "description": "Jede Architekturentscheidung, jeder Trade‑off, jede technische Wahl ist dokumentiert und zugänglich. Wenn Wissenssysteme Nachvollziehbarkeit verlangen, sollten die Werkzeuge, die sie ermöglichen, genauso gebaut werden.",
-      "visitHQ": "Unser HQ erkunden"
+      "description": "Jede Architekturentscheidung, jeder Trade-off und jede technische Wahl wird dokumentiert und festgehalten. Wenn Wissenssysteme Nachvollziehbarkeit verlangen, sollten die Werkzeuge, die das ermöglichen, genauso gebaut sein.",
+      "visitHQ": "Unsere HQ besuchen"
     },
     "cta": {
-      "heading": "Die Encyclopedia Galactica war Fiktion.\nWir bauen die Infrastruktur.",
+      "heading": "Asimovs Enzyklopädie Galactica war Fiktion.\nWir wollen sie in die Realität bauen.",
       "readManifesto": "Manifest lesen",
       "github": "GitHub"
     },
