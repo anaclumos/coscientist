@@ -13,13 +13,13 @@ import { PaneOrchestrator } from "./pane-orchestrator"
 interface NotesPageClientProps {
   rootSlug: string
   noteSummaries: NoteSummary[]
-  initialPanesData: NotePaneData[]
+  allNotesData: NotePaneData[]
 }
 
 function NotesContent({
   rootSlug,
   noteSummaries,
-  initialPanesData,
+  allNotesData,
 }: NotesPageClientProps) {
   const scrollToPaneRef = useRef<((index: number) => void) | null>(null)
   const setScrollToPaneHandler = usePaneUIStore(
@@ -43,14 +43,14 @@ function NotesContent({
 
   return (
     <NoteStackProvider rootSlug={rootSlug}>
-      <KeyboardHandler initialPanesLength={initialPanesData.length} />
+      <KeyboardHandler initialPanesLength={1} />
       <NotePreviewProvider summariesMap={summariesMap}>
         <PaneContainer
-          initialPanesData={initialPanesData}
+          allNotesData={allNotesData}
           scrollToPaneRef={scrollToPaneRef}
         >
           <PaneOrchestrator
-            initialPanesData={initialPanesData}
+            allNotesData={allNotesData}
             noteSummaries={noteSummaries}
           />
         </PaneContainer>

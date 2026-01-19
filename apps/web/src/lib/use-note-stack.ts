@@ -14,6 +14,7 @@ import {
 export function useNoteStack(rootSlug: string) {
   const router = useRouter()
   const [urlState, setUrlState] = useQueryStates(noteStackParsers, {
+    history: "replace",
     shallow: false,
     clearOnDefault: true,
   })

@@ -5,11 +5,21 @@ import type { NotePaneData } from "@/lib/types"
 import { useNoteStackContext } from "./note-stack-provider"
 
 interface MobileOrchestratorProps {
-  initialPanesData: NotePaneData[]
+  allNotesData: NotePaneData[]
 }
 
-export function useMobileData({ initialPanesData }: MobileOrchestratorProps) {
+export function useMobileData({ allNotesData }: MobileOrchestratorProps) {
   const { stack, pushNote, setStack } = useNoteStackContext()
+
+  const panesData = useMemo(() => {
+    const paneDataMap = new Map<string, NotePaneData>()
+    for (const pane of allNotesData) {
+      paneDataMap.set(pane.slug, pane)
+    }
+    return stack
+      .map((slug) => paneDataMap.get(slug))
+      .filter((pane): pane is NotePaneData => pane !== undefined)
+  }, [stack, allNotesData])
 
   const handleLinkClick = useCallback(
     (slug: string, fromPaneIndex: number) => {
@@ -32,10 +42,10 @@ export function useMobileData({ initialPanesData }: MobileOrchestratorProps) {
 
   return useMemo(
     () => ({
-      panes: initialPanesData,
+      panes: panesData,
       onLinkClick: handleLinkClick,
       onClose: handleClosePane,
     }),
-    [initialPanesData, handleLinkClick, handleClosePane]
+    [panesData, handleLinkClick, handleClosePane]
   )
 }

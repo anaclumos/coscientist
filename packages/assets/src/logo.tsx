@@ -25,7 +25,7 @@ export function Logo({ className, size = 20, style }: LogoProps) {
       width={size}
       xmlns="http://www.w3.org/2000/svg"
     >
-      <rect fill="currentColor" height="32" width="32" />
+      <rect fill="#000" height="32" width="32" />
       <rect
         fill="var(--logo-bar-color, #fff)"
         fillOpacity="1"

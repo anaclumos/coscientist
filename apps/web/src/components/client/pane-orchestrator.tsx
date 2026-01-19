@@ -1,7 +1,7 @@
 "use client"
 
 import { AnimatePresence, LayoutGroup } from "motion/react"
-import { memo, useCallback } from "react"
+import { memo, useCallback, useMemo } from "react"
 import { AllNotesList } from "@/components/notes-list/all-notes-list"
 import { NotePane } from "@/components/pane/note-pane"
 import { useSetKeyboardFocusIndex } from "@/lib/stores/pane-ui-store"
@@ -9,16 +9,27 @@ import type { NotePaneData, NoteSummary } from "@/lib/types"
 import { useNoteStackContext } from "./note-stack-provider"
 
 interface PaneOrchestratorProps {
-  initialPanesData: NotePaneData[]
+  allNotesData: NotePaneData[]
   noteSummaries: NoteSummary[]
 }
 
 export const PaneOrchestrator = memo(function PaneOrchestrator({
-  initialPanesData,
+  allNotesData,
   noteSummaries,
 }: PaneOrchestratorProps) {
   const { stack, pushNote, focusPane, setStack } = useNoteStackContext()
   const setKeyboardFocusIndex = useSetKeyboardFocusIndex()
+
+  const panesData = useMemo(() => {
+    const paneDataMap = new Map<string, NotePaneData>()
+    for (const pane of allNotesData) {
+      paneDataMap.set(pane.slug, pane)
+    }
+
+    return stack
+      .map((slug) => paneDataMap.get(slug))
+      .filter((pane): pane is NotePaneData => pane !== undefined)
+  }, [stack, allNotesData])
 
   const handleLinkClick = useCallback(
     (slug: string, fromPaneIndex: number) => {
@@ -59,7 +70,7 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
   return (
     <LayoutGroup>
       <AnimatePresence initial={false} mode="popLayout">
-        {initialPanesData.map((pane, index) => (
+        {panesData.map((pane, index) => (
           <NotePane
             backlinks={pane.backlinks}
             contentHtml={pane.contentHtml}
@@ -76,7 +87,7 @@ export const PaneOrchestrator = memo(function PaneOrchestrator({
         ))}
         <AllNotesList
           currentStack={stack}
-          index={initialPanesData.length}
+          index={panesData.length}
           key="all-notes-list"
           notes={noteSummaries}
           onExpand={handleExpandPane}

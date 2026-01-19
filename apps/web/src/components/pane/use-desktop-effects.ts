@@ -58,23 +58,3 @@ export function useScrollListener(
     return () => container.removeEventListener("scroll", updateCollapsedIndices)
   }, [containerRef, updateCollapsedIndices])
 }
-
-export function useFocusScroll(
-  focusIndex: number,
-  paneRefsMap: React.MutableRefObject<Map<number, HTMLElement>>
-) {
-  useEffect(() => {
-    const targetPane = paneRefsMap.current.get(focusIndex)
-    if (targetPane) {
-      targetPane.scrollIntoView({
-        behavior:
-          typeof window !== "undefined" &&
-          window.matchMedia("(prefers-reduced-motion: reduce)").matches
-            ? "auto"
-            : "smooth",
-        block: "nearest",
-        inline: "start",
-      })
-    }
-  }, [focusIndex, paneRefsMap])
-}

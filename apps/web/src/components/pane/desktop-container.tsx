@@ -5,11 +5,7 @@ import { cn } from "@/lib/utils"
 import { useCollapseDetection } from "./collapse-detector"
 import { PaneCollapseContext } from "./pane-collapse-context"
 import { useScrollManager } from "./scroll-manager"
-import {
-  useFocusScroll,
-  useResizeObserver,
-  useScrollListener,
-} from "./use-desktop-effects"
+import { useResizeObserver, useScrollListener } from "./use-desktop-effects"
 
 interface DesktopContainerProps {
   children: ReactNode
@@ -23,8 +19,10 @@ export function DesktopContainer({
   scrollToPaneRef,
 }: DesktopContainerProps) {
   const containerRef = useRef<HTMLDivElement>(null)
-  const { registerPaneRef, scrollToPane, paneRefsMap } =
-    useScrollManager(scrollToPaneRef)
+  const { registerPaneRef, scrollToPane } = useScrollManager(
+    focusIndex,
+    scrollToPaneRef
+  )
   const { collapsedIndices, updateCollapseThreshold, updateCollapsedIndices } =
     useCollapseDetection(containerRef, false)
 
@@ -34,7 +32,6 @@ export function DesktopContainer({
     updateCollapsedIndices
   )
   useScrollListener(containerRef, updateCollapsedIndices)
-  useFocusScroll(focusIndex, paneRefsMap)
 
   const contextValue = useMemo(
     () => ({ collapsedIndices, registerPaneRef, scrollToPane }),

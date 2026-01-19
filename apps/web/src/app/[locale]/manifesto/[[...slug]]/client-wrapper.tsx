@@ -17,8 +17,7 @@ export async function ClientWrapper({
   noteGraphPromise,
   rootSlug,
   locale,
-  searchParams,
-}: ClientWrapperProps) {
+}: Omit<ClientWrapperProps, "searchParams">) {
   const { notes, backlinks } = await noteGraphPromise
 
   const rootNote = notes.get(rootSlug)
@@ -26,28 +25,15 @@ export async function ClientWrapper({
     notFound()
   }
 
-  const stackParam =
-    typeof searchParams.stack === "string" ? searchParams.stack : ""
-  const additionalSlugs = parseStackString(stackParam)
-  const stack = buildFullStack(rootSlug, additionalSlugs)
-
-  const initialPanesData: NotePaneData[] = []
-  for (const slug of stack) {
-    const note = notes.get(slug)
-    if (note) {
-      initialPanesData.push({
-        slug: note.slug,
-        title: note.title,
-        description: note.description,
-        contentHtml: note.contentHtml,
-        backlinks: backlinks.get(slug) || [],
-      })
-    }
-  }
-
-  if (initialPanesData.length === 0) {
-    notFound()
-  }
+  const allNotesData: NotePaneData[] = Array.from(notes.values()).map(
+    (note) => ({
+      slug: note.slug,
+      title: note.title,
+      description: note.description,
+      contentHtml: note.contentHtml,
+      backlinks: backlinks.get(note.slug) || [],
+    })
+  )
 
   const noteSummaries: NoteSummary[] = Array.from(notes.values()).map(
     (note) => ({
@@ -60,7 +46,7 @@ export async function ClientWrapper({
 
   return (
     <NotesPageClient
-      initialPanesData={initialPanesData}
+      allNotesData={allNotesData}
       noteSummaries={noteSummaries}
       rootSlug={rootSlug}
     />

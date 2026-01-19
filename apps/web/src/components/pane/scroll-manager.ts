@@ -1,9 +1,12 @@
 import { useCallback, useEffect, useRef } from "react"
 
 export function useScrollManager(
+  focusIndex: number,
   scrollToPaneRef?: React.MutableRefObject<((index: number) => void) | null>
 ) {
   const paneRefsMap = useRef<Map<number, HTMLElement>>(new Map())
+  const focusIndexRef = useRef(focusIndex)
+  focusIndexRef.current = focusIndex
 
   const getScrollBehavior = useCallback(() => {
     if (typeof window === "undefined") {
@@ -14,15 +17,31 @@ export function useScrollManager(
       : "smooth"
   }, [])
 
+  const scrollPaneIntoViewIfFocused = useCallback(
+    (index: number, element: HTMLElement) => {
+      if (index === focusIndexRef.current) {
+        requestAnimationFrame(() => {
+          element.scrollIntoView({
+            behavior: getScrollBehavior(),
+            block: "nearest",
+            inline: "center",
+          })
+        })
+      }
+    },
+    [getScrollBehavior]
+  )
+
   const registerPaneRef = useCallback(
     (index: number, element: HTMLElement | null) => {
       if (element) {
         paneRefsMap.current.set(index, element)
+        scrollPaneIntoViewIfFocused(index, element)
       } else {
         paneRefsMap.current.delete(index)
       }
     },
-    []
+    [scrollPaneIntoViewIfFocused]
   )
 
   const scrollToPane = useCallback(
@@ -32,7 +51,7 @@ export function useScrollManager(
         targetPane.scrollIntoView({
           behavior: getScrollBehavior(),
           block: "nearest",
-          inline: "start",
+          inline: "center",
         })
         targetPane.focus()
       }
