@@ -66,6 +66,7 @@
       "subtitle": "Platform Riset yang Berpikir Sendiri.",
       "description": "Infrastruktur Augmentasi Kognitif untuk Riset yang Lebih Baik.",
       "readManifesto": "Baca Manifesto",
+      "emailPlaceholder": "Masukkan email Anda",
       "github": "GitHub"
     },
     "features": {

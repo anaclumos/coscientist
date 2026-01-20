@@ -66,6 +66,7 @@
       "subtitle": "Une Plateforme de Recherche qui Pense par Elle‑Même.",
       "description": "Infrastructure d’Augmentation Cognitive pour une Meilleure Recherche.",
       "readManifesto": "Lire le Manifeste",
+      "emailPlaceholder": "Entrez votre email",
       "github": "GitHub"
     },
     "features": {

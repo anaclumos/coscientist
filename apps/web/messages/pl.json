@@ -66,6 +66,7 @@
       "subtitle": "Platforma Badawcza, Która Myśli Sama.",
       "description": "Infrastruktura Wzmocnienia Poznawczego dla Lepszych Badań.",
       "readManifesto": "Przeczytaj Manifest",
+      "emailPlaceholder": "Wpisz swój email",
       "github": "GitHub"
     },
     "features": {

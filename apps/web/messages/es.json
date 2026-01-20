@@ -66,6 +66,7 @@
       "subtitle": "Una Plataforma de Investigación que Piensa por Sí Misma.",
       "description": "Infraestructura de Aumento Cognitivo para una Mejor Investigación.",
       "readManifesto": "Leer el Manifiesto",
+      "emailPlaceholder": "Ingresa tu correo",
       "github": "GitHub"
     },
     "features": {

@@ -66,6 +66,7 @@
       "subtitle": "Een Onderzoeksplatform dat Zelf Denkt.",
       "description": "Cognitieve Augmentatie‑Infrastructuur voor Beter Onderzoek.",
       "readManifesto": "Lees het Manifest",
+      "emailPlaceholder": "Voer uw e-mail in",
       "github": "GitHub"
     },
     "features": {

@@ -66,6 +66,7 @@
       "subtitle": "A Research Platform That Thinks for Itself.",
       "description": "Cognitive Augmentation Infrastructure for Better Research.",
       "readManifesto": "Read the Manifesto",
+      "emailPlaceholder": "Enter your email",
       "github": "GitHub"
     },
     "features": {

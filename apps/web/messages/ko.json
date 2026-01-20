@@ -66,6 +66,7 @@
       "subtitle": "스스로 사유하는 연구 플랫폼.",
       "description": "더 나은 연구를 위한 두뇌 증강 인프라.",
       "readManifesto": "선언문 읽기",
+      "emailPlaceholder": "이메일 입력",
       "github": "GitHub"
     },
     "features": {

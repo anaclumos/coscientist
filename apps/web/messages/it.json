@@ -66,6 +66,7 @@
       "subtitle": "Una Piattaforma di Ricerca che Pensa da Sola.",
       "description": "Infrastruttura di Potenziamento Cognitivo per una Ricerca Migliore.",
       "readManifesto": "Leggi il Manifesto",
+      "emailPlaceholder": "Inserisci la tua email",
       "github": "GitHub"
     },
     "features": {

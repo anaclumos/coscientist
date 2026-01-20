@@ -66,6 +66,7 @@
       "subtitle": "自ら思考する研究プラットフォーム。",
       "description": "より良い研究のための認知拡張インフラ。",
       "readManifesto": "宣言を読む",
+      "emailPlaceholder": "メールアドレスを入力",
       "github": "GitHub"
     },
     "features": {

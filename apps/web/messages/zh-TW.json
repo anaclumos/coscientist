@@ -66,6 +66,7 @@
       "subtitle": "一個會自行思考的研究平台。",
       "description": "更好研究的認知增強基礎設施。",
       "readManifesto": "閱讀宣言",
+      "emailPlaceholder": "輸入您的電子郵件",
       "github": "GitHub"
     },
     "features": {

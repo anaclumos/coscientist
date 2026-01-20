@@ -66,6 +66,7 @@
       "subtitle": "Eine Forschungsplattform, Die Selbst Denkt.",
       "description": "Kognitive Augmentationsinfrastruktur für Bessere Forschung.",
       "readManifesto": "Manifest Lesen",
+      "emailPlaceholder": "E-Mail eingeben",
       "github": "GitHub"
     },
     "features": {

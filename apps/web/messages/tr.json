@@ -66,6 +66,7 @@
       "subtitle": "Kendi Kendine Düşünen Bir Araştırma Platformu.",
       "description": "Daha İyi Araştırma İçin Bilişsel Güçlendirme Altyapısı.",
       "readManifesto": "Manifestoyu Oku",
+      "emailPlaceholder": "E-postanızı girin",
       "github": "GitHub"
     },
     "features": {

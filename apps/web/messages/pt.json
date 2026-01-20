@@ -66,6 +66,7 @@
       "subtitle": "Uma Plataforma de Pesquisa que Pensa por Si.",
       "description": "Infraestrutura de Aumento Cognitivo para uma Pesquisa Melhor.",
       "readManifesto": "Ler o Manifesto",
+      "emailPlaceholder": "Digite seu email",
       "github": "GitHub"
     },
     "features": {
