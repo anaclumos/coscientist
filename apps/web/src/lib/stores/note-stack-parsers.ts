@@ -2,12 +2,8 @@
 
 import { createParser, parseAsInteger } from "nuqs"
 import {
-  buildFullStack,
-  getFocusIndex,
-  parseStackString,
-  popFromStack,
-  pushToStack,
-  serializeStackArray,
+  parseStackString as parseStack,
+  serializeStackArray as serializeStack,
 } from "./stack-utils"
 
 export {
@@ -17,7 +13,10 @@ export {
   popFromStack,
   pushToStack,
   serializeStackArray,
-}
+} from "./stack-utils"
+
+const parseStackString = parseStack
+const serializeStackArray = serializeStack
 
 export const stackParser = createParser({
   parse: parseStackString,

@@ -21,8 +21,7 @@ export const suggestEdgeTool = createTool({
       .string()
       .describe("Type of the target block (text, heading, list, document)"),
   }),
-  // biome-ignore lint/suspicious/useAwait: Mastra interface requires async even without await
-  execute: async (inputData) => {
+  execute: (inputData) => {
     const { sourceContent, sourceType, targetType } = inputData
 
     let suggestedType: "contains" | "supports" | "refutes" | "references" =
@@ -66,10 +65,10 @@ export const suggestEdgeTool = createTool({
       reasoning = "Source content contains referential language"
     }
 
-    return {
+    return Promise.resolve({
       suggestedType,
       confidence,
       reasoning,
-    }
+    })
   },
 })

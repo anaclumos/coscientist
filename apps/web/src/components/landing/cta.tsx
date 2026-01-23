@@ -36,8 +36,7 @@ export function CTA() {
               {t("heading")
                 .split("\n")
                 .map((line, index, arr) => (
-                  // biome-ignore lint/suspicious/noArrayIndexKey: Static translated text with stable order
-                  <span key={index}>
+                  <span key={`heading-${line.slice(0, 20)}`}>
                     {line}
                     {index < arr.length - 1 && <br />}
                   </span>
@@ -63,8 +62,9 @@ export function CTA() {
             </Button>
             <Button
               render={
-                // biome-ignore lint/a11y/useAnchorContent: Content provided via Button children
+                // biome-ignore lint/a11y/useAnchorContent: Content provided by Button children
                 <a
+                  aria-label={t("github")}
                   href="https://github.com/coscientist/coscientist"
                   rel="noopener noreferrer"
                   target="_blank"

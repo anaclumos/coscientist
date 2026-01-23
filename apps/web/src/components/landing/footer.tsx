@@ -41,8 +41,9 @@ export function Footer() {
                     <Button
                       className="h-auto p-0 text-muted-foreground"
                       render={
-                        // biome-ignore lint/a11y/useAnchorContent: Content provided via Button children
+                        // biome-ignore lint/a11y/useAnchorContent: Content provided by Button children
                         <a
+                          aria-label={link.label}
                           href={link.href}
                           rel="noopener noreferrer"
                           target="_blank"

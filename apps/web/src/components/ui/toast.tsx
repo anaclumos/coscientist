@@ -31,6 +31,22 @@ type ToastPosition =
   | "bottom-center"
   | "bottom-right"
 
+type SwipeDirection = "up" | "down" | "left" | "right"
+
+function getSwipeDirections(
+  position: ToastPosition,
+  isTop: boolean
+): SwipeDirection[] {
+  const vertical: SwipeDirection = isTop ? "up" : "down"
+  if (position.includes("center")) {
+    return [vertical]
+  }
+  if (position.includes("left")) {
+    return ["left", vertical]
+  }
+  return ["right", vertical]
+}
+
 interface ToastProviderProps extends Toast.Provider.Props {
   position?: ToastPosition
 }
@@ -118,13 +134,7 @@ function Toasts({ position = "bottom-right" }: { position: ToastPosition }) {
               )}
               data-position={position}
               key={toast.id}
-              swipeDirection={
-                position.includes("center")
-                  ? [isTop ? "up" : "down"]
-                  : position.includes("left")
-                    ? ["left", isTop ? "up" : "down"]
-                    : ["right", isTop ? "up" : "down"]
-              }
+              swipeDirection={getSwipeDirections(position, isTop)}
               toast={toast}
             >
               <Toast.Content className="pointer-events-auto flex items-center justify-between gap-1.5 overflow-hidden px-3.5 py-3 text-sm transition-opacity duration-250 data-behind:pointer-events-none data-behind:opacity-0 data-expanded:opacity-100">

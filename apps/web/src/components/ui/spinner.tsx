@@ -11,6 +11,13 @@ const sizeClasses = {
   xl: "size-8",
 } as const
 
+const sizeValues: Record<keyof typeof sizeClasses, number> = {
+  sm: 16,
+  default: 20,
+  lg: 24,
+  xl: 32,
+}
+
 function Spinner({
   className,
   size = "default",
@@ -18,8 +25,7 @@ function Spinner({
 }: Omit<React.ComponentProps<typeof HugeiconsIcon>, "icon" | "size"> & {
   size?: keyof typeof sizeClasses
 }) {
-  const resolvedSize =
-    size === "sm" ? 16 : size === "lg" ? 24 : size === "xl" ? 32 : 20
+  const resolvedSize = sizeValues[size]
 
   return (
     <HugeiconsIcon

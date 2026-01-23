@@ -13,9 +13,9 @@ import ReactFlow, {
 } from "reactflow"
 import "reactflow/dist/style.css"
 import { useQuery } from "convex/react"
+import { api } from "@/convex/_generated/api"
+import type { Doc, Id } from "@/convex/_generated/dataModel"
 import { useReducedMotion } from "@/hooks/use-reduced-motion"
-import { api } from "../../../convex/_generated/api"
-import type { Doc, Id } from "../../../convex/_generated/dataModel"
 
 type BlockType = "text" | "heading" | "list" | "document"
 type EdgeType = "contains" | "supports" | "refutes" | "references"
@@ -41,16 +41,48 @@ const NODE_STYLES: Record<BlockType, string> = {
   list: "border border-border bg-card/50 rounded min-w-[150px]",
 }
 
-const CustomNode = ({ data, type }: NodeProps) => {
+function extractLabel(block: Doc<"blocks">): string {
+  if (block.type === "document" || block.type === "heading") {
+    if (typeof block.content === "object" && block.content?.title) {
+      return block.content.title
+    }
+    if (typeof block.content === "string") {
+      return block.content
+    }
+  } else if (typeof block.content === "string") {
+    return block.content
+  }
+  return "Block"
+}
+
+function calculateNodePosition(
+  index: number,
+  isRoot: boolean,
+  rootX: number,
+  rootY: number,
+  startX: number,
+  childSpacingX: number,
+  childSpacingY: number
+): { x: number; y: number } {
+  if (isRoot) {
+    return { x: rootX, y: rootY }
+  }
+  const childIndex = index - 1
+  return {
+    x: startX + childIndex * childSpacingX,
+    y: rootY + childSpacingY + (childIndex % 2) * 50,
+  }
+}
+
+const CustomNode = ({ data }: NodeProps) => {
   const blockType = data.type as BlockType
   const label = data.label
   const content = data.content
 
   return (
-    <div
+    <article
       aria-label={`${blockType} node: ${label || "Untitled Block"}`}
       className={`px-4 py-3 ${NODE_STYLES[blockType] || NODE_STYLES.text}`}
-      role="article"
     >
       <Handle
         aria-label="Connection point (top)"
@@ -79,7 +111,7 @@ const CustomNode = ({ data, type }: NodeProps) => {
         position={Position.Bottom}
         type="source"
       />
-    </div>
+    </article>
   )
 }
 
@@ -118,26 +150,16 @@ export function KnowledgeGraph({
 
     const flowNodes: Node[] = allBlocks.map((block, index) => {
       const isRoot = block._id === documentId
-
-      let position = { x: rootX, y: rootY }
-      if (!isRoot) {
-        const childIndex = index - 1
-        position = {
-          x: startX + childIndex * childSpacingX,
-          y: rootY + childSpacingY + (childIndex % 2) * 50,
-        }
-      }
-
-      let label = "Block"
-      if (block.type === "document" || block.type === "heading") {
-        if (typeof block.content === "object" && block.content?.title) {
-          label = block.content.title
-        } else if (typeof block.content === "string") {
-          label = block.content
-        }
-      } else if (typeof block.content === "string") {
-        label = block.content
-      }
+      const position = calculateNodePosition(
+        index,
+        isRoot,
+        rootX,
+        rootY,
+        startX,
+        childSpacingX,
+        childSpacingY
+      )
+      const label = extractLabel(block)
 
       return {
         id: block._id,
@@ -208,10 +230,9 @@ export function KnowledgeGraph({
   }
 
   return (
-    <div
+    <section
       aria-label="Knowledge graph visualization"
       className={`h-[600px] w-full overflow-hidden rounded-xl border border-border bg-background/50 ${className}`}
-      role="region"
     >
       <ReactFlow
         attributionPosition="bottom-right"
@@ -231,6 +252,6 @@ export function KnowledgeGraph({
         />
         <Controls className="!bg-background !border-border !shadow-sm [&>button]:!border-border [&>button]:!text-foreground hover:[&>button]:!bg-muted [&>button]:focus-visible:ring-1 [&>button]:focus-visible:ring-primary/20 [&>button]:focus-visible:ring-inset" />
       </ReactFlow>
-    </div>
+    </section>
   )
 }

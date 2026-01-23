@@ -170,11 +170,9 @@ export function CollaborativeEditor({ documentId }: CollaborativeEditorProps) {
       <div className="absolute top-2 right-2 z-10 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
         <StatusIndicator status={status} />
       </div>
-      {/* biome-ignore lint/a11y/noNoninteractiveTabindex: ProseMirror mount point handles its own focus */}
       <div
         className="prose dark:prose-invert min-h-[200px] max-w-none rounded-md border p-4 outline-none transition-all focus-within:border-primary/50 focus-within:ring-1 focus-within:ring-primary/20"
         ref={editorRef}
-        tabIndex={0}
       />
     </div>
   )

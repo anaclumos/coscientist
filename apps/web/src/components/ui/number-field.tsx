@@ -3,7 +3,6 @@
 import { NumberField as NumberFieldPrimitive } from "@base-ui/react/number-field"
 import { MinusSignIcon, PlusSignIcon } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
-// biome-ignore lint/performance/noNamespaceImport: React namespace import is idiomatic for UI components
 import * as React from "react"
 import { Label } from "@/components/ui/label"
 import { cn } from "@/lib/utils"
@@ -138,6 +137,7 @@ function NumberFieldScrubArea({
 function CursorGrowIcon(props: React.ComponentProps<"svg">) {
   return (
     <svg
+      aria-hidden="true"
       fill="black"
       height="14"
       stroke="white"

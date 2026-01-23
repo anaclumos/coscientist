@@ -5,10 +5,17 @@ import type { Id } from "@/convex/_generated/dataModel"
 
 const HEARTBEAT_INTERVAL_MS = 5000
 
+interface CursorPosition {
+  blockId?: string
+  offset?: number
+  anchor?: number
+  head?: number
+}
+
 interface UsePresenceOptions {
   documentId: Id<"blocks">
   status?: "editing" | "online" | "idle"
-  cursorPos?: any
+  cursorPos?: CursorPosition | null
   enabled?: boolean
 }
 

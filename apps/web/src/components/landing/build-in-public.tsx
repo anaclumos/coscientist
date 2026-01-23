@@ -62,8 +62,13 @@ export function BuildInPublic() {
         >
           <Button
             render={
-              // biome-ignore lint/a11y/useAnchorContent: Content provided via Button children
-              <a href={hqHref} rel="noopener noreferrer" target="_blank" />
+              // biome-ignore lint/a11y/useAnchorContent: Content provided by Button children
+              <a
+                aria-label={t("visitHQ")}
+                href={hqHref}
+                rel="noopener noreferrer"
+                target="_blank"
+              />
             }
             size="lg"
             variant="outline"

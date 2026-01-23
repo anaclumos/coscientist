@@ -19,11 +19,11 @@ import {
   SelectTrigger,
 } from "@/components/ui/select"
 import { Textarea } from "@/components/ui/textarea"
+import { api } from "@/convex/_generated/api"
+import type { Doc, Id } from "@/convex/_generated/dataModel"
 import { useReducedMotion } from "@/hooks/use-reduced-motion"
 import { springSubtle } from "@/lib/animations"
 import { cn } from "@/lib/utils"
-import { api } from "../../../convex/_generated/api"
-import type { Id } from "../../../convex/_generated/dataModel"
 
 type BlockType = "text" | "heading" | "list" | "document"
 
@@ -132,7 +132,7 @@ export function BlockEditor({
 }
 
 interface BlockItemProps {
-  block: any
+  block: Doc<"blocks">
 }
 
 function BlockItem({ block }: BlockItemProps) {
@@ -161,7 +161,10 @@ function BlockItem({ block }: BlockItemProps) {
     await deleteBlock({ blockId: block._id })
   }
 
-  const handleTypeChange = async (newType: string) => {
+  const handleTypeChange = async (newType: string | null) => {
+    if (!newType) {
+      return
+    }
     await updateBlock({
       blockId: block._id,
       type: newType as BlockType,

@@ -14,5 +14,13 @@
     "formatter": {
       "semicolons": "asNeeded"
     }
+  },
+  "linter": {
+    "rules": {
+      "performance": {
+        "noBarrelFile": "off",
+        "noNamespaceImport": "off"
+      }
+    }
   }
 }

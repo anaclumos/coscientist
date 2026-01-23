@@ -46,8 +46,7 @@ export function HeroTitle() {
           {t("title")
             .split("\n")
             .map((line, index) => (
-              // biome-ignore lint/suspicious/noArrayIndexKey: Static translated text with stable order
-              <span key={index}>
+              <span key={`title-${line.slice(0, 20)}`}>
                 {line}
                 {index === 0 && <br />}
               </span>

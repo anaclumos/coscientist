@@ -22,11 +22,14 @@ const ExcerptWithBold = memo(function ExcerptWithBold({
     <>
       {parts.map((part, i) =>
         part.startsWith("**") && part.endsWith("**") ? (
-          <strong className="font-medium text-foreground" key={`${part}-${i}`}>
+          <strong
+            className="font-medium text-foreground"
+            key={`bold-${i}-${part.slice(2, 12)}`}
+          >
             {part.slice(2, -2)}
           </strong>
         ) : (
-          <span key={`${part}-${i}`}>{part}</span>
+          <span key={`text-${i}-${part.slice(0, 10)}`}>{part}</span>
         )
       )}
     </>

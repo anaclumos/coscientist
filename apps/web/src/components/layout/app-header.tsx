@@ -242,7 +242,9 @@ export function AppHeader({
                 <Button
                   className="h-12 w-full justify-start gap-2 px-2 font-normal text-base"
                   render={
+                    // biome-ignore lint/a11y/useAnchorContent: Content provided by Button children
                     <a
+                      aria-label={githubLabel}
                       href="https://github.com/coscientist/coscientist"
                       rel="noopener noreferrer"
                       target="_blank"

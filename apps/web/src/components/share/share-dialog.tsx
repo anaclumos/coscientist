@@ -106,6 +106,16 @@ export function ShareDialog({ blockId, trigger }: ShareDialogProps) {
   const allUsers = [...new Set([...access.readers, ...access.writers])]
   const isOwner = (userId: string) => userId === block.createdBy
 
+  const getRoleLabel = (userId: string): string => {
+    if (isOwner(userId)) {
+      return "Owner"
+    }
+    if (access.writers.includes(userId)) {
+      return "Writer"
+    }
+    return "Reader"
+  }
+
   return (
     <Dialog onOpenChange={setOpen} open={open}>
       {trigger ? (
@@ -186,11 +196,7 @@ export function ShareDialog({ blockId, trigger }: ShareDialogProps) {
                       <div className="flex flex-col">
                         <span className="font-mono text-sm">{userId}</span>
                         <span className="text-muted-foreground text-xs">
-                          {isOwner(userId)
-                            ? "Owner"
-                            : access.writers.includes(userId)
-                              ? "Writer"
-                              : "Reader"}
+                          {getRoleLabel(userId)}
                         </span>
                       </div>
                       {!isOwner(userId) && (

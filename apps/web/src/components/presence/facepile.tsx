@@ -19,9 +19,10 @@ interface FacepileProps {
 }
 
 const MAX_VISIBLE_DEFAULT = 5
+const USER_ID_SEPARATOR_REGEX = /[@._-]/
 
 function getInitials(userId: string): string {
-  const parts = userId.split(/[@._-]/)
+  const parts = userId.split(USER_ID_SEPARATOR_REGEX)
   if (parts.length >= 2) {
     return (parts[0][0] + parts[1][0]).toUpperCase()
   }
@@ -42,6 +43,7 @@ function getColorFromUserId(userId: string): string {
 
   let hash = 0
   for (let i = 0; i < userId.length; i++) {
+    // biome-ignore lint/suspicious/noBitwiseOperators: Intentional for hash computation
     hash = userId.charCodeAt(i) + ((hash << 5) - hash)
   }
 
@@ -77,21 +79,19 @@ export function Facepile({
   }
 
   return (
-    <div
+    <ul
       aria-label={`${users.length} active user${users.length !== 1 ? "s" : ""}`}
       className={cn("flex items-center", className)}
-      role="list"
     >
       <AnimatePresence mode="popLayout">
         {visibleUsers.map((user, index) => (
-          <motion.div
+          <motion.li
             animate={{ opacity: 1, scale: 1 }}
             className="relative"
             exit={{ opacity: 0, scale: 0.8 }}
             initial={{ opacity: 0, scale: 0.8 }}
             key={user._id}
             layout
-            role="listitem"
             style={{
               zIndex: visibleUsers.length - index,
               marginLeft: index === 0 ? 0 : -8,
@@ -99,7 +99,6 @@ export function Facepile({
             transition={transition}
           >
             <div
-              aria-label={`${user.userId} (${user.status})`}
               className={cn(
                 "flex size-8 items-center justify-center rounded-full border-2 border-background font-medium text-white text-xs",
                 getColorFromUserId(user.userId)
@@ -115,18 +114,17 @@ export function Facepile({
                 getStatusIndicatorColor(user.status)
               )}
             />
-          </motion.div>
+          </motion.li>
         ))}
       </AnimatePresence>
 
       {overflowCount > 0 && (
-        <motion.div
+        <motion.li
           animate={{ opacity: 1, scale: 1 }}
           aria-label={`${overflowCount} more user${overflowCount > 1 ? "s" : ""}`}
           className="relative flex size-8 items-center justify-center rounded-full border-2 border-background bg-muted font-medium text-foreground text-xs"
           initial={{ opacity: 0, scale: 0.8 }}
           layout
-          role="listitem"
           style={{
             zIndex: 0,
             marginLeft: -8,
@@ -135,8 +133,8 @@ export function Facepile({
           transition={transition}
         >
           +{overflowCount}
-        </motion.div>
+        </motion.li>
       )}
-    </div>
+    </ul>
   )
 }

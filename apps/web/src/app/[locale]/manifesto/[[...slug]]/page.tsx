@@ -7,7 +7,6 @@ import { routing } from "@/i18n/routing"
 import { buildNoteGraph } from "@/lib/notes"
 import { ClientWrapper } from "./client-wrapper"
 
-// biome-ignore lint/performance/noBarrelFile: Next.js metadata exports must be re-exported from page
 export { generateMetadata, generateStaticParams } from "./metadata"
 
 interface PageProps {

@@ -16,6 +16,165 @@ interface CounterevidenceResult {
 // Top-level regex for performance
 const WORD_SPLIT_REGEX = /\W+/
 
+const CONTRADICTION_MARKERS = [
+  "however",
+  "but",
+  "contradicts",
+  "refutes",
+  "contrary to",
+  "in contrast",
+  "on the other hand",
+  "nevertheless",
+  "nonetheless",
+  "although",
+  "despite",
+  "yet",
+  "whereas",
+]
+
+const NEGATION_PATTERNS = [
+  "not",
+  "no",
+  "never",
+  "neither",
+  "nor",
+  "cannot",
+  "can't",
+  "won't",
+  "wouldn't",
+  "shouldn't",
+  "doesn't",
+  "don't",
+  "didn't",
+  "isn't",
+  "aren't",
+  "wasn't",
+  "weren't",
+]
+
+const OPPOSING_PAIRS = [
+  ["increas", "decreas"],
+  ["rise", "fall"],
+  ["rising", "falling"],
+  ["grow", "shrink"],
+  ["expand", "contract"],
+  ["improve", "worsen"],
+  ["benefit", "harm"],
+  ["positive", "negative"],
+  ["success", "failure"],
+  ["true", "false"],
+  ["correct", "incorrect"],
+  ["valid", "invalid"],
+  ["support", "oppose"],
+  ["agree", "disagree"],
+  ["confirm", "deny"],
+  ["accept", "reject"],
+]
+
+const REFUTATION_TERMS = [
+  "disprove",
+  "debunk",
+  "falsify",
+  "undermine",
+  "challenge",
+  "question",
+  "doubt",
+  "dispute",
+  "contest",
+  "counter",
+  "rebut",
+]
+
+function checkContradictionMarkers(blockLower: string): {
+  score: number
+  reason: string | null
+} {
+  for (const marker of CONTRADICTION_MARKERS) {
+    if (blockLower.includes(marker)) {
+      return {
+        score: 0.25,
+        reason: `Contains contradiction marker: "${marker}"`,
+      }
+    }
+  }
+  return { score: 0, reason: null }
+}
+
+function checkNegationPatterns(blockLower: string): {
+  score: number
+  reason: string | null
+} {
+  let negationCount = 0
+  for (const pattern of NEGATION_PATTERNS) {
+    const regex = new RegExp(`\\b${pattern}\\b`, "gi")
+    const matches = blockLower.match(regex)
+    if (matches) {
+      negationCount += matches.length
+    }
+  }
+  if (negationCount > 0) {
+    return {
+      score: Math.min(0.2, negationCount * 0.1),
+      reason: `Contains ${negationCount} negation pattern(s)`,
+    }
+  }
+  return { score: 0, reason: null }
+}
+
+function checkOpposingTerms(
+  targetLower: string,
+  blockLower: string
+): { score: number; reason: string | null } {
+  for (const [term1, term2] of OPPOSING_PAIRS) {
+    const hasTerm1InTarget = targetLower.includes(term1)
+    const hasTerm2InTarget = targetLower.includes(term2)
+    const hasTerm1InBlock = blockLower.includes(term1)
+    const hasTerm2InBlock = blockLower.includes(term2)
+
+    if (
+      (hasTerm1InTarget && hasTerm2InBlock) ||
+      (hasTerm2InTarget && hasTerm1InBlock)
+    ) {
+      return {
+        score: 0.15,
+        reason: `Contains opposing term: target has "${hasTerm1InTarget ? term1 : term2}", block has "${hasTerm1InBlock ? term1 : term2}"`,
+      }
+    }
+  }
+  return { score: 0, reason: null }
+}
+
+function checkSharedTerms(
+  targetKeywords: string[],
+  blockLower: string
+): { score: number; reason: string | null } {
+  let sharedTerms = 0
+  for (const keyword of targetKeywords) {
+    if (blockLower.includes(keyword)) {
+      sharedTerms++
+    }
+  }
+  if (sharedTerms >= 2) {
+    return {
+      score: Math.min(0.15, sharedTerms * 0.05),
+      reason: `Shares ${sharedTerms} key term(s) with target`,
+    }
+  }
+  return { score: 0, reason: null }
+}
+
+function checkRefutationLanguage(blockLower: string): {
+  score: number
+  reason: string | null
+} {
+  for (const term of REFUTATION_TERMS) {
+    if (blockLower.includes(term)) {
+      return { score: 0.2, reason: `Contains refutation language: "${term}"` }
+    }
+  }
+  return { score: 0, reason: null }
+}
+
 /**
  * Find counterevidence for a given block.
  *
@@ -241,149 +400,49 @@ function extractKeywords(text: string): string[] {
     .filter((word) => word.length > 3 && !stopWords.has(word))
 }
 
-// biome-ignore lint/complexity/noExcessiveCognitiveComplexity: Heuristic contradiction detection requires multiple pattern checks
 function analyzeContradiction(
   targetContent: string,
   targetKeywords: string[],
   blockContent: string
 ): { relevance: number; reasoning: string } {
   const blockLower = blockContent.toLowerCase()
+  const targetLower = targetContent.toLowerCase()
   let relevance = 0
   const reasons: string[] = []
 
   // Heuristic 1: Contradiction markers
-  const contradictionMarkers = [
-    "however",
-    "but",
-    "contradicts",
-    "refutes",
-    "contrary to",
-    "in contrast",
-    "on the other hand",
-    "nevertheless",
-    "nonetheless",
-    "although",
-    "despite",
-    "yet",
-    "whereas",
-  ]
-
-  for (const marker of contradictionMarkers) {
-    if (blockLower.includes(marker)) {
-      relevance += 0.25
-      reasons.push(`Contains contradiction marker: "${marker}"`)
-      break
-    }
+  const contradictionResult = checkContradictionMarkers(blockLower)
+  if (contradictionResult.reason) {
+    relevance += contradictionResult.score
+    reasons.push(contradictionResult.reason)
   }
 
   // Heuristic 2: Negation patterns
-  const negationPatterns = [
-    "not",
-    "no",
-    "never",
-    "neither",
-    "nor",
-    "cannot",
-    "can't",
-    "won't",
-    "wouldn't",
-    "shouldn't",
-    "doesn't",
-    "don't",
-    "didn't",
-    "isn't",
-    "aren't",
-    "wasn't",
-    "weren't",
-  ]
-
-  let negationCount = 0
-  for (const pattern of negationPatterns) {
-    const regex = new RegExp(`\\b${pattern}\\b`, "gi")
-    const matches = blockLower.match(regex)
-    if (matches) {
-      negationCount += matches.length
-    }
-  }
-
-  if (negationCount > 0) {
-    relevance += Math.min(0.2, negationCount * 0.1)
-    reasons.push(`Contains ${negationCount} negation pattern(s)`)
+  const negationResult = checkNegationPatterns(blockLower)
+  if (negationResult.reason) {
+    relevance += negationResult.score
+    reasons.push(negationResult.reason)
   }
 
   // Heuristic 3: Opposing terms
-  const opposingPairs = [
-    ["increas", "decreas"],
-    ["rise", "fall"],
-    ["rising", "falling"],
-    ["grow", "shrink"],
-    ["expand", "contract"],
-    ["improve", "worsen"],
-    ["benefit", "harm"],
-    ["positive", "negative"],
-    ["success", "failure"],
-    ["true", "false"],
-    ["correct", "incorrect"],
-    ["valid", "invalid"],
-    ["support", "oppose"],
-    ["agree", "disagree"],
-    ["confirm", "deny"],
-    ["accept", "reject"],
-  ]
-
-  const targetLower = targetContent.toLowerCase()
-  for (const [term1, term2] of opposingPairs) {
-    const hasTerm1InTarget = targetLower.includes(term1)
-    const hasTerm2InTarget = targetLower.includes(term2)
-    const hasTerm1InBlock = blockLower.includes(term1)
-    const hasTerm2InBlock = blockLower.includes(term2)
-
-    if (
-      (hasTerm1InTarget && hasTerm2InBlock) ||
-      (hasTerm2InTarget && hasTerm1InBlock)
-    ) {
-      relevance += 0.15
-      reasons.push(
-        `Contains opposing term: target has "${hasTerm1InTarget ? term1 : term2}", block has "${hasTerm1InBlock ? term1 : term2}"`
-      )
-      break
-    }
+  const opposingResult = checkOpposingTerms(targetLower, blockLower)
+  if (opposingResult.reason) {
+    relevance += opposingResult.score
+    reasons.push(opposingResult.reason)
   }
 
   // Heuristic 4: Shared topic (same key terms)
-  let sharedTerms = 0
-  for (const keyword of targetKeywords) {
-    if (blockLower.includes(keyword)) {
-      sharedTerms++
-    }
-  }
-
-  if (sharedTerms >= 2) {
-    relevance += Math.min(0.15, sharedTerms * 0.05)
-    reasons.push(`Shares ${sharedTerms} key term(s) with target`)
+  const sharedResult = checkSharedTerms(targetKeywords, blockLower)
+  if (sharedResult.reason) {
+    relevance += sharedResult.score
+    reasons.push(sharedResult.reason)
   }
 
   // Heuristic 5: Explicit refutation language
-  const refutationTerms = [
-    "disprove",
-    "debunk",
-    "falsify",
-    "undermine",
-    "challenge",
-    "question",
-    "doubt",
-    "dispute",
-    "contest",
-    "counter",
-    "rebut",
-  ]
-
-  for (const term of refutationTerms) {
-    if (blockLower.includes(term)) {
-      relevance += 0.2
-      reasons.push(`Contains refutation language: "${term}"`)
-      break
-    }
+  const refutationResult = checkRefutationLanguage(blockLower)
+  if (refutationResult.reason) {
+    relevance += refutationResult.score
+    reasons.push(refutationResult.reason)
   }
 
   // Normalize relevance to 0-1 range
