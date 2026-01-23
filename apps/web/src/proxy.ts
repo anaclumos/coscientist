@@ -8,21 +8,12 @@ const handleI18nRouting = createMiddleware(routing)
 
 // Routes that require authentication
 const isProtectedRoute = createRouteMatcher([
-  "/:locale/:orgSlug/workspace(.*)",
-  "/:locale/:orgSlug/verify(.*)",
-  "/:locale/:orgSlug/search(.*)",
   "/:locale/:orgSlug/settings(.*)",
-  "/:locale/select-lab(.*)",
   "/:locale/profile(.*)",
 ])
 
 // Routes that require an active organization
-const isOrgRoute = createRouteMatcher([
-  "/:locale/:orgSlug/workspace(.*)",
-  "/:locale/:orgSlug/verify(.*)",
-  "/:locale/:orgSlug/search(.*)",
-  "/:locale/:orgSlug/settings(.*)",
-])
+const isOrgRoute = createRouteMatcher(["/:locale/:orgSlug/settings(.*)"])
 
 export default clerkMiddleware(
   async (auth, request) => {
@@ -52,12 +43,11 @@ export default clerkMiddleware(
     if (isOrgRoute(request)) {
       const { orgSlug } = await auth()
 
-      // If no active org, redirect to select-lab page
+      // If no active org, redirect to landing page
       if (!orgSlug) {
-        // Extract locale from pathname
         const pathParts = pathname.split("/")
         const locale = pathParts[1] || "en"
-        const url = new URL(`/${locale}/select-lab`, request.url)
+        const url = new URL(`/${locale}`, request.url)
         return NextResponse.redirect(url)
       }
     }
@@ -67,16 +57,7 @@ export default clerkMiddleware(
   {
     // Enable organization sync from URL slug
     organizationSyncOptions: {
-      organizationPatterns: [
-        "/:locale/:slug/workspace",
-        "/:locale/:slug/workspace/(.*)",
-        "/:locale/:slug/verify",
-        "/:locale/:slug/verify/(.*)",
-        "/:locale/:slug/search",
-        "/:locale/:slug/search/(.*)",
-        "/:locale/:slug/settings",
-        "/:locale/:slug/settings/(.*)",
-      ],
+      organizationPatterns: ["/:locale/:slug", "/:locale/:slug/(.*)"],
     },
   }
 )

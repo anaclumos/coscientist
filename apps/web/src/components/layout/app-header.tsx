@@ -133,9 +133,9 @@ export function AppHeader({
           {/* Signed In: Show org switcher and user button */}
           <SignedIn>
             <OrganizationSwitcher
-              afterCreateOrganizationUrl={`/${locale}/:slug/workspace`}
-              afterLeaveOrganizationUrl={`/${locale}/select-lab`}
-              afterSelectOrganizationUrl={`/${locale}/:slug/workspace`}
+              afterCreateOrganizationUrl={`/${locale}/:slug`}
+              afterLeaveOrganizationUrl={`/${locale}`}
+              afterSelectOrganizationUrl={`/${locale}/:slug`}
               appearance={{
                 elements: {
                   rootBox: "flex items-center",
@@ -204,9 +204,9 @@ export function AppHeader({
                 <SignedIn>
                   <div className="mb-2 flex items-center justify-between gap-2 rounded-md border p-3">
                     <OrganizationSwitcher
-                      afterCreateOrganizationUrl={`/${locale}/:slug/workspace`}
-                      afterLeaveOrganizationUrl={`/${locale}/select-lab`}
-                      afterSelectOrganizationUrl={`/${locale}/:slug/workspace`}
+                      afterCreateOrganizationUrl={`/${locale}/:slug`}
+                      afterLeaveOrganizationUrl={`/${locale}`}
+                      afterSelectOrganizationUrl={`/${locale}/:slug`}
                       appearance={{
                         elements: {
                           rootBox: "flex-1",

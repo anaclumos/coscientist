@@ -22,12 +22,9 @@ export default function OrgSlugLayout({ children }: OrgSlugLayoutProps) {
       return
     }
 
-    // If URL orgSlug doesn't match active org, sync it
     if (organization?.slug !== orgSlug) {
-      // Try to set the org from URL slug as active
       setActive({ organization: orgSlug }).catch(() => {
-        // If org doesn't exist or user doesn't have access, redirect to select-lab
-        router.replace(`/${locale}/select-lab`)
+        router.replace(`/${locale}`)
       })
     }
   }, [
@@ -40,7 +37,6 @@ export default function OrgSlugLayout({ children }: OrgSlugLayoutProps) {
     locale,
   ])
 
-  // Show loading while syncing org
   if (!(isOrgLoaded && isListLoaded)) {
     return (
       <div className="flex min-h-screen items-center justify-center">
@@ -49,7 +45,6 @@ export default function OrgSlugLayout({ children }: OrgSlugLayoutProps) {
     )
   }
 
-  // If org slug mismatch, show loading while redirect happens
   if (organization?.slug !== orgSlug) {
     return (
       <div className="flex min-h-screen items-center justify-center">

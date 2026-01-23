@@ -47,7 +47,7 @@ export default function SettingsPage() {
   }
 
   if (!organization) {
-    router.push(`/${locale}/select-lab`)
+    router.push(`/${locale}`)
     return null
   }
 

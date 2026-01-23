@@ -1,4 +1,3 @@
-import { AuthRedirect } from "@/components/auth-redirect"
 import { BuildInPublic } from "@/components/landing/build-in-public"
 import { CTA } from "@/components/landing/cta"
 import { Features } from "@/components/landing/features"
@@ -10,7 +9,6 @@ import { Pipeline } from "@/components/landing/pipeline"
 export default function LandingPage() {
   return (
     <main className="min-h-screen">
-      <AuthRedirect />
       <Hero />
       <Features />
       <Pipeline />
