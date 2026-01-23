@@ -44,7 +44,9 @@ export default function WorkspacePage() {
 
   const handleQuickCapture = async (e: React.FormEvent) => {
     e.preventDefault()
-    if (!quickCaptureText.trim() || isCreating) return
+    if (!quickCaptureText.trim() || isCreating) {
+      return
+    }
 
     setIsCreating(true)
     try {

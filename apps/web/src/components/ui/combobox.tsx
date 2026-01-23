@@ -332,7 +332,9 @@ function ComboboxChips({
       onMouseDown={(e) => {
         const target = e.target as HTMLElement
         const isChip = target.closest('[data-slot="combobox-chip"]')
-        if (isChip || !chipsRef?.current) return
+        if (isChip || !chipsRef?.current) {
+          return
+        }
         e.preventDefault()
         const input: HTMLInputElement | null =
           chipsRef.current.querySelector("input")

@@ -4,8 +4,8 @@ import {
   OrganizationSwitcher,
   SignedIn,
   SignedOut,
-  useClerk,
   UserButton,
+  useClerk,
 } from "@clerk/nextjs"
 import {
   ArrowLeft01Icon,
@@ -82,10 +82,14 @@ export function AppHeader({
     if (value && value !== locale) {
       const params: string[] = []
       const stackStr = stackParser.serialize(urlState.stack)
-      if (stackStr) params.push(`stack=${stackStr}`)
+      if (stackStr) {
+        params.push(`stack=${stackStr}`)
+      }
       if (urlState.focus !== null) {
         const focusStr = focusParser.serialize(urlState.focus)
-        if (focusStr) params.push(`focus=${focusStr}`)
+        if (focusStr) {
+          params.push(`focus=${focusStr}`)
+        }
       }
       const fullPath =
         params.length > 0 ? `${pathname}?${params.join("&")}` : pathname

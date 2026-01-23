@@ -39,7 +39,9 @@ export async function ClientWrapper({
   }
 
   const paneNotes = stackNotes.reduce<NotePaneData[]>((acc, note) => {
-    if (!note) return acc
+    if (!note) {
+      return acc
+    }
     acc.push({
       slug: note.slug,
       title: note.title,

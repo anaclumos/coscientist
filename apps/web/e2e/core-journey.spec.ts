@@ -9,42 +9,42 @@ test.describe("E2E Setup Verification", () => {
 })
 
 test.describe("Application Routes - Requires Running App", () => {
-  test.skip("home page loads successfully", async ({ page }) => {
+  test("home page loads successfully", async ({ page }) => {
     const response = await page.goto("/en")
 
     expect(response?.status()).toBeLessThan(500)
     await expect(page.locator("body")).toBeVisible()
   })
 
-  test.skip("manifesto page loads successfully", async ({ page }) => {
+  test("manifesto page loads successfully", async ({ page }) => {
     const response = await page.goto("/en/manifesto")
 
     expect(response?.status()).toBeLessThan(500)
     await expect(page.locator("body")).toBeVisible()
   })
 
-  test.skip("workspace page responds", async ({ page }) => {
+  test("workspace page responds", async ({ page }) => {
     const response = await page.goto("/en/workspace")
 
     expect(response?.status()).toBeLessThan(500)
     await expect(page.locator("body")).toBeVisible()
   })
 
-  test.skip("verify page responds", async ({ page }) => {
+  test("verify page responds", async ({ page }) => {
     const response = await page.goto("/en/verify")
 
     expect(response?.status()).toBeLessThan(500)
     await expect(page.locator("body")).toBeVisible()
   })
 
-  test.skip("search page responds", async ({ page }) => {
+  test("search page responds", async ({ page }) => {
     const response = await page.goto("/en/search")
 
     expect(response?.status()).toBeLessThan(500)
     await expect(page.locator("body")).toBeVisible()
   })
 
-  test.skip("navigation between pages works", async ({ page }) => {
+  test("navigation between pages works", async ({ page }) => {
     await page.goto("/en")
 
     await page.waitForLoadState("networkidle")

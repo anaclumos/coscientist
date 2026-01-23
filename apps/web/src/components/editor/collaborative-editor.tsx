@@ -39,7 +39,9 @@ export function CollaborativeEditor({ documentId }: CollaborativeEditorProps) {
 
   const sync = useCallback(async () => {
     const view = viewRef.current
-    if (!view) return
+    if (!view) {
+      return
+    }
 
     const localVersion = getVersion(view.state)
 
@@ -105,7 +107,9 @@ export function CollaborativeEditor({ documentId }: CollaborativeEditorProps) {
   }, [convex, documentId])
 
   useEffect(() => {
-    if (!(initialSnapshot && editorRef.current) || viewRef.current) return
+    if (!(initialSnapshot && editorRef.current) || viewRef.current) {
+      return
+    }
 
     let doc
     let version = 0

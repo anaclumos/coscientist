@@ -139,7 +139,9 @@ export const getUserLabs = query({
   args: {},
   handler: async (ctx) => {
     const identity = await ctx.auth.getUserIdentity()
-    if (!identity) return []
+    if (!identity) {
+      return []
+    }
 
     const userId = identity.subject
     const memberships = await ctx.db
@@ -162,7 +164,9 @@ export const getLabMembers = query({
   args: { labId: v.id("labs") },
   handler: async (ctx, args) => {
     const identity = await ctx.auth.getUserIdentity()
-    if (!identity) return []
+    if (!identity) {
+      return []
+    }
 
     const userMembership = await ctx.db
       .query("labMemberships")
@@ -171,7 +175,9 @@ export const getLabMembers = query({
       )
       .unique()
 
-    if (!userMembership) return []
+    if (!userMembership) {
+      return []
+    }
 
     return await ctx.db
       .query("labMemberships")

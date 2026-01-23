@@ -39,7 +39,7 @@ export function BlockEditor({
   className,
 }: BlockEditorProps) {
   const prefersReducedMotion = useReducedMotion()
-  const transition = prefersReducedMotion ? { duration: 0 } : springSubtle
+  const _transition = prefersReducedMotion ? { duration: 0 } : springSubtle
 
   const blocks = useQuery(
     api.blocks.getBlocksByParent,
@@ -54,7 +54,9 @@ export function BlockEditor({
 
   const handleAddBlock = useCallback(
     async (type: BlockType = "text") => {
-      if (!parentId) return
+      if (!parentId) {
+        return
+      }
       await createBlock({
         type,
         content: "",
@@ -135,7 +137,7 @@ interface BlockItemProps {
 
 function BlockItem({ block }: BlockItemProps) {
   const prefersReducedMotion = useReducedMotion()
-  const transition = prefersReducedMotion ? { duration: 0 } : springSubtle
+  const _transition = prefersReducedMotion ? { duration: 0 } : springSubtle
 
   const updateBlock = useMutation(api.blocks.updateBlock)
   const deleteBlock = useMutation(api.blocks.deleteBlock)
@@ -172,7 +174,6 @@ function BlockItem({ block }: BlockItemProps) {
         return "text-[1.375rem] font-medium tracking-tight leading-tight min-h-[2.5rem]"
       case "list":
         return "text-base leading-[1.8] pl-2"
-      case "text":
       default:
         return "text-base leading-[1.8]"
     }

@@ -1,12 +1,56 @@
 import { createTool } from "@mastra/core/tools"
 import { z } from "zod"
 
-type CounterevidenceResult = {
+interface CounterevidenceResult {
   blockId: string
   content: string
   relevance: number
   reasoning: string
 }
+
+const WORD_SPLIT_REGEX = /\W+/
+
+const STOP_WORDS = new Set([
+  "the",
+  "a",
+  "an",
+  "and",
+  "or",
+  "but",
+  "in",
+  "on",
+  "at",
+  "to",
+  "for",
+  "of",
+  "with",
+  "by",
+  "from",
+  "as",
+  "is",
+  "was",
+  "are",
+  "were",
+  "been",
+  "be",
+  "have",
+  "has",
+  "had",
+  "do",
+  "does",
+  "did",
+  "will",
+  "would",
+  "should",
+  "could",
+  "may",
+  "might",
+  "can",
+  "this",
+  "that",
+  "these",
+  "those",
+])
 
 export const findCounterevidenceTool = createTool({
   id: "find-counterevidence",
@@ -33,60 +77,17 @@ export const findCounterevidenceTool = createTool({
       )
       .describe("Array of existing blocks to search through"),
   }),
-  execute: async (inputData) => {
-    const { claimContent, claimType, existingBlocks } = inputData
+  // biome-ignore lint/complexity/noExcessiveCognitiveComplexity: Heuristic pattern matching requires multiple checks
+  execute: (inputData) => {
+    const { claimContent, existingBlocks } = inputData
 
     const counterevidence: CounterevidenceResult[] = []
 
-    // Normalize claim content for comparison
     const claimLower = claimContent.toLowerCase()
 
-    // Extract key terms from claim (simple word extraction, excluding common words)
-    const stopWords = new Set([
-      "the",
-      "a",
-      "an",
-      "and",
-      "or",
-      "but",
-      "in",
-      "on",
-      "at",
-      "to",
-      "for",
-      "of",
-      "with",
-      "by",
-      "from",
-      "as",
-      "is",
-      "was",
-      "are",
-      "were",
-      "been",
-      "be",
-      "have",
-      "has",
-      "had",
-      "do",
-      "does",
-      "did",
-      "will",
-      "would",
-      "should",
-      "could",
-      "may",
-      "might",
-      "can",
-      "this",
-      "that",
-      "these",
-      "those",
-    ])
-
     const claimWords = claimLower
-      .split(/\W+/)
-      .filter((word) => word.length > 3 && !stopWords.has(word))
+      .split(WORD_SPLIT_REGEX)
+      .filter((word) => word.length > 3 && !STOP_WORDS.has(word))
 
     for (const block of existingBlocks) {
       const blockLower = block.content.toLowerCase()

@@ -1,18 +1,42 @@
 import { v } from "convex/values"
+import type { Doc } from "./_generated/dataModel"
 import { mutation, query } from "./_generated/server"
 
-const canRead = (block: any, userId: string | null): boolean => {
-  if (!userId) return block.access.public
-  if (block.access.public) return true
-  if (block.access.readers.includes(userId)) return true
-  if (block.createdBy === userId) return true
+interface BlockWithAccess {
+  access: {
+    public: boolean
+    readers: string[]
+    writers: string[]
+  }
+  createdBy: string
+}
+
+const canRead = (block: BlockWithAccess, userId: string | null): boolean => {
+  if (!userId) {
+    return block.access.public
+  }
+  if (block.access.public) {
+    return true
+  }
+  if (block.access.readers.includes(userId)) {
+    return true
+  }
+  if (block.createdBy === userId) {
+    return true
+  }
   return false
 }
 
-const canWrite = (block: any, userId: string | null): boolean => {
-  if (!userId) return false
-  if (block.createdBy === userId) return true
-  if (block.access.writers.includes(userId)) return true
+const canWrite = (block: BlockWithAccess, userId: string | null): boolean => {
+  if (!userId) {
+    return false
+  }
+  if (block.createdBy === userId) {
+    return true
+  }
+  if (block.access.writers.includes(userId)) {
+    return true
+  }
   return false
 }
 
@@ -135,7 +159,7 @@ export const getEdgesFrom = query({
       .withIndex("by_from", (q) => q.eq("from", args.blockId))
       .collect()
 
-    const filteredEdges = []
+    const filteredEdges: Doc<"edges">[] = []
     for (const edge of edges) {
       const targetBlock = await ctx.db.get(edge.to)
       if (targetBlock && canRead(targetBlock, userId)) {
@@ -170,7 +194,7 @@ export const getEdgesTo = query({
       .withIndex("by_to", (q) => q.eq("to", args.blockId))
       .collect()
 
-    const filteredEdges = []
+    const filteredEdges: Doc<"edges">[] = []
     for (const edge of edges) {
       const sourceBlock = await ctx.db.get(edge.from)
       if (sourceBlock && canRead(sourceBlock, userId)) {
@@ -203,7 +227,7 @@ export const getEdgesByType = query({
 
     const edgesByType = allEdges.filter((edge) => edge.type === args.type)
 
-    const filteredEdges = []
+    const filteredEdges: Doc<"edges">[] = []
     for (const edge of edgesByType) {
       const sourceBlock = await ctx.db.get(edge.from)
       const targetBlock = await ctx.db.get(edge.to)

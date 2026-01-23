@@ -36,7 +36,7 @@ export default function SelectLabPage() {
     }
   }, [isOrgLoaded, organization, locale, router])
 
-  if (!isUserLoaded || !isOrgLoaded) {
+  if (!(isUserLoaded && isOrgLoaded)) {
     return (
       <main className="flex min-h-screen items-center justify-center p-8">
         <div className="h-8 w-8 animate-spin rounded-full border-4 border-muted border-t-primary" />

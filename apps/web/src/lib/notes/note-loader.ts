@@ -15,7 +15,9 @@ export async function loadNote(
   locale = "en"
 ): Promise<Note | null> {
   const fileContents = await readNoteFile(slug, locale)
-  if (!fileContents) return null
+  if (!fileContents) {
+    return null
+  }
 
   const { data, content, contentHtml } = await parseMarkdown(fileContents)
   const excerpt = generateExcerpt(content)
@@ -37,7 +39,9 @@ async function loadNoteGraphNode(
   locale = "en"
 ): Promise<NoteGraphNode | null> {
   const fileContents = await readNoteFile(slug, locale)
-  if (!fileContents) return null
+  if (!fileContents) {
+    return null
+  }
 
   const { data, content } = parseFrontmatter(fileContents)
   const outboundLinks = extractOutboundLinks(content)

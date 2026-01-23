@@ -1,7 +1,7 @@
 import { describe, expect, it } from "vitest"
 import { suggestEdgeTool } from "../suggest-edges"
 
-type EdgeSuggestion = {
+interface EdgeSuggestion {
   suggestedType: "contains" | "supports" | "refutes" | "references"
   confidence: number
   reasoning: string
@@ -34,7 +34,9 @@ describe("suggestEdgeTool", () => {
     )
 
     expect(isEdgeSuggestion(result)).toBe(true)
-    if (!isEdgeSuggestion(result)) return
+    if (!isEdgeSuggestion(result)) {
+      return
+    }
 
     expect(result.suggestedType).toBe("contains")
     expect(result.confidence).toBeGreaterThan(0.8)
@@ -57,7 +59,9 @@ describe("suggestEdgeTool", () => {
     )
 
     expect(isEdgeSuggestion(result)).toBe(true)
-    if (!isEdgeSuggestion(result)) return
+    if (!isEdgeSuggestion(result)) {
+      return
+    }
 
     expect(result.suggestedType).toBe("contains")
     expect(result.confidence).toBeGreaterThan(0.7)
@@ -80,7 +84,9 @@ describe("suggestEdgeTool", () => {
     )
 
     expect(isEdgeSuggestion(result)).toBe(true)
-    if (!isEdgeSuggestion(result)) return
+    if (!isEdgeSuggestion(result)) {
+      return
+    }
 
     expect(result.suggestedType).toBe("supports")
     expect(result.confidence).toBeGreaterThan(0)
@@ -104,7 +110,9 @@ describe("suggestEdgeTool", () => {
     )
 
     expect(isEdgeSuggestion(result)).toBe(true)
-    if (!isEdgeSuggestion(result)) return
+    if (!isEdgeSuggestion(result)) {
+      return
+    }
 
     expect(result.suggestedType).toBe("refutes")
     expect(result.confidence).toBeGreaterThan(0)
@@ -128,7 +136,9 @@ describe("suggestEdgeTool", () => {
     )
 
     expect(isEdgeSuggestion(result)).toBe(true)
-    if (!isEdgeSuggestion(result)) return
+    if (!isEdgeSuggestion(result)) {
+      return
+    }
 
     expect(result.suggestedType).toBe("references")
     expect(result.confidence).toBeGreaterThan(0)
@@ -152,7 +162,9 @@ describe("suggestEdgeTool", () => {
     )
 
     expect(isEdgeSuggestion(result)).toBe(true)
-    if (!isEdgeSuggestion(result)) return
+    if (!isEdgeSuggestion(result)) {
+      return
+    }
 
     expect(result.confidence).toBeGreaterThanOrEqual(0)
     expect(result.confidence).toBeLessThanOrEqual(1)
@@ -174,7 +186,9 @@ describe("suggestEdgeTool", () => {
     )
 
     expect(isEdgeSuggestion(result)).toBe(true)
-    if (!isEdgeSuggestion(result)) return
+    if (!isEdgeSuggestion(result)) {
+      return
+    }
 
     const validTypes = ["contains", "supports", "refutes", "references"]
     expect(validTypes).toContain(result.suggestedType)
@@ -196,7 +210,9 @@ describe("suggestEdgeTool", () => {
     )
 
     expect(isEdgeSuggestion(result)).toBe(true)
-    if (!isEdgeSuggestion(result)) return
+    if (!isEdgeSuggestion(result)) {
+      return
+    }
 
     expect(typeof result.reasoning).toBe("string")
     expect(result.reasoning.length).toBeGreaterThan(0)

@@ -33,7 +33,9 @@ export function usePresence({
   cursorPosRef.current = cursorPos
 
   useEffect(() => {
-    if (!enabled) return
+    if (!enabled) {
+      return
+    }
 
     const sendHeartbeat = () => {
       updatePresence({

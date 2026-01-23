@@ -95,7 +95,7 @@ describe("Permission Functions - Type Safety", () => {
       const otherUserId = "user-456"
 
       expect(ownerId).not.toBe(otherUserId)
-      expect(ownerId === ownerId).toBe(true)
+      expect(ownerId).toBe("user-123")
     })
 
     it("should prevent duplicate users in access lists", () => {

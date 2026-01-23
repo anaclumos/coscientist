@@ -2,15 +2,19 @@
 
 import { v } from "convex/values"
 import { api } from "../_generated/api"
+import type { Id } from "../_generated/dataModel"
 import { action } from "../_generated/server"
 
-type CounterevidenceResult = {
+interface CounterevidenceResult {
   blockId: string
   content: string
   relevance: number
   reasoning: string
   edgeType?: string
 }
+
+// Top-level regex for performance
+const WORD_SPLIT_REGEX = /\W+/
 
 /**
  * Find counterevidence for a given block.
@@ -28,8 +32,7 @@ export const findCounterEvidence = action({
   },
   handler: async (ctx, args) => {
     // Get user identity for permission checks
-    const identity = await ctx.auth.getUserIdentity()
-    const userId = identity?.subject ?? null
+    await ctx.auth.getUserIdentity()
 
     // 1. Get the target block
     const targetBlock = await ctx.runQuery(api.blocks.getBlock, {
@@ -117,19 +120,22 @@ export const findCounterEvidence = action({
 
     // Analyze these blocks for contradiction patterns
     const targetContent = getBlockContentAsString(targetBlock.content)
-    const targetLower = targetContent.toLowerCase()
 
     // Extract key terms from target block
     const targetKeywords = extractKeywords(targetContent)
 
     for (const blockId of potentialCounterBlocks) {
-      if (seenBlockIds.has(blockId)) continue // Skip already found blocks
+      if (seenBlockIds.has(blockId)) {
+        continue // Skip already found blocks
+      }
 
       const block = await ctx.runQuery(api.blocks.getBlock, {
-        blockId: blockId as any,
+        blockId: blockId as Id<"blocks">,
       })
 
-      if (!block) continue
+      if (!block) {
+        continue
+      }
 
       const blockContent = getBlockContentAsString(block.content)
       const heuristicResult = analyzeContradiction(
@@ -162,14 +168,19 @@ export const findCounterEvidence = action({
 /**
  * Extract content from block as string
  */
-function getBlockContentAsString(content: any): string {
+function getBlockContentAsString(content: unknown): string {
   if (typeof content === "string") {
     return content
   }
   if (typeof content === "object" && content !== null) {
     // Handle structured content (e.g., rich text, lists)
-    if (content.text) return content.text
-    if (content.content) return getBlockContentAsString(content.content)
+    const obj = content as Record<string, unknown>
+    if (obj.text) {
+      return String(obj.text)
+    }
+    if (obj.content) {
+      return getBlockContentAsString(obj.content)
+    }
     if (Array.isArray(content)) {
       return content.map(getBlockContentAsString).join(" ")
     }
@@ -226,13 +237,11 @@ function extractKeywords(text: string): string[] {
 
   return text
     .toLowerCase()
-    .split(/\W+/)
+    .split(WORD_SPLIT_REGEX)
     .filter((word) => word.length > 3 && !stopWords.has(word))
 }
 
-/**
- * Analyze if blockContent contradicts targetContent using heuristics
- */
+// biome-ignore lint/complexity/noExcessiveCognitiveComplexity: Heuristic contradiction detection requires multiple pattern checks
 function analyzeContradiction(
   targetContent: string,
   targetKeywords: string[],

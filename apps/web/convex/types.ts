@@ -7,23 +7,27 @@
  * Block Types (ADR 1: Unified Block Model)
  * All content is represented as blocks - the atomic unit of knowledge
  */
-export enum BlockType {
-  Text = "text",
-  Heading = "heading",
-  List = "list",
-  Document = "document",
-}
+export const BlockType = {
+  Text: "text",
+  Heading: "heading",
+  List: "list",
+  Document: "document",
+} as const
+
+export type BlockType = (typeof BlockType)[keyof typeof BlockType]
 
 /**
  * Edge Types (ADR 4: Edge Types and Dialectical Graph)
  * Typed relationships between blocks forming a directed knowledge graph
  */
-export enum EdgeType {
-  Contains = "contains", // Structural: document contains block
-  Supports = "supports", // Dialectical: evidence supports claim
-  Refutes = "refutes", // Dialectical: block refutes another
-  References = "references", // Reference: block references another
-}
+export const EdgeType = {
+  Contains: "contains", // Structural: document contains block
+  Supports: "supports", // Dialectical: evidence supports claim
+  Refutes: "refutes", // Dialectical: block refutes another
+  References: "references", // Reference: block references another
+} as const
+
+export type EdgeType = (typeof EdgeType)[keyof typeof EdgeType]
 
 /**
  * Access Control List (ADR 6: Permissions and Embargo Model)

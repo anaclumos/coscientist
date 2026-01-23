@@ -76,7 +76,9 @@ export function getPretendardForScript(
   _text?: string
 ): Promise<ArrayBuffer> {
   const cached = fontCache.get(script)
-  if (cached) return cached
+  if (cached) {
+    return cached
+  }
 
   const fontConfig = SCRIPT_FONT_MAP[script]
   const promise = fetchFont(fontConfig.url)

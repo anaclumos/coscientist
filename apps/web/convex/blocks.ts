@@ -3,22 +3,38 @@ import { mutation, query } from "./_generated/server"
 import { getLabContext, getOptionalLabContext } from "./lib/auth"
 
 const canRead = (block: any, userId: string | null): boolean => {
-  if (!userId) return block.access.public
-  if (block.access.public) return true
-  if (block.access.readers.includes(userId)) return true
-  if (block.createdBy === userId) return true
+  if (!userId) {
+    return block.access.public
+  }
+  if (block.access.public) {
+    return true
+  }
+  if (block.access.readers.includes(userId)) {
+    return true
+  }
+  if (block.createdBy === userId) {
+    return true
+  }
   return false
 }
 
 const canWrite = (block: any, userId: string | null): boolean => {
-  if (!userId) return false
-  if (block.createdBy === userId) return true
-  if (block.access.writers.includes(userId)) return true
+  if (!userId) {
+    return false
+  }
+  if (block.createdBy === userId) {
+    return true
+  }
+  if (block.access.writers.includes(userId)) {
+    return true
+  }
   return false
 }
 
 const isEmbargoed = (block: any): boolean => {
-  if (!block.access.embargoUntil) return false
+  if (!block.access.embargoUntil) {
+    return false
+  }
   return Date.now() < block.access.embargoUntil
 }
 
@@ -228,8 +244,12 @@ export const getBlocksByParent = query({
       .collect()
 
     return blocks.filter((block) => {
-      if (labId && block.labId !== labId) return false
-      if (isEmbargoed(block)) return canRead(block, userId)
+      if (labId && block.labId !== labId) {
+        return false
+      }
+      if (isEmbargoed(block)) {
+        return canRead(block, userId)
+      }
       return canRead(block, userId)
     })
   },
@@ -265,7 +285,9 @@ export const getBlocksByType = query({
       .collect()
 
     return blocks.filter((block) => {
-      if (isEmbargoed(block)) return canRead(block, userId)
+      if (isEmbargoed(block)) {
+        return canRead(block, userId)
+      }
       return canRead(block, userId)
     })
   },
@@ -292,7 +314,9 @@ export const getAllBlocks = query({
       .collect()
 
     return blocks.filter((block) => {
-      if (isEmbargoed(block)) return canRead(block, userId)
+      if (isEmbargoed(block)) {
+        return canRead(block, userId)
+      }
       return canRead(block, userId)
     })
   },

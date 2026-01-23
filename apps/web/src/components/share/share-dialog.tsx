@@ -44,7 +44,9 @@ export function ShareDialog({ blockId, trigger }: ShareDialogProps) {
   const setEmbargo = useMutation(api.permissions.setEmbargo)
 
   const handleShare = async () => {
-    if (!userIdInput.trim()) return
+    if (!userIdInput.trim()) {
+      return
+    }
 
     try {
       await shareBlock({
@@ -75,7 +77,9 @@ export function ShareDialog({ blockId, trigger }: ShareDialogProps) {
   }
 
   const handleSetEmbargo = async () => {
-    if (!embargoDate) return
+    if (!embargoDate) {
+      return
+    }
 
     try {
       const timestamp = new Date(embargoDate).getTime()
@@ -94,7 +98,9 @@ export function ShareDialog({ blockId, trigger }: ShareDialogProps) {
     }
   }
 
-  if (!block) return null
+  if (!block) {
+    return null
+  }
 
   const { access } = block
   const allUsers = [...new Set([...access.readers, ...access.writers])]

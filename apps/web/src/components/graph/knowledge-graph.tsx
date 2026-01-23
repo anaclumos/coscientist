@@ -103,7 +103,9 @@ export function KnowledgeGraph({
   })
 
   const { nodes, edges } = useMemo(() => {
-    if (!rootBlock) return { nodes: [], edges: [] }
+    if (!rootBlock) {
+      return { nodes: [], edges: [] }
+    }
 
     const allBlocks = [rootBlock, ...(childBlocks || [])]
 
@@ -187,7 +189,7 @@ export function KnowledgeGraph({
       nodes: flowNodes,
       edges: [...implicitEdges, ...dbEdges],
     }
-  }, [rootBlock, childBlocks, outgoingEdges, documentId])
+  }, [rootBlock, childBlocks, outgoingEdges, documentId, prefersReducedMotion])
 
   const handleNodeClick = (_: React.MouseEvent, node: Node) => {
     if (onNodeClick) {

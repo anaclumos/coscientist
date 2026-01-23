@@ -1,14 +1,14 @@
 import { describe, expect, it } from "vitest"
 import { findCounterevidenceTool } from "../find-counterevidence"
 
-type CounterevidenceResult = {
+interface CounterevidenceResult {
   blockId: string
   content: string
   relevance: number
   reasoning: string
 }
 
-type ToolResult = {
+interface ToolResult {
   counterevidence: CounterevidenceResult[]
   totalFound: number
 }
@@ -39,7 +39,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     expect(result.counterevidence).toBeInstanceOf(Array)
     expect(typeof result.totalFound).toBe("number")
@@ -71,7 +73,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     expect(result.totalFound).toBeGreaterThan(0)
     const block1Result = result.counterevidence.find(
@@ -110,7 +114,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     const block1Result = result.counterevidence.find(
       (ce) => ce.blockId === "block1"
@@ -148,7 +154,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     const block1Result = result.counterevidence.find(
       (ce) => ce.blockId === "block1"
@@ -188,7 +196,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     expect(result.totalFound).toBeGreaterThan(0)
     const block1Result = result.counterevidence.find(
@@ -226,7 +236,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     const block1Result = result.counterevidence.find(
       (ce) => ce.blockId === "block1"
@@ -253,7 +265,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     expect(result.counterevidence).toEqual([])
     expect(result.totalFound).toBe(0)
@@ -285,7 +299,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     for (const ce of result.counterevidence) {
       expect(ce.relevance).toBeGreaterThanOrEqual(0)
@@ -326,7 +342,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     if (result.counterevidence.length > 1) {
       for (let i = 0; i < result.counterevidence.length - 1; i++) {
@@ -358,7 +376,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     for (const ce of result.counterevidence) {
       expect(typeof ce.reasoning).toBe("string")
@@ -392,7 +412,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     const block1Result = result.counterevidence.find(
       (ce) => ce.blockId === "block1"
@@ -431,7 +453,9 @@ describe("findCounterevidenceTool", () => {
     )
 
     expect(isCounterevidenceResult(result)).toBe(true)
-    if (!isCounterevidenceResult(result)) return
+    if (!isCounterevidenceResult(result)) {
+      return
+    }
 
     const block1Result = result.counterevidence.find(
       (ce) => ce.blockId === "block1"

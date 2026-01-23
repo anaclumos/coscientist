@@ -18,7 +18,9 @@ export default function OrgSlugLayout({ children }: OrgSlugLayoutProps) {
   const { setActive, isLoaded: isListLoaded } = useOrganizationList()
 
   useEffect(() => {
-    if (!(isOrgLoaded && isListLoaded && setActive)) return
+    if (!(isOrgLoaded && isListLoaded && setActive)) {
+      return
+    }
 
     // If URL orgSlug doesn't match active org, sync it
     if (organization?.slug !== orgSlug) {

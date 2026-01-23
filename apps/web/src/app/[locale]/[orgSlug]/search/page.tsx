@@ -40,6 +40,114 @@ export default function SearchPage() {
 
   const isLoading = allBlocks === undefined
 
+  const getTargetUrl = (block: NonNullable<typeof allBlocks>[number]) => {
+    const isDocument = block.type === "document"
+    if (isDocument) {
+      return `/${locale}/${orgSlug}/workspace/${block._id}`
+    }
+    if (block.parentId) {
+      return `/${locale}/${orgSlug}/workspace/${block.parentId}`
+    }
+    return `/${locale}/${orgSlug}/workspace`
+  }
+
+  const renderSearchContent = () => {
+    if (isLoading) {
+      return (
+        <div className="space-y-4">
+          {[1, 2, 3].map((i) => (
+            <div className="h-32 animate-pulse rounded-2xl bg-muted" key={i} />
+          ))}
+        </div>
+      )
+    }
+
+    if (searchQuery.trim() === "") {
+      return (
+        <Card className="py-12">
+          <CardHeader className="space-y-2 text-center">
+            <HugeiconsIcon
+              className="mx-auto text-muted-foreground/40"
+              icon={Search01Icon}
+              size={48}
+            />
+            <CardTitle>Start searching</CardTitle>
+            <CardDescription>
+              Enter a search query to find blocks across your workspace
+            </CardDescription>
+          </CardHeader>
+        </Card>
+      )
+    }
+
+    if (searchResults.length === 0) {
+      return (
+        <Card className="py-12">
+          <CardHeader className="space-y-2 text-center">
+            <CardTitle>No results found</CardTitle>
+            <CardDescription>
+              Try a different search query or create new content
+            </CardDescription>
+          </CardHeader>
+        </Card>
+      )
+    }
+
+    return (
+      <div className="space-y-4">
+        <p className="text-muted-foreground text-sm">
+          Found {searchResults.length} result
+          {searchResults.length !== 1 ? "s" : ""}
+        </p>
+        <div className="space-y-3">
+          {searchResults.map((block) => (
+            <motion.div
+              animate={{ opacity: 1, y: 0 }}
+              initial={{ opacity: 0, y: 20 }}
+              key={block._id}
+              transition={springSubtle}
+            >
+              <Link href={getTargetUrl(block)}>
+                <Card className="group cursor-pointer transition-shadow hover:shadow-md">
+                  <CardHeader>
+                    <div className="flex items-start justify-between gap-4">
+                      <div className="min-w-0 flex-1 space-y-2">
+                        <div className="flex items-center gap-2">
+                          <span className="font-mono text-muted-foreground text-xs uppercase tracking-wider">
+                            {block.type}
+                          </span>
+                        </div>
+                        <CardTitle className="line-clamp-2">
+                          {block.content || "Untitled"}
+                        </CardTitle>
+                        <CardDescription>
+                          Updated{" "}
+                          {new Date(block.updatedAt).toLocaleDateString(
+                            locale,
+                            {
+                              year: "numeric",
+                              month: "short",
+                              day: "numeric",
+                            }
+                          )}
+                        </CardDescription>
+                      </div>
+                      <HugeiconsIcon
+                        className="shrink-0 text-muted-foreground transition-colors group-hover:text-foreground"
+                        icon={ArrowRight01Icon}
+                        size={16}
+                      />
+                    </div>
+                  </CardHeader>
+                </Card>
+              </Link>
+            </motion.div>
+          ))}
+        </div>
+      </div>
+    )
+  }
+
   return (
     <main className="min-h-screen p-8">
       <div className="mx-auto max-w-4xl space-y-8">
@@ -64,100 +172,7 @@ export default function SearchPage() {
           </div>
         </div>
 
-        {isLoading ? (
-          <div className="space-y-4">
-            {[1, 2, 3].map((i) => (
-              <div
-                className="h-32 animate-pulse rounded-2xl bg-muted"
-                key={i}
-              />
-            ))}
-          </div>
-        ) : searchQuery.trim() === "" ? (
-          <Card className="py-12">
-            <CardHeader className="space-y-2 text-center">
-              <HugeiconsIcon
-                className="mx-auto text-muted-foreground/40"
-                icon={Search01Icon}
-                size={48}
-              />
-              <CardTitle>Start searching</CardTitle>
-              <CardDescription>
-                Enter a search query to find blocks across your workspace
-              </CardDescription>
-            </CardHeader>
-          </Card>
-        ) : searchResults.length === 0 ? (
-          <Card className="py-12">
-            <CardHeader className="space-y-2 text-center">
-              <CardTitle>No results found</CardTitle>
-              <CardDescription>
-                Try a different search query or create new content
-              </CardDescription>
-            </CardHeader>
-          </Card>
-        ) : (
-          <div className="space-y-4">
-            <p className="text-muted-foreground text-sm">
-              Found {searchResults.length} result
-              {searchResults.length !== 1 ? "s" : ""}
-            </p>
-            <div className="space-y-3">
-              {searchResults.map((block) => {
-                const isDocument = block.type === "document"
-                const targetUrl = isDocument
-                  ? `/${locale}/${orgSlug}/workspace/${block._id}`
-                  : block.parentId
-                    ? `/${locale}/${orgSlug}/workspace/${block.parentId}`
-                    : `/${locale}/${orgSlug}/workspace`
-
-                return (
-                  <motion.div
-                    animate={{ opacity: 1, y: 0 }}
-                    initial={{ opacity: 0, y: 20 }}
-                    key={block._id}
-                    transition={springSubtle}
-                  >
-                    <Link href={targetUrl}>
-                      <Card className="group cursor-pointer transition-shadow hover:shadow-md">
-                        <CardHeader>
-                          <div className="flex items-start justify-between gap-4">
-                            <div className="min-w-0 flex-1 space-y-2">
-                              <div className="flex items-center gap-2">
-                                <span className="font-mono text-muted-foreground text-xs uppercase tracking-wider">
-                                  {block.type}
-                                </span>
-                              </div>
-                              <CardTitle className="line-clamp-2">
-                                {block.content || "Untitled"}
-                              </CardTitle>
-                              <CardDescription>
-                                Updated{" "}
-                                {new Date(block.updatedAt).toLocaleDateString(
-                                  locale,
-                                  {
-                                    year: "numeric",
-                                    month: "short",
-                                    day: "numeric",
-                                  }
-                                )}
-                              </CardDescription>
-                            </div>
-                            <HugeiconsIcon
-                              className="shrink-0 text-muted-foreground transition-colors group-hover:text-foreground"
-                              icon={ArrowRight01Icon}
-                              size={16}
-                            />
-                          </div>
-                        </CardHeader>
-                      </Card>
-                    </Link>
-                  </motion.div>
-                )
-              })}
-            </div>
-          </div>
-        )}
+        {renderSearchContent()}
       </div>
     </main>
   )

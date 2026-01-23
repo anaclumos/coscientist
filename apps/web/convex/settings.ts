@@ -5,7 +5,9 @@ export const getSettings = query({
   args: {},
   handler: async (ctx) => {
     const identity = await ctx.auth.getUserIdentity()
-    if (!identity) return null
+    if (!identity) {
+      return null
+    }
 
     const userId = identity.subject
     const settings = await ctx.db
@@ -23,7 +25,9 @@ export const updateOpenAIKey = mutation({
   },
   handler: async (ctx, args) => {
     const identity = await ctx.auth.getUserIdentity()
-    if (!identity) throw new Error("Not authenticated")
+    if (!identity) {
+      throw new Error("Not authenticated")
+    }
 
     const userId = identity.subject
     const now = Date.now()
@@ -54,7 +58,9 @@ export const hasOpenAIKey = query({
   args: {},
   handler: async (ctx) => {
     const identity = await ctx.auth.getUserIdentity()
-    if (!identity) return false
+    if (!identity) {
+      return false
+    }
 
     const userId = identity.subject
     const settings = await ctx.db

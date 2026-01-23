@@ -21,10 +21,10 @@ export default function SettingsPage() {
   const params = useParams()
   const router = useRouter()
   const locale = params.locale as string
-  const orgSlug = params.orgSlug as string
+  const _orgSlug = params.orgSlug as string
   const { user, isLoaded } = useUser()
 
-  const settings = useQuery(api.settings.getSettings)
+  const _settings = useQuery(api.settings.getSettings)
   const hasKey = useQuery(api.settings.hasOpenAIKey)
   const updateKey = useMutation(api.settings.updateOpenAIKey)
 
@@ -46,7 +46,9 @@ export default function SettingsPage() {
   }
 
   const handleSaveKey = async () => {
-    if (!apiKey.trim()) return
+    if (!apiKey.trim()) {
+      return
+    }
 
     setIsUpdating(true)
     try {

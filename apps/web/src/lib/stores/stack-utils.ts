@@ -5,7 +5,9 @@
  */
 
 export function parseStackString(value: string | null | undefined): string[] {
-  if (!value) return []
+  if (!value) {
+    return []
+  }
   return value
     .split(",")
     .map((s) => s.trim())
@@ -13,7 +15,9 @@ export function parseStackString(value: string | null | undefined): string[] {
 }
 
 export function serializeStackArray(value: string[]): string {
-  if (!value || value.length === 0) return ""
+  if (!value || value.length === 0) {
+    return ""
+  }
   return value.join(",")
 }
 
