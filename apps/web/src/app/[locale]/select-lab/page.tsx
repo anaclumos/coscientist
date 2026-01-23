@@ -24,7 +24,7 @@ export default function SelectLabPage() {
   const router = useRouter()
   const locale = params.locale as string
 
-  const { user, isLoaded: isUserLoaded } = useUser()
+  const { isLoaded: isUserLoaded } = useUser()
   const { organization, isLoaded: isOrgLoaded } = useOrganization()
 
   const [showCreate, setShowCreate] = useState(false)

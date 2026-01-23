@@ -17,6 +17,7 @@ import { MagneticCursorClient } from "@/components/magnetic-cursor-client"
 import { Providers } from "@/components/providers"
 import { getDirection, type Locale, routing } from "@/i18n/routing"
 
+// biome-ignore lint/performance/noBarrelFile: Next.js metadata exports must be re-exported from layout
 export { generateMetadata } from "./layout-metadata"
 
 export const viewport: Viewport = {

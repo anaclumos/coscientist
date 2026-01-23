@@ -217,6 +217,7 @@ function BlockItem({ block }: BlockItemProps) {
           aria-label="Delete block"
           className="rounded p-1 text-muted-foreground transition-colors hover:bg-red-100 hover:text-red-600 focus-visible:ring-1 focus-visible:ring-primary/20 focus-visible:ring-inset"
           onClick={handleDelete}
+          type="button"
         >
           <HugeiconsIcon icon={Delete02Icon} size={14} />
         </button>

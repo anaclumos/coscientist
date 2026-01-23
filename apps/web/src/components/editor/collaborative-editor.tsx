@@ -95,7 +95,7 @@ export function CollaborativeEditor({ documentId }: CollaborativeEditorProps) {
             result.clientIds
           )
           view.dispatch(tr)
-          void sync()
+          sync().catch(console.error)
         }
       } else {
         setStatus("connected")
@@ -111,8 +111,8 @@ export function CollaborativeEditor({ documentId }: CollaborativeEditorProps) {
       return
     }
 
-    let doc
     let version = 0
+    let doc: ReturnType<typeof schema.nodeFromJSON>
 
     if (initialSnapshot.content) {
       const content = JSON.parse(initialSnapshot.content)
@@ -122,7 +122,6 @@ export function CollaborativeEditor({ documentId }: CollaborativeEditorProps) {
       doc = schema.node("doc", null, [
         schema.node("paragraph", null, [schema.text("Start typing...")]),
       ])
-      version = 0
     }
 
     const state = EditorState.create({
@@ -137,7 +136,7 @@ export function CollaborativeEditor({ documentId }: CollaborativeEditorProps) {
         const newState = view.state.apply(tr)
         view.updateState(newState)
         if (tr.docChanged) {
-          void sync()
+          sync().catch(console.error)
         }
       },
     })
@@ -153,7 +152,7 @@ export function CollaborativeEditor({ documentId }: CollaborativeEditorProps) {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      void sync()
+      sync().catch(console.error)
     }, 2000)
     return () => clearInterval(interval)
   }, [sync])
@@ -171,11 +170,11 @@ export function CollaborativeEditor({ documentId }: CollaborativeEditorProps) {
       <div className="absolute top-2 right-2 z-10 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
         <StatusIndicator status={status} />
       </div>
+      {/* biome-ignore lint/a11y/noNoninteractiveTabindex: ProseMirror mount point handles its own focus */}
       <div
-        aria-label="Collaborative text editor"
         className="prose dark:prose-invert min-h-[200px] max-w-none rounded-md border p-4 outline-none transition-all focus-within:border-primary/50 focus-within:ring-1 focus-within:ring-primary/20"
         ref={editorRef}
-        role="textbox"
+        tabIndex={0}
       />
     </div>
   )

@@ -1,7 +1,7 @@
 import type { NextRequest } from "next/server"
 import { generateOGImage } from "./og-generator"
 
-export async function GET(request: NextRequest) {
+export function GET(request: NextRequest) {
   const { searchParams } = request.nextUrl
   const title = searchParams.get("title") || "Coscientist"
   const description = searchParams.get("description") || ""

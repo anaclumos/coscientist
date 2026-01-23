@@ -2,7 +2,17 @@ import { v } from "convex/values"
 import { mutation, query } from "./_generated/server"
 import { getLabContext, getOptionalLabContext } from "./lib/auth"
 
-const canRead = (block: any, userId: string | null): boolean => {
+interface BlockWithAccess {
+  access: {
+    public: boolean
+    readers: string[]
+    writers: string[]
+    embargoUntil?: number
+  }
+  createdBy: string
+}
+
+const canRead = (block: BlockWithAccess, userId: string | null): boolean => {
   if (!userId) {
     return block.access.public
   }
@@ -18,7 +28,7 @@ const canRead = (block: any, userId: string | null): boolean => {
   return false
 }
 
-const canWrite = (block: any, userId: string | null): boolean => {
+const canWrite = (block: BlockWithAccess, userId: string | null): boolean => {
   if (!userId) {
     return false
   }
@@ -31,7 +41,7 @@ const canWrite = (block: any, userId: string | null): boolean => {
   return false
 }
 
-const isEmbargoed = (block: any): boolean => {
+const isEmbargoed = (block: BlockWithAccess): boolean => {
   if (!block.access.embargoUntil) {
     return false
   }

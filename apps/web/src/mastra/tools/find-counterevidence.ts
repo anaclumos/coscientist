@@ -78,7 +78,8 @@ export const findCounterevidenceTool = createTool({
       .describe("Array of existing blocks to search through"),
   }),
   // biome-ignore lint/complexity/noExcessiveCognitiveComplexity: Heuristic pattern matching requires multiple checks
-  execute: (inputData) => {
+  // biome-ignore lint/suspicious/useAwait: Mastra interface requires async even without await
+  execute: async (inputData) => {
     const { claimContent, existingBlocks } = inputData
 
     const counterevidence: CounterevidenceResult[] = []
