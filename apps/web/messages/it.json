@@ -6,7 +6,8 @@
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Manifesto Coscientist",
-    "joinWaitlist": "Unisciti alla Lista d’Attesa",
+    "joinWaitlist": "Unisciti alla Lista d'Attesa",
+    "enterLab": "Entra nel Mio Lab",
     "github": "GitHub",
     "twitter": "Twitter"
   },

@@ -6,7 +6,8 @@
   "header": {
     "brand": "Coscientist",
     "brandWithManifesto": "Coscientist ঘোষণাপত্র",
-    "joinWaitlist": "ওয়েটলিস্টে যোগ দিন",
+    "joinWaitlist": "ওয়েটলিস্টে যোগ দিন",
+    "enterLab": "আমার ল্যাবে প্রবেশ করুন",
     "github": "GitHub",
     "twitter": "Twitter"
   },

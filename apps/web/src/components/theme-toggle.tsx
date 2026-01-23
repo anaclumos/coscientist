@@ -5,14 +5,15 @@ import { HugeiconsIcon } from "@hugeicons/react"
 import { useTranslations } from "next-intl"
 import { useTheme } from "next-themes"
 import { useEffect, useState } from "react"
-import { cn } from "@/lib/utils"
+import { Button } from "@/components/ui/button"
 import {
   Select,
   SelectItem,
   SelectPopup,
   SelectTrigger,
   SelectValue,
-} from "./ui/select"
+} from "@/components/ui/select"
+import { cn } from "@/lib/utils"
 
 const themes = [
   { value: "light", icon: Sun01Icon },
@@ -46,21 +47,21 @@ export function ThemeToggle({
       value={resolvedTheme}
     >
       {variant === "icon" ? (
-        <SelectTrigger
+        <Button
           aria-label={t("toggle")}
           className={cn(
-            "w-9 min-w-0 justify-center px-0 sm:w-8 [&>[data-slot=select-icon]]:hidden",
+            "w-auto min-w-0 [&_[data-slot=select-icon]]:hidden",
             className
           )}
-          size="sm"
+          render={<SelectTrigger />}
+          size="icon"
+          variant="outline"
         >
-          <SelectValue className="flex-none" placeholder={t("toggle")}>
-            <HugeiconsIcon icon={CurrentIcon} size={18} strokeWidth={1.5} />
-          </SelectValue>
-        </SelectTrigger>
+          <HugeiconsIcon icon={CurrentIcon} size={18} strokeWidth={1.5} />
+        </Button>
       ) : (
         <SelectTrigger
-          aria-label={t("toggle")}
+          aria-label={t("selectTheme")}
           className={cn("w-full justify-between", className)}
         >
           <SelectValue />

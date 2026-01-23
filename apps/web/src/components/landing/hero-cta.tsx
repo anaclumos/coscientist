@@ -1,11 +1,11 @@
 "use client"
 
-import { useClerk } from "@clerk/nextjs"
+import { SignedIn, SignedOut, useClerk, useOrganization } from "@clerk/nextjs"
 import { ArrowRight01Icon } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
 import { motion, useReducedMotion } from "motion/react"
 import Link from "next/link"
-import { useTranslations } from "next-intl"
+import { useLocale, useTranslations } from "next-intl"
 
 import { Button } from "@/components/ui/button"
 import { reducedMotionTransition, springSubtle } from "@/lib/animations"
@@ -15,6 +15,12 @@ export function HeroCTA() {
   const tHeader = useTranslations("header")
   const prefersReducedMotion = useReducedMotion()
   const { openWaitlist } = useClerk()
+  const { organization } = useOrganization()
+  const locale = useLocale()
+
+  const labHref = organization?.slug
+    ? `/${locale}/${organization.slug}`
+    : `/${locale}/profile`
 
   return (
     <motion.div
@@ -37,9 +43,22 @@ export function HeroCTA() {
           strokeWidth={1.5}
         />
       </Button>
-      <Button onClick={() => openWaitlist()} size="lg" variant="secondary">
-        {tHeader("joinWaitlist")}
-      </Button>
+      <SignedOut>
+        <Button onClick={() => openWaitlist()} size="lg" variant="secondary">
+          {tHeader("joinWaitlist")}
+        </Button>
+      </SignedOut>
+      <SignedIn>
+        <Button render={<Link href={labHref} />} size="lg" variant="secondary">
+          {tHeader("enterLab")}{" "}
+          <HugeiconsIcon
+            className="ml-1"
+            icon={ArrowRight01Icon}
+            size={16}
+            strokeWidth={1.5}
+          />
+        </Button>
+      </SignedIn>
     </motion.div>
   )
 }
