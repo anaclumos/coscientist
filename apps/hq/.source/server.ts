@@ -17,7 +17,7 @@ import * as __fd_glob_13 from "../content/docs/adr/007-presence-cursors.ko.mdx?c
 import * as __fd_glob_14 from "../content/docs/adr/007-presence-cursors.mdx?collection=docs"
 import * as __fd_glob_15 from "../content/docs/adr/008-platform-boundaries-expansion.ko.mdx?collection=docs"
 import * as __fd_glob_16 from "../content/docs/adr/008-platform-boundaries-expansion.mdx?collection=docs"
-import { default as __fd_glob_23 } from "../content/docs/adr/meta.json?collection=meta"
+import { default as __fd_glob_25 } from "../content/docs/adr/meta.json?collection=meta"
 import * as __fd_glob_0 from "../content/docs/index.mdx?collection=docs"
 import * as __fd_glob_17 from "../content/docs/logs/20260118.ko.mdx?collection=docs"
 import * as __fd_glob_18 from "../content/docs/logs/20260118.mdx?collection=docs"
@@ -25,7 +25,9 @@ import * as __fd_glob_19 from "../content/docs/logs/20260119.ko.mdx?collection=d
 import * as __fd_glob_20 from "../content/docs/logs/20260119.mdx?collection=docs"
 import * as __fd_glob_21 from "../content/docs/logs/20260120.ko.mdx?collection=docs"
 import * as __fd_glob_22 from "../content/docs/logs/20260120.mdx?collection=docs"
-import { default as __fd_glob_24 } from "../content/docs/logs/meta.json?collection=meta"
+import * as __fd_glob_23 from "../content/docs/logs/20260123.ko.mdx?collection=docs"
+import * as __fd_glob_24 from "../content/docs/logs/20260123.mdx?collection=docs"
+import { default as __fd_glob_26 } from "../content/docs/logs/meta.json?collection=meta"
 import type * as Config from "../source.config"
 
 const create = server<
@@ -59,9 +61,11 @@ export const docs = await create.doc("docs", "content/docs", {
   "logs/20260119.mdx": __fd_glob_20,
   "logs/20260120.ko.mdx": __fd_glob_21,
   "logs/20260120.mdx": __fd_glob_22,
+  "logs/20260123.ko.mdx": __fd_glob_23,
+  "logs/20260123.mdx": __fd_glob_24,
 })
 
 export const meta = await create.meta("meta", "content/docs", {
-  "adr/meta.json": __fd_glob_23,
-  "logs/meta.json": __fd_glob_24,
+  "adr/meta.json": __fd_glob_25,
+  "logs/meta.json": __fd_glob_26,
 })

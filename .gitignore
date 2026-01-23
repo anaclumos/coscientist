@@ -3,6 +3,7 @@ node_modules
 
 # Env files
 .env*
+!.env.example
 
 # Testing
 coverage

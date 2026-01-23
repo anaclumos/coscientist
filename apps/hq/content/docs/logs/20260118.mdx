@@ -141,12 +141,12 @@ CLERK_SECRET_KEY=sk_test_...
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
-| `src/app/[locale]/layout.tsx` | Added `waitlistUrl="/"` prop to `<ClerkProvider>` |
+| File                                   | Change                                                                                                       |
+| -------------------------------------- | ------------------------------------------------------------------------------------------------------------ |
+| `src/app/[locale]/layout.tsx`          | Added `waitlistUrl="/"` prop to `<ClerkProvider>`                                                            |
 | `src/components/layout/app-header.tsx` | Replaced `SignedIn`/`SignedOut`/`SignInButton`/`SignUpButton` with `useClerk().openWaitlist()` modal trigger |
-| `src/components/landing/hero-cta.tsx` | Replaced custom form with Clerk's native `<Waitlist />` component |
-| `messages/*.json` (all 25 locales) | Added `header.joinWaitlist` translation key, removed unused custom form keys |
+| `src/components/landing/hero-cta.tsx`  | Replaced custom form with Clerk's native `<Waitlist />` component                                            |
+| `messages/*.json` (all 25 locales)     | Added `header.joinWaitlist` translation key, removed unused custom form keys                                 |
 
 ### Technical Decisions
 
@@ -172,7 +172,7 @@ import { useClerk } from "@clerk/nextjs"
 
 export function AppHeader() {
   const { openWaitlist } = useClerk()
-  
+
   return (
     <Button onClick={() => openWaitlist()}>
       Join Waitlist
@@ -206,6 +206,7 @@ export function HeroCTA() {
 ### Prerequisites
 
 User must enable Waitlist mode in Clerk Dashboard:
+
 1. Go to **User & Authentication** → **Restrictions** (or **Waitlist settings**)
 2. Enable **Waitlist** mode
 3. Configure auto-approve or manual review as needed
@@ -218,22 +219,22 @@ User must enable Waitlist mode in Clerk Dashboard:
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
-| `src/lib/animations.ts` | Centralized pane variants, added `closeButtonVariants`, introduced `reducedMotionTransition`. |
-| `src/components/pane/pane-wrapper.tsx` | Switched to shared variants import and tightened transition/ref typing. |
-| `src/components/pane/pane-content-wrapper.tsx` | Pulled pane content/close button variants from `lib/animations`. |
-| `src/components/pane/pane-collapsed-spine.tsx` | Reused shared spine variants from `lib/animations`. |
-| `src/components/pane/use-pane-registration.ts` | Added a shared hook to register pane refs with the collapse context. |
-| `src/components/pane/note-pane.tsx` | Adopted the shared registration hook and reduced-motion transition constant. |
-| `src/components/notes-list/all-notes-list.tsx` | Adopted the shared registration hook and reduced-motion transition constant. |
-| `src/components/notes-list/pane-wrapper.tsx` | Typed motion transitions/ref props with `Transition`/`RefObject`. |
-| `src/components/mobile/coverflow-pane.tsx` | Simplified reduced-motion transition handling. |
-| `src/lib/landing-animations.ts` | Reused the shared reduced-motion transition constant. |
-| `src/components/landing/hero-title.tsx` | Reused the shared reduced-motion transition constant. |
-| `src/components/client/pane-orchestrator.tsx` | Switched to direct AllNotesList import to avoid barrel indirection. |
-| `src/components/all-notes-list.tsx` | Removed the barrel re-export file. |
-| `src/components/pane/pane-animations.ts` | Removed duplicate animation definitions (now in `lib/animations`). |
+| File                                           | Change                                                                                        |
+| ---------------------------------------------- | --------------------------------------------------------------------------------------------- |
+| `src/lib/animations.ts`                        | Centralized pane variants, added `closeButtonVariants`, introduced `reducedMotionTransition`. |
+| `src/components/pane/pane-wrapper.tsx`         | Switched to shared variants import and tightened transition/ref typing.                       |
+| `src/components/pane/pane-content-wrapper.tsx` | Pulled pane content/close button variants from `lib/animations`.                              |
+| `src/components/pane/pane-collapsed-spine.tsx` | Reused shared spine variants from `lib/animations`.                                           |
+| `src/components/pane/use-pane-registration.ts` | Added a shared hook to register pane refs with the collapse context.                          |
+| `src/components/pane/note-pane.tsx`            | Adopted the shared registration hook and reduced-motion transition constant.                  |
+| `src/components/notes-list/all-notes-list.tsx` | Adopted the shared registration hook and reduced-motion transition constant.                  |
+| `src/components/notes-list/pane-wrapper.tsx`   | Typed motion transitions/ref props with `Transition`/`RefObject`.                             |
+| `src/components/mobile/coverflow-pane.tsx`     | Simplified reduced-motion transition handling.                                                |
+| `src/lib/landing-animations.ts`                | Reused the shared reduced-motion transition constant.                                         |
+| `src/components/landing/hero-title.tsx`        | Reused the shared reduced-motion transition constant.                                         |
+| `src/components/client/pane-orchestrator.tsx`  | Switched to direct AllNotesList import to avoid barrel indirection.                           |
+| `src/components/all-notes-list.tsx`            | Removed the barrel re-export file.                                                            |
+| `src/components/pane/pane-animations.ts`       | Removed duplicate animation definitions (now in `lib/animations`).                            |
 
 ### Technical Decisions
 
@@ -257,8 +258,8 @@ User must enable Waitlist mode in Clerk Dashboard:
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
+| File                    | Change                                                                                                       |
+| ----------------------- | ------------------------------------------------------------------------------------------------------------ |
 | `apps/hq/lib/source.ts` | Passed the `meta` collection to `toFumadocsSource` so sidebar folders can read metadata (title/defaultOpen). |
 
 ### Technical Decisions
@@ -283,21 +284,21 @@ Run TypeScript/build checks if you want validation on the refactor.
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
-| `src/components/landing/cta.tsx` | Switched to direct primitive imports. |
-| `src/components/landing/pipeline.tsx` | Switched to direct primitive imports. |
-| `src/components/landing/features.tsx` | Switched to direct primitive imports. |
-| `src/components/landing/hero.tsx` | Switched to direct primitive imports. |
-| `src/components/landing/for-who.tsx` | Switched to direct primitive imports. |
-| `src/components/landing/build-in-public.tsx` | Switched to direct primitive imports. |
-| `src/components/landing/footer.tsx` | Switched to direct primitive imports. |
-| `src/components/landing/hero-cta.tsx` | Added reduced motion handling for hero CTA animation. |
-| `src/components/mobile/slider-notch.tsx` | Added reduced motion handling for slider notch animations. |
-| `src/components/landing/primitives.tsx` | Removed unused barrel export file. |
-| `src/components/landing/primitives/section.tsx` | Removed unused Section primitive. |
-| `src/components/notes-list/pane-wrapper.tsx` | Allowed nullable pane refs for hook compatibility. |
-| `src/components/pane/pane-wrapper.tsx` | Allowed nullable pane refs for hook compatibility. |
+| File                                            | Change                                                     |
+| ----------------------------------------------- | ---------------------------------------------------------- |
+| `src/components/landing/cta.tsx`                | Switched to direct primitive imports.                      |
+| `src/components/landing/pipeline.tsx`           | Switched to direct primitive imports.                      |
+| `src/components/landing/features.tsx`           | Switched to direct primitive imports.                      |
+| `src/components/landing/hero.tsx`               | Switched to direct primitive imports.                      |
+| `src/components/landing/for-who.tsx`            | Switched to direct primitive imports.                      |
+| `src/components/landing/build-in-public.tsx`    | Switched to direct primitive imports.                      |
+| `src/components/landing/footer.tsx`             | Switched to direct primitive imports.                      |
+| `src/components/landing/hero-cta.tsx`           | Added reduced motion handling for hero CTA animation.      |
+| `src/components/mobile/slider-notch.tsx`        | Added reduced motion handling for slider notch animations. |
+| `src/components/landing/primitives.tsx`         | Removed unused barrel export file.                         |
+| `src/components/landing/primitives/section.tsx` | Removed unused Section primitive.                          |
+| `src/components/notes-list/pane-wrapper.tsx`    | Allowed nullable pane refs for hook compatibility.         |
+| `src/components/pane/pane-wrapper.tsx`          | Allowed nullable pane refs for hook compatibility.         |
 
 ### Technical Decisions
 
@@ -323,12 +324,12 @@ Build logs show non-blocking warnings about `--localstorage-file` without a vali
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
-| `.prototools` | Pinned Node.js to 24.13.0 for consistent LTS usage. |
-| `package.json` | Restricted Node engine to `>=24 <25` to avoid Node 25 warnings. |
-| `apps/web/package.json` | Restored `build` script to `next build` after removing wrapper. |
-| `apps/web/scripts/next-build.js` | Removed build wrapper (no longer needed). |
+| File                             | Change                                                          |
+| -------------------------------- | --------------------------------------------------------------- |
+| `.prototools`                    | Pinned Node.js to 24.13.0 for consistent LTS usage.             |
+| `package.json`                   | Restricted Node engine to `>=24 <25` to avoid Node 25 warnings. |
+| `apps/web/package.json`          | Restored `build` script to `next build` after removing wrapper. |
+| `apps/web/scripts/next-build.js` | Removed build wrapper (no longer needed).                       |
 
 ### Technical Decisions
 
@@ -349,10 +350,10 @@ Build logs show non-blocking warnings about `--localstorage-file` without a vali
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
+| File                                         | Change                                                                   |
+| -------------------------------------------- | ------------------------------------------------------------------------ |
 | `src/components/landing/build-in-public.tsx` | Derived the HQ link from the active locale to preserve language context. |
-| `src/components/landing/footer.tsx` | Updated the HQ link to include the locale-aware path (`/en` or `/ko`). |
+| `src/components/landing/footer.tsx`          | Updated the HQ link to include the locale-aware path (`/en` or `/ko`).   |
 
 ### Technical Decisions
 
@@ -372,10 +373,10 @@ Build logs show non-blocking warnings about `--localstorage-file` without a vali
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
-| `apps/web/messages/*.json` | Refined UI copy across 25 locales, aligned hero CTA text to Read the Manifesto, and removed em dash punctuation. |
-| `apps/web/src/components/landing/hero-cta.tsx` | Switched hero CTA key usage from `enterManifesto` to `readManifesto`. |
+| File                                           | Change                                                                                                           |
+| ---------------------------------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| `apps/web/messages/*.json`                     | Refined UI copy across 25 locales, aligned hero CTA text to Read the Manifesto, and removed em dash punctuation. |
+| `apps/web/src/components/landing/hero-cta.tsx` | Switched hero CTA key usage from `enterManifesto` to `readManifesto`.                                            |
 
 ### Technical Decisions
 

@@ -1,4 +1,4 @@
-import { describe, expect, it } from "bun:test"
+import { describe, expect, it } from "vitest"
 import { calculateNextReview, getInitialReviewState, ReviewState } from "../sm2"
 
 describe("SM-2 Algorithm", () => {

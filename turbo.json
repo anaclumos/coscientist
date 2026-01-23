@@ -10,7 +10,13 @@
         "NUCLEO_LICENSE_KEY",
         "SITE_URL",
         "CLERK_SECRET_KEY",
-        "CONVEX_DEPLOY_KEY"
+        "CONVEX_DEPLOY_KEY",
+        "CONVEX_DEPLOYMENT",
+        "NEXT_PUBLIC_CONVEX_URL",
+        "NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY",
+        "OPENAI_API_KEY",
+        "NEXT_PUBLIC_POSTHOG_KEY",
+        "NEXT_PUBLIC_POSTHOG_HOST"
       ]
     },
     "dev": {

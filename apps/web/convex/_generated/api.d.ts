@@ -8,9 +8,15 @@
  * @module
  */
 
+import type * as actions_ai from "../actions/ai.js";
+import type * as actions_rebuttal from "../actions/rebuttal.js";
 import type * as blocks from "../blocks.js";
+import type * as edges from "../edges.js";
+import type * as permissions from "../permissions.js";
+import type * as presence from "../presence.js";
 import type * as prosemirror from "../prosemirror.js";
 import type * as types from "../types.js";
+import type * as verification from "../verification.js";
 
 import type {
   ApiFromModules,
@@ -19,9 +25,15 @@ import type {
 } from "convex/server";
 
 declare const fullApi: ApiFromModules<{
+  "actions/ai": typeof actions_ai;
+  "actions/rebuttal": typeof actions_rebuttal;
   blocks: typeof blocks;
+  edges: typeof edges;
+  permissions: typeof permissions;
+  presence: typeof presence;
   prosemirror: typeof prosemirror;
   types: typeof types;
+  verification: typeof verification;
 }>;
 
 /**

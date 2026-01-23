@@ -145,10 +145,7 @@ Using Convex's file storage and Files Control component is a pragmatic choice:
     Offload to specialized services for encoding/streaming (like Mux or
     Cloudinary).
   </Card>
-  <Card
-    title="Large Data Files"
-    href="/adr/008-platform-boundaries-expansion"
-  >
+  <Card title="Large Data Files" href="/adr/008-platform-boundaries-expansion">
     Integrate with user's own cloud or institutional storage. Allow
     "external_file" blocks that hold URLs instead of actual files.
   </Card>
@@ -160,8 +157,8 @@ Using Convex's file storage and Files Control component is a pragmatic choice:
 
 <Callout type="idea" title="Workflow Integration">
   If we have background processes or agents (see [ADR
-  8](/adr/008-platform-boundaries-expansion)) that produce files (like
-  an AI generating a report PDF), they can use the same file storage mechanism.
-  Our consistent approach means even automated content goes through the same
+  8](/adr/008-platform-boundaries-expansion)) that produce files (like an AI
+  generating a report PDF), they can use the same file storage mechanism. Our
+  consistent approach means even automated content goes through the same
   pipelines.
 </Callout>

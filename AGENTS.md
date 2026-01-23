@@ -88,7 +88,6 @@ Any follow-up actions required.
 - Single-line config changes
 - Documentation-only updates (unless significant)
 
-
 ## Tech Stack
 
 | Layer         | Choice                            | Why                                                              |
@@ -566,6 +565,7 @@ const [isChildOpen, setIsChildOpen] = useState(false)
 ```
 
 Key points:
+
 - Use `backdropClassName="bg-transparent"` on child sheets to prevent double-darkening
 - Child sheet headers include back button (`ArrowLeft01Icon`)
 - Selection in child should close BOTH sheets: `setIsChildOpen(false); setIsMainOpen(false);`
@@ -597,7 +597,6 @@ Content here. Link with [Display Text](./other-slug).
 
 **Link format**: `[Text](./slug)` — not wikilinks (`[[slug]]`).
 
-
 ### Korean Manifesto Writing Pattern (Assertive Academic)
 
 **Principles**
@@ -621,19 +620,19 @@ Content here. Link with [Display Text](./other-slug).
 
 ```md
 - Before: "하지만 뭔가가 빠져 있었다."
-  After:  "하지만 핵심이 빠져 있었다."
+  After: "하지만 핵심이 빠져 있었다."
 
 - Before: "이 시스템은 정보를 다시 떠올리게 해줄 수 있다."
-  After:  "이 시스템은 정보를 다시 떠올리게 한다."
+  After: "이 시스템은 정보를 다시 떠올리게 한다."
 
 - Before: "번역 오류가 합의가 있는 것처럼 보이게 만들 수 있다."
-  After:  "번역 오류는 합의가 있는 것처럼 보이게 만든다."
+  After: "번역 오류는 합의가 있는 것처럼 보이게 만든다."
 
 - Before: "근거 범위와 책임 경계선을 추적한다."
-  After:  "증거 구간과 책임선을 추적한다."
+  After: "증거 구간과 책임선을 추적한다."
 
 - Before: "Operator는 AI 출력의 소비자다."
-  After:  "오퍼레이터는 AI 출력의 소비자다."
+  After: "오퍼레이터는 AI 출력의 소비자다."
 ```
 
 ### Scripts
@@ -680,6 +679,5 @@ it, th, pl, uk, nl
 | Keyboard       | `←/→` navigate, `Escape` close, `Enter` expand    |
 | Focus          | `focus-visible:ring-1 ring-primary/20 ring-inset` |
 | Semantic       | `<article>` for panes, `<aside>` for list         |
-
 
 _Last updated: January 2026_

@@ -106,4 +106,23 @@ export default defineSchema({
     cursorPos: v.optional(v.any()), // Current cursor/selection representation (block-level or position)
     status: v.string(), // "editing" / "online" / "idle" or typing indicator
   }).index("by_documentId", ["documentId"]), // Index for querying all users on a document
+
+  /**
+   * Reviews Table (Spaced Repetition for Knowledge Verification)
+   * Implements SM-2 algorithm for scheduling block reviews
+   * - Each review tracks a user's verification schedule for a specific block
+   * - SM-2 state (easiness, interval, repetitions) determines next review timing
+   * - Quality ratings (0-5) update the schedule: <3 resets, >=3 increases interval
+   * - Enables active recall practice to combat illusions of competence
+   */
+  reviews: defineTable({
+    blockId: v.id("blocks"), // Reference to the block being reviewed
+    userId: v.string(), // User who owns this review schedule
+    nextReview: v.number(), // Timestamp (ms) when review is due
+    easiness: v.number(), // SM-2 easiness factor (default 2.5, min 1.3)
+    interval: v.number(), // Days until next review
+    repetitions: v.number(), // Number of successful reviews (quality >= 3)
+  })
+    .index("by_userId_nextReview", ["userId", "nextReview"]) // Efficient query for due reviews
+    .index("by_blockId_userId", ["blockId", "userId"]), // Find user's review for a block
 })

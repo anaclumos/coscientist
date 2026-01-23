@@ -64,8 +64,8 @@ Coscientist는 사용자가 만든 지식 콘텐츠(텍스트, 미디어, 참조
     **Graph Database나 RDF Triple Store:** 모든 지식에 전용 Graph DB나 RDF 모델
     사용. 노드/Edge를 우아하게 다룰 수 있지만 MVP에 인프라와 복잡도가 추가된다.
     대신 Convex에서 그래프 모델을 구현한다(Edge를 테이블에 저장, [ADR
-    4](/adr/004-edge-types-dialectical-graph)). 별도 DB 없이 SQL의
-    노드+Edge 테이블 방식과 개념적으로 동일하다.
+    4](/adr/004-edge-types-dialectical-graph)). 별도 DB 없이 SQL의 노드+Edge
+    테이블 방식과 개념적으로 동일하다.
   </Tab>
 </Tabs>
 
@@ -91,24 +91,15 @@ Coscientist는 사용자가 만든 지식 콘텐츠(텍스트, 미디어, 참조
     시스템 확장 시 새 Block 타입(코드 Block, 차트 등)을 도입한다. 타입 상수
     추가하고 콘텐츠 구조만 정의하면 된다.
   </Card>
-  <Card
-    title="Block 연합 (Federation)"
-    href="/adr/003-collaboration-protocol"
-  >
+  <Card title="Block 연합 (Federation)" href="/adr/003-collaboration-protocol">
     여러 인스턴스가 지식을 공유하는 연합 아키텍처에 Block 모델이 적합하다. 전역
     식별자로 인스턴스 간 참조 가능.
   </Card>
-  <Card
-    title="Block 캐싱 & Local-First"
-    href="/adr/003-collaboration-protocol"
-  >
+  <Card title="Block 캐싱 & Local-First" href="/adr/003-collaboration-protocol">
     Block이 작아서 클라이언트가 오프라인용으로 캐싱 후 온라인 시 Convex에
     동기화할 수 있다.
   </Card>
-  <Card
-    title="의미론적 강화"
-    href="/adr/004-edge-types-dialectical-graph"
-  >
+  <Card title="의미론적 강화" href="/adr/004-edge-types-dialectical-graph">
     Block에 의미론적 데이터(태그: "hypothesis", "evidence" 등)를 붙여서 AI
     에이전트가 처리할 수 있게 한다.
   </Card>

@@ -9,23 +9,23 @@ description: "apps/web Clerk 인증, 대기자 명단, 로컬라이징 카피 �
 
 ### 1단계: 초기 통합
 
-| 파일 | 변경 사항 |
-| ---- | --------- |
-| `package.json` | `@clerk/nextjs@^6.36.8` 추가 |
-| `src/proxy.ts` | 기존 `next-intl` i18n 미들웨어와 `clerkMiddleware()` 통합 |
-| `src/app/[locale]/layout.tsx` | 앱을 감싸는 `<ClerkProvider>` 래퍼 추가 |
+| 파일                                   | 변경 사항                                                                                  |
+| -------------------------------------- | ------------------------------------------------------------------------------------------ |
+| `package.json`                         | `@clerk/nextjs@^6.36.8` 추가                                                               |
+| `src/proxy.ts`                         | 기존 `next-intl` i18n 미들웨어와 `clerkMiddleware()` 통합                                  |
+| `src/app/[locale]/layout.tsx`          | 앱을 감싸는 `<ClerkProvider>` 래퍼 추가                                                    |
 | `src/components/layout/app-header.tsx` | `SignedIn`/`SignedOut` 조건부 렌더링으로 `SignInButton`, `SignUpButton`, `UserButton` 추가 |
-| `.env.local.example` | Clerk API 키 플레이스홀더 생성 |
+| `.env.local.example`                   | Clerk API 키 플레이스홀더 생성                                                             |
 
 ### 2단계: 종합 구현 및 패턴
 
-| 파일 | 변경 사항 |
-| ---- | --------- |
-| `src/env.ts` | Zod 스키마로 Clerk 환경 변수 유효성 검사 추가 |
-| `src/proxy.ts` | `createRouteMatcher`와 `auth.protect()`를 사용한 라우트 보호 미들웨어 강화 |
-| `src/app/[locale]/profile/page.tsx` | `auth()`와 `currentUser()`를 활용한 서버 사이드 인증 보호 페이지 생성 |
-| `src/app/api/user/route.ts` | 인증 가드가 적용된 보호 API 라우트 예시 생성 |
-| `src/components/user-greeting.tsx` | `useUser()` 훅을 사용하는 클라이언트 컴포넌트 예시 생성 |
+| 파일                                | 변경 사항                                                                  |
+| ----------------------------------- | -------------------------------------------------------------------------- |
+| `src/env.ts`                        | Zod 스키마로 Clerk 환경 변수 유효성 검사 추가                              |
+| `src/proxy.ts`                      | `createRouteMatcher`와 `auth.protect()`를 사용한 라우트 보호 미들웨어 강화 |
+| `src/app/[locale]/profile/page.tsx` | `auth()`와 `currentUser()`를 활용한 서버 사이드 인증 보호 페이지 생성      |
+| `src/app/api/user/route.ts`         | 인증 가드가 적용된 보호 API 라우트 예시 생성                               |
+| `src/components/user-greeting.tsx`  | `useUser()` 훅을 사용하는 클라이언트 컴포넌트 예시 생성                    |
 
 ### 기술적 결정
 
@@ -110,12 +110,12 @@ export default clerkMiddleware(async (auth, request) => {
 
 ### 변경 사항
 
-| 파일 | 변경 사항 |
-| ---- | --------- |
-| `src/app/[locale]/layout.tsx` | `<ClerkProvider>`에 `waitlistUrl="/"` prop 추가 |
+| 파일                                   | 변경 사항                                                                                             |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| `src/app/[locale]/layout.tsx`          | `<ClerkProvider>`에 `waitlistUrl="/"` prop 추가                                                       |
 | `src/components/layout/app-header.tsx` | `SignedIn`/`SignedOut`/`SignInButton`/`SignUpButton`을 `useClerk().openWaitlist()` 모달 트리거로 교체 |
-| `src/components/landing/hero-cta.tsx` | 커스텀 폼을 Clerk 네이티브 `<Waitlist />` 컴포넌트로 교체 |
-| `messages/*.json` (25개 로케일 전체) | `header.joinWaitlist` 번역 키 추가, 사용하지 않는 커스텀 폼 키 제거 |
+| `src/components/landing/hero-cta.tsx`  | 커스텀 폼을 Clerk 네이티브 `<Waitlist />` 컴포넌트로 교체                                             |
+| `messages/*.json` (25개 로케일 전체)   | `header.joinWaitlist` 번역 키 추가, 사용하지 않는 커스텀 폼 키 제거                                   |
 
 ### 기술적 결정
 
@@ -141,7 +141,7 @@ import { useClerk } from "@clerk/nextjs"
 
 export function AppHeader() {
   const { openWaitlist } = useClerk()
-  
+
   return (
     <Button onClick={() => openWaitlist()}>
       Join Waitlist
@@ -175,6 +175,7 @@ export function HeroCTA() {
 ### 사전 요구사항
 
 Clerk 대시보드에서 대기자 명단 모드를 활성화해야 합니다:
+
 1. **User & Authentication** → **Restrictions** (또는 **Waitlist settings**)로 이동
 2. **Waitlist** 모드 활성화
 3. 필요에 따라 자동 승인 또는 수동 검토 설정
@@ -196,22 +197,22 @@ CLERK_SECRET_KEY=sk_test_...
 
 ### 변경 사항
 
-| 파일 | 변경 사항 |
-| ---- | --------- |
-| `src/lib/animations.ts` | Pane variants 통합, `closeButtonVariants` 추가, `reducedMotionTransition` 도입. |
-| `src/components/pane/pane-wrapper.tsx` | 공용 variants import 적용 및 transition/ref 타입 정리. |
-| `src/components/pane/pane-content-wrapper.tsx` | pane content/close button variants를 `lib/animations`에서 사용. |
-| `src/components/pane/pane-collapsed-spine.tsx` | 공용 spine variants 재사용. |
-| `src/components/pane/use-pane-registration.ts` | Pane ref 등록을 위한 공용 훅 추가. |
-| `src/components/pane/note-pane.tsx` | 공용 등록 훅 및 reduced motion transition 상수 적용. |
-| `src/components/notes-list/all-notes-list.tsx` | 공용 등록 훅 및 reduced motion transition 상수 적용. |
-| `src/components/notes-list/pane-wrapper.tsx` | `Transition`/`RefObject` 기반으로 motion 타입 보강. |
-| `src/components/mobile/coverflow-pane.tsx` | reduced motion transition 처리 단순화. |
-| `src/lib/landing-animations.ts` | reduced motion transition 상수 재사용. |
-| `src/components/landing/hero-title.tsx` | reduced motion transition 상수 재사용. |
-| `src/components/client/pane-orchestrator.tsx` | AllNotesList 직접 import로 전환해 배럴 간접 참조 제거. |
-| `src/components/all-notes-list.tsx` | 배럴 re-export 파일 제거. |
-| `src/components/pane/pane-animations.ts` | 중복 애니메이션 정의 제거 (lib로 통합). |
+| 파일                                           | 변경 사항                                                                       |
+| ---------------------------------------------- | ------------------------------------------------------------------------------- |
+| `src/lib/animations.ts`                        | Pane variants 통합, `closeButtonVariants` 추가, `reducedMotionTransition` 도입. |
+| `src/components/pane/pane-wrapper.tsx`         | 공용 variants import 적용 및 transition/ref 타입 정리.                          |
+| `src/components/pane/pane-content-wrapper.tsx` | pane content/close button variants를 `lib/animations`에서 사용.                 |
+| `src/components/pane/pane-collapsed-spine.tsx` | 공용 spine variants 재사용.                                                     |
+| `src/components/pane/use-pane-registration.ts` | Pane ref 등록을 위한 공용 훅 추가.                                              |
+| `src/components/pane/note-pane.tsx`            | 공용 등록 훅 및 reduced motion transition 상수 적용.                            |
+| `src/components/notes-list/all-notes-list.tsx` | 공용 등록 훅 및 reduced motion transition 상수 적용.                            |
+| `src/components/notes-list/pane-wrapper.tsx`   | `Transition`/`RefObject` 기반으로 motion 타입 보강.                             |
+| `src/components/mobile/coverflow-pane.tsx`     | reduced motion transition 처리 단순화.                                          |
+| `src/lib/landing-animations.ts`                | reduced motion transition 상수 재사용.                                          |
+| `src/components/landing/hero-title.tsx`        | reduced motion transition 상수 재사용.                                          |
+| `src/components/client/pane-orchestrator.tsx`  | AllNotesList 직접 import로 전환해 배럴 간접 참조 제거.                          |
+| `src/components/all-notes-list.tsx`            | 배럴 re-export 파일 제거.                                                       |
+| `src/components/pane/pane-animations.ts`       | 중복 애니메이션 정의 제거 (lib로 통합).                                         |
 
 ### 기술적 결정
 
@@ -235,8 +236,8 @@ CLERK_SECRET_KEY=sk_test_...
 
 ### 변경 사항
 
-| 파일 | 변경 사항 |
-| ---- | --------- |
+| 파일                    | 변경 사항                                                                                        |
+| ----------------------- | ------------------------------------------------------------------------------------------------ |
 | `apps/hq/lib/source.ts` | `toFumadocsSource`에 `meta` 컬렉션을 전달해 사이드바 폴더 메타데이터(title/defaultOpen 등) 반영. |
 
 ### 기술적 결정
@@ -261,21 +262,21 @@ CLERK_SECRET_KEY=sk_test_...
 
 ### 변경 사항
 
-| 파일 | 변경 사항 |
-| ---- | --------- |
-| `src/components/landing/cta.tsx` | primitives 직접 import로 전환. |
-| `src/components/landing/pipeline.tsx` | primitives 직접 import로 전환. |
-| `src/components/landing/features.tsx` | primitives 직접 import로 전환. |
-| `src/components/landing/hero.tsx` | primitives 직접 import로 전환. |
-| `src/components/landing/for-who.tsx` | primitives 직접 import로 전환. |
-| `src/components/landing/build-in-public.tsx` | primitives 직접 import로 전환. |
-| `src/components/landing/footer.tsx` | primitives 직접 import로 전환. |
-| `src/components/landing/hero-cta.tsx` | 히어로 CTA 애니메이션에 reduced motion 적용. |
-| `src/components/mobile/slider-notch.tsx` | 슬라이더 노치 애니메이션에 reduced motion 적용. |
-| `src/components/landing/primitives.tsx` | 사용하지 않는 배럴 export 제거. |
-| `src/components/landing/primitives/section.tsx` | 사용하지 않는 Section primitive 제거. |
-| `src/components/notes-list/pane-wrapper.tsx` | 훅과 호환되도록 nullable ref 허용. |
-| `src/components/pane/pane-wrapper.tsx` | 훅과 호환되도록 nullable ref 허용. |
+| 파일                                            | 변경 사항                                       |
+| ----------------------------------------------- | ----------------------------------------------- |
+| `src/components/landing/cta.tsx`                | primitives 직접 import로 전환.                  |
+| `src/components/landing/pipeline.tsx`           | primitives 직접 import로 전환.                  |
+| `src/components/landing/features.tsx`           | primitives 직접 import로 전환.                  |
+| `src/components/landing/hero.tsx`               | primitives 직접 import로 전환.                  |
+| `src/components/landing/for-who.tsx`            | primitives 직접 import로 전환.                  |
+| `src/components/landing/build-in-public.tsx`    | primitives 직접 import로 전환.                  |
+| `src/components/landing/footer.tsx`             | primitives 직접 import로 전환.                  |
+| `src/components/landing/hero-cta.tsx`           | 히어로 CTA 애니메이션에 reduced motion 적용.    |
+| `src/components/mobile/slider-notch.tsx`        | 슬라이더 노치 애니메이션에 reduced motion 적용. |
+| `src/components/landing/primitives.tsx`         | 사용하지 않는 배럴 export 제거.                 |
+| `src/components/landing/primitives/section.tsx` | 사용하지 않는 Section primitive 제거.           |
+| `src/components/notes-list/pane-wrapper.tsx`    | 훅과 호환되도록 nullable ref 허용.              |
+| `src/components/pane/pane-wrapper.tsx`          | 훅과 호환되도록 nullable ref 허용.              |
 
 ### 기술적 결정
 
@@ -301,12 +302,12 @@ CLERK_SECRET_KEY=sk_test_...
 
 ### 변경 사항
 
-| 파일 | 변경 사항 |
-| ---- | --------- |
-| `.prototools` | Node.js 24.13.0을 LTS로 고정. |
-| `package.json` | Node 엔진 범위를 `>=24 <25`로 제한. |
-| `apps/web/package.json` | 래퍼 제거 후 `build` 스크립트를 `next build`로 복원. |
-| `apps/web/scripts/next-build.js` | 빌드 래퍼 제거. |
+| 파일                             | 변경 사항                                            |
+| -------------------------------- | ---------------------------------------------------- |
+| `.prototools`                    | Node.js 24.13.0을 LTS로 고정.                        |
+| `package.json`                   | Node 엔진 범위를 `>=24 <25`로 제한.                  |
+| `apps/web/package.json`          | 래퍼 제거 후 `build` 스크립트를 `next build`로 복원. |
+| `apps/web/scripts/next-build.js` | 빌드 래퍼 제거.                                      |
 
 ### 기술적 결정
 
@@ -327,10 +328,10 @@ CLERK_SECRET_KEY=sk_test_...
 
 ### 변경 사항
 
-| 파일 | 변경 사항 |
-| ---- | --------- |
+| 파일                                         | 변경 사항                                                       |
+| -------------------------------------------- | --------------------------------------------------------------- |
 | `src/components/landing/build-in-public.tsx` | 활성 로케일을 사용해 HQ 링크가 언어 컨텍스트를 유지하도록 수정. |
-| `src/components/landing/footer.tsx` | HQ 링크에 로케일 경로(`/en` 또는 `/ko`)를 포함하도록 변경. |
+| `src/components/landing/footer.tsx`          | HQ 링크에 로케일 경로(`/en` 또는 `/ko`)를 포함하도록 변경.      |
 
 ### 기술적 결정
 
@@ -350,10 +351,10 @@ CLERK_SECRET_KEY=sk_test_...
 
 ### 변경 사항
 
-| 파일 | 변경 사항 |
-| ---- | --------- |
-| `apps/web/messages/*.json` | 25개 로케일 UI 카피를 자연스러운 로컬 톤으로 다듬고 히어로 CTA를 Read the Manifesto로 정렬한 뒤 em dash 표기를 제거. |
-| `apps/web/src/components/landing/hero-cta.tsx` | 히어로 CTA 키를 `enterManifesto`에서 `readManifesto`로 변경. |
+| 파일                                           | 변경 사항                                                                                                            |
+| ---------------------------------------------- | -------------------------------------------------------------------------------------------------------------------- |
+| `apps/web/messages/*.json`                     | 25개 로케일 UI 카피를 자연스러운 로컬 톤으로 다듬고 히어로 CTA를 Read the Manifesto로 정렬한 뒤 em dash 표기를 제거. |
+| `apps/web/src/components/landing/hero-cta.tsx` | 히어로 CTA 키를 `enterManifesto`에서 `readManifesto`로 변경.                                                         |
 
 ### 기술적 결정
 

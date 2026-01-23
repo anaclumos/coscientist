@@ -4,9 +4,11 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "convex deploy --cmd 'next build'",
     "start": "next start",
     "test": "vitest",
+    "test:e2e": "playwright test",
+    "test:e2e:ui": "playwright test --ui",
     "lint": "bun x ultracite check",
     "format": "bun x ultracite fix",
     "type-check": "tsc --noEmit"
@@ -39,6 +41,7 @@
     "posthog-js": "^1.322.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
+    "reactflow": "^11.11.4",
     "remark": "^15.0.1",
     "remark-gfm": "^4.0.1",
     "remark-html": "^16.0.1",
@@ -49,6 +52,7 @@
   },
   "devDependencies": {
     "@biomejs/biome": "2.3.11",
+    "@playwright/test": "^1.57.0",
     "@tailwindcss/postcss": "^4",
     "@testing-library/react": "^16.3.2",
     "@testing-library/user-event": "^14.6.1",
@@ -57,6 +61,7 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^5.1.2",
+    "convex-test": "^0.0.41",
     "jsdom": "^27.4.0",
     "lefthook": "^2.0.15",
     "tailwindcss": "^4",

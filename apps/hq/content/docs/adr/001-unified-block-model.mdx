@@ -72,9 +72,9 @@ This simplifies the backend: one Convex table and API for all content. It also e
     model for all knowledge. This could handle nodes/edges elegantly but
     introduces additional infrastructure and complexity for the MVP. Instead, we
     implement a graph model on Convex (storing edges in a table, see [ADR
-    4](/adr/004-edge-types-dialectical-graph)) which is conceptually
-    similar to the typical SQL approach of nodes and an edges table without
-    needing a separate DB.
+    4](/adr/004-edge-types-dialectical-graph)) which is conceptually similar to
+    the typical SQL approach of nodes and an edges table without needing a
+    separate DB.
   </Tab>
 </Tabs>
 
@@ -100,10 +100,7 @@ This simplifies the backend: one Convex table and API for all content. It also e
     Introduce new block types (code blocks, charts, etc.) as the system extends.
     Just add a new type constant and define its content structure.
   </Card>
-  <Card
-    title="Federation of Blocks"
-    href="/adr/003-collaboration-protocol"
-  >
+  <Card title="Federation of Blocks" href="/adr/003-collaboration-protocol">
     The block model is well-suited for federated architecture where multiple
     instances share knowledge via global identifiers.
   </Card>

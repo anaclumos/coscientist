@@ -79,6 +79,10 @@ const browserCollections = {
       import("../content/docs/logs/20260120.ko.mdx?collection=docs"),
     "logs/20260120.mdx": () =>
       import("../content/docs/logs/20260120.mdx?collection=docs"),
+    "logs/20260123.ko.mdx": () =>
+      import("../content/docs/logs/20260123.ko.mdx?collection=docs"),
+    "logs/20260123.mdx": () =>
+      import("../content/docs/logs/20260123.mdx?collection=docs"),
   }),
 }
 export default browserCollections

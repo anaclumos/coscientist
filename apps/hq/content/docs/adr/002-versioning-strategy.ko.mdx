@@ -125,27 +125,18 @@ Step은 Convex 테이블(`steps`)에 저장한다:
 ## 확장 경로
 
 <Cards>
-  <Card
-    title="CRDT / 오프라인 지원"
-    href="/adr/003-collaboration-protocol"
-  >
+  <Card title="CRDT / 오프라인 지원" href="/adr/003-collaboration-protocol">
     오프라인 편집이나 분산 운영이 필요하면 순수 OT에서 CRDT 기반(예: Yjs)으로
     전환할 수 있다.
   </Card>
-  <Card
-    title="명명 버전 & 분기"
-    href="/adr/003-collaboration-protocol"
-  >
+  <Card title="명명 버전 & 분기" href="/adr/003-collaboration-protocol">
     주요 마일스톤에 "명명 버전"(git 태그처럼) 도입. 향후: 분기 버전도 가능.
   </Card>
   <Card title="연합 버전 관리" href="/adr/003-collaboration-protocol">
     연합 환경에서는 단일 정수 대신 Lamport 타임스탬프나 벡터 클럭을 버전 관리에
     사용.
   </Card>
-  <Card
-    title="AI 연동 (Mastra)"
-    href="/adr/008-platform-boundaries-expansion"
-  >
+  <Card title="AI 연동 (Mastra)" href="/adr/008-platform-boundaries-expansion">
     버전 히스토리를 AI 에이전트가 활용해서 diff 분석, 변경 요약, 문제 편집 자동
     되돌리기 등이 가능하다.
   </Card>

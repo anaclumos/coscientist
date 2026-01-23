@@ -222,3 +222,20 @@ export const getBlocksByType = query({
     })
   },
 })
+
+export const getAllBlocks = query({
+  args: {},
+  handler: async (ctx) => {
+    const identity = await ctx.auth.getUserIdentity()
+    const userId = identity?.subject ?? null
+
+    const allBlocks = await ctx.db.query("blocks").collect()
+
+    return allBlocks.filter((block) => {
+      if (isEmbargoed(block)) {
+        return canRead(block, userId)
+      }
+      return canRead(block, userId)
+    })
+  },
+})

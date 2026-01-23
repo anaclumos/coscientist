@@ -9,8 +9,8 @@ description: "Fix locale navigation, refine header actions, and optimize manifes
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
+| File                        | Change                                                                                                                  |
+| --------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
 | `src/lib/use-note-stack.ts` | Switched to the next-intl router to generate locale-aware stack URLs and avoid hard reloads on non-English note clicks. |
 
 ### Technical Decisions
@@ -33,20 +33,20 @@ None.
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
-| `src/lib/notes/markdown-parser.ts` | Added a lightweight frontmatter parser to avoid HTML work when building the note graph. |
-| `src/lib/notes/note-loader.ts` | Split full note loading from graph-node loading, cached graph nodes, and removed outbound link parsing from full notes. |
-| `src/lib/notes/graph-builder.ts` | Built backlinks from lightweight nodes and returned summary-only note maps. |
-| `src/lib/notes/index.ts` | Wrapped note graph construction in React cache for per-request dedupe. |
-| `src/lib/types.ts` | Split note types into graph nodes vs. full notes and removed unused inbound/outbound link fields. |
-| `src/app/[locale]/manifesto/[[...slug]]/page.tsx` | Wired search params into the server wrapper to drive stack rendering from the URL. |
-| `src/app/[locale]/manifesto/[[...slug]]/client-wrapper.tsx` | Loaded full note content only for the active stack and parallelized note graph + pane fetches. |
-| `src/app/[locale]/manifesto/[[...slug]]/client-wrapper.tsx` | Switched pane construction to a reduce-based build to avoid nullable type predicates. |
-| `src/components/client/index.tsx` | Renamed pane data props to reflect stack-only payloads. |
-| `src/components/client/pane-orchestrator.tsx` | Guarded close behavior when stack updates ahead of pane data and aligned stack insertion with visible panes. |
-| `src/components/client/mobile-orchestrator.tsx` | Matched close behavior to available panes for mobile stack updates. |
-| `src/components/pane/container.tsx` | Updated mobile orchestration to consume stack-only pane data. |
+| File                                                        | Change                                                                                                                  |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| `src/lib/notes/markdown-parser.ts`                          | Added a lightweight frontmatter parser to avoid HTML work when building the note graph.                                 |
+| `src/lib/notes/note-loader.ts`                              | Split full note loading from graph-node loading, cached graph nodes, and removed outbound link parsing from full notes. |
+| `src/lib/notes/graph-builder.ts`                            | Built backlinks from lightweight nodes and returned summary-only note maps.                                             |
+| `src/lib/notes/index.ts`                                    | Wrapped note graph construction in React cache for per-request dedupe.                                                  |
+| `src/lib/types.ts`                                          | Split note types into graph nodes vs. full notes and removed unused inbound/outbound link fields.                       |
+| `src/app/[locale]/manifesto/[[...slug]]/page.tsx`           | Wired search params into the server wrapper to drive stack rendering from the URL.                                      |
+| `src/app/[locale]/manifesto/[[...slug]]/client-wrapper.tsx` | Loaded full note content only for the active stack and parallelized note graph + pane fetches.                          |
+| `src/app/[locale]/manifesto/[[...slug]]/client-wrapper.tsx` | Switched pane construction to a reduce-based build to avoid nullable type predicates.                                   |
+| `src/components/client/index.tsx`                           | Renamed pane data props to reflect stack-only payloads.                                                                 |
+| `src/components/client/pane-orchestrator.tsx`               | Guarded close behavior when stack updates ahead of pane data and aligned stack insertion with visible panes.            |
+| `src/components/client/mobile-orchestrator.tsx`             | Matched close behavior to available panes for mobile stack updates.                                                     |
+| `src/components/pane/container.tsx`                         | Updated mobile orchestration to consume stack-only pane data.                                                           |
 
 ### Technical Decisions
 
@@ -70,11 +70,11 @@ None.
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
+| File           | Change                                                                  |
+| -------------- | ----------------------------------------------------------------------- |
 | `package.json` | Added `@hugeicons/react` and `@hugeicons/core-free-icons` dependencies. |
-| `bun.lock` | Updated lockfile for Hugeicons packages. |
-| `AGENTS.md` | Documented Hugeicons in the tech stack. |
+| `bun.lock`     | Updated lockfile for Hugeicons packages.                                |
+| `AGENTS.md`    | Documented Hugeicons in the tech stack.                                 |
 
 ### Technical Decisions
 
@@ -96,8 +96,8 @@ None.
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
+| File                                   | Change                                                                                              |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | `src/components/layout/app-header.tsx` | Added a compact icon-only waitlist action on mobile while keeping the full label on larger screens. |
 
 ### Technical Decisions
@@ -120,10 +120,10 @@ None.
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
+| File                                   | Change                                                                                                                                    |
+| -------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------- |
 | `src/components/layout/app-header.tsx` | Replaced the mobile header button group with a hamburger-triggered bottom sheet including waitlist, GitHub, language, and theme controls. |
-| `src/components/language-switcher.tsx` | Exported locale name mappings to reuse in the mobile sheet without duplicating copy. |
+| `src/components/language-switcher.tsx` | Exported locale name mappings to reuse in the mobile sheet without duplicating copy.                                                      |
 
 ### Technical Decisions
 
@@ -145,12 +145,12 @@ None.
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
-| `next.config.ts` | Swapped icon transpilation to Hugeicons packages. |
-| `package.json` | Replaced Nucleo dependency with Hugeicons packages. |
+| File                | Change                                                                  |
+| ------------------- | ----------------------------------------------------------------------- |
+| `next.config.ts`    | Swapped icon transpilation to Hugeicons packages.                       |
+| `package.json`      | Replaced Nucleo dependency with Hugeicons packages.                     |
 | `src/components/**` | Replaced Nucleo/Lucide icon usage with HugeiconsIcon and free icon set. |
-| `AGENTS.md` | Updated icon guidelines to standardize on Hugeicons. |
+| `AGENTS.md`         | Updated icon guidelines to standardize on Hugeicons.                    |
 
 ### Technical Decisions
 
@@ -172,8 +172,8 @@ None.
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
+| File                            | Change                                                                                                                                          |
+| ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
 | `src/content/manifesto/ko/*.md` | Rewrote Korean manifesto entries for an academic, assertive tone and standardized core terminology (e.g., 책임선, 증거 구간, 다국어 지식 메쉬). |
 
 ### Technical Decisions
@@ -197,10 +197,10 @@ None.
 
 ### Changes Made
 
-| File | Change |
-| ---- | ------ |
+| File                                   | Change                                                                                         |
+| -------------------------------------- | ---------------------------------------------------------------------------------------------- |
 | `src/components/layout/app-header.tsx` | Updated GitHub button in mobile drawer to show "opens in new tab" text and external link icon. |
-| `AGENTS.md` | Added documentation for the Nested Sheet Pattern. |
+| `AGENTS.md`                            | Added documentation for the Nested Sheet Pattern.                                              |
 
 ### Technical Decisions
 
