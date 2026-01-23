@@ -5,6 +5,7 @@ import { HugeiconsIcon } from "@hugeicons/react"
 import { useQuery } from "convex/react"
 import { motion } from "motion/react"
 import Link from "next/link"
+import { useParams } from "next/navigation"
 import { useEffect, useState } from "react"
 import { Button } from "@/components/ui/button"
 import { Progress } from "@/components/ui/progress"
@@ -13,6 +14,10 @@ import { api } from "@/convex/_generated/api"
 import { springSubtle } from "@/lib/animations"
 
 export default function VerifyPage() {
+  const params = useParams()
+  const locale = params.locale as string
+  const orgSlug = params.orgSlug as string
+
   const reviews = useQuery(api.verification.getDueReviews)
   const [completedCount, setCompletedCount] = useState(0)
   const [initialCount, setInitialCount] = useState<number | null>(null)
@@ -78,8 +83,8 @@ export default function VerifyPage() {
           <div className="pt-8">
             <Button
               render={
-                <Link href="/">
-                  Return to Dashboard{" "}
+                <Link href={`/${locale}/${orgSlug}/workspace`}>
+                  Return to Workspace{" "}
                   <HugeiconsIcon className="ml-2" icon={ArrowRight01Icon} />
                 </Link>
               }

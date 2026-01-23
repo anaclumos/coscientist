@@ -14,12 +14,13 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
+import { api } from "@/convex/_generated/api"
 import { springSubtle } from "@/lib/animations"
-import { api } from "../../../../convex/_generated/api"
 
 export default function SearchPage() {
   const params = useParams()
   const locale = params.locale as string
+  const orgSlug = params.orgSlug as string
 
   const [searchQuery, setSearchQuery] = useState("")
   const allBlocks = useQuery(api.blocks.getAllBlocks)
@@ -105,10 +106,10 @@ export default function SearchPage() {
               {searchResults.map((block) => {
                 const isDocument = block.type === "document"
                 const targetUrl = isDocument
-                  ? `/${locale}/workspace/${block._id}`
+                  ? `/${locale}/${orgSlug}/workspace/${block._id}`
                   : block.parentId
-                    ? `/${locale}/workspace/${block.parentId}`
-                    : `/${locale}/workspace`
+                    ? `/${locale}/${orgSlug}/workspace/${block.parentId}`
+                    : `/${locale}/${orgSlug}/workspace`
 
                 return (
                   <motion.div

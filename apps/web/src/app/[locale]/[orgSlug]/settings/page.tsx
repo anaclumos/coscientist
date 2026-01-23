@@ -21,6 +21,7 @@ export default function SettingsPage() {
   const params = useParams()
   const router = useRouter()
   const locale = params.locale as string
+  const orgSlug = params.orgSlug as string
   const { user, isLoaded } = useUser()
 
   const settings = useQuery(api.settings.getSettings)

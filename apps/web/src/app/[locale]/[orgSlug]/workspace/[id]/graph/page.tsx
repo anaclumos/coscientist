@@ -7,12 +7,13 @@ import Link from "next/link"
 import { useParams } from "next/navigation"
 import { KnowledgeGraph } from "@/components/graph/knowledge-graph"
 import { Button } from "@/components/ui/button"
-import { api } from "../../../../../../convex/_generated/api"
-import type { Id } from "../../../../../../convex/_generated/dataModel"
+import { api } from "../../../../../../../convex/_generated/api"
+import type { Id } from "../../../../../../../convex/_generated/dataModel"
 
 export default function GraphViewPage() {
   const params = useParams()
   const locale = params.locale as string
+  const orgSlug = params.orgSlug as string
   const id = params.id as string
 
   const document = useQuery(api.blocks.getBlock, {
@@ -45,7 +46,7 @@ export default function GraphViewPage() {
           <p className="text-muted-foreground">
             This document may have been deleted or you don't have access to it.
           </p>
-          <Link href={`/${locale}/workspace`}>
+          <Link href={`/${locale}/${orgSlug}/workspace`}>
             <Button>
               <HugeiconsIcon icon={ArrowLeft01Icon} size={16} />
               Back to Workspace
@@ -61,7 +62,7 @@ export default function GraphViewPage() {
       <div className="z-10 border-border/40 border-b bg-background px-6 py-4">
         <div className="mx-auto flex max-w-6xl items-center justify-between">
           <div className="flex items-center gap-4">
-            <Link href={`/${locale}/workspace/${id}`}>
+            <Link href={`/${locale}/${orgSlug}/workspace/${id}`}>
               <Button size="icon-sm" variant="ghost">
                 <HugeiconsIcon icon={ArrowLeft01Icon} size={16} />
               </Button>
@@ -73,7 +74,7 @@ export default function GraphViewPage() {
               <p className="text-muted-foreground text-sm">Graph View</p>
             </div>
           </div>
-          <Link href={`/${locale}/workspace/${id}`}>
+          <Link href={`/${locale}/${orgSlug}/workspace/${id}`}>
             <Button size="sm" variant="outline">
               <HugeiconsIcon icon={Edit02Icon} size={16} />
               Edit Document

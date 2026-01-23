@@ -11,12 +11,13 @@ import Link from "next/link"
 import { useParams } from "next/navigation"
 import { BlockEditor } from "@/components/editor/block-editor"
 import { Button } from "@/components/ui/button"
-import { api } from "../../../../../convex/_generated/api"
-import type { Id } from "../../../../../convex/_generated/dataModel"
+import { api } from "../../../../../../convex/_generated/api"
+import type { Id } from "../../../../../../convex/_generated/dataModel"
 
 export default function DocumentPage() {
   const params = useParams()
   const locale = params.locale as string
+  const orgSlug = params.orgSlug as string
   const id = params.id as string
 
   const document = useQuery(api.blocks.getBlock, {
@@ -56,7 +57,7 @@ export default function DocumentPage() {
           <p className="text-muted-foreground">
             This document may have been deleted or you don't have access to it.
           </p>
-          <Link href={`/${locale}/workspace`}>
+          <Link href={`/${locale}/${orgSlug}/workspace`}>
             <Button>
               <HugeiconsIcon icon={ArrowLeft01Icon} size={16} />
               Back to Workspace
@@ -72,7 +73,7 @@ export default function DocumentPage() {
       <div className="sticky top-0 z-10 border-border/40 border-b bg-background/80 px-6 py-4 backdrop-blur-sm">
         <div className="mx-auto flex max-w-6xl items-center justify-between">
           <div className="flex items-center gap-4">
-            <Link href={`/${locale}/workspace`}>
+            <Link href={`/${locale}/${orgSlug}/workspace`}>
               <Button size="icon-sm" variant="ghost">
                 <HugeiconsIcon icon={ArrowLeft01Icon} size={16} />
               </Button>
@@ -82,7 +83,7 @@ export default function DocumentPage() {
             </h1>
           </div>
           <div className="flex gap-2">
-            <Link href={`/${locale}/workspace/${id}/graph`}>
+            <Link href={`/${locale}/${orgSlug}/workspace/${id}/graph`}>
               <Button size="sm" variant="outline">
                 <HugeiconsIcon icon={Share08Icon} size={16} />
                 Graph View

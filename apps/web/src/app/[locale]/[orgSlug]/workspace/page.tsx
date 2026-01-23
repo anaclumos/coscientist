@@ -25,12 +25,13 @@ import {
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
 import { springSubtle } from "@/lib/animations"
-import { api } from "../../../../convex/_generated/api"
+import { api } from "../../../../../convex/_generated/api"
 
 export default function WorkspacePage() {
   const params = useParams()
   const router = useRouter()
   const locale = params.locale as string
+  const orgSlug = params.orgSlug as string
   const { user, isLoaded: isUserLoaded } = useUser()
 
   const allBlocks = useQuery(api.blocks.getAllBlocks)
@@ -51,7 +52,7 @@ export default function WorkspacePage() {
         type: "document",
         content: quickCaptureText,
       })
-      router.push(`/${locale}/workspace/${id}`)
+      router.push(`/${locale}/${orgSlug}/workspace/${id}`)
     } catch (error) {
       console.error("Failed to create block:", error)
       setIsCreating(false)
@@ -63,7 +64,7 @@ export default function WorkspacePage() {
       type: "document",
       content: "Untitled Document",
     })
-    router.push(`/${locale}/workspace/${id}`)
+    router.push(`/${locale}/${orgSlug}/workspace/${id}`)
   }
 
   if (
@@ -157,7 +158,7 @@ export default function WorkspacePage() {
                 inboxBlocks.slice(0, 5).map((block) => (
                   <Link
                     className="block rounded-md p-2 transition-colors hover:bg-muted/50"
-                    href={`/${locale}/workspace/${block._id}`}
+                    href={`/${locale}/${orgSlug}/workspace/${block._id}`}
                     key={block._id}
                   >
                     <div className="flex items-center gap-2">
@@ -193,7 +194,7 @@ export default function WorkspacePage() {
               <CardDescription>Due for review</CardDescription>
             </CardHeader>
             <CardContent className="flex flex-1 flex-col justify-end">
-              <Link href={`/${locale}/verify`}>
+              <Link href={`/${locale}/${orgSlug}/verify`}>
                 <Button
                   className="w-full"
                   variant={dueReviews.length > 0 ? "default" : "outline"}
@@ -219,7 +220,7 @@ export default function WorkspacePage() {
               {recentActivity.slice(0, 5).map((block) => (
                 <Link
                   className="block rounded-md p-2 transition-colors hover:bg-muted/50"
-                  href={`/${locale}/workspace/${block._id}`}
+                  href={`/${locale}/${orgSlug}/workspace/${block._id}`}
                   key={block._id}
                 >
                   <div className="flex items-center justify-between gap-2">
@@ -273,7 +274,7 @@ export default function WorkspacePage() {
                   key={doc._id}
                   transition={springSubtle}
                 >
-                  <Link href={`/${locale}/workspace/${doc._id}`}>
+                  <Link href={`/${locale}/${orgSlug}/workspace/${doc._id}`}>
                     <Card className="group h-full cursor-pointer transition-shadow hover:shadow-md">
                       <CardHeader>
                         <div className="flex items-start justify-between gap-4">

@@ -1,6 +1,12 @@
 "use client"
 
-import { useClerk } from "@clerk/nextjs"
+import {
+  OrganizationSwitcher,
+  SignedIn,
+  SignedOut,
+  useClerk,
+  UserButton,
+} from "@clerk/nextjs"
 import {
   ArrowLeft01Icon,
   ArrowRight01Icon,
@@ -112,10 +118,41 @@ export function AppHeader({
       <HeaderLogo brand={brand} brandWithManifesto={brandWithManifesto} />
       <div className="flex items-center gap-2">
         <Group aria-label="Header actions" className="hidden sm:flex">
-          <Button onClick={handleWaitlist} variant="outline">
-            {t("joinWaitlist")}
-          </Button>
-          <GroupSeparator />
+          {/* Signed Out: Show waitlist button */}
+          <SignedOut>
+            <Button onClick={handleWaitlist} variant="outline">
+              {t("joinWaitlist")}
+            </Button>
+            <GroupSeparator />
+          </SignedOut>
+
+          {/* Signed In: Show org switcher and user button */}
+          <SignedIn>
+            <OrganizationSwitcher
+              afterCreateOrganizationUrl={`/${locale}/:slug/workspace`}
+              afterLeaveOrganizationUrl={`/${locale}/select-lab`}
+              afterSelectOrganizationUrl={`/${locale}/:slug/workspace`}
+              appearance={{
+                elements: {
+                  rootBox: "flex items-center",
+                  organizationSwitcherTrigger:
+                    "rounded-md border border-input bg-background px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground",
+                },
+              }}
+              hideSlug={false}
+            />
+            <GroupSeparator />
+            <UserButton
+              afterSignOutUrl={`/${locale}`}
+              appearance={{
+                elements: {
+                  avatarBox: "h-8 w-8",
+                },
+              }}
+            />
+            <GroupSeparator />
+          </SignedIn>
+
           <Button
             render={
               <a
@@ -159,13 +196,45 @@ export function AppHeader({
             </SheetHeader>
             <SheetPanel>
               <div className="flex flex-col gap-1">
-                <Button
-                  className="h-12 w-full justify-start px-2 font-normal text-base"
-                  onClick={handleWaitlist}
-                  variant="ghost"
-                >
-                  {t("joinWaitlist")}
-                </Button>
+                {/* Mobile: Signed In - Show org switcher and user info */}
+                <SignedIn>
+                  <div className="mb-2 flex items-center justify-between gap-2 rounded-md border p-3">
+                    <OrganizationSwitcher
+                      afterCreateOrganizationUrl={`/${locale}/:slug/workspace`}
+                      afterLeaveOrganizationUrl={`/${locale}/select-lab`}
+                      afterSelectOrganizationUrl={`/${locale}/:slug/workspace`}
+                      appearance={{
+                        elements: {
+                          rootBox: "flex-1",
+                          organizationSwitcherTrigger:
+                            "w-full justify-start text-sm",
+                        },
+                      }}
+                      hideSlug={false}
+                    />
+                    <UserButton
+                      afterSignOutUrl={`/${locale}`}
+                      appearance={{
+                        elements: {
+                          avatarBox: "h-8 w-8",
+                        },
+                      }}
+                    />
+                  </div>
+                  <Separator className="my-2" />
+                </SignedIn>
+
+                {/* Mobile: Signed Out - Show waitlist */}
+                <SignedOut>
+                  <Button
+                    className="h-12 w-full justify-start px-2 font-normal text-base"
+                    onClick={handleWaitlist}
+                    variant="ghost"
+                  >
+                    {t("joinWaitlist")}
+                  </Button>
+                </SignedOut>
+
                 <Button
                   className="h-12 w-full justify-start gap-2 px-2 font-normal text-base"
                   render={

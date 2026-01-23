@@ -6,31 +6,80 @@ import { type Locale, routing } from "./i18n/routing"
 const LOCALE_COOKIE = "NEXT_LOCALE"
 const handleI18nRouting = createMiddleware(routing)
 
-const isProtectedRoute = createRouteMatcher(["/profile(.*)"])
+// Routes that require authentication
+const isProtectedRoute = createRouteMatcher([
+  "/:locale/:orgSlug/workspace(.*)",
+  "/:locale/:orgSlug/verify(.*)",
+  "/:locale/:orgSlug/search(.*)",
+  "/:locale/:orgSlug/settings(.*)",
+  "/:locale/select-lab(.*)",
+  "/:locale/profile(.*)",
+])
 
-export default clerkMiddleware(async (auth, request) => {
-  const { searchParams } = request.nextUrl
-  const localeParam = searchParams.get("locale") as Locale | null
+// Routes that require an active organization
+const isOrgRoute = createRouteMatcher([
+  "/:locale/:orgSlug/workspace(.*)",
+  "/:locale/:orgSlug/verify(.*)",
+  "/:locale/:orgSlug/search(.*)",
+  "/:locale/:orgSlug/settings(.*)",
+])
 
-  if (localeParam && routing.locales.includes(localeParam)) {
-    const url = new URL(request.url)
-    url.searchParams.delete("locale")
+export default clerkMiddleware(
+  async (auth, request) => {
+    const { searchParams, pathname } = request.nextUrl
+    const localeParam = searchParams.get("locale") as Locale | null
 
-    const response = NextResponse.redirect(url)
-    response.cookies.set(LOCALE_COOKIE, localeParam, {
-      path: "/",
-      maxAge: 60 * 60 * 24 * 365,
-      sameSite: "lax",
-    })
-    return response
+    // Handle locale switching via query param
+    if (localeParam && routing.locales.includes(localeParam)) {
+      const url = new URL(request.url)
+      url.searchParams.delete("locale")
+
+      const response = NextResponse.redirect(url)
+      response.cookies.set(LOCALE_COOKIE, localeParam, {
+        path: "/",
+        maxAge: 60 * 60 * 24 * 365,
+        sameSite: "lax",
+      })
+      return response
+    }
+
+    // Protect routes that require authentication
+    if (isProtectedRoute(request)) {
+      await auth.protect()
+    }
+
+    // For org routes, check if user has an active org
+    if (isOrgRoute(request)) {
+      const { orgSlug } = await auth()
+
+      // If no active org, redirect to select-lab page
+      if (!orgSlug) {
+        // Extract locale from pathname
+        const pathParts = pathname.split("/")
+        const locale = pathParts[1] || "en"
+        const url = new URL(`/${locale}/select-lab`, request.url)
+        return NextResponse.redirect(url)
+      }
+    }
+
+    return handleI18nRouting(request)
+  },
+  {
+    // Enable organization sync from URL slug
+    organizationSyncOptions: {
+      organizationPatterns: [
+        "/:locale/:slug/workspace",
+        "/:locale/:slug/workspace/(.*)",
+        "/:locale/:slug/verify",
+        "/:locale/:slug/verify/(.*)",
+        "/:locale/:slug/search",
+        "/:locale/:slug/search/(.*)",
+        "/:locale/:slug/settings",
+        "/:locale/:slug/settings/(.*)",
+      ],
+    },
   }
-
-  if (isProtectedRoute(request)) {
-    await auth.protect()
-  }
-
-  return handleI18nRouting(request)
-})
+)
 
 export const config = {
   matcher: [
