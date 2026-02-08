@@ -1,6 +1,7 @@
 import { ClerkProvider } from "@clerk/nextjs"
 import { Analytics } from "@vercel/analytics/next"
 import { SpeedInsights } from "@vercel/speed-insights/next"
+import { EscapeInAppBrowser } from "eiab/react"
 import type { Viewport } from "next"
 import { notFound } from "next/navigation"
 import { hasLocale } from "next-intl"
@@ -57,6 +58,7 @@ export default async function LocaleLayout({ children, params }: Props) {
       <RootLayoutWrapper direction={direction} locale={locale}>
         <Suspense>
           <Providers messages={messages}>
+            <EscapeInAppBrowser />
             <MagneticCursorClient />
             <AppHeader
               brand={t("brand")}
