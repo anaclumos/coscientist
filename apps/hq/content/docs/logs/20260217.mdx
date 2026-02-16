@@ -37,3 +37,35 @@ description: "Set up Drizzle ORM database layer for Better Auth on PlanetScale P
 
 1. Set `DATABASE_URL` for `apps/web` runtime environment.
 2. Re-run `npx drizzle-kit push` to create tables in PlanetScale and capture success evidence.
+
+## Better Auth Server Configuration (Task 6)
+
+**Scope**: `apps/web`
+
+### Changes Made
+
+| File | Change |
+| --- | --- |
+| `apps/web/src/lib/auth.ts` | Added Better Auth server configuration with Drizzle adapter (`provider: "pg"`), email/password auth, Google + GitHub providers, Organization plugin, and `nextCookies()` as final plugin. |
+| `apps/web/src/app/api/auth/[...all]/route.ts` | Added Next.js App Router catch-all handler using `toNextJsHandler(auth)` and exported `GET`/`POST`. |
+| `.sisyphus/notepads/better-auth-migration/decisions.md` | Appended Task 6 auth configuration decisions and plugin ordering rationale. |
+| `.sisyphus/evidence/task-6-build.txt` | Captured `bun run build` output evidence. |
+| `.sisyphus/evidence/task-6-auth-ok.txt` | Captured `curl -i http://localhost:3000/api/auth/ok` 200 response evidence. |
+
+### Technical Decisions
+
+1. **Server auth source of truth**: Centralized Better Auth config in `src/lib/auth.ts` to support shared use across API routes, server components, and server actions.
+2. **Org-first plugin chain**: Registered `organization({ allowUserToCreateOrganization: true })` before `nextCookies()` and kept `nextCookies()` last to preserve Set-Cookie interception for server actions.
+3. **Provider scope control**: Enabled only email/password plus Google/GitHub social login to match migration scope, intentionally excluding verification/MFA/password reset and invitation email handlers.
+
+### Verification
+
+- LSP diagnostics: Pass (`src/lib/auth.ts`, `src/app/api/auth/[...all]/route.ts`)
+- Build: Pass (`bun run build`)
+- API health: Pass (`curl -i http://localhost:3000/api/auth/ok` returned `HTTP/1.1 200`)
+- Tests: Not run (not requested)
+
+### Next Steps
+
+1. Wire Better Auth session checks into proxy/page guards for protected routes.
+2. Replace Clerk usage in organization settings API route with Better Auth organization/session APIs.

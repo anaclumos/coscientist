@@ -37,3 +37,35 @@ description: "PlanetScale Postgres용 Better Auth + Drizzle ORM 데이터베이�
 
 1. `apps/web` 실행 환경에 `DATABASE_URL` 설정.
 2. `npx drizzle-kit push` 재실행 후 PlanetScale 테이블 생성 성공 증거 갱신.
+
+## Better Auth 서버 구성 (Task 6)
+
+**범위**: `apps/web`
+
+### 변경 사항
+
+| 파일 | 변경 사항 |
+| --- | --- |
+| `apps/web/src/lib/auth.ts` | Drizzle 어댑터(`provider: "pg"`), 이메일/비밀번호 로그인, Google/GitHub 소셜 로그인, Organization 플러그인, 마지막 `nextCookies()`를 포함한 Better Auth 서버 구성을 추가. |
+| `apps/web/src/app/api/auth/[...all]/route.ts` | `toNextJsHandler(auth)` 기반 App Router 캐치올 핸들러를 추가하고 `GET`/`POST`를 export. |
+| `.sisyphus/notepads/better-auth-migration/decisions.md` | Task 6 인증 구성 결정 사항과 플러그인 순서 근거를 추가. |
+| `.sisyphus/evidence/task-6-build.txt` | `bun run build` 실행 결과 증거를 저장. |
+| `.sisyphus/evidence/task-6-auth-ok.txt` | `curl -i http://localhost:3000/api/auth/ok`의 200 응답 증거를 저장. |
+
+### 기술적 결정
+
+1. **서버 인증 단일 진입점**: API 라우트, 서버 컴포넌트, 서버 액션에서 공통으로 사용하도록 `src/lib/auth.ts`에 Better Auth 설정을 집중했다.
+2. **플러그인 순서 고정**: `organization({ allowUserToCreateOrganization: true })` 뒤에 `nextCookies()`를 마지막으로 배치해 서버 액션의 Set-Cookie 반영을 보장했다.
+3. **범위 고정 구성**: 마이그레이션 범위에 맞춰 이메일/비밀번호 + Google/GitHub만 활성화하고, 이메일 검증/MFA/비밀번호 재설정 및 초대 메일 핸들러는 의도적으로 제외했다.
+
+### 검증
+
+- LSP diagnostics: 통과 (`src/lib/auth.ts`, `src/app/api/auth/[...all]/route.ts`)
+- Build: 통과 (`bun run build`)
+- API health: 통과 (`curl -i http://localhost:3000/api/auth/ok` → `HTTP/1.1 200`)
+- Tests: 미실행 (요청 없음)
+
+### 다음 단계
+
+1. 보호 라우트에 Better Auth 세션 검증(프록시/페이지 단)을 연결.
+2. 조직 설정 API 라우트의 Clerk 의존을 Better Auth 조직/세션 API로 전환.
