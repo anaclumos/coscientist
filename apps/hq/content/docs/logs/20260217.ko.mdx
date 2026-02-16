@@ -1,0 +1,39 @@
+---
+title: "2026-02-17"
+description: "PlanetScale Postgres용 Better Auth + Drizzle ORM 데이터베이스 레이어 구축"
+---
+
+## Better Auth Drizzle 데이터베이스 기반 구축
+
+**범위**: `apps/web`
+
+### 변경 사항
+
+| 파일 | 변경 사항 |
+| --- | --- |
+| `apps/web/src/lib/db/client.ts` | PlanetScale Postgres 호환을 위해 `prepare: false`를 적용한 postgres.js Drizzle 클라이언트 추가. |
+| `apps/web/src/lib/db/schema.ts` | Better Auth 기본 스키마를 CLI로 생성하고 OpenAI 키 메타데이터용 `organization_settings` 커스텀 테이블 추가. |
+| `apps/web/src/lib/db/index.ts` | `db` 및 스키마 심볼 배럴 export 추가. |
+| `apps/web/drizzle.config.ts` | `dialect: "postgresql"` 기반 Drizzle Kit 설정 및 schema/output 경로 추가. |
+| `apps/web/package.json` | `db:generate`, `db:push`, `db:studio` 스크립트 추가. |
+| `apps/web/.gitignore` | 생성 산출물 제외를 위해 `drizzle/` 규칙 추가. |
+| `.sisyphus/notepads/better-auth-migration/learnings.md` | Better Auth 스키마 생성 제약 및 테이블 관계 학습 내용 추가. |
+
+### 기술적 결정
+
+1. **인증 스키마 우선 생성**: Better Auth CLI 출력(`user/session/account/verification/organization/member/invitation`)을 기준 스키마로 사용하고, 앱 전용 테이블만 확장.
+2. **텍스트 ID 일관성 유지**: Better Auth 기본 규약에 맞춰 `organization_settings.id`를 text PK로 정의하고 UUID 컬럼 타입을 도입하지 않음.
+3. **조직 메타데이터 이전 모델**: 기존 Clerk organization metadata의 `openaiApiKey`/`hasOpenAIKey`를 `organization_settings` 컬럼으로 명시적 저장.
+
+### 검증
+
+- TypeScript: 통과 (`bun run type-check`)
+- Build: 통과 (`bun run build`)
+- Tests: 미실행 (요청 없음)
+- Drizzle check: 통과 (`npx drizzle-kit check`)
+- Drizzle push: 실패 (현재 환경에 `DATABASE_URL` 없음)
+
+### 다음 단계
+
+1. `apps/web` 실행 환경에 `DATABASE_URL` 설정.
+2. `npx drizzle-kit push` 재실행 후 PlanetScale 테이블 생성 성공 증거 갱신.

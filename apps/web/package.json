@@ -11,7 +11,10 @@
     "test:e2e:ui": "playwright test --ui",
     "lint": "bun x ultracite check",
     "format": "bun x ultracite fix",
-    "type-check": "tsc --noEmit"
+    "type-check": "tsc --noEmit",
+    "db:generate": "drizzle-kit generate",
+    "db:push": "drizzle-kit push",
+    "db:studio": "drizzle-kit studio"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",

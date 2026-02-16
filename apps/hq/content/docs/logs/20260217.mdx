@@ -1,0 +1,39 @@
+---
+title: "2026-02-17"
+description: "Set up Drizzle ORM database layer for Better Auth on PlanetScale Postgres"
+---
+
+## Better Auth Drizzle Database Foundation
+
+**Scope**: `apps/web`
+
+### Changes Made
+
+| File | Change |
+| --- | --- |
+| `apps/web/src/lib/db/client.ts` | Added postgres.js Drizzle client with `prepare: false` for PlanetScale Postgres compatibility. |
+| `apps/web/src/lib/db/schema.ts` | Generated Better Auth core schema and added custom `organization_settings` table for OpenAI key metadata. |
+| `apps/web/src/lib/db/index.ts` | Added database barrel export for `db` and schema symbols. |
+| `apps/web/drizzle.config.ts` | Added Drizzle Kit config with `dialect: "postgresql"` and schema/output paths. |
+| `apps/web/package.json` | Added `db:generate`, `db:push`, and `db:studio` scripts. |
+| `apps/web/.gitignore` | Added `drizzle/` ignore rule for generated migration artifacts. |
+| `.sisyphus/notepads/better-auth-migration/learnings.md` | Documented Better Auth schema generation constraints and table relationships. |
+
+### Technical Decisions
+
+1. **CLI-generated auth schema first**: Used Better Auth CLI output for canonical `user/session/account/verification/organization/member/invitation` table definitions, then extended with one custom app table.
+2. **Text primary key consistency**: Kept `organization_settings.id` as text PK to match Better Auth text ID convention and avoid UUID column types.
+3. **Organization metadata migration target**: Modeled `openai_api_key` and `has_openai_key` directly in `organization_settings` to replace prior Clerk org metadata storage pattern.
+
+### Verification
+
+- TypeScript: Pass (`bun run type-check`)
+- Build: Pass (`bun run build`)
+- Tests: Not run (not requested)
+- Drizzle check: Pass (`npx drizzle-kit check`)
+- Drizzle push: Fail (`DATABASE_URL` not available in current environment)
+
+### Next Steps
+
+1. Set `DATABASE_URL` for `apps/web` runtime environment.
+2. Re-run `npx drizzle-kit push` to create tables in PlanetScale and capture success evidence.
