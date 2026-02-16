@@ -1,5 +1,6 @@
 
 .env.local
+/.clerk/
 
 # Sentry Config File
 .env.sentry-build-plugin
