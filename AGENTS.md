@@ -102,8 +102,8 @@ Any follow-up actions required.
 | Animation     | motion/react                      | Performant springs, AnimatePresence, layout                      |
 | Font          | Faculty Glyphic                   | Distinctive serif with personality                               |
 | Icons         | Hugeicons (core-free)             | Unified icon set across UI surfaces                              |
-| Backend       | Convex                            | Reactive DB, realtime sync, file storage, auto-generated types   |
-| Realtime      | Convex + ProseMirror              | Collaborative editing with CRDT-like conflict resolution         |
+| Authentication| Better Auth                       | Self-hosted, database sessions, organization support             |
+| Database      | Drizzle ORM + PlanetScale         | Type-safe ORM with PlanetScale (Postgres)                        |
 | AI Agents     | Mastra                            | TypeScript-first agent framework with workflows, tools, RAG, MCP |
 | Workflows     | Vercel Workflow (WDK)             | Durable, resumable long-running tasks with `"use workflow"`      |
 | Hosting       | Vercel                            | Edge-optimized, seamless Next.js integration                     |
@@ -230,6 +230,9 @@ src/
 │   └── ui/                  # COSS/UI components
 ├── lib/
 │   ├── animations.ts        # Spring configs
+│   ├── auth.ts              # Better Auth server config
+│   ├── auth-client.ts       # Better Auth React client
+│   ├── db.ts                # Drizzle client
 │   └── types.ts             # Note, BacklinkInfo
 ├── hooks/
 │   └── use-reduced-motion.ts
@@ -238,16 +241,6 @@ src/
     ├── tools/               # Reusable tools (API calls, database queries)
     ├── workflows/           # Multi-step workflow definitions
     └── index.ts             # Mastra configuration and registration
-convex/
-├── schema.ts                # Database schema (defineSchema, defineTable)
-├── _generated/              # Auto-generated types (don't edit)
-│   ├── api.d.ts             # Typed function exports
-│   ├── server.d.ts          # QueryCtx, MutationCtx types
-│   └── dataModel.d.ts       # DataModel, Id<T> types
-├── http.ts                  # HTTP endpoints for webhooks
-└── functions/               # Queries, mutations, actions
-    ├── notes.ts
-    └── ...
 ```
 
 ### Key Patterns
@@ -268,89 +261,100 @@ convex/
 ### Import Conventions
 
 - **NEVER** use relative paths (`./`, `../`)
-- **ALWAYS** use TypeScript path aliases (`@/`, `@convex/`)
+- **ALWAYS** use TypeScript path aliases (`@/`)
 - This applies to ALL imports: components, lib, hooks, types, etc.
 
 | Pattern | Example |
 | ------- | ------- |
 | `@/` | `@/components/ui/button` (maps to `src/`) |
-| `@convex/` | `@convex/_generated/api` (maps to `convex/`) |
 
 ```tsx
 // CORRECT
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
-import { api } from "@convex/_generated/api";
 
 // WRONG - never do this
 import { Button } from "./ui/button";
 import { cn } from "../../lib/utils";
-import { api } from "../convex/_generated/api";
 ```
 
-## Convex (Backend & Realtime)
+## Authentication (Better Auth)
 
-Convex provides the reactive database, file storage, and realtime sync layer.
+Better Auth provides self-hosted authentication with database sessions and organization support.
+
+### Server Configuration
+
+```ts
+// src/lib/auth.ts
+import { betterAuth } from "better-auth";
+import { drizzleAdapter } from "better-auth/adapters/drizzle";
+import { db } from "@/lib/db";
+
+export const auth = betterAuth({
+  database: drizzleAdapter(db, { provider: "pg" }),
+  emailAndPassword: { enabled: true },
+  socialProviders: {
+    google: {
+      clientId: process.env.GOOGLE_CLIENT_ID!,
+      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
+    },
+    github: {
+      clientId: process.env.GITHUB_CLIENT_ID!,
+      clientSecret: process.env.GITHUB_CLIENT_SECRET!,
+    },
+  },
+  plugins: [
+    organization({ allowUserToCreateOrganization: true }),
+    nextCookies(),
+  ],
+});
+```
+
+### Client Usage
+
+```tsx
+// src/lib/auth-client.ts
+import { createAuthClient } from "better-auth/react";
+import { organizationClient } from "better-auth/client/plugins";
+
+export const authClient = createAuthClient({
+  baseURL: process.env.NEXT_PUBLIC_APP_URL,
+  plugins: [organizationClient()],
+});
+
+export const { signIn, signUp, signOut, useSession } = authClient;
+```
+
+## Database (Drizzle ORM)
+
+Drizzle ORM provides type-safe database access for PlanetScale Postgres.
 
 ### Schema Definition
 
 ```ts
-// convex/schema.ts
-import { defineSchema, defineTable } from "convex/server";
-import { v } from "convex/values";
+// src/lib/db/schema.ts
+import { pgTable, text, timestamp, boolean } from "drizzle-orm/pg-core";
 
-export default defineSchema({
-  notes: defineTable({
-    slug: v.string(),
-    title: v.string(),
-    content: v.string(),
-    locale: v.string(),
-  }).index("by_slug_locale", ["slug", "locale"]),
+export const notes = pgTable("notes", {
+  id: text("id").primaryKey(),
+  slug: text("slug").notNull(),
+  title: text("title").notNull(),
+  content: text("content").notNull(),
+  locale: text("locale").notNull(),
+  createdAt: timestamp("created_at").defaultNow(),
 });
 ```
 
-### Queries & Mutations
+### Query Usage
 
 ```ts
-// convex/functions/notes.ts
-import { query, mutation } from "../_generated/server";
-import { v } from "convex/values";
+// src/lib/db.ts
+import { drizzle } from "drizzle-orm/planetscale-serverless";
+import { connect } from "@planetscale/database";
+import * as schema from "./db/schema";
 
-export const get = query({
-  args: { slug: v.string(), locale: v.string() },
-  handler: async (ctx, args) => {
-    return await ctx.db
-      .query("notes")
-      .withIndex("by_slug_locale", (q) =>
-        q.eq("slug", args.slug).eq("locale", args.locale),
-      )
-      .unique();
-  },
-});
-```
-
-### Client Usage (React)
-
-```tsx
-import { useQuery, useMutation } from "convex/react";
-import { api } from "@/convex/_generated/api";
-
-function NotePane({ slug, locale }: { slug: string; locale: string }) {
-  const note = useQuery(api.functions.notes.get, { slug, locale });
-  // Automatically reactive - re-renders when data changes
-}
-```
-
-### ProseMirror Collaborative Editing
-
-```tsx
-import { useBlockNoteSync } from "@convex-dev/prosemirror-sync";
-import { api } from "@/convex/_generated/api";
-
-function Editor({ docId }: { docId: string }) {
-  const sync = useBlockNoteSync(api.prosemirrorSync, docId);
-  return sync.editor ? <BlockNote editor={sync.editor} /> : <Spinner />;
-}
+const connection = connect({ url: process.env.DATABASE_URL });
+export const db = drizzle(connection, { schema });
 ```
 
 ## Mastra (AI Agent System)

@@ -104,3 +104,32 @@ description: "Set up Drizzle ORM database layer for Better Auth on PlanetScale P
 
 1. Remove remaining Clerk runtime usage from page/render paths so build can complete without `useClerk` errors.
 2. Validate Next.js 16 proxy execution path for locale-prefixed URLs in local environment and re-run curl QA to confirm `307` redirects.
+
+## Migration Verification Sweep (Task 23)
+
+**Scope**: `apps/web`, repo root test runner
+
+### Changes Made
+
+| File | Change |
+| --- | --- |
+| `.sisyphus/evidence/task-23-typecheck.txt` | Captured `bun run type-check` output from `apps/web`. |
+| `.sisyphus/evidence/task-23-build.txt` | Captured `bun run build` output from `apps/web`. |
+| `.sisyphus/evidence/task-23-tests.txt` | Captured root `bun test` output and failure details. |
+
+### Technical Decisions
+
+1. **Runner parity with task request**: Executed type-check/build in `apps/web` and tests at repo root to match migration verification boundaries.
+2. **Evidence-first execution**: Streamed each command output directly into task-scoped evidence artifacts for auditability.
+3. **Failure surfaced without suppression**: Kept failing `bun test` output intact and reported the unhandled Playwright `test.describe()` usage error.
+
+### Verification
+
+- TypeScript: Pass (`apps/web && bun run type-check`)
+- Build: Pass (`apps/web && bun run build`)
+- Tests: Fail (`bun test` from root; Playwright unhandled error in `apps/web/e2e/core-journey.spec.ts`)
+
+### Next Steps
+
+1. Move Playwright E2E execution to `playwright test` (or isolate E2E files from Bun test discovery) so `bun test` does not load Playwright suites directly.
+2. Re-run `bun test` after runner separation and refresh `.sisyphus/evidence/task-23-tests.txt`.
