@@ -9,16 +9,12 @@ const clientEnvSchema = z.object({
     .url()
     .optional()
     .default("https://us.i.posthog.com"),
-  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY: z.string().min(1, {
-    message:
-      "Missing NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY. Get your key at https://dashboard.clerk.com/last-active?path=api-keys",
-  }),
+  NEXT_PUBLIC_APP_URL: z.string().default("http://localhost:3000"),
 })
 
 export const clientEnv = clientEnvSchema.parse({
   NODE_ENV: process.env.NODE_ENV,
   NEXT_PUBLIC_POSTHOG_KEY: process.env.NEXT_PUBLIC_POSTHOG_KEY,
   NEXT_PUBLIC_POSTHOG_HOST: process.env.NEXT_PUBLIC_POSTHOG_HOST,
-  NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY:
-    process.env.NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY,
+  NEXT_PUBLIC_APP_URL: process.env.NEXT_PUBLIC_APP_URL,
 })
