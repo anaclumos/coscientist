@@ -1,10 +1,5 @@
 
-# clerk configuration (can include secrets)
-/.clerk/
-
 .env.local
 
 # Sentry Config File
 .env.sentry-build-plugin
-
-drizzle/

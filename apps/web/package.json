@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "drizzle-kit migrate && next build",
     "start": "next start",
     "test": "vitest",
     "test:e2e": "playwright test",
@@ -13,6 +13,7 @@
     "format": "bun x ultracite fix",
     "type-check": "tsc --noEmit",
     "db:generate": "drizzle-kit generate",
+    "db:migrate": "drizzle-kit migrate",
     "db:push": "drizzle-kit push",
     "db:studio": "drizzle-kit studio"
   },
