@@ -1,7 +1,5 @@
 "use client"
 
-import { GithubIcon, GoogleIcon } from "@hugeicons/core-free-icons"
-import { HugeiconsIcon } from "@hugeicons/react"
 import Link from "next/link"
 import { useParams } from "next/navigation"
 import { useState } from "react"
@@ -18,20 +16,6 @@ export default function SignInPage() {
   const [password, setPassword] = useState("")
   const [error, setError] = useState("")
   const [isLoading, setIsLoading] = useState(false)
-
-  const handleSocialSignIn = async (provider: "google" | "github") => {
-    setIsLoading(true)
-    setError("")
-    try {
-      await signIn.social({
-        provider,
-        callbackURL: `/${locale}`,
-      })
-    } catch {
-      setError("Failed to sign in with social provider")
-      setIsLoading(false)
-    }
-  }
 
   const handleEmailSignIn = async (e: React.FormEvent) => {
     e.preventDefault()
@@ -50,7 +34,7 @@ export default function SignInPage() {
             setError(ctx.error.message)
             setIsLoading(false)
           },
-          onSuccess: () => {},
+          onSuccess: () => undefined,
         }
       )
     } catch {
@@ -66,38 +50,6 @@ export default function SignInPage() {
           <CardTitle className="text-2xl">Sign In</CardTitle>
         </CardHeader>
         <CardContent className="space-y-4">
-          <div className="grid grid-cols-2 gap-4">
-            <Button
-              className="w-full"
-              disabled={isLoading}
-              onClick={() => handleSocialSignIn("google")}
-              variant="outline"
-            >
-              <HugeiconsIcon className="mr-2" icon={GoogleIcon} size={20} />
-              Google
-            </Button>
-            <Button
-              className="w-full"
-              disabled={isLoading}
-              onClick={() => handleSocialSignIn("github")}
-              variant="outline"
-            >
-              <HugeiconsIcon className="mr-2" icon={GithubIcon} size={20} />
-              GitHub
-            </Button>
-          </div>
-
-          <div className="relative">
-            <div className="absolute inset-0 flex items-center">
-              <span className="w-full border-t" />
-            </div>
-            <div className="relative flex justify-center text-xs uppercase">
-              <span className="bg-background px-2 text-muted-foreground">
-                Or continue with
-              </span>
-            </div>
-          </div>
-
           <form className="space-y-4" onSubmit={handleEmailSignIn}>
             <div className="space-y-2">
               <Input

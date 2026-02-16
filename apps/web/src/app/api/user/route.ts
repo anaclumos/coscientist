@@ -10,8 +10,7 @@ export async function GET(request: Request) {
 
   return NextResponse.json({
     id: session.user.id,
-    firstName: session.user.name?.split(" ")[0] || null,
-    lastName: session.user.name?.split(" ").slice(1).join(" ") || null,
+    name: session.user.name,
     email: session.user.email,
   })
 }

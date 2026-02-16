@@ -37,7 +37,6 @@ export function OrgSwitcher() {
   }
 
   const handleCreateOrg = () => {
-    console.log("Create organization clicked")
     setOpen(false)
   }
 

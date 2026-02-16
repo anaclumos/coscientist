@@ -6,6 +6,29 @@ import { auth } from "@/lib/auth"
 import { db } from "@/lib/db"
 import { organizationSettings } from "@/lib/db/schema"
 
+export async function GET() {
+  const session = await auth.api.getSession({
+    headers: await headers(),
+  })
+
+  if (!session) {
+    return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+  }
+
+  const orgId = session.session.activeOrganizationId
+  if (!orgId) {
+    return NextResponse.json({ hasKey: false })
+  }
+
+  const [settings] = await db
+    .select({ hasOpenaiKey: organizationSettings.hasOpenaiKey })
+    .from(organizationSettings)
+    .where(eq(organizationSettings.organizationId, orgId))
+    .limit(1)
+
+  return NextResponse.json({ hasKey: settings?.hasOpenaiKey ?? false })
+}
+
 export async function POST(request: Request) {
   const session = await auth.api.getSession({
     headers: await headers(),

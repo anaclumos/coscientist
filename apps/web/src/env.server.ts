@@ -11,10 +11,6 @@ const serverEnvSchema = z.object({
     message: "Missing BETTER_AUTH_SECRET. Required for authentication.",
   }),
   BETTER_AUTH_URL: z.string().url().optional().default("http://localhost:3000"),
-  GOOGLE_CLIENT_ID: z.string().optional().default(""),
-  GOOGLE_CLIENT_SECRET: z.string().optional().default(""),
-  GITHUB_CLIENT_ID: z.string().optional().default(""),
-  GITHUB_CLIENT_SECRET: z.string().optional().default(""),
 })
 
 const serverOnlyEnv = serverEnvSchema.parse({
@@ -22,10 +18,6 @@ const serverOnlyEnv = serverEnvSchema.parse({
   DATABASE_URL: process.env.DATABASE_URL,
   BETTER_AUTH_SECRET: process.env.BETTER_AUTH_SECRET,
   BETTER_AUTH_URL: process.env.BETTER_AUTH_URL,
-  GOOGLE_CLIENT_ID: process.env.GOOGLE_CLIENT_ID,
-  GOOGLE_CLIENT_SECRET: process.env.GOOGLE_CLIENT_SECRET,
-  GITHUB_CLIENT_ID: process.env.GITHUB_CLIENT_ID,
-  GITHUB_CLIENT_SECRET: process.env.GITHUB_CLIENT_SECRET,
 })
 
 export const serverEnv = {
