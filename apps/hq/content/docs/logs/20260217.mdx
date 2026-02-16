@@ -69,3 +69,38 @@ description: "Set up Drizzle ORM database layer for Better Auth on PlanetScale P
 
 1. Wire Better Auth session checks into proxy/page guards for protected routes.
 2. Replace Clerk usage in organization settings API route with Better Auth organization/session APIs.
+
+## Better Auth Proxy Middleware Rewrite (Task 8)
+
+**Scope**: `apps/web`
+
+### Changes Made
+
+| File | Change |
+| --- | --- |
+| `apps/web/src/proxy.ts` | Replaced Clerk middleware with Better Auth cookie check (`getSessionCookie`), preserved next-intl routing middleware integration, and kept locale query-param cookie switching logic. |
+| `apps/web/src/proxy.ts` | Added protected-route redirects for `/:locale/profile` and `/:locale/:orgSlug/settings` to `/sign-in` when session cookie is absent. |
+| `apps/web/src/proxy.ts` | Added signed-in redirect behavior for `/sign-in` and `/sign-up` to locale home. |
+| `apps/web/src/proxy.ts` | Added org-slug collision guard to reject locale strings as org slugs in settings routes. |
+| `.sisyphus/notepads/better-auth-migration/issues.md` | Appended Task 8 routing edge cases and middleware caveats. |
+| `.sisyphus/evidence/task-8-build.txt` | Captured build verification result and blocking error context. |
+| `.sisyphus/evidence/task-8-curl.txt` | Captured curl QA scenario commands and observed HTTP status codes. |
+| `.sisyphus/evidence/task-8-lsp.txt` | Captured LSP diagnostics result for updated proxy file. |
+
+### Technical Decisions
+
+1. **Cookie-existence middleware check only**: Used `getSessionCookie(request.headers)` in proxy to avoid DB access and keep middleware edge-safe.
+2. **Locale-aware path normalization**: Normalized locale-prefixed paths before auth-page checks so `/en/sign-in` and `/en/sign-up` follow signed-in redirects consistently.
+3. **Slug collision prevention at middleware boundary**: Treated locale codes as invalid org slugs for settings routes and redirected to locale home to prevent locale/org routing ambiguity.
+
+### Verification
+
+- LSP diagnostics: Pass (`apps/web/src/proxy.ts`)
+- Build: Fail (`bun run build`) due to existing Clerk usage during prerender (`useClerk` outside `ClerkProvider`), outside proxy rewrite scope
+- Curl route checks: Fail in current local run (`/en/profile` returned `404` instead of expected `307`)
+- Tests: Not run (not requested)
+
+### Next Steps
+
+1. Remove remaining Clerk runtime usage from page/render paths so build can complete without `useClerk` errors.
+2. Validate Next.js 16 proxy execution path for locale-prefixed URLs in local environment and re-run curl QA to confirm `307` redirects.

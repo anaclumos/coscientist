@@ -69,3 +69,38 @@ description: "PlanetScale Postgres용 Better Auth + Drizzle ORM 데이터베이�
 
 1. 보호 라우트에 Better Auth 세션 검증(프록시/페이지 단)을 연결.
 2. 조직 설정 API 라우트의 Clerk 의존을 Better Auth 조직/세션 API로 전환.
+
+## Better Auth 프록시 미들웨어 재작성 (Task 8)
+
+**범위**: `apps/web`
+
+### 변경 사항
+
+| 파일 | 변경 사항 |
+| --- | --- |
+| `apps/web/src/proxy.ts` | Clerk 미들웨어를 제거하고 `getSessionCookie` 기반 Better Auth 쿠키 체크로 전환했으며, next-intl 미들웨어 통합과 `?locale=` 쿠키 전환 로직을 유지. |
+| `apps/web/src/proxy.ts` | 세션 쿠키가 없을 때 `/:locale/profile`, `/:locale/:orgSlug/settings`를 `/sign-in`으로 리다이렉트하도록 보호 라우트 정책을 추가. |
+| `apps/web/src/proxy.ts` | 세션 쿠키가 있을 때 `/sign-in`, `/sign-up` 접근 시 로케일 홈으로 리다이렉트하도록 추가. |
+| `apps/web/src/proxy.ts` | 설정 라우트에서 org slug가 로케일 문자열과 충돌하면 거부하도록 충돌 방지 가드를 추가. |
+| `.sisyphus/notepads/better-auth-migration/issues.md` | Task 8 라우팅 엣지 케이스와 미들웨어 주의사항을 기록. |
+| `.sisyphus/evidence/task-8-build.txt` | 빌드 검증 결과와 차단 오류 컨텍스트를 저장. |
+| `.sisyphus/evidence/task-8-curl.txt` | curl QA 시나리오 명령과 HTTP 상태 결과를 저장. |
+| `.sisyphus/evidence/task-8-lsp.txt` | 수정 파일 LSP 진단 결과를 저장. |
+
+### 기술적 결정
+
+1. **미들웨어에서는 쿠키 존재 여부만 확인**: Edge 환경 안전성과 비용을 위해 DB 조회 없이 `getSessionCookie(request.headers)`만 사용.
+2. **로케일 접두 경로 정규화**: `/en/sign-in`, `/en/sign-up`도 동일한 인증 페이지 리다이렉트 규칙을 적용하도록 경로를 정규화.
+3. **라우팅 충돌 선제 차단**: 설정 라우트에서 로케일 코드를 org slug로 허용하지 않아 locale/org 경로 충돌을 미들웨어에서 차단.
+
+### 검증
+
+- LSP diagnostics: 통과 (`apps/web/src/proxy.ts`)
+- Build: 실패 (`bun run build`) — prerender 중 기존 Clerk 런타임 의존(`useClerk`) 오류로 중단됨 (프록시 재작성 범위 외)
+- Curl 라우트 확인: 현재 로컬 실행에서 실패 (`/en/profile`이 기대값 `307` 대신 `404` 반환)
+- Tests: 미실행 (요청 없음)
+
+### 다음 단계
+
+1. 페이지/렌더 경로의 잔여 Clerk 의존성을 제거해 빌드가 `useClerk` 오류 없이 완료되도록 정리.
+2. Next.js 16 프록시 실행 경로를 로컬에서 재확인한 뒤 curl QA를 재실행해 `307` 리다이렉트를 검증.
