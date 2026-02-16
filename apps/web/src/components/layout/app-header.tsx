@@ -1,13 +1,6 @@
 "use client"
 
 import {
-  OrganizationSwitcher,
-  SignedIn,
-  SignedOut,
-  UserButton,
-  useClerk,
-} from "@clerk/nextjs"
-import {
   ArrowLeft01Icon,
   ArrowRight01Icon,
   ArrowUpRight01Icon,
@@ -22,6 +15,7 @@ import { useLocale, useTranslations } from "next-intl"
 import { useTheme } from "next-themes"
 import { useQueryStates } from "nuqs"
 import { useEffect, useState } from "react"
+import { OrgSwitcher, SignedIn, SignedOut, UserMenu } from "@/components/auth"
 import { HeaderLogo } from "@/components/header-logo"
 import { LanguageSwitcher, localeNames } from "@/components/language-switcher"
 import { ThemeToggle } from "@/components/theme-toggle"
@@ -66,8 +60,6 @@ export function AppHeader({
   const tLanguage = useTranslations("languageSwitcher")
   const tTheme = useTranslations("theme")
   const tNavigation = useTranslations("navigation")
-  const { openWaitlist } = useClerk()
-
   const [isMainOpen, setIsMainOpen] = useState(false)
   const [isLanguageOpen, setIsLanguageOpen] = useState(false)
   const [isThemeOpen, setIsThemeOpen] = useState(false)
@@ -115,7 +107,7 @@ export function AppHeader({
     setIsMainOpen(false)
   }
 
-  const handleWaitlist = () => openWaitlist()
+  const handleWaitlist = () => router.push(`/${locale}/sign-up`)
 
   return (
     <header className="sticky top-0 z-50 flex h-16 flex-shrink-0 items-center justify-between border-border border-b bg-card px-6">
@@ -132,28 +124,9 @@ export function AppHeader({
 
           {/* Signed In: Show org switcher and user button */}
           <SignedIn>
-            <OrganizationSwitcher
-              afterCreateOrganizationUrl={`/${locale}/:slug`}
-              afterLeaveOrganizationUrl={`/${locale}`}
-              afterSelectOrganizationUrl={`/${locale}/:slug`}
-              appearance={{
-                elements: {
-                  rootBox: "flex items-center",
-                  organizationSwitcherTrigger:
-                    "rounded-md border border-input bg-background px-3 py-2 text-sm hover:bg-accent hover:text-accent-foreground",
-                },
-              }}
-              hideSlug={false}
-            />
+            <OrgSwitcher />
             <GroupSeparator />
-            <UserButton
-              afterSignOutUrl={`/${locale}`}
-              appearance={{
-                elements: {
-                  avatarBox: "h-8 w-8",
-                },
-              }}
-            />
+            <UserMenu />
             <GroupSeparator />
           </SignedIn>
 
@@ -203,27 +176,8 @@ export function AppHeader({
                 {/* Mobile: Signed In - Show org switcher and user info */}
                 <SignedIn>
                   <div className="mb-2 flex items-center justify-between gap-2 rounded-md border p-3">
-                    <OrganizationSwitcher
-                      afterCreateOrganizationUrl={`/${locale}/:slug`}
-                      afterLeaveOrganizationUrl={`/${locale}`}
-                      afterSelectOrganizationUrl={`/${locale}/:slug`}
-                      appearance={{
-                        elements: {
-                          rootBox: "flex-1",
-                          organizationSwitcherTrigger:
-                            "w-full justify-start text-sm",
-                        },
-                      }}
-                      hideSlug={false}
-                    />
-                    <UserButton
-                      afterSignOutUrl={`/${locale}`}
-                      appearance={{
-                        elements: {
-                          avatarBox: "h-8 w-8",
-                        },
-                      }}
-                    />
+                    <OrgSwitcher />
+                    <UserMenu />
                   </div>
                   <Separator className="my-2" />
                 </SignedIn>

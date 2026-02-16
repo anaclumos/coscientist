@@ -1,56 +1,35 @@
-"use client"
+import { headers } from "next/headers"
+import { redirect } from "next/navigation"
+import type { ReactNode } from "react"
 
-import { useOrganization, useOrganizationList } from "@clerk/nextjs"
-import { useParams, useRouter } from "next/navigation"
-import { type ReactNode, useEffect } from "react"
+import { auth } from "@/lib/auth"
 
 interface OrgSlugLayoutProps {
   children: ReactNode
+  params: Promise<{ locale: string; orgSlug: string }>
 }
 
-export default function OrgSlugLayout({ children }: OrgSlugLayoutProps) {
-  const params = useParams()
-  const router = useRouter()
-  const orgSlug = params.orgSlug as string
-  const locale = params.locale as string
+export default async function OrgSlugLayout({
+  children,
+  params,
+}: OrgSlugLayoutProps) {
+  const { locale, orgSlug } = await params
+  const hdrs = await headers()
 
-  const { organization, isLoaded: isOrgLoaded } = useOrganization()
-  const { setActive, isLoaded: isListLoaded } = useOrganizationList()
+  const session = await auth.api.getSession({ headers: hdrs })
 
-  useEffect(() => {
-    if (!(isOrgLoaded && isListLoaded && setActive)) {
-      return
-    }
-
-    if (organization?.slug !== orgSlug) {
-      setActive({ organization: orgSlug }).catch(() => {
-        router.replace(`/${locale}`)
-      })
-    }
-  }, [
-    organization,
-    orgSlug,
-    isOrgLoaded,
-    isListLoaded,
-    setActive,
-    router,
-    locale,
-  ])
-
-  if (!(isOrgLoaded && isListLoaded)) {
-    return (
-      <div className="flex min-h-screen items-center justify-center">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-muted border-t-primary" />
-      </div>
-    )
+  if (!session) {
+    redirect(`/${locale}/sign-in`)
   }
 
-  if (organization?.slug !== orgSlug) {
-    return (
-      <div className="flex min-h-screen items-center justify-center">
-        <div className="h-8 w-8 animate-spin rounded-full border-4 border-muted border-t-primary" />
-      </div>
-    )
+  const orgs = await auth.api.listOrganizations({ headers: hdrs })
+
+  const matchingOrg = orgs?.find(
+    (org: { slug: string }) => org.slug === orgSlug
+  )
+
+  if (!matchingOrg) {
+    redirect(`/${locale}`)
   }
 
   return <>{children}</>

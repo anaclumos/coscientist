@@ -1,6 +1,5 @@
 "use client"
 
-import { useOrganization, useUser } from "@clerk/nextjs"
 import { Key01Icon, Tick01Icon } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
 import { useParams, useRouter } from "next/navigation"
@@ -14,13 +13,15 @@ import {
   CardTitle,
 } from "@/components/ui/card"
 import { Input } from "@/components/ui/input"
+import { authClient, useSession } from "@/lib/auth-client"
 
 export default function SettingsPage() {
   const params = useParams()
   const router = useRouter()
   const locale = params.locale as string
-  const { user, isLoaded: isUserLoaded } = useUser()
-  const { organization, isLoaded: isOrgLoaded } = useOrganization()
+  const { data: session, isPending: isSessionPending } = useSession()
+  const { data: activeOrg, isPending: isOrgPending } =
+    authClient.useActiveOrganization()
 
   const [apiKey, setApiKey] = useState("")
   const [isUpdating, setIsUpdating] = useState(false)
@@ -28,12 +29,20 @@ export default function SettingsPage() {
   const [hasKey, setHasKey] = useState(false)
 
   useEffect(() => {
-    if (organization?.publicMetadata) {
-      setHasKey(!!organization.publicMetadata.hasOpenAIKey)
+    if (!activeOrg?.id) {
+      return
     }
-  }, [organization])
+    const checkKeyStatus = async () => {
+      const response = await fetch("/api/settings/openai-key").catch(() => null)
+      if (response?.ok) {
+        const data = await response.json()
+        setHasKey(data.hasKey ?? false)
+      }
+    }
+    checkKeyStatus()
+  }, [activeOrg?.id])
 
-  if (!(isUserLoaded && isOrgLoaded)) {
+  if (isSessionPending || isOrgPending) {
     return (
       <main className="container mx-auto max-w-2xl px-6 py-16">
         <div className="h-8 w-32 animate-pulse rounded bg-muted" />
@@ -41,12 +50,12 @@ export default function SettingsPage() {
     )
   }
 
-  if (!user) {
+  if (!session?.user) {
     router.push(`/${locale}`)
     return null
   }
 
-  if (!organization) {
+  if (!activeOrg) {
     router.push(`/${locale}`)
     return null
   }

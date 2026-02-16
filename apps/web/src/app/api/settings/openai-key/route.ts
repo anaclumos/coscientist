@@ -1,11 +1,26 @@
-import { auth, clerkClient } from "@clerk/nextjs/server"
+import { eq } from "drizzle-orm"
+import { headers } from "next/headers"
 import { NextResponse } from "next/server"
 
-export async function POST(request: Request) {
-  const { userId, orgId } = await auth()
+import { auth } from "@/lib/auth"
+import { db } from "@/lib/db"
+import { organizationSettings } from "@/lib/db/schema"
 
-  if (!(userId && orgId)) {
+export async function POST(request: Request) {
+  const session = await auth.api.getSession({
+    headers: await headers(),
+  })
+
+  if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
+  }
+
+  const orgId = session.session.activeOrganizationId
+  if (!orgId) {
+    return NextResponse.json(
+      { error: "No active organization" },
+      { status: 403 }
+    )
   }
 
   const { apiKey } = await request.json()
@@ -14,29 +29,51 @@ export async function POST(request: Request) {
     return NextResponse.json({ error: "Invalid API key" }, { status: 400 })
   }
 
-  const client = await clerkClient()
-
-  await client.organizations.updateOrganization(orgId, {
-    privateMetadata: { openaiApiKey: apiKey },
-    publicMetadata: { hasOpenAIKey: true },
-  })
+  await db
+    .insert(organizationSettings)
+    .values({
+      id: crypto.randomUUID(),
+      organizationId: orgId,
+      openaiApiKey: apiKey,
+      hasOpenaiKey: true,
+    })
+    .onConflictDoUpdate({
+      target: organizationSettings.organizationId,
+      set: {
+        openaiApiKey: apiKey,
+        hasOpenaiKey: true,
+        updatedAt: new Date(),
+      },
+    })
 
   return NextResponse.json({ success: true })
 }
 
 export async function DELETE() {
-  const { userId, orgId } = await auth()
+  const session = await auth.api.getSession({
+    headers: await headers(),
+  })
 
-  if (!(userId && orgId)) {
+  if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
   }
 
-  const client = await clerkClient()
+  const orgId = session.session.activeOrganizationId
+  if (!orgId) {
+    return NextResponse.json(
+      { error: "No active organization" },
+      { status: 403 }
+    )
+  }
 
-  await client.organizations.updateOrganization(orgId, {
-    privateMetadata: { openaiApiKey: null },
-    publicMetadata: { hasOpenAIKey: false },
-  })
+  await db
+    .update(organizationSettings)
+    .set({
+      openaiApiKey: null,
+      hasOpenaiKey: false,
+      updatedAt: new Date(),
+    })
+    .where(eq(organizationSettings.organizationId, orgId))
 
   return NextResponse.json({ success: true })
 }

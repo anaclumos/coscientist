@@ -1,21 +1,23 @@
 "use client"
 
-import { SignedIn, SignedOut, useClerk, useOrganization } from "@clerk/nextjs"
 import { ArrowRight01Icon } from "@hugeicons/core-free-icons"
 import { HugeiconsIcon } from "@hugeicons/react"
 import { motion, useReducedMotion } from "motion/react"
 import Link from "next/link"
+import { useRouter } from "next/navigation"
 import { useLocale, useTranslations } from "next-intl"
 
+import { SignedIn, SignedOut } from "@/components/auth"
 import { Button } from "@/components/ui/button"
 import { reducedMotionTransition, springSubtle } from "@/lib/animations"
+import { authClient } from "@/lib/auth-client"
 
 export function HeroCTA() {
   const t = useTranslations("landing.hero")
   const tHeader = useTranslations("header")
   const prefersReducedMotion = useReducedMotion()
-  const { openWaitlist } = useClerk()
-  const { organization } = useOrganization()
+  const router = useRouter()
+  const { data: organization } = authClient.useActiveOrganization()
   const locale = useLocale()
 
   const labHref = organization?.slug
@@ -44,7 +46,11 @@ export function HeroCTA() {
         />
       </Button>
       <SignedOut>
-        <Button onClick={() => openWaitlist()} size="lg" variant="secondary">
+        <Button
+          onClick={() => router.push(`/${locale}/sign-up`)}
+          size="lg"
+          variant="secondary"
+        >
           {tHeader("joinWaitlist")}
         </Button>
       </SignedOut>

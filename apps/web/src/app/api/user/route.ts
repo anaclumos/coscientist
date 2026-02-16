@@ -1,19 +1,17 @@
-import { auth, currentUser } from "@clerk/nextjs/server"
 import { NextResponse } from "next/server"
+import { auth } from "@/lib/auth"
 
-export async function GET() {
-  const { userId } = await auth()
+export async function GET(request: Request) {
+  const session = await auth.api.getSession({ headers: request.headers })
 
-  if (!userId) {
+  if (!session) {
     return NextResponse.json({ error: "Unauthorized" }, { status: 401 })
   }
 
-  const user = await currentUser()
-
   return NextResponse.json({
-    id: user?.id,
-    firstName: user?.firstName,
-    lastName: user?.lastName,
-    email: user?.emailAddresses[0]?.emailAddress,
+    id: session.user.id,
+    firstName: session.user.name?.split(" ")[0] || null,
+    lastName: session.user.name?.split(" ").slice(1).join(" ") || null,
+    email: session.user.email,
   })
 }

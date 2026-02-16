@@ -1,14 +1,15 @@
-import { auth, currentUser } from "@clerk/nextjs/server"
+import { headers } from "next/headers"
 import { redirect } from "next/navigation"
+import { auth } from "@/lib/auth"
 
 export default async function ProfilePage() {
-  const { userId } = await auth()
+  const session = await auth.api.getSession({ headers: await headers() })
 
-  if (!userId) {
+  if (!session) {
     redirect("/")
   }
 
-  const user = await currentUser()
+  const user = session.user
 
   return (
     <main className="container mx-auto max-w-prose px-6 py-16">
@@ -24,20 +25,16 @@ export default async function ProfilePage() {
           <dl className="space-y-2">
             <div>
               <dt className="font-medium">Name:</dt>
-              <dd className="text-muted-foreground">
-                {user?.firstName} {user?.lastName}
-              </dd>
+              <dd className="text-muted-foreground">{user?.name}</dd>
             </div>
             <div>
               <dt className="font-medium">Email:</dt>
-              <dd className="text-muted-foreground">
-                {user?.emailAddresses[0]?.emailAddress}
-              </dd>
+              <dd className="text-muted-foreground">{user?.email}</dd>
             </div>
             <div>
               <dt className="font-medium">User ID:</dt>
               <dd className="font-mono text-muted-foreground text-sm">
-                {userId}
+                {user?.id}
               </dd>
             </div>
           </dl>
@@ -47,17 +44,13 @@ export default async function ProfilePage() {
           <p className="text-muted-foreground text-sm">
             This is an example protected page. It uses{" "}
             <code className="rounded bg-background px-1 py-0.5 font-mono text-xs">
-              auth()
+              auth.api.getSession()
             </code>{" "}
             from{" "}
             <code className="rounded bg-background px-1 py-0.5 font-mono text-xs">
-              @clerk/nextjs/server
+              @/lib/auth
             </code>{" "}
-            to check authentication and{" "}
-            <code className="rounded bg-background px-1 py-0.5 font-mono text-xs">
-              currentUser()
-            </code>{" "}
-            to fetch user data server-side.
+            to check authentication and fetch user data server-side.
           </p>
         </div>
       </div>
