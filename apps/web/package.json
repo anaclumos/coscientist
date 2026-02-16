@@ -4,18 +4,14 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "drizzle-kit migrate && next build",
+    "build": "next build",
     "start": "next start",
     "test": "vitest",
     "test:e2e": "playwright test",
     "test:e2e:ui": "playwright test --ui",
     "lint": "bun x ultracite check",
     "format": "bun x ultracite fix",
-    "type-check": "tsc --noEmit",
-    "db:generate": "drizzle-kit generate",
-    "db:migrate": "drizzle-kit migrate",
-    "db:push": "drizzle-kit push",
-    "db:studio": "drizzle-kit studio"
+    "type-check": "tsc --noEmit"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",
@@ -30,11 +26,11 @@
     "@sentry/nextjs": "^10",
     "@vercel/analytics": "^1.6.1",
     "@vercel/speed-insights": "^1.3.1",
-    "better-auth": "^1.4.18",
+
     "botid": "^1.5.10",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
-    "drizzle-orm": "^0.45.1",
+
     "eiab": "^0.2.0",
     "gray-matter": "^4.0.3",
     "html-react-parser": "^5.2.11",
@@ -44,7 +40,7 @@
     "next-intl": "^4.7.0",
     "next-themes": "^0.4.6",
     "nuqs": "^2.8.6",
-    "postgres": "^3.4.8",
+
     "posthog-js": "^1.322.0",
     "react": "19.2.3",
     "react-dom": "19.2.3",
@@ -64,11 +60,11 @@
     "@testing-library/user-event": "^14.6.1",
     "@types/mdast": "^4.0.4",
     "@types/node": "^25",
-    "@types/pg": "^8.16.0",
+
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "@vitejs/plugin-react": "^5.1.2",
-    "drizzle-kit": "^0.31.9",
+
     "jsdom": "^27.4.0",
     "lefthook": "^2.0.15",
     "tailwindcss": "^4",

@@ -35,3 +35,4 @@ dist
 # Misc
 .DS_Store
 *.pem
+.env*.local

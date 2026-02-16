@@ -15,7 +15,6 @@ import { useLocale, useTranslations } from "next-intl"
 import { useTheme } from "next-themes"
 import { useQueryStates } from "nuqs"
 import { useEffect, useState } from "react"
-import { OrgSwitcher, SignedIn, SignedOut, UserMenu } from "@/components/auth"
 import { HeaderLogo } from "@/components/header-logo"
 import { LanguageSwitcher, localeNames } from "@/components/language-switcher"
 import { ThemeToggle } from "@/components/theme-toggle"
@@ -56,7 +55,6 @@ export function AppHeader({
   brandWithManifesto,
   githubLabel,
 }: AppHeaderProps) {
-  const t = useTranslations("header")
   const tLanguage = useTranslations("languageSwitcher")
   const tTheme = useTranslations("theme")
   const tNavigation = useTranslations("navigation")
@@ -107,29 +105,11 @@ export function AppHeader({
     setIsMainOpen(false)
   }
 
-  const handleWaitlist = () => router.push(`/${locale}/sign-up`)
-
   return (
     <header className="sticky top-0 z-50 flex h-16 flex-shrink-0 items-center justify-between border-border border-b bg-card px-6">
       <HeaderLogo brand={brand} brandWithManifesto={brandWithManifesto} />
       <div className="flex items-center gap-2">
         <Group aria-label="Header actions" className="hidden sm:flex">
-          {/* Signed Out: Show waitlist button */}
-          <SignedOut>
-            <Button onClick={handleWaitlist} variant="outline">
-              {t("joinWaitlist")}
-            </Button>
-            <GroupSeparator />
-          </SignedOut>
-
-          {/* Signed In: Show org switcher and user button */}
-          <SignedIn>
-            <OrgSwitcher />
-            <GroupSeparator />
-            <UserMenu />
-            <GroupSeparator />
-          </SignedIn>
-
           <Button
             render={
               <a
@@ -173,26 +153,6 @@ export function AppHeader({
             </SheetHeader>
             <SheetPanel>
               <div className="flex flex-col gap-1">
-                {/* Mobile: Signed In - Show org switcher and user info */}
-                <SignedIn>
-                  <div className="mb-2 flex items-center justify-between gap-2 rounded-md border p-3">
-                    <OrgSwitcher />
-                    <UserMenu />
-                  </div>
-                  <Separator className="my-2" />
-                </SignedIn>
-
-                {/* Mobile: Signed Out - Show waitlist */}
-                <SignedOut>
-                  <Button
-                    className="h-12 w-full justify-start px-2 font-normal text-base"
-                    onClick={handleWaitlist}
-                    variant="ghost"
-                  >
-                    {t("joinWaitlist")}
-                  </Button>
-                </SignedOut>
-
                 <Button
                   className="h-12 w-full justify-start gap-2 px-2 font-normal text-base"
                   render={
