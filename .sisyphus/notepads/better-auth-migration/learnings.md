@@ -1,43 +1,16 @@
-## Convex Path Alias Cleanup (Task 4)
 
-**Finding**: Convex was aspirational architecture, never implemented in apps/web.
+## Auth UI Components (Task 9)
 
-**Evidence**: 
-- No `convex/` directory exists in apps/web
-- Path alias `"@/convex/*": ["./convex/*"]` in tsconfig.json was dead code
-- Removed from paths section; zero "convex" strings remain
+**Finding**: Better Auth client hooks (`useListOrganizations`, `useActiveOrganization`) are not exported by default from `createAuthClient`.
 
-**Lesson**: Aspirational architecture paths should be removed during cleanup phases to keep tsconfig clean and prevent confusion about what's actually implemented.
+**Solution**:
+- Exported `authClient` from `apps/web/src/lib/auth-client.ts` to access organization hooks.
+- Created custom UI components (`UserMenu`, `OrgSwitcher`) using COSS/UI primitives (`Popover`, `Button`, `Avatar`).
+- Replaced Clerk's `SignedIn`/`SignedOut` with custom wrappers using `useSession`.
 
-**Status**: ✓ Cleaned up
+**Pattern**:
+- `UserMenu`: Uses `Avatar` and `Popover` to show user info and sign out button.
+- `OrgSwitcher`: Uses `Popover` to list organizations and switch active org.
+- `SignedIn`/`SignedOut`: Conditional rendering based on session state.
 
-## Better Auth Drizzle Schema Generation (Task 5)
-
-**Finding**: Better Auth CLI `generate` requires a resolvable auth config file; without `auth.ts` (or `--config`) it fails immediately before writing schema output.
-
-**Generated Core Tables**:
-- `user`
-- `session` (includes `activeOrganizationId`)
-- `account`
-- `verification`
-- `organization`
-- `member`
-- `invitation`
-
-**Relationship Notes**:
-- `session.userId -> user.id` (cascade delete)
-- `account.userId -> user.id` (cascade delete)
-- `member.organizationId -> organization.id` (cascade delete)
-- `member.userId -> user.id` (cascade delete)
-- `invitation.organizationId -> organization.id` (cascade delete)
-- `invitation.inviterId -> user.id` (cascade delete)
-
-**Custom Table Added**:
-- `organization_settings` with 1:1 relationship to `organization` via unique `organization_id`
-- Fields mirror existing Clerk metadata usage from openai-key route:
-  - `openai_api_key` (private secret)
-  - `has_openai_key` (public boolean)
-
-**ID Convention**:
-- Better Auth defaults to `text` primary keys for auth tables.
-- Custom `organization_settings.id` also uses `text` PK to maintain consistency and avoid UUID column types.
+**Status**: ✓ Components created and exported.
