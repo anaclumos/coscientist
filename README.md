@@ -13,7 +13,7 @@ Coscientist is a cognitive exoskeleton designed to
 
 Coscientist is an open-source intellectual companion system for knowledge production in the post-AI era. Inspired by Isaac Asimov's fictional Encyclopedia Galactica, it goes beyond being a mere knowledge repository. It's designed to be an active thinking partner that performs "contemplation labor" alongside its human user (called the "Operator").
 
-**We build in public.** All our architecture decisions, development progress, and technical rationale are documented and accessible at [hq.coscientist.app](https://hq.coscientist.app). We believe in radical transparency—not just in how knowledge should be verified, but in how we build the tools for verification.
+**We build in public.** We believe in radical transparency—not just in how knowledge should be verified, but in how we build the tools for verification.
 
 The core problem it solves... **Tokens ≠ Knowledge**. In a world flooded with AI Slops, traditional knowledge systems collapse because:
 
@@ -170,32 +170,17 @@ A network of interconnected Coscientist instances at personal, organizational, a
 
 It's not an AI that answers your questions. It's an AI that thinks alongside you while you remain the author of your knowledge.
 
-## Development Transparency
-
-We practice radical transparency in our development process. All architectural decisions, technical rationale, and development progress are publicly documented at **[hq.coscientist.app](https://hq.coscientist.app)** — our development headquarters.
-
-### What You'll Find at HQ
-
-- **Architecture Decision Records (ADRs)**: Every major technical decision documented with context, alternatives considered, and rationale
-- **Build in Public Progress**: Real-time visibility into what we're building and why
-- **Technical Documentation**: Deep dives into system architecture, design patterns, and implementation details
-
-We believe that if knowledge systems should demand traceability and verification, then the tools that enable those systems should be built with the same principles. Our HQ is not just documentation—it's a living demonstration of the epistemic protocols we advocate.
-
 ## Applications
 
-| Application              | URL                                              | Purpose                                                                |
-| ------------------------ | ------------------------------------------------ | ---------------------------------------------------------------------- |
-| **Main App**             | [coscientist.app](https://coscientist.app)       | The Dialectical Graph interface - explore knowledge with sliding panes |
-| **HQ (Development Hub)** | [hq.coscientist.app](https://hq.coscientist.app) | Architecture decisions, technical docs, build-in-public progress       |
+| Application  | URL                                        | Purpose                                                                |
+| ------------ | ------------------------------------------ | ---------------------------------------------------------------------- |
+| **Main App** | [coscientist.app](https://coscientist.app) | The Dialectical Graph interface - explore knowledge with sliding panes |
 
 ## Services
 
 | Service            | Link                                                                          | Purpose                     |
 | ------------------ | ----------------------------------------------------------------------------- | --------------------------- |
 | Vercel             | [Control Panel](https://vercel.com/coscientist)                               | Infrastructure & Deployment |
-| Convex             | [Control Panel](https://dashboard.convex.dev)                                 | Database & Realtime         |
-| Resend             | [Control Panel](https://resend.com/emails)                                    | Email                       |
 | PostHog            | [Control Panel](https://us.posthog.com/project/290906)                        | Analytics                   |
 | Greptile           | [Control Panel](https://app.greptile.com/)                                    | AI Code Search              |
 | Cubic              | [Control Panel](https://www.cubic.dev/dashboard?repo=1132185124)              | AI Code Review              |

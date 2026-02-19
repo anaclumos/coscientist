@@ -9,10 +9,8 @@
   "scripts": {
     "dev": "turbo dev",
     "dev:web": "turbo dev --filter=@coscientist/web",
-    "dev:hq": "turbo dev --filter=@coscientist/hq",
     "build": "turbo build",
     "build:web": "turbo build --filter=@coscientist/web",
-    "build:hq": "turbo build --filter=@coscientist/hq",
     "check": "bun x ultracite@latest check",
     "lint": "bun x ultracite@latest fix",
     "format": "bun x ultracite@latest fix",

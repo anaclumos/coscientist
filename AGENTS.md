@@ -29,67 +29,6 @@ evokes stacked monoliths receding into depth.
 4. **Duplicate allowed** - Clicking an existing note appends it again
 5. **URL-synced state** - Stack state persists in `?stack=a,b,c&focus=N` format
 
-## Work Logs (MANDATORY)
-
-After completing any work, AI agents **MUST** create a work log entry in HQ, in both English and Korean.
-
-### Location
-
-`apps/hq/content/docs/logs/YYYYMMDD.mdx`
-
-Check the current day with terminal command.
-
-**IMPORTANT**: Each day should have **exactly ONE log entry per language**. If you work on multiple tasks in a single day, consolidate all work into a single file with multiple sections. Read other Work Logs for styles, and match them. If you find discrepancy in English and Korean, raise the issue to the developer. If language entry is missing, create it.
-
-### Format
-
-```mdx
----
-title: "YYYY-MM-DD"
-description: "Brief summary of work done"
----
-
-# Work Log: YYYY-MM-DD
-
-## [Feature/Task Name]
-
-**Scope**: `apps/web` or relevant path
-
-### Changes Made
-
-| File           | Change                |
-| -------------- | --------------------- |
-| `path/to/file` | Description of change |
-
-### Technical Decisions
-
-1. **Decision**: Rationale
-
-### Verification
-
-- TypeScript: Pass/Fail
-- Build: Pass/Fail
-- Tests: Pass/Fail
-
-### Next Steps
-
-Any follow-up actions required.
-```
-
-### When to Log
-
-- New feature implementations
-- Significant refactors
-- Integration of new libraries/services
-- Architecture changes
-- Bug fixes with non-trivial investigation
-
-### When NOT to Log
-
-- Trivial typo fixes
-- Single-line config changes
-- Documentation-only updates (unless significant)
-
 ## Tech Stack
 
 | Layer         | Choice                            | Why                                                              |
@@ -102,10 +41,7 @@ Any follow-up actions required.
 | Animation     | motion/react                      | Performant springs, AnimatePresence, layout                      |
 | Font          | Faculty Glyphic                   | Distinctive serif with personality                               |
 | Icons         | Hugeicons (core-free)             | Unified icon set across UI surfaces                              |
-| Authentication| Better Auth                       | Self-hosted, database sessions, organization support             |
-| Database      | Drizzle ORM + PlanetScale         | Type-safe ORM with PlanetScale (Postgres)                        |
-| AI Agents     | Mastra                            | TypeScript-first agent framework with workflows, tools, RAG, MCP |
-| Workflows     | Vercel Workflow (WDK)             | Durable, resumable long-running tasks with `"use workflow"`      |
+
 | Hosting       | Vercel                            | Edge-optimized, seamless Next.js integration                     |
 | Markdown      | gray-matter + remark + remark-gfm | Frontmatter + GFM support                                        |
 
@@ -230,17 +166,9 @@ src/
 │   └── ui/                  # COSS/UI components
 ├── lib/
 │   ├── animations.ts        # Spring configs
-│   ├── auth.ts              # Better Auth server config
-│   ├── auth-client.ts       # Better Auth React client
-│   ├── db.ts                # Drizzle client
 │   └── types.ts             # Note, BacklinkInfo
-├── hooks/
-│   └── use-reduced-motion.ts
-└── mastra/
-    ├── agents/              # Agent definitions with instructions, models, tools
-    ├── tools/               # Reusable tools (API calls, database queries)
-    ├── workflows/           # Multi-step workflow definitions
-    └── index.ts             # Mastra configuration and registration
+└── hooks/
+    └── use-reduced-motion.ts
 ```
 
 ### Key Patterns
@@ -277,180 +205,6 @@ import { cn } from "@/lib/utils";
 import { Button } from "./ui/button";
 import { cn } from "../../lib/utils";
 ```
-
-## Authentication (Better Auth)
-
-Better Auth provides self-hosted authentication with database sessions and organization support.
-
-### Server Configuration
-
-```ts
-// src/lib/auth.ts
-import { betterAuth } from "better-auth";
-import { drizzleAdapter } from "better-auth/adapters/drizzle";
-import { db } from "@/lib/db";
-
-export const auth = betterAuth({
-  database: drizzleAdapter(db, { provider: "pg" }),
-  emailAndPassword: { enabled: true },
-  socialProviders: {
-    google: {
-      clientId: process.env.GOOGLE_CLIENT_ID!,
-      clientSecret: process.env.GOOGLE_CLIENT_SECRET!,
-    },
-    github: {
-      clientId: process.env.GITHUB_CLIENT_ID!,
-      clientSecret: process.env.GITHUB_CLIENT_SECRET!,
-    },
-  },
-  plugins: [
-    organization({ allowUserToCreateOrganization: true }),
-    nextCookies(),
-  ],
-});
-```
-
-### Client Usage
-
-```tsx
-// src/lib/auth-client.ts
-import { createAuthClient } from "better-auth/react";
-import { organizationClient } from "better-auth/client/plugins";
-
-export const authClient = createAuthClient({
-  baseURL: process.env.NEXT_PUBLIC_APP_URL,
-  plugins: [organizationClient()],
-});
-
-export const { signIn, signUp, signOut, useSession } = authClient;
-```
-
-## Database (Drizzle ORM)
-
-Drizzle ORM provides type-safe database access for PlanetScale Postgres.
-
-### Schema Definition
-
-```ts
-// src/lib/db/schema.ts
-import { pgTable, text, timestamp, boolean } from "drizzle-orm/pg-core";
-
-export const notes = pgTable("notes", {
-  id: text("id").primaryKey(),
-  slug: text("slug").notNull(),
-  title: text("title").notNull(),
-  content: text("content").notNull(),
-  locale: text("locale").notNull(),
-  createdAt: timestamp("created_at").defaultNow(),
-});
-```
-
-### Query Usage
-
-```ts
-// src/lib/db.ts
-import { drizzle } from "drizzle-orm/planetscale-serverless";
-import { connect } from "@planetscale/database";
-import * as schema from "./db/schema";
-
-const connection = connect({ url: process.env.DATABASE_URL });
-export const db = drizzle(connection, { schema });
-```
-
-## Mastra (AI Agent System)
-
-Mastra is the TypeScript-first AI framework for agents, workflows, and tools.
-
-### Agent Definition
-
-```ts
-// src/mastra/agents/researcher.ts
-import { Agent } from "@mastra/core";
-
-export const researcherAgent = new Agent({
-  name: "researcher",
-  instructions: `You are a research assistant that helps find and synthesize information.
-    Always cite sources. Be concise.`,
-  model: {
-    provider: "OPEN_AI",
-    name: "gpt-4o",
-  },
-  tools: [webSearchTool, noteQueryTool],
-});
-```
-
-### Tool Definition
-
-```ts
-// src/mastra/tools/web-search.ts
-import { createTool } from "@mastra/core";
-import { z } from "zod";
-
-export const webSearchTool = createTool({
-  id: "web-search",
-  description: "Search the web for information",
-  inputSchema: z.object({
-    query: z.string().describe("Search query"),
-  }),
-  execute: async ({ context }) => {
-    // Implementation
-  },
-});
-```
-
-### Mastra Configuration
-
-```ts
-// src/mastra/index.ts
-import { Mastra } from "@mastra/core";
-import { researcherAgent } from "./agents/researcher";
-import { webSearchTool } from "./tools/web-search";
-
-export const mastra = new Mastra({
-  agents: { researcher: researcherAgent },
-  tools: { webSearch: webSearchTool },
-});
-```
-
-## Vercel Workflow (Durable Tasks)
-
-Vercel Workflow (WDK) enables long-running, resumable tasks.
-
-### Workflow Definition
-
-```ts
-// src/app/api/workflows/translate/route.ts
-export async function translateNote(noteId: string) {
-  "use workflow";
-
-  const note = await fetchNote(noteId);
-  const translations = await translateToAllLocales(note);
-  await saveTranslations(translations);
-
-  return { success: true, count: translations.length };
-}
-```
-
-### Step Definition
-
-```ts
-async function translateToAllLocales(note: Note) {
-  "use step";
-
-  // This step is automatically retried on failure
-  // and persisted for durability
-  const locales = ["ja", "ko", "zh-CN", "es", "fr"];
-  return Promise.all(locales.map((l) => translateTo(note, l)));
-}
-```
-
-### Key Concepts
-
-| Directive        | Purpose                                      |
-| ---------------- | -------------------------------------------- |
-| `"use workflow"` | Marks function as durable (survives crashes) |
-| `"use step"`     | Marks unit of work (auto-retry, persistence) |
-| `sleep()`        | Pause without holding compute, resume later  |
 
 ## UI Constraints
 
