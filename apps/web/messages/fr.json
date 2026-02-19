@@ -106,12 +106,6 @@
         "teams": "Équipes qui Ont Besoin de Parcours de Connaissances Reproductibles"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Transparence Radicale",
-      "heading": "Nous Construisons en Public",
-      "description": "Chaque décision d’architecture, chaque compromis et chaque choix technique est documenté et consigné. Si les systèmes de connaissance exigent la traçabilité, les outils qui la permettent doivent être construits de la même manière.",
-      "visitHQ": "Visiter Notre HQ"
-    },
     "cta": {
       "heading": "L’Encyclopédie Galactique d’Asimov Était une Fiction.\nMais Nous la Construisons dans la Réalité.",
       "readManifesto": "Lire le Manifeste",

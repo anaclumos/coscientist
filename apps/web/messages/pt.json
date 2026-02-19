@@ -106,12 +106,6 @@
         "teams": "Equipes que Precisam de Caminhos de Conhecimento Reprodutíveis"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Transparência Radical",
-      "heading": "Construímos em Público",
-      "description": "Cada decisão de arquitetura, cada trade-off e cada escolha técnica é documentada e registrada. Se sistemas de conhecimento exigem rastreabilidade, as ferramentas que a possibilitam devem ser construídas da mesma forma.",
-      "visitHQ": "Visite Nosso HQ"
-    },
     "cta": {
       "heading": "A Enciclopédia Galáctica de Asimov Era Ficção.\nMas Estamos Construindo-a na Realidade.",
       "readManifesto": "Ler o Manifesto",

@@ -106,12 +106,6 @@
         "teams": "Teams That Need Reproducible Knowledge Paths"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Radical Transparency",
-      "heading": "We Build in Public",
-      "description": "Every architecture decision, trade-off, and technical choice is documented and recorded. If knowledge systems demand traceability, the tools that enable it should be built the same way.",
-      "visitHQ": "Visit Our HQ"
-    },
     "cta": {
       "heading": "Asimov's Encyclopedia Galactica Was Fiction.\nBut We're Building It in Reality.",
       "readManifesto": "Read the Manifesto",

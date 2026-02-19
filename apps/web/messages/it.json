@@ -106,12 +106,6 @@
         "teams": "Team che Necessitano Percorsi di Conoscenza Riproducibili"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Trasparenza Radicale",
-      "heading": "Costruiamo in Pubblico",
-      "description": "Ogni decisione architetturale, ogni compromesso e ogni scelta tecnica è documentata e registrata. Se i sistemi di conoscenza richiedono tracciabilità, gli strumenti che la rendono possibile dovrebbero essere costruiti allo stesso modo.",
-      "visitHQ": "Visita il Nostro HQ"
-    },
     "cta": {
       "heading": "L'Enciclopedia Galattica di Asimov Era Finzione.\nMa La Stiamo Costruendo nella Realtà.",
       "readManifesto": "Leggi il Manifesto",

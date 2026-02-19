@@ -106,12 +106,6 @@
         "teams": "Các nhóm Cần Lộ trình Tri thức Có thể Tái tạo"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Minh bạch Triệt để",
-      "heading": "Chúng tôi Xây dựng Công khai",
-      "description": "Mọi quyết định kiến trúc, mọi đánh đổi và mọi lựa chọn kỹ thuật đều được ghi chép và lưu lại. Nếu hệ thống tri thức đòi hỏi khả năng truy vết, các công cụ giúp điều đó thành hiện thực cũng nên được xây dựng theo cách tương tự.",
-      "visitHQ": "Ghé thăm HQ của chúng tôi"
-    },
     "cta": {
       "heading": "Bách khoa toàn thư Galactica của Asimov là hư cấu.\nNhưng Chúng Tôi Đang Xây Dựng Nó Trong Thực Tế.",
       "readManifesto": "Đọc Tuyên ngôn",

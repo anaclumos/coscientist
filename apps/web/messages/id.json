@@ -106,12 +106,6 @@
         "teams": "Tim yang Membutuhkan Jalur Pengetahuan yang Dapat Direproduksi"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Transparansi Radikal",
-      "heading": "Kami Membangun Secara Terbuka",
-      "description": "Setiap keputusan arsitektur, setiap trade-off, dan setiap pilihan teknis didokumentasikan dan dicatat. Jika sistem pengetahuan menuntut keterlacakan, alat yang memungkinkannya harus dibangun dengan cara yang sama.",
-      "visitHQ": "Kunjungi HQ Kami"
-    },
     "cta": {
       "heading": "Encyclopedia Galactica karya Asimov adalah fiksi.\nNamun Kami Membangunnya di Dunia Nyata.",
       "readManifesto": "Baca Manifesto",

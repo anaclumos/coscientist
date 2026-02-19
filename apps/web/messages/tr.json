@@ -106,12 +106,6 @@
         "teams": "Yeniden Üretilebilir Bilgi Yollarına İhtiyaç Duyan Ekipler"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Radikal Şeffaflık",
-      "heading": "Kamuya Açık İnşa Ediyoruz",
-      "description": "Her mimari karar, her taviz ve her teknik seçim belgelenir ve kayda geçer. Bilgi sistemleri izlenebilirlik talep ediyorsa, bunu mümkün kılan araçlar da aynı şekilde inşa edilmelidir.",
-      "visitHQ": "HQ'muzu Ziyaret Et"
-    },
     "cta": {
       "heading": "Asimov'un Galaktik Ansiklopedisi Kurguydu.\nAma Onu Gerçekte İnşa Ediyoruz.",
       "readManifesto": "Manifestoyu Oku",

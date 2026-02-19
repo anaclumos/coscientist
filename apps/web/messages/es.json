@@ -106,12 +106,6 @@
         "teams": "Equipos que Necesitan Rutas de Conocimiento Reproducibles"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Transparencia Radical",
-      "heading": "Construimos en Público",
-      "description": "Cada decisión arquitectónica, cada trade-off y cada elección técnica se documenta y se registra. Si los sistemas de conocimiento exigen trazabilidad, las herramientas que la permiten deben construirse de la misma manera.",
-      "visitHQ": "Visita Nuestro HQ"
-    },
     "cta": {
       "heading": "La Enciclopedia Galáctica de Asimov Fue Ficción.\nPero La Estamos Construyendo en la Realidad.",
       "readManifesto": "Leer el Manifiesto",

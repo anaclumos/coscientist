@@ -1,4 +1,3 @@
-import { BuildInPublic } from "@/components/landing/build-in-public"
 import { CTA } from "@/components/landing/cta"
 import { Features } from "@/components/landing/features"
 import { Footer } from "@/components/landing/footer"
@@ -13,7 +12,6 @@ export default function LandingPage() {
       <Features />
       <Pipeline />
       <ForWho />
-      <BuildInPublic />
       <CTA />
       <Footer />
     </main>

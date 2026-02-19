@@ -106,12 +106,6 @@
         "teams": "Teams, Die Reproduzierbare Wissenspfade Brauchen"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Radikale Transparenz",
-      "heading": "Wir Bauen Öffentlich",
-      "description": "Jede Architekturentscheidung, jeder Trade-off und jede technische Wahl wird dokumentiert und festgehalten. Wenn Wissenssysteme Nachvollziehbarkeit verlangen, sollten die Werkzeuge, die das ermöglichen, genauso gebaut sein.",
-      "visitHQ": "Unsere HQ Besuchen"
-    },
     "cta": {
       "heading": "Asimovs Enzyklopädie Galactica War Fiktion.\nAber Wir Bauen Sie in der Realität.",
       "readManifesto": "Manifest Lesen",

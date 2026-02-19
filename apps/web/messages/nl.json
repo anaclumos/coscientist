@@ -106,12 +106,6 @@
         "teams": "Teams die Reproduceerbare Kennispaden Nodig Hebben"
       }
     },
-    "buildInPublic": {
-      "eyebrow": "Radicale Transparantie",
-      "heading": "We Bouwen in het Openbaar",
-      "description": "Elke architectuurbeslissing, elke trade-off en elke technische keuze wordt gedocumenteerd en vastgelegd. Als kennissystemen traceerbaarheid eisen, moeten de tools die dit mogelijk maken op dezelfde manier worden gebouwd.",
-      "visitHQ": "Bezoek Onze HQ"
-    },
     "cta": {
       "heading": "Asimovs Encyclopedia Galactica Was Fictie.\nMaar We Bouwen het in de Realiteit.",
       "readManifesto": "Lees het Manifest",
